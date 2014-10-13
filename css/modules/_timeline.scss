@@ -7,11 +7,15 @@
 	padding: $double-spacing-unit $half-spacing-unit $base-spacing-unit;
 }
 
+.timeline__period {
+	margin-top: $base-spacing-unit;
+}
+
 .timeline__title {
 	font-size: $delta;
 }
 
-.timeline__period {
+.timeline__period-topic {
 	font-size: $epsilon;
 	border-top: 2px solid rgba(0,0,0,.1);
 	padding-top: $base-spacing-unit;
@@ -22,7 +26,6 @@
 	font-style: italic;
 	font-family: serif;
 	font-size: $milli;
-	padding-top: $half-spacing-unit;
 	letter-spacing: -0.3px;
 }
 
@@ -41,4 +44,8 @@
 			color: $base;
 		}
 	}
+}
+
+.timeline__image {
+	padding-top: $base-spacing-unit;
 }

@@ -580,6 +580,15 @@ i {
   padding: 0;
   list-style-type: none; }
 
+.timeline__period {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .timeline__period:last-child {
+    margin-right: 0; }
+
 .timeline__title {
   float: left;
   display: block;
@@ -589,13 +598,13 @@ i {
   .timeline__title:last-child {
     margin-right: 0; }
 
-.timeline__period {
+.timeline__period-topic {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .timeline__period:last-child {
+  .timeline__period-topic:last-child {
     margin-right: 0; }
 
 .timeline__period-date {
@@ -614,6 +623,15 @@ i {
   width: 100%;
   margin-right: 0; }
   .timline__period-list:last-child {
+    margin-right: 0; }
+
+.timeline__image {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .timeline__image:last-child {
     margin-right: 0; }
 
 .typography__family {
@@ -678,10 +696,13 @@ i {
 .timeline {
   padding: 44.8px 11.2px 22.4px; }
 
+.timeline__period {
+  margin-top: 22.4px; }
+
 .timeline__title {
   font-size: 23.04px; }
 
-.timeline__period {
+.timeline__period-topic {
   font-size: 19.2px;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   padding-top: 22.4px;
@@ -691,7 +712,6 @@ i {
   font-style: italic;
   font-family: serif;
   font-size: 13.33333px;
-  padding-top: 11.2px;
   letter-spacing: -0.3px; }
 
 .timline__period-list {
@@ -703,6 +723,9 @@ i {
     text-align: center; }
     .timline__period-list dd a:hover {
       color: #0b0c0c; }
+
+.timeline__image {
+  padding-top: 22.4px; }
 
 .typography {
   padding: 44.8px 11.2px 22.4px;
@@ -722,6 +745,26 @@ i {
 
 .proxima h1, .proxima h2, .proxima h3, .proxima p {
   font-family: "proxima-nova", sans-serif; }
+
+.proxima h1, .proxima h2, .proxima h3, .proxima p {
+  font-weight: 700; }
+.proxima p {
+  font-weight: 300; }
+
+.myriad h1, .myriad h2, .myriad h3, .myriad p {
+  font-weight: 700; }
+.myriad p {
+  font-weight: 400; }
+
+.futura h1, .futura h2, .futura h3, .futura p {
+  font-weight: 700; }
+.futura p {
+  font-weight: 400; }
+
+.aktiv h1, .aktiv h2, .aktiv h3, .aktiv p {
+  font-weight: 800; }
+.aktiv p {
+  font-weight: 300; }
 
 .typography__family {
   color: #85cdc2; }

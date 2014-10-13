@@ -15,24 +15,44 @@
 .proxima {
 	h1,h2, h3, p {
 		@extend %proxima;
+		font-weight: 700;
+	}
+
+	p {
+		font-weight: 300;
 	}
 }
 
 .myriad {
 	h1,h2, h3, p {
 		@extend %myriad;
+		font-weight: 700;
+	}
+
+	p {
+		font-weight: 400;
 	}
 }
 
 .futura {
 	h1,h2, h3, p {
 		@extend %futura;
+		font-weight: 700;
+	}
+
+	p {
+		font-weight: 400;
 	}
 }
 
 .aktiv {
 	h1,h2, h3, p {
 		@extend %aktiv;
+		font-weight: 800;
+	}
+
+	p {
+		font-weight: 300;
 	}
 }
 

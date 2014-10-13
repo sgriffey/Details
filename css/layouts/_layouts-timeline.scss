@@ -2,12 +2,17 @@
 	@extend %narrow-container;
 }
 
+.timeline__period{
+	@include span-columns(12);
+	@include omega();
+}
+
 .timeline__title {
 	@include span-columns(12);
 	@include omega();
 }
 
-.timeline__period {
+.timeline__period-topic {
 	@include span-columns(12);
 	@include omega();
 }
@@ -18,6 +23,11 @@
 }
 
 .timline__period-list {
+	@include span-columns(12);
+	@include omega();
+}
+
+.timeline__image {
 	@include span-columns(12);
 	@include omega();
 }
