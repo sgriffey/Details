@@ -120,3 +120,14 @@ b {
 i {
     font-style: italic;
 }
+
+.letterhead {
+    position: relative;
+}
+
+.signature {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include vp(transform, translate(-50%,-50%));
+}
