@@ -1,0 +1,14 @@
+%full-container {
+	@include outer-container;
+	max-width: 91.125rem; //1460px % 16px
+}
+
+%narrow-container {
+	@include outer-container;
+	max-width: 50rem; //800px % 16px
+}
+
+%wrapper {
+	@include outer-container;
+	max-width: 32.8rem; //590px
+}

@@ -1,0 +1,71 @@
+/* Colors */
+
+$base: #0B0C0C; //Black-blue
+$teal: #85CDC2; // teal
+$orange: #FF885A; // blood-orange
+$yellow: #F6D262; // yellow
+$white: #fff; //white
+$elephant-tusk: #F7F8FA; //blue-ish grey
+
+/**
+ * Typography
+ */
+
+$base-font-size:    16px;
+$base-line-height:  1.4 * $base-font-size;
+$base-paragraph:  1.2 * $base-font-size;
+
+$base-spacing-unit: $base-line-height;
+$quarter-spacing-unit: $base-spacing-unit / 4;
+$half-spacing-unit: $base-spacing-unit / 2;
+$line-height-ratio: $base-line-height / $base-font-size;
+$double-spacing-unit: $base-line-height * 2;
+$triple-spacing-unit: $base-line-height * 3;
+
+/**
+ * Font-family's
+ */
+$base-font-family: "chaparral-pro", sans-serif;
+$base-font-light: 300;
+$base-font-heavy: 400;
+
+/**
+ * Mobile First. These are the Breaks:
+ */
+ $tablet-min: 44em;
+ $tablet-max: 69.9em;
+ $desktop-min: 82em; //1312px % 16px
+ $video-break: 70.1875rem; //1123px % 16px
+
+/**
+ * Font-sizes (in pixels). Refer to relevant sections for their implementations.
+ */
+
+$alpha:           modular-scale($base-font-size, 5, 1.2); // .alpha
+$beta:           modular-scale($base-font-size, 4, 1.2); // .beta
+$gamma:           modular-scale($base-font-size, 3, 1.2); // .gamma
+$delta:           modular-scale($base-font-size, 2, 1.2); // .delta
+$epsilon:           modular-scale($base-font-size, 1, 1.2); // .epsilon
+$zeta:           modular-scale($base-font-size, 0, 1.2); // .zeta
+
+$milli:        modular-scale($base-font-size, -1, 1.2);
+$micro:        modular-scale($base-font-size, -2, 1.2);
+$nano:        	modular-scale($base-font-size, -3, 1.2);
+$pico:			modular-scale($base-font-size, -4, 1.2);
+$femto:			modular-scale($base-font-size, -5, 1.2);
+$atto:			modular-scale($base-font-size, -6, 1.2);
+$zepto:			modular-scale($base-font-size, -7, 1.2);
+$yocto:			modular-scale($base-font-size, -8, 1.2);
+
+
+/**
+ * Grid
+ */
+
+$column: golden-ratio(1rem, 3); // Column width
+$gutter: golden-ratio(1rem, 1); // Gutter between each two columns
+$grid-columns: 12; // Total number of columns in the grid
+$max-width: 91.125rem;; // Max-width of the outer container
+$border-box-sizing: true; // Makes all elements have a border-box layout
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+$default-layout-direction: LTR;

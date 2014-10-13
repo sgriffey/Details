@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html{
+    font:#{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+    font-weight: $base-font-light;
+    overflow-y:scroll;
+    height:100%;
+    color: $base;
+    background-color: $white;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body,
+main {
+    height: 100%;
+}
+
+/**
+ * Where `margin-bottom` is concerned, this value will be the same as the
+ * base line-height. This allows us to keep a consistent vertical rhythm.
+ * As per: csswizardry.com/2012/06/single-direction-margin-declarations
+ */
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dl,
+blockquote,p,
+table,
+fieldset,figure,label,
+pre,textarea,input,
+%sass-margin-bottom {
+    margin-bottom:$base-spacing-unit;
+    margin-bottom:($base-spacing-unit / $base-font-size)*1rem;
+}
+
+a {
+    text-decoration: none;
+    color: $base;
+}
+
+figcaption {
+    @include font-size($micro);
+    color: rgba($base, .4);
+}
+
+/**
+ * `hr` elements only take up a few pixels, so we need to give them special
+ * treatment regarding vertical rhythm.
+ */
+hr{
+    margin-bottom:$base-spacing-unit - 2px;
+    margin-bottom:(($base-spacing-unit - 2px) / $base-font-size)*1rem;
+}
+
+h1 {
+    @extend %sans-serif-heavy;
+    @include font-size($alpha);
+}
+
+h2 {
+    @extend %sans-serif-heavy;
+    @include font-size($beta);
+}
+
+h3 {
+    @extend %sans-serif-heavy;
+    @include font-size($gamma);
+}
+
+h4 {
+    @extend %sans-serif-heavy;
+    @include font-size($delta);
+}
+
+h5 {
+    @extend %sans-serif-heavy;
+    @include font-size($epsilon);
+}
+
+h6 {
+    @extend %sans-serif-heavy;
+    @include font-size($zeta);
+}
+
+label {
+    @extend %sans-serif-heavy;
+    @include font-size($zeta);
+}
+
+cite {
+    @extend %sans-serif;
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+strong {
+    font-weight: $base-font-heavy;
+    display: block;
+}
+
+b {
+    font-weight: $base-font-heavy;
+    color: $base;
+}
+
+i {
+    font-style: italic;
+}
