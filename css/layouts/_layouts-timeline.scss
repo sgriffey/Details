@@ -1,0 +1,23 @@
+.timeline {
+	@extend %narrow-container;
+}
+
+.timeline__title {
+	@include span-columns(12);
+	@include omega();
+}
+
+.timeline__period {
+	@include span-columns(12);
+	@include omega();
+}
+
+.timeline__period-date {
+	@include span-columns(12);
+	@include omega();
+}
+
+.timline__period-list {
+	@include span-columns(12);
+	@include omega();
+}

@@ -439,6 +439,26 @@ table {
 /**
  * Grid
  */
+.timeline, .typography {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem; }
+  .timeline:after, .typography:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.timeline {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32.8rem; }
+  .timeline:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 /**
  * Create a fully formed type style (sizing and vertical rhythm) by passing in a
  * single value, e.g.:
@@ -457,8 +477,7 @@ table {
   box-sizing: border-box; }
 
 html {
-  font: 1em/1.4 "chaparral-pro", sans-serif;
-  font-weight: 300;
+  font: 1em/1.4 sans-serif;
   overflow-y: scroll;
   height: 100%;
   color: #0b0c0c;
@@ -488,7 +507,7 @@ pre, textarea, input {
 
 a {
   text-decoration: none;
-  color: #0b0c0c; }
+  color: inherit; }
 
 figcaption {
   font-size: 11.11111px;
@@ -555,3 +574,170 @@ b {
 
 i {
   font-style: italic; }
+
+.timline__period-list, .timline__period-list dd {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.timeline__title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .timeline__title:last-child {
+    margin-right: 0; }
+
+.timeline__period {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .timeline__period:last-child {
+    margin-right: 0; }
+
+.timeline__period-date {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .timeline__period-date:last-child {
+    margin-right: 0; }
+
+.timline__period-list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .timline__period-list:last-child {
+    margin-right: 0; }
+
+.typography__family {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .typography__family:last-child {
+    margin-right: 0; }
+
+.typography__sub-header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .typography__sub-header:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 44em) {
+    .typography__sub-header {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .typography__sub-header:last-child {
+        margin-right: 0; } }
+
+.typography__copy {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .typography__copy:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 44em) {
+    .typography__copy {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .typography__copy:last-child {
+        margin-right: 0; } }
+
+.typography__caps {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .typography__caps:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 44em) {
+    .typography__caps {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .typography__caps:last-child {
+        margin-right: 0; } }
+
+.teal {
+  background: #85cdc2; }
+
+.timeline {
+  padding: 44.8px 11.2px 22.4px; }
+
+.timeline__title {
+  font-size: 23.04px; }
+
+.timeline__period {
+  font-size: 19.2px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding-top: 22.4px;
+  margin-bottom: 0; }
+
+.timeline__period-date {
+  font-style: italic;
+  font-family: serif;
+  font-size: 13.33333px;
+  padding-top: 11.2px;
+  letter-spacing: -0.3px; }
+
+.timline__period-list {
+  padding-top: 22.4px; }
+  .timline__period-list dd {
+    margin-bottom: 11.2px;
+    color: white;
+    font-weight: bold;
+    text-align: center; }
+    .timline__period-list dd a:hover {
+      color: #0b0c0c; }
+
+.typography {
+  padding: 44.8px 11.2px 22.4px;
+  border-bottom: 2px solid #f7f8fa; }
+
+.typography:last-child {
+  margin-bottom: 67.2px; }
+
+.myriad h1, .myriad h2, .myriad h3, .myriad p {
+  font-family: "myriad-pro", sans-serif; }
+
+.futura h1, .futura h2, .futura h3, .futura p {
+  font-family: "futura-pt", sans-serif; }
+
+.aktiv h1, .aktiv h2, .aktiv h3, .aktiv p {
+  font-family: "aktiv-grotesk-std", sans-serif; }
+
+.proxima h1, .proxima h2, .proxima h3, .proxima p {
+  font-family: "proxima-nova", sans-serif; }
+
+.typography__family {
+  color: #85cdc2; }
+
+.typography__header {
+  margin-bottom: 11.2px; }
+
+.typography__sub-header {
+  font-size: 23.04px;
+  line-height: 1; }
+
+.typography__caps {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0; }
+
+.typography__copy {
+  margin-top: 0;
+  margin-bottom: 0; }

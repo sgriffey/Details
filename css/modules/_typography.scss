@@ -1,0 +1,62 @@
+.typography {
+	padding: $double-spacing-unit $half-spacing-unit $base-spacing-unit;
+	border-bottom: 2px solid $elephant-tusk;
+}
+
+.typography:last-child {
+	margin-bottom: $triple-spacing-unit;
+}
+
+%myriad {font-family: $myriad; }
+%futura { font-family: $futura; }
+%aktiv { font-family: $aktiv; }
+%proxima { font-family: $proxima; }
+
+.proxima {
+	h1,h2, h3, p {
+		@extend %proxima;
+	}
+}
+
+.myriad {
+	h1,h2, h3, p {
+		@extend %myriad;
+	}
+}
+
+.futura {
+	h1,h2, h3, p {
+		@extend %futura;
+	}
+}
+
+.aktiv {
+	h1,h2, h3, p {
+		@extend %aktiv;
+	}
+}
+
+.typography__family {
+	color: $teal;
+}
+
+.typography__header {
+	margin-bottom: $half-spacing-unit;
+}
+
+.typography__sub-header {
+	font-size: $delta;
+	line-height: 1;
+}
+
+.typography__caps {
+	font-size: $zeta;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.typography__copy {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+

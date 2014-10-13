@@ -11,6 +11,13 @@ $elephant-tusk: #F7F8FA; //blue-ish grey
  * Typography
  */
 
+//Initial Samples
+$myriad: "myriad-pro", sans-serif;
+$futura: "futura-pt",sans-serif;
+$aktiv: "aktiv-grotesk-std",sans-serif;
+$proxima: "proxima-nova",sans-serif;
+
+
 $base-font-size:    16px;
 $base-line-height:  1.4 * $base-font-size;
 $base-paragraph:  1.2 * $base-font-size;
@@ -25,7 +32,7 @@ $triple-spacing-unit: $base-line-height * 3;
 /**
  * Font-family's
  */
-$base-font-family: "chaparral-pro", sans-serif;
+$base-font-family: sans-serif;
 $base-font-light: 300;
 $base-font-heavy: 400;
 

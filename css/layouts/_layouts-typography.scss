@@ -1,0 +1,31 @@
+.typography {
+	@extend %narrow-container;
+}
+
+.typography__family {
+	@include span-columns(12);
+}
+
+.typography__sub-header {
+	@include span-columns(12);
+
+	@include media(min-width $tablet-min, 12) {
+		@include span-columns(8);
+	}
+}
+
+.typography__copy {
+	@include span-columns(12);
+
+	@include media(min-width $tablet-min, 12) {
+		@include span-columns(8);
+	}
+}
+
+.typography__caps {
+	@include span-columns(12);
+	
+	@include media(min-width $tablet-min, 12) {
+		@include span-columns(8);
+	}
+}
