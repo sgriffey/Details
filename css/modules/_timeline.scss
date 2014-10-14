@@ -11,8 +11,13 @@
 	margin-top: $base-spacing-unit;
 }
 
+.timeline__period:last-child {
+	margin-bottom: $triple-spacing-unit;
+}
+
 .timeline__title {
 	font-size: $delta;
+	padding-top: $half-spacing-unit;
 }
 
 .timeline__period-topic {
@@ -38,7 +43,6 @@
 		margin-bottom: $half-spacing-unit;
 		color: $white;
 		font-weight: bold;
-		text-align: center;
 
 		a:hover {
 			color: $base;
