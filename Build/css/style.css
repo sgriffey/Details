@@ -717,13 +717,15 @@ i {
 
 .timeline__title {
   font-size: 23.04px;
-  padding-top: 11.2px; }
+  padding-top: 11.2px;
+  letter-spacing: -0.5px; }
 
 .timeline__period-topic {
   font-size: 19.2px;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   padding-top: 22.4px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  letter-spacing: -0.5px; }
 
 .timeline__period-date {
   font-style: italic;

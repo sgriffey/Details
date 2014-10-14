@@ -18,6 +18,7 @@
 .timeline__title {
 	font-size: $delta;
 	padding-top: $half-spacing-unit;
+	letter-spacing: -0.5px;
 }
 
 .timeline__period-topic {
@@ -25,6 +26,7 @@
 	border-top: 2px solid rgba(0,0,0,.1);
 	padding-top: $base-spacing-unit;
 	margin-bottom: 0;
+	letter-spacing: -0.5px;
 }
 
 .timeline__period-date {
