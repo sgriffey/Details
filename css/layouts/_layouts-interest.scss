@@ -1,0 +1,33 @@
+.interest {
+	@extend %narrow-container;
+}
+
+.interest__tagline {
+	@include span-columns(12);
+	@include omega();
+}
+
+.interest__form {
+	@extend %narrow-container;
+}
+
+.interest__form-field {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(3);
+		@include omega(4n);
+	}
+}
+
+.interest__form-field-label {
+	@include span-columns(12);
+	@include omega();
+}
+
+.interest__form-field-text {
+	@include span-columns(12);
+	@include omega();
+}
+

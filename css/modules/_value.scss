@@ -1,0 +1,35 @@
+.coop {
+	&::before {
+		content: '';
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		background: url('../../assets/coop.svg') center center no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+}
+
+.time {
+	&::before {
+		content: '';
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		background: url('../../assets/time.svg') center center no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+}
+
+.wholesale {
+	&::before {
+		content: '';
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		background: url('../../assets/wholesale.svg') center center no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+}

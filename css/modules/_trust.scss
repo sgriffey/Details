@@ -1,0 +1,25 @@
+.trust {
+	@extend %side-padding;
+}
+
+.trust__figure {
+	padding-top: 12.5rem; //200%16;
+	margin-bottom: 0;
+}
+
+.trust__tagline {
+	text-align: center;
+
+	&::before {
+		content: '';
+		display: block;
+		height: 4px;
+		background: $elephant-tusk;
+		width: 100%;
+		margin-bottom: $base-spacing-unit;
+	}
+}
+
+.trust__sub-heading {
+	text-align: center;
+}

@@ -1,11 +1,12 @@
 /* Colors */
 
 $base: #0B0C0C; //Black-blue
-$teal: #85CDC2; // teal
+$teal: #66C3B0; // teal
 $orange: #FF885A; // blood-orange
 $yellow: #F6D262; // yellow
 $white: #fff; //white
 $elephant-tusk: #F7F8FA; //blue-ish grey
+$blue: #5883ED; //facebook-toned blue
 
 /**
  * Typography
@@ -16,6 +17,9 @@ $myriad: "myriad-pro", sans-serif;
 $futura: "futura-pt",sans-serif;
 $aktiv: "aktiv-grotesk-std",sans-serif;
 $proxima: "proxima-nova",sans-serif;
+
+$base-weight-light: 400;
+$base-weight-heavy: 700;
 
 
 $base-font-size:    16px;
@@ -39,10 +43,10 @@ $base-font-heavy: 400;
 /**
  * Mobile First. These are the Breaks:
  */
- $tablet-min: 44em;
- $tablet-max: 69.9em;
- $desktop-min: 82em; //1312px % 16px
- $video-break: 70.1875rem; //1123px % 16px
+$bp-small : 24em;
+$bp-med : 46.8em;
+$bp-large : 50em;
+$bp-xl : 73em;
 
 /**
  * Font-sizes (in pixels). Refer to relevant sections for their implementations.

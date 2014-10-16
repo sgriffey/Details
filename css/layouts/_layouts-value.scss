@@ -1,0 +1,18 @@
+.value {
+	@extend %narrow-container;
+}
+
+.value__offering {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(4);
+		@include omega(3n);
+	}
+
+	h4,p {
+		@include span-columns(12);
+		@include omega();
+	}
+}

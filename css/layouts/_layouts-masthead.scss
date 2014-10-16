@@ -1,0 +1,11 @@
+.masthead {
+	@extend %narrow-container;
+}
+
+.masthead__logo {
+	@include span-columns(3)
+}
+
+.masthead__pages {
+	@include span-columns(9);
+}

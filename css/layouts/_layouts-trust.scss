@@ -1,0 +1,21 @@
+.trust {
+	@extend %narrow-container;
+}
+
+.trust__tagline {
+	@include span-columns(12);
+	@include omega();
+}
+
+.trust__sub-heading {
+	@include span-columns(12);
+	@include omega();
+}
+
+.trust__figure {
+	@extend %wrapper;
+}
+
+.trust__figure-image {
+	@include span-columns(12);
+}

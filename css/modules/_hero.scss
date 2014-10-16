@@ -1,0 +1,42 @@
+.hero {
+	background: $teal;
+	//background: url('http://cdn2.dropmark.com/72454/e60db4b16ad39f13571b0b0b4f5325f7aa7f9fc3/alr.jpg') center center no-repeat;
+	background-size: cover;
+
+	@include media(min-width $bp-med, 12) {
+		min-height: 35rem; //560px%16px
+	}
+}
+
+.prompt {
+	@extend %side-padding;
+}
+
+.prompt__tagline {
+	font-size: $alpha;
+	line-height: 1.4;
+	padding-top: $triple-spacing-unit;
+
+}
+
+.prompt__copy {
+	color: $white;
+	font-size: $delta;
+	line-height: 1.4;
+	margin-top: 0;
+}
+
+.prompt__button {
+	@extend %button;
+	@include vp(box-shadow, inset 0 0 0 2px rgba(0,0,0,0.2));
+	background: $yellow;
+	color: $base;
+	font-weight: $base-weight-heavy;
+	margin-bottom: $double-spacing-unit;
+	text-align: center;
+
+	&:hover {
+		cursor: pointer;
+		background: darken($yellow, 4%);
+	}
+}
