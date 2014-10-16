@@ -439,12 +439,14 @@ table {
 /**
  * Grid
  */
-.timeline, .typography, .masthead, .prompt, .interest, .interest__form, .value {
+.timeline, .typography, .masthead, .prompt, .interest, .interest__form, .value, .feature-list,
+.feature-glance {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 60rem; }
-  .timeline:after, .typography:after, .masthead:after, .prompt:after, .interest:after, .interest__form:after, .value:after {
+  .timeline:after, .typography:after, .masthead:after, .prompt:after, .interest:after, .interest__form:after, .value:after, .feature-list:after,
+  .feature-glance:after {
     content: "";
     display: table;
     clear: both; }
@@ -466,6 +468,15 @@ table {
   background-position: top;
   background-repeat: no-repeat;
   margin-top: 6.25rem; }
+  .accent-section::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to top, transparent 0%, transparent 50%, #e2e3e6 50%, #e2e3e6 100%);
+    background-size: 100% 1px;
+    background-position: top;
+    background-repeat: no-repeat; }
 
 /**
  * Create a fully formed type style (sizing and vertical rhythm) by passing in a
@@ -963,6 +974,72 @@ h1, h2, h3, h4, h5, h6, label {
   .value__offering-copy:last-child {
     margin-right: 0; }
 
+.feature__tagline {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .feature__tagline:last-child {
+    margin-right: 0; }
+
+.feature__offering {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .feature__offering:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .feature__offering {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .feature__offering:last-child {
+        margin-right: 0; }
+      .feature__offering:nth-child(2n) {
+        margin-right: 0; }
+      .feature__offering:nth-child(2n+1) {
+        clear: left; } }
+
+.feature__offering-benefit {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .feature__offering-benefit:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .feature__offering-benefit {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .feature__offering-benefit:last-child {
+        margin-right: 0; } }
+
+.feature__offering-copy {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .feature__offering-copy:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .feature__offering-copy {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .feature__offering-copy:last-child {
+        margin-right: 0; } }
+
 .teal {
   background: #66c3b0; }
 
@@ -1265,3 +1342,41 @@ h1, h2, h3, h4, h5, h6, label {
 .value__offering {
   padding: 5rem 11.2px 0;
   text-align: center; }
+
+.feature-glance {
+  padding-top: 5rem; }
+
+.feature__tagline {
+  font-size: 27.648px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 22.4px; }
+
+.feature__offering {
+  padding: 22.4px 67.2px 0; }
+
+.feature__offering-benefit {
+  line-height: 1.2;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-bottom: 0; }
+
+.money-feature::before, .cloud-feature::before, .secure-feature::before, .haggle-feature::before {
+  content: '';
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 11.2px; }
+
+.money-feature::before {
+  background: url(../assets/money.svg) center center no-repeat; }
+
+.cloud-feature::before {
+  background: url(../assets/cloud.svg) center center no-repeat; }
+
+.secure-feature::before {
+  background: url(../assets/secure.svg) center center no-repeat; }
+
+.haggle-feature::before {
+  background: url(../assets/haggle.svg) center center no-repeat; }

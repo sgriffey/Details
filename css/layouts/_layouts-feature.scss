@@ -1,0 +1,39 @@
+.feature-list,
+.feature-glance {
+	@extend %narrow-container;
+}
+
+.feature__tagline {
+	@include span-columns(12);
+	@include omega();
+}
+
+.feature__offering {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+}
+
+.feature__offering-benefit {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.feature__offering-copy {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}

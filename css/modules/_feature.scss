@@ -1,0 +1,64 @@
+.feature-glance {
+	padding-top: $ss-small;
+}
+
+.feature__tagline {
+	font-size: $gamma;
+	font-weight: $base-weight-light;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: $base-spacing-unit;
+}
+
+.feature__offering {
+	padding: $base-spacing-unit $triple-spacing-unit 0;
+}
+
+.feature__offering-benefit {
+	line-height: 1.2;
+	font-size: $zeta;
+	letter-spacing: 0;
+	margin-bottom: 0;
+}
+
+%feature-icon {
+	&::before {
+		content: '';
+		display: block;
+		height: 40px;
+		width: 40px;
+		margin-bottom: $half-spacing-unit;
+	}
+}
+
+.money-feature {
+	@extend %feature-icon;
+
+	&::before {
+		background: url('../../assets/money.svg') center center no-repeat;
+	}
+}
+
+.cloud-feature {
+	@extend %feature-icon;
+
+	&::before {
+		background: url('../../assets/cloud.svg') center center no-repeat;
+	}
+}
+
+.secure-feature {
+	@extend %feature-icon;
+
+	&::before {
+		background: url('../../assets/secure.svg') center center no-repeat;
+	}
+}
+
+.haggle-feature {
+	@extend %feature-icon;
+
+	&::before {
+		background: url('../../assets/haggle.svg') center center no-repeat;
+	}
+}

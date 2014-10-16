@@ -20,4 +20,15 @@
 	background-position: top;
 	background-repeat: no-repeat;
 	margin-top: $ss-med;
+
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		height:1px;
+		background-image: linear-gradient(to top, transparent 0%,transparent 50%,#E2E3E6 50%,#E2E3E6 100%);
+		background-size: 100% 1px;
+		background-position: top;
+		background-repeat: no-repeat;
+	}
 }
