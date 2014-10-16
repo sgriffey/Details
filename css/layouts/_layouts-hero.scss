@@ -7,7 +7,7 @@
 	@include omega();
 
 	@include media(min-width $bp-med, 12) {
-		@include span-columns(8 of 12);
+		@include span-columns(6 of 12);
 		@include omega();
 	}
 }
@@ -17,7 +17,7 @@
 	@include omega();
 
 	@include media(min-width $bp-med, 12) {
-		@include span-columns(8 of 8);
+		@include span-columns(6 of 6);
 		@include omega();
 	}
 }
@@ -27,7 +27,7 @@
 	@include omega();
 
 	@include media(min-width $bp-med, 12) {
-		@include span-columns(8 of 8);
+		@include span-columns(6 of 6);
 		@include omega();
 	}
 }
@@ -37,7 +37,7 @@
 	@include omega();
 
 	@include media(min-width $bp-med, 12) {
-		@include span-columns(4 of 8);
+		@include span-columns(4 of 6);
 		@include omega();
 	}
 }
