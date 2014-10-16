@@ -1,5 +1,5 @@
 .trust {
-	@extend %narrow-container;
+	@extend %wrapper;
 }
 
 .trust__tagline {
@@ -18,4 +18,16 @@
 
 .trust__figure-image {
 	@include span-columns(12);
+	@include omega();
+}
+
+.trust__copy {
+	@include span-columns(12);
+	@include omega();
+}
+
+.trust__button {
+	@include span-columns(6 of 12);
+	@include shift(3);
+	@include omega();
 }

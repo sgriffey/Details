@@ -18,6 +18,7 @@ html{
     -webkit-font-smoothing: antialiased;
     font-family: $futura;
     font-weight: $base-weight-light;
+    line-height: 1.4;
 }
 
 body {
@@ -66,37 +67,37 @@ hr{
 }
 
 h1 {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($alpha);
 }
 
 h2 {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($beta);
 }
 
 h3 {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($gamma);
 }
 
 h4 {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($delta);
 }
 
 h5 {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($epsilon);
 }
 
 h6 {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($zeta);
 }
 
 label {
-    @extend %sans-serif-heavy;
+    @extend %kerned-heading;
     @include font-size($zeta);
 }
 

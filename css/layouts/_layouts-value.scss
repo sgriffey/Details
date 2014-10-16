@@ -10,9 +10,14 @@
 		@include span-columns(4);
 		@include omega(3n);
 	}
+}
 
-	h4,p {
-		@include span-columns(12);
-		@include omega();
-	}
+.value__offering-benefit {
+	@include span-columns(12);
+	@include omega();
+}
+
+.value__offering-copy {
+	@include span-columns(12);
+	@include omega();
 }

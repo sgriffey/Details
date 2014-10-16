@@ -12,3 +12,12 @@
 	@include outer-container;
 	max-width: 32.8rem; //590px
 }
+
+.accent-section {
+	background: $off-white;
+	background-image: linear-gradient(to top, transparent 0%,transparent 50%,#E2E3E6 50%,#E2E3E6 100%);
+	background-size: 100% 1px;
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: $ss-med;
+}

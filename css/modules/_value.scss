@@ -1,3 +1,7 @@
+.value {
+	@extend %side-padding;
+}
+
 .coop {
 	&::before {
 		content: '';
@@ -32,4 +36,19 @@
 		height: 90px;
 		width: 90px;
 	}
+}
+
+.value__offering-benefit {
+	margin-bottom: 0;
+	padding-top: $base-spacing-unit;
+	line-height: 1;
+}
+
+.value__offering {
+	padding: $ss-small $half-spacing-unit 0;
+	text-align: center;
+}
+
+.value__offering-copy {
+
 }

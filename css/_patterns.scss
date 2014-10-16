@@ -17,15 +17,24 @@
 }
 
 %button-padding {
-    padding: 0.5em 2em 0.62em 2em;
+    padding: 0.8em 2em 0.7em 2em;
 }
 
 %button {
     @extend %button-padding;
-    @include font-size($epsilon);
+    font-size: $epsilon;
     border: none;
     display: inline-block;
     position: relative;
     outline: 0;
     vertical-align: middle;
+}
+
+%kerned-heading {
+    letter-spacing: -1.3px;
+    font-weight: $base-weight-heavy;
+}
+
+%base-weight-light {
+    font-weight: $base-weight-light;
 }

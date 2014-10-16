@@ -1,5 +1,6 @@
 .masthead {
 	@extend %side-padding;
+	padding-top: $half-spacing-unit;
 }
 
 .masthead__logo {

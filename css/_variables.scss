@@ -5,8 +5,10 @@ $teal: #66C3B0; // teal
 $orange: #FF885A; // blood-orange
 $yellow: #F6D262; // yellow
 $white: #fff; //white
+$off-white: #FAFAFB; //off-white
 $elephant-tusk: #F7F8FA; //blue-ish grey
 $blue: #5883ED; //facebook-toned blue
+$sea-grey: #93989C; //grey with a hint of seafoam teal
 
 /**
  * Typography
@@ -32,6 +34,9 @@ $half-spacing-unit: $base-spacing-unit / 2;
 $line-height-ratio: $base-line-height / $base-font-size;
 $double-spacing-unit: $base-line-height * 2;
 $triple-spacing-unit: $base-line-height * 3;
+$ss-big: 8.75rem; //Section Spacer Big 140px
+$ss-med: 6.25rem; //Section Spacer Medium 100px
+$ss-small: 5rem; //Section Spacer Small 80px
 
 /**
  * Font-family's
