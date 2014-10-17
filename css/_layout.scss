@@ -13,6 +13,11 @@
 	max-width: 32.8rem; //590px
 }
 
+%form-container {
+	@include outer-container;
+	max-width: 43.75rem; //700px
+}
+
 .accent-section {
 	background: $off-white;
 	background-image: linear-gradient(to top, transparent 0%,transparent 50%,#E2E3E6 50%,#E2E3E6 100%);

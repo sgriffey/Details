@@ -1,0 +1,46 @@
+.nav {
+	background: $base;
+}
+
+.banner {
+	text-align: center;
+	@extend %side-padding;
+	padding: $half-spacing-unit;
+}
+
+.banner__logo {
+	margin-bottom: 0;
+	line-height: 1;
+
+	a {
+		display: inline-block;
+		position: relative;
+		background: url(../../assets/ravti-logo.svg) center center no-repeat;
+		height: 18px;
+		width: 57px;
+	}
+}
+
+.banner__pages-list {
+	@extend %hard-reset;
+	text-align: right;
+	padding-top: $half-spacing-unit;
+}
+
+.banner__pages-list-item {
+	color: $white;
+	opacity: 0.6;
+	display: inline-block;
+	font-size: $milli;
+	font-weight: $base-weight-heavy;
+	padding-left: $base-spacing-unit;
+
+	&:hover {
+		opacity: 1;
+		cursor: pointer;
+	}
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $zeta;
+	}
+}

@@ -1,0 +1,51 @@
+.request {
+	@extend %form-container;
+}
+
+.request__proof {
+	@extend %form-container;
+}
+
+.request__proof-point {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(4);
+		@include omega(3n);
+	}
+}
+
+.request__proof-point-title {
+	@include span-columns(12);
+	@include omega();
+}
+
+.request__proof-point-copy {
+	@include span-columns(12);
+	@include omega();
+}
+
+.request__tagline {
+	@include span-columns(12);
+	@include omega();
+}
+
+.request__form {
+	@extend %wrapper;
+}
+
+.request__form-field {
+	@include span-columns(12);
+	@include omega();
+}
+
+.request__form-field-label {
+	@include span-columns(12);
+	@include omega();
+}
+
+.request__form-field-input {
+	@include span-columns(12);
+	@include omega();
+}

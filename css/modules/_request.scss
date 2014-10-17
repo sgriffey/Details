@@ -1,0 +1,116 @@
+.request {
+	@extend %side-padding;
+	margin-top: $triple-spacing-unit;
+	margin-bottom: 0;
+}
+
+.request__proof {
+	@extend %side-padding;
+	margin-top: $base-spacing-unit;
+
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		height:1px;
+		background-image: linear-gradient(to top, transparent 0%,transparent 50%,$border-grey 50%,$border-grey 100%);
+		background-size: 100% 1px;
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+}
+
+.request__proof-point {
+	padding-left: $base-spacing-unit;
+}
+
+.request__proof-point-title,
+.request__proof-point-copy {
+	font-size: $milli;
+	font-family: $proxima;
+	letter-spacing: 0;
+}
+
+.request__proof-point-title {
+	margin-bottom: 0;
+	position: relative;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		top:0;
+		left: 0;
+		height: 20px;
+		width: 20px;
+		margin-left: -$base-spacing-unit;
+		background: url('../../assets/check.svg') center center no-repeat;
+	}
+}
+
+.request__proof-point-copy {
+	margin-top: 0;
+	color: $sea-grey;
+}
+
+.request__tagline {
+	font-family: $proxima;
+	font-size: $gamma;
+	font-weight: $base-weight-light;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.request__form {
+	@extend %side-padding;
+	margin-bottom: $ss-big;
+}
+
+.request__form-field-label,
+.request__form-field-input {
+	@extend %hard-reset;
+}
+
+.request__form-field {
+	margin-top: $base-spacing-unit;
+
+	textarea {
+		max-width: 100%;
+	}
+}
+
+.request__form-field-label {
+	letter-spacing: 0;
+	margin-bottom: $quarter-spacing-unit;
+	font-size: $milli;
+}
+
+.request__form-field-input {
+	@extend %button-padding;
+	@include vp(box-shadow, inset 0 0 0 2px $border-grey);
+	font-size: $epsilon;
+	padding-left: $half-spacing-unit;
+	border: none;
+	font-family: $futura;
+	outline: 0;
+
+	&:active,
+	&:focus {
+		@include vp(box-shadow, inset 0 0 0 2px $blue);
+	}
+}
+
+.request__form-button {
+	@extend %button;
+	@include vp(box-shadow, inset 0 0 0 2px rgba(0,0,0,0.2));
+	background: $blue;
+	color: $white;
+	font-weight: $base-weight-heavy;
+	width: 100%;
+
+	&:hover {
+		cursor: pointer;
+		background: darken($blue, 4%);
+	}
+}
