@@ -8,6 +8,7 @@
 
 	@include media(min-width $bp-med, 12) {
 		@include span-columns(6 of 12);
+		@include shift(3);
 		@include omega();
 	}
 }
@@ -38,6 +39,7 @@
 
 	@include media(min-width $bp-med, 12) {
 		@include span-columns(4 of 6);
+		@include shift(1);
 		@include omega();
 	}
 }

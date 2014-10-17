@@ -24,13 +24,14 @@
 
 .masthead__pages-list-item {
 	color: $white;
+	opacity: 0.6;
 	display: inline-block;
 	font-size: $milli;
 	font-weight: $base-weight-heavy;
 	padding-left: $base-spacing-unit;
 
 	&:hover {
-		color: $base;
+		opacity: 1;
 		cursor: pointer;
 	}
 

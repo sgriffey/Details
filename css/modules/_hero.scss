@@ -1,41 +1,45 @@
 .hero {
 	background: $teal;
-	background: url('http://cdn2.dropmark.com/72454/c7183d6dbc94ecc630b32d6a611227d547d0d9c5/HVAC_Vent.jpg') center center no-repeat;
+	background: url('http://cdn2.dropmark.com/72454/22b6c0f235ab9f76275213dcee55b2162d9d92f0/HVAC_Blue.jpg') center center no-repeat;
 	background-size: cover;
 
 	@include media(min-width $bp-med, 12) {
-		min-height: 38rem; //560px%16px
+		min-height: 40rem; //560px%16px
 	}
 }
 
 .prompt {
 	@extend %side-padding;
+	text-align: center;
 }
 
 .prompt__tagline {
+	color: $white;
 	font-size: 3rem;
 	line-height: 1.1;
-	padding-top: $triple-spacing-unit;
+	padding-top: $ss-small;
 }
 
 .prompt__copy {
 	color: $white;
+	opacity: 0.8;
 	font-size: $delta;
 	line-height: 1.4;
 	margin-top: 0;
+	font-weight: 300;
 }
 
 .prompt__button {
 	@extend %button;
 	@include vp(box-shadow, inset 0 0 0 2px rgba(0,0,0,0.2));
-	background: $yellow;
-	color: $base;
+	background: $blue;
+	color: $white;
 	font-weight: $base-weight-heavy;
 	margin-bottom: $double-spacing-unit;
 	text-align: center;
 
 	&:hover {
 		cursor: pointer;
-		background: darken($yellow, 4%);
+		background: darken($blue, 4%);
 	}
 }

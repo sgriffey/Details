@@ -3,7 +3,12 @@
 }
 
 .feature-glance {
+	@extend %side-padding;
 	padding-top: $ss-small;
+}
+
+.feature-list {
+	@extend %side-padding;
 }
 
 .feature__tagline {
@@ -16,7 +21,7 @@
 }
 
 .feature__offering {
-	padding: $base-spacing-unit $triple-spacing-unit 0;
+	padding: $base-spacing-unit $half-spacing-unit 0 0;
 }
 
 .feature__offering-benefit {
@@ -30,8 +35,8 @@
 	&::before {
 		content: '';
 		display: block;
-		height: 40px;
-		width: 40px;
+		height: 20px;
+		width: 20px;
 		margin-bottom: $half-spacing-unit;
 	}
 }

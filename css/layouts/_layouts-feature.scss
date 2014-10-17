@@ -13,8 +13,8 @@
 	@include omega();
 
 	@include media(min-width $bp-med, 12) {
-		@include span-columns(6);
-		@include omega(2n);
+		@include span-columns(3);
+		@include omega(4n);
 	}
 }
 
