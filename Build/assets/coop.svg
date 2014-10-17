@@ -6,50 +6,52 @@
     <defs></defs>
     <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Cooperative-purchasing" sketch:type="MSArtboardGroup">
-            <rect id="Rectangle-22" stroke="#9B9B9B" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="22" y="14" width="46" height="60"></rect>
-            <rect id="Rectangle-29" stroke="#E6E6E6" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="24" y="16" width="42" height="56"></rect>
-            <rect id="Rectangle-23" stroke="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="20" width="9" height="9"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="40" y="22" width="17" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="33" width="16.5" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="41" width="12" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="54" y="33" width="3" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="54" y="41" width="3" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="40" y="26" width="9" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="37" width="11" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="45" width="16.5" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="54" y="37" width="3" height="1"></rect>
-            <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="52" y="45" width="5" height="1"></rect>
-            <rect id="Rectangle-28" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="49" width="9" height="1"></rect>
-            <rect id="Rectangle-27" fill="#9B9B9B" sketch:type="MSShapeGroup" x="54" y="49" width="3" height="1"></rect>
-            <rect id="Rectangle-26" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="53" width="9" height="1"></rect>
-            <rect id="Rectangle-25" fill="#9B9B9B" sketch:type="MSShapeGroup" x="54" y="53" width="3" height="1"></rect>
-            <rect id="Rectangle-30" fill="#9B9B9B" sketch:type="MSShapeGroup" x="54" y="60" width="3" height="2"></rect>
-            <rect id="Rectangle-31" fill="#9B9B9B" sketch:type="MSShapeGroup" x="28" y="60" width="9" height="2"></rect>
-            <g id="arrow-4" sketch:type="MSLayerGroup" transform="translate(71.000000, 14.000000)" stroke="#979797">
-                <path d="M0.5,2.5 L10.5,2.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M9,1 L9,4 L12,4 L9,1 Z" id="Rectangle-39" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(10.500000, 2.500000) rotate(-135.000000) translate(-10.500000, -2.500000) "></path>
+            <g id="cooperative" sketch:type="MSLayerGroup" transform="translate(6.000000, 2.000000)">
+                <rect id="Rectangle-22" stroke="#9B9B9B" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="16" y="12" width="46" height="60"></rect>
+                <rect id="Rectangle-29" stroke="#E6E6E6" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="18" y="14" width="42" height="56"></rect>
+                <rect id="Rectangle-23" stroke="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="18" width="9" height="9"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="34" y="20" width="17" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="31" width="16.5" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="39" width="12" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="48" y="31" width="3" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="48" y="39" width="3" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="34" y="24" width="9" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="35" width="11" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="43" width="16.5" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="48" y="35" width="3" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="46" y="43" width="5" height="1"></rect>
+                <rect id="Rectangle-28" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="47" width="9" height="1"></rect>
+                <rect id="Rectangle-27" fill="#9B9B9B" sketch:type="MSShapeGroup" x="48" y="47" width="3" height="1"></rect>
+                <rect id="Rectangle-26" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="51" width="9" height="1"></rect>
+                <rect id="Rectangle-25" fill="#9B9B9B" sketch:type="MSShapeGroup" x="48" y="51" width="3" height="1"></rect>
+                <rect id="Rectangle-30" fill="#9B9B9B" sketch:type="MSShapeGroup" x="48" y="58" width="3" height="2"></rect>
+                <rect id="Rectangle-31" fill="#9B9B9B" sketch:type="MSShapeGroup" x="22" y="58" width="9" height="2"></rect>
+                <g id="arrow-4" transform="translate(65.000000, 12.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <path d="M0.5,2.5 L10.5,2.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M9,1 L9,4 L12,4 L9,1 Z" id="Rectangle-39" fill="#9B9B9B" transform="translate(10.500000, 2.500000) rotate(-135.000000) translate(-10.500000, -2.500000) "></path>
+                </g>
+                <g id="arrow-4" transform="translate(65.000000, 41.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <path d="M0.5,2.5 L10.5,2.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M9,1 L9,4 L12,4 L9,1 Z" id="Rectangle-39" fill="#9B9B9B" transform="translate(10.500000, 2.500000) rotate(-135.000000) translate(-10.500000, -2.500000) "></path>
+                </g>
+                <g id="arrow-4" transform="translate(6.500000, 58.500000) scale(-1, 1) translate(-6.500000, -58.500000) translate(0.000000, 56.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <path d="M0.5,2.5 L10.5,2.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M9,1 L9,4 L12,4 L9,1 Z" id="Rectangle-39" fill="#9B9B9B" transform="translate(10.500000, 2.500000) rotate(-135.000000) translate(-10.500000, -2.500000) "></path>
+                </g>
+                <g id="arrow-5" transform="translate(8.000000, 26.500000) scale(-1, 1) translate(-8.000000, -26.500000) translate(3.000000, 24.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <path d="M0.5,2.5 L7.5,2.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M6,1 L6,4 L9,4 L6,1 Z" id="Rectangle-39" fill="#9B9B9B" transform="translate(7.500000, 2.500000) rotate(-135.000000) translate(-7.500000, -2.500000) "></path>
+                </g>
+                <g id="arrow-6" transform="translate(49.500000, 4.500000) scale(-1, 1) rotate(-90.000000) translate(-49.500000, -4.500000) translate(45.000000, 2.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <path d="M-0.5,2.5 L6.5,2.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M5,1 L5,4 L8,4 L5,1 Z" id="Rectangle-39" fill="#9B9B9B" transform="translate(6.500000, 2.500000) rotate(-135.000000) translate(-6.500000, -2.500000) "></path>
+                </g>
+                <g id="arrow-7" transform="translate(29.500000, 80.500000) scale(-1, -1) rotate(-90.000000) translate(-29.500000, -80.500000) translate(25.000000, 78.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <path d="M-0.5,2.5 L6.5,2.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M5,1 L5,4 L8,4 L5,1 Z" id="Rectangle-39" fill="#9B9B9B" transform="translate(6.500000, 2.500000) rotate(-135.000000) translate(-6.500000, -2.500000) "></path>
+                </g>
+                <ellipse id="Oval-125" stroke="#979797" sketch:type="MSShapeGroup" transform="translate(48.899014, 58.945281) rotate(-15.000000) translate(-48.899014, -58.945281) " cx="48.8990143" cy="58.9452805" rx="6.23273402" ry="3.44539709"></ellipse>
             </g>
-            <g id="arrow-4" sketch:type="MSLayerGroup" transform="translate(71.000000, 43.000000)" stroke="#979797">
-                <path d="M0.5,2.5 L10.5,2.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M9,1 L9,4 L12,4 L9,1 Z" id="Rectangle-39" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(10.500000, 2.500000) rotate(-135.000000) translate(-10.500000, -2.500000) "></path>
-            </g>
-            <g id="arrow-4" sketch:type="MSLayerGroup" transform="translate(12.500000, 60.500000) scale(-1, 1) translate(-12.500000, -60.500000) translate(6.000000, 58.000000)" stroke="#979797">
-                <path d="M0.5,2.5 L10.5,2.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M9,1 L9,4 L12,4 L9,1 Z" id="Rectangle-39" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(10.500000, 2.500000) rotate(-135.000000) translate(-10.500000, -2.500000) "></path>
-            </g>
-            <g id="arrow-5" sketch:type="MSLayerGroup" transform="translate(14.000000, 28.500000) scale(-1, 1) translate(-14.000000, -28.500000) translate(9.000000, 26.000000)" stroke="#979797">
-                <path d="M0.5,2.5 L7.5,2.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M6,1 L6,4 L9,4 L6,1 Z" id="Rectangle-39" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(7.500000, 2.500000) rotate(-135.000000) translate(-7.500000, -2.500000) "></path>
-            </g>
-            <g id="arrow-6" sketch:type="MSLayerGroup" transform="translate(55.500000, 6.500000) scale(-1, 1) rotate(-90.000000) translate(-55.500000, -6.500000) translate(51.000000, 4.000000)" stroke="#979797">
-                <path d="M-0.5,2.5 L6.5,2.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M5,1 L5,4 L8,4 L5,1 Z" id="Rectangle-39" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(6.500000, 2.500000) rotate(-135.000000) translate(-6.500000, -2.500000) "></path>
-            </g>
-            <g id="arrow-7" sketch:type="MSLayerGroup" transform="translate(35.500000, 82.500000) scale(-1, -1) rotate(-90.000000) translate(-35.500000, -82.500000) translate(31.000000, 80.000000)" stroke="#979797">
-                <path d="M-0.5,2.5 L6.5,2.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M5,1 L5,4 L8,4 L5,1 Z" id="Rectangle-39" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(6.500000, 2.500000) rotate(-135.000000) translate(-6.500000, -2.500000) "></path>
-            </g>
-            <ellipse id="Oval-125" stroke="#979797" sketch:type="MSShapeGroup" transform="translate(54.899014, 60.945281) rotate(-15.000000) translate(-54.899014, -60.945281) " cx="54.8990143" cy="60.9452805" rx="6.23273402" ry="3.44539709"></ellipse>
         </g>
     </g>
 </svg>

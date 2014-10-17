@@ -1,0 +1,11 @@
+.footer {
+	@extend %narrow-container;
+}
+
+.footer__pages {
+	@include span-columns(6)
+}
+
+.footer__law {
+	@include span-columns(6);
+}

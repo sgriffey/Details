@@ -6,9 +6,9 @@
     <defs></defs>
     <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="secure" sketch:type="MSArtboardGroup">
-            <path d="M12,12.0058601 L12,32 L12,33 L13,33 L27,33 L28,33 L28,32 L28,12.0058601 C28,7.58707632 24.413142,4 20,4 C15.5816027,4 12,7.5846756 12,12.0058601 Z M26,12.0058601 L26,32 L27,31 L13,31 L14,32 L14,12.0058601 C14,8.68886132 16.6865563,6 20,6 C23.3085452,6 26,8.69161857 26,12.0058601 Z" id="Rectangle-60" fill="#6FC9B7" sketch:type="MSShapeGroup"></path>
-            <rect id="Rectangle-57" stroke="#6FC9B7" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="6" y="19" width="28" height="16"></rect>
-            <rect id="Rectangle-60" stroke="#C4E9E1" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="8" y="21" width="24" height="12"></rect>
+            <path d="M10,9.83405251 L10,31.8965517 L10,33 L11.25,33 L28.75,33 L30,33 L30,31.8965517 L30,9.83405251 C30,4.95815318 25.5164275,1 20,1 C14.4770034,1 10,4.95550411 10,9.83405251 Z M27.7142857,9.46784933 L27.7142857,31 L29,29.9230769 L11,29.9230769 L12.2857143,31 L12.2857143,9.46784933 C12.2857143,5.89569681 15.7398582,3 20,3 C24.2538439,3 27.7142857,5.89866615 27.7142857,9.46784933 Z" id="Rectangle-60" fill="#9B9B9B" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-57" stroke="#9B9B9B" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="6" y="19" width="28" height="16"></rect>
+            <rect id="Rectangle-60" stroke="#D8D8D8" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="8" y="21" width="24" height="12"></rect>
         </g>
     </g>
 </svg>

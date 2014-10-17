@@ -22,6 +22,7 @@
 
 %button {
     @extend %button-padding;
+    font-family: $futura;
     font-size: $epsilon;
     border: none;
     display: inline-block;
@@ -33,6 +34,7 @@
 %kerned-heading {
     letter-spacing: -1.3px;
     font-weight: $base-weight-heavy;
+    font-family: $futura;
 }
 
 %base-weight-light {

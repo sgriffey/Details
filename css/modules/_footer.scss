@@ -1,0 +1,51 @@
+.page-footer {
+	margin-top: $ss-med;
+}
+
+.footer {
+	@extend %side-padding;
+	padding-top: $half-spacing-unit;
+	border-top: 1px solid $border-grey;
+	margin-bottom: $double-spacing-unit;
+}
+
+.footer__pages-list {
+	@extend %hard-reset;
+	padding-top: $half-spacing-unit;
+}
+
+.footer__law-list {
+	@extend %hard-reset;
+	padding-top: $half-spacing-unit;
+	text-align: right;
+}
+
+.footer__pages-list-item {
+	display: inline-block;
+	font-size: $micro;
+	padding-right: $base-spacing-unit;
+
+	&:hover {
+		color: $base;
+		cursor: pointer;
+	}
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $zeta;
+	}
+}
+
+.footer__law-list-item {
+	display: inline-block;
+	font-size: $micro;
+	padding-left: $base-spacing-unit;
+
+	&:hover {
+		color: $base;
+		cursor: pointer;
+	}
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $zeta;
+	}
+}

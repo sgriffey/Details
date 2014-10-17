@@ -440,13 +440,13 @@ table {
  * Grid
  */
 .timeline, .typography, .masthead, .prompt, .interest, .interest__form, .value, .feature-list,
-.feature-glance {
+.feature-glance, .footer {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 60rem; }
   .timeline:after, .typography:after, .masthead:after, .prompt:after, .interest:after, .interest__form:after, .value:after, .feature-list:after,
-  .feature-glance:after {
+  .feature-glance:after, .footer:after {
     content: "";
     display: table;
     clear: both; }
@@ -502,7 +502,7 @@ html {
   color: #0b0c0c;
   background-color: white;
   -webkit-font-smoothing: antialiased;
-  font-family: "futura-pt", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   line-height: 1.4; }
 
@@ -611,24 +611,25 @@ i {
   transform: translate(-50%, -50%); }
 
 .timline__period-list, .timline__period-list dd, .masthead__pages-list, .interest__form-field-label,
-.interest__form-field-text {
+.interest__form-field-text, .footer__pages-list, .footer__law-list {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-.masthead, .prompt, .interest, .trust, .value {
+.masthead, .prompt, .interest, .trust, .value, .footer {
   padding: 0 11.2px; }
   @media screen and (min-width: 46.8em) and (max-width: 50em) {
-    .masthead, .prompt, .interest, .trust, .value {
+    .masthead, .prompt, .interest, .trust, .value, .footer {
       padding: 0 11.2px; } }
   @media screen and (min-width: 50em) {
-    .masthead, .prompt, .interest, .trust, .value {
+    .masthead, .prompt, .interest, .trust, .value, .footer {
       padding: 0; } }
 
 .prompt__button, .interest__form-button, .trust__button, .interest__form-field-text {
   padding: 0.8em 2em 0.7em 2em; }
 
 .prompt__button, .interest__form-button, .trust__button {
+  font-family: "futura-pt", sans-serif;
   font-size: 19.2px;
   border: none;
   display: inline-block;
@@ -638,7 +639,8 @@ i {
 
 h1, h2, h3, h4, h5, h6, label {
   letter-spacing: -1.3px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: "futura-pt", sans-serif; }
 
 .trust__sub-heading {
   font-weight: 400; }
@@ -1040,6 +1042,22 @@ h1, h2, h3, h4, h5, h6, label {
       .feature__offering-copy:last-child {
         margin-right: 0; } }
 
+.footer__pages {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .footer__pages:last-child {
+    margin-right: 0; }
+
+.footer__law {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .footer__law:last-child {
+    margin-right: 0; }
+
 .teal {
   background: #66c3b0; }
 
@@ -1216,6 +1234,7 @@ h1, h2, h3, h4, h5, h6, label {
     margin-top: 67.2px; }
 
 .interest__tagline {
+  font-family: "proxima-nova", sans-serif;
   font-size: 27.648px;
   font-weight: 400;
   line-height: 1.4;
@@ -1287,6 +1306,7 @@ h1, h2, h3, h4, h5, h6, label {
   margin-bottom: 0; }
 
 .trust__sub-heading {
+  font-family: "proxima-nova", sans-serif;
   text-align: center;
   font-size: 23.04px;
   margin-bottom: 0; }
@@ -1349,6 +1369,7 @@ h1, h2, h3, h4, h5, h6, label {
 .feature__tagline {
   font-size: 27.648px;
   font-weight: 400;
+  font-family: "proxima-nova", sans-serif;
   line-height: 1.4;
   text-align: center;
   margin-bottom: 22.4px; }
@@ -1380,3 +1401,40 @@ h1, h2, h3, h4, h5, h6, label {
 
 .haggle-feature::before {
   background: url(../assets/haggle.svg) center center no-repeat; }
+
+.page-footer {
+  margin-top: 6.25rem; }
+
+.footer {
+  padding-top: 11.2px;
+  border-top: 1px solid #e2e3e6;
+  margin-bottom: 44.8px; }
+
+.footer__pages-list {
+  padding-top: 11.2px; }
+
+.footer__law-list {
+  padding-top: 11.2px;
+  text-align: right; }
+
+.footer__pages-list-item {
+  display: inline-block;
+  font-size: 11.11111px;
+  padding-right: 22.4px; }
+  .footer__pages-list-item:hover {
+    color: #0b0c0c;
+    cursor: pointer; }
+  @media screen and (min-width: 46.8em) {
+    .footer__pages-list-item {
+      font-size: 16px; } }
+
+.footer__law-list-item {
+  display: inline-block;
+  font-size: 11.11111px;
+  padding-left: 22.4px; }
+  .footer__law-list-item:hover {
+    color: #0b0c0c;
+    cursor: pointer; }
+  @media screen and (min-width: 46.8em) {
+    .footer__law-list-item {
+      font-size: 16px; } }
