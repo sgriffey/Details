@@ -1190,10 +1190,11 @@ h1, h2, h3, h4, h5, h6, label {
 
 .hero {
   background: #66c3b0;
+  background: url("http://cdn2.dropmark.com/72454/c7183d6dbc94ecc630b32d6a611227d547d0d9c5/HVAC_Vent.jpg") center center no-repeat;
   background-size: cover; }
   @media screen and (min-width: 46.8em) {
     .hero {
-      min-height: 35rem; } }
+      min-height: 38rem; } }
 
 .prompt__tagline {
   font-size: 3rem;
@@ -1297,9 +1298,12 @@ h1, h2, h3, h4, h5, h6, label {
     display: block;
     height: 4px;
     background: #f6d262;
-    width: 120%;
-    margin-left: -10%;
+    width: 100%;
     margin-bottom: 22.4px; }
+    @media screen and (min-width: 46.8em) {
+      .trust__figure::after {
+        margin-left: -10%;
+        width: 120%; } }
 
 .trust__tagline {
   text-align: center;

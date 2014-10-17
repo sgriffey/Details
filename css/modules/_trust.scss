@@ -12,9 +12,13 @@
 		display: block;
 		height: 4px;
 		background: $yellow;
-		width: 120%;
-		margin-left: -10%;
+		width: 100%;
 		margin-bottom: $base-spacing-unit;
+
+		@include media(min-width $bp-med, 12) {
+			margin-left: -10%;
+			width: 120%;
+		}
 	}
 }
 

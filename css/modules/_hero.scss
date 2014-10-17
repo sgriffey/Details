@@ -1,10 +1,10 @@
 .hero {
 	background: $teal;
-	//background: url('http://cdn2.dropmark.com/72454/e60db4b16ad39f13571b0b0b4f5325f7aa7f9fc3/alr.jpg') center center no-repeat;
+	background: url('http://cdn2.dropmark.com/72454/c7183d6dbc94ecc630b32d6a611227d547d0d9c5/HVAC_Vent.jpg') center center no-repeat;
 	background-size: cover;
 
 	@include media(min-width $bp-med, 12) {
-		min-height: 35rem; //560px%16px
+		min-height: 38rem; //560px%16px
 	}
 }
 
