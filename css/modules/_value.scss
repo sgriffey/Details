@@ -42,6 +42,16 @@
 	margin-bottom: 0;
 	padding-top: $base-spacing-unit;
 	line-height: 1;
+
+	&::after {
+		content: '';
+		display: block;
+		margin: 0 auto;
+		height: 4px;
+		width: 6rem;
+		background: $teal;
+		margin-top: $half-spacing-unit; 
+	}
 }
 
 .value__offering {

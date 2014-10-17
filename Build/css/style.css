@@ -1358,6 +1358,14 @@ h1, h2, h3, h4, h5, h6, label {
   margin-bottom: 0;
   padding-top: 22.4px;
   line-height: 1; }
+  .value__offering-benefit::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 4px;
+    width: 6rem;
+    background: #66c3b0;
+    margin-top: 11.2px; }
 
 .value__offering {
   padding: 5rem 11.2px 0;
