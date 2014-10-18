@@ -4,7 +4,7 @@
 	background-size: cover;
 
 	@include media(min-width $bp-med, 12) {
-		min-height: 40rem; //560px%16px
+		min-height: 100%; //560px%16px
 	}
 }
 
@@ -20,6 +20,7 @@
 	padding-top: $ss-med;
 
 	@include media(min-width $bp-med, 12) {
+		padding-top: $ss-jumbo;
 		font-size: 3rem;
 	}
 }

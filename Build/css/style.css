@@ -1349,7 +1349,7 @@ h1, h2, h3, h4, h5, h6, label {
   background-size: cover; }
   @media screen and (min-width: 46.8em) {
     .hero {
-      min-height: 40rem; } }
+      min-height: 100%; } }
 
 .prompt {
   text-align: center; }
@@ -1361,6 +1361,7 @@ h1, h2, h3, h4, h5, h6, label {
   padding-top: 6.25rem; }
   @media screen and (min-width: 46.8em) {
     .prompt__tagline {
+      padding-top: 12.5rem;
       font-size: 3rem; } }
 
 .prompt__copy {
