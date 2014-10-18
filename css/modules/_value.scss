@@ -60,16 +60,10 @@
 	margin-top: $half-spacing-unit;
 	padding: $half-spacing-unit $base-spacing-unit 0;
 	text-align: center;
-	@include vp(transition-duration, 0.2s);
-	@include vp(transition-timing-function, cubic-bezier(.89,.53,.51,.93));
 
 	@include media(min-width $bp-med, 12) {
 		margin-top: $ss-small;
 		min-height: 22rem;
-	}
-
-	&:hover {
-		@include vp(transform, scale(1.1));
 	}
 }
 
