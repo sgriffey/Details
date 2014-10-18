@@ -2,6 +2,16 @@
 	@extend %form-container;
 }
 
+.request__tagline {
+	@include span-columns(12);
+	@include omega();
+}
+
+.request__tagline-subhead {
+	@include span-columns(12);
+	@include omega();
+}
+
 .request__proof {
 	@extend %form-container;
 }
@@ -22,11 +32,6 @@
 }
 
 .request__proof-point-copy {
-	@include span-columns(12);
-	@include omega();
-}
-
-.request__tagline {
 	@include span-columns(12);
 	@include omega();
 }
