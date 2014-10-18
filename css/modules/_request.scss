@@ -1,7 +1,11 @@
 .request {
 	@extend %side-padding;
-	margin-top: $triple-spacing-unit;
+	margin-top: $double-spacing-unit;
 	margin-bottom: 0;
+
+	@include media(min-width $bp-med, 12) {
+		margin-top: $triple-spacing-unit;
+	}
 }
 
 .request__tagline {
