@@ -7,45 +7,63 @@
 	padding-top: $half-spacing-unit;
 	border-top: 1px solid $border-grey;
 	margin-bottom: $double-spacing-unit;
+	font-size: $milli;
+	font-weight: $base-weight-heavy;
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $micro;
+		font-weight: $base-weight-light;
+	}
 }
 
 .footer__pages-list {
 	@extend %hard-reset;
 	padding-top: $half-spacing-unit;
+	text-align: center;
+
+	@include media(min-width $bp-med, 12) {
+		text-align: left;
+	}
 }
 
 .footer__law-list {
 	@extend %hard-reset;
 	padding-top: $half-spacing-unit;
-	text-align: right;
+	text-align: center;
+
+	@include media(min-width $bp-med, 12) {
+		text-align: right;
+	}
 }
 
 .footer__pages-list-item {
 	display: inline-block;
 	font-size: $micro;
-	padding-right: $base-spacing-unit;
+	padding: 0 $half-spacing-unit 0;
 
 	&:hover {
-		color: $base;
+		color: $teal;
 		cursor: pointer;
 	}
 
 	@include media(min-width $bp-med, 12) {
 		font-size: $zeta;
+		padding: 0 $base-spacing-unit 0 0;
 	}
 }
 
 .footer__law-list-item {
 	display: inline-block;
 	font-size: $micro;
-	padding-left: $base-spacing-unit;
+	padding: 0 $half-spacing-unit 0;
 
 	&:hover {
-		color: $base;
+		color: $teal;
 		cursor: pointer;
 	}
 
 	@include media(min-width $bp-med, 12) {
 		font-size: $zeta;
+		padding: 0 0 0 $base-spacing-unit;
 	}
 }

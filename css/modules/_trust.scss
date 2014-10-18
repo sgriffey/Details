@@ -12,7 +12,8 @@
 		display: block;
 		height: 4px;
 		background: $yellow;
-		width: 100%;
+		margin-left: -$half-spacing-unit;
+		margin-right: -$half-spacing-unit;
 		margin-bottom: $base-spacing-unit;
 
 		@include media(min-width $bp-med, 12) {
@@ -25,14 +26,23 @@
 .trust__tagline {
 	text-align: center;
 	margin-bottom: 0;
+	font-size: $delta;
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $beta;
+	}
 }
 
 .trust__sub-heading {
 	@extend %base-weight-light;
 	font-family: $proxima;
 	text-align: center;
-	font-size: $delta;
+	font-size: $epsilon;
 	margin-bottom: 0;
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $delta;
+	}
 }
 
 .trust__button {

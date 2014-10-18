@@ -15,18 +15,26 @@
 
 .prompt__tagline {
 	color: $white;
-	font-size: 3rem;
+	font-size: $beta;
 	line-height: 1.1;
-	padding-top: $ss-small;
+	padding-top: $ss-med;
+
+	@include media(min-width $bp-med, 12) {
+		font-size: 3rem;
+	}
 }
 
 .prompt__copy {
 	color: $white;
 	opacity: 0.8;
-	font-size: $delta;
+	font-size: $epsilon;
 	line-height: 1.4;
 	margin-top: 0;
 	font-weight: 300;
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $delta;
+	}
 }
 
 .prompt__button {
@@ -35,7 +43,7 @@
 	background: $blue;
 	color: $white;
 	font-weight: $base-weight-heavy;
-	margin-bottom: $double-spacing-unit;
+	margin-bottom: $triple-spacing-unit;
 	text-align: center;
 
 	&:hover {

@@ -50,31 +50,26 @@
 		height: 4px;
 		width: 4rem;
 		margin: 0 auto;
-		background: $elephant-tusk;
+		background: $teal;
 		margin-top: $half-spacing-unit; 
 	}
 }
 
 .value__offering {
+	@include vp(box-shadow, inset 0 0 0 8px $off-white);
 	margin-top: $half-spacing-unit;
 	padding: $half-spacing-unit $base-spacing-unit 0;
 	text-align: center;
-	@include vp(box-shadow, inset 0 0 0 8px $elephant-tusk);
-	position: relative;
+	@include vp(transition-duration, 0.2s);
+	@include vp(transition-timing-function, cubic-bezier(.89,.53,.51,.93));
 
 	@include media(min-width $bp-med, 12) {
 		margin-top: $ss-small;
 		min-height: 22rem;
 	}
 
-	&::after {
-		content: '';
-		background: url(../../assets/certify.svg) center center no-repeat;
-		height: 52px;
-		width: 52px;
-		position: absolute;
-		top: 10px;
-		right: 10px;
+	&:hover {
+		@include vp(transform, scale(1.1));
 	}
 }
 

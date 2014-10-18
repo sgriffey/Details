@@ -3,9 +3,29 @@
 }
 
 .footer__pages {
-	@include span-columns(6)
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6);
+	}
 }
 
 .footer__law {
-	@include span-columns(6);
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6);
+	}
+}
+
+.footer__pages-list,
+.footer__law-list, {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+	}
 }
