@@ -1,12 +1,11 @@
 .page-footer {
-	margin-top: $ss-med;
+	margin: $ss-med 0 $double-spacing-unit;
 }
 
 .footer {
 	@extend %side-padding;
 	padding-top: $half-spacing-unit;
 	border-top: 1px solid $border-grey;
-	margin-bottom: $double-spacing-unit;
 	font-size: $milli;
 	font-weight: $base-weight-heavy;
 

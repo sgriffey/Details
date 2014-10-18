@@ -1608,12 +1608,11 @@ h1, h2, h3, h4, h5, h6, label {
   background: url(../assets/haggle.svg) center center no-repeat; }
 
 .page-footer {
-  margin-top: 6.25rem; }
+  margin: 6.25rem 0 44.8px; }
 
 .footer {
   padding-top: 11.2px;
   border-top: 1px solid #e2e3e6;
-  margin-bottom: 44.8px;
   font-size: 13.33333px;
   font-weight: 700; }
   @media screen and (min-width: 46.8em) {
