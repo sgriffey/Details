@@ -5,9 +5,9 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="haggle" sketch:type="MSArtboardGroup" stroke="#F35B5B" fill="#FFFFFF">
+        <g id="haggle" sketch:type="MSArtboardGroup" stroke="#D8D8D8">
             <circle id="Oval-267" sketch:type="MSShapeGroup" cx="10" cy="10" r="8"></circle>
-            <path d="M15.3033009,4.69669914 L4.6731549,15.3268451" id="Line" stroke-width="2" sketch:type="MSShapeGroup"></path>
+            <path d="M15.3033009,4.69669914 L4.6731549,15.3268451" id="Line" stroke-width="2" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>

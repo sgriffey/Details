@@ -1,0 +1,97 @@
+.capture {
+	@extend %form-container;
+}
+
+.capture__tagline {
+	@include span-columns(12);
+	@include omega();
+}
+
+.capture__tagline-subhead {
+	@include span-columns(12);
+	@include omega();
+}
+
+.split {
+	@extend %form-container;
+}
+
+.capture__proof {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+}
+
+.capture__proof-point {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.capture__proof-point-title {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.capture__proof-point-copy {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.capture__form {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+}
+
+.capture__form-field {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.capture__form-field-label {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.capture__form-field-input {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}

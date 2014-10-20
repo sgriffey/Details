@@ -1,0 +1,141 @@
+.capture {
+	@extend %side-padding;
+	margin-top: $double-spacing-unit;
+	margin-bottom: 0;
+
+	@include media(min-width $bp-med, 12) {
+		margin-top: $triple-spacing-unit;
+	}
+
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		height:1px;
+		background-image: linear-gradient(to top, transparent 0%,transparent 50%,$border-grey 50%,$border-grey 100%);
+		background-size: 100% 1px;
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+}
+
+.capture__tagline {
+	font-family: $proxima;
+	font-size: $gamma;
+	font-weight: $base-weight-light;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.capture__tagline-subhead {
+	text-align: center;
+	color: $sea-grey;
+	margin: 0 auto $half-spacing-unit;
+}
+
+.capture__proof {
+	@extend %side-padding;
+	margin-top: $base-spacing-unit;
+}
+
+.capture__proof-point {
+	padding-left: $base-spacing-unit;
+
+	@include media(min-width $bp-med, 12) {
+		margin-bottom: $base-spacing-unit;
+	}
+}
+
+.capture__proof-point-title,
+.capture__proof-point-copy {
+	font-size: $milli;
+	font-family: $proxima;
+	letter-spacing: 0;
+}
+
+.capture__proof-point-title {
+	margin-bottom: 0;
+	position: relative;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		top:0;
+		left: 0;
+		height: 20px;
+		width: 20px;
+		margin-left: -$base-spacing-unit;
+		background: url('../../assets/check.svg') center center no-repeat;
+	}
+}
+
+.capture__proof-point-copy {
+	margin-top: 0;
+	color: $sea-grey;
+}
+
+.capture__form {
+	@extend %side-padding;
+	margin-bottom: $ss-big;
+
+	@include media(min-width $bp-med, 12) {
+		border-right: 1px solid $border-grey;
+		padding-right: $base-spacing-unit;
+		margin-top: $base-spacing-unit;
+	}
+}
+
+.capture__form-field-label,
+.capture__form-field-input {
+	@extend %hard-reset;
+}
+
+.capture__form-field {
+	margin-top: $base-spacing-unit;
+
+	textarea {
+		max-width: 100%;
+	}
+}
+
+.capture__form-field:first-of-type {
+	margin-top: 0;
+}
+
+.capture__form-field-label {
+	letter-spacing: 0;
+	margin-bottom: $quarter-spacing-unit;
+	font-size: $milli;
+	text-transform: uppercase;
+}
+
+.capture__form-field-input {
+	@extend %button-padding;
+	@include vp(box-shadow, inset 0 0 0 2px $border-grey);
+	font-size: $zeta;
+	padding-left: $half-spacing-unit;
+	border: none;
+	font-family: $futura;
+	outline: 0;
+
+	&:active,
+	&:focus {
+		@include vp(box-shadow, inset 0 0 0 2px $blue);
+	}
+}
+
+.capture__form-button {
+	@extend %button;
+	@include vp(box-shadow, inset 0 0 0 2px rgba(0,0,0,0.2));
+	background: $blue;
+	color: $white;
+	font-weight: $base-weight-heavy;
+	width: 100%;
+
+	&:hover {
+		cursor: pointer;
+		background: darken($blue, 4%);
+	}
+}

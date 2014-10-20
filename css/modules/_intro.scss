@@ -1,0 +1,32 @@
+.backdrop {
+	background: $teal;
+}
+
+.intro {
+	@extend %side-padding;
+}
+
+.intro__tagline {
+	color: $base;
+	font-size: $beta;
+	line-height: 1.1;
+	padding-top: $ss-med;
+
+	@include media(min-width $bp-med, 12) {
+		padding-top: $ss-med;
+		font-size: 3rem;
+	}
+}
+
+.intro__copy {
+	color: $white;
+	opacity: 0.8;
+	font-size: $epsilon;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: $triple-spacing-unit;
+
+	@include media(min-width $bp-med, 12) {
+		font-size: $delta;
+	}
+}

@@ -1,0 +1,23 @@
+.text {
+	@extend %wrapper;
+}
+
+.text__accent {
+	@include span-columns(12);
+	@include omega();
+}
+
+.text__list {
+	@include span-columns(12);
+	@include omega();
+
+	li {
+		@include span-columns(12);
+		@include omega();
+	}
+
+	span {
+		@include span-columns(12);
+		@include omega();
+	}
+}

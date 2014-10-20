@@ -1,0 +1,33 @@
+.intro {
+	@extend %narrow-container;
+}
+
+.intro__cta {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(5 of 12);
+		@include omega();
+	}
+}
+
+.intro__tagline {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(5 of 5);
+		@include omega();
+	}
+}
+
+.intro__copy {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(5 of 5);
+		@include omega();
+	}
+}

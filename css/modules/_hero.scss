@@ -31,6 +31,7 @@
 	font-size: $epsilon;
 	line-height: 1.4;
 	margin-top: 0;
+	margin-bottom: $base-spacing-unit;
 	font-weight: 300;
 
 	@include media(min-width $bp-med, 12) {

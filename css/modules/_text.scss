@@ -1,0 +1,47 @@
+.text {
+	@extend %side-padding;
+	margin: $triple-spacing-unit auto $ss-big;
+}
+
+.text__title {
+	text-align: center;
+	font-size: $epsilon;
+	margin-bottom: 0;
+}
+
+.text__accent {
+	color: $teal;
+	font-size: $zeta;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-top: $base-spacing-unit;
+}
+
+.text__accent:first-of-type {
+	padding-top: 0;
+}
+
+.text__list {
+	@extend %hard-reset;
+
+	li {
+		margin-top: $base-spacing-unit;
+		padding-bottom: $quarter-spacing-unit;
+		border-bottom: 1px dotted $border-grey;
+	}
+
+	a:hover {
+		color: $teal;
+	}
+
+	span {
+		color: $sea-grey;
+		font-weight: $base-font-light;
+	}
+
+	li:first-of-type {
+		margin-top: 0;
+		padding-top: $quarter-spacing-unit
+	}
+}
+
