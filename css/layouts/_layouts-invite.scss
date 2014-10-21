@@ -59,3 +59,8 @@
 		@include omega();
 	}
 }
+
+.invite__form-button {
+	@include span-columns(12);
+	@include omega();
+}

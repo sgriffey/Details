@@ -10,7 +10,7 @@
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-  <main>
+<main>
   	<header class="nav">
 	  	<nav class="banner">
 	  		<h1 class="banner__logo">
@@ -18,29 +18,52 @@
 	  		</h1>
 	  	</nav>
 	</header>
-	<header class="login">
-		<h2 class="login__heading">Sign In</h2>
-	</header>
-	<form class="login__form">
-		<div class="login__form-field">
-			<label class="login__form-field-label">Email</label>
-			<input class="login__form-field-input" type="text" placeholder="you@example.com">
-		</div>
-		<div class="login__form-field">
-			<label class="login__form-field-label">Password</label>
-			<input class="login__form-field-input" type="password" placeholder="······">
-		</div>
-		<div class="login__form-field">
-			<div class="login__form-remember">
-				<input class="login__form-field-checkbox" type=checkbox label="*I agree to the Ravti Terms of Service and Privacy Policy" checked="false"/>
-				<label class="login__form-field-checkbox-text">Stay logged in</label>
+	<section class="logging-in">
+		<header class="login">
+			<h2 class="login__heading">Sign In</h2>
+		</header>
+		<form class="login__form">
+			<div class="login__form-field">
+				<label class="login__form-field-label">Email</label>
+				<input class="login__form-field-input" type="text" placeholder="you@example.com">
 			</div>
-			<span class="login__form-forgot"><a href="">Forgot your password?</a></span>
-		</div>
-		<div class="login__form-field">
-			<button class="login__form-button">Submit</button>
-		</div>
-	</form>
-  </main>
+			<div class="login__form-field">
+				<label class="login__form-field-label">Password</label>
+				<input class="login__form-field-input" type="password" placeholder="······">
+			</div>
+			<div class="login__form-field">
+				<div class="login__form-remember">
+					<input class="login__form-field-checkbox" type=checkbox label="*I agree to the Ravti Terms of Service and Privacy Policy" checked="false"/>
+					<label class="login__form-field-checkbox-text">Stay signed in</label>
+				</div>
+				<span class="login__form-forgot" id="password-retreive"><a>Forgot your password?</a></span>
+			</div>
+			<div class="login__form-field">
+				<button class="login__form-button">Submit</button>
+			</div>
+		</form>
+	</section>
+	<section class="forgotten is-masked">
+		<header class="forgot">
+			<h2 class="forgot__heading">Password Recovery</h2>
+		</header>
+		<form class="forgot__form">
+			<section class="forgot__form-prompt">
+				<div class="forgot__form-field">
+					<label class="forgot__form-field-label">Enter the email address that you registered your account with, and we'll send instructions to reset your password.</label>
+					<input class="forgot__form-field-input" type="text" placeholder="Registered Email Address">
+				</div>
+			</section>
+			<section class="forgot__form-commit">
+				<div class="forgot__form-field">
+					<button class="forgot__form-commit-button">Send Instructions</button>
+					<span class="forgot__form-commit-revert" id="revert-to-sign-in"><a>&larr; or return to sign in</a></span>
+				</div>
+			</section>
+		</form>
+	</section>
+</main>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- @javascript app.js -->
 </body>
 </html>

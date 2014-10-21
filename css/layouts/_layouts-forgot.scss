@@ -1,0 +1,64 @@
+.forgot {
+	@extend %wrapper;
+}
+
+.forgot__heading {
+	@include span-columns(12);
+	@include omega();
+}
+
+.forgot__form {
+	@extend %wrapper;
+}
+
+.forgot__form-prompt {
+	@include span-columns(12);
+	@include omega();
+}
+
+
+.forgot__form-field {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(8 of 12);
+		@include shift(2);
+		@include omega();
+	}
+}
+
+.forgot__form-field-label,
+.forgot__form-field-input,
+.forgot__form-field-inform-text {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(8 of 8);
+		@include omega();
+	}
+}
+
+.forgot__form-commit {
+	@include span-columns(12);
+	@include omega();
+}
+
+.forgot__form-commit-revert {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(4 of 8);
+	}
+}
+
+.forgot__form-commit-button {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(4 of 8);
+	}
+}
