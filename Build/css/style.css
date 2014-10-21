@@ -610,7 +610,7 @@ i {
 .letterhead {
   position: relative; }
 
-.signature {
+.status {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -618,7 +618,17 @@ i {
   -ms-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.status__update {
+  padding-top: 22.4px;
+  display: block; }
+  .status__update a {
+    border-bottom: 1px solid #0b0c0c; }
+  .status__update a:hover {
+    color: #66c3b0;
+    border-bottom: 1px solid #66c3b0; }
 
 .timline__period-list, .timline__period-list dd, .masthead__pages-list, .interest__form-field-label,
 .interest__form-field-text, .footer__pages-list, .footer__law-list, .banner__pages-list, .request__form-field-label,
@@ -2172,9 +2182,6 @@ h1, h2, h3, h4, h5, h6, label {
       font-size: 16px;
       padding: 0 0 0 22.4px; } }
 
-.nav {
-  background: #0b0c0c; }
-
 .banner {
   text-align: center;
   padding: 11.2px; }
@@ -2185,9 +2192,10 @@ h1, h2, h3, h4, h5, h6, label {
   .banner__logo a {
     display: inline-block;
     position: relative;
-    background: url(../assets/ravti-logo.svg) center center no-repeat;
+    background: url(../assets/ravti-logo-black.svg) center center no-repeat;
     height: 18px;
-    width: 57px; }
+    width: 57px;
+    opacity: 0.6; }
 
 .banner__pages-list {
   text-align: right;

@@ -1,5 +1,5 @@
 .nav {
-	background: $base;
+
 }
 
 .banner {
@@ -15,9 +15,10 @@
 	a {
 		display: inline-block;
 		position: relative;
-		background: url(../../assets/ravti-logo.svg) center center no-repeat;
+		background: url(../../assets/ravti-logo-black.svg) center center no-repeat;
 		height: 18px;
 		width: 57px;
+		opacity: 0.6;
 	}
 }
 
