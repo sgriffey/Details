@@ -1,0 +1,61 @@
+.invite {
+	@extend %form-container;
+}
+
+.invite__heading {
+	@include span-columns(12);
+	@include omega();
+}
+
+.invite__form {
+	@extend %form-container;
+}
+
+.invite__form-name,
+.invite__form-auth,
+.invite__form-accept {
+	@include span-columns(12);
+	@include omega();
+}
+
+.invite__form-field {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+}
+
+.invite__form-field-label,
+.invite__form-field-input,
+.invite__form-field-inform-text {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(6 of 6);
+		@include omega();
+	}
+}
+
+.invite__form-field-checkbox {
+	@include span-columns(1 of 12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(0.5 of 6);
+		@include omega();
+	}
+}
+
+.invite__form-field-checkbox-text {
+	@include span-columns(11 of 12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(5.5 of 6);
+		@include omega();
+	}
+}

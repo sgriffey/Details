@@ -1,0 +1,116 @@
+.invite {
+	@extend %side-padding;
+	margin-top: $base-spacing-unit;
+	margin-bottom: 0;
+
+	@include media(min-width $bp-med, 12) {
+		margin-top: $double-spacing-unit;
+	}
+}
+
+.invite__heading {
+	font-family: $proxima;
+	font-size: $gamma;
+	font-weight: $base-weight-light;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: 0;
+
+	&::before {
+		content: '';
+		display: block;
+		text-align: center;
+		margin: $base-spacing-unit auto $half-spacing-unit;
+		background: url('../../assets/accept-icon.svg') center center no-repeat;
+		height: 31px;
+		width: 36px;
+	}
+}
+
+.invite__form {
+	@extend %side-padding;
+	margin-bottom: $ss-big;
+}
+
+.invite__form-name {
+	padding-right: $quarter-spacing-unit;
+}
+
+.invite__form-auth {
+	padding-left: $quarter-spacing-unit;
+}
+
+.invite__form-accept {
+	margin-top: $double-spacing-unit;
+	border-top: 1px solid $border-grey;
+}
+
+.invite__form-field-label,
+.invite__form-field-input,
+.invite__form-field-checkbox {
+	@extend %hard-reset;
+}
+
+.invite__form-field {
+	margin-top: $base-spacing-unit;
+
+	textarea {
+		max-width: 100%;
+	}
+}
+
+.invite__form-field-label {
+	letter-spacing: 0;
+	margin-bottom: $quarter-spacing-unit;
+	font-size: $milli;
+	text-transform: uppercase;
+}
+
+.invite__form-field-input {
+	@extend %button-padding;
+	@include vp(box-shadow, inset 0 0 0 2px $border-grey);
+	font-size: $zeta;
+	padding-left: $half-spacing-unit;
+	border: none;
+	font-family: $futura;
+	outline: 0;
+
+	&:active,
+	&:focus {
+		@include vp(box-shadow, inset 0 0 0 2px $blue);
+	}
+}
+
+.invite__form-field-checkbox-text {
+	@extend %form-text;
+	font-weight: $base-weight-light;
+	font-style: italic;
+
+	@include media(min-width $bp-med, 12) {
+		padding-left: $quarter-spacing-unit;
+	}
+
+	a {
+		color: $blue;
+	}
+}
+
+.invite__form-field-inform-text {
+	@extend %form-text;
+	padding-top: $quarter-spacing-unit;
+}
+
+
+.invite__form-button {
+	@extend %button;
+	@include vp(box-shadow, inset 0 0 0 2px rgba(0,0,0,0.2));
+	background: $blue;
+	color: $white;
+	font-weight: $base-weight-heavy;
+	width: 100%;
+
+	&:hover {
+		cursor: pointer;
+		background: darken($blue, 4%);
+	}
+}

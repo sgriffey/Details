@@ -39,3 +39,17 @@
 %base-weight-light {
     font-weight: $base-weight-light;
 }
+
+%body-text {
+    font-family: $proxima;
+    letter-spacing: 0;
+    font-weight: $base-weight-light;
+}
+
+%form-text {
+    font-family: $proxima;
+    letter-spacing: 0;
+    font-weight: $base-weight-heavy;
+    font-size: $milli;
+    color: $sea-grey;
+}

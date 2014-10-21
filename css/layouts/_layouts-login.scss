@@ -1,0 +1,75 @@
+.login {
+	@extend %wrapper;
+}
+
+.login__heading {
+	@include span-columns(12);
+	@include omega();
+}
+
+.login__form {
+	@extend %wrapper;
+}
+
+.login__form-field {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(8 of 12);
+		@include shift(2);
+		@include omega();
+	}
+}
+
+.login__form-field-label,
+.login__form-field-input,
+.login__form-field-inform-text {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(8 of 8);
+		@include omega();
+	}
+}
+
+.login__form-remember {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(4 of 8);
+		@include omega();
+	}
+}
+
+.login__form-field-checkbox {
+	@include span-columns(1 of 12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(0.75 of 4);
+		@include omega();
+	}
+}
+
+.login__form-field-checkbox-text {
+	@include span-columns(6 of 12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(3.25 of 4);
+		@include omega();
+	}
+}
+
+.login__form-forgot {
+	@include span-columns(12);
+	@include omega();
+
+	@include media(min-width $bp-med, 12) {
+		@include span-columns(4 of 8);
+		@include omega();
+	}
+}

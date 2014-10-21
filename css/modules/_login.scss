@@ -1,0 +1,130 @@
+.login {
+	@extend %side-padding;
+	margin-top: $base-spacing-unit;
+	margin-bottom: 0;
+
+	@include media(min-width $bp-med, 12) {
+		margin-top: $double-spacing-unit;
+	}
+}
+
+.login__heading {
+	font-family: $proxima;
+	font-size: $gamma;
+	font-weight: $base-weight-light;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: 0;
+
+	&::before {
+		content: '';
+		display: block;
+		text-align: center;
+		margin: $base-spacing-unit auto $half-spacing-unit;
+		background: url('../../assets/sign-in-icon.svg') center center no-repeat;
+		height: 40px;
+		width: 36px;
+	}
+}
+
+.login__form {
+	@extend %side-padding;
+	margin-bottom: $ss-big;
+}
+
+.login__form-name {
+	padding-right: $quarter-spacing-unit;
+}
+
+.login__form-auth {
+	padding-left: $quarter-spacing-unit;
+}
+
+.login__form-accept {
+	margin-top: $double-spacing-unit;
+	border-top: 1px solid $border-grey;
+}
+
+.login__form-field-label,
+.login__form-field-input,
+.login__form-field-checkbox {
+	@extend %hard-reset;
+}
+
+.login__form-field {
+	margin-top: $base-spacing-unit;
+
+	textarea {
+		max-width: 100%;
+	}
+}
+
+.login__form-field-label {
+	letter-spacing: 0;
+	margin-bottom: $quarter-spacing-unit;
+	font-size: $milli;
+	text-transform: uppercase;
+}
+
+.login__form-field-input {
+	@extend %button-padding;
+	@include vp(box-shadow, inset 0 0 0 2px $border-grey);
+	font-size: $zeta;
+	padding-left: $half-spacing-unit;
+	border: none;
+	font-family: $futura;
+	outline: 0;
+
+	&:active,
+	&:focus {
+		@include vp(box-shadow, inset 0 0 0 2px $blue);
+	}
+}
+
+.login__form-field-checkbox-text {
+	@extend %form-text;
+	margin-bottom: 0;
+
+	@include media(min-width $bp-med, 12) {
+		padding-left: $quarter-spacing-unit;
+	}
+}
+
+.login__form-field-inform-text {
+	@extend %form-text;
+	padding-top: $quarter-spacing-unit;
+}
+
+.login__form-forgot {
+	@extend %form-text;
+	padding-top: $base-spacing-unit;
+
+	a {
+		border-bottom: 1px solid $border-grey;
+
+		&:hover {
+			color: $teal;
+			border-bottom: 1px solid $teal;
+		}
+	}
+
+	@include media(min-width $bp-med, 12) {
+		text-align: right;
+		padding-top: 0;
+	}
+}
+
+
+.login__form-button {
+	@extend %button;
+	@include vp(box-shadow, inset 0 0 0 2px rgba(0,0,0,0.2));
+	background: $blue;
+	color: $white;
+	font-weight: $base-weight-heavy;
+	width: 100%;
+
+	&:hover {
+		cursor: pointer;
+		background: darken($blue, 4%);
+	}
+}
