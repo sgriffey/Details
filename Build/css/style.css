@@ -2750,6 +2750,7 @@ h1, h2, h3, h4, h5, h6, label {
   text-transform: uppercase; }
 
 .login__form-field-input {
+  -webkit-appearance: none;
   -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
   -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
   -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
@@ -2844,6 +2845,7 @@ h1, h2, h3, h4, h5, h6, label {
   letter-spacing: 0; }
 
 .forgot__form-field-input {
+  -webkit-appearance: none;
   -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
   -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
   -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
