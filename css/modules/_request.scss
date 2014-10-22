@@ -9,12 +9,7 @@
 }
 
 .request__tagline {
-	font-family: $proxima;
-	font-size: $gamma;
-	font-weight: $base-weight-light;
-	line-height: 1.4;
-	text-align: center;
-	margin-bottom: 0;
+	@extend %form-title;
 }
 
 .request__tagline-subhead {
