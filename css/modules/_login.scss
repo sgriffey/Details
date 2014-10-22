@@ -1,5 +1,6 @@
 .logging-in {
 	//class where .is-masked toggle binds to
+	@extend %bottom-page-padding;
 }
 
 .login {

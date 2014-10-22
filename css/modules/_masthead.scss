@@ -10,16 +10,16 @@
 	a {
 		display: inline-block;
 		position: relative;
-		background: url(../../assets/ravti-logo.svg) center center no-repeat;
-		height: 18px;
-		width: 57px;
+		background: url(../../assets/ravti__logo-white.svg) center center no-repeat;
+		height: 29px;
+		width: 56px;
 	}
 }
 
 .masthead__pages-list {
 	@extend %hard-reset;
 	text-align: right;
-	padding-top: $half-spacing-unit;
+	padding-top: $quarter-spacing-unit;
 }
 
 .masthead__pages-list-item {

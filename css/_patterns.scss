@@ -6,14 +6,6 @@
 
 %side-padding {
 	padding: 0 $half-spacing-unit;
-
-	@include media(min-width $bp-med max-width $bp-large, 12) {
-		padding: 0 $half-spacing-unit;
-	}
-
-	@include media(min-width $bp-large, 12) {
-		padding: 0;
-	}
 }
 
 %button-padding {
@@ -93,4 +85,8 @@
     font-weight: $base-weight-heavy;
     font-size: $milli;
     color: $sea-grey;
+}
+
+%bottom-page-padding {
+    padding-bottom: $ss-med;
 }

@@ -79,7 +79,7 @@
 
 .request__form {
 	@extend %side-padding;
-	margin-bottom: $ss-big;
+	@extend %bottom-page-padding;
 }
 
 .request__form-field-label,
