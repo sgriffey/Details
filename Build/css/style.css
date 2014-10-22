@@ -653,7 +653,7 @@ i {
     .masthead, .prompt, .interest, .trust, .value, .feature-glance, .feature-list, .footer, .banner, .intro, .request, .request__proof, .request__form, .capture, .capture__proof, .capture__form, .text, .invite, .invite__form, .login, .login__form, .forgot, .forgot__form {
       padding: 0; } }
 
-.prompt__button, .interest__form-button, .trust__button, .request__form-button, .capture__form-button, .invite__form-button, .login__form-button, .forgot__form-commit-button, .interest__form-field-input, .request__form-field-input, .capture__form-field-input, .invite__form-field-input, .login__form-field-input, .forgot__form-field-input {
+.prompt__button, .interest__form-button, .trust__button, .request__form-button, .capture__form-button, .invite__form-button, .login__form-button, .forgot__form-commit-button, .interest__form-field-input, .request__form-field-input, .invite__form-field-input, .login__form-field-input, .forgot__form-field-input, .capture__form-field-input {
   padding: 0.8em 2em 0.7em 2em; }
 
 .prompt__button, .interest__form-button, .trust__button, .request__form-button, .capture__form-button, .invite__form-button, .login__form-button, .forgot__form-commit-button {
@@ -663,6 +663,54 @@ i {
   display: inline-block;
   position: relative;
   vertical-align: middle; }
+
+.interest__form-field-input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 0 2px #93989c;
+  -ms-box-shadow: inset 0 0 0 2px #93989c;
+  -moz-box-shadow: inset 0 0 0 2px #93989c;
+  -o-box-shadow: inset 0 0 0 2px #93989c;
+  box-shadow: inset 0 0 0 2px #93989c;
+  font-size: 19.2px;
+  padding-left: 11.2px;
+  border: none;
+  outline: none;
+  font-family: "futura-pt", sans-serif; }
+  .interest__form-field-input:active, .interest__form-field-input:focus {
+    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
+    -ms-box-shadow: inset 0 0 0 2px #5883ed;
+    -moz-box-shadow: inset 0 0 0 2px #5883ed;
+    -o-box-shadow: inset 0 0 0 2px #5883ed;
+    box-shadow: inset 0 0 0 2px #5883ed; }
+
+.request__form-field-input, .invite__form-field-input, .login__form-field-input, .forgot__form-field-input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
+  -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
+  -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
+  -o-box-shadow: inset 0 0 0 2px #e2e3e6;
+  box-shadow: inset 0 0 0 2px #e2e3e6;
+  font-size: 16px;
+  padding-left: 11.2px;
+  border: none;
+  font-family: "futura-pt", sans-serif;
+  outline: 0; }
+  .request__form-field-input:active, .invite__form-field-input:active, .login__form-field-input:active, .forgot__form-field-input:active, .request__form-field-input:focus, .invite__form-field-input:focus, .login__form-field-input:focus, .forgot__form-field-input:focus {
+    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
+    -ms-box-shadow: inset 0 0 0 2px #5883ed;
+    -moz-box-shadow: inset 0 0 0 2px #5883ed;
+    -o-box-shadow: inset 0 0 0 2px #5883ed;
+    box-shadow: inset 0 0 0 2px #5883ed; }
 
 h1, h2, h3, h4, h5, h6, label {
   letter-spacing: -1.1px;
@@ -2053,16 +2101,8 @@ h1, h2, h3, h4, h5, h6, label {
     background: #4675eb; }
 
 .interest {
-  margin-top: 22.4px;
+  margin-top: 5rem;
   margin-bottom: 22.4px; }
-  .interest::before {
-    content: '';
-    background: transparent;
-    height: 1px;
-    width: 100%;
-    border-bottom: 2px dotted #f7f8fa;
-    display: block;
-    margin: 44.8px 0 44.8px; }
   @media screen and (min-width: 46.8em) {
     .interest {
       margin-bottom: 0; } }
@@ -2080,24 +2120,6 @@ h1, h2, h3, h4, h5, h6, label {
 
 .interest__form-field-label {
   display: none; }
-
-.interest__form-field-input {
-  -webkit-box-shadow: inset 0 0 0 2px #93989c;
-  -ms-box-shadow: inset 0 0 0 2px #93989c;
-  -moz-box-shadow: inset 0 0 0 2px #93989c;
-  -o-box-shadow: inset 0 0 0 2px #93989c;
-  box-shadow: inset 0 0 0 2px #93989c;
-  font-size: 19.2px;
-  padding-left: 11.2px;
-  border: none;
-  outline: none;
-  font-family: "futura-pt", sans-serif; }
-  .interest__form-field-input:active, .interest__form-field-input:focus {
-    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
-    -ms-box-shadow: inset 0 0 0 2px #5883ed;
-    -moz-box-shadow: inset 0 0 0 2px #5883ed;
-    -o-box-shadow: inset 0 0 0 2px #5883ed;
-    box-shadow: inset 0 0 0 2px #5883ed; }
 
 .interest__form-button {
   -webkit-box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
@@ -2224,8 +2246,14 @@ h1, h2, h3, h4, h5, h6, label {
   font-size: 13.33333px;
   margin-bottom: 67.2px; }
 
-.feature-glance {
-  padding-top: 5rem; }
+.feature-glance::before {
+  content: '';
+  background: transparent;
+  height: 1px;
+  width: 100%;
+  border-bottom: 2px dotted #f7f8fa;
+  display: block;
+  margin: 5rem 0 5rem; }
 
 .feature__tagline {
   font-size: 27.648px;
@@ -2443,24 +2471,6 @@ h1, h2, h3, h4, h5, h6, label {
   font-size: 13.33333px;
   text-transform: uppercase; }
 
-.request__form-field-input {
-  -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -o-box-shadow: inset 0 0 0 2px #e2e3e6;
-  box-shadow: inset 0 0 0 2px #e2e3e6;
-  font-size: 16px;
-  padding-left: 11.2px;
-  border: none;
-  font-family: "futura-pt", sans-serif;
-  outline: 0; }
-  .request__form-field-input:active, .request__form-field-input:focus {
-    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
-    -ms-box-shadow: inset 0 0 0 2px #5883ed;
-    -moz-box-shadow: inset 0 0 0 2px #5883ed;
-    -o-box-shadow: inset 0 0 0 2px #5883ed;
-    box-shadow: inset 0 0 0 2px #5883ed; }
-
 .request__form-button {
   -webkit-box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
@@ -2662,24 +2672,6 @@ h1, h2, h3, h4, h5, h6, label {
   font-size: 13.33333px;
   text-transform: uppercase; }
 
-.invite__form-field-input {
-  -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -o-box-shadow: inset 0 0 0 2px #e2e3e6;
-  box-shadow: inset 0 0 0 2px #e2e3e6;
-  font-size: 16px;
-  padding-left: 11.2px;
-  border: none;
-  font-family: "futura-pt", sans-serif;
-  outline: 0; }
-  .invite__form-field-input:active, .invite__form-field-input:focus {
-    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
-    -ms-box-shadow: inset 0 0 0 2px #5883ed;
-    -moz-box-shadow: inset 0 0 0 2px #5883ed;
-    -o-box-shadow: inset 0 0 0 2px #5883ed;
-    box-shadow: inset 0 0 0 2px #5883ed; }
-
 .invite__form-field-input[placeholder] {
   color: #e2e3e6; }
 
@@ -2748,25 +2740,6 @@ h1, h2, h3, h4, h5, h6, label {
   margin-bottom: 5.6px;
   font-size: 13.33333px;
   text-transform: uppercase; }
-
-.login__form-field-input {
-  -webkit-appearance: none;
-  -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -o-box-shadow: inset 0 0 0 2px #e2e3e6;
-  box-shadow: inset 0 0 0 2px #e2e3e6;
-  font-size: 16px;
-  padding-left: 11.2px;
-  border: none;
-  font-family: "futura-pt", sans-serif;
-  outline: 0; }
-  .login__form-field-input:active, .login__form-field-input:focus {
-    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
-    -ms-box-shadow: inset 0 0 0 2px #5883ed;
-    -moz-box-shadow: inset 0 0 0 2px #5883ed;
-    -o-box-shadow: inset 0 0 0 2px #5883ed;
-    box-shadow: inset 0 0 0 2px #5883ed; }
 
 .login__form-field-checkbox-text {
   margin-bottom: 0; }
@@ -2843,25 +2816,6 @@ h1, h2, h3, h4, h5, h6, label {
   font-size: 13.33333px;
   font-family: "proxima-nova", sans-serif;
   letter-spacing: 0; }
-
-.forgot__form-field-input {
-  -webkit-appearance: none;
-  -webkit-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -ms-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -moz-box-shadow: inset 0 0 0 2px #e2e3e6;
-  -o-box-shadow: inset 0 0 0 2px #e2e3e6;
-  box-shadow: inset 0 0 0 2px #e2e3e6;
-  font-size: 16px;
-  padding-left: 11.2px;
-  border: none;
-  font-family: "futura-pt", sans-serif;
-  outline: 0; }
-  .forgot__form-field-input:active, .forgot__form-field-input:focus {
-    -webkit-box-shadow: inset 0 0 0 2px #5883ed;
-    -ms-box-shadow: inset 0 0 0 2px #5883ed;
-    -moz-box-shadow: inset 0 0 0 2px #5883ed;
-    -o-box-shadow: inset 0 0 0 2px #5883ed;
-    box-shadow: inset 0 0 0 2px #5883ed; }
 
 .forgot__form-field-checkbox-text {
   margin-bottom: 0; }

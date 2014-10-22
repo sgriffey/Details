@@ -98,18 +98,7 @@
 }
 
 .request__form-field-input {
-	@extend %button-padding;
-	@include vp(box-shadow, inset 0 0 0 2px $border-grey);
-	font-size: $zeta;
-	padding-left: $half-spacing-unit;
-	border: none;
-	font-family: $futura;
-	outline: 0;
-
-	&:active,
-	&:focus {
-		@include vp(box-shadow, inset 0 0 0 2px $blue);
-	}
+	@extend %standard-form-input;
 }
 
 .request__form-button {

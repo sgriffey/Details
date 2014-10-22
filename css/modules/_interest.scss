@@ -1,17 +1,7 @@
 .interest {
 	@extend %side-padding;
-	margin-top: $base-spacing-unit;
+	margin-top: $ss-small;
 	margin-bottom: $base-spacing-unit;
-
-	&::before {
-		content: '';
-		background: transparent;
-		height: 1px;
-		width: 100%;
-		border-bottom: 2px dotted $elephant-tusk;
-		display: block;
-		margin: $double-spacing-unit 0 $double-spacing-unit;
-	}
 
 	@include media(min-width $bp-med, 12) {
 		margin-bottom: 0;
@@ -41,18 +31,7 @@
 }
 
 .interest__form-field-input {
-	@extend %button-padding;
-	@include vp(box-shadow, inset 0 0 0 2px $sea-grey);
-	font-size: $epsilon;
-	padding-left: $half-spacing-unit;
-	border: none;
-	outline: none;
-	font-family: $futura;
-
-	&:active,
-	&:focus {
-		@include vp(box-shadow, inset 0 0 0 2px $blue);
-	}
+	@extend %emphasized-form-input;
 }
 
 .interest__form-button {

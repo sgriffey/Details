@@ -4,7 +4,15 @@
 
 .feature-glance {
 	@extend %side-padding;
-	padding-top: $ss-small;
+	&::before {
+			content: '';
+			background: transparent;
+			height: 1px;
+			width: 100%;
+			border-bottom: 2px dotted $elephant-tusk;
+			display: block;
+			margin: $ss-small 0 $ss-small;
+		}
 }
 
 .feature-list {

@@ -30,6 +30,40 @@
     vertical-align: middle;
 }
 
+%emphasized-form-input {
+    -webkit-appearance: none;
+    @extend %button-padding;
+    @include vp(border-radius, 0);
+    @include vp(box-shadow, inset 0 0 0 2px $sea-grey);
+    font-size: $epsilon;
+    padding-left: $half-spacing-unit;
+    border: none;
+    outline: none;
+    font-family: $futura;
+
+    &:active,
+    &:focus {
+        @include vp(box-shadow, inset 0 0 0 2px $blue);
+    }
+}
+
+%standard-form-input {
+    -webkit-appearance: none;
+    @extend %button-padding;
+    @include vp(border-radius, 0);
+    @include vp(box-shadow, inset 0 0 0 2px $border-grey);
+    font-size: $zeta;
+    padding-left: $half-spacing-unit;
+    border: none;
+    font-family: $futura;
+    outline: 0;
+
+    &:active,
+    &:focus {
+        @include vp(box-shadow, inset 0 0 0 2px $blue);
+    }
+}
+
 %kerned-heading {
     letter-spacing: -1.1px;
     font-weight: $base-weight-heavy;
