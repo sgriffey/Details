@@ -2,6 +2,11 @@
 	@extend %form-container;
 }
 
+.request__fan-illustration {
+	@include span-columns(12);
+	@include omega();
+}
+
 .request__tagline {
 	@include span-columns(12);
 	@include omega();

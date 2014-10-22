@@ -1,17 +1,27 @@
 .request {
 	@extend %side-padding;
-	margin-top: $double-spacing-unit;
+	margin-top: $base-spacing-unit;
 	margin-bottom: 0;
 
 	@include media(min-width $bp-med, 12) {
-		margin-top: $triple-spacing-unit;
+		margin-top: $double-spacing-unit;
 	}
 }
 
 .request__tagline {
 	@extend %form-title;
-}
 
+	&::before {
+		content: '';
+		display: block;
+		text-align: center;
+		margin: 0 auto $half-spacing-unit;
+		background: url('../../assets/fan.svg') center center no-repeat;
+		height: 40px;
+		width: 40px;
+	}
+}
+	
 .request__tagline-subhead {
 	text-align: center;
 	color: $sea-grey;

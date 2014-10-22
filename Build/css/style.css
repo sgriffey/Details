@@ -680,7 +680,7 @@ i {
   padding-left: 11.2px;
   border: none;
   outline: none;
-  font-family: "futura-pt", sans-serif; }
+  font-family: "proxima-nova", sans-serif; }
   .interest__form-field-input:active, .interest__form-field-input:focus {
     -webkit-box-shadow: inset 0 0 0 2px #5883ed;
     -ms-box-shadow: inset 0 0 0 2px #5883ed;
@@ -703,7 +703,7 @@ i {
   font-size: 16px;
   padding-left: 11.2px;
   border: none;
-  font-family: "futura-pt", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   outline: 0; }
   .request__form-field-input:active, .invite__form-field-input:active, .login__form-field-input:active, .forgot__form-field-input:active, .request__form-field-input:focus, .invite__form-field-input:focus, .login__form-field-input:focus, .forgot__form-field-input:focus {
     -webkit-box-shadow: inset 0 0 0 2px #5883ed;
@@ -1259,6 +1259,15 @@ h1, h2, h3, h4, h5, h6, label {
       margin-right: 0; }
       .intro__copy:last-child {
         margin-right: 0; } }
+
+.request__fan-illustration {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .request__fan-illustration:last-child {
+    margin-right: 0; }
 
 .request__tagline {
   float: left;
@@ -2419,11 +2428,20 @@ h1, h2, h3, h4, h5, h6, label {
       font-size: 23.04px; } }
 
 .request {
-  margin-top: 44.8px;
+  margin-top: 22.4px;
   margin-bottom: 0; }
   @media screen and (min-width: 46.8em) {
     .request {
-      margin-top: 67.2px; } }
+      margin-top: 44.8px; } }
+
+.request__tagline::before {
+  content: '';
+  display: block;
+  text-align: center;
+  margin: 0 auto 11.2px;
+  background: url(../assets/fan.svg) center center no-repeat;
+  height: 40px;
+  width: 40px; }
 
 .request__tagline-subhead {
   text-align: center;
