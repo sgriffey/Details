@@ -10,17 +10,16 @@
 	color: $base;
 	font-size: $beta;
 	line-height: 1.1;
-	padding-top: $ss-med;
+	padding-top: $ss-small;
 
 	@include media(min-width $bp-med, 12) {
-		padding-top: $ss-med;
+		padding-top: $ss-small;
 		font-size: 3rem;
 	}
 }
 
 .intro__copy {
 	color: $white;
-	opacity: 0.8;
 	font-size: $epsilon;
 	line-height: 1.4;
 	margin-top: 0;

@@ -4,13 +4,11 @@
 }
 
 .text__title {
-	text-align: center;
-	font-size: $epsilon;
-	margin-bottom: 0;
+	@extend %form-title;
 }
 
 .text__accent {
-	color: $teal;
+	color: $charcoal;
 	font-size: $zeta;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -27,7 +25,6 @@
 	li {
 		margin-top: $base-spacing-unit;
 		padding-bottom: $quarter-spacing-unit;
-		border-bottom: 1px dotted $border-grey;
 	}
 
 	a:hover {
@@ -43,5 +40,9 @@
 		margin-top: 0;
 		padding-top: $quarter-spacing-unit
 	}
+}
+
+.jobs__list {
+	padding-top: $base-spacing-unit;
 }
 

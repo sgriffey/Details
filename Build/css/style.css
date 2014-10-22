@@ -451,12 +451,12 @@ table {
     display: table;
     clear: both; }
 
-.trust, .trust__figure, .request__form, .text, .login, .login__form, .forgot, .forgot__form, .timeline {
+.trust, .trust__figure, .request__form, .text, .jobs, .login, .login__form, .forgot, .forgot__form, .timeline {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 32.8rem; }
-  .trust:after, .trust__figure:after, .request__form:after, .text:after, .login:after, .login__form:after, .forgot:after, .forgot__form:after, .timeline:after {
+  .trust:after, .trust__figure:after, .request__form:after, .text:after, .jobs:after, .login:after, .login__form:after, .forgot:after, .forgot__form:after, .timeline:after {
     content: "";
     display: table;
     clear: both; }
@@ -720,7 +720,7 @@ h1, h2, h3, h4, h5, h6, label {
 .trust__sub-heading, .forgot__form-field-label {
   font-weight: 400; }
 
-.invite__heading, .login__heading, .forgot__heading {
+.text__title, .invite__heading, .login__heading, .forgot__heading {
   font-size: 27.648px;
   line-height: 1.2;
   text-align: center;
@@ -1545,6 +1545,27 @@ h1, h2, h3, h4, h5, h6, label {
     margin-right: 0; }
     .text__list span:last-child {
       margin-right: 0; }
+
+.jobs__list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .jobs__list:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .jobs__list {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .jobs__list:last-child {
+        margin-right: 0; }
+      .jobs__list:nth-child(2n) {
+        margin-right: 0; }
+      .jobs__list:nth-child(2n+1) {
+        clear: left; } }
 
 .invite__heading {
   float: left;
@@ -2381,15 +2402,14 @@ h1, h2, h3, h4, h5, h6, label {
   color: #0b0c0c;
   font-size: 33.1776px;
   line-height: 1.1;
-  padding-top: 6.25rem; }
+  padding-top: 5rem; }
   @media screen and (min-width: 46.8em) {
     .intro__tagline {
-      padding-top: 6.25rem;
+      padding-top: 5rem;
       font-size: 3rem; } }
 
 .intro__copy {
   color: white;
-  opacity: 0.8;
   font-size: 19.2px;
   line-height: 1.4;
   margin-top: 0;
@@ -2604,13 +2624,8 @@ h1, h2, h3, h4, h5, h6, label {
 .text {
   margin: 67.2px auto 8.75rem; }
 
-.text__title {
-  text-align: center;
-  font-size: 19.2px;
-  margin-bottom: 0; }
-
 .text__accent {
-  color: #66c3b0;
+  color: #4a4a4a;
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -2621,8 +2636,7 @@ h1, h2, h3, h4, h5, h6, label {
 
 .text__list li {
   margin-top: 22.4px;
-  padding-bottom: 5.6px;
-  border-bottom: 1px dotted #e2e3e6; }
+  padding-bottom: 5.6px; }
 .text__list a:hover {
   color: #66c3b0; }
 .text__list span {
@@ -2631,6 +2645,9 @@ h1, h2, h3, h4, h5, h6, label {
 .text__list li:first-of-type {
   margin-top: 0;
   padding-top: 5.6px; }
+
+.jobs__list {
+  padding-top: 22.4px; }
 
 .invite {
   margin-top: 22.4px;
