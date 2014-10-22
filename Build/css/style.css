@@ -2322,7 +2322,7 @@ h1, h2, h3, h4, h5, h6, label {
   background: url(../assets/haggle.svg) center center no-repeat; }
 
 .page-footer {
-  margin: 6.25rem 0 44.8px; }
+  padding: 5rem 0 5rem; }
 
 .footer {
   padding-top: 11.2px;
