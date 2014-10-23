@@ -1968,7 +1968,14 @@ h1, h2, h3, h4, h5, h6, label {
       color: #0b0c0c; }
 
 .timeline__image {
-  padding-top: 22.4px; }
+  padding: 22.4px;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  background: #e2e3e6;
+  margin-top: 22.4px; }
 
 .typography {
   padding: 44.8px 11.2px 22.4px;

@@ -53,5 +53,8 @@
 }
 
 .timeline__image {
-	padding-top: $base-spacing-unit;
+	padding: $base-spacing-unit;
+	@include vp(box-shadow, 0 0 2px 0 rgba(0,0,0,0.2));
+	background: $border-grey;
+	margin-top: $base-spacing-unit;
 }
