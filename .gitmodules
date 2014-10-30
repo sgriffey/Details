@@ -3,4 +3,4 @@
 	url = https://github.com/ravti/homepage.git
 [submodule "ravti/pattern-library"]
 	path = ravti/pattern-library
-	url = https://github.com/ravti/pattern-library.git
+	url = git@github.com:Ravti/pattern-library.git
