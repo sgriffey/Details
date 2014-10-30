@@ -16,7 +16,7 @@
 <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
 <link rel="apple-touch-icon-precomposed" href="/assets/favi-57.png">
 <link rel="icon" href="/assets/favi-32.png" sizes="32x32">
-  <link rel='stylesheet' href='../../css/style.css'>
+  <link rel='stylesheet' href='../../Build/css/style.css'>
   <title>Ravti | Digitize Your HVAC</title> 
   <script src="//use.typekit.net/pti5qzj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
@@ -40,11 +40,11 @@
 	  		<div class="prompt__cta">
 		  		<h1 class="prompt__tagline">Meet the future of HVAC Managment</h1>
 		  		<p class="prompt__copy">Let us save you 18-40% on every HVAC servicing, from now on.</p>
-		  		<a href="/ravti/discussion/request.html"><span class="prompt__button">Learn more</span></a>
+		  		<a href="/ravti/discussion/capture.html"><button class="prompt__button">Learn more</button></a>
 	  		</div>
 	  	</div>
 	</section>
-	<div class="accent">
+	<div class="layout__accent">
 		<section class="value">
 			<article class="value__offering time">
 				<h3 class="value__offering-benefit">Time Saving</h3>
@@ -60,39 +60,46 @@
 			</article>
 		</section>
 	</div>
-	<section class="accent-section">
 		<div class="trust">
 			<figure class="trust__figure">
 				<img class="trust__figure-image" src="http://cdn2.dropmark.com/72454/2f6536ff3a05b929b12f4928f37f1b91df91203c/ipad-trust.png" />
 			</figure>
 			<h2 class="trust__tagline">HVAC, managed digitally.</h2>
 			<h4 class="trust__sub-heading">It's Smart, Transparent, &amp; Easy.</h4>
-			<a href="/ravti/discussion/request.html"><span class="trust__button">Get Started</span></a>
+			<a href="/ravti/discussion/capture.html"><button class="trust__button" type="button">Get Started</button></a>
 		</div>
-	</section>
-	<section class="interest">
-		<h2 class="interest__tagline">Let us help with your next project.</h2>
-		<form class="interest__form">
-			<div class="interest__form-field">
-				<label class="interest__form-field-label">Name</label>
-				<input class="interest__form-field-input" type="text" placeholder="Your Name">
+	<div class="layout__accent">
+		<section class="interest">
+			<h2 class="interest__tagline">Let us help with your next project.</h2>
+			<form class="interest__form">
+				<div class="interest__form-field  is-invalid">
+					<label class="interest__form-field-label">Name</label>
+					<input class="interest__form-field-input" type="text" placeholder="Your Name">
+					<span class="interest__form-field-inform-text is-invalid">Alert text that your name is already entered into field.</span>
+				</div>
+				<div class="interest__form-field">
+					<label class="interest__form-field-label">Email</label>
+					<input class="interest__form-field-input" type="text" placeholder="Your Email">
+				</div>
+				<div class="interest__form-field">
+					<label class="interest__form-field-label">Phone</label>
+					<input class="interest__form-field-input" type="text" placeholder="Your Phone Number">
+				</div>
+				<div class="interest__form-field">
+					<button class="interest__form-button" id="interest-submit" type="button">Get in touch</button>
+				</div>
+			</form>
+		</section>
+		<section class="alert is-hidden">
+			<div class="alert__success">
+				<h3 class="alert__success-header">Success!</h3>
+				<p class="alert__success-copy">Your information has been submitted. Expect an email in your inbox shortly.</p>
 			</div>
-			<div class="interest__form-field">
-				<label class="interest__form-field-label">Email</label>
-				<input class="interest__form-field-input" type="text" placeholder="Your Email">
-			</div>
-			<div class="interest__form-field">
-				<label class="interest__form-field-label">Phone</label>
-				<input class="interest__form-field-input" type="text" placeholder="Your Phone Number">
-			</div>
-			<div class="interest__form-field">
-				<button class="interest__form-button">Get in touch</button>
-			</div>
-		</form>
-	</section>
+		</section>
+	</div>
 	<section class="features">
 		<div class="feature-glance">
-			<h2 class="feature__tagline">The key to happiness</h2>
+			<h2 class="feature__tagline">The keys to happiness</h2>
 		</div>
 		<div class="feature-list">
 			<article class="feature__offering">
@@ -130,5 +137,7 @@
 	  	</footer>
 	</section>
   </main>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src='../../../../app.js'></script>
 </body>
 </html>

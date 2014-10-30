@@ -1,9 +1,12 @@
 .typography {
 	@extend %narrow-container;
+	margin-top: $ss-med;
+	color: $base;
 }
 
 .typography__family {
 	@include span-columns(12);
+	font-family: $proxima;
 }
 
 .typography__sub-header {
