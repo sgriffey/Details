@@ -1,3 +1,6 @@
 [submodule "ravti/homepage"]
 	path = ravti/homepage
 	url = https://github.com/ravti/homepage.git
+[submodule "ravti/pattern-library"]
+	path = ravti/pattern-library
+	url = https://github.com/ravti/pattern-library.git
