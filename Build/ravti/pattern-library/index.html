@@ -16,7 +16,8 @@
 <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
 <link rel="apple-touch-icon-precomposed" href="/assets/favi-57.png">
 <link rel="icon" href="/assets/favi-32.png" sizes="32x32">
-  <link rel='stylesheet' href='../homepage/Build/css/style.css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel='stylesheet' href='js/select2.css'>
   <title>Ravti Pattern Library</title> 
   <script src="//use.typekit.net/pti5qzj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
@@ -66,11 +67,13 @@
 	<div class="form__buttons">
 		<button class="form__buttons-neutral">Neutral</button><button class="form__buttons-encourage">Encourage</button><button class="form__buttons-discourage">Discourage</button>
 	</div>
+	<hr>
 	<div class="form__buttons">
 		<button class="form__buttons-group">
 			<a href="/" class="form__buttons-group-item" value="active">Uno</a><a href="/" class="form__buttons-group-item">Dos</a><a href="/" class="form__buttons-group-item">Tres</a>
 		</button>
 	</div>
+	<hr>
 	<div class="form__buttons">
 		<div class="toggle">
 			<input type="checkbox" class="check">
@@ -78,8 +81,68 @@
 			<b class="b track"></b>
 		</div>
 	</div>
+	<hr>
+	<div class="form__selects">
+		<select class="form__select-drop"><option value="">Select an option</option> <option value="1">option 1</option> <option value="2">option 2</option> <option value="3">option 3</option> </select>
+	</div>
+	<hr>
+	<div class="form__selects">
+		<label class="form__selects-label"> <input type="radio" checked class="form__select-radio"> Checked</label><label class="form__selects-label"> <input type="radio" class="form__select-radio" disabled="true"> Disabled</label>
+		<label class="form__selects-label"> <input type="radio" class="form__select-radio" checked disabled="true"> Disabled checked</label>
+	</div>
+	<hr>
+	<form class="form__selects">
+		<input type="radio" class="form__select-radio" name="usability" id="Luke" value="Luke">
+		<label class="form__selects-inline-label" for="Luke">Luke W. would</label>
+		<input type="radio" class="form__select-radio" id="frown" name="usability" value="frown">
+		<label class="form__selects-inline-label" for="frown">froms upon inline</label>
+		<input type="radio" class="form__select-radio" id="form" name="usability" value="form">
+		<label class="form__selects-inline-label" for="form">form usability</label>
+	</form>
+	<hr>
+	<div class="form__selects">
+		<label class="form__selects-label"> <input type="checkbox" checked class="form__select-check">This option</label><label class="form__selects-label"><input type="checkbox" class="form__select-check">That option</label><label class="form__selects-label"><input type="checkbox" class="form__select-check">Or maybe this one</label>
+	</div>
+	<hr>
+	<div class="form__selects">
+		<label class="form__selects-inline-label"> <input type="checkbox" checked class="form__select-check">Inline works &mdash;</label><label class="form__selects-inline-label"><input type="checkbox" class="form__select-check">bad usability</label><label class="form__selects-inline-label"><input type="checkbox" class="form__select-check">pattern, however</label>
+	</div>
+	<hr>
+	<div class="form__input">
+		<input type="text" class="form__input-field-bleed"><button class="form__input-button" type="button">Submit</button>
+	</div>
+	<hr>
+	<div class="form__input">
+		<label class="form__input-field-label">Name</label>
+		<input type="text" class="form__input-field">
+	</div>
+	<hr>
+	<div class="form__input">
+		<label class="form__input-file-button">
+			<input type="file" class="form__input-file">
+		</label>
+	</div>
+</section>
+			<section class="library__chapter">
+	<div class="form__input">
+		<label class="form__input-field-label">Name</label>
+		<input type="text" class="form__input-field" id="select2">
+	</div>
 </section>
 		</section>
 	</main>
+
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="../js/select2.js"></script>
+	    <script src="../js/select-menus.js"></script>
+	    <script type='text/javascript'>
+			$(function() {
+				$('#select2').select2({ 
+					data: [{ id: 0, text: 'red' }, { id: 1, text: 'blue' }],
+					dropdownCssClass: 'bigdrop'
+				});
+			});
+	    </script>
+
 </body>
 </html>
