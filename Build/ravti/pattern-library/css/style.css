@@ -442,13 +442,13 @@ table {
 /**
  * Grid
  */
-main {
+main, .container {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
   max-width: 67.5rem; }
-  main:after {
+  main:after, .container:after {
     content: "";
     display: table;
     clear: both; }
@@ -930,8 +930,10 @@ main {
 
 .form__select-drop {
   text-transform: none;
-  padding-left: 16px;
-  padding-left: 1rem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  padding-right: 33.6px;
+  padding-right: 33.6px/16pxrem;
   border-radius: 0;
   background: url(../assets/caret-down.svg) right center;
   background-repeat: no-repeat;
@@ -1571,6 +1573,63 @@ dd {
 .small-copy {
   max-width: 530px;
   max-width: 33.125rem; }
+
+.siteNav {
+  border-right: 1px solid #e3e5ea;
+  display: block; }
+
+.siteNav__hero {
+  background: #66c3b0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 260px;
+  height: 16.25rem; }
+
+.siteNav__hero-title {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  padding-right: 22.4px;
+  padding-right: 1.4rem; }
+  .siteNav__hero-title h1 {
+    -webkit-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    padding: 5.6px 22.4px;
+    background: #092f3e;
+    color: white;
+    letter-spacing: -0.8px;
+    text-align: center; }
+
+.siteNav__sidebar {
+  height: 100%;
+  top: 260px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  display: block;
+  left: 0;
+  overflow: auto; }
+
+.siteNav__sidebar-chapter {
+  background: #66c3b0;
+  padding: 11.2px;
+  padding: 0.7rem;
+  position: relative; }
+  .siteNav__sidebar-chapter:nth-child(odd) {
+    background: rgba(102, 195, 176, 0.6); }
 
 /*
 Select2 Base Styling
@@ -2349,3 +2408,95 @@ disabled look for disabled choices in the results dropdown
         margin-right: 0; }
       .form__col-3:nth-child(3n+1) {
         clear: left; } }
+
+.siteNav__hero
+.siteNav__sidebar {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 260px;
+  max-width: 16.25rem; }
+  .siteNav__hero
+  .siteNav__sidebar:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.siteNav__hero-title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .siteNav__hero-title:last-child {
+    margin-right: 0; }
+
+.siteNav__sidebar-chapter {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .siteNav__sidebar-chapter:last-child {
+    margin-right: 0; }
+
+.main {
+  position: absolute;
+  left: 260px;
+  left: 16.25rem; }
+
+.content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .content:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .content {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .content:last-child {
+        margin-right: 0; } }
+
+.content__chapter {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .content__chapter:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .content__chapter {
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 100%;
+      margin-right: 0; }
+      .content__chapter:last-child {
+        margin-right: 0; } }
+
+.content__chapter-title,
+.content__chapter-purpose {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .content__chapter-title:last-child,
+  .content__chapter-purpose:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .content__chapter-title,
+    .content__chapter-purpose {
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 77.07368%;
+      margin-right: 0; }
+      .content__chapter-title:last-child,
+      .content__chapter-purpose:last-child {
+        margin-right: 0; } }

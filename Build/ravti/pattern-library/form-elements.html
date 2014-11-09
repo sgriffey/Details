@@ -84,6 +84,9 @@
 			<label class="form__input-field-label">Text Area</label>
 			<textarea class="form__input-field-text" placeholder="Enter message here..." rows="4"></textarea>
 		</form>
+		<div class="form__input-bleed">
+			<input type="text" class="form__input-field-bleed"><input class="form__input-button-bleed" type="button" value="Submit">
+		</div>
 	</section>
 	<aside class="library__notes">
 		<span class="library__notes-dogear">Notes</span>
@@ -139,15 +142,29 @@
 		<p class="library__notes-brief">These are toggle switches. They might have to be refactored. Hold that thought.</p>
 	</aside>
 	<hr>
-	<div class="form__selects">
-		<select class="form__select-drop"><option value="">Select an option</option> <option value="1">option 1</option> <option value="2">option 2</option> <option value="3">option 3</option> </select>
-	</div>
+	<section class="library__chapter-section">
+		<h3 class="library__chapter-section-title">Selects (&amp; Select2)</h3>
+		<div class="form__selects">
+			<select class="form__select-drop"><option value="">Select a brand</option><option value="1">Nike</option><option value="2">Apple</option><option value="3">Jawbone</option><option value="3">Square</option></select>
+		</div>
+		<div class="form__input">
+			<label class="form__input-field-label">Search Select Input</label>
+			<input type="text" id="search-select">
+		</div>
+		<div class="form__input">
+			<label class="form__input-field-label">Multi Select Input</label>
+			<input type="text" id="multi-tags">
+		</div>
+	</section>
+	<aside class="library__notes">
+		<span class="library__notes-dogear">Notes</span>
+		<p class="library__notes-brief">This is how we treat text inputs. I will expand on this furter. For now, pretty straight-forward. <code>@extend %regular-input;</code> styles a regular input as seen above. For simple views (e.g. app sign in) where the system is focused on a specific action, use <code>@extend %large-input</code></p>
+	</aside>
 	<hr>
-	<div class="form__input-bleed">
-		<input type="text" class="form__input-field-bleed"><input class="form__input-button-bleed" type="button" value="Submit">
-	</div>
-	<hr>
-	<div class="form__input">
+	<section class="library__chapter-section">
+		<h3 class="library__chapter-section-title">Inputs</h3>
+
+		<div class="form__input">
 		<label class="form__input-field-label">Name</label>
 		<input type="text" class="form__input-field">
 		<label class="form__input-field-label">Disabled Input</label>
@@ -155,6 +172,11 @@
 		<label class="form__input-field-label">Text Area</label>
 		<textarea class="form__input-field-text" placeholder="Enter message here..." rows="4"></textarea>
 	</div>
+	</section>
+	<aside class="library__notes">
+		<span class="library__notes-dogear">Notes</span>
+		<p class="library__notes-brief">This is how we treat text inputs.</p>
+	</aside>
 	<hr>
 	<div class="form__input">
 		<label class="form__input-file-button">Upload File
