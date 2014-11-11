@@ -22,24 +22,26 @@
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<header class="hero">
-			<div class="hero__title">
-				<h1>Ravti</h1>
-				<h1>Pattern Library</h1>
+	<nav class="siteNav">
+		<a class='current-parent' href="index.html">
+		<header class="siteNav__moniker">
+			<div class="siteNav__moniker-heading">
+				<h1 class="siteNav__moniker-title">Ravti</h1>
+				<h1 class="siteNav__moniker-title">Pattern Library</h1>
 			</div>
-	</header>
-	<main>
-		<nav class="sidebar">
-			<ul>
-				<li class='current-parent'><a href="index.html" class="current-parent sidebar__chapter">About</a></li>
-				<li><a href="color.html" class="sidebar__chapter">Colors</a></li>
-				<li><a href="typography.html" class="sidebar__chapter">Typography</a></li>
-				<li><a href="form-elements.html" class="sidebar__chapter">Form Elements</a></li>
-				<li class='current current'><a href="tables.html" class="current current sidebar__chapter selected">Tables</a></li>
-			</ul>
-		</nav>
-		<section class="library">
-			<section class="library__chapter">
+		</header></a>
+		<ul class="siteNav__sidebar">
+			<a class='current-parent' href="index.html"><li class="siteNav__sidebar-chapter">About</li></a>
+			<a href="color.html"><li class="siteNav__sidebar-chapter">Colors</li></a>
+			<a href="typography.html"><li class="siteNav__sidebar-chapter">Typography</li></a>
+			<a href="form-elements.html"><li class="siteNav__sidebar-chapter">Form Elements</li></a>
+			<a class='current current' href="tables.html"><li class="siteNav__sidebar-chapter selected">Tables</li></a>
+		</ul>
+	</nav>
+	<div class="main">
+		<main class="container">
+			<section class="library">
+				<section class="library__chapter">
   <h2 class="library__chapter-title">Tables</h2>
   <p class="library__chapter-purpose">It's quite clear tables play an important role in the RAVTI product. Lets create lay some consistency in terms of layout styling and expectations.</p>
   <hr>
@@ -155,24 +157,8 @@
     <p class="library__notes-brief">More tables to be more user friendly to trace eye scanning via mouse hover, use <code>@extend %hover-tr;</code>. This will give table rows a <code>background color: $off-white;</code> and a <code>border-left: 2px solid $teal;</code>.</p>
   </aside>
 </section>
-		</section>
-	</main>
-
-	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	    <script src="../js/select2.js"></script>
-	    <script src="../js/select-menus.js"></script>
-	    <script type='text/javascript'>
-			$(function() {
-				$('#search-select').select2({
-					placeholder: "Select Equiptment", 
-					data: [{ id: 0, text: 'RTU-88' }, { id: 1, text: 'RTU-120' }, { id: 2, text: 'RTU-122' }, { id: 3, text: 'RTU-123' }, { id: 4, text: 'RTU-124' }],
-				});
-				$('#multi-tags').select2({
-					multiple: "true",
-					data: [{ id: 0, text: 'RTU-88' }, { id: 1, text: 'RTU-120' }, { id: 2, text: 'RTU-122' }, { id: 3, text: 'RTU-123' }, { id: 4, text: 'RTU-124' }],
-				});
-			});
-	    </script>
-	    
+			</section>
+		</main>
+	</div>
 </body>
 </html>

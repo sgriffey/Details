@@ -428,6 +428,9 @@ table {
  * Typography
  */
 /**
+ * Sidebar Hard Positioning
+ */
+/**
  * Font-family's
  */
 /**
@@ -442,13 +445,13 @@ table {
 /**
  * Grid
  */
-main, .container {
+.container {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
   max-width: 67.5rem; }
-  main:after, .container:after {
+  .container:after {
     content: "";
     display: table;
     clear: both; }
@@ -469,13 +472,6 @@ ul, ol, dl {
  *
  * Cribbed from Harry Roberts' Inuit: http://inuitcss.com/
  */
-@font-face {
-  font-family: 'symbolset';
-  src: url("../assets/fonts/symbolset.eot");
-  src: url("../assets/fonts/symbolset.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/symbolset.woff") format("woff"), url("../assets/fonts/symbolset.ttf") format("truetype"), url("../assets/fonts/symbolset.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
 *,
 *::before,
 *::after {
@@ -646,9 +642,6 @@ hr {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-
-main {
-  padding: 0 11.2px; }
 
 .form__input-field-label, .form__input-file-button, .form__example-legend, .form__input-field-label-hidden {
   font-weight: 700; }
@@ -1574,62 +1567,81 @@ dd {
   max-width: 530px;
   max-width: 33.125rem; }
 
-.siteNav {
-  border-right: 1px solid #e3e5ea;
-  display: block; }
+.siteNav__moniker {
+  background: #66c3b0; }
 
-.siteNav__hero {
-  background: #66c3b0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 260px;
-  height: 16.25rem; }
+.siteNav__moniker-heading {
+  text-align: center; }
 
-.siteNav__hero-title {
+.siteNav__moniker-title {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  padding: 5.6px;
+  padding: 0.35rem;
+  margin-bottom: 5.6px;
+  margin-bottom: 0.35rem;
   position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding-left: 22.4px;
-  padding-left: 1.4rem;
-  padding-right: 22.4px;
-  padding-right: 1.4rem; }
-  .siteNav__hero-title h1 {
+  color: white;
+  letter-spacing: -0.8px;
+  text-align: center; }
+  .siteNav__moniker-title:first-of-type::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    width: 100%;
+    background: #092f3e;
+    display: inline;
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    height: 34px;
+    height: 2.125rem; }
+  .siteNav__moniker-title:last-of-type::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    width: 100%;
+    background: #092f3e;
+    display: inline;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     transform: rotate(-2deg);
-    font-size: 19.2px;
-    font-size: 1.2rem;
-    padding: 5.6px 22.4px;
-    background: #092f3e;
-    color: white;
-    letter-spacing: -0.8px;
-    text-align: center; }
+    height: 32px;
+    height: 2rem; }
 
 .siteNav__sidebar {
-  height: 100%;
-  top: 260px;
-  left: 0;
-  bottom: 0;
-  position: fixed;
   display: block;
-  left: 0;
-  overflow: auto; }
+  overflow-y: auto;
+  margin: 0;
+  border-right: 1px solid #fafafb;
+  padding-top: 22.4px;
+  padding-top: 1.4rem; }
 
 .siteNav__sidebar-chapter {
-  background: #66c3b0;
-  padding: 11.2px;
-  padding: 0.7rem;
-  position: relative; }
-  .siteNav__sidebar-chapter:nth-child(odd) {
-    background: rgba(102, 195, 176, 0.6); }
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 5.6px;
+  margin-bottom: 0.35rem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  position: relative;
+  color: #c7cacd; }
+  .siteNav__sidebar-chapter:hover {
+    color: #092f3e; }
+
+.selected {
+  color: #092f3e;
+  font-weight: 700; }
+  .selected:hover {
+    color: #092f3e; }
 
 /*
 Select2 Base Styling
@@ -2110,16 +2122,6 @@ disabled look for disabled choices in the results dropdown
   position: absolute;
   width: 1px; }
 
-.hero {
-  max-width: 91.125rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%; }
-  .hero:after {
-    content: "";
-    display: table;
-    clear: both; }
-
 .sidebar {
   float: left;
   display: block;
@@ -2409,41 +2411,45 @@ disabled look for disabled choices in the results dropdown
       .form__col-3:nth-child(3n+1) {
         clear: left; } }
 
-.siteNav__hero
+.siteNav {
+  position: relative; }
+
+.siteNav__moniker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 200px;
+  height: 12.5rem;
+  width: 200px;
+  width: 12.5rem; }
+
 .siteNav__sidebar {
-  max-width: 91.125rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 260px;
-  max-width: 16.25rem; }
-  .siteNav__hero
-  .siteNav__sidebar:after {
-    content: "";
-    display: table;
-    clear: both; }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 200px;
+  top: 12.5rem;
+  width: 200px;
+  width: 12.5rem; }
 
-.siteNav__hero-title {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  margin-right: 0; }
-  .siteNav__hero-title:last-child {
-    margin-right: 0; }
-
-.siteNav__sidebar-chapter {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  margin-right: 0; }
-  .siteNav__sidebar-chapter:last-child {
-    margin-right: 0; }
+.siteNav__moniker-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80%; }
 
 .main {
   position: absolute;
-  left: 260px;
-  left: 16.25rem; }
+  left: 200px;
+  left: 12.5rem; }
+
+.container {
+  padding: 0 5%; }
 
 .content {
   float: left;

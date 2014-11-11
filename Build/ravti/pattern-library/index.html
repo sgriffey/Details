@@ -22,29 +22,33 @@
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<header class="hero">
-			<div class="hero__title">
-				<h1>Ravti</h1>
-				<h1>Pattern Library</h1>
+	<nav class="siteNav">
+		<a class='current-parent current' href="index.html">
+		<header class="siteNav__moniker">
+			<div class="siteNav__moniker-heading">
+				<h1 class="siteNav__moniker-title">Ravti</h1>
+				<h1 class="siteNav__moniker-title">Pattern Library</h1>
 			</div>
-	</header>
-	<main>
-		<nav class="sidebar">
-			<ul>
-				<li class='current-parent current'><a href="index.html" class="current-parent current sidebar__chapter selected">About</a></li>
-				<li><a href="color.html" class="sidebar__chapter">Colors</a></li>
-				<li><a href="typography.html" class="sidebar__chapter">Typography</a></li>
-				<li><a href="form-elements.html" class="sidebar__chapter">Form Elements</a></li>
-				<li><a href="tables.html" class="sidebar__chapter">Tables</a></li>
-			</ul>
-		</nav>
-		<section class="library">
-			<section class="library__chapter">
-				<h2 class="library__chapter-title">Memo</h2>
-				<p class="library__chapter-purpose">In a lot of ways, this is how we’ve been doing things all along, even if we haven’t been consciously thinking about it in this specific way. Atomic design provides a clear methodology for crafting design systems. Clients and team members are able to better appreciate the concept of design systems by actually seeing the steps laid out in front of them.</p>
+		</header></a>
+		<ul class="siteNav__sidebar">
+			<a class='current-parent current' href="index.html"><li class="siteNav__sidebar-chapter selected">About</li></a>
+			<a href="color.html"><li class="siteNav__sidebar-chapter">Colors</li></a>
+			<a href="typography.html"><li class="siteNav__sidebar-chapter">Typography</li></a>
+			<a href="form-elements.html"><li class="siteNav__sidebar-chapter">Form Elements</li></a>
+			<a href="tables.html"><li class="siteNav__sidebar-chapter">Tables</li></a>
+		</ul>
+	</nav>
+	<div class="main">
+		<main class="container">
+			<section class="library">
+				<section class="library__chapter">
+					<h2 class="library__chapter-title">Memo</h2>
+					<p class="library__chapter-purpose">This little micro-site reveals our guidelines. The hope is for this site to grow with us overtime &mdash; establishing a home for our brand's design process along-the-way. Unifying our team's outlook on the attitudes and behavior we build products for is key. As designer's we're constantly making assumptions about what our audience knows, and with time this conviction becomes more clearly engrained.</p>
+					<p class="library__chapter-purpose">Team members (both new and old) should use this as a reference; familiarizing themselves with our audience, and the patterns with in which we communicate.</p>
+				</section>
 			</section>
-		</section>
-	</main>
+		</main>
+	</div>
 
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="../js/select2.js"></script>
@@ -61,6 +65,5 @@
 				});
 			});
 	    </script>
-
 </body>
 </html>

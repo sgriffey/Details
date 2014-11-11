@@ -22,24 +22,26 @@
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<header class="hero">
-			<div class="hero__title">
-				<h1>Ravti</h1>
-				<h1>Pattern Library</h1>
+	<nav class="siteNav">
+		<a class='current-parent' href="index.html">
+		<header class="siteNav__moniker">
+			<div class="siteNav__moniker-heading">
+				<h1 class="siteNav__moniker-title">Ravti</h1>
+				<h1 class="siteNav__moniker-title">Pattern Library</h1>
 			</div>
-	</header>
-	<main>
-		<nav class="sidebar">
-			<ul>
-				<li class='current-parent'><a href="index.html" class="current-parent sidebar__chapter">About</a></li>
-				<li><a href="color.html" class="sidebar__chapter">Colors</a></li>
-				<li><a href="typography.html" class="sidebar__chapter">Typography</a></li>
-				<li class='current current'><a href="form-elements.html" class="current current sidebar__chapter selected">Form Elements</a></li>
-				<li><a href="tables.html" class="sidebar__chapter">Tables</a></li>
-			</ul>
-		</nav>
-		<section class="library">
-			<section class="library__chapter">
+		</header></a>
+		<ul class="siteNav__sidebar">
+			<a class='current-parent' href="index.html"><li class="siteNav__sidebar-chapter">About</li></a>
+			<a href="color.html"><li class="siteNav__sidebar-chapter">Colors</li></a>
+			<a href="typography.html"><li class="siteNav__sidebar-chapter">Typography</li></a>
+			<a class='current current' href="form-elements.html"><li class="siteNav__sidebar-chapter selected">Form Elements</li></a>
+			<a href="tables.html"><li class="siteNav__sidebar-chapter">Tables</li></a>
+		</ul>
+	</nav>
+	<div class="main">
+		<main class="container">
+			<section class="library">
+				<section class="library__chapter">
 	<h2 class="library__chapter-title">Form Elements</h2>
 	<p class="library__chapter-purpose">In a lot of ways, this is how we’ve been doing things all along, even if we haven’t been consciously thinking a them.</p>
 	<hr>
@@ -184,7 +186,7 @@
 		</label>
 	</div>
 </section>
-			<section class="library__chapter">
+				<section class="library__chapter">
 	<div class="form__input">
 		<label class="form__input-field-label">Search Select Input</label>
 		<input type="text" id="search-select">
@@ -194,7 +196,7 @@
 		<input type="text" id="multi-tags">
 	</div>
 </section>
-			<section class="library__chapter">
+				<section class="library__chapter">
   <h3 class="library__chapter-title">Example Forms</h3>
   <p class="library__chapter-purpose">A few typical form layouts and how to they can be arranged.</p>
   <hr>
@@ -267,12 +269,13 @@
   </aside>
   <hr>
 </section>
-		</section>
-	</main>
+			</section>
+		</main>
+	</div>
 
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	    <script src="js/select2.js"></script>
-	    <script src="js/select-menus.js"></script>
+	    <script src="../js/select2.js"></script>
+	    <script src="../js/select-menus.js"></script>
 	    <script type='text/javascript'>
 			$(function() {
 				$('#search-select').select2({
@@ -285,6 +288,6 @@
 				});
 			});
 	    </script>
-	    
+
 </body>
 </html>
