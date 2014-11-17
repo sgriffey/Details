@@ -32,12 +32,29 @@
 		</header></a>
 		<ul class="siteNav__sidebar">
 			<a class='current-parent' href="index.html"><li class="siteNav__sidebar-chapter">About</li></a>
+			<a href="personas.html"><li class="siteNav__sidebar-chapter">Personas</li></a>
 			<a href="color.html"><li class="siteNav__sidebar-chapter">Colors</li></a>
 			<a class='current' href="typography.html"><li class="siteNav__sidebar-chapter selected">Typography</li></a>
 			<a href="form-elements.html"><li class="siteNav__sidebar-chapter">Form Elements</li></a>
 			<a href="tables.html"><li class="siteNav__sidebar-chapter">Tables</li></a>
 		</ul>
 	</nav>
+	<header class="mobileNav">
+		<div class="mobileNav__masthead">
+			<a class='current-parent' href="index.html"><h1 class="mobileNav__logo"></h1></a>
+			<a class="mobileNav__link"></a>
+		</div>
+		<nav class="mobileNav__menu">
+			<ul class="mobileNav__menu-list">
+				<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">About</a></li>
+				<li><a href="personas.html" class="mobileNav__menu-list-item">Personas</a></li>
+				<li><a href="color.html" class="mobileNav__menu-list-item">Colors</a></li>
+				<li class='current'><a href="typography.html" class="current mobileNav__menu-list-item">Typography</a></li>
+				<li><a href="form-elements.html" class="mobileNav__menu-list-item">Form Elements</a></li>
+				<li><a href="tables.html" class="mobileNav__menu-list-item">Tables</a></li>
+			</ul>
+		</nav>
+	</header>
 	<div class="main">
 		<main class="container">
 			<section class="library">
@@ -136,5 +153,7 @@
 			</section>
 		</main>
 	</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="js/app.js"></script>
 </body>
 </html>
