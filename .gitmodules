@@ -4,3 +4,6 @@
 [submodule "ravti/pattern-library"]
 	path = ravti/pattern-library
 	url = git@github.com:Ravti/pattern-library.git
+[submodule "ravti/ravti-redesign"]
+	path = ravti/ravti-redesign
+	url = git@github.com:Ravti/ravti-redesign.git
