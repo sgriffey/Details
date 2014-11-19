@@ -60,16 +60,68 @@
 				<fieldset class="dashboard__form-fieldset">
 					<div class="dashboard__form-fieldset-split">
 						<label class="dashboard__form-label">Facility</label>
-						<select class="dashboard__form-select-drop"><option value="">Pick one</option><option value="1">RTU</option><option value="2">Chiller tower</option><option value="3">Dual-fan</option><option value="3">RTU-22</option></select>
+						<select class="dashboard__form-select-drop">
+							<option value=""></option>
+							<option value="1">Davenport</option>
+							<option value="2">Trenton</option>
+							<option value="3">Spokane</option>
+							<option value="4">8200 Doral</option>
+							<option value="5">Quiet Waters 3</option>
+						</select>
 					</div>
-					<div class="dashboard__form-fieldset-split">
+					<div class="dashboard__form-fieldset-split" disabled="true">
 						<label class="dashboard__form-label">Suite/Unit</label>
-						<select class="dashboard__form-select-drop"><option value="">Pick one</option><option value="1">RTU</option><option value="2">Chiller tower</option><option value="3">Dual-fan</option><option value="3">RTU-22</option></select>
+						<select class="dashboard__form-select-drop" disabled="true">
+							<option value=""></option>
+							<option value="1">101</option>
+							<option value="2">102</option>
+							<option value="3">103</option>
+							<option value="3">104</option>
+						</select>
 					</div>
 				</fieldset>
 				<fieldset class="dashboard__form-fieldset">
 					<label class="dashboard__form-label">Equipment</label>
-					<select class="dashboard__form-select-drop"><option value="">Pick one</option><option value="1">RTU</option><option value="2">Chiller tower</option><option value="3">Dual-fan</option><option value="3">RTU-22</option></select>
+					<select class="dashboard__form-select-drop">
+						<option value=""></option>
+						<option value="1">Water Cooled Chiller</option>
+						<option value="2">Air Cooled Chiller</option>
+						<option value="3">Cooling Tower</option>
+						<option value="4">Air Handler</option>
+						<option value="5">Packaged Rooftop Unit</option>
+						<option value="6">Split System</option>
+						<option value="7">Vertical Self-Contained Unit</option>
+						<option value="8">Water Source Heat Pump</option>
+						<option value="9">Blower Coil/Fan Coil</option>
+						<option value="10">High Percentage Outdoor Air Unit</option>
+						<option value="11">Boiler</option>
+						<option value="12">Pump</option>
+						<option value="13">Heat Exchanger</option>
+						<option value="14">VAV Box</option>
+						<option value="15">VFD</option>
+						<option value="16">Actuator/Damper</option>
+						<option value="17">Control System</option>
+						<option value="18">Condensing Unit</option>
+						<option value="19">Energy Recovery Ventilation Unit</option>
+						<option value="20">Motor</option>
+					</select>
+				</fieldset>
+				<fieldset class="dashboard__form-fieldset">
+					<label class="dashboard__form-label">Details / Description</label>
+					<select class="dashboard__form-select-drop">
+						<option value=""></option>
+						<option value="1">Not turning on/off</option>
+						<option value="2">Not cooling/heating</option>
+						<option value="3">Not reaching temperature</option>
+						<option value="4">Iced-up</option>
+						<option value="5">Water leak/drainage problem</option>
+						<option value="6">Compressor issue</option>
+						<option value="7">Fan issue</option>
+						<option value="8">Thermostat/Control Issue</option>
+						<option value="9">Strange sound(s)</option>
+						<option value="10">Tenant buildout</option>
+						<option value="11">Other</option>
+					</select>
 				</fieldset>
 				<fieldset class="dashboard__form-fieldset">
 					<legend class="dashboard__form-legend">Priority</legend>
@@ -80,10 +132,8 @@
 				<fieldset class="dashboard__form-fieldset">
 					<label class="dashboard__form-label">Project Contact Name</label>
 					<input type="text" class="form__input-field" placeholder="Donald Trump">
-					<label class="dashboard__form-label">Project Contact Email</label>
-					<input type="email" class="form__input-field" placeholder="example@you.com">
 					<label class="dashboard__form-label">Project Contact Phone</label>
-					<input type="phone" class="form__input-field" placeholder="( ) --- ---- ?">
+					<input type="phone" class="form__input-field" placeholder="( ) --- ----">
 				</fieldset>
 				<div class="dashboard__form-finalize"><input class="dashboard__form-button-encourage" type="submit" value="Submit">
 				</div>

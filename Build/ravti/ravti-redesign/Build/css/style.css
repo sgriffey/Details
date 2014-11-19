@@ -659,14 +659,18 @@ hr {
 
 .grid__full,
 .grid__half,
-.grid__third, .dashboard__bucket, .dashboard__request {
+.grid__third, .dashboard__request {
+  background: white;
+  border: 1px solid #e3e5ea; }
+
+.dashboard__bucket {
   background: white;
   border: 1px solid #e3e5ea;
-  -webkit-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px; }
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px; }
 
 .hero {
   background: #66c3b0;
@@ -967,6 +971,15 @@ hr {
     width: 1rem; }
   .form__select-drop:hover, .dashboard__form-select-drop:hover {
     cursor: pointer; }
+  [disabled="true"].form__select-drop, [disabled="true"].dashboard__form-select-drop {
+    cursor: default;
+    border-color: #c7cacd;
+    background-color: rgba(199, 202, 205, 0.4); }
+    [disabled="true"].form__select-drop:checked, [disabled="true"].dashboard__form-select-drop:checked {
+      border-color: #c7cacd;
+      background-color: rgba(199, 202, 205, 0.4); }
+    [disabled="true"].form__select-drop:hover, [disabled="true"].dashboard__form-select-drop:hover, [disabled="true"].form__select-drop:focus, [disabled="true"].dashboard__form-select-drop:focus {
+      border-color: #c7cacd; }
 
 .form__selects-label, .dashbord__form-check-label {
   margin-top: 11.2px;
@@ -1796,9 +1809,10 @@ dd {
   border: none; }
 
 .dashboard__form-legend {
-  padding-bottom: 0;
   margin-bottom: 0; }
 
+.dashboard__form-fieldset-split:nth-child(2) {
+  opacity: 0; }
 @media screen and (min-width: 46.8em) {
   .dashboard__form-fieldset-split .dashboard__form-select-drop {
     background-position: 89% 54%; } }
