@@ -613,6 +613,10 @@ hr {
   border-style: none;
   border-top: 1px dashed rgba(102, 195, 176, 0.4); }
 
+td a:hover {
+  color: #66c3b0;
+  border-bottom: 1px solid #66c3b0; }
+
 .is-hidden {
   opacity: 0; }
 
@@ -628,7 +632,7 @@ hr {
 .is-masked {
   display: none; }
 
-.form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .sidebar ul, .sidebar li {
+.projects__subnav-buckets, .projects__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
@@ -659,11 +663,15 @@ hr {
 
 .grid__full,
 .grid__half,
-.grid__third, .dashboard__request {
+.grid__third, .dashboard__request, .projects__queue,
+.projects__live {
+  padding: 22.4px;
+  padding: 1.4rem;
   background: white;
   border: 1px solid #e3e5ea; }
 
 .dashboard__bucket {
+  padding: 0;
   background: white;
   border: 1px solid #e3e5ea;
   -webkit-border-radius: 4px;
@@ -674,6 +682,28 @@ hr {
 
 .siteNav__buckets-list-item:hover {
   background: rgba(9, 47, 62, 0.1); }
+
+.projects__subnav-bucket {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px; }
+
+.projects__subnav-buckets {
+  border-top: 2px solid #e3e5ea; }
+  .projects__subnav-buckets .is-active {
+    border-top: 2px solid #092f3e;
+    color: #092f3e; }
+
+.projects__subnav-bucket {
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  display: inline-block;
+  margin-right: 22.4px;
+  margin-right: 1.4rem;
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
+  margin-top: -2px;
+  color: #c7cacd; }
 
 .hero {
   background: #66c3b0;
@@ -1241,15 +1271,10 @@ hr {
 .table__basic-th,
 .table__basic-td, .table__hover-th,
 .table__hover-td {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
+  display: table-cell;
+  padding-right: 1.76824%;
+  width: 33.5298%;
   padding: 2.35765%; }
-  .table__basic-th:last-child,
-  .table__basic-td:last-child, .table__hover-th:last-child,
-  .table__hover-td:last-child {
-    margin-right: 0; }
 
 .table__striped-th,
 .table__striped-td {
@@ -1266,39 +1291,54 @@ hr {
 */
 .table__basic,
 .table__striped,
-.table__hover {
-  margin-top: 44.8px;
-  margin-top: 2.8rem; }
+.table__hover, .projects__queue-table,
+.projects__live-table {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
 
 .table__basic-thead,
 .table__striped-thead,
-.table__hover-thead {
-  border-bottom: 2px solid #e3e5ea; }
+.table__hover-thead, .projects__queue-thead,
+.projects__live-thead {
+  border-bottom: 2px solid #e3e5ea;
+  text-align: left; }
 
 .table__basic-th,
 .table__striped-th,
-.table__hover-th {
-  padding-top: 11.2px;
-  padding-top: 0.7rem;
-  padding-bottom: 11.2px;
-  padding-bottom: 0.7rem;
-  padding-left: 22.4px;
-  padding-left: 1.4rem;
+.table__hover-th, .projects__queue-th,
+.projects__live-th {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  padding-bottom: 5.6px;
+  padding-bottom: 0.35rem;
   font-weight: 700; }
 
 .table__basic-tr,
-.table__hover-tr, .table__striped-tr {
+.table__hover-tr, .table__striped-tr, .projects__queue-tr,
+.projects__live-tr {
   border-bottom: 1px solid #e3e5ea; }
 
 .table__basic-td,
 .table__striped-td,
-.table__hover-td {
-  padding-top: 11.2px;
-  padding-top: 0.7rem;
-  padding-bottom: 11.2px;
-  padding-bottom: 0.7rem;
-  padding-left: 22.4px;
-  padding-left: 1.4rem; }
+.table__hover-td, .projects__queue-td,
+.projects__live-td {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  padding: 11.2px;
+  padding: 0.7rem;
+  padding-left: 0; }
+  .table__basic-td a,
+  .table__striped-td a,
+  .table__hover-td a, .projects__queue-td a,
+  .projects__live-td a {
+    color: #092f3e;
+    border-bottom: 1px solid #092f3e; }
+    .table__basic-td a:hover,
+    .table__striped-td a:hover,
+    .table__hover-td a:hover, .projects__queue-td a:hover,
+    .projects__live-td a:hover {
+      color: #66c3b0;
+      border-bottom: 1px solid #66c3b0; }
 
 /*
 * Make table rows striped. Append to class for tr
@@ -1858,6 +1898,11 @@ dd {
   .dashbord__form-check-label:last-of-type {
     margin-bottom: 0; }
 
+.projects__queue,
+.projects__live {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
 /*
 Select2 Base Styling
 Version: 3.4.5
@@ -2354,6 +2399,17 @@ disabled look for disabled choices in the results dropdown
       margin-bottom: 4.2rem;
       padding: 0; } }
 
+.projects__subnav,
+.projects__subnav-buckets {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .projects__subnav:last-child,
+  .projects__subnav-buckets:last-child {
+    margin-right: 0; }
+
 .dashboard__buckets,
 .dashboard__request {
   float: left;
@@ -2437,6 +2493,185 @@ disabled look for disabled choices in the results dropdown
         margin-right: 0; }
       .dashboard__form-fieldset-split:nth-child(2n+1) {
         clear: left; } }
+
+.projects__queue,
+.projects__live {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .projects__queue:last-child,
+  .projects__live:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .projects__queue,
+    .projects__live {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .projects__queue:last-child,
+      .projects__live:last-child {
+        margin-right: 0; } }
+
+.projects__queue-table,
+.projects__queue-tbody,
+.projects__queue-thead,
+.projects__queue-tr {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .projects__queue-table:last-child,
+  .projects__queue-tbody:last-child,
+  .projects__queue-thead:last-child,
+  .projects__queue-tr:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .projects__queue-table,
+    .projects__queue-tbody,
+    .projects__queue-thead,
+    .projects__queue-tr {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .projects__queue-table:last-child,
+      .projects__queue-tbody:last-child,
+      .projects__queue-thead:last-child,
+      .projects__queue-tr:last-child {
+        margin-right: 0; } }
+
+.projects__queue-th:nth-child(1),
+.projects__queue-td:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .projects__queue-th:nth-child(1):last-child,
+  .projects__queue-td:nth-child(1):last-child {
+    margin-right: 0; }
+.projects__queue-th:nth-child(2),
+.projects__queue-td:nth-child(2) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .projects__queue-th:nth-child(2):last-child,
+  .projects__queue-td:nth-child(2):last-child {
+    margin-right: 0; }
+@media screen and (min-width: 46.8em) {
+  .projects__queue-th:nth-child(1),
+  .projects__queue-td:nth-child(1) {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 21.37813%; }
+    .projects__queue-th:nth-child(1):last-child,
+    .projects__queue-td:nth-child(1):last-child {
+      margin-right: 0; }
+  .projects__queue-th:nth-child(2),
+  .projects__queue-td:nth-child(2) {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 73.79271%; }
+    .projects__queue-th:nth-child(2):last-child,
+    .projects__queue-td:nth-child(2):last-child {
+      margin-right: 0; } }
+
+.projects__live-table,
+.projects__live-tbody,
+.projects__live-thead,
+.projects__live-tr {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .projects__live-table:last-child,
+  .projects__live-tbody:last-child,
+  .projects__live-thead:last-child,
+  .projects__live-tr:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .projects__live-table,
+    .projects__live-tbody,
+    .projects__live-thead,
+    .projects__live-tr {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .projects__live-table:last-child,
+      .projects__live-tbody:last-child,
+      .projects__live-thead:last-child,
+      .projects__live-tr:last-child {
+        margin-right: 0; } }
+
+.projects__live-th:nth-child(1),
+.projects__live-td:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  padding-right: 0; }
+  .projects__live-th:nth-child(1):last-child,
+  .projects__live-td:nth-child(1):last-child {
+    margin-right: 0; }
+.projects__live-th:nth-child(2),
+.projects__live-td:nth-child(2) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding-right: 0; }
+  .projects__live-th:nth-child(2):last-child,
+  .projects__live-td:nth-child(2):last-child {
+    margin-right: 0; }
+.projects__live-th:nth-child(3),
+.projects__live-td:nth-child(3) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .projects__live-th:nth-child(3):last-child,
+  .projects__live-td:nth-child(3):last-child {
+    margin-right: 0; }
+@media screen and (min-width: 46.8em) {
+  .projects__live-th:nth-child(1),
+  .projects__live-td:nth-child(1) {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 21.37813%;
+    padding-right: 0; }
+    .projects__live-th:nth-child(1):last-child,
+    .projects__live-td:nth-child(1):last-child {
+      margin-right: 0; }
+  .projects__live-th:nth-child(2),
+  .projects__live-td:nth-child(2) {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 38.84966%;
+    padding-right: 0; }
+    .projects__live-th:nth-child(2):last-child,
+    .projects__live-td:nth-child(2):last-child {
+      margin-right: 0; }
+  .projects__live-th:nth-child(3),
+  .projects__live-td:nth-child(3) {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 30.11389%; }
+    .projects__live-th:nth-child(3):last-child,
+    .projects__live-td:nth-child(3):last-child {
+      margin-right: 0; } }
 
 .sidebar {
   float: left;
