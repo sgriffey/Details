@@ -733,7 +733,7 @@ hr {
     content: '';
     display: inline-block;
     margin-right: 5.6px;
-    background: url(../../assets/notes-icon.svg) center center;
+    background: url(../../../ravti-redesign/assets/notes-icon.svg) center center;
     background-repeat: no-repeat; }
 
 .library__notes-brief {
@@ -928,13 +928,13 @@ hr {
   padding-right: 33.6px;
   padding-right: 33.6px/16pxrem;
   border-radius: 0;
-  background: url(../../assets/caret-down.svg) right center;
+  background: url(../../../ravti-redesign/assets/caret-down.svg) right center;
   background-repeat: no-repeat;
   background-position: 95% 54%;
   position: relative; }
   .form__select-drop::before {
     content: '';
-    background: url(../../assets/caret-down.svg) center center;
+    background: url(../../../ravti-redesign/assets/caret-down.svg) center center;
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -981,7 +981,7 @@ hr {
       cursor: not-allowed; }
       [disabled="true"].form__select-radio:checked:before {
         content: '';
-        background: url(../../assets/bullet.svg) center center no-repeat;
+        background: url(../../../ravti-redesign/assets/bullet.svg) center center no-repeat;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1003,7 +1003,7 @@ hr {
     background-color: rgba(102, 195, 176, 0.4); }
     .form__select-radio:checked:before {
       content: '';
-      background: url(../../assets/bullet.svg) center center no-repeat;
+      background: url(../../../ravti-redesign/assets/bullet.svg) center center no-repeat;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -1044,7 +1044,7 @@ hr {
     background-color: rgba(102, 195, 176, 0.4); }
     .form__select-check:checked:before {
       content: '';
-      background: url(../../assets/input-check.svg) center center no-repeat;
+      background: url(../../../ravti-redesign/assets/input-check.svg) center center no-repeat;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -1413,7 +1413,7 @@ hr {
   .form__input-file-button:before {
     content: '';
     display: block;
-    background: url(../../assets/invoice.svg) center center no-repeat;
+    background: url(../../../ravti-redesign/assets/invoice.svg) center center no-repeat;
     padding: 22.4px;
     height: 90px;
     height: 5.625rem;
@@ -1652,7 +1652,7 @@ dd {
   height: 3.75rem;
   width: 60px;
   width: 3.75rem;
-  background: url(../../assets/ravti-app-logo.svg) center center no-repeat;
+  background: url(../../../ravti-redesign/assets/ravti-app-logo.svg) center center no-repeat;
   background-color: #092f3e;
   display: inline-block; }
 
@@ -1664,7 +1664,7 @@ dd {
   height: 3.75rem;
   width: 60px;
   width: 3.75rem;
-  background: url(../../assets/mobile-nav-menu.svg) center center no-repeat;
+  background: url(../../../ravti-redesign/assets/mobile-nav-menu.svg) center center no-repeat;
   display: inline-block;
   cursor: pointer; }
 
@@ -1875,11 +1875,11 @@ Version: 3.4.5
   margin-top: 4px; }
 
 .select2-search input.select2-active {
-  background: white url(../../js/select2-spinner.gif) no-repeat 100%;
-  background: url(../../js/select2-spinner.gif) no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
-  background: url(../../js/select2-spinner.gif) no-repeat 100%, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url(../../js/select2-spinner.gif) no-repeat 100%, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url(../../js/select2-spinner.gif) no-repeat 100%, linear-gradient(top, white 85%, #eeeeee 99%); }
+  background: white url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100%;
+  background: url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100%, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100%, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100%, linear-gradient(top, white 85%, #eeeeee 99%); }
 
 .select2-container-active {
   border: 2px solid #5883ed !important; }
@@ -1997,7 +1997,7 @@ disabled look for disabled choices in the results dropdown
   display: none; }
 
 .select2-more-results.select2-active {
-  background: #f4f4f4 url(../../js/select2-spinner.gif) no-repeat 100%; }
+  background: #f4f4f4 url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100%; }
 
 .select2-more-results {
   background: #f4f4f4;
@@ -2065,7 +2065,7 @@ disabled look for disabled choices in the results dropdown
   background: transparent !important; }
 
 .select2-container-multi .select2-choices .select2-search-field input.select2-active {
-  background: white url(../../js/select2-spinner.gif) no-repeat 100% !important; }
+  background: white url(../../../ravti-redesign/js/select2-spinner.gif) no-repeat 100% !important; }
 
 .select2-default {
   color: #999 !important;
@@ -2111,7 +2111,7 @@ disabled look for disabled choices in the results dropdown
   position: absolute;
   left: 4px;
   outline: none;
-  background: url(../../assets/close.svg) left top no-repeat; }
+  background: url(../../../ravti-redesign/assets/close.svg) left top no-repeat; }
 
 /* disabled styles */
 .select2-container-multi.select2-container-disabled .select2-choices {
