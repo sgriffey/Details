@@ -628,13 +628,16 @@ hr {
 .is-masked {
   display: none; }
 
-.projects__subnav-buckets, .proposal__subnav-buckets, .projects__subnav-bucket, .proposal__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__form-fieldset, .proposal__form-approval, .proposal__meta-data-chunk, .sidebar ul, .sidebar li {
+.projects__subnav-buckets, .proposal__subnav-buckets, .projects__subnav-bucket, .proposal__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__form-fieldset, .proposal__form-approval, .proposal__meta-data-chunk, .depot__abstract-address, .depot__proposal-scan-list, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__option-price {
+.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__option-price, .depot__abstract-address span:first-of-type {
   font-weight: 700; }
+
+.depot__proposal-doctype {
+  font-weight: 400; }
 
 .proposal__form-title, .proposal__meta-facility, .depot__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title {
   font-family: "futura-pt", sans-serif;
@@ -2060,13 +2063,12 @@ dd {
   padding-right: 0.35rem;
   font-size: 11.11111px;
   font-size: 0.69444rem;
-  background: #092f3e;
+  background: #66c3b0;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.4px; }
   .proposal__meta-facility-id:hover {
-    cursor: pointer;
-    background: #66c3b0; }
+    cursor: pointer; }
 
 .proposal__meta-summary {
   color: #54545a; }
@@ -2114,17 +2116,116 @@ dd {
   padding-right: 0.35rem;
   font-size: 11.11111px;
   font-size: 0.69444rem;
-  border: 1px solid #e3e5ea;
+  background: #66c3b0;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.4px; }
   .depot__abstract-job-tag:hover {
-    cursor: pointer;
-    background: #092f3e;
-    border-color: #092f3e;
-    color: white; }
+    cursor: pointer; }
+
+.depot__abstract-address {
+  padding-left: 28px;
+  padding-left: 28px/16pxrem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  position: relative; }
+  .depot__abstract-address:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    height: 1.125rem;
+    width: 18px;
+    width: 1.125rem;
+    margin-right: 11.2px;
+    margin-right: 0.7rem;
+    background: center center no-repeat;
+    background-image: url(../../assets/address-icon.svg); }
+  .depot__abstract-address span {
+    display: block;
+    font-style: normal;
+    color: #93989c; }
+    .depot__abstract-address span:first-of-type {
+      color: #54545a; }
 
 .depot__abstract-summary {
-  color: #54545a; }
+  color: #54545a;
+  margin-bottom: 0; }
+  .depot__abstract-summary:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #e3e5ea;
+    margin-top: 22.4px;
+    margin-top: 1.4rem;
+    margin-bottom: 11.2px;
+    margin-bottom: 0.7rem; }
+
+.depot__proposal-scan-list-bullet {
+  margin-top: 16.8px;
+  margin-top: 16.8px/16pxrem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  position: relative; }
+  .depot__proposal-scan-list-bullet:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    height: 1rem;
+    width: 16px;
+    width: 1rem;
+    background: center center no-repeat;
+    background-image: url(../../assets/service-icon.svg); }
+
+.depot__proposal-pdf {
+  border: 1px solid #c7cacd;
+  position: relative;
+  padding: 11.2px;
+  padding: 0.7rem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px; }
+  .depot__proposal-pdf:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 11.2px;
+    height: 32px;
+    height: 2rem;
+    width: 24px;
+    width: 1.5rem;
+    margin-right: 11.2px;
+    margin-right: 0.7rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: center center no-repeat;
+    background-image: url(../../assets/scope.svg); }
+  .depot__proposal-pdf:hover {
+    cursor: pointer;
+    border-color: #092f3e; }
+    .depot__proposal-pdf:hover .depot__proposal-doctype {
+      color: #092f3e; }
+
+.depot__proposal-doctype {
+  font-size: 16px;
+  font-size: 1rem;
+  padding-left: 33.6px;
+  padding-left: 33.6px/16pxrem;
+  margin-bottom: 0;
+  color: #93989c; }
 
 .depot__map-iframe {
   width: 100%;
@@ -3082,9 +3183,71 @@ disabled look for disabled choices in the results dropdown
       float: left;
       display: block;
       margin-right: 4.82916%;
-      width: 100%; }
+      width: 100%;
+      margin-right: 0; }
       .depot__map-iframe:last-child {
         margin-right: 0; } }
+
+.depot__abstract-address,
+.depot__abstract-summary,
+.depot__proposal,
+.depot__proposal-scan,
+.depot__proposal-scan-list,
+.depot__proposal-pdf {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .depot__abstract-address:last-child,
+  .depot__abstract-summary:last-child,
+  .depot__proposal:last-child,
+  .depot__proposal-scan:last-child,
+  .depot__proposal-scan-list:last-child,
+  .depot__proposal-pdf:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .depot__abstract-address,
+    .depot__abstract-summary,
+    .depot__proposal,
+    .depot__proposal-scan,
+    .depot__proposal-scan-list,
+    .depot__proposal-pdf {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .depot__abstract-address:last-child,
+      .depot__abstract-summary:last-child,
+      .depot__proposal:last-child,
+      .depot__proposal-scan:last-child,
+      .depot__proposal-scan-list:last-child,
+      .depot__proposal-pdf:last-child {
+        margin-right: 0; } }
+
+.depot__proposal-scan-list-bullet {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .depot__proposal-scan-list-bullet:last-child {
+    margin-right: 0; }
+  .depot__proposal-scan-list-bullet:nth-child(2n) {
+    margin-right: 0; }
+  .depot__proposal-scan-list-bullet:nth-child(2n+1) {
+    clear: left; }
+  @media screen and (min-width: 46.8em) {
+    .depot__proposal-scan-list-bullet {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .depot__proposal-scan-list-bullet:last-child {
+        margin-right: 0; }
+      .depot__proposal-scan-list-bullet:nth-child(2n) {
+        margin-right: 0; }
+      .depot__proposal-scan-list-bullet:nth-child(2n+1) {
+        clear: left; } }
 
 .sidebar {
   float: left;
