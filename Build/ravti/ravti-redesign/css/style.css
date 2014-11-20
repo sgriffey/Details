@@ -1924,6 +1924,9 @@ dd {
   font-size: 19.2px;
   font-size: 1.2rem; }
 
+.dashboard__request {
+  margin-top: 0; }
+
 .dashboard__request-title {
   font-size: 23.04px;
   font-size: 1.44rem;
@@ -1957,11 +1960,6 @@ dd {
   display: block; }
   .dashboard__form-check-label:last-of-type {
     margin-bottom: 0; }
-
-.projects__queue,
-.projects__live {
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
 
 .proposal__form-fieldset {
   border: none; }
