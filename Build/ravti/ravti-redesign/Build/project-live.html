@@ -43,14 +43,15 @@
 	<!-- End Top Bar Nav -->
 	<!-- Main Content/Page View -->
 	<main class="page__wrapper">
-		<section class="proposal__subnav">
-			<nav class="proposal__subnav-controls">
-				<ul class="proposal__subnav-buckets">
-					<li class="proposal__subnav-bucket is-active"><a href="">Proposal</a></li>
-					<li class="proposal__subnav-bucket"><a href="">Q&amp;A</a></li>
-				</ul>
-			</nav>
-		</section>
+		<!-- Page Subnav HR -->
+		<nav class="projects__subnav">
+			<ul class="projects__subnav-buckets">
+				<li class="projects__subnav-bucket is-active"><a href="">Started</a></li>
+				<li class="projects__subnav-bucket"><a href="">Completed</a></li>
+			</ul>
+		</nav>
+		<!-- End Subnav -->
+		<!-- Proposal Form Details -->
 		<section class="proposal">
 			<h2 class="proposal__form-title">HVAC Maintenance Program Proposal</h2>
 			<form class="proposal__form">
@@ -65,23 +66,25 @@
 					<h3 class="proposal__form-total-label">Total:</h3><h3 class="proposal__form-total-number">$4,356</h3>
 				</section>
 				<fieldset class="proposal__form-fieldset">
-					<div class="proposal__form-fieldset-split">
-						<label class="proposal__form-label">Project Contact Name</label>
-						<input type="phone" class="form__input-field" placeholder="Donald Trump">
-					</div>
+					<label class="proposal__form-label">Project Contact Name</label>
+					<input type="text" class="form__input-field" placeholder="Donald Trump">
+				</fieldset>
+				<fieldset class="proposal__form-fieldset">
 					<div class="proposal__form-fieldset-split">
 						<label class="proposal__form-label">Project Contact Phone</label>
 						<input type="phone" class="form__input-field" placeholder="( ) --- ----">
 					</div>
-				</fieldset>
-				<fieldset class="proposal__form-fieldset">
+					<div class="proposal__form-fieldset-split">
+						<label class="proposal__form-label">Project Contact Email</label>
+						<input type="phone" class="form__input-field" placeholder="( ) --- ----">
+					</div>
 					<div class="proposal__form-fieldset-split" disabled="true">
 						<label class="proposal__form-label">Initial Approval</label>
-						<input type="phone" class="form__input-field" placeholder="D.T.">
+						<input type="phone" class="form__input-field" placeholder="( ) --- ----">
 					</div>
 					<div class="proposal__form-fieldset-split" disabled="true">
 						<label class="proposal__form-label">P.O. #</label>
-						<input type="phone" class="form__input-field" placeholder="xxx-xxx">
+						<input type="phone" class="form__input-field" placeholder="( ) --- ----">
 					</div>
 				</fieldset>
 				<fieldset class="proposal__form-approval">
