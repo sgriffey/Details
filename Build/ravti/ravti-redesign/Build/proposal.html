@@ -43,78 +43,136 @@
 	<!-- End Top Bar Nav -->
 	<!-- Main Content/Page View -->
 	<main class="page__wrapper">
-		<section class="proposal__subnav">
-			<nav class="proposal__subnav-controls">
-				<ul class="proposal__subnav-buckets">
-					<li class="proposal__subnav-bucket is-active"><a href="">Proposal</a></li>
-					<li class="proposal__subnav-bucket"><a href="">Q&amp;A</a></li>
-				</ul>
-			</nav>
-		</section>
-		<section class="proposal">
-			<h2 class="proposal__form-title">HVAC Maintenance Program Proposal</h2>
-			<form class="proposal__form">
-				<fieldset class="proposal__form-fieldset">
-					<legend class="proposal__form-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
-					<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA">DebonAir Mechanical<span class="proposal__option-price">$6,983</span></label>
-					<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA">Airstron<span class="proposal__option-price">$5,211</span></label>
-					<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="NBA">Airtek<span class="proposal__option-price">$4,733</span></label>
-					<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA">South Florida Trane<span class="proposal__option-price">$4,356</span></label>
-				</fieldset>
-				<section class="proposal__form-total">
-					<h3 class="proposal__form-total-label">Total:</h3><h3 class="proposal__form-total-number">$4,356</h3>
-				</section>
-				<fieldset class="proposal__form-fieldset">
-					<div class="proposal__form-fieldset-split">
-						<label class="proposal__form-label">Project Contact Name</label>
-						<input type="phone" class="form__input-field" placeholder="Donald Trump">
-					</div>
-					<div class="proposal__form-fieldset-split">
-						<label class="proposal__form-label">Project Contact Phone</label>
-						<input type="phone" class="form__input-field" placeholder="( ) --- ----">
-					</div>
-				</fieldset>
-				<fieldset class="proposal__form-fieldset">
-					<div class="proposal__form-fieldset-split" disabled="true">
-						<label class="proposal__form-label">Initial Approval</label>
-						<input type="phone" class="form__input-field" placeholder="D.T.">
-					</div>
-					<div class="proposal__form-fieldset-split" disabled="true">
-						<label class="proposal__form-label">P.O. #</label>
-						<input type="phone" class="form__input-field" placeholder="xxx-xxx">
-					</div>
-				</fieldset>
-				<fieldset class="proposal__form-approval">
-						<label class="proposal__input-file-button">Upload Project Approval
-						<input type="file" class="proposal__input-file">
-						</label>
-				</fieldset>
-				<div class="proposal__form-finalize"><input class="proposal__form-button-encourage" type="submit" value="Submit">
-				</div>
-			</form>
-		</section>
-		<section class="proposal__meta">
-			<span class="proposal__meta-title">Project Summary</span>
-			<h3 class="proposal__meta-facility">8200 Doral <span class="proposal__meta-facility-id">GIB &mdash; 003</span></h3>
-			<p class="proposal__meta-summary">Maintenance program consisting of 3 running and 1 annual inspection. MERV 8 (30%-35%) Filters. This proposal is based on a work request placed by on site engineer, Osmel. The work requested is for cleaning the evap coils on each VSC unit.  </p>
-			<section class="proposal__meta-data">
-				<dl class="proposal__meta-data-chunk">
-					<dt>Address</dt>
-					<dd>8200 Doral</dd>
-					<dd>8200 NW 53 Street</dd>
-					<dd>Doral, Florida 33122</dd>
-				</dl>
-				<dl class="proposal__meta-data-chunk">
-					<dt>Contact</dt>
-					<dd>None Specified</dd>
-				</dl>
+		<header class="proposal__subhead">
+			<hr class="proposal__subhead-rule">
+			<h1 class="proposal__subhead-title">Proposal Summary</h1>
+		</header>
+		<section class="proposal__grid">
+			<section class="proposal__abstract">
+				<h2 class="proposal__abstract-job">LCC Air Cooled Chiller Replacement &amp; Packaged Rooftop Unit <span class="proposal__abstract-job-tag">GIB &mdash; 003</span></h2>
+				<address class="proposal__abstract-address">
+					<span>Department of Applied Physics</span>
+					<span>348 Via Pueblo</span>
+					<span>Stanford, CA 94305</span>
+				</address>
+				<p class="proposal__abstract-summary">Maintenance program consisting of 3 running and 1 annual inspection. MERV 8 (30%-35%) Filters.</p>
 			</section>
 			<section class="proposal__map">
-				<iframe class="proposal__map-iframe"
-					frameborder="0" style="border:0"
-					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDbVOB4rMG7dbuJc13tMDIpkgEXv3zZtCI
-					&q=Space+Needle,Seattle+WA">
-				</iframe>
+				<iframe class="proposal__map-iframe" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=18&center=37.4330%2C-122.1707&key=AIzaSyDbVOB4rMG7dbuJc13tMDIpkgEXv3zZtCI&maptype=satellite"></iframe>
+			</section>
+		</section>
+		<header class="proposal__subhead">
+			<hr class="proposal__subhead-rule">
+			<h1 class="proposal__subhead-title">Proposal Terms</h1>
+		</header>
+		<section class="proposal__terms">
+			<section class="proposal__terms-scan">
+				<ul class="proposal__terms-scan-list">
+					<li class="proposal__terms-scan-list-bullet">Warranty</li>
+					<li class="proposal__terms-scan-list-bullet">Equipment Tagging</li>
+					<li class="proposal__terms-scan-list-bullet">Secure Installation</li>
+					<li class="proposal__terms-scan-list-bullet">High-Voltage Wiring (if needed)</li>
+					<li class="proposal__terms-scan-list-bullet">Provide &amp; Install Thermostat</li>
+					<li class="proposal__terms-scan-list-bullet">Installation labor warranty</li>
+					<li class="proposal__terms-scan-list-bullet">Test &amp; Balance</li>
+					<li class="proposal__terms-scan-list-bullet">Controls</li>
+					<li class="proposal__terms-scan-list-bullet">Crane / Equipment Rigging</li>
+					<li class="proposal__terms-scan-list-bullet">Permits</li>
+					<li class="proposal__terms-scan-list-bullet">Tax</li>
+					<li class="proposal__terms-scan-list-bullet">Normal Business Hours</li>
+				</ul>
+				<span class="proposal__terms-scan-expand">view all</span>
+			</section>
+			<section class="proposal__terms-view">
+					<a href=""<h3 class="proposal__terms-view-doc">View HVAC Project Proposal</h3></a>
+			</section>
+		</section>
+		<section class="proposal">
+			<section class="proposal__bid">
+				<header class="proposal__subhead-2third">
+					<hr class="proposal__subhead-2third-rule">
+					<h1 class="proposal__subhead-title">Proposal Details</h1>
+				</header>
+				<section class="proposal__form">
+					<h2 class="proposal__form-title">HVAC Maintenance Program Proposal</h2>
+					<form class="proposal__form-fields">
+						<fieldset class="proposal__form-fieldset">
+							<legend class="proposal__form-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical">DebonAir Mechanical<span class="proposal__option-price">$6,983</span></label>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical">Airstron<span class="proposal__option-price">$5,211</span></label>
+							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="mechanical">Airtek<span class="proposal__option-price">$4,733</span></label>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical">South Florida Trane<span class="proposal__option-price">$4,356</span></label>
+						</fieldset>
+						<fieldset class="proposal__form-fieldset">
+							<legend class="proposal__form-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA">Trane<span class="proposal__option-price">$46,983</span></label>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA">Mccay<span class="proposal__option-price">$44,193</span></label>
+							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="NBA">York<span class="proposal__option-price">$41,138</span></label>
+						</fieldset>
+						<fieldset class="proposal__form-fieldset">
+							<legend class="proposal__form-legend">Electrical <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="electrical">Cupertino Electric<span class="proposal__option-price">$6,233</span></label>
+						</fieldset>
+						<section class="proposal__form-total">
+							<h3 class="proposal__form-total-label">Total Cost Estimate:</h3><h3 class="proposal__form-total-number">$53,156</h3>
+						</section>
+						<fieldset class="proposal__form-fieldset">
+							<div class="proposal__form-fieldset-split">
+								<label class="proposal__form-label">Project Contact Name</label>
+								<input type="phone" class="form__input-field" placeholder="Donald Trump">
+							</div>
+							<div class="proposal__form-fieldset-split">
+								<label class="proposal__form-label">Project Contact Phone</label>
+								<input type="phone" class="form__input-field" placeholder="( ) --- ----">
+							</div>
+						</fieldset>
+						<fieldset class="proposal__form-fieldset">
+							<div class="proposal__form-fieldset-split" disabled="true">
+								<label class="proposal__form-label">Initial Approval</label>
+								<input type="phone" class="form__input-field" placeholder="D.T.">
+							</div>
+							<div class="proposal__form-fieldset-split" disabled="true">
+								<label class="proposal__form-label">P.O. #</label>
+								<input type="phone" class="form__input-field" placeholder="xxx-xxx">
+							</div>
+						</fieldset>
+						<fieldset class="proposal__form-approval">
+								<label class="proposal__input-file-button">Upload Project Approval
+								<input type="file" class="proposal__input-file">
+								</label>
+						</fieldset>
+						<div class="proposal__form-finalize"><input class="proposal__form-button-encourage" type="submit" value="Submit">
+						</div>
+					</form>
+				</section>
+			</section>
+			<section class="proposal__procure">
+				<nav class="proposal__subnav-1third">
+					<ul class="proposal__subnav-1third-buckets">
+						<li class="proposal__subnav-1third-bucket is-active"><a href="">Equipment</a></li>
+						<li class="proposal__subnav-1third-bucket"><a href="">Q&amp;A</a></li>
+					</ul>
+				</nav>
+				<section class="proposal__procure-goods">
+					<article class="proposal__procure-goods-part">
+						<img src="assets/rtu.jpg" />
+						<ul class="proposal__procure-goods-specs">
+							<li class="proposal__procure-goods-spec">RTU-3</li>
+							<li class="proposal__procure-goods-spec">Trane</li>
+							<li class="proposal__procure-goods-spec">7.5</li>
+							<li class="proposal__procure-goods-spec">2003</li>
+						</ul>
+					</article>
+					<article class="proposal__procure-goods-part">
+						<img src="assets/rtu-2.jpg" />
+						<ul class="proposal__procure-goods-specs">
+							<li class="proposal__procure-goods-spec">RTU-33</li>
+							<li class="proposal__procure-goods-spec">Carrier</li>
+							<li class="proposal__procure-goods-spec">7.5</li>
+							<li class="proposal__procure-goods-spec">2006</li>
+						</ul>
+					</article>
+				</section>
 			</section>
 		</section>
 	</main>
