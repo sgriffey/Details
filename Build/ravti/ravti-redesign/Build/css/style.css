@@ -629,7 +629,7 @@ hr {
 .is-removed {
   display: none; }
 
-.projects__subnav-buckets, .proposal__subnav-1third-buckets, .projects__subnav-bucket, .proposal__subnav-1third-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__form-fieldset, .proposal__form-approval, .proposal__meta-data-chunk, .proposal__subhead-rule,
+.projects__subnav-buckets, .proposal__subnav-1third-buckets, .projects__subnav-bucket, .proposal__subnav-1third-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__form-fieldset, .proposal__form-approval, .proposal__subhead-rule,
 .proposal__subhead-2third-rule, .proposal__procure-goods-specs, .depot__abstract-address, .depot__proposal-scan-list, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
@@ -641,7 +641,7 @@ hr {
 .proposal__terms-view-doc, .proposal__subhead-title, .depot__proposal-doctype {
   font-weight: 400; }
 
-.proposal__abstract-job, .proposal__form-title, .proposal__meta-facility, .depot__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-doc {
+.proposal__abstract-job, .proposal__form-title, .depot__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-doc {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -666,7 +666,7 @@ hr {
 .grid__half,
 .grid__third, .dashboard__request, .projects__queue,
 .projects__live, .proposal__abstract, .proposal__terms-scan,
-.proposal__terms-view, .proposal__form, .proposal__meta {
+.proposal__terms-view, .proposal__form {
   padding: 22.4px;
   padding: 1.4rem;
   margin-top: 22.4px;
@@ -684,7 +684,7 @@ hr {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-.proposal__abstract-job, .proposal__form-title, .proposal__meta-facility, .depot__abstract-job {
+.proposal__abstract-job, .proposal__form-title, .depot__abstract-job {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -873,6 +873,11 @@ hr {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   display: inline-block;
   cursor: pointer;
   position: relative;
@@ -887,6 +892,11 @@ hr {
   -webkit-appearance: none;
   font-size: 19.2px;
   font-size: 1.2rem;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   display: inline-block;
   cursor: pointer;
   position: relative;
@@ -2176,8 +2186,9 @@ dd {
   margin-bottom: 2.8rem;
   border-top: 1px dotted #66c3b0;
   border-bottom: 1px dotted #66c3b0; }
-  .proposal__form-total + .proposal__form-fieldset .proposal__form-label {
-    padding-top: 0; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__form-total + .proposal__form-fieldset .proposal__form-label {
+      padding: 0; } }
 
 .proposal__form-total-label {
   font-size: 16px;
@@ -2199,66 +2210,6 @@ dd {
   border: 0;
   margin-top: 22.4px;
   margin-top: 1.4rem; }
-
-.proposal__meta-title {
-  display: block;
-  position: relative;
-  text-align: left;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  color: #93989c;
-  background: white; }
-  .proposal__meta-title:before {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 9px;
-    top: 0.5625rem;
-    right: 0;
-    height: 1px;
-    background: #e3e5ea;
-    width: 65%; }
-  @media screen and (min-width: 46.8em) {
-    .proposal__meta-title:before {
-      width: 75%; } }
-
-.proposal__meta-facility {
-  padding-top: 11.2px;
-  padding-top: 0.7rem; }
-
-.proposal__meta-facility-id {
-  margin-left: 11.2px;
-  margin-left: 0.7rem;
-  padding-left: 5.6px;
-  padding-left: 0.35rem;
-  padding-right: 5.6px;
-  padding-right: 0.35rem;
-  font-size: 11.11111px;
-  font-size: 0.69444rem;
-  background: #66c3b0;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.4px; }
-  .proposal__meta-facility-id:hover {
-    cursor: pointer; }
-
-.proposal__meta-summary {
-  color: #54545a; }
-  .proposal__meta-summary:after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    height: 0.0625rem;
-    margin-top: 22.4px;
-    margin-top: 1.4rem;
-    background: #e3e5ea; }
-
-.proposal__meta-data-chunk {
-  margin-top: 11.2px;
-  margin-top: 0.7rem; }
-  .proposal__meta-data-chunk:nth-child(1) {
-    margin-top: 0; }
 
 .proposal__map {
   margin-top: 22.4px;
@@ -3072,7 +3023,13 @@ disabled look for disabled choices in the results dropdown
       width: 48.82117%; }
       .dashboard__buckets:last-child,
       .dashboard__request:last-child {
-        margin-right: 0; } }
+        margin-right: 0; }
+      .dashboard__buckets:nth-child(2n),
+      .dashboard__request:nth-child(2n) {
+        margin-right: 0; }
+      .dashboard__buckets:nth-child(2n+1),
+      .dashboard__request:nth-child(2n+1) {
+        clear: left; } }
 
 .dashboard__bucket {
   float: left;
@@ -3444,28 +3401,6 @@ disabled look for disabled choices in the results dropdown
 .proposal__form-select-drop,
 .proposal__form-total {
   width: 100%; }
-
-.proposal__meta-data,
-.proposal__meta-data-chunk {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  margin-right: 0; }
-  .proposal__meta-data:last-child,
-  .proposal__meta-data-chunk:last-child {
-    margin-right: 0; }
-  @media screen and (min-width: 46.8em) {
-    .proposal__meta-data,
-    .proposal__meta-data-chunk {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 100%;
-      margin-right: 0; }
-      .proposal__meta-data:last-child,
-      .proposal__meta-data-chunk:last-child {
-        margin-right: 0; } }
 
 .proposal__bid {
   float: left;
