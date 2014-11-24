@@ -2289,8 +2289,8 @@ dd {
     color: #66c3b0; }
 
 .proposal__option-price {
-  padding-left: 11.2px;
-  padding-left: 0.7rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
   color: rgba(102, 195, 176, 0.4); }
 
 .proposal__form-check-radio:checked ~ .proposal__option-price {
@@ -2380,11 +2380,6 @@ dd {
     .proposal__procure {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
-
-@media screen and (min-width: 46.8em) {
-  .equip-align {
-    margin-top: 67.2px;
-    margin-top: 4.2rem; } }
 
 @media screen and (min-width: 46.8em) {
   .proposal__procure {
