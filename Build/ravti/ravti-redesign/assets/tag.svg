@@ -6,43 +6,10 @@
     <defs></defs>
     <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="tag" sketch:type="MSArtboardGroup">
-            <rect id="Rectangle-128" stroke="#AAACAD" sketch:type="MSShapeGroup" x="2" y="2" width="5" height="5"></rect>
-            <rect id="Rectangle-128" stroke="#AAACAD" sketch:type="MSShapeGroup" x="13" y="2" width="5" height="5"></rect>
-            <rect id="Rectangle-129" fill="#AAACAD" sketch:type="MSShapeGroup" x="3" y="3" width="3" height="3"></rect>
-            <rect id="Rectangle-129" fill="#AAACAD" sketch:type="MSShapeGroup" x="14" y="3" width="3" height="3"></rect>
-            <rect id="Rectangle-129" fill="#AAACAD" sketch:type="MSShapeGroup" x="3" y="14" width="3" height="3"></rect>
-            <path d="M13,18 L18,18 L18,13" id="Rectangle-128" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <rect id="Rectangle-128" stroke="#AAACAD" sketch:type="MSShapeGroup" x="2" y="13" width="5" height="5"></rect>
-            <path d="M2,9.5 L2,10.9988918" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M9,5.5 L9,13.5" id="Line-2" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M11,12.5 L11,17.9988918" id="Line-2" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M13,9.5 L13,14.9988918" id="Line-2" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M15,9.5 L15,11.5" id="Line-7" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M15,13.5 L15,14.5" id="Line-11" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M15,16.5 L15,17.5" id="Line-15" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M12,12.5 L12,13.5" id="Line-12" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M9,17.5 L9,18.5" id="Line-13" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M4,10.5 L4,11.5" id="Line-16" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M4,8.5 L4,9.5" id="Line-20" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M6,8.5 L6,9.5" id="Line-21" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M8,8.5 L8,9.5" id="Line-22" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M6,10.5 L6,11.5" id="Line-17" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M17,9.5 L17,10.5" id="Line-23" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M17,11.5 L17,12.5" id="Line-24" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M7,9.5 L7,11.5" id="Line-18" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M5,9.5 L5,11.5" id="Line-19" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M15,14.5 L15,15.5" id="Line-14" stroke="#AAACAD" sketch:type="MSShapeGroup"></path>
-            <path d="M11,5.5 L11,8.54138136" id="Line-10" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M16,9.5 L16,14.9988918" id="Line-2" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M2.5,9.5 L7.5,9.5" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M9.5,11.5 L14.5,11.5" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M10.5,8.5 L11.5,8.5" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M7.5,9.5 L12.5,9.5" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M9.5,15.5 L14.5,15.5" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M13.5,8.5 L14.5,8.5" id="Line-3" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M9.5,6.5 L10.5,6.5" id="Line-4" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M10.5,4.5 L11.5,4.5" id="Line-5" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M9,2.5 L10.5,2.5" id="Line-6" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <g id="Rectangle-302-+-Oval-309" sketch:type="MSLayerGroup" transform="translate(12.000000, 8.500000) rotate(-315.000000) translate(-12.000000, -8.500000) translate(7.000000, 1.000000)">
+                <path d="M-0.139087296,4.8609127 L-1.43884904e-13,14.7 L10,14.7 L10.1390873,4.8609127 L5,-0.278174593 L-0.139087296,4.8609127 Z" id="Rectangle-302" stroke="#AAACAD" fill="#AAACAD" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-309" stroke="#FFFFFF" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="5" cy="4" r="1"></circle>
+            </g>
         </g>
     </g>
 </svg>
