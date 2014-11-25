@@ -13,4 +13,23 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    $(".project__terms-scan-expand").click(function(){
+            $(".project__terms-scan").addClass("terms-scan-expanded");
+            $(".project__terms-scan-expand").addClass("is-hidden");
+    });
+    $("#equip").click(function(){
+            $(".project__terms-scan").toggleClass("is-masked");
+            $(".project__terms-view").toggleClass("is-masked");
+            $("#details").toggleClass("is-active");
+            $("#equip").toggleClass("is-active");
+            $(".project__equipment").toggleClass("is-masked");
+            $(".project__equipment").removeClass("is-hidden");
+    });
+    $("#details").click(function(){
+            $(".project__equipment").toggleClass("is-masked");
+            $(".project__terms-scan").toggleClass("is-masked");
+            $(".project__terms-view").toggleClass("is-masked");
+            $("#details").toggleClass("is-active");
+            $("#equip").toggleClass("is-active");
+    });
 });

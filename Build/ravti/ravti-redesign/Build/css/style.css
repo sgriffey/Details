@@ -635,7 +635,7 @@ hr {
     box-shadow: inset 0 0 0 2px #f35b5b; }
 
 .is-masked {
-  display: none; }
+  display: none !important; }
 
 .is-removed {
   display: none; }
@@ -727,6 +727,9 @@ hr {
   padding-top: 0.7rem;
   margin-top: -2px;
   color: #c7cacd; }
+  .projects__subnav-bucket:hover, .proposal__subnav-1third-bucket:hover, .project__subnav-bucket:hover {
+    cursor: pointer;
+    color: #93989c; }
 
 /*
 *Dashed file upload widgets
@@ -1859,8 +1862,7 @@ dd {
   height: 1.875rem;
   width: 30px;
   width: 1.875rem;
-  border-radius: 50%;
-  background: url(../../assets/users_regency.png) center center no-repeat; }
+  border-radius: 50%; }
 
 .mobileNav__logo {
   position: absolute;
@@ -2856,6 +2858,13 @@ dd {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
 
+.project__equipment {
+  -webkit-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+
 .project__equipment-piece {
   margin-top: 22.4px;
   margin-top: 1.4rem;
@@ -2882,8 +2891,8 @@ dd {
   margin-top: 0.35rem;
   margin-bottom: 16.8px;
   margin-bottom: 16.8px/16pxrem;
-  margin-right: 11.2px;
-  margin-right: 0.7rem;
+  margin-right: 5.6px;
+  margin-right: 0.35rem;
   padding-left: 22.4px;
   padding-left: 22.4px/16pxrem;
   padding-top: 2px;
@@ -4049,15 +4058,6 @@ disabled look for disabled choices in the results dropdown
       .proposal__procure-goods-specs:last-child {
         margin-right: 0; } }
 
-/*.proposal__procure-goods-spec {
-	@include span-columns(6 of 12);
-	@include omega();
-
-	@include media(min-width $bp-med, 12) {
-		@include span-columns(1 of 4);
-		@include omega(4n);
-	}
-} */
 .project__grid {
   float: left;
   display: block;
@@ -4217,26 +4217,22 @@ disabled look for disabled choices in the results dropdown
       .project__equipment-piece:nth-child(2n+1) {
         clear: left; } }
 
-.project__equipment-piece-specs,
-.project__equipment-piece-spec {
+.project__equipment-piece-specs {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .project__equipment-piece-specs:last-child,
-  .project__equipment-piece-spec:last-child {
+  .project__equipment-piece-specs:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .project__equipment-piece-specs,
-    .project__equipment-piece-spec {
+    .project__equipment-piece-specs {
       float: left;
       display: block;
       margin-right: 10.1484%;
       width: 100%;
       margin-right: 0; }
-      .project__equipment-piece-specs:last-child,
-      .project__equipment-piece-spec:last-child {
+      .project__equipment-piece-specs:last-child {
         margin-right: 0; } }
 
 .sidebar {
