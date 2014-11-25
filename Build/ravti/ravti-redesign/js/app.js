@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $(".mobileNav__link").click(function() {
-	  $(".mobileNav__menu").toggleClass("mobileNav__menu-is-active");
+      $(".mobileNav__menu").toggleClass("mobileNav__menu-is-active");
+	  $(".mobileNav__link").toggleClass("is-nav-open");
 	});
 
  	$(".proposal__terms-scan-expand").click(function(){

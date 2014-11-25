@@ -446,6 +446,16 @@ table {
 /**
  * Grid
  */
+.mobileNav {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 91.125rem; }
+  .mobileNav:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 ul, ol, dl {
   float: left;
   display: block;
@@ -630,20 +640,20 @@ hr {
 .is-removed {
   display: none; }
 
-.projects__subnav-buckets, .proposal__subnav-1third-buckets, .project__subnav-buckets, .projects__subnav-bucket, .proposal__subnav-1third-bucket, .project__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__terms-view-scopes,
+.projects__subnav-buckets, .proposal__subnav-1third-buckets, .project__subnav-buckets, .projects__subnav-bucket, .proposal__subnav-1third-bucket, .project__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .mobileNav__menu-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__form-approval, .proposal__subhead-rule,
-.proposal__subhead-2third-rule, .proposal__procure-goods-specs, .project__abstract-address, .project__timeline-list, .project__terms-scan-list, .project__equipment-piece-specs, .depot__abstract-address, .depot__proposal-scan-list, .sidebar ul, .sidebar li {
+.proposal__subhead-2third-rule, .proposal__procure-goods-specs, .project__abstract-address, .project__timeline-list, .project__terms-scan-list, .project__equipment-piece-specs, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .project__abstract-address span:first-of-type, .depot__abstract-address span:first-of-type {
+.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .project__abstract-address span:first-of-type {
   font-weight: 700; }
 
-.proposal__terms-view-doc, .proposal__subhead-title, .project__banner-progress, .project__terms-view-doc, .depot__proposal-doctype {
+.proposal__terms-view-doc, .proposal__subhead-title, .project__banner-progress, .project__terms-view-doc {
   font-weight: 400; }
 
-.proposal__abstract-job, .proposal__form-title, .project__abstract-job, .depot__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand {
+.proposal__abstract-job, .proposal__form-title, .project__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -688,7 +698,7 @@ hr {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-.proposal__abstract-job, .proposal__form-title, .project__abstract-job, .depot__abstract-job {
+.proposal__abstract-job, .proposal__form-title, .project__abstract-job {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -1852,6 +1862,63 @@ dd {
   border-radius: 50%;
   background: url(../../assets/users_regency.png) center center no-repeat; }
 
+.mobileNav__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  height: 3.75rem;
+  width: 60px;
+  width: 3.75rem;
+  background: url(../../assets/ravti-app-logo.svg) center center no-repeat;
+  background-color: #092f3e;
+  display: inline-block; }
+
+.mobileNav__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 60px;
+  height: 3.75rem;
+  width: 60px;
+  width: 3.75rem;
+  background: url(../../assets/mobile-nav-menu.svg) center center no-repeat;
+  display: inline-block;
+  cursor: pointer; }
+
+.is-nav-open {
+  background: url(../../assets/mobile-nav-close.svg) center center no-repeat; }
+
+.mobileNav__masthead {
+  display: block;
+  height: 60px;
+  height: 3.75rem;
+  background: white;
+  border-bottom: 2px solid #e3e5ea; }
+
+.mobileNav__menu {
+  transition: 0.6s cubic-bezier(0.3, 0, 0, 1.3);
+  background: #092f3e;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0; }
+
+.mobileNav__menu-is-active {
+  opacity: 1;
+  max-height: 600px;
+  max-height: 37.5rem;
+  transition: 0.8s cubic-bezier(0.3, 0, 0, 1.3); }
+
+.mobileNav__menu-list-item {
+  color: white;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.8em;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
+
 .personas__portrait {
   padding-top: 44.8px; }
 
@@ -2843,131 +2910,6 @@ dd {
     background-image: url(../../assets/tonnage.svg); }
   .project__equipment-piece-spec:nth-child(4):before {
     background-image: url(../../assets/calendar.svg); }
-
-.depot {
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
-
-.depot__abstract {
-  padding: 22.4px;
-  padding: 1.4rem;
-  background: white;
-  border: 1px solid #e3e5ea; }
-
-.depot__abstract-job-tag {
-  margin-left: 11.2px;
-  margin-left: 0.7rem;
-  padding-left: 5.6px;
-  padding-left: 0.35rem;
-  padding-right: 5.6px;
-  padding-right: 0.35rem;
-  font-size: 11.11111px;
-  font-size: 0.69444rem;
-  background: #66c3b0;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.4px; }
-  .depot__abstract-job-tag:hover {
-    cursor: pointer; }
-
-.depot__abstract-address {
-  padding-left: 28px;
-  padding-left: 28px/16pxrem;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  position: relative; }
-  .depot__abstract-address:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 18px;
-    height: 1.125rem;
-    width: 18px;
-    width: 1.125rem;
-    margin-right: 11.2px;
-    margin-right: 0.7rem;
-    background: center center no-repeat;
-    background-image: url(../../assets/address-icon.svg); }
-  .depot__abstract-address span {
-    display: block;
-    font-style: normal;
-    color: #93989c; }
-    .depot__abstract-address span:first-of-type {
-      color: #54545a; }
-
-.depot__abstract-summary {
-  color: #54545a;
-  margin-bottom: 0; }
-
-.depot__proposal-scan-list-bullet {
-  margin-top: 16.8px;
-  margin-top: 16.8px/16pxrem;
-  padding-left: 22.4px;
-  padding-left: 1.4rem;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  position: relative; }
-  .depot__proposal-scan-list-bullet:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 16px;
-    height: 1rem;
-    width: 16px;
-    width: 1rem;
-    background: center center no-repeat;
-    background-image: url(../../assets/service-icon.svg); }
-
-.depot__proposal-pdf {
-  border: 1px solid #c7cacd;
-  position: relative;
-  padding: 11.2px;
-  padding: 0.7rem;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px; }
-  .depot__proposal-pdf:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 11.2px;
-    height: 32px;
-    height: 2rem;
-    width: 24px;
-    width: 1.5rem;
-    margin-right: 11.2px;
-    margin-right: 0.7rem;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background: center center no-repeat;
-    background-image: url(../../assets/scope.svg); }
-  .depot__proposal-pdf:hover {
-    cursor: pointer;
-    border-color: #092f3e; }
-    .depot__proposal-pdf:hover .depot__proposal-doctype {
-      color: #092f3e; }
-
-.depot__proposal-doctype {
-  font-size: 16px;
-  font-size: 1rem;
-  padding-left: 33.6px;
-  padding-left: 33.6px/16pxrem;
-  margin-bottom: 0;
-  color: #93989c; }
-
-.depot__map-iframe {
-  width: 100%;
-  min-height: 400px;
-  height: 100%; }
 
 /*
 Select2 Base Styling
@@ -4297,114 +4239,6 @@ disabled look for disabled choices in the results dropdown
       .project__equipment-piece-spec:last-child {
         margin-right: 0; } }
 
-.depot {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  margin-right: 0; }
-  .depot:last-child {
-    margin-right: 0; }
-
-.depot__abstract,
-.depot__map {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  margin-right: 0; }
-  .depot__abstract:last-child,
-  .depot__map:last-child {
-    margin-right: 0; }
-  @media screen and (min-width: 46.8em) {
-    .depot__abstract,
-    .depot__map {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .depot__abstract:last-child,
-      .depot__map:last-child {
-        margin-right: 0; } }
-
-.depot__map-iframe {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  .depot__map-iframe:last-child {
-    margin-right: 0; }
-  @media screen and (min-width: 46.8em) {
-    .depot__map-iframe {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 100%;
-      margin-right: 0; }
-      .depot__map-iframe:last-child {
-        margin-right: 0; } }
-
-.depot__abstract-address,
-.depot__abstract-summary,
-.depot__proposal,
-.depot__proposal-scan,
-.depot__proposal-scan-list,
-.depot__proposal-pdf {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  .depot__abstract-address:last-child,
-  .depot__abstract-summary:last-child,
-  .depot__proposal:last-child,
-  .depot__proposal-scan:last-child,
-  .depot__proposal-scan-list:last-child,
-  .depot__proposal-pdf:last-child {
-    margin-right: 0; }
-  @media screen and (min-width: 46.8em) {
-    .depot__abstract-address,
-    .depot__abstract-summary,
-    .depot__proposal,
-    .depot__proposal-scan,
-    .depot__proposal-scan-list,
-    .depot__proposal-pdf {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 100%;
-      margin-right: 0; }
-      .depot__abstract-address:last-child,
-      .depot__abstract-summary:last-child,
-      .depot__proposal:last-child,
-      .depot__proposal-scan:last-child,
-      .depot__proposal-scan-list:last-child,
-      .depot__proposal-pdf:last-child {
-        margin-right: 0; } }
-
-.depot__proposal-scan-list-bullet {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .depot__proposal-scan-list-bullet:last-child {
-    margin-right: 0; }
-  .depot__proposal-scan-list-bullet:nth-child(2n) {
-    margin-right: 0; }
-  .depot__proposal-scan-list-bullet:nth-child(2n+1) {
-    clear: left; }
-  @media screen and (min-width: 46.8em) {
-    .depot__proposal-scan-list-bullet {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 47.58542%; }
-      .depot__proposal-scan-list-bullet:last-child {
-        margin-right: 0; }
-      .depot__proposal-scan-list-bullet:nth-child(2n) {
-        margin-right: 0; }
-      .depot__proposal-scan-list-bullet:nth-child(2n+1) {
-        clear: left; } }
-
 .sidebar {
   float: left;
   display: block;
@@ -4695,14 +4529,22 @@ disabled look for disabled choices in the results dropdown
         clear: left; } }
 
 .siteNav {
-  max-width: 91.125rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; }
-  .siteNav:after {
-    content: "";
-    display: table;
-    clear: both; }
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .siteNav {
+      display: block;
+      max-width: 91.125rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%; }
+      .siteNav:after {
+        content: "";
+        display: table;
+        clear: both; } }
+
+@media screen and (min-width: 46.8em) {
+  .mobileNav {
+    display: none; } }
 
 .personas {
   float: left;
