@@ -7,4 +7,9 @@ $(document).ready(function() {
             $(".proposal__terms-scan").addClass("terms-scan-expanded");
             $(".proposal__terms-scan-expand").addClass("is-hidden");
     });
+
+    $(".project__terms-scan-expand").click(function(){
+            $(".project__terms-scan").addClass("terms-scan-expanded");
+            $(".project__terms-scan-expand").addClass("is-hidden");
+    });
 });
