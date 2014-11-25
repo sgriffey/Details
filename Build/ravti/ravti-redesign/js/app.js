@@ -32,4 +32,15 @@ $(document).ready(function() {
             $("#details").toggleClass("is-active");
             $("#equip").toggleClass("is-active");
     });
+    $(".overlay-scope").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay").offset().top
+            }, 500);
+    });
+     $(".overlay__dismiss").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay").toggleClass("is-masked");
+    });
 });
