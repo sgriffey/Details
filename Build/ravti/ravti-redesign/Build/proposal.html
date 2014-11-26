@@ -117,17 +117,17 @@
 							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$6,983</span>DebonAir Mechanical</label>
 							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$5,211</span>Airstron</label>
 							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$4,733</span>Airtek</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$4,356</span>South Florida Trane</label>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical" checked><span class="proposal__option-price">$4,356</span>South Florida Trane</label>
 						</fieldset>
 						<fieldset class="proposal__form-fieldset">
 							<legend class="proposal__form-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
 							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$46,983</span>Trane</label>
 							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$44,193</span>Mccay</label>
-							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$41,138</span>York</label>
+							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="NBA" checked><span class="proposal__option-price">$41,138</span>York</label>
 						</fieldset>
 						<fieldset class="proposal__form-fieldset">
 							<legend class="proposal__form-legend">Electrical <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="electrical"><span class="proposal__option-price">$6,233</span>Cupertino Electric</label>
+							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="electrical" checked><span class="proposal__option-price">$6,233</span>Cupertino Electric</label>
 						</fieldset>
 						<section class="proposal__form-total">
 							<h3 class="proposal__form-total-label">Total Cost Estimate:</h3><h3 class="proposal__form-total-number">$53,156</h3>
@@ -155,8 +155,8 @@
 			<section class="proposal__procure">
 				<nav class="proposal__subnav-1third">
 					<ul class="proposal__subnav-1third-buckets">
-						<li class="proposal__subnav-1third-bucket is-active"><a href="">Equipment</a></li>
-						<li class="proposal__subnav-1third-bucket"><a href="">Q&amp;A</a></li>
+						<li class="proposal__subnav-1third-bucket is-active" id="goods"><a>Equipment</a></li>
+						<li class="proposal__subnav-1third-bucket" id="services"><a>Q&amp;A</a></li>
 					</ul>
 				</nav>
 				<section class="proposal__procure-goods">
@@ -177,6 +177,20 @@
 							<li class="proposal__procure-goods-spec">7.5</li>
 							<li class="proposal__procure-goods-spec">2006</li>
 						</ul>
+					</article>
+				</section>
+				<section class="proposal__procure-services is-masked is-hidden">
+					<article class="proposal__procure-services-qa">
+						<div class="proposal__procure-services-qa-comment">
+							<figure class="proposal__procure-services-qa-user">
+								<img src="assets/users_gibson.png">
+							</figure>
+							<h3 class="proposal__procure-services-qa-username">Monique</h3>
+							<textarea class="proposal__procure-services-qa-chatter" placeholder="Ask a question" name="response" autofocus rows="4"></textarea>
+						</div>
+						<div class="proposal__procure-services-qa-post">
+							<input class="proposal__procure-services-qa-post-btn" type="button" value="Post">
+						</div>
 					</article>
 				</section>
 			</section>

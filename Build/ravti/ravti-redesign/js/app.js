@@ -17,6 +17,7 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    //For Timeline Page
     $("#equip").click(function(){
             $(".project__terms-scan").toggleClass("is-masked");
             $(".project__terms-view").toggleClass("is-masked");
@@ -32,6 +33,21 @@ $(document).ready(function() {
             $("#details").toggleClass("is-active");
             $("#equip").toggleClass("is-active");
     });
+    //For Proposal Page
+    $("#services").click(function(){
+            $(".proposal__procure-goods").toggleClass("is-masked");
+            $("#goods").toggleClass("is-active");
+            $("#services").toggleClass("is-active");
+            $(".proposal__procure-services").toggleClass("is-masked");
+            $(".proposal__procure-services").removeClass("is-hidden");
+    });
+     $("#goods").click(function(){
+            $(".proposal__procure-services").toggleClass("is-masked");
+            $(".proposal__procure-goods").toggleClass("is-masked");
+            $("#services").toggleClass("is-active");
+            $("#goods").toggleClass("is-active");
+    });
+    //For Modal Overlays
     $(".overlay-scope").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
@@ -53,5 +69,16 @@ $(document).ready(function() {
      $(".overlay-equipment-dismiss").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
+    });
+    //Adding Comments
+    $('.proposal__procure-services-qa-post-btn').click(function() {
+        var toAdd = $("textarea[name=response]").val();
+        $('.proposal__procure-services-qa').before("<div>"+"<figure>"+"<img>"+"</figure>"+"<h3>"+"</h3>"+"<p>"+toAdd+"</p>"+"</div>");
+        $('.proposal__procure-services div').addClass('proposal__procure-services-qa-response');
+        $('.proposal__procure-services-qa-response figure').addClass('proposal__procure-services-qa-user');
+        $('.proposal__procure-services-qa-response h3').addClass('proposal__procure-services-qa-username');
+        $('.proposal__procure-services-qa-username').text("Monique");
+        $('.proposal__procure-services-qa-response p').addClass('proposal__procure-services-qa-answer');
+        $('.proposal__procure-services-qa-user img').attr({src: "assets/users_gibson.png"});
     });
 });

@@ -667,9 +667,9 @@ hr {
   height: 100%;
   overflow-y: hidden; }
 
-.projects__subnav-buckets, .proposal__subnav-1third-buckets, .project__subnav-buckets, .projects__subnav-bucket, .proposal__subnav-1third-bucket, .project__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .mobileNav__menu-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__terms-view-scopes,
-.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__form-approval, .proposal__subhead-rule,
-.proposal__subhead-2third-rule, .proposal__procure-goods-specs, .project__abstract-address, .project__timeline-list, .project__terms-scan-list, .project__equipment-piece-specs, .sidebar ul, .sidebar li {
+.projects__subnav-buckets, .proposal__subnav-1third-buckets, .project__subnav-buckets, .projects__subnav-bucket, .proposal__subnav-1third-bucket, .project__subnav-bucket, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .mobileNav__menu-list, .widgets__subnav-pages, .dashboard__form-fieldset, .proposal__subhead-rule,
+.proposal__subhead-2third-rule, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__terms-view-scopes,
+.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__form-approval, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__timeline-list, .project__terms-scan-list, .project__equipment-piece-specs, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
@@ -677,10 +677,13 @@ hr {
 .overlay__scope, .overlay__equipment-specs {
   padding: 0 11.2px; }
 
-.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .project__abstract-address span:first-of-type, .overlay__equipment-spec-key {
+.proposal__procure-services-qa-chatter {
+  font-family: "jaf-bernino-sans", sans-serif; }
+
+.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .overlay__equipment-spec-key {
   font-weight: 700; }
 
-.proposal__terms-view-doc, .proposal__subhead-title, .project__banner-progress, .project__terms-view-doc {
+.proposal__subhead-title, .proposal__terms-view-doc, .project__banner-progress, .project__terms-view-doc {
   font-weight: 400; }
 
 .proposal__abstract-job, .proposal__form-title, .project__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity {
@@ -697,7 +700,7 @@ hr {
 .grid__half,
 .grid__third, .dashboard__request, .projects__queue,
 .projects__live, .proposal__abstract, .proposal__terms-scan,
-.proposal__terms-view, .proposal__form, .project__chat,
+.proposal__terms-view, .proposal__form, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__abstract, .project__timeline {
   padding: 22.4px;
@@ -912,10 +915,10 @@ hr {
 .form__buttons-encourage-block-large, .form__buttons-encourage-large, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__form-button-encourage, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .form__buttons-group-item, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field {
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__form-button-encourage, .proposal__procure-services-qa-post-btn, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .form__buttons-group-item, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field {
   padding: 0.4em 1em 0.3em 1em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__form-button-encourage, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .form__buttons-group-item {
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__form-button-encourage, .proposal__procure-services-qa-post-btn, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -959,11 +962,11 @@ hr {
 .form__buttons-encourage-block-large {
   width: 100%; }
 
-.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__form-button-encourage {
+.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__form-button-encourage, .proposal__procure-services-qa-post-btn {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
-  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-encourage:hover, .proposal__form-button-encourage:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-encourage:focus, .proposal__form-button-encourage:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-encourage:active, .proposal__form-button-encourage:active {
+  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-encourage:hover, .proposal__form-button-encourage:hover, .proposal__procure-services-qa-post-btn:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-encourage:focus, .proposal__form-button-encourage:focus, .proposal__procure-services-qa-post-btn:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-encourage:active, .proposal__form-button-encourage:active, .proposal__procure-services-qa-post-btn:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-discourage {
@@ -2220,6 +2223,36 @@ dd {
   .dashboard__form-check-label:last-of-type {
     margin-bottom: 0; }
 
+.proposal__subhead,
+.proposal__subhead-2third {
+  position: relative;
+  margin-top: 44.8px;
+  margin-top: 2.8rem; }
+  .proposal__subhead:first-of-type,
+  .proposal__subhead-2third:first-of-type {
+    margin-top: 0; }
+
+.proposal__subhead-rule,
+.proposal__subhead-2third-rule {
+  position: absolute;
+  top: 12px;
+  top: 0.75rem;
+  height: 1px;
+  height: 0.0625rem;
+  background: #e3e5ea; }
+
+.proposal__subhead-title {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  padding-right: 22.4px;
+  padding-right: 1.4rem;
+  margin-bottom: 0;
+  background: #fafafb;
+  color: #93989c; }
+
 .proposal__abstract {
   min-height: 300px;
   min-height: 18.75rem; }
@@ -2571,45 +2604,6 @@ dd {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
-.proposal__map {
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
-
-.proposal__map-iframe {
-  width: 100%;
-  height: 300px;
-  height: 18.75rem; }
-
-.proposal__subhead,
-.proposal__subhead-2third {
-  position: relative;
-  margin-top: 44.8px;
-  margin-top: 2.8rem; }
-  .proposal__subhead:first-of-type,
-  .proposal__subhead-2third:first-of-type {
-    margin-top: 0; }
-
-.proposal__subhead-rule,
-.proposal__subhead-2third-rule {
-  position: absolute;
-  top: 12px;
-  top: 0.75rem;
-  height: 1px;
-  height: 0.0625rem;
-  background: #e3e5ea; }
-
-.proposal__subhead-title {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  padding-right: 22.4px;
-  padding-right: 1.4rem;
-  margin-bottom: 0;
-  background: #fafafb;
-  color: #93989c; }
-
 .proposal__bid,
 .proposal__procure {
   margin-top: 22.4px;
@@ -2679,6 +2673,61 @@ dd {
     background-image: url(../../assets/tonnage.svg); }
   .proposal__procure-goods-spec:nth-child(4):before {
     background-image: url(../../assets/calendar.svg); }
+
+.proposal__procure-services-qa-response {
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem; }
+  .proposal__procure-services-qa-response:first-of-type {
+    margin-top: 0; }
+
+.proposal__procure-services-qa-comment {
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
+
+.proposal__procure-services-qa-user {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin-bottom: 0;
+  line-height: 0; }
+
+.proposal__procure-services-qa-username {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  margin-bottom: 0; }
+
+.proposal__procure-services-qa-chatter {
+  -webkit-appearance: none;
+  width: 100%;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  resize: none;
+  max-width: 100%;
+  border: none;
+  outline: none; }
+
+.proposal__procure-services-qa-post {
+  border-top: 1px solid #e3e5ea;
+  padding-top: 22.4px;
+  padding-top: 1.4rem; }
+
+.proposal__procure-services-qa-answer {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #54545a; }
 
 .project__subnav {
   margin-top: 44.8px;
@@ -4317,7 +4366,11 @@ disabled look for disabled choices in the results dropdown
 
 .proposal__procure-goods,
 .proposal__procure-goods-part,
-.proposal__procure-goods-specs {
+.proposal__procure-goods-specs,
+.proposal__procure-services,
+.proposal__procure-services-qa,
+.proposal__procure-services-qa-response,
+.proposal__procure-services-qa-comment {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -4325,12 +4378,20 @@ disabled look for disabled choices in the results dropdown
   margin-right: 0; }
   .proposal__procure-goods:last-child,
   .proposal__procure-goods-part:last-child,
-  .proposal__procure-goods-specs:last-child {
+  .proposal__procure-goods-specs:last-child,
+  .proposal__procure-services:last-child,
+  .proposal__procure-services-qa:last-child,
+  .proposal__procure-services-qa-response:last-child,
+  .proposal__procure-services-qa-comment:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__procure-goods,
     .proposal__procure-goods-part,
-    .proposal__procure-goods-specs {
+    .proposal__procure-goods-specs,
+    .proposal__procure-services,
+    .proposal__procure-services-qa,
+    .proposal__procure-services-qa-response,
+    .proposal__procure-services-qa-comment {
       float: left;
       display: block;
       margin-right: 7.42297%;
@@ -4338,7 +4399,73 @@ disabled look for disabled choices in the results dropdown
       margin-right: 0; }
       .proposal__procure-goods:last-child,
       .proposal__procure-goods-part:last-child,
-      .proposal__procure-goods-specs:last-child {
+      .proposal__procure-goods-specs:last-child,
+      .proposal__procure-services:last-child,
+      .proposal__procure-services-qa:last-child,
+      .proposal__procure-services-qa-response:last-child,
+      .proposal__procure-services-qa-comment:last-child {
+        margin-right: 0; } }
+
+.proposal__procure-services-qa-user {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%; }
+  .proposal__procure-services-qa-user:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__procure-services-qa-user {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 6.0049%; }
+      .proposal__procure-services-qa-user:last-child {
+        margin-right: 0; } }
+
+.proposal__procure-services-qa-username {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  margin-right: 0; }
+  .proposal__procure-services-qa-username:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__procure-services-qa-username {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 86.57213%;
+      margin-right: 0; }
+      .proposal__procure-services-qa-username:last-child {
+        margin-right: 0; } }
+
+.proposal__procure-services-qa-chatter,
+.proposal__procure-services-qa-post,
+.proposal__procure-services-qa-answer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  margin-left: 8.5298%;
+  margin-right: 0; }
+  .proposal__procure-services-qa-chatter:last-child,
+  .proposal__procure-services-qa-post:last-child,
+  .proposal__procure-services-qa-answer:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__procure-services-qa-chatter,
+    .proposal__procure-services-qa-post,
+    .proposal__procure-services-qa-answer {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 86.57213%;
+      margin-left: 13.42787%;
+      margin-right: 0; }
+      .proposal__procure-services-qa-chatter:last-child,
+      .proposal__procure-services-qa-post:last-child,
+      .proposal__procure-services-qa-answer:last-child {
         margin-right: 0; } }
 
 .project__grid {
