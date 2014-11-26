@@ -456,6 +456,16 @@ table {
     display: table;
     clear: both; }
 
+.overlay__equipment {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60rem; }
+  .overlay__equipment:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 .overlay__scope {
   max-width: 91.125rem;
   margin-left: auto;
@@ -664,16 +674,16 @@ hr {
   padding: 0;
   list-style-type: none; }
 
-.overlay__scope {
+.overlay__scope, .overlay__equipment-specs {
   padding: 0 11.2px; }
 
-.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .project__abstract-address span:first-of-type {
+.proposal__input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .project__abstract-address span:first-of-type, .overlay__equipment-spec-key {
   font-weight: 700; }
 
 .proposal__terms-view-doc, .proposal__subhead-title, .project__banner-progress, .project__terms-view-doc {
   font-weight: 400; }
 
-.proposal__abstract-job, .proposal__form-title, .project__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__scope-title, .overlay__scope-similarity {
+.proposal__abstract-job, .proposal__form-title, .project__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -1506,7 +1516,21 @@ hr {
   width: 100%;
   z-index: 3; }
 
+.overlay-equipment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3; }
+
 .overlay__scope {
+  position: relative;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  margin-bottom: 44.8px;
+  margin-bottom: 2.8rem; }
+
+.overlay__equipment {
   position: relative;
   margin-top: 22.4px;
   margin-top: 1.4rem;
@@ -1527,6 +1551,104 @@ hr {
   .overlay__scope-tasks:last-child,
   .overlay__scope-task:last-child {
     margin-right: 0; }
+
+.overlay__equipment-specs {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .overlay__equipment-specs:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__equipment-specs {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .overlay__equipment-specs:last-child {
+        margin-right: 0; } }
+
+.overlay__equipment-header,
+.overlay__equipment-spec-list,
+.overlay__equipment-spec-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .overlay__equipment-header:last-child,
+  .overlay__equipment-spec-list:last-child,
+  .overlay__equipment-spec-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__equipment-header,
+    .overlay__equipment-spec-list,
+    .overlay__equipment-spec-item {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .overlay__equipment-header:last-child,
+      .overlay__equipment-spec-list:last-child,
+      .overlay__equipment-spec-item:last-child {
+        margin-right: 0; } }
+
+.overlay__equipment-spec-key,
+.overlay__equipment-spec-value {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0; }
+  .overlay__equipment-spec-key:last-child,
+  .overlay__equipment-spec-value:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__equipment-spec-key,
+    .overlay__equipment-spec-value {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 46.28851%; }
+      .overlay__equipment-spec-key:last-child,
+      .overlay__equipment-spec-value:last-child {
+        margin-right: 0; } }
+
+.overlay__equipment-gallery {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .overlay__equipment-gallery:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__equipment-gallery {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .overlay__equipment-gallery:last-child {
+        margin-right: 0; } }
+
+.overlay__equipment-gallery-image {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .overlay__equipment-gallery-image:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__equipment-gallery-image {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      .overlay__equipment-gallery-image:last-child {
+        margin-right: 0; } }
 
 .palette__swatch {
   min-height: 6rem;
@@ -2969,6 +3091,9 @@ dd {
 .overlay {
   background: rgba(255, 255, 255, 0.97); }
 
+.overlay-equipment {
+  background: rgba(255, 255, 255, 0.97); }
+
 .overlay__scope {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
@@ -2999,6 +3124,51 @@ dd {
     .overlay__dismiss {
       right: 44.8px;
       right: 2.8rem; } }
+
+.overlay-equipment-dismiss {
+  cursor: pointer;
+  -webkit-appearance: none;
+  position: fixed;
+  z-index: 4;
+  display: inline-block;
+  top: 22.4px;
+  top: 1.4rem;
+  right: 22.4px;
+  right: 1.4rem;
+  width: 42px;
+  width: 2.625rem;
+  height: 42px;
+  height: 2.625rem;
+  background: center center no-repeat;
+  background: url(../assets/dismiss-trigger.svg);
+  border: 0;
+  outline: none; }
+  @media screen and (min-width: 46.8em) {
+    .overlay-equipment-dismiss {
+      right: 44.8px;
+      right: 2.8rem; } }
+
+.overlay__equipment-header {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  padding-bottom: 5.6px;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e3e5ea; }
+
+.overlay__equipment-spec-list {
+  margin-top: 0; }
+
+.overlay__equipment-spec-item {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  padding-bottom: 5.6px;
+  padding-bottom: 0.35rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  border-bottom: 1px solid #e3e5ea; }
 
 .overlay__scope-title {
   font-size: 33.1776px;

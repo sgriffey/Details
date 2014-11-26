@@ -43,4 +43,15 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
+     $(".project__equipment-piece, .proposal__procure-goods-part").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay-equipment").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay-equipment").offset().top
+            }, 500);
+    });
+     $(".overlay-equipment-dismiss").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay-equipment").toggleClass("is-masked");
+    });
 });
