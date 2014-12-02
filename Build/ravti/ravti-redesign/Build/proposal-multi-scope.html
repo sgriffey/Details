@@ -110,28 +110,87 @@
 		<section class="proposal">
 			<section class="proposal__bid">
 				<header class="proposal__subhead-2third">
-					<hr class="proposal__subhead-2third-rule is-hidden">
+					<hr class="proposal__subhead-2third-rule">
 					<h1 class="proposal__subhead-title">Proposal Pricing</h1>
 				</header>
 				<section class="proposal__form">
-					<h2 class="proposal__form-title">HVAC Maintenance Program Proposal</h2>
 					<form class="proposal__form-fields">
 						<fieldset class="proposal__form-fieldset">
-							<legend class="proposal__form-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$6,983</span>DebonAir Mechanical</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$5,211</span>Airstron</label>
-							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$4,733</span>Airtek</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$4,356</span>South Florida Trane</label>
+							<legend class="proposal__form-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="manufacturer">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$46,983</span>
+									<span class="proposal__option-vendor">Trane</span>
+									<dl class="proposal__options-details">
+										<dd class="proposal__options-detail">Estimated Lead Time: <b>1-2 weeks</b></dd>
+										<dd class="proposal__options-detail">Model #: <b>83722VR2</b></dd>
+									</dl>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="manufacturer">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$44,193</span>
+									<span class="proposal__option-vendor">Carrier</span>
+									<dl class="proposal__options-details">
+										<dd class="proposal__options-detail">Estimated Lead Time: <b>3 weeks</b></dd>
+										<dd class="proposal__options-detail">Model #: <b>W3SBG4311</b></dd>
+									</dl>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="manufacturer" checked>
+								<div class="proposal__options">
+									<span class="proposal__option-price">$41,138</span>
+									<span class="proposal__option-vendor">York</span>
+									<dl class="proposal__options-details">
+										<dd class="proposal__options-detail">Estimated Lead Time: <b>6 days</b></dd>
+										<dd class="proposal__options-detail">Model #: <b>92483FV2</b></dd>
+									</dl>
+								</div>
+							</label>
 						</fieldset>
 						<fieldset class="proposal__form-fieldset">
-							<legend class="proposal__form-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$46,983</span>Trane</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$44,193</span>Mccay</label>
-							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$41,138</span>York</label>
+							<legend class="proposal__form-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$6,983</span>
+									<span class="proposal__option-vendor">DebonAir Mechanical</span>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$5,211</span>
+									<span class="proposal__option-vendor">Airstron</span>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$4,733</span>
+									<span class="proposal__option-vendor">Airtek</span>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical" checked>
+								<div class="proposal__options">
+									<span class="proposal__option-price">$4,356</span>
+									<span class="proposal__option-vendor">South Florida Trane</span>
+								</div>
+							</label>
 						</fieldset>
 						<fieldset class="proposal__form-fieldset">
 							<legend class="proposal__form-legend">Electrical <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="electrical"><span class="proposal__option-price">$6,233</span>Cupertino Electric</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="electrical" checked>
+								<div class="proposal__options">
+									<span class="proposal__option-price">$6,233</span>
+									<span class="proposal__option-vendor">Cupertino Electric</span>
+								</div>
+							</label>
 						</fieldset>
 						<section class="proposal__form-total">
 							<h3 class="proposal__form-total-label">Total Cost Estimate:</h3><h3 class="proposal__form-total-number">$53,156</h3>
@@ -151,7 +210,7 @@
 								<input type="file" class="proposal__input-file">
 								</label>
 						</fieldset>
-						<div class="proposal__form-finalize"><input class="proposal__form-button-encourage" type="submit" value="Submit">
+						<div class="proposal__form-finalize"><input class="proposal__form-button-encourage" type="button" value="Finalize">
 						</div>
 					</form>
 				</section>

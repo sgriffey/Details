@@ -70,6 +70,18 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
     });
+    //Confirmation Overlay
+    $(".proposal__form-button-encourage").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay__confirm-wrapper").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay-confirm").offset().top
+            }, 500);
+    });
+    $(".overlay__confirm-dismiss").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay__confirm-wrapper").toggleClass("is-masked");
+    });
     //Adding Comments
     $('.proposal__procure-services-qa-post-btn').click(function() {
         var toAdd = $("textarea[name=response]").val();

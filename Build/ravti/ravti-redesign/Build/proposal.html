@@ -110,44 +110,88 @@
 					<h1 class="proposal__subhead-title">Proposal Pricing</h1>
 				</header>
 				<section class="proposal__form">
-					<h2 class="proposal__form-title">HVAC Maintenance Program Proposal</h2>
 					<form class="proposal__form-fields">
 						<fieldset class="proposal__form-fieldset">
-							<legend class="proposal__form-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$6,983</span>DebonAir Mechanical</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$5,211</span>Airstron</label>
-							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="mechanical"><span class="proposal__option-price">$4,733</span>Airtek</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="mechanical" checked><span class="proposal__option-price">$4,356</span>South Florida Trane</label>
+							<legend class="proposal__form-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="manufacturer">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$46,983</span>
+									<span class="proposal__option-vendor">Trane</span>
+									<dl class="proposal__options-details">
+										<dd class="proposal__options-detail">Estimated Lead Time: <b>1-2 weeks</b></dd>
+										<dd class="proposal__options-detail">Model #: <b>83722VR2</b></dd>
+									</dl>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="manufacturer">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$44,193</span>
+									<span class="proposal__option-vendor">Carrier</span>
+									<dl class="proposal__options-details">
+										<dd class="proposal__options-detail">Estimated Lead Time: <b>3 weeks</b></dd>
+										<dd class="proposal__options-detail">Model #: <b>W3SBG4311</b></dd>
+									</dl>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="manufacturer" checked>
+								<div class="proposal__options">
+									<span class="proposal__option-price">$41,138</span>
+									<span class="proposal__option-vendor">York</span>
+									<dl class="proposal__options-details">
+										<dd class="proposal__options-detail">Estimated Lead Time: <b>6 days</b></dd>
+										<dd class="proposal__options-detail">Model #: <b>92483FV2</b></dd>
+									</dl>
+								</div>
+							</label>
 						</fieldset>
 						<fieldset class="proposal__form-fieldset">
-							<legend class="proposal__form-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$46,983</span>Trane</label>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="NBA"><span class="proposal__option-price">$44,193</span>Mccay</label>
-							<label class="proposal__form-check-label"><input type="radio" class="proposal__form-check-radio" name="NBA" checked><span class="proposal__option-price">$41,138</span>York</label>
+							<legend class="proposal__form-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$6,983</span>
+									<span class="proposal__option-vendor">DebonAir Mechanical</span>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$5,211</span>
+									<span class="proposal__option-vendor">Airstron</span>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical">
+								<div class="proposal__options">
+									<span class="proposal__option-price">$4,733</span>
+									<span class="proposal__option-vendor">Airtek</span>
+								</div>
+							</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="mechanical" checked>
+								<div class="proposal__options">
+									<span class="proposal__option-price">$4,356</span>
+									<span class="proposal__option-vendor">South Florida Trane</span>
+								</div>
+							</label>
 						</fieldset>
 						<fieldset class="proposal__form-fieldset">
 							<legend class="proposal__form-legend">Electrical <i>(PLEASE SELECT ONE)</i></legend>
-							<label class="proposal__form-check-label"> <input type="radio" class="proposal__form-check-radio" name="electrical" checked><span class="proposal__option-price">$6,233</span>Cupertino Electric</label>
+							<label class="proposal__form-check-label">
+								<input type="radio" class="proposal__form-check-radio" name="electrical" checked>
+								<div class="proposal__options">
+									<span class="proposal__option-price">$6,233</span>
+									<span class="proposal__option-vendor">Cupertino Electric</span>
+								</div>
+							</label>
 						</fieldset>
 						<section class="proposal__form-total">
 							<h3 class="proposal__form-total-label">Total Cost Estimate:</h3><h3 class="proposal__form-total-number">$53,156</h3>
 						</section>
-						<fieldset class="proposal__form-fieldset">
-							<div class="proposal__form-fieldset-split">
-								<label class="proposal__form-label">Project Contact Name</label>
-								<input type="phone" class="form__input-field" placeholder="Donald Trump">
-							</div>
-							<div class="proposal__form-fieldset-split">
-								<label class="proposal__form-label">Project Contact Phone</label>
-								<input type="phone" class="form__input-field" placeholder="( ) --- ----">
-							</div>
-						</fieldset>
-						<fieldset class="proposal__form-approval">
-								<label class="proposal__input-file-button">Upload Project Approval
-								<input type="file" class="proposal__input-file">
-								</label>
-						</fieldset>
-						<div class="proposal__form-finalize"><input class="proposal__form-button-encourage" type="button" value="Submit">
+						<div class="proposal__form-finalize"><input class="proposal__form-button-encourage" type="button" value="Finalize Proposal">
 						</div>
 					</form>
 				</section>
@@ -284,6 +328,72 @@
 			<img class="overlay__equipment-gallery-image" src="assets/rtu-3.jpg" />
 			<img class="overlay__equipment-gallery-image" src="assets/rtu-4.jpg" />
 		</section>
+	</section>
+</aside>
+		<aside class="overlay__confirm-wrapper is-masked" id="overlay-confirm">
+	<button class="overlay__confirm-dismiss"></button>
+	<section class="overlay__confirm">
+		<h1 class="overlay__confirm-title">Proposal Confirmation</h1>
+		<p class="overlay__confirm-copy">Below are the details pertaining to your vendor selections.</p>
+		<table class="overlay__confirm-bid-table">
+			<thead class="overlay__confirm-bid-thead">
+				<tr class="overlay__confirm-bid-tr">
+					<th class="overlay__confirm-bid-th">Description</th>
+					<th class="overlay__confirm-bid-th">Cost</th>
+				</tr>
+			</thead>
+			<tbody class="overlay__confirm-bid-tbody">
+				<tr class="overlay__confirm-bid-tr">
+					<td class="overlay__confirm-bid-td">Labor<span class="overlay__confirm-bid-metadata">Leaf Mechanical</span></td>
+					<td class="overlay__confirm-bid-td">$4,320.00</td>
+				</tr>
+				<tr class="overlay__confirm-bid-tr">
+					<td class="overlay__confirm-bid-td">RTU-2<span class="overlay__confirm-bid-metadata">Manufacturer: Trane, Model #: W3SBG4311, Lead Time: 1-3 Weeks</span></td>
+					<td class="overlay__confirm-bid-td">$42,320.00</td>
+				</tr>
+				<tr class="overlay__confirm-bid-tr">
+					<td class="overlay__confirm-bid-td">RTU-3<span class="overlay__confirm-bid-metadata">Manufacturer: Trane, Model #: W3SBG4311, Lead Time: 1-3 Weeks</span></td>
+					<td class="overlay__confirm-bid-td">$42,320.00</td>
+				</tr>
+			</tbody>
+			<tfoot class="overlay__confirm-bid-tfoot">
+				<tr class="overlay__confirm-bid-sum-tr">
+					<td class="overlay__confirm-bid-sum-td">Subtotal</td>
+					<td class="overlay__confirm-bid-sum-td">$88,960.00</td>
+				</tr>
+				<tr class="overlay__confirm-bid-sum-tr">
+					<td class="overlay__confirm-bid-sum-td">Sales Tax</td>
+					<td class="overlay__confirm-bid-sum-td">$1,230.45</td>
+				</tr>
+				<tr class="overlay__confirm-bid-sum-tr">
+					<td class="overlay__confirm-bid-sum-td">Freight</td>
+					<td class="overlay__confirm-bid-sum-td">$0.00</td>
+				</tr>
+				<tr class="overlay__confirm-bid-sum-tr">
+					<td class="overlay__confirm-bid-sum-td">Total</td>
+					<td class="overlay__confirm-bid-sum-td">$90, 190.45</td>
+				</tr>
+			</tfoot>
+		</table>
+		<form class="overlay__confirm-form">
+			<fieldset class="overlay__confirm-form-fieldset">
+				<div class="overlay__confirm-form-fieldset-split">
+					<label class="overlay__confirm-form-label">Project Contact Name</label>
+					<input type="phone" class="overlay__confirm-form-field" placeholder="Donald Trump">
+				</div>
+				<div class="overlay__confirm-form-fieldset-split">
+					<label class="overlay__confirm-form-label">Project Contact Phone</label>
+					<input type="phone" class="overlay__confirm-form-field" placeholder="( ) --- ----">
+				</div>
+			</fieldset>
+			<fieldset class="overlay__confirm-form-approval">
+					<label class="overlay__confirm-input-file-button">Upload Project Approval
+					<input type="file" class="overlay__confirm-input-file">
+					</label>
+			</fieldset>
+			<div class="overlay__confirm-form-finalize"><input class="overlay__confirm-form-button-neutral" type="button" value="Cancel"><input class="overlay__confirm-form-button-encourage" type="button" value="Confirm Work Request">
+			</div>
+		</form>
 	</section>
 </aside>
 		
