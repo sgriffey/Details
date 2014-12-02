@@ -5,16 +5,11 @@ $(document).ready(function() {
 	});
 
  	$(".proposal__terms-scan-expand").click(function(){
-            $(".proposal__terms-scan").addClass("terms-scan-expanded");
+            $(".proposal__terms-scan-body").addClass("terms-scan-expanded");
             $(".proposal__terms-scan-expand").addClass("is-hidden");
     });
-
     $(".project__terms-scan-expand").click(function(){
-            $(".project__terms-scan").addClass("terms-scan-expanded");
-            $(".project__terms-scan-expand").addClass("is-hidden");
-    });
-    $(".project__terms-scan-expand").click(function(){
-            $(".project__terms-scan").addClass("terms-scan-expanded");
+            $(".project__terms-scan-body").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
     //For Timeline Page
@@ -78,7 +73,7 @@ $(document).ready(function() {
                 scrollTop: $("#overlay-confirm").offset().top
             }, 500);
     });
-    $(".overlay__confirm-dismiss").click(function(){
+    $(".overlay__confirm-form-button-neutral").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay__confirm-wrapper").toggleClass("is-masked");
     });

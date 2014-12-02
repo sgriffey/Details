@@ -685,7 +685,11 @@ hr {
 .overlay__confirm-input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td {
   font-weight: 700; }
 
-.proposal__subhead-title, .proposal__terms-view-doc, .project__abstract-vendor:after, .project__banner-progress, .project__terms-view-doc, .overlay__confirm-bid-metadata {
+.proposal__abstract-head, .proposal__form-head,
+.proposal__terms-scan-head,
+.proposal__terms-view-head, .proposal__abstract-head h1, .proposal__form-head h1,
+.proposal__terms-scan-head h1,
+.proposal__terms-view-head h1, .proposal__subhead-title, .proposal__terms-view-doc, .project__abstract-vendor:after, .project__banner-progress, .project__terms-view-doc, .overlay__confirm-bid-metadata {
   font-weight: 400; }
 
 .proposal__abstract-job, .proposal__form-title, .project__abstract-job, .siteNav, .dashboard__bucket-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title {
@@ -701,8 +705,7 @@ hr {
 .grid__full,
 .grid__half,
 .grid__third, .dashboard__request, .projects__queue,
-.projects__live, .proposal__abstract, .proposal__terms-scan,
-.proposal__terms-view, .proposal__form, .proposal__procure-services, .project__chat,
+.projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__abstract, .project__timeline {
   padding: 22.4px;
@@ -710,7 +713,8 @@ hr {
   margin-top: 22.4px;
   margin-top: 1.4rem;
   background: white;
-  border: 1px solid #e3e5ea; }
+  border: 1px solid #e3e5ea;
+  overflow: hidden; }
 
 .dashboard__bucket, .proposal__procure-goods-part, .project__equipment-piece {
   padding: 0;
@@ -726,6 +730,54 @@ hr {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
+
+.proposal__abstract-head, .proposal__form-head,
+.proposal__terms-scan-head,
+.proposal__terms-view-head {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  position: relative;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  padding: 22.4px;
+  padding: 1.4rem;
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  background: white;
+  color: #93989c;
+  border: 1px solid #e3e5ea; }
+  .proposal__abstract-head:last-child, .proposal__form-head:last-child,
+  .proposal__terms-scan-head:last-child,
+  .proposal__terms-view-head:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__abstract-head, .proposal__form-head,
+    .proposal__terms-scan-head,
+    .proposal__terms-view-head {
+      margin-top: 44.8px;
+      margin-top: 2.8rem; } }
+  .proposal__abstract-head h1, .proposal__form-head h1,
+  .proposal__terms-scan-head h1,
+  .proposal__terms-view-head h1 {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    margin-bottom: 0;
+    display: inline-block; }
+
+.proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body {
+  padding: 22.4px;
+  padding: 1.4rem;
+  background: white;
+  border: 1px solid #e3e5ea;
+  border-top: none;
+  overflow: hidden; }
 
 .siteNav__buckets-list-item:hover {
   background: rgba(9, 47, 62, 0.1); }
@@ -2348,7 +2400,10 @@ dd {
   background: #fafafb;
   color: #93989c; }
 
-.proposal__abstract {
+.proposal__abstract-head {
+  margin-top: 0; }
+
+.proposal__abstract-body {
   min-height: 300px;
   min-height: 18.75rem; }
 
@@ -2403,18 +2458,20 @@ dd {
 .proposal__map {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__map {
+      margin-top: 0; } }
 
 .proposal__map-iframe {
   width: 100%;
-  min-height: 300px;
-  min-height: 18.75rem; }
+  min-height: 342px;
+  min-height: 21.375rem; }
 
-.proposal__terms-scan,
-.proposal__terms-view {
+.proposal__terms-view-body {
   min-height: 170px;
   min-height: 10.625rem; }
 
-.proposal__terms-scan {
+.proposal__terms-scan-body {
   max-height: 170px;
   max-height: 10.625rem;
   position: relative;
@@ -2424,7 +2481,7 @@ dd {
   -moz-transition: 0.3s ease-out;
   -o-transition: 0.3s ease-out;
   transition: 0.3s ease-out; }
-  .proposal__terms-scan:after {
+  .proposal__terms-scan-body:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -2495,9 +2552,6 @@ dd {
   .proposal__terms-scan-list-bullet:nth-child(1), .proposal__terms-scan-list-bullet:nth-child(2) {
     margin-top: 0; }
 
-.proposal__terms-view {
-  text-align: center; }
-
 .proposal__terms-view-doc {
   font-size: 13.33333px;
   font-size: 0.83333rem;
@@ -2507,7 +2561,8 @@ dd {
   padding-right: 1.4rem;
   letter-spacing: 0;
   margin-bottom: 0;
-  color: #93989c; }
+  color: #93989c;
+  text-align: center; }
   .proposal__terms-view-doc:before {
     content: '';
     display: block;
@@ -2525,7 +2580,8 @@ dd {
     border-bottom: 1px solid #092f3e; }
 
 .proposal__terms-view-scopes-dual {
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .proposal__terms-view-scopes-dual:after {
     content: '';
     display: block;
@@ -2630,6 +2686,32 @@ dd {
   .proposal__terms-view-scope-doc:last-of-type {
     margin-bottom: 0; }
 
+.proposal__form-save {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  font-size: 13.33333px;
+  font-size: 0.83333rem; }
+  .proposal__form-save b {
+    position: relative; }
+  .proposal__form-save:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 2px;
+    top: 0.125rem;
+    left: -18px;
+    left: -1.125rem;
+    height: 14px;
+    height: 0.875rem;
+    width: 14px;
+    width: 0.875rem;
+    margin-right: 5.6px;
+    margin-right: 0.35rem;
+    background: center center no-repeat;
+    background-image: url(../../assets/save-icon.svg); }
+
 .proposal__form-fieldset {
   margin-top: 22.4px;
   margin-top: 1.4rem;
@@ -2721,28 +2803,13 @@ dd {
   margin: 0;
   color: #66c3b0; }
 
-/* .proposal__form-approval {
-	@extend %hard-reset;
-	border: 0;
-	@include px-rem(margin-top, $base-spacing-unit);
-} */
-/* .proposal__input-file-button {
-	@extend %upload-approval;
-} */
-.proposal__bid,
 .proposal__procure {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
   @media screen and (min-width: 46.8em) {
-    .proposal__bid,
     .proposal__procure {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
-
-@media screen and (min-width: 46.8em) {
-  .proposal__procure {
-    margin-top: 56.8px;
-    margin-top: 56.8px/16pxrem; } }
 
 .proposal__procure-goods-part {
   margin-top: 22.4px;
@@ -4423,32 +4490,43 @@ disabled look for disabled choices in the results dropdown
       .proposal__terms-view:nth-child(2n+1) {
         clear: left; } }
 
-.proposal__abstract,
-.proposal__map {
+.proposal__abstract-head,
+.proposal__terms-scan-head,
+.proposal__terms-scan-head,
+.proposal__abstract-body,
+.proposal__terms-view-body,
+.proposal__terms-view-body {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .proposal__abstract:last-child,
-  .proposal__map:last-child {
+  .proposal__abstract-head:last-child,
+  .proposal__terms-scan-head:last-child,
+  .proposal__terms-scan-head:last-child,
+  .proposal__abstract-body:last-child,
+  .proposal__terms-view-body:last-child,
+  .proposal__terms-view-body:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .proposal__abstract,
-    .proposal__map {
+    .proposal__abstract-head,
+    .proposal__terms-scan-head,
+    .proposal__terms-scan-head,
+    .proposal__abstract-body,
+    .proposal__terms-view-body,
+    .proposal__terms-view-body {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .proposal__abstract:last-child,
-      .proposal__map:last-child {
-        margin-right: 0; }
-      .proposal__abstract:nth-child(2n),
-      .proposal__map:nth-child(2n) {
-        margin-right: 0; }
-      .proposal__abstract:nth-child(2n+1),
-      .proposal__map:nth-child(2n+1) {
-        clear: left; } }
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__abstract-head:last-child,
+      .proposal__terms-scan-head:last-child,
+      .proposal__terms-scan-head:last-child,
+      .proposal__abstract-body:last-child,
+      .proposal__terms-view-body:last-child,
+      .proposal__terms-view-body:last-child {
+        margin-right: 0; } }
 
 .proposal__terms-scan-list-bullet {
   float: left;
@@ -4565,7 +4643,8 @@ disabled look for disabled choices in the results dropdown
       .proposal__bid:last-child {
         margin-right: 0; } }
 
-.proposal__form,
+.proposal__form-head,
+.proposal__form-body,
 .proposal__form-fields,
 .proposal__form-label,
 .proposal__form-check-label {
@@ -4574,13 +4653,15 @@ disabled look for disabled choices in the results dropdown
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .proposal__form:last-child,
+  .proposal__form-head:last-child,
+  .proposal__form-body:last-child,
   .proposal__form-fields:last-child,
   .proposal__form-label:last-child,
   .proposal__form-check-label:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .proposal__form,
+    .proposal__form-head,
+    .proposal__form-body,
     .proposal__form-fields,
     .proposal__form-label,
     .proposal__form-check-label {
@@ -4588,7 +4669,8 @@ disabled look for disabled choices in the results dropdown
       display: block;
       margin-right: 3.57866%;
       width: 100%; }
-      .proposal__form:last-child,
+      .proposal__form-head:last-child,
+      .proposal__form-body:last-child,
       .proposal__form-fields:last-child,
       .proposal__form-label:last-child,
       .proposal__form-check-label:last-child {
