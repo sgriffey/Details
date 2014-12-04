@@ -99,7 +99,7 @@ $(document).ready(function() {
         $('.proposal__procure-services-qa-text h3').addClass('proposal__procure-services-qa-username');
         $('.proposal__procure-services-qa-username').text("Monique");
         $('.proposal__procure-services-qa-text p').addClass('proposal__procure-services-qa-answer');
-        $('.proposal__procure-services-qa-user img').attr({src: "assets/users_gibson.png"});
+        $('.proposal__procure-services-qa-user img').attr({src: "http://cdn.getforge.com/detailsmakethedesign.com/1417678820/ravti/ravti-redesign/assets/users_gibson.png"});
     });
     //Adding Comments to Project
     $('.project__qa-chat-post-btn').click(function() {
@@ -111,6 +111,6 @@ $(document).ready(function() {
         $('.project__qa-chat-text h3').addClass('project__qa-chat-username');
         $('.project__qa-chat-username').text("Monique");
         $('.project__qa-chat-text p').addClass('project__qa-chat-answer');
-        $('.project__qa-chat-user img').attr({src: "assets/users_gibson.png"});
+        $('.project__qa-chat-user img').attr({src: "http://cdn.getforge.com/detailsmakethedesign.com/1417678820/ravti/ravti-redesign/assets/users_gibson.png"});
     });
 });
