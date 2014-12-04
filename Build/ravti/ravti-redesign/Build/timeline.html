@@ -61,18 +61,23 @@
 	<main class="page__wrapper">
 		<section class="project__grid">
 			<section class="project__abstract">
-				<h2 class="project__abstract-job">Two RTU Replacement<span class="project__abstract-job-tag">GIB &mdash; 003</span></h2>
-				<address class="project__abstract-address">
-					<span>Department of Applied Physics</span>
-					<span>348 Via Pueblo</span>
-					<span>Stanford, CA 94305</span>
-				</address>
-				<p class="project__abstract-summary">Labor, equipment, and curb adapters to replace two existing RTUs.</p>
-				<dl class="project__abstract-vendors">
-					<dt>Vendors on Project:</dt>
-					<dd class="project__abstract-vendor">Trane</dd>
-					<dd class="project__abstract-vendor">Airtek</dd>
-				</dl>
+				<header class="project__abstract-head">
+					<h1 class="project__abstract-title">Proposal Overview</h1>
+				</header>
+				<section class="project__abstract-body">
+					<h2 class="project__abstract-job">Two RTU Replacement<span class="project__abstract-job-tag">GIB &mdash; 003</span></h2>
+					<address class="project__abstract-address">
+						<span>Department of Applied Physics</span>
+						<span>348 Via Pueblo</span>
+						<span>Stanford, CA 94305</span>
+					</address>
+					<p class="project__abstract-summary">Labor, equipment, and curb adapters to replace two existing RTUs.</p>
+					<dl class="project__abstract-vendors">
+						<dt>Vendors on Project:</dt>
+						<dd class="project__abstract-vendor">Trane</dd>
+						<dd class="project__abstract-vendor">Airtek</dd>
+					</dl>
+				</section>
 			</section>
 			<section class="project__map">
 				<iframe class="project__map-iframe" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=18&center=37.4330%2C-122.1707&key=AIzaSyDbVOB4rMG7dbuJc13tMDIpkgEXv3zZtCI&maptype=satellite"></iframe>
@@ -80,12 +85,6 @@
 		</section>
 		<section class="project__grid">
 			<section class="project__status">
-				<nav class="project__subnav">
-					<ul class="project__subnav-buckets">
-						<li class="project__subnav-bucket is-active"><a href="">Timeline</a></li>
-						<li class="project__subnav-bucket">Q&amp;A</li>
-					</ul>
-				</nav>
 				<header class="project__banner">
 					<h2 class="project__banner-headline">Equipment Ordered</h2>
 					<h3 class="project__banner-progress">Steps 2 <i>of</i> 5 completed</h3>
@@ -119,10 +118,11 @@
 				</section>
 			</section>
 			<section class="project__details">
-				<nav class="project__subnav">
-					<ul class="project__subnav-buckets">
-						<li class="project__subnav-bucket is-active" id="details">Project Details</li>
-						<li class="project__subnav-bucket" id="equip">Equipment</li>
+				<nav class="project__details-subnav">
+					<ul class="project__details-subnav-buckets">
+						<li class="project__details-subnav-terms is-active">Project Details</li>
+						<li class="project__details-subnav-equipment">Equipment</li>
+						<li class="project__details-subnav-qa">Q&amp;A</li>
 					</ul>
 				</nav>
 				<section class="project__terms-scan">
@@ -145,7 +145,7 @@
 				<section class="project__terms-view">
 					<h3 class="project__terms-view-doc overlay-scope"><a>Detailed scope of work</a></h3>
 				</section>
-				<section class="project__equipment is-masked is-hidden">
+				<section class="project__equipment is-masked">
 					<article class="project__equipment-piece">
 						<img src="assets/rtu.jpg" />
 						<ul class="project__equipment-piece-specs">
@@ -161,6 +161,20 @@
 							<li class="project__equipment-piece-spec">Carrier</li>
 							<li class="project__equipment-piece-spec">7.5</li>
 						</ul>
+					</article>
+				</section>
+				<section class="project__qa is-masked">
+					<article class="project__qa-chat">
+						<div class="project__qa-chat-comment">
+							<figure class="project__qa-chat-user">
+								<img src="assets/users_gibson.png">
+							</figure>
+							<em class="project__qa-chat-text">
+								<h3 class="project__qa-chat-username">Monique</h3>
+								<textarea class="project__qa-chat-textarea" placeholder="Ask a question..." name="response" autofocus rows="4"></textarea>
+								<input class="project__qa-chat-post-btn" type="button" value="Post">
+							</em>
+						</div>
 					</article>
 				</section>
 			</section>

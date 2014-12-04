@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Preventative</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Preventative" sketch:type="MSArtboardGroup">
+            <g id="checkmark-2" sketch:type="MSLayerGroup" transform="translate(9.000000, 22.000000)">
+                <path d="M7.70322282,3 L0,3 L0,13 L10,13 L10,8.17833747" id="Rectangle-353" stroke="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <path d="M7.39339828,0.393398282 L7.39339828,8.39339828 L9.39339828,8.39339828 L9.39339828,0.393398282 L7.39339828,0.393398282 Z M4.39339828,10.3933983 L9.39339828,10.3933983 L9.39339828,8.39339828 L4.39339828,8.39339828 L4.39339828,10.3933983 Z" id="Rectangle-143" fill="#979797" sketch:type="MSShapeGroup" transform="translate(6.893398, 5.393398) rotate(-315.000000) translate(-6.893398, -5.393398) "></path>
+            </g>
+            <g id="checkmark-3" sketch:type="MSLayerGroup" transform="translate(9.000000, 7.000000)">
+                <path d="M7.70322282,3 L0,3 L0,13 L10,13 L10,8.17833747" id="Rectangle-353" stroke="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <path d="M7.39339828,0.393398282 L7.39339828,8.39339828 L9.39339828,8.39339828 L9.39339828,0.393398282 L7.39339828,0.393398282 Z M4.39339828,10.3933983 L9.39339828,10.3933983 L9.39339828,8.39339828 L4.39339828,8.39339828 L4.39339828,10.3933983 Z" id="Rectangle-143" fill="#979797" sketch:type="MSShapeGroup" transform="translate(6.893398, 5.393398) rotate(-315.000000) translate(-6.893398, -5.393398) "></path>
+            </g>
+            <g id="Rectangle-144-+-Rectangle-147" sketch:type="MSLayerGroup" transform="translate(12.292893, 69.878680) rotate(-315.000000) translate(-12.292893, -69.878680) translate(9.292893, 66.878680)" fill="#979797">
+                <path d="M2.12867966,4.04289322 L-0.121320344,4.04289322 L-0.121320344,2.54289322 L2.12867966,2.54289322 L2.12867966,0.292893219 L3.62867966,0.292893219 L3.62867966,2.54289322 L5.87867966,2.54289322 L5.87867966,4.04289322 L3.62867966,4.04289322 L3.62867966,6.29289322 L2.12867966,6.29289322 L2.12867966,4.04289322 Z" id="Rectangle-144" sketch:type="MSShapeGroup"></path>
+            </g>
+            <path d="M9.5,76 L80.5281601,76" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,3" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-356" fill="#D8D8D8" sketch:type="MSShapeGroup" x="26" y="14" width="22" height="2"></rect>
+            <rect id="Rectangle-360" fill="#D8D8D8" sketch:type="MSShapeGroup" x="53" y="14" width="22" height="2"></rect>
+            <rect id="Rectangle-357" fill="#D8D8D8" sketch:type="MSShapeGroup" x="26" y="29" width="32" height="2"></rect>
+            <rect id="Rectangle-361" fill="#D8D8D8" sketch:type="MSShapeGroup" x="63" y="29" width="6" height="2"></rect>
+            <rect id="Rectangle-358" fill="#D8D8D8" sketch:type="MSShapeGroup" x="26" y="44" width="9" height="2"></rect>
+            <rect id="Rectangle-359" fill="#D8D8D8" sketch:type="MSShapeGroup" x="40" y="44" width="19" height="2"></rect>
+            <rect id="Rectangle-367" stroke="#D8D8D8" fill="#FFFFFF" sketch:type="MSShapeGroup" x="9" y="40" width="10" height="10"></rect>
+        </g>
+    </g>
+</svg>

@@ -42,7 +42,7 @@
 	<nav class="siteNav">
 		<a class='current-parent' href="index.html"><h1 class="siteNav__logo"></h1></a>
 		<ul class="siteNav__buckets">
-			<li class="current-parent siteNav__bucket-live">Projects
+			<li class="current-parent siteNav__bucket-live"><a href="projects.html">Projects</a>
 				<ul class="siteNav__buckets-list">
 					<a class='current-parent' href="index.html"><li class="siteNav__buckets-list-item">Dashboard</li></a>
 					<a href="proposals.html"><li class="siteNav__buckets-list-item">Equipment</li></a>
@@ -203,10 +203,10 @@
 				</section>
 			</section>
 			<section class="proposal__procure">
-				<nav class="proposal__subnav-1third">
-					<ul class="proposal__subnav-1third-buckets">
-						<li class="proposal__subnav-1third-bucket is-active" id="goods"><a>Equipment</a></li>
-						<li class="proposal__subnav-1third-bucket" id="services"><a>Q&amp;A</a></li>
+				<nav class="proposal__procure-subnav">
+					<ul class="proposal__procure-subnav-buckets">
+						<li class="proposal__procure-subnav-equipment is-active"><a>Equipment</a></li>
+						<li class="proposal__procure-subnav-qa"><a>Q&amp;A</a></li>
 					</ul>
 				</nav>
 				<section class="proposal__procure-goods">
@@ -235,11 +235,11 @@
 							<figure class="proposal__procure-services-qa-user">
 								<img src="assets/users_gibson.png">
 							</figure>
-							<h3 class="proposal__procure-services-qa-username">Monique</h3>
-							<textarea class="proposal__procure-services-qa-chatter" placeholder="Ask a question" name="response" autofocus rows="4"></textarea>
-						</div>
-						<div class="proposal__procure-services-qa-post">
-							<input class="proposal__procure-services-qa-post-btn" type="button" value="Post">
+							<em class="proposal__procure-services-qa-text">
+								<h3 class="proposal__procure-services-qa-username">Monique</h3>
+								<textarea class="proposal__procure-services-qa-textarea" placeholder="Ask a question..." name="response" autofocus rows="4"></textarea>
+								<input class="proposal__procure-services-qa-post-btn" type="button" value="Post">
+							</em>
 						</div>
 					</article>
 				</section>

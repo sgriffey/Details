@@ -13,34 +13,46 @@ $(document).ready(function() {
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
     //For Timeline Page
-    $("#equip").click(function(){
-            $(".project__terms-scan").toggleClass("is-masked");
-            $(".project__terms-view").toggleClass("is-masked");
-            $("#details").toggleClass("is-active");
-            $("#equip").toggleClass("is-active");
-            $(".project__equipment").toggleClass("is-masked");
-            $(".project__equipment").removeClass("is-hidden");
+    $(".project__details-subnav-terms").click(function(){
+            $(".project__equipment").addClass("is-masked");
+            $(".project__qa").addClass("is-masked");
+            $(".project__terms-scan").removeClass("is-masked");
+            $(".project__terms-view").removeClass("is-masked");
+            $(".project__details-subnav-qa").removeClass("is-active");
+            $(".project__details-subnav-equipment").removeClass("is-active");
+            $(".project__details-subnav-terms").addClass("is-active");
     });
-    $("#details").click(function(){
-            $(".project__equipment").toggleClass("is-masked");
-            $(".project__terms-scan").toggleClass("is-masked");
-            $(".project__terms-view").toggleClass("is-masked");
-            $("#details").toggleClass("is-active");
-            $("#equip").toggleClass("is-active");
+    $(".project__details-subnav-equipment").click(function(){
+            $(".project__terms-scan").addClass("is-masked");
+            $(".project__terms-view").addClass("is-masked");
+            $(".project__qa").addClass("is-masked");
+            $(".project__equipment").removeClass("is-masked");
+            $(".project__details-subnav-terms").removeClass("is-active");
+            $(".project__details-subnav-qa").removeClass("is-active");
+            $(".project__details-subnav-equipment").addClass("is-active");
+    });
+    $(".project__details-subnav-qa").click(function(){
+            $(".project__terms-scan").addClass("is-masked");
+            $(".project__terms-view").addClass("is-masked");
+            $(".project__equipment").addClass("is-masked");
+            $(".project__qa").removeClass("is-masked");
+            $(".project__details-subnav-terms").removeClass("is-active");
+            $(".project__details-subnav-equipment").removeClass("is-active");
+            $(".project__details-subnav-qa").addClass("is-active");
     });
     //For Proposal Page
-    $("#services").click(function(){
+    $(".proposal__procure-subnav-qa").click(function(){
             $(".proposal__procure-goods").toggleClass("is-masked");
-            $("#goods").toggleClass("is-active");
-            $("#services").toggleClass("is-active");
+            $(".proposal__procure-subnav-equipment").toggleClass("is-active");
+            $(".proposal__procure-subnav-qa").toggleClass("is-active");
             $(".proposal__procure-services").toggleClass("is-masked");
             $(".proposal__procure-services").removeClass("is-hidden");
     });
-     $("#goods").click(function(){
+     $(".proposal__procure-subnav-equipment").click(function(){
             $(".proposal__procure-services").toggleClass("is-masked");
             $(".proposal__procure-goods").toggleClass("is-masked");
-            $("#services").toggleClass("is-active");
-            $("#goods").toggleClass("is-active");
+            $(".proposal__procure-subnav-qa").toggleClass("is-active");
+            $(".proposal__procure-subnav-equipment").toggleClass("is-active");
     });
     //For Modal Overlays
     $(".overlay-scope").click(function(){
@@ -77,15 +89,28 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay__confirm-wrapper").toggleClass("is-masked");
     });
-    //Adding Comments
+    //Adding Comments to Proposal
     $('.proposal__procure-services-qa-post-btn').click(function() {
         var toAdd = $("textarea[name=response]").val();
-        $('.proposal__procure-services-qa').before("<div>"+"<figure>"+"<img>"+"</figure>"+"<h3>"+"</h3>"+"<p>"+toAdd+"</p>"+"</div>");
-        $('.proposal__procure-services div').addClass('proposal__procure-services-qa-response');
+        $('.proposal__procure-services-qa-comment').before("<div>"+"<figure>"+"<img>"+"</figure>"+"<em>"+"<h3>"+"</h3>"+"<p>"+toAdd+"</p>"+"</em>"+"</div>");
+        $('.proposal__procure-services-qa div').not('.proposal__procure-services-qa-comment').addClass('proposal__procure-services-qa-response');
         $('.proposal__procure-services-qa-response figure').addClass('proposal__procure-services-qa-user');
-        $('.proposal__procure-services-qa-response h3').addClass('proposal__procure-services-qa-username');
+        $('.proposal__procure-services-qa-response em').addClass('proposal__procure-services-qa-text');
+        $('.proposal__procure-services-qa-text h3').addClass('proposal__procure-services-qa-username');
         $('.proposal__procure-services-qa-username').text("Monique");
-        $('.proposal__procure-services-qa-response p').addClass('proposal__procure-services-qa-answer');
+        $('.proposal__procure-services-qa-text p').addClass('proposal__procure-services-qa-answer');
         $('.proposal__procure-services-qa-user img').attr({src: "assets/users_gibson.png"});
+    });
+    //Adding Comments to Project
+    $('.project__qa-chat-post-btn').click(function() {
+        var toAdd = $("textarea[name=response]").val();
+        $('.project__qa-chat-comment').before("<div>"+"<figure>"+"<img>"+"</figure>"+"<em>"+"<h3>"+"</h3>"+"<p>"+toAdd+"</p>"+"</em>"+"</div>");
+        $('.project__qa-chat div').not('.project__qa-chat-comment').addClass('project__qa-chat-response');
+        $('.project__qa-chat-response figure').addClass('project__qa-chat-user');
+        $('.project__qa-chat-response em').addClass('project__qa-chat-text');
+        $('.project__qa-chat-text h3').addClass('project__qa-chat-username');
+        $('.project__qa-chat-username').text("Monique");
+        $('.project__qa-chat-text p').addClass('project__qa-chat-answer');
+        $('.project__qa-chat-user img').attr({src: "assets/users_gibson.png"});
     });
 });
