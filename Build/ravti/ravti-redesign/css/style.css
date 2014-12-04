@@ -688,7 +688,12 @@ hr {
 .proposal__terms-scan-head,
 .proposal__terms-view-head, .project__abstract-head, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
-.proposal__terms-view-head h1, .project__abstract-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .proposal__terms-view-doc, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc, .overlay__confirm-bid-metadata {
+.proposal__terms-view-head h1, .project__abstract-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .proposal__terms-view-doc, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
+  font-weight: 400; }
+
+.proposal__abstract-head h1, .proposal__form-head h1,
+.proposal__terms-scan-head h1,
+.proposal__terms-view-head h1, .project__abstract-head h1, .overlay__confirm-bid-metadata {
   font-weight: 400; }
 
 .proposal__abstract-job, .project__abstract-job, .siteNav, .dashboard__bucket-card-header, .dashboard__request-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title {
@@ -768,8 +773,7 @@ hr {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
-    display: inline-block;
-    font-weight: 400; }
+    display: inline-block; }
 
 .proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .project__abstract-body {
   padding: 22.4px;
@@ -1707,16 +1711,31 @@ hr {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 74.41059%; }
+  width: 57.35098%; }
   .overlay__confirm-bid-sum-td:nth-child(1):last-child {
     margin-right: 0; }
 .overlay__confirm-bid-sum-td:nth-child(2) {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%; }
+  width: 40.29137%; }
   .overlay__confirm-bid-sum-td:nth-child(2):last-child {
     margin-right: 0; }
+@media screen and (min-width: 46.8em) {
+  .overlay__confirm-bid-sum-td:nth-child(1) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .overlay__confirm-bid-sum-td:nth-child(1):last-child {
+      margin-right: 0; }
+  .overlay__confirm-bid-sum-td:nth-child(2) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .overlay__confirm-bid-sum-td:nth-child(2):last-child {
+      margin-right: 0; } }
 
 .overlay__confirm-bid-metadata {
   display: block; }
@@ -3537,18 +3556,30 @@ dd {
     border-bottom-style: solid; }
 
 .overlay__confirm-bid-td {
-  font-size: 19.2px;
-  font-size: 1.2rem;
-  line-height: 1.16667;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4;
   color: #66c3b0; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__confirm-bid-td {
+      font-size: 19.2px;
+      font-size: 1.2rem;
+      line-height: 1.16667; } }
 
 .overlay__confirm-bid-metadata {
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  line-height: 1.68;
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  line-height: 2.016;
+  letter-spacing: 0.2px;
+  letter-spacing: 0.0125rem;
   margin-top: 5.6px;
   margin-top: 0.35rem;
   color: #092f3e; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__confirm-bid-metadata {
+      font-size: 13.33333px;
+      font-size: 0.83333rem;
+      line-height: 1.68; } }
 
 .overlay__confirm-bid-th:nth-child(1),
 .overlay__confirm-bid-td:nth-child(1) {
