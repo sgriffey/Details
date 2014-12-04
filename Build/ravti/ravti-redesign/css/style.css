@@ -768,7 +768,8 @@ hr {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
-    display: inline-block; }
+    display: inline-block;
+    font-weight: 400; }
 
 .proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .project__abstract-body {
   padding: 22.4px;
