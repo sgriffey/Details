@@ -3,7 +3,14 @@ $(document).ready(function() {
       $(".mobileNav__menu").toggleClass("mobileNav__menu-is-active");
 	  $(".mobileNav__link").toggleClass("is-nav-open");
 	});
-
+     $("#mo, #account-settings").click(function() {
+      $(".siteNav__account").toggleClass("is-masked");
+      $(".siteNav__buckets").toggleClass("is-masked");
+      $(".accountNav__settings").toggleClass("is-masked");
+      $(".accountNav__bucket").toggleClass("is-masked");
+      $("#dash-toggle").toggleClass("is-masked");
+      $("#settings").toggleClass("is-masked");
+    });
  	$(".proposal__terms-scan-expand").click(function(){
             $(".proposal__terms-scan-body").addClass("terms-scan-expanded");
             $(".proposal__terms-scan-expand").addClass("is-hidden");

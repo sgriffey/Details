@@ -58,9 +58,9 @@
 	<main class="page__wrapper">
 		<section class="dashboard__buckets">
 			<section class="dashboard__bucket">
-				<a href="service-requests.html">
+				<a href="service.html">
 				<div class="dashboard__bucket-card">
-					<header class="dashboard__bucket-card-header">Service Requests</header>
+					<header class="dashboard__bucket-card-header">Service Calls</header>
 				</div></a>
 			</section>
 			<section class="dashboard__bucket">
@@ -70,24 +70,22 @@
 				</div></a>
 			</section>
 			<section class="dashboard__bucket">
+				<a href="pm.html">
 				<div class="dashboard__bucket-card">
-					<header class="dashboard__bucket-card-header">Preventative Maintenance</header>
-				</div>
+					<header class="dashboard__bucket-card-header">Preventive Maintenance</header>
+				</div></a>
 			</section>
 			<section class="dashboard__bucket">
+				<a href="equipment.html">
 				<div class="dashboard__bucket-card">
 					<header class="dashboard__bucket-card-header">Equipment</header>
-				</div>
+				</div></a>
 			</section>
 			<section class="dashboard__bucket">
+				<a href="billing.html">
 				<div class="dashboard__bucket-card">
-					<header class="dashboard__bucket-card-header">Accounting</header>
-				</div>
-			</section>
-			<section class="dashboard__bucket">
-				<div class="dashboard__bucket-card">
-					<header class="dashboard__bucket-card-header">Reports</header>
-				</div>
+					<header class="dashboard__bucket-card-header">Billing</header>
+				</div></a>
 			</section>
 		</section>
 		<section class="dashboard__request">
@@ -165,9 +163,18 @@
 				</fieldset>
 				<fieldset class="dashboard__form-fieldset">
 					<legend class="dashboard__form-legend">Priority</legend>
-					<label class="dashboard__form-check-label"> <input type="radio" class="dashboard__form-check-radio" name="NBA">Not time sensitive</label>
-					<label class="dashboard__form-check-label"> <input type="radio" class="dashboard__form-check-radio" name="NBA">Immediate</label>
-					<label class="dashboard__form-check-label"> <input type="radio" class="dashboard__form-check-radio" name="NBA">Emergency</label>
+					<label class="dashboard__form-check-label">
+						<input type="radio" class="dashboard__form-check-radio" name="request">
+						<div class="dashboard__form-check-text">Not time sensitive</div>
+					</label>
+					<label class="dashboard__form-check-label">
+						<input type="radio" class="dashboard__form-check-radio" name="request">
+						<div class="dashboard__form-check-text">Immediate</div>
+					</label>
+					<label class="dashboard__form-check-label">
+						<input type="radio" class="dashboard__form-check-radio" name="request">
+						<div class="dashboard__form-check-text">Emergency</div>
+					</label>
 				</fieldset>
 				<fieldset class="dashboard__form-fieldset">
 					<label class="dashboard__form-label">Project Contact Name</label>

@@ -24,12 +24,12 @@
 <body>
 	<header class="mobileNav">
 	<div class="mobileNav__masthead">
-		<a class='current-parent current' href="index.html"><h1 class="mobileNav__logo"></h1></a>
+		<a class='current-parent' href="index.html"><h1 class="mobileNav__logo"></h1></a>
 		<a class="mobileNav__link"></a>
 	</div>
 	<nav class="mobileNav__menu">
 		<ul class="mobileNav__menu-list">
-			<li class='current-parent current'><a href="index.html" class="current-parent current mobileNav__menu-list-item">Dashboard</a></li>
+			<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">Dashboard</a></li>
 			<li><a href="projects.html" class="mobileNav__menu-list-item">Projects</a></li>
 			<li><a href="" class="mobileNav__menu-list-item">Equipment</a></li>
 			<li><a href="" class="mobileNav__menu-list-item">Accounting</a></li>
@@ -38,10 +38,11 @@
 		</ul>
 	</nav>
 </header>
+	<!-- Top Bar Site-Wide Navigation -->
 	<nav class="siteNav">
-		<a class='current-parent current' href="index.html"><h1 class="siteNav__logo"></h1></a>
+		<a class='current-parent' href="index.html"><h1 class="siteNav__logo"></h1></a>
 		<ul class="siteNav__buckets">
-			<li class="current-parent current siteNav__bucket-live"><a class='current-parent current' href="index.html">Dashboard</a>
+			<li class="current-parent siteNav__bucket-live"><a class='current-parent' href="index.html">Dashboard</a>
 				<ul class="siteNav__buckets-list">
 					<a href="projects.html"><li class="siteNav__buckets-list-item">Projects</li></a>
 					<a href="equipment.html"><li class="siteNav__buckets-list-item">Equipment</li></a>
@@ -50,12 +51,21 @@
 				</ul>
 			</li>
 		</ul>
-		<div class="siteNav__account">
+		<div class="siteNav__account" id="mo">
 			<span class="siteNav__account-username">Monique</span>
 			<img class="siteNav__account-image" src="assets/users_gibson.png"/>
 		</div>
+		<div class="accountNav__bucket is-masked">
+			<h1 class="accountNav__bucket-title">Settings</h1>
+		</div>
+		<div class="accountNav__settings is-masked" id="account-settings">
+			<span class="accountNav__toggle-label">Exit</span>
+			<img class="accountNav__toggle-image" src="assets/dismiss-trigger.svg"/>
+		</div>
 	</nav>
-	<main class="page__wrapper">
+	<!-- End Top Bar Nav -->
+	<!-- Main Content/Page View -->
+	<section class="page__wrapper" id="dash-toggle">
 		<section class="dashboard__buckets">
 			<section class="dashboard__bucket">
 				<a href="service.html">
@@ -186,7 +196,43 @@
 				</div>
 			</form>
 		</section>
+	</section>
+	<main class="page__wrapper is-masked" id="settings">
+		<nav class="account__subnav">
+			<ul class="account__subnav-buckets">
+				<li class="account__subnav-details is-active"><a href="">Details</a></li>
+				<li class="account__subnav-settings"><a href="">Settings</a></li>
+				<li class="account__subnav-permissions"><a href="">Permissions</a></li>
+			</ul>
+		</nav>
+		<section class="account__details">
+			<section class="account__details-personal">
+				<header class="account__details-personal-head">
+					<h1 class="account__details-personal-head-title">Personal Information</h1>
+				</header>
+				<section class="account__details-personal-body">
+					<form class="account__details-personal-form">
+						<label class="account__details-personal-label">First Name</label>
+						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<label class="account__details-personal-label">Last Name</label>
+						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<label class="account__details-personal-label">Email</label>
+						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<label class="account__details-personal-label">Phone</label>
+						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+					</form>
+				</section>
+			</section>
+			<section class="account__details-company">
+				<header class="account__details-company-head">
+					<h1 class="account__details-company-head-title">Company Information</h1>
+				</header>
+				<section class="account__details-company-body">
+				</section>
+			</section>
+		</section>
 	</main>
+	<!-- End Content/Page View -->
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="js/app.js"></script>
 </body>
