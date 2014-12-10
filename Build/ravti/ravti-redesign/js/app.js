@@ -4,19 +4,23 @@ $(document).ready(function() {
 	  $(".mobileNav__link").toggleClass("is-nav-open");
 	});
      $("#mo, #account-settings").click(function() {
+        $(".siteNav").toggleClass("is-inverted-dark");
+        $(".siteNav__logo").toggleClass("is-inverted-border");
       $(".siteNav__account").toggleClass("is-masked");
       $(".siteNav__buckets").toggleClass("is-masked");
       $(".accountNav__settings").toggleClass("is-masked");
       $(".accountNav__bucket").toggleClass("is-masked");
+      $(".accountNav__bucket, .accountNav__settings").toggleClass("animated fadeIn");
       $("#dash-toggle").toggleClass("is-masked");
       $("#settings").toggleClass("is-masked");
+      $("#settings").toggleClass("animated bounceInUp");
     });
  	$(".proposal__terms-scan-expand").click(function(){
             $(".proposal__terms-scan-body").addClass("terms-scan-expanded");
             $(".proposal__terms-scan-expand").addClass("is-hidden");
     });
     $(".project__terms-scan-expand").click(function(){
-            $(".project__terms-scan-body").addClass("terms-scan-expanded");
+            $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
     //For Timeline Page
@@ -119,5 +123,12 @@ $(document).ready(function() {
         $('.project__qa-chat-username').text("Monique");
         $('.project__qa-chat-text p').addClass('project__qa-chat-answer');
         $('.project__qa-chat-user img').attr({src: "http://cdn.getforge.com/detailsmakethedesign.com/1417678820/ravti/ravti-redesign/assets/users_gibson.png"});
+    });
+    //Editing Forms From Disabled
+    $('.account__details-personal-head-toolbar-edit').click(function() {
+        $('.account__details-personal-input').removeProp("disabled");
+        $(".account__details-personal-head-toolbar-edit").toggleClass("animated zoomOut");
+        $('.account__details-personal-head-toolbar-edit').toggleClass("is-masked");
+        $('.account__details-personal-head-toolbar-save, .account__details-personal-head-toolbar-cancel').toggleClass("is-masked");
     });
 });

@@ -61,108 +61,211 @@
 	<main class="page__wrapper">
 		<nav class="projects__subnav">
 			<ul class="projects__subnav-buckets">
-				<li class="projects__subnav-bucket is-active"><a href="">Started</a></li>
-				<li class="projects__subnav-bucket"><a href="">Completed</a></li>
+				<li class="projects__subnav-active is-active"><a href="">Started</a></li>
+				<li class="projects__subnav-completed"><a href="">Completed</a></li>
 			</ul>
 		</nav>
-		<section class="projects__queue">
-			<h2 class="dashboard__request-title">Awaiting Approval</h2>
-			<table class="projects__queue-table">
-				<thead class="projects__queue-thead">
-				<tr class="projects__queue-tr">
-					<th class="projects__queue-th">Job #</th>
-					<th class="projects__queue-th">Description</th>
-				</tr>
-				</thead>
-				<tbody class="projects__queue-tbody">
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 002</a></td>
-					<td class="projects__queue-td">Trenton, Downtown Doral - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 005</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 007</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 031</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 027</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 029</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 006</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				<tr class="projects__queue-tr">
-					<td class="projects__queue-td"><a href="proposal.html">GIB - 012</a></td>
-					<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
-				</tr>
-				</tbody>
-		    </table>
+		<section class="projects__active">
+			<section class="projects__queue">
+				<h2 class="dashboard__request-title">Awaiting Approval</h2>
+				<table class="projects__queue-table">
+					<thead class="projects__queue-thead">
+					<tr class="projects__queue-tr">
+						<th class="projects__queue-th">Job #</th>
+						<th class="projects__queue-th">Description</th>
+					</tr>
+					</thead>
+					<tbody class="projects__queue-tbody">
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 002</a></td>
+						<td class="projects__queue-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 005</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 007</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 031</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 027</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 029</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 006</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 012</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					</tbody>
+			    </table>
+			</section>
+			<section class="projects__live">
+				<h2 class="dashboard__request-title">In Progress</h2>
+				<table class="projects__live-table">
+					<thead class="projects__live-thead">
+					<tr class="projects__live-tr">
+						<th class="projects__live-th">Job #</th>
+						<th class="projects__live-th">Description</th>
+						<th class="projects__live-th">Status</th>
+					</tr>
+					</thead>
+					<tbody class="projects__live-tbody">
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 002</a></td>
+						<td class="projects__live-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+						<td class="projects__live-td">Scheduled</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 005</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">Ordered</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 007</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">Unscheduled</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 031</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">Delivered</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 027</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 029</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 006</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 012</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					</tbody>
+			    </table>
+			</section>
 		</section>
-		<section class="projects__live">
-			<h2 class="dashboard__request-title">In Progress</h2>
-			<table class="projects__live-table">
-				<thead class="projects__live-thead">
-				<tr class="projects__live-tr">
-					<th class="projects__live-th">Job #</th>
-					<th class="projects__live-th">Description</th>
-					<th class="projects__live-th">Status</th>
-				</tr>
-				</thead>
-				<tbody class="projects__live-tbody">
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 002</a></td>
-					<td class="projects__live-td">Trenton, Downtown Doral - HVAC Maintenance</td>
-					<td class="projects__live-td">Scheduled</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 005</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">Ordered</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 007</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">Unscheduled</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 031</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">Delivered</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 027</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">On-site</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 029</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">On-site</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 006</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">On-site</td>
-				</tr>
-				<tr class="projects__live-tr">
-					<td class="projects__live-td"><a href="timeline.html">GIB - 012</a></td>
-					<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
-					<td class="projects__live-td">On-site</td>
-				</tr>
-				</tbody>
-		    </table>
+		<section class="projects__completed is-masked">
+			<section class="projects__queue">
+				<h2 class="dashboard__request-title">Awaiting Approval</h2>
+				<table class="projects__queue-table">
+					<thead class="projects__queue-thead">
+					<tr class="projects__queue-tr">
+						<th class="projects__queue-th">Job #</th>
+						<th class="projects__queue-th">Description</th>
+					</tr>
+					</thead>
+					<tbody class="projects__queue-tbody">
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 002</a></td>
+						<td class="projects__queue-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 005</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 007</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 031</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 027</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 029</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 006</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					<tr class="projects__queue-tr">
+						<td class="projects__queue-td"><a href="proposal.html">GIB - 012</a></td>
+						<td class="projects__queue-td">Westside Plaza II - HVAC Maintenance</td>
+					</tr>
+					</tbody>
+			    </table>
+			</section>
+			<section class="projects__live">
+				<h2 class="dashboard__request-title">In Progress</h2>
+				<table class="projects__live-table">
+					<thead class="projects__live-thead">
+					<tr class="projects__live-tr">
+						<th class="projects__live-th">Job #</th>
+						<th class="projects__live-th">Description</th>
+						<th class="projects__live-th">Status</th>
+					</tr>
+					</thead>
+					<tbody class="projects__live-tbody">
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 002</a></td>
+						<td class="projects__live-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+						<td class="projects__live-td">Scheduled</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 005</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">Ordered</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 007</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">Unscheduled</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 031</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">Delivered</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 027</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 029</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 006</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					<tr class="projects__live-tr">
+						<td class="projects__live-td"><a href="timeline.html">GIB - 012</a></td>
+						<td class="projects__live-td">Westside Plaza II - HVAC Maintenance</td>
+						<td class="projects__live-td">On-site</td>
+					</tr>
+					</tbody>
+			    </table>
+			</section>
 		</section>
 	</main>
 	<!-- End Content/Page View -->

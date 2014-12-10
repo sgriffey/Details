@@ -56,11 +56,11 @@
 			<img class="siteNav__account-image" src="assets/users_gibson.png"/>
 		</div>
 		<div class="accountNav__bucket is-masked">
-			<h1 class="accountNav__bucket-title">Settings</h1>
+			<h1 class="accountNav__bucket-title">Account Settings</h1>
 		</div>
 		<div class="accountNav__settings is-masked" id="account-settings">
 			<span class="accountNav__toggle-label">Exit</span>
-			<img class="accountNav__toggle-image" src="assets/dismiss-trigger.svg"/>
+			<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
 		</div>
 	</nav>
 	<!-- End Top Bar Nav -->
@@ -201,7 +201,7 @@
 		<nav class="account__subnav">
 			<ul class="account__subnav-buckets">
 				<li class="account__subnav-details is-active"><a href="">Details</a></li>
-				<li class="account__subnav-settings"><a href="">Settings</a></li>
+				<li class="account__subnav-settings"><a href="">Notifications</a></li>
 				<li class="account__subnav-permissions"><a href="">Permissions</a></li>
 			</ul>
 		</nav>
@@ -209,17 +209,22 @@
 			<section class="account__details-personal">
 				<header class="account__details-personal-head">
 					<h1 class="account__details-personal-head-title">Personal Information</h1>
+					<div class="account__details-personal-head-toolbar">
+						<button class="account__details-personal-head-toolbar-edit"></button>
+						<button class="account__details-personal-head-toolbar-cancel is-masked">Cancel</button>
+						<button class="account__details-personal-head-toolbar-save is-masked">Save</button>
+					</div>
 				</header>
 				<section class="account__details-personal-body">
 					<form class="account__details-personal-form">
 						<label class="account__details-personal-label">First Name</label>
-						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<input type="text" class="account__details-personal-input" value="Gil" disabled="true">
 						<label class="account__details-personal-label">Last Name</label>
-						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<input type="text" class="account__details-personal-input" value="Villasenor" disabled="true">
 						<label class="account__details-personal-label">Email</label>
-						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<input type="text" class="account__details-personal-input" value="gvillasenor@1111brickell.com" disabled="true">
 						<label class="account__details-personal-label">Phone</label>
-						<input type="text" class="account__details-personal-input" placeholder="None Specified">
+						<input type="text" class="account__details-personal-input" value="(786) 261-8509" disabled="true">
 					</form>
 				</section>
 			</section>
@@ -228,6 +233,34 @@
 					<h1 class="account__details-company-head-title">Company Information</h1>
 				</header>
 				<section class="account__details-company-body">
+					<form class="account__details-company-form">
+						<label class="account__details-company-label">Company Name</label>
+						<input type="text" class="account__details-company-input" value="Gibson">
+						<label class="account__details-company-label">Contact Number</label>
+						<input type="text" class="account__details-company-input" value="(786) 261-8509">
+						<label class="account__details-company-label">Street Address</label>
+						<input type="text" class="account__details-company-input" value="8200NW 33rd St.">
+						<fieldset class="account__details-company-fieldset">
+							<div class="account__details-company-fieldset-3col">
+								<label class="account__details-company-label">City</label>
+								<input type="text" class="account__details-company-input" value="Doral">
+							</div>
+							<div class="account__details-company-fieldset-3col">
+								<label class="account__details-company-label">State</label>
+								<input type="text" class="account__details-company-input" value="FL">
+							</div>
+							<div class="account__details-company-fieldset-3col">
+								<label class="account__details-company-label">Zip</label>
+								<input type="text" class="account__details-company-input" value="3122">
+							</div>
+						</fieldset>
+						<fieldset class="account__details-company-fieldset">
+							<span class="account__details-company-inline-label">Tax exempt?</span>
+							<div class="account__details-company-toggle">
+								<button class="account__details-company-toggle-switch is-toggled-on" type="button">Yes</button><button class="account__details-company-toggle-switch" type="button">No</button>
+							</div>
+						</fieldset>
+					</form>
 				</section>
 			</section>
 		</section>

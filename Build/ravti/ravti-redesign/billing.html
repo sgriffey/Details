@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favi-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favi-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favi-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favi-114.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favi-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="/assets/favi-57.png">
+<link rel="icon" href="/assets/favi-32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Ravti Pattern Library</title> 
+  <script src="//use.typekit.net/pti5qzj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<header class="mobileNav">
+	<div class="mobileNav__masthead">
+		<a class='current-parent' href="index.html"><h1 class="mobileNav__logo"></h1></a>
+		<a class="mobileNav__link"></a>
+	</div>
+	<nav class="mobileNav__menu">
+		<ul class="mobileNav__menu-list">
+			<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">Dashboard</a></li>
+			<li><a href="projects.html" class="mobileNav__menu-list-item">Projects</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Equipment</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Accounting</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Work Orders</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Your Account</a></li>
+		</ul>
+	</nav>
+</header>
+	<!-- Top Bar Site-Wide Navigation -->
+	<nav class="siteNav">
+		<a class='current-parent' href="index.html"><h1 class="siteNav__logo"></h1></a>
+		<ul class="siteNav__buckets">
+			<li class="current-parent current siteNav__bucket-live"><a class='current' href="billing.html">Billing</a>
+				<ul class="siteNav__buckets-list">
+					<a class='current-parent' href="index.html"><li class="siteNav__buckets-list-item">Dashboard</li></a>
+					<a href="projects.html"><li class="siteNav__buckets-list-item">Projects</li></a>
+					<a href="equipment.html"><li class="siteNav__buckets-list-item">Equipment</li></a>
+					<a href="work-orders.html"><li class="siteNav__buckets-list-item">Work Orders</li></a>
+				</ul>
+			</li>
+		</ul>
+		<div class="siteNav__account">
+			<span class="siteNav__account-username">Monique</span>
+			<img class="siteNav__account-image" src="assets/users_gibson.png"/>
+		</div>
+	</nav>
+	<!-- End Top Bar Nav -->
+	<!-- Main Content/Page View -->
+	<main class="page__wrapper">
+		<nav class="billing__subnav">
+			<ul class="billing__subnav-buckets">
+				<li class="billing__subnav-outstanding is-active"><a href="">Outstanding</a></li>
+				<li class="billing__subnav-paid"><a href="">Paid</a></li>
+			</ul>
+		</nav>
+		<section class="billing__outstanding">
+			<section class="billing__late">
+				<h2 class="billing__late-title">Late Payments</h2>
+				<table class="billing__late-table">
+					<thead class="billing__late-thead">
+					<tr class="billing__late-tr">
+						<th class="billing__late-th">Invoice #</th>
+						<th class="billing__late-th">Date Due</th>
+						<th class="billing__late-th">Amount</th>
+					</tr>
+					</thead>
+					<tbody class="billing__late-defcon1-tbody">
+					<tr class="billing__late-tr">
+						<th class="billing__late-defcon-label">90+ Days Outstanding</th>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 002</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$1,234.34</td>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 005</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$1,234.34</td>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 007</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$1,234.34</td>
+					</tr>
+					</tbody>
+					<tbody class="billing__late-defcon2-tbody">
+					<tr class="billing__late-tr">
+						<th class="billing__late-defcon-label">61-90 Days Outstanding</th>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 031</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$234.34</td>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 027</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$871.22</td>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 029</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$2,111.35</td>
+					</tr>
+					</tbody>
+					<tbody class="billing__late-defcon3-tbody">
+					<tr class="billing__late-tr">
+						<th class="billing__late-defcon-label">31-60 Days Outstanding</th>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 006</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$871.22</td>
+					</tr>
+					<tr class="billing__late-tr">
+						<td class="billing__late-td"><a href="timeline.html">GIB - 012</a></td>
+						<td class="billing__late-td">10/11/14</td>
+						<td class="billing__late-td">$3,412.45</td>
+					</tr>
+					</tbody>
+			    </table>
+			</section>
+			<section class="billing__due">
+				<h2 class="billing__due-title">Currently Due</h2>
+				<table class="billing__due-table">
+					<thead class="billing__due-thead">
+					<tr class="billing__due-tr">
+						<th class="billing__due-th">Invoice #</th>
+						<th class="billing__due-th">Date Due</th>
+						<th class="billing__due-th">Amount</th>
+					</tr>
+					</thead>
+					<tbody class="billing__due-tbody">
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 002</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$1,234.34</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 005</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$1,234.34</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 007</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$1,234.34</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 031</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$234.34</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 027</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$871.22</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 029</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$2,111.35</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 006</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$871.22</td>
+					</tr>
+					<tr class="billing__due-tr">
+						<td class="billing__due-td"><a href="timeline.html">GIB - 012</a></td>
+						<td class="billing__due-td">10/11/14</td>
+						<td class="billing__due-td">$3,412.45</td>
+					</tr>
+					</tbody>
+			    </table>
+			</section>
+		</section>
+	</main>
+	<!-- End Content/Page View -->
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="js/app.js"></script>
+</body>
+</html>
