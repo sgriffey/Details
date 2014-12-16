@@ -211,8 +211,7 @@
 					<h1 class="account__details-personal-head-title">Personal Information</h1>
 					<div class="account__details-personal-head-toolbar">
 						<button class="account__details-personal-head-toolbar-edit"></button>
-						<button class="account__details-personal-head-toolbar-cancel is-masked">Cancel</button>
-						<button class="account__details-personal-head-toolbar-save is-masked">Save</button>
+						<button class="account__details-personal-head-toolbar-lock is-masked"></button>
 					</div>
 				</header>
 				<section class="account__details-personal-body">
@@ -225,6 +224,9 @@
 						<input type="text" class="account__details-personal-input" value="gvillasenor@1111brickell.com" disabled="true">
 						<label class="account__details-personal-label">Phone</label>
 						<input type="text" class="account__details-personal-input" value="(786) 261-8509" disabled="true">
+						<div class="account__details-personal-confirm is-masked">
+							<input class="account__details-personal-confirm-cancel" type="button" value="Cancel"><input class="account__details-personal-confirm-save" type="button" value="Save">
+						</div>
 					</form>
 				</section>
 			</section>
@@ -254,10 +256,10 @@
 								<input type="text" class="account__details-company-input" value="3122">
 							</div>
 						</fieldset>
-						<fieldset class="account__details-company-fieldset">
+						<fieldset class="account__details-company-fieldset-toggle">
 							<span class="account__details-company-inline-label">Tax exempt?</span>
 							<div class="account__details-company-toggle">
-								<button class="account__details-company-toggle-switch is-toggled-on" type="button">Yes</button><button class="account__details-company-toggle-switch" type="button">No</button>
+								<input class="account__details-company-toggle-switch" type="radio" value="Yes" name="tax"><input class="account__details-company-toggle-switch" type="radio" value="No" name="tax">
 							</div>
 						</fieldset>
 					</form>

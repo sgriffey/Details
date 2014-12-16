@@ -486,6 +486,17 @@ ul, ol, dl {
   ul:last-child, ol:last-child, dl:last-child {
     margin-right: 0; }
 
+.page__poster {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%; }
+  .page__poster:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 /**
  * Create a fully formed type style (sizing and vertical rhythm) by passing in a
  * single value, e.g.:
@@ -692,10 +703,10 @@ hr {
 .project__details-subnav-qa, .account__subnav-details,
 .account__subnav-settings,
 .account__subnav-permissions, .billing__subnav-outstanding,
-.billing__subnav-paid, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__form-fieldset, .proposal__abstract-address, .proposal__terms-scan-list, .proposal__terms-view-scopes,
+.billing__subnav-paid, .proposal__abstract-address, .invoice__meta-summary-address, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__form-fieldset, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .equipment__grid-sidebar-list, .equipment__grid-blank-stats-list, .account__details-personal-form,
-.account__details-company-form, .account__details-company-fieldset, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-save,
-.account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .invoice__meta-summary-address, .sidebar ul, .sidebar li {
+.account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .account__details-personal-head-toolbar-save,
+.account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__abstract-contacts, .facility__duties-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
@@ -707,38 +718,38 @@ hr {
 .account__details-personal-head-toolbar-cancel {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.overlay__confirm-input-file-button, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
-.account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .proposal__abstract-address span:first-of-type, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
+.overlay__confirm-input-file-button, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
+.account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
-.invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .invoice__meta-summary-address span:first-of-type {
+.invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__abstract-contact-name, .facility__event-meta-stamp-cite span:nth-child(2) {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
 .proposal__terms-scan-head,
 .proposal__terms-view-head, .project__abstract-head, .account__details-personal-head,
-.account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .proposal__abstract-head h1, .proposal__form-head h1,
+.account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
-.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .proposal__terms-view-doc, .invoice__meta-doc-view, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
 .account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
 .account__details-company-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
-.account__details-company-input:-ms-input-placeholder, .proposal__terms-view-doc, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
+.account__details-company-input:-ms-input-placeholder, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
   font-weight: 400; }
 
 .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
-.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .billing__late-defcon1-tbody .billing__late-th,
+.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__late-defcon1-tbody .billing__late-th,
 .billing__late-defcon2-tbody .billing__late-th,
 .billing__late-defcon3-tbody .billing__late-th, .billing__late-defcon-label, .overlay__confirm-bid-metadata, .equipment__grid-sidebar-list-section:first-of-type, .equipment__grid-masthead-status, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
-.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note {
+.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span {
   font-weight: 400; }
 
-.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .dashboard__request-title, .billing__late-title,
-.billing__due-title, .siteNav, .dashboard__bucket-card-header, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b {
+.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .dashboard__request-title, .billing__late-title,
+.billing__due-title, .siteNav, .dashboard__bucket-card-header, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-tag {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -771,7 +782,7 @@ hr {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job {
+.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -779,7 +790,7 @@ hr {
 .proposal__abstract-head, .proposal__form-head,
 .proposal__terms-scan-head,
 .proposal__terms-view-head, .project__abstract-head, .account__details-personal-head,
-.account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head {
+.account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -803,26 +814,26 @@ hr {
   .proposal__abstract-head:last-child, .proposal__form-head:last-child,
   .proposal__terms-scan-head:last-child,
   .proposal__terms-view-head:last-child, .project__abstract-head:last-child, .account__details-personal-head:last-child,
-  .account__details-company-head:last-child, .invoice__sheet-head:last-child, .invoice__meta-summary-head:last-child {
+  .account__details-company-head:last-child, .invoice__sheet-head:last-child, .invoice__meta-summary-head:last-child, .invoice__meta-doc-head:last-child, .invoice__meta-support-head:last-child, .facility__activity-prevent-head:last-child, .facility__event-header:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-head, .proposal__form-head,
     .proposal__terms-scan-head,
     .proposal__terms-view-head, .project__abstract-head, .account__details-personal-head,
-    .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head {
+    .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
   .proposal__abstract-head h1, .proposal__form-head h1,
   .proposal__terms-scan-head h1,
   .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
-  .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1 {
+  .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1 {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
     display: inline-block; }
 
 .proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .project__abstract-body, .account__details-personal-body,
-.account__details-company-body, .invoice__sheet-body, .invoice__meta-summary-body {
+.account__details-company-body, .invoice__sheet-body, .invoice__meta-summary-body, .invoice__meta-doc-body, .invoice__meta-support-body, .facility__activity-prevent-body, .facility__event-summary {
   padding: 22.4px;
   padding: 1.4rem;
   background: white;
@@ -942,7 +953,7 @@ hr {
   .overlay__confirm-input-file-button:hover {
     background: rgba(102, 195, 176, 0.2); }
 
-.proposal__terms-view-doc:hover, .proposal__terms-view-doc:hover a, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a {
+.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a {
   cursor: pointer;
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in; }
@@ -960,6 +971,75 @@ hr {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
+
+.proposal__abstract-address, .invoice__meta-summary-address {
+  padding-left: 28px;
+  padding-left: 28px/16pxrem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  position: relative; }
+  .proposal__abstract-address:before, .invoice__meta-summary-address:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    height: 1.125rem;
+    width: 18px;
+    width: 1.125rem;
+    margin-right: 11.2px;
+    margin-right: 0.7rem;
+    background: center center no-repeat;
+    background-image: url(../assets/address-icon.svg); }
+  .proposal__abstract-address span, .invoice__meta-summary-address span {
+    display: block;
+    font-style: normal;
+    color: #93989c; }
+    .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type {
+      color: #54545a; }
+
+.proposal__terms-view-doc, .invoice__meta-doc-view {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  padding-right: 22.4px;
+  padding-right: 1.4rem;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #93989c;
+  text-align: center; }
+  .proposal__terms-view-doc:before, .invoice__meta-doc-view:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 74px;
+    height: 4.625rem;
+    width: 60px;
+    width: 3.75rem;
+    margin-bottom: 5.6px;
+    margin-bottom: 0.35rem;
+    background: center center no-repeat;
+    background-image: url(../assets/scope-large.svg); }
+  .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a {
+    color: #092f3e;
+    border-bottom: 1px solid #092f3e; }
+
+.invoice__meta-support-copy a, .facility__activity-prevent-memo a {
+  border-bottom: 1px solid #e3e5ea; }
+  .invoice__meta-support-copy a:hover, .facility__activity-prevent-memo a:hover {
+    cursor: pointer;
+    color: #092f3e;
+    border-bottom-color: #092f3e; }
+
+.invoice__meta-support-copy, .facility__activity-prevent-memo {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  color: #93989c; }
 
 .hero {
   background: #66c3b0;
@@ -1052,12 +1132,12 @@ hr {
 .form__buttons-encourage-block-large, .form__buttons-encourage-large, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .account__details-personal-input,
-.account__details-company-input, .account__details-company-toggle-switch, .account__details-personal-head-toolbar-save,
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .account__details-personal-input,
+.account__details-company-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   padding: 0.4em 1em 0.3em 1em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .form__buttons-group-item {
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -1101,11 +1181,11 @@ hr {
 .form__buttons-encourage-block-large {
   width: 100%; }
 
-.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage {
+.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
-  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-encourage:hover, .proposal__procure-services-qa-post-btn:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-encourage:focus, .proposal__procure-services-qa-post-btn:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-encourage:active, .proposal__procure-services-qa-post-btn:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active {
+  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-encourage:hover, .proposal__procure-services-qa-post-btn:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .account__details-personal-confirm-save:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-encourage:focus, .proposal__procure-services-qa-post-btn:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .account__details-personal-confirm-save:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-encourage:active, .proposal__procure-services-qa-post-btn:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .account__details-personal-confirm-save:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-discourage {
@@ -1115,11 +1195,11 @@ hr {
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.form__select-drop, .dashboard__form-select-drop, .form__buttons-neutral, .overlay__confirm-form-button-neutral {
+.form__select-drop, .dashboard__form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: white; }
-  .form__select-drop:hover, .dashboard__form-select-drop:hover, .form__buttons-neutral:hover, .overlay__confirm-form-button-neutral:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .form__buttons-neutral:focus, .overlay__confirm-form-button-neutral:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .form__buttons-neutral:active, .overlay__confirm-form-button-neutral:active {
+  .form__select-drop:hover, .dashboard__form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .overlay__confirm-form-button-neutral:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .overlay__confirm-form-button-neutral:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .overlay__confirm-form-button-neutral:active, .account__details-personal-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-encourage-large, .proposal__form-button-encourage {
@@ -1564,13 +1644,20 @@ hr {
     vertical-align: middle; }
 
 .account__details-company-toggle-switch {
+  margin-right: 0;
   font-family: "jaf-bernino-sans", sans-serif;
   font-size: 13.33333px;
   font-size: 0.83333rem;
   border: 2px solid #e3e5ea;
   background: white;
   min-width: 64px;
-  min-width: 4rem; }
+  min-width: 4rem;
+  min-height: 35px;
+  min-height: 2.1875rem;
+  text-align: center; }
+  .account__details-company-toggle-switch:checked {
+    border-color: #66c3b0;
+    background-color: rgba(102, 195, 176, 0.4); }
   .account__details-company-toggle-switch:nth-child(1) {
     -webkit-border-radius: 999px 0 0 999px;
     -ms-border-radius: 999px 0 0 999px;
@@ -1578,6 +1665,8 @@ hr {
     -o-border-radius: 999px 0 0 999px;
     border-radius: 999px 0 0 999px;
     border-right: 1px solid #66c3b0; }
+    .account__details-company-toggle-switch:nth-child(1):before {
+      content: 'yes'; }
   .account__details-company-toggle-switch:nth-child(2) {
     -webkit-border-radius: 0 999px 999px 0;
     -ms-border-radius: 0 999px 999px 0;
@@ -1585,6 +1674,8 @@ hr {
     -o-border-radius: 0 999px 999px 0;
     border-radius: 0 999px 999px 0;
     border-left: 1px solid #66c3b0; }
+    .account__details-company-toggle-switch:nth-child(2):before {
+      content: 'no'; }
 
 .is-toggled-on {
   background: rgba(102, 195, 176, 0.2);
@@ -2399,7 +2490,8 @@ hr {
 .account__details-company-form,
 .account__details-company-label,
 .account__details-company-input,
-.account__details-company-fieldset {
+.account__details-company-fieldset,
+.account__details-personal-confirm {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -2415,7 +2507,8 @@ hr {
   .account__details-company-form:last-child,
   .account__details-company-label:last-child,
   .account__details-company-input:last-child,
-  .account__details-company-fieldset:last-child {
+  .account__details-company-fieldset:last-child,
+  .account__details-personal-confirm:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .account__details-personal-head,
@@ -2428,7 +2521,8 @@ hr {
     .account__details-company-form,
     .account__details-company-label,
     .account__details-company-input,
-    .account__details-company-fieldset {
+    .account__details-company-fieldset,
+    .account__details-personal-confirm {
       float: left;
       display: block;
       margin-right: 4.82916%;
@@ -2444,7 +2538,26 @@ hr {
       .account__details-company-form:last-child,
       .account__details-company-label:last-child,
       .account__details-company-input:last-child,
-      .account__details-company-fieldset:last-child {
+      .account__details-company-fieldset:last-child,
+      .account__details-personal-confirm:last-child {
+        margin-right: 0; } }
+
+.account__details-company-inline-label {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .account__details-company-inline-label:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .account__details-company-inline-label {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 65.05695%;
+      margin-right: 0; }
+      .account__details-company-inline-label:last-child {
         margin-right: 0; } }
 
 .account__details-company-fieldset-3col {
@@ -2954,7 +3067,15 @@ hr {
 .invoice__meta-summary-body,
 .invoice__meta-summary-job,
 .invoice__meta-summary-address,
-.invoice__meta-summary-memo {
+.invoice__meta-summary-memo,
+.invoice__meta-doc,
+.invoice__meta-doc-head,
+.invoice__meta-doc-body,
+.invoice__meta-doc-view,
+.invoice__meta-support,
+.invoice__meta-support-head,
+.invoice__meta-support-body,
+.invoice__meta-support-copy {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -2966,7 +3087,15 @@ hr {
   .invoice__meta-summary-body:last-child,
   .invoice__meta-summary-job:last-child,
   .invoice__meta-summary-address:last-child,
-  .invoice__meta-summary-memo:last-child {
+  .invoice__meta-summary-memo:last-child,
+  .invoice__meta-doc:last-child,
+  .invoice__meta-doc-head:last-child,
+  .invoice__meta-doc-body:last-child,
+  .invoice__meta-doc-view:last-child,
+  .invoice__meta-support:last-child,
+  .invoice__meta-support-head:last-child,
+  .invoice__meta-support-body:last-child,
+  .invoice__meta-support-copy:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .invoice__meta-summary,
@@ -2975,7 +3104,15 @@ hr {
     .invoice__meta-summary-body,
     .invoice__meta-summary-job,
     .invoice__meta-summary-address,
-    .invoice__meta-summary-memo {
+    .invoice__meta-summary-memo,
+    .invoice__meta-doc,
+    .invoice__meta-doc-head,
+    .invoice__meta-doc-body,
+    .invoice__meta-doc-view,
+    .invoice__meta-support,
+    .invoice__meta-support-head,
+    .invoice__meta-support-body,
+    .invoice__meta-support-copy {
       float: left;
       display: block;
       margin-right: 7.42297%;
@@ -2987,7 +3124,15 @@ hr {
       .invoice__meta-summary-body:last-child,
       .invoice__meta-summary-job:last-child,
       .invoice__meta-summary-address:last-child,
-      .invoice__meta-summary-memo:last-child {
+      .invoice__meta-summary-memo:last-child,
+      .invoice__meta-doc:last-child,
+      .invoice__meta-doc-head:last-child,
+      .invoice__meta-doc-body:last-child,
+      .invoice__meta-doc-view:last-child,
+      .invoice__meta-support:last-child,
+      .invoice__meta-support-head:last-child,
+      .invoice__meta-support-body:last-child,
+      .invoice__meta-support-copy:last-child {
         margin-right: 0; } }
 
 .invoice__sheet-entities {
@@ -3792,32 +3937,6 @@ dd {
   color: white;
   text-transform: uppercase; }
 
-.proposal__abstract-address {
-  padding-left: 28px;
-  padding-left: 28px/16pxrem;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  position: relative; }
-  .proposal__abstract-address:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 18px;
-    height: 1.125rem;
-    width: 18px;
-    width: 1.125rem;
-    margin-right: 11.2px;
-    margin-right: 0.7rem;
-    background: center center no-repeat;
-    background-image: url(../assets/address-icon.svg); }
-  .proposal__abstract-address span {
-    display: block;
-    font-style: normal;
-    color: #93989c; }
-    .proposal__abstract-address span:first-of-type {
-      color: #54545a; }
-
 .proposal__abstract-summary {
   color: #54545a;
   margin-bottom: 0; }
@@ -3919,33 +4038,6 @@ dd {
     background-image: url(../assets/service-icon.svg); }
   .proposal__terms-scan-list-bullet:nth-child(1), .proposal__terms-scan-list-bullet:nth-child(2) {
     margin-top: 0; }
-
-.proposal__terms-view-doc {
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  padding-left: 22.4px;
-  padding-left: 1.4rem;
-  padding-right: 22.4px;
-  padding-right: 1.4rem;
-  letter-spacing: 0;
-  margin-bottom: 0;
-  color: #93989c;
-  text-align: center; }
-  .proposal__terms-view-doc:before {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    height: 74px;
-    height: 4.625rem;
-    width: 60px;
-    width: 3.75rem;
-    margin-bottom: 5.6px;
-    margin-bottom: 0.35rem;
-    background: center center no-repeat;
-    background-image: url(../assets/scope-large.svg); }
-  .proposal__terms-view-doc:hover a {
-    color: #092f3e;
-    border-bottom: 1px solid #092f3e; }
 
 .proposal__terms-view-scopes-dual {
   position: relative;
@@ -5133,34 +5225,45 @@ dd {
 .account__details-company-label {
   padding-top: 0; }
 
-.account__details-personal-input[disabled="true"],
-.account__details-company-input[disabled="true"] {
+.account__details-personal-input[disabled="true"], .account__details-personal-input[disabled="disabled"],
+.account__details-company-input[disabled="true"],
+.account__details-company-input[disabled="disabled"] {
   border: 2px solid transparent;
   border-left: 0px;
   padding-left: 0;
   background: white; }
-.account__details-personal-input:hover[disabled="true"],
-.account__details-company-input:hover[disabled="true"] {
+.account__details-personal-input:hover[disabled="true"], .account__details-personal-input:hover[disabled="disabled"],
+.account__details-company-input:hover[disabled="true"],
+.account__details-company-input:hover[disabled="disabled"] {
   border: 2px solid transparent;
   border-left: 0px; }
 
 .account__details-company-fieldset {
-  margin-bottom: 22.4px;
-  margin-bottom: 1.4rem;
+  border: none; }
+
+.account__details-company-fieldset-toggle {
   border: none;
   border-top: 1px dotted #e3e5ea;
-  padding-top: 11.2px;
-  padding-top: 0.7rem; }
-  .account__details-company-fieldset:first-of-type {
-    padding: 0;
-    border: none;
-    margin: 0; }
+  padding-top: 22.4px;
+  padding-top: 1.4rem;
+  padding-bottom: 22.4px;
+  padding-bottom: 1.4rem;
+  position: relative;
+  min-height: 30px;
+  min-height: 1.875rem; }
 
 .account__details-company-inline-label {
   color: #092f3e;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.4; }
+
+.account__details-company-toggle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -15px;
+  margin-top: -0.9375rem; }
 
 .account__details-personal-head-toolbar {
   position: absolute;
@@ -5195,7 +5298,33 @@ dd {
     background: center center no-repeat;
     background-image: url(../assets/edit-form.svg); }
   .account__details-personal-head-toolbar-edit:hover, .account__details-personal-head-toolbar-edit:focus, .account__details-personal-head-toolbar-edit:active {
-    outline: 0; }
+    outline: 0;
+    border-color: #c7cacd; }
+
+.account__details-personal-head-toolbar-lock {
+  background: white;
+  border: 1px solid #e3e5ea;
+  -webkit-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -o-border-radius: 999px;
+  border-radius: 999px;
+  height: 40px;
+  height: 2.5rem;
+  width: 40px;
+  width: 2.5rem; }
+  .account__details-personal-head-toolbar-lock:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    height: 1.875rem;
+    width: 30px;
+    width: 1.875rem;
+    background: center center no-repeat;
+    background-image: url(../assets/lock-icon.svg); }
+  .account__details-personal-head-toolbar-lock:hover, .account__details-personal-head-toolbar-lock:focus, .account__details-personal-head-toolbar-lock:active {
+    outline: 0;
+    border-color: #c7cacd; }
 
 .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
@@ -5210,6 +5339,10 @@ dd {
   height: 2.5rem;
   margin-left: 11.2px;
   margin-left: 0.7rem; }
+
+.account__details-personal-confirm-cancel {
+  margin-right: 22.4px;
+  margin-right: 1.4rem; }
 
 .billing__late-td:nth-child(1) {
   padding-left: 11.2px;
@@ -5391,40 +5524,284 @@ dd {
   font-size: 1.2rem;
   line-height: 1.16667; }
 
-.invoice__meta-summary-address {
-  padding-left: 28px;
-  padding-left: 28px/16pxrem;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  position: relative; }
-  .invoice__meta-summary-address:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 18px;
-    height: 1.125rem;
-    width: 18px;
-    width: 1.125rem;
-    margin-right: 11.2px;
-    margin-right: 0.7rem;
-    background: center center no-repeat;
-    background-image: url(../assets/address-icon.svg); }
-  .invoice__meta-summary-address span {
-    display: block;
-    font-style: normal;
-    color: #93989c;
-    font-size: 13.33333px;
-    font-size: 0.83333rem;
-    line-height: 1.68; }
-    .invoice__meta-summary-address span:first-of-type {
-      color: #54545a; }
+.invoice__meta-summary-address span {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68; }
 
 .invoice__meta-summary-memo {
   color: #54545a;
   font-size: 13.33333px;
   font-size: 0.83333rem;
   line-height: 1.68; }
+
+@media screen and (min-width: 46.8em) {
+  .invoice__meta-doc-head {
+    margin-top: 22.4px;
+    margin-top: 1.4rem; } }
+
+@media screen and (min-width: 46.8em) {
+  .invoice__meta-support-head {
+    margin-top: 22.4px;
+    margin-top: 1.4rem; } }
+
+.invoice__meta-support-copy {
+  text-align: center; }
+  .invoice__meta-support-copy:first-of-type {
+    text-align: center;
+    margin-top: 0; }
+    .invoice__meta-support-copy:first-of-type:before {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      height: 40px;
+      height: 2.5rem;
+      width: 36px;
+      width: 2.25rem;
+      margin-bottom: 5.6px;
+      margin-bottom: 0.35rem;
+      background: center center no-repeat;
+      background-image: url(../assets/support-icon.svg); }
+  .invoice__meta-support-copy:last-of-type {
+    margin-bottom: 11.2px;
+    margin-bottom: 0.7rem; }
+
+.facility__identity {
+  border-bottom: 1px solid #e3e5ea; }
+
+.facility__abstract,
+.facility__hero {
+  min-height: 544px;
+  min-height: 34rem; }
+
+.facility__abstract {
+  padding: 11.2px;
+  padding: 0.7rem;
+  background: #092f3e;
+  color: white;
+  text-align: center; }
+
+.facility__abstract-map {
+  margin-top: 44.8px;
+  margin-top: 2.8rem; }
+
+.facility__abstract-map-view {
+  display: inline-block;
+  height: 140px;
+  height: 8.75rem;
+  width: 140px;
+  width: 8.75rem;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0;
+  border: 4px solid white;
+  background: center center no-repeat;
+  background: url("http://cdn2.dropmark.com/72454/da6b699a896660268bb1c4fc6b70cc3ed9b62e87/map.png");
+  background: url("http://cdn2.dropmark.com/72454/da6b699a896660268bb1c4fc6b70cc3ed9b62e87/map.png") center center no-repeat;
+  background-size: cover; }
+
+.facility__abstract-title {
+  font-size: 33.1776px;
+  font-size: 2.0736rem;
+  line-height: 1.35031;
+  margin-bottom: 0;
+  color: white; }
+
+.facility__abstract-address span {
+  display: block;
+  font-style: normal; }
+
+.facility__abstract-contacts {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  margin-bottom: 44.8px;
+  margin-bottom: 2.8rem; }
+
+.facility__abstract-contact {
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
+
+.facility__abstract-contact-name:after {
+  content: '·';
+  padding-left: 5.6px;
+  padding-left: 0.35rem;
+  padding-right: 5.6px;
+  padding-right: 0.35rem; }
+
+.facility__abstract-contact-number {
+  display: block; }
+
+.facility__hero {
+  background: center center no-repeat;
+  background: url("https://files.slack.com/files-pri/T02GQEVG4-F035X1V4M/800.jpg");
+  background: url("https://files.slack.com/files-pri/T02GQEVG4-F035X1V4M/800.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.facility__duties-list .is-active {
+  position: relative;
+  background: #092f3e;
+  border-color: transparent;
+  color: white; }
+  .facility__duties-list .is-active:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: -8px;
+    bottom: -0.5rem;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #092f3e;
+    margin-left: -4px; }
+
+.facility__duty {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  padding: 11.2px;
+  padding: 0.7rem;
+  position: relative;
+  border: 1px solid #e3e5ea;
+  text-transform: uppercase;
+  text-align: center;
+  background: white; }
+
+.facility__activity-prevent-prompt {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 1.16667;
+  text-align: center; }
+
+.facility__activity-prevent-memo {
+  text-align: center; }
+
+.facility__event-header {
+  background: white;
+  border: 1px solid #e3e5ea;
+  height: 64px;
+  height: 4rem; }
+  .facility__event-header:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  .facility__event-header .is-work-request:before {
+    background: center center no-repeat;
+    background: url(../assets/work-request.svg); }
+  .facility__event-header .is-repair:before {
+    background: center center no-repeat;
+    background: url(../assets/repair.svg); }
+  .facility__event-header .is-replacement:before {
+    background: center center no-repeat;
+    background: url(../assets/replacement.svg); }
+  .facility__event-header .is-preventative:before {
+    background: center center no-repeat;
+    background: url(../assets/preventative.svg); }
+  .facility__event-header .is-service-call:before {
+    background: center center no-repeat;
+    background: url(../assets/service.svg); }
+
+.facility__event-header-tag {
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #092f3e; }
+  .facility__event-header-tag:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    height: 2.5rem;
+    width: 40px;
+    width: 2.5rem;
+    margin-right: 11.2px;
+    margin-right: 0.7rem; }
+
+.facility__event-summary-list-item {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  padding: 11.2px;
+  padding: 0.7rem;
+  padding-left: 0;
+  border-bottom: 1px dotted #e3e5ea; }
+  .facility__event-summary-list-item:first-of-type {
+    padding-top: 0; }
+  .facility__event-summary-list-item:nth-child(1) .facility__event-summary-list-term:before {
+    background-image: url(../assets/manufacturer.svg); }
+  .facility__event-summary-list-item:nth-child(2) .facility__event-summary-list-term:before {
+    background-image: url(../assets/tag.svg); }
+  .facility__event-summary-list-item:nth-child(3) .facility__event-summary-list-term:before {
+    background-image: url(../assets/tonnage.svg); }
+
+.facility__event-summary-list-term {
+  position: relative;
+  padding-left: 30px;
+  padding-left: 1.875rem; }
+  .facility__event-summary-list-term:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    height: 1.25rem;
+    width: 20px;
+    width: 1.25rem;
+    background: center center no-repeat; }
+
+.facility__event-meta {
+  padding: 11.2px;
+  padding: 0.7rem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  background: rgba(88, 131, 237, 0.02);
+  border: 1px solid #e3e5ea;
+  border-top: 0;
+  height: 64px;
+  height: 4rem; }
+  .facility__event-meta:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.facility__event-meta-stamp {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  color: #092f3e;
+  font-size: 13.33333px;
+  font-size: 0.83333rem; }
+
+.facility__event-meta-stamp-user {
+  position: absolute;
+  vertical-align: middle;
+  margin: 0; }
+  .facility__event-meta-stamp-user img {
+    max-width: 40px;
+    max-width: 2.5rem; }
+
+.facility__event-meta-stamp-cite {
+  vertical-align: middle;
+  font-style: normal;
+  padding-left: 52px;
+  padding-left: 3.25rem; }
+  .facility__event-meta-stamp-cite span:nth-child(1) {
+    display: block;
+    color: #93989c; }
 
 /*
 Select2 Base Styling
@@ -6850,6 +7227,279 @@ disabled look for disabled choices in the results dropdown
       width: 100%;
       margin-right: 0; }
       .project__equipment-piece-specs:last-child {
+        margin-right: 0; } }
+
+.facility__identity,
+.facility__overview {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__identity:last-child,
+  .facility__overview:last-child {
+    margin-right: 0; }
+
+.facility__abstract,
+.facility__hero {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__abstract:last-child,
+  .facility__hero:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__abstract,
+    .facility__hero {
+      float: left;
+      display: block;
+      width: 51.17883%; }
+      .facility__abstract:last-child,
+      .facility__hero:last-child {
+        width: 48.82117%; }
+      .facility__abstract:nth-child(2n),
+      .facility__hero:nth-child(2n) {
+        margin-right: 0; }
+      .facility__abstract:nth-child(2n+1),
+      .facility__hero:nth-child(2n+1) {
+        clear: left; } }
+
+.facility__abstract-map,
+.facility__abstract-title,
+.facility__abstract-address,
+.facility__abstract-contacts,
+.facility__abstract-contact,
+.facility__abstract-contact-number {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__abstract-map:last-child,
+  .facility__abstract-title:last-child,
+  .facility__abstract-address:last-child,
+  .facility__abstract-contacts:last-child,
+  .facility__abstract-contact:last-child,
+  .facility__abstract-contact-number:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__abstract-map,
+    .facility__abstract-title,
+    .facility__abstract-address,
+    .facility__abstract-contacts,
+    .facility__abstract-contact,
+    .facility__abstract-contact-number {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__abstract-map:last-child,
+      .facility__abstract-title:last-child,
+      .facility__abstract-address:last-child,
+      .facility__abstract-contacts:last-child,
+      .facility__abstract-contact:last-child,
+      .facility__abstract-contact-number:last-child {
+        margin-right: 0; } }
+
+.facility__duties,
+.facility__duties-list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__duties:last-child,
+  .facility__duties-list:last-child {
+    margin-right: 0; }
+
+.facility__duty {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__duty:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__duty {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 18.11388%; }
+      .facility__duty:last-child {
+        margin-right: 0; }
+      .facility__duty:nth-child(5n) {
+        margin-right: 0; }
+      .facility__duty:nth-child(5n+1) {
+        clear: left; } }
+
+.facility__activity {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__activity:last-child {
+    margin-right: 0; }
+
+.facility__activity-feed {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .facility__activity-feed:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__activity-feed {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .facility__activity-feed:last-child {
+        margin-right: 0; } }
+
+.facility__activity-aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .facility__activity-aside:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__activity-aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .facility__activity-aside:last-child {
+        margin-right: 0; } }
+
+.facility__activity-prevent,
+.facility__activity-prevent-head,
+.facility__activity-prevent-title,
+.facility__activity-prevent-body,
+.facility__activity-prevent-prompt,
+.facility__activity-prevent-memo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .facility__activity-prevent:last-child,
+  .facility__activity-prevent-head:last-child,
+  .facility__activity-prevent-title:last-child,
+  .facility__activity-prevent-body:last-child,
+  .facility__activity-prevent-prompt:last-child,
+  .facility__activity-prevent-memo:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__activity-prevent,
+    .facility__activity-prevent-head,
+    .facility__activity-prevent-title,
+    .facility__activity-prevent-body,
+    .facility__activity-prevent-prompt,
+    .facility__activity-prevent-memo {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__activity-prevent:last-child,
+      .facility__activity-prevent-head:last-child,
+      .facility__activity-prevent-title:last-child,
+      .facility__activity-prevent-body:last-child,
+      .facility__activity-prevent-prompt:last-child,
+      .facility__activity-prevent-memo:last-child {
+        margin-right: 0; } }
+
+.facility__activity-feed-event,
+.facility__event-header,
+.facility__event-header-tag,
+.facility__event-summary,
+.facility__event-summary-list,
+.facility__event-summary-list-item,
+.facility__event-summary-comment,
+.facility__event-meta,
+.facility__event-meta-stamp,
+.facility__event-meta-stamp-cite {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__activity-feed-event:last-child,
+  .facility__event-header:last-child,
+  .facility__event-header-tag:last-child,
+  .facility__event-summary:last-child,
+  .facility__event-summary-list:last-child,
+  .facility__event-summary-list-item:last-child,
+  .facility__event-summary-comment:last-child,
+  .facility__event-meta:last-child,
+  .facility__event-meta-stamp:last-child,
+  .facility__event-meta-stamp-cite:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__activity-feed-event,
+    .facility__event-header,
+    .facility__event-header-tag,
+    .facility__event-summary,
+    .facility__event-summary-list,
+    .facility__event-summary-list-item,
+    .facility__event-summary-comment,
+    .facility__event-meta,
+    .facility__event-meta-stamp,
+    .facility__event-meta-stamp-cite {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__activity-feed-event:last-child,
+      .facility__event-header:last-child,
+      .facility__event-header-tag:last-child,
+      .facility__event-summary:last-child,
+      .facility__event-summary-list:last-child,
+      .facility__event-summary-list-item:last-child,
+      .facility__event-summary-comment:last-child,
+      .facility__event-meta:last-child,
+      .facility__event-meta-stamp:last-child,
+      .facility__event-meta-stamp-cite:last-child {
+        margin-right: 0; } }
+
+.facility__event-summary-list-term {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__event-summary-list-term:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__event-summary-list-term {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 35.26334%; }
+      .facility__event-summary-list-term:last-child {
+        margin-right: 0; } }
+
+.facility__event-summary-list-definition {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__event-summary-list-definition:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__event-summary-list-definition {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 61.158%; }
+      .facility__event-summary-list-definition:last-child {
         margin-right: 0; } }
 
 .sidebar {

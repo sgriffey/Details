@@ -3,6 +3,15 @@ $(document).ready(function() {
       $(".mobileNav__menu").toggleClass("mobileNav__menu-is-active");
 	  $(".mobileNav__link").toggleClass("is-nav-open");
 	});
+ 	$(".proposal__terms-scan-expand").click(function(){
+            $(".proposal__terms-scan-body").addClass("terms-scan-expanded");
+            $(".proposal__terms-scan-expand").addClass("is-hidden");
+    });
+    $(".project__terms-scan-expand").click(function(){
+            $(".project__terms-scan").addClass("terms-scan-expanded");
+            $(".project__terms-scan-expand").addClass("is-hidden");
+    });
+    //Account Settings Toggle
      $("#mo, #account-settings").click(function() {
         $(".siteNav").toggleClass("is-inverted-dark");
         $(".siteNav__logo").toggleClass("is-inverted-border");
@@ -14,14 +23,6 @@ $(document).ready(function() {
       $("#dash-toggle").toggleClass("is-masked");
       $("#settings").toggleClass("is-masked");
       $("#settings").toggleClass("animated bounceInUp");
-    });
- 	$(".proposal__terms-scan-expand").click(function(){
-            $(".proposal__terms-scan-body").addClass("terms-scan-expanded");
-            $(".proposal__terms-scan-expand").addClass("is-hidden");
-    });
-    $(".project__terms-scan-expand").click(function(){
-            $(".project__terms-scan").addClass("terms-scan-expanded");
-            $(".project__terms-scan-expand").addClass("is-hidden");
     });
     //For Timeline Page
     $(".project__details-subnav-terms").click(function(){
@@ -126,9 +127,21 @@ $(document).ready(function() {
     });
     //Editing Forms From Disabled
     $('.account__details-personal-head-toolbar-edit').click(function() {
-        $('.account__details-personal-input').removeProp("disabled");
-        $(".account__details-personal-head-toolbar-edit").toggleClass("animated zoomOut");
+        $('.account__details-personal-input').attr("disabled", false);
         $('.account__details-personal-head-toolbar-edit').toggleClass("is-masked");
-        $('.account__details-personal-head-toolbar-save, .account__details-personal-head-toolbar-cancel').toggleClass("is-masked");
+        $('.account__details-personal-head-toolbar-lock').toggleClass("is-masked");
+        $('.account__details-personal-confirm').toggleClass("is-masked");
+    });
+    $('.account__details-personal-head-toolbar-lock').click(function() {
+        $('.account__details-personal-input').attr("disabled", true);
+        $('.account__details-personal-head-toolbar-edit').toggleClass("is-masked");
+        $('.account__details-personal-head-toolbar-lock').toggleClass("is-masked");
+        $('.account__details-personal-confirm').toggleClass("is-masked");
+    });
+    $('.account__details-personal-confirm-cancel, .account__details-personal-confirm-save').click(function() {
+        $('.account__details-personal-input').attr("disabled", true);
+        $('.account__details-personal-head-toolbar-edit').toggleClass("is-masked");
+        $('.account__details-personal-head-toolbar-lock').toggleClass("is-masked");
+        $('.account__details-personal-confirm').toggleClass("is-masked");
     });
 });
