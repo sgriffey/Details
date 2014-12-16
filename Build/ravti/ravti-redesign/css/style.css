@@ -722,7 +722,7 @@ hr {
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
-.invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__abstract-contact-name, .facility__event-meta-stamp-cite span:nth-child(2) {
+.invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__abstract-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2) {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
@@ -745,11 +745,11 @@ hr {
 .billing__late-defcon2-tbody .billing__late-th,
 .billing__late-defcon3-tbody .billing__late-th, .billing__late-defcon-label, .overlay__confirm-bid-metadata, .equipment__grid-sidebar-list-section:first-of-type, .equipment__grid-masthead-status, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
-.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span {
+.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
 
 .proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .dashboard__request-title, .billing__late-title,
-.billing__due-title, .siteNav, .dashboard__bucket-card-header, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-tag {
+.billing__due-title, .siteNav, .dashboard__bucket-card-header, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -5687,9 +5687,11 @@ dd {
 
 .facility__event-header {
   background: white;
-  border: 1px solid #e3e5ea;
-  height: 64px;
-  height: 4rem; }
+  border: 1px solid #e3e5ea; }
+  @media screen and (min-width: 46.8em) {
+    .facility__event-header {
+      height: 64px;
+      height: 4rem; } }
   .facility__event-header:before {
     content: '';
     display: inline-block;
@@ -5711,15 +5713,15 @@ dd {
     background: center center no-repeat;
     background: url(../assets/service.svg); }
 
-.facility__event-header-tag {
+.facility__event-header-title {
   margin-bottom: 0;
   display: inline-block;
   vertical-align: middle;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 1.16667;
   color: #092f3e; }
-  .facility__event-header-tag:before {
+  .facility__event-header-title:before {
     content: '';
     display: inline-block;
     vertical-align: middle;
@@ -5729,6 +5731,58 @@ dd {
     width: 2.5rem;
     margin-right: 11.2px;
     margin-right: 0.7rem; }
+
+.facility__event-header-marker {
+  height: 40px;
+  height: 2.5rem;
+  padding-left: 52px;
+  padding-left: 3.25rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4; }
+  .facility__event-header-marker:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  @media screen and (min-width: 46.8em) {
+    .facility__event-header-marker {
+      margin-top: 0;
+      text-align: right; } }
+
+.facility__event-header-marker-status,
+.facility__event-header-marker-tag {
+  padding: 5.6px;
+  padding: 0.35rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  border: 1px solid #66c3b0;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+  color: #092f3e; }
+
+.facility__event-header-marker-status {
+  border-right: none; }
+
+.facility__event-header-marker-tag {
+  -webkit-border-radius: 0 2px 2px 0;
+  -ms-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  -o-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  -webkit-text-shadow: 0 1px 0 rgba(9, 47, 62, 0.3);
+  -ms-text-shadow: 0 1px 0 rgba(9, 47, 62, 0.3);
+  -moz-text-shadow: 0 1px 0 rgba(9, 47, 62, 0.3);
+  -o-text-shadow: 0 1px 0 rgba(9, 47, 62, 0.3);
+  text-shadow: 0 1px 0 rgba(9, 47, 62, 0.3);
+  background: #66c3b0;
+  border: 1px solid #66c3b0;
+  color: white;
+  text-transform: uppercase; }
+
+.facility__event-summary {
+  position: relative; }
 
 .facility__event-summary-list-item {
   font-size: 13.33333px;
@@ -5746,6 +5800,14 @@ dd {
     background-image: url(../assets/tag.svg); }
   .facility__event-summary-list-item:nth-child(3) .facility__event-summary-list-term:before {
     background-image: url(../assets/tonnage.svg); }
+  .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-term:before {
+    background-image: url(../assets/comment.svg); }
+  .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.4; }
+  .facility__event-summary-list-item:last-of-type {
+    border-bottom: none; }
 
 .facility__event-summary-list-term {
   position: relative;
@@ -5761,6 +5823,16 @@ dd {
     width: 20px;
     width: 1.25rem;
     background: center center no-repeat; }
+
+.facility__event-summary-list-definition {
+  padding-left: 30px;
+  padding-left: 1.875rem; }
+
+.facility__event-summary-thumbnail {
+  overflow: hidden;
+  line-height: 0; }
+  .facility__event-summary-thumbnail .facility__event-summary-thumbnail-img {
+    border: 1px solid #e3e5ea; }
 
 .facility__event-meta {
   padding: 11.2px;
@@ -5798,7 +5870,12 @@ dd {
   vertical-align: middle;
   font-style: normal;
   padding-left: 52px;
-  padding-left: 3.25rem; }
+  padding-left: 3.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden; }
   .facility__event-meta-stamp-cite span:nth-child(1) {
     display: block;
     color: #93989c; }
@@ -7416,10 +7493,11 @@ disabled look for disabled choices in the results dropdown
 
 .facility__activity-feed-event,
 .facility__event-header,
-.facility__event-header-tag,
 .facility__event-summary,
 .facility__event-summary-list,
 .facility__event-summary-list-item,
+.facility__event-summary-list-term,
+.facility__event-summary-list-definition,
 .facility__event-summary-comment,
 .facility__event-meta,
 .facility__event-meta-stamp,
@@ -7431,10 +7509,11 @@ disabled look for disabled choices in the results dropdown
   margin-right: 0; }
   .facility__activity-feed-event:last-child,
   .facility__event-header:last-child,
-  .facility__event-header-tag:last-child,
   .facility__event-summary:last-child,
   .facility__event-summary-list:last-child,
   .facility__event-summary-list-item:last-child,
+  .facility__event-summary-list-term:last-child,
+  .facility__event-summary-list-definition:last-child,
   .facility__event-summary-comment:last-child,
   .facility__event-meta:last-child,
   .facility__event-meta-stamp:last-child,
@@ -7443,10 +7522,11 @@ disabled look for disabled choices in the results dropdown
   @media screen and (min-width: 46.8em) {
     .facility__activity-feed-event,
     .facility__event-header,
-    .facility__event-header-tag,
     .facility__event-summary,
     .facility__event-summary-list,
     .facility__event-summary-list-item,
+    .facility__event-summary-list-term,
+    .facility__event-summary-list-definition,
     .facility__event-summary-comment,
     .facility__event-meta,
     .facility__event-meta-stamp,
@@ -7458,48 +7538,87 @@ disabled look for disabled choices in the results dropdown
       margin-right: 0; }
       .facility__activity-feed-event:last-child,
       .facility__event-header:last-child,
-      .facility__event-header-tag:last-child,
       .facility__event-summary:last-child,
       .facility__event-summary-list:last-child,
       .facility__event-summary-list-item:last-child,
+      .facility__event-summary-list-term:last-child,
+      .facility__event-summary-list-definition:last-child,
       .facility__event-summary-comment:last-child,
       .facility__event-meta:last-child,
       .facility__event-meta-stamp:last-child,
       .facility__event-meta-stamp-cite:last-child {
         margin-right: 0; } }
 
-.facility__event-summary-list-term {
+.facility__event-header-title,
+.facility__event-header-marker,
+.facility__event-summary-list,
+.facility__event-summary-thumbnail {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .facility__event-summary-list-term:last-child {
+  .facility__event-header-title:last-child,
+  .facility__event-header-marker:last-child,
+  .facility__event-summary-list:last-child,
+  .facility__event-summary-thumbnail:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .facility__event-summary-list-term {
+    .facility__event-header-title,
+    .facility__event-header-marker,
+    .facility__event-summary-list,
+    .facility__event-summary-thumbnail {
       float: left;
       display: block;
       margin-right: 3.57866%;
-      width: 35.26334%; }
-      .facility__event-summary-list-term:last-child {
+      width: 48.21067%; }
+      .facility__event-header-title:last-child,
+      .facility__event-header-marker:last-child,
+      .facility__event-summary-list:last-child,
+      .facility__event-summary-thumbnail:last-child {
         margin-right: 0; } }
 
+.facility__event-summary-list-item,
+.facility__event-summary-list-term,
 .facility__event-summary-list-definition {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
+  .facility__event-summary-list-item:last-child,
+  .facility__event-summary-list-term:last-child,
   .facility__event-summary-list-definition:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
+    .facility__event-summary-list-item,
+    .facility__event-summary-list-term,
     .facility__event-summary-list-definition {
       float: left;
       display: block;
-      margin-right: 3.57866%;
-      width: 61.158%; }
+      margin-right: 7.42297%;
+      width: 100%; }
+      .facility__event-summary-list-item:last-child,
+      .facility__event-summary-list-term:last-child,
       .facility__event-summary-list-definition:last-child {
+        margin-right: 0; } }
+
+.facility__event-summary-comment {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__event-summary-comment:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__event-summary-comment {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%;
+      margin-right: 0; }
+      .facility__event-summary-comment:last-child {
         margin-right: 0; } }
 
 .sidebar {
