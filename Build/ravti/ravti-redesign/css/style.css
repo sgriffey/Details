@@ -5685,7 +5685,28 @@ dd {
 .facility__activity-prevent-memo {
   text-align: center; }
 
+.facility__activity-feed-event-anchor {
+  display: block; }
+  .facility__activity-feed-event-anchor:hover {
+    cursor: pointer; }
+
+.facility__activity-feed-event {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+  @media screen and (min-width: 46.8em) {
+    .facility__activity-feed-event {
+      margin-top: 44.8px;
+      margin-top: 2.8rem; } }
+  .facility__activity-feed-event:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+    -ms-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+    -moz-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+    -o-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+    box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1); }
+
 .facility__event-header {
+  margin-top: 0;
   background: white;
   border: 1px solid #e3e5ea; }
   @media screen and (min-width: 46.8em) {
