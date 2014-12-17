@@ -5763,6 +5763,12 @@ dd {
   color: #092f3e; }
 
 .facility__event-header-marker-status {
+  -webkit-border-radius: 2px 0 0 2px;
+  -ms-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  -o-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  border-color: #c7cacd;
   border-right: none; }
 
 .facility__event-header-marker-tag {
@@ -5831,6 +5837,10 @@ dd {
 .facility__event-summary-thumbnail {
   overflow: hidden;
   line-height: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__event-summary-thumbnail {
+      max-height: 240px;
+      max-height: 15rem; } }
   .facility__event-summary-thumbnail .facility__event-summary-thumbnail-img {
     border: 1px solid #e3e5ea; }
 
