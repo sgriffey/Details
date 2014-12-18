@@ -703,7 +703,7 @@ hr {
 .project__details-subnav-qa, .account__subnav-details,
 .account__subnav-settings,
 .account__subnav-permissions, .billing__subnav-outstanding,
-.billing__subnav-paid, .proposal__abstract-address, .invoice__meta-summary-address, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__form-fieldset, .proposal__terms-scan-list, .proposal__terms-view-scopes,
+.billing__subnav-paid, .proposal__abstract-address, .invoice__meta-summary-address, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__discover-index-list, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .equipment__grid-sidebar-list, .equipment__grid-blank-stats-list, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__abstract-contacts, .facility__duties-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
@@ -711,14 +711,14 @@ hr {
   padding: 0;
   list-style-type: none; }
 
-.overlay__scope, .overlay__equipment-specs, .overlay__confirm {
+.dashboard__discover, .overlay__scope, .overlay__equipment-specs, .overlay__confirm {
   padding: 0 11.2px; }
 
 .equipment__grid-masthead-status, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.overlay__confirm-input-file-button, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
+.overlay__confirm-input-file-button, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
@@ -731,10 +731,10 @@ hr {
 .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
-.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .proposal__terms-view-doc, .invoice__meta-doc-view, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
-.account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
-.account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
-.account__details-company-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .proposal__terms-view-doc, .invoice__meta-doc-view, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+.account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+.account__details-company-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
 .account__details-company-input:-ms-input-placeholder, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
   font-weight: 400; }
 
@@ -748,8 +748,8 @@ hr {
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
 
-.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .dashboard__request-title, .billing__late-title,
-.billing__due-title, .siteNav, .dashboard__bucket-card-header, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
+.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .billing__late-title,
+.billing__due-title, .siteNav, .dashboard__discover-title, .dashboard__discover-index-category, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -759,7 +759,7 @@ hr {
   line-height: 1.6;
   color: #54545a; }
 
-.dashboard__request, .projects__queue,
+.projects__queue,
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__timeline, .project__qa, .billing__late,
@@ -772,7 +772,7 @@ hr {
   border: 1px solid #e3e5ea;
   overflow: hidden; }
 
-.dashboard__bucket-card, .proposal__procure-goods-part, .project__equipment-piece, .equipment__grid-facility-card {
+.proposal__procure-goods-part, .project__equipment-piece, .equipment__grid-facility-card {
   padding: 0;
   background: white;
   border: 1px solid #e3e5ea;
@@ -966,7 +966,7 @@ hr {
 .overlay, .overlay-equipment, .overlay__confirm-wrapper {
   background: rgba(255, 255, 255, 0.97); }
 
-.dashboard__request-title, .billing__late-title,
+.billing__late-title,
 .billing__due-title {
   font-size: 23.04px;
   font-size: 1.44rem;
@@ -1129,15 +1129,15 @@ hr {
   color: #93989c;
   font-size: 13.33333px; }
 
-.form__buttons-encourage-block-large, .form__buttons-encourage-large, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
+.form__buttons-encourage-block-large, .form__buttons-encourage-large, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .dashboard__discover-search, .form__input-field-text, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .account__details-personal-input,
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .proposal__form-field, .overlay__confirm-form-field, .account__details-personal-input,
 .account__details-company-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   padding: 0.4em 1em 0.3em 1em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel, .form__buttons-group-item {
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -1181,11 +1181,11 @@ hr {
 .form__buttons-encourage-block-large {
   width: 100%; }
 
-.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-encourage, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save {
+.form__buttons-encourage, .form__input-button-bleed, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .account__details-personal-confirm-save {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
-  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-encourage:hover, .proposal__procure-services-qa-post-btn:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .account__details-personal-confirm-save:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-encourage:focus, .proposal__procure-services-qa-post-btn:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .account__details-personal-confirm-save:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-encourage:active, .proposal__procure-services-qa-post-btn:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .account__details-personal-confirm-save:active {
+  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .proposal__procure-services-qa-post-btn:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .account__details-personal-confirm-save:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .proposal__procure-services-qa-post-btn:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .account__details-personal-confirm-save:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .proposal__procure-services-qa-post-btn:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .account__details-personal-confirm-save:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-discourage {
@@ -1195,11 +1195,11 @@ hr {
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.form__select-drop, .dashboard__form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel {
+.form__select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .overlay__confirm-form-button-neutral, .account__details-personal-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: white; }
-  .form__select-drop:hover, .dashboard__form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .overlay__confirm-form-button-neutral:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .overlay__confirm-form-button-neutral:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .overlay__confirm-form-button-neutral:active, .account__details-personal-confirm-cancel:active {
+  .form__select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .overlay__confirm-form-button-neutral:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .overlay__confirm-form-button-neutral:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .overlay__confirm-form-button-neutral:active, .account__details-personal-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-encourage-large, .proposal__form-button-encourage {
@@ -1322,7 +1322,7 @@ hr {
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
-.form__select-drop, .dashboard__form-select-drop {
+.form__select-drop {
   text-transform: none;
   padding-left: 11.2px;
   padding-left: 0.7rem;
@@ -1338,7 +1338,7 @@ hr {
   background-repeat: no-repeat;
   background-position: 95% 54%;
   position: relative; }
-  .form__select-drop::before, .dashboard__form-select-drop::before {
+  .form__select-drop::before {
     content: '';
     background: url(../assets/caret-down.svg) center center;
     background-repeat: no-repeat;
@@ -1350,32 +1350,32 @@ hr {
     height: 1rem;
     width: 16px;
     width: 1rem; }
-  .form__select-drop:hover, .dashboard__form-select-drop:hover {
+  .form__select-drop:hover {
     cursor: pointer; }
-  [disabled="true"].form__select-drop, [disabled="true"].dashboard__form-select-drop {
+  [disabled="true"].form__select-drop {
     cursor: default;
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].form__select-drop:checked, [disabled="true"].dashboard__form-select-drop:checked {
+    [disabled="true"].form__select-drop:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].form__select-drop:hover, [disabled="true"].dashboard__form-select-drop:hover, [disabled="true"].form__select-drop:focus, [disabled="true"].dashboard__form-select-drop:focus {
+    [disabled="true"].form__select-drop:hover, [disabled="true"].form__select-drop:focus {
       border-color: #c7cacd; }
 
-.form__selects-label, .dashboard__form-check-label, .proposal__form-check-label {
+.form__selects-label, .proposal__form-check-label {
   padding: 5.6px;
   padding: 0.35rem;
   margin-bottom: 0;
   font-size: 16px;
   font-size: 1rem; }
-  .form__selects-label:first-of-type, .dashboard__form-check-label:first-of-type, .proposal__form-check-label:first-of-type {
+  .form__selects-label:first-of-type, .proposal__form-check-label:first-of-type {
     margin-top: 5.6px;
     margin-top: 0.35rem; }
-  .form__selects-label:last-of-type, .dashboard__form-check-label:last-of-type, .proposal__form-check-label:last-of-type {
+  .form__selects-label:last-of-type, .proposal__form-check-label:last-of-type {
     margin-bottom: 22.4px;
     margin-bottom: 1.4rem; }
 
-.form__select-radio, .dashboard__form-check-radio, .proposal__form-check-radio {
+.form__select-radio, .proposal__form-check-radio {
   -webkit-appearance: none;
   position: relative;
   background: white;
@@ -1396,15 +1396,15 @@ hr {
   margin-top: 0;
   margin-left: 0;
   outline: none; }
-  [disabled="true"].form__select-radio, [disabled="true"].dashboard__form-check-radio, [disabled="true"].proposal__form-check-radio {
+  [disabled="true"].form__select-radio, [disabled="true"].proposal__form-check-radio {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4);
     cursor: not-allowed; }
-    [disabled="true"].form__select-radio:checked, [disabled="true"].dashboard__form-check-radio:checked, [disabled="true"].proposal__form-check-radio:checked {
+    [disabled="true"].form__select-radio:checked, [disabled="true"].proposal__form-check-radio:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4);
       cursor: not-allowed; }
-      [disabled="true"].form__select-radio:checked:before, [disabled="true"].dashboard__form-check-radio:checked:before, [disabled="true"].proposal__form-check-radio:checked:before {
+      [disabled="true"].form__select-radio:checked:before, [disabled="true"].proposal__form-check-radio:checked:before {
         content: '';
         background: url(../assets/bullet.svg) center center no-repeat;
         position: absolute;
@@ -1420,13 +1420,13 @@ hr {
         -moz-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
-    [disabled="true"].form__select-radio:hover, [disabled="true"].dashboard__form-check-radio:hover, [disabled="true"].proposal__form-check-radio:hover, [disabled="true"].form__select-radio:focus, [disabled="true"].dashboard__form-check-radio:focus, [disabled="true"].proposal__form-check-radio:focus {
+    [disabled="true"].form__select-radio:hover, [disabled="true"].proposal__form-check-radio:hover, [disabled="true"].form__select-radio:focus, [disabled="true"].proposal__form-check-radio:focus {
       cursor: not-allowed;
       border-color: #c7cacd; }
-  .form__select-radio:checked, .dashboard__form-check-radio:checked, .proposal__form-check-radio:checked {
+  .form__select-radio:checked, .proposal__form-check-radio:checked {
     border-color: #66c3b0;
     background-color: rgba(102, 195, 176, 0.4); }
-    .form__select-radio:checked:before, .dashboard__form-check-radio:checked:before, .proposal__form-check-radio:checked:before {
+    .form__select-radio:checked:before, .proposal__form-check-radio:checked:before {
       content: '';
       background: url(../assets/bullet.svg) center center no-repeat;
       position: absolute;
@@ -1442,11 +1442,11 @@ hr {
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
-  .form__select-radio:hover, .dashboard__form-check-radio:hover, .proposal__form-check-radio:hover {
+  .form__select-radio:hover, .proposal__form-check-radio:hover {
     cursor: pointer; }
-  .form__select-radio:hover, .dashboard__form-check-radio:hover, .proposal__form-check-radio:hover, .form__select-radio:focus, .dashboard__form-check-radio:focus, .proposal__form-check-radio:focus {
+  .form__select-radio:hover, .proposal__form-check-radio:hover, .form__select-radio:focus, .proposal__form-check-radio:focus {
     border-color: rgba(0, 0, 0, 0.4); }
-  .form__select-radio:active, .dashboard__form-check-radio:active, .proposal__form-check-radio:active {
+  .form__select-radio:active, .proposal__form-check-radio:active {
     border-color: #66c3b0; }
 
 .form__select-check {
@@ -1490,7 +1490,7 @@ hr {
   .form__select-check:active {
     border-color: #66c3b0; }
 
-.form__input-field-large {
+.form__input-field-large, .dashboard__discover-search {
   -webkit-appearance: none;
   font-size: 19.2px;
   font-size: 1.2rem;
@@ -1505,18 +1505,18 @@ hr {
   border: 2px solid #e3e5ea;
   font-family: "jaf-bernino-sans", sans-serif;
   outline: none; }
-  .form__input-field-large:active, .form__input-field-large:focus {
+  .form__input-field-large:active, .dashboard__discover-search:active, .form__input-field-large:focus, .dashboard__discover-search:focus {
     border-color: #66c3b0; }
-  [disabled="true"].form__input-field-large {
+  [disabled="true"].form__input-field-large, [disabled="true"].dashboard__discover-search {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].form__input-field-large:checked {
+    [disabled="true"].form__input-field-large:checked, [disabled="true"].dashboard__discover-search:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].form__input-field-large:hover, [disabled="true"].form__input-field-large:focus {
+    [disabled="true"].form__input-field-large:hover, [disabled="true"].dashboard__discover-search:hover, [disabled="true"].form__input-field-large:focus, [disabled="true"].dashboard__discover-search:focus {
       border-color: #c7cacd; }
 
-.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .account__details-personal-input,
+.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .proposal__form-field, .overlay__confirm-form-field, .account__details-personal-input,
 .account__details-company-input {
   -webkit-appearance: none;
   font-size: 16px;
@@ -1530,38 +1530,38 @@ hr {
   padding-left: 11.2px;
   font-family: "jaf-bernino-sans", sans-serif;
   outline: none; }
-  .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .dashboard__form-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .account__details-personal-input:active,
-  .account__details-company-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__form-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .account__details-personal-input:focus,
+  .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .account__details-personal-input:active,
+  .account__details-company-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .account__details-personal-input:focus,
   .account__details-company-input:focus {
     border-color: #66c3b0; }
-  [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].dashboard__form-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].account__details-personal-input,
+  [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].account__details-personal-input,
   [disabled="true"].account__details-company-input {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].dashboard__form-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].account__details-personal-input:checked,
+    [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].account__details-personal-input:checked,
     [disabled="true"].account__details-company-input:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].dashboard__form-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].account__details-personal-input:hover,
-    [disabled="true"].account__details-company-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__form-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].account__details-personal-input:focus,
+    [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].account__details-personal-input:hover,
+    [disabled="true"].account__details-company-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].account__details-personal-input:focus,
     [disabled="true"].account__details-company-input:focus {
       border-color: #c7cacd; }
-  .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+  .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
   .account__details-company-input::-webkit-input-placeholder {
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+  .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
   .account__details-company-input:-moz-placeholder {
     /* Firefox 18- */
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+  .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
   .account__details-company-input::-moz-placeholder {
     /* Firefox 19+ */
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+  .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
   .account__details-company-input:-ms-input-placeholder {
     color: #c7cacd; }
 
-.form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
+.form__input-field-label, .form__input-file-button, .form__example-legend, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden {
   display: block;
   font-size: 13.33333px;
@@ -3581,7 +3581,12 @@ dd {
   -ms-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
   -moz-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
   -o-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
-  box-shadow: inset 0px -1px 0px 0px #e3e5ea; }
+  box-shadow: inset 0px -1px 0px 0px #e3e5ea;
+  -webkit-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
+  -ms-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
+  -moz-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
+  -o-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
+  box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2); }
 
 .siteNav__logo {
   display: inline-block;
@@ -3791,120 +3796,85 @@ dd {
   padding: 0.8em;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
 
-.dashboard__bucket-card {
-  position: relative;
-  height: 200px;
-  height: 12.5rem;
-  margin-bottom: 22.4px;
-  margin-bottom: 1.4rem;
-  transition: 0.6s cubic-bezier(0.3, 0, 0, 1.3); }
-  .dashboard__bucket-card:hover {
-    cursor: pointer; }
-    .dashboard__bucket-card:hover:before {
-      -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05); }
-  .dashboard__bucket-card:before {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 44.8px;
-    margin-top: 2.8rem;
-    height: 90px;
-    height: 5.625rem;
-    width: 90px;
-    width: 5.625rem;
-    background: center center no-repeat; }
+.page__poster {
+  height: calc(100% - 60px);
+  max-height: calc(100% - 60px); }
 
-.dashboard__bucket:nth-child(1) .dashboard__bucket-card {
-  background-image: linear-gradient(to bottom, #ff7aab, #ff7aab 10%, white 10%, white); }
-  .dashboard__bucket:nth-child(1) .dashboard__bucket-card:before {
-    background-image: url(../../../assets/time.svg); }
-.dashboard__bucket:nth-child(2) .dashboard__bucket-card {
-  background-image: linear-gradient(to bottom, #a0b1ff, #a0b1ff 10%, white 10%, white); }
-  .dashboard__bucket:nth-child(2) .dashboard__bucket-card:before {
-    background-image: url(../../../assets/coop.svg); }
-.dashboard__bucket:nth-child(3) .dashboard__bucket-card {
-  background-image: linear-gradient(to bottom, #71cc68, #71cc68 10%, white 10%, white); }
-  .dashboard__bucket:nth-child(3) .dashboard__bucket-card:before {
-    background-image: url(../assets/preventative.svg); }
-.dashboard__bucket:nth-child(4) .dashboard__bucket-card {
-  background-image: linear-gradient(to bottom, #f6d262, #f6d262 10%, white 10%, white); }
-  .dashboard__bucket:nth-child(4) .dashboard__bucket-card:before {
-    background-image: url(../assets/equipment.svg); }
-.dashboard__bucket:nth-child(5) .dashboard__bucket-card {
-  background-image: linear-gradient(to bottom, #5883ed, #5883ed 10%, white 10%, white); }
-  .dashboard__bucket:nth-child(5) .dashboard__bucket-card:before {
-    background-image: url(../../../assets/time.svg); }
-.dashboard__bucket:nth-child(6) .dashboard__bucket-card {
-  background-image: linear-gradient(to bottom, #f35b5b, #f35b5b 10%, white 10%, white); }
-  .dashboard__bucket:nth-child(6) .dashboard__bucket-card:before {
-    background-image: url(../../../assets/coop.svg); }
+@media screen and (min-width: 46.8em) {
+  .dashboard__discover {
+    padding-left: 44.8px;
+    padding-left: 2.8rem;
+    padding-right: 44.8px;
+    padding-right: 2.8rem;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: scroll; } }
 
-.dashboard__bucket-card-header {
-  position: absolute;
-  bottom: 11.2px;
-  bottom: 0.7rem;
-  left: 11.2px;
-  left: 0.7rem;
-  font-size: 19.2px;
-  font-size: 1.2rem; }
+.dashboard__discover-title {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  font-size: 39.81312px;
+  font-size: 2.48832rem;
+  line-height: 1.12526;
+  text-align: center; }
+  @media screen and (min-width: 46.8em) {
+    .dashboard__discover-title {
+      margin-top: 67.2px;
+      margin-top: 4.2rem; } }
 
-.dashboard__request {
-  margin-top: 0; }
-
-.dashboard__form,
-.dashboard__form-fieldset,
-.dashboard__form-legend,
-.dashboard__form-label,
-.dashboard__form-finalize,
-.dashboard__form-select-drop {
-  width: 100%; }
-
-.dashboard__form-fieldset {
-  border: none; }
-
-.dashboard__form-legend {
+.dashboard__discover-search {
   margin-bottom: 0; }
 
-.dashboard__form-fieldset-split:nth-child(2) {
-  opacity: 0; }
-@media screen and (min-width: 46.8em) {
-  .dashboard__form-fieldset-split .dashboard__form-select-drop {
-    background-position: 89% 54%; } }
-
-.dashboard__form-button-encourage {
+.dashboard__discover-index {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
+  @media screen and (min-width: 46.8em) {
+    .dashboard__discover-index {
+      margin-top: 44.8px;
+      margin-top: 2.8rem; } }
 
-.dashboard__form-check-label {
-  -webkit-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  display: block;
-  position: relative; }
-  .dashboard__form-check-label:last-of-type {
-    margin-bottom: 0; }
-  .dashboard__form-check-label:hover, .dashboard__form-check-label:focus {
-    background: rgba(102, 195, 176, 0.2);
-    cursor: pointer; }
+.dashboard__discover-index-category {
+  font-size: 23.04px;
+  font-size: 1.44rem;
+  line-height: 1.94444;
+  margin-top: 11.2px;
+  margin-top: 0.7rem;
+  margin-bottom: 5.6px; }
+  .dashboard__discover-index-category:first-child {
+    margin-top: 0; }
 
-.dashboard__form-check-radio {
-  position: absolute;
-  top: 5.6px;
-  top: 0.35rem;
-  left: 5.6px;
-  left: 0.35rem; }
+.dashboard__discover-index-item {
+  margin-top: 11.2px;
+  margin-top: 0.7rem;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+  .dashboard__discover-index-item a {
+    color: #93989c;
+    border-bottom: 1px solid #e3e5ea;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+  @media screen and (min-width: 46.8em) {
+    .dashboard__discover-index-item {
+      margin-top: 22.4px;
+      margin-top: 1.4rem; }
+      .dashboard__discover-index-item:nth-child(-n+3) {
+        margin-top: 0; } }
 
-.dashboard__form-check-text {
-  padding-left: 34px;
-  padding-left: 2.125rem;
-  line-height: 1.6; }
+.dashboard__map {
+  height: 100%; }
+  @media screen and (min-width: 46.8em) {
+    .dashboard__map {
+      border-left: 1px solid #e3e5ea; } }
+
+.dashboard__map-iframe {
+  height: 100%;
+  max-height: 100%; }
 
 .proposal__abstract-head {
   margin-top: 0; }
@@ -6510,55 +6480,95 @@ disabled look for disabled choices in the results dropdown
       .proposal__subnav-buckets:last-child {
         margin-right: 0; } }
 
-.dashboard__buckets,
-.dashboard__request {
+.dashboard__discover {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .dashboard__buckets:last-child,
-  .dashboard__request:last-child {
+  .dashboard__discover:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .dashboard__buckets,
-    .dashboard__request {
+    .dashboard__discover {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .dashboard__buckets:last-child,
-      .dashboard__request:last-child {
-        margin-right: 0; }
-      .dashboard__buckets:nth-child(2n),
-      .dashboard__request:nth-child(2n) {
-        margin-right: 0; }
-      .dashboard__buckets:nth-child(2n+1),
-      .dashboard__request:nth-child(2n+1) {
-        clear: left; } }
+      width: 59.70863%; }
+      .dashboard__discover:last-child {
+        width: 57.35098%; } }
 
-.dashboard__bucket {
+.dashboard__map {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
-  .dashboard__bucket:last-child {
+  width: 100%;
+  margin-right: 0; }
+  .dashboard__map:last-child {
     margin-right: 0; }
-  .dashboard__bucket:nth-child(2n) {
-    margin-right: 0; }
-  .dashboard__bucket:nth-child(2n+1) {
-    clear: left; }
   @media screen and (min-width: 46.8em) {
-    .dashboard__bucket {
+    .dashboard__map {
       float: left;
       display: block;
-      margin-right: 4.82916%;
-      width: 47.58542%; }
-      .dashboard__bucket:last-child {
+      width: 42.64902%; }
+      .dashboard__map:last-child {
+        width: 40.29137%; } }
+
+.dashboard__discover-title,
+.dashboard__discover-search,
+.dashboard__discover-index,
+.dashboard__discover-index-category,
+.dashboard__discover-index-list,
+.dashboard__map-iframe {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .dashboard__discover-title:last-child,
+  .dashboard__discover-search:last-child,
+  .dashboard__discover-index:last-child,
+  .dashboard__discover-index-category:last-child,
+  .dashboard__discover-index-list:last-child,
+  .dashboard__map-iframe:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .dashboard__discover-title,
+    .dashboard__discover-search,
+    .dashboard__discover-index,
+    .dashboard__discover-index-category,
+    .dashboard__discover-index-list,
+    .dashboard__map-iframe {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 100%;
+      margin-right: 0; }
+      .dashboard__discover-title:last-child,
+      .dashboard__discover-search:last-child,
+      .dashboard__discover-index:last-child,
+      .dashboard__discover-index-category:last-child,
+      .dashboard__discover-index-list:last-child,
+      .dashboard__map-iframe:last-child {
+        margin-right: 0; } }
+
+.dashboard__discover-index-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .dashboard__discover-index-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .dashboard__discover-index-item {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 30.39441%; }
+      .dashboard__discover-index-item:last-child {
         margin-right: 0; }
-      .dashboard__bucket:nth-child(2n) {
+      .dashboard__discover-index-item:nth-child(3n) {
         margin-right: 0; }
-      .dashboard__bucket:nth-child(2n+1) {
+      .dashboard__discover-index-item:nth-child(3n+1) {
         clear: left; } }
 
 .dashboard__bucket-card {
