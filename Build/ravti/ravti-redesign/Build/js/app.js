@@ -11,18 +11,20 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
-    //Account Settings Toggle
-     $("#mo, #account-settings").click(function() {
+
+    //Account Settings Toggle ReWRITE
+     $(".siteNav__account, .accountNav__settings").click(function() {
         $(".siteNav").toggleClass("is-inverted-dark");
         $(".siteNav__logo").toggleClass("is-inverted-border");
       $(".siteNav__account").toggleClass("is-masked");
-      $(".siteNav__buckets").toggleClass("is-masked");
+      $(".siteNav__control").toggleClass("is-masked");
+      $(".siteNav__page-title").toggleClass("is-masked");
       $(".accountNav__settings").toggleClass("is-masked");
       $(".accountNav__bucket").toggleClass("is-masked");
       $(".accountNav__bucket, .accountNav__settings").toggleClass("animated fadeIn");
-      $("#dash-toggle").toggleClass("is-masked");
-      $("#settings").toggleClass("is-masked");
-      $("#settings").toggleClass("animated bounceInUp");
+      $(".dashboard").toggleClass("is-masked");
+      $(".account").toggleClass("is-masked");
+      $(".account").toggleClass("animated bounceInUp");
     });
     //For Timeline Page
     $(".project__details-subnav-terms").click(function(){
@@ -143,5 +145,21 @@ $(document).ready(function() {
         $('.account__details-personal-head-toolbar-edit').toggleClass("is-masked");
         $('.account__details-personal-head-toolbar-lock').toggleClass("is-masked");
         $('.account__details-personal-confirm').toggleClass("is-masked");
+    });
+    // Viewing siteNav Popovers
+    $(".siteNav__alert-events").click(function(){
+        $("article.siteNav__alerts-popover section").addClass("is-masked");
+        $(".siteNav__events-popover").toggleClass("is-masked");
+    });
+    $(".siteNav__alert-proposals").click(function(){
+        $("article.siteNav__alerts-popover section").addClass("is-masked");
+        $(".siteNav__proposals-popover").toggleClass("is-masked");
+    });
+    $(".siteNav__alert-invoices").click(function(){
+        $("article.siteNav__alerts-popover section").addClass("is-masked");
+        $(".siteNav__invoices-popover").toggleClass("is-masked");
+    });
+    $(".dashboard").click(function(){
+        $("article.siteNav__alerts-popover section").addClass("is-masked");
     });
 });

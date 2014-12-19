@@ -486,13 +486,13 @@ ul, ol, dl {
   ul:last-child, ol:last-child, dl:last-child {
     margin-right: 0; }
 
-.page__poster {
+.page__poster, .dashboard {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 100%; }
-  .page__poster:after {
+  .page__poster:after, .dashboard:after {
     content: "";
     display: table;
     clear: both; }
@@ -703,7 +703,19 @@ hr {
 .project__details-subnav-qa, .account__subnav-details,
 .account__subnav-settings,
 .account__subnav-permissions, .billing__subnav-outstanding,
-.billing__subnav-paid, .proposal__abstract-address, .invoice__meta-summary-address, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__discover-index-list, .proposal__terms-scan-list, .proposal__terms-view-scopes,
+.billing__subnav-paid, .proposal__abstract-address, .invoice__meta-summary-address, .form__buttons-group, .form__example-fieldset, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
+.siteNav__proposals-popover-footer-label,
+.siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
+.siteNav__proposals-popover-list,
+.siteNav__invoices-popover-list, .siteNav__events-popover-item-facility,
+.siteNav__events-popover-item-type,
+.siteNav__events-popover-item-time,
+.siteNav__proposals-popover-item-facility,
+.siteNav__proposals-popover-item-count,
+.siteNav__proposals-popover-item-time,
+.siteNav__invoices-popover-item-facility,
+.siteNav__invoices-popover-item-reference,
+.siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__discover-index-list, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .equipment__grid-sidebar-list, .equipment__grid-blank-stats-list, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__abstract-contacts, .facility__duties-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
@@ -714,12 +726,16 @@ hr {
 .dashboard__discover, .overlay__scope, .overlay__equipment-specs, .overlay__confirm {
   padding: 0 11.2px; }
 
-.equipment__grid-masthead-status, .account__details-personal-head-toolbar-save,
+.siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
+.siteNav__proposals-popover-list,
+.siteNav__invoices-popover-list, .equipment__grid-masthead-status, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   font-family: "jaf-bernino-sans", sans-serif; }
 
 .overlay__confirm-input-file-button, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .equipment__grid-facility-title, .account__details-personal-label,
-.account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
+.account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .siteNav__alert-events, .siteNav__events-popover-list .is-unviewed .siteNav__events-popover-item-time,
+.siteNav__proposals-popover-list .is-unviewed .siteNav__events-popover-item-time,
+.siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
 .invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__abstract-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2) {
@@ -735,7 +751,7 @@ hr {
 .account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
 .account__details-company-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
-.account__details-company-input:-ms-input-placeholder, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
+.account__details-company-input:-ms-input-placeholder, .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
   font-weight: 400; }
 
 .proposal__abstract-head h1, .proposal__form-head h1,
@@ -743,7 +759,11 @@ hr {
 .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
 .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__late-defcon1-tbody .billing__late-th,
 .billing__late-defcon2-tbody .billing__late-th,
-.billing__late-defcon3-tbody .billing__late-th, .billing__late-defcon-label, .overlay__confirm-bid-metadata, .equipment__grid-sidebar-list-section:first-of-type, .equipment__grid-masthead-status, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
+.billing__late-defcon3-tbody .billing__late-th, .billing__late-defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
+.siteNav__proposals-popover-item-facility,
+.siteNav__invoices-popover-item-facility, .siteNav__events-popover-item-time,
+.siteNav__proposals-popover-item-time,
+.siteNav__invoices-popover-item-time, .overlay__confirm-bid-metadata, .equipment__grid-sidebar-list-section:first-of-type, .equipment__grid-masthead-status, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
@@ -851,7 +871,9 @@ hr {
 .project__details-subnav-qa, .account__subnav-details,
 .account__subnav-settings,
 .account__subnav-permissions, .billing__subnav-outstanding,
-.billing__subnav-paid {
+.billing__subnav-paid, .siteNav__events-popover-footer-label,
+.siteNav__proposals-popover-footer-label,
+.siteNav__invoices-popover-footer-label {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2px; }
@@ -1032,6 +1054,11 @@ hr {
     color: #092f3e;
     border-bottom-color: #092f3e; }
 
+.siteNav__events-popover-list,
+.siteNav__proposals-popover-list,
+.siteNav__invoices-popover-list, .facility__duty {
+  border: 1px solid #e3e5ea; }
+
 .invoice__meta-support-copy, .facility__activity-prevent-memo {
   font-size: 13.33333px;
   font-size: 0.83333rem;
@@ -1040,6 +1067,34 @@ hr {
   margin-top: 0.35rem;
   margin-bottom: 0;
   color: #93989c; }
+
+.siteNav__alert-proposals .has-alerts, .siteNav__alert-events .has-alerts, .siteNav__alert-invoices .has-alerts {
+  transition: 0.2s cubic-bezier(0.3, 0, 0, 1.3); }
+
+.siteNav__events-popover-item-facility,
+.siteNav__events-popover-item-type,
+.siteNav__events-popover-item-time,
+.siteNav__proposals-popover-item-facility,
+.siteNav__proposals-popover-item-count,
+.siteNav__proposals-popover-item-time,
+.siteNav__invoices-popover-item-facility,
+.siteNav__invoices-popover-item-reference,
+.siteNav__invoices-popover-item-time {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-footer-label,
+.siteNav__proposals-popover-footer-label,
+.siteNav__invoices-popover-footer-label {
+  padding: 22.4px;
+  padding: 1.4rem;
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem; }
 
 .hero {
   background: #66c3b0;
@@ -1894,13 +1949,13 @@ hr {
 
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, 1000px, 0);
-    transform: translate3d(0, 1000px, 0); }
+    -webkit-transform: translate3d(0, -1000px, 0);
+    transform: translate3d(0, -1000px, 0); }
 
   60% {
     opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0); }
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
 
   100% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1913,13 +1968,13 @@ hr {
 
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, 1000px, 0);
-    transform: translate3d(0, 1000px, 0); }
+    -webkit-transform: translate3d(0, -1000px, 0);
+    transform: translate3d(0, -1000px, 0); }
 
   60% {
     opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0); }
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
 
   100% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -3574,6 +3629,7 @@ dd {
 
 .siteNav {
   position: relative;
+  z-index: 10;
   height: 60px;
   height: 3.75rem;
   background: white;
@@ -3587,6 +3643,11 @@ dd {
   -moz-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
   -o-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
   box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2); }
+  .siteNav:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
 
 .siteNav__logo {
   display: inline-block;
@@ -3597,6 +3658,30 @@ dd {
   width: 3.75rem;
   margin: 0;
   background: url(../assets/ravti-app-logo.svg) center center no-repeat; }
+
+.siteNav__page {
+  position: absolute;
+  height: 60px;
+  height: 3.75rem;
+  padding: 11.2px;
+  padding: 0.7rem;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 1px solid #e3e5ea; }
+  .siteNav__page:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.siteNav__page-title {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  padding: 11.2px;
+  padding: 0.7rem; }
 
 .siteNav__buckets {
   position: absolute;
@@ -3654,7 +3739,7 @@ dd {
   padding: 11.2px;
   padding: 0.7rem; }
 
-.siteNav__account {
+.siteNav__control {
   position: absolute;
   right: 0;
   display: inline-block;
@@ -3662,6 +3747,262 @@ dd {
   height: 3.75rem;
   padding-right: 44.8px;
   padding-right: 2.8rem; }
+  .siteNav__control:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.siteNav__alerts {
+  padding-right: 44.8px;
+  padding-right: 2.8rem;
+  height: 60px;
+  height: 3.75rem;
+  display: inline-block;
+  border-right: 1px solid #e3e5ea;
+  position: relative; }
+  .siteNav__alerts:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.siteNav__alert-proposals, .siteNav__alert-events, .siteNav__alert-invoices {
+  position: relative;
+  display: inline-block;
+  margin-right: 22.4px;
+  margin-right: 1.4rem;
+  vertical-align: middle;
+  height: 22px;
+  height: 1.375rem;
+  width: 22px;
+  width: 1.375rem;
+  background: center center no-repeat; }
+  .siteNav__alert-proposals .has-alerts, .siteNav__alert-events .has-alerts, .siteNav__alert-invoices .has-alerts {
+    position: absolute;
+    top: -5.6px;
+    top: -0.35rem;
+    right: -5.6px;
+    right: -0.35rem;
+    height: 18px;
+    height: 1.125rem;
+    width: 18px;
+    width: 1.125rem;
+    font-size: 11.11111px;
+    font-size: 0.69444rem;
+    letter-spacing: -0.6px;
+    line-height: 1.6;
+    background: #f35b5b;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-text-shadow: 0px 0px 3px rgba(9, 47, 62, 0.3);
+    -ms-text-shadow: 0px 0px 3px rgba(9, 47, 62, 0.3);
+    -moz-text-shadow: 0px 0px 3px rgba(9, 47, 62, 0.3);
+    -o-text-shadow: 0px 0px 3px rgba(9, 47, 62, 0.3);
+    text-shadow: 0px 0px 3px rgba(9, 47, 62, 0.3); }
+  .siteNav__alert-proposals:hover, .siteNav__alert-events:hover, .siteNav__alert-invoices:hover {
+    cursor: pointer; }
+
+.siteNav__alert-proposals {
+  background: url(../assets/nav-proposals-icon.svg); }
+
+.siteNav__alert-events {
+  background: url(../assets/nav-events-icon.svg); }
+
+.siteNav__alert-invoices {
+  background: url(../assets/nav-invoices-icon.svg); }
+
+.siteNav__alerts-popover {
+  position: absolute;
+  right: 0;
+  width: 416px;
+  width: 26rem;
+  -webkit-box-shadow: 0 0 14px 0 rgba(9, 47, 62, 0.2);
+  -ms-box-shadow: 0 0 14px 0 rgba(9, 47, 62, 0.2);
+  -moz-box-shadow: 0 0 14px 0 rgba(9, 47, 62, 0.2);
+  -o-box-shadow: 0 0 14px 0 rgba(9, 47, 62, 0.2);
+  box-shadow: 0 0 14px 0 rgba(9, 47, 62, 0.2); }
+
+.siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  position: relative;
+  background: white;
+  border: 1px solid #e3e5ea;
+  position: relative;
+  margin-top: 0; }
+  .siteNav__proposals-popover-head:before, .siteNav__events-popover-head:before, .siteNav__invoices-popover-head:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -8px;
+    top: -0.5rem;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+    margin-left: -4px; }
+  .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2 {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    margin-bottom: 0;
+    display: inline-block; }
+
+.siteNav__proposals-popover-head:before {
+  right: 165px;
+  right: 10.3125rem; }
+
+.siteNav__events-popover-head:before {
+  right: 116px;
+  right: 7.25rem; }
+
+.siteNav__invoices-popover-head:before {
+  right: 66px;
+  right: 4.125rem; }
+
+.siteNav__events-popover-footer-label,
+.siteNav__proposals-popover-footer-label,
+.siteNav__invoices-popover-footer-label {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  background: white;
+  text-align: center; }
+  .siteNav__events-popover-footer-label:hover,
+  .siteNav__proposals-popover-footer-label:hover,
+  .siteNav__invoices-popover-footer-label:hover {
+    background: #fafafb; }
+
+.siteNav__events-popover-list,
+.siteNav__proposals-popover-list,
+.siteNav__invoices-popover-list {
+  float: none;
+  max-height: 400px;
+  max-height: 25rem;
+  overflow-y: scroll;
+  border-top: none;
+  background: white; }
+  .siteNav__events-popover-list .is-unviewed,
+  .siteNav__proposals-popover-list .is-unviewed,
+  .siteNav__invoices-popover-list .is-unviewed {
+    background: #f1faf8; }
+
+.siteNav__events-popover-item,
+.siteNav__proposals-popover-item,
+.siteNav__invoices-popover-item {
+  position: relative;
+  background: white;
+  border-bottom: 1px solid #e3e5ea; }
+  .siteNav__events-popover-item:last-child,
+  .siteNav__proposals-popover-item:last-child,
+  .siteNav__invoices-popover-item:last-child {
+    border-bottom: none; }
+  .siteNav__events-popover-item:hover,
+  .siteNav__proposals-popover-item:hover,
+  .siteNav__invoices-popover-item:hover {
+    cursor: pointer;
+    background: #fafafb; }
+
+.is-ready-to-approve:before, .is-not-ready-to-approve:before, .popover-tracking-badge:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 11.2px;
+  top: 0.7rem;
+  left: 11.2px;
+  left: 0.7rem;
+  height: 48px;
+  height: 3rem;
+  width: 48px;
+  width: 3rem; }
+
+.is-ready-to-approve:before {
+  background: center center no-repeat;
+  background: url(../assets/proposal-ready.svg); }
+
+.is-not-ready-to-approve:before {
+  background: center center no-repeat;
+  background: url(../assets/proposal-not-ready.svg); }
+
+.popover-tracking-badge:before {
+  background: #afe0d6;
+  border: 1px solid #66c3b0; }
+
+.siteNav__events-popover-item-facility,
+.siteNav__events-popover-item-type,
+.siteNav__events-popover-item-time,
+.siteNav__proposals-popover-item-facility,
+.siteNav__proposals-popover-item-count,
+.siteNav__proposals-popover-item-time,
+.siteNav__invoices-popover-item-facility,
+.siteNav__invoices-popover-item-reference,
+.siteNav__invoices-popover-item-time {
+  padding-left: 70px;
+  padding-left: 4.375rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68; }
+
+.siteNav__events-popover-item-facility,
+.siteNav__proposals-popover-item-facility,
+.siteNav__invoices-popover-item-facility {
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
+  line-height: 1; }
+  .siteNav__events-popover-item-facility span:before,
+  .siteNav__proposals-popover-item-facility span:before,
+  .siteNav__invoices-popover-item-facility span:before {
+    content: ':';
+    display: inline-block;
+    margin-left: 2px;
+    margin-left: 0.125rem;
+    margin-right: 2px;
+    margin-right: 0.125rem; }
+
+.siteNav__events-popover-item-type,
+.siteNav__proposals-popover-item-count,
+.siteNav__invoices-popover-item-reference {
+  line-height: 1.6; }
+
+.siteNav__invoices-popover-item-reference:before {
+  content: '#';
+  display: inline-block;
+  margin-right: 2px;
+  margin-right: 0.125rem; }
+.siteNav__invoices-popover-item-reference span {
+  color: #66c3b0; }
+  .siteNav__invoices-popover-item-reference span:before {
+    content: '$';
+    display: inline-block;
+    margin-left: 11.2px;
+    margin-left: 0.7rem;
+    margin-right: 2px;
+    margin-right: 0.125rem; }
+
+.siteNav__events-popover-item-time,
+.siteNav__proposals-popover-item-time,
+.siteNav__invoices-popover-item-time {
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem;
+  font-size: 12px;
+  font-size: 0.75rem;
+  display: block;
+  line-height: 1.4;
+  color: #93989c; }
+
+.siteNav__account {
+  display: inline-block;
+  padding-left: 44.8px;
+  padding-left: 2.8rem; }
   .siteNav__account:before {
     content: '';
     display: inline-block;
@@ -3796,7 +4137,7 @@ dd {
   padding: 0.8em;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
 
-.page__poster {
+.dashboard {
   height: calc(100% - 60px);
   max-height: calc(100% - 60px); }
 
@@ -5641,7 +5982,6 @@ dd {
   padding: 11.2px;
   padding: 0.7rem;
   position: relative;
-  border: 1px solid #e3e5ea;
   text-transform: uppercase;
   text-align: center;
   background: white; }
@@ -6360,13 +6700,13 @@ disabled look for disabled choices in the results dropdown
   position: absolute;
   width: 1px; }
 
-.account__overlay-wrapper, .page__wrapper {
+.account__overlay-wrapper, .page__wrapper, .account {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
   max-width: 67.5rem; }
-  .account__overlay-wrapper:after, .page__wrapper:after {
+  .account__overlay-wrapper:after, .page__wrapper:after, .account:after {
     content: "";
     display: table;
     clear: both; }
@@ -7902,3 +8242,20 @@ disabled look for disabled choices in the results dropdown
 @media screen and (min-width: 46.8em) {
   .mobileNav {
     display: none; } }
+
+.account {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  margin-bottom: 67.2px;
+  margin-bottom: 4.2rem;
+  padding-left: 11.2px;
+  padding-left: 0.7rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem; }
+  @media screen and (min-width: 46.8em) {
+    .account {
+      margin-top: 67.2px;
+      margin-top: 4.2rem;
+      margin-bottom: 67.2px;
+      margin-bottom: 4.2rem;
+      padding: 0; } }
