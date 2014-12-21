@@ -769,7 +769,7 @@ hr {
   font-weight: 400; }
 
 .proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .billing__late-title,
-.billing__due-title, .siteNav, .dashboard__discover-title, .dashboard__discover-index-category, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
+.billing__due-title, .events__feed-title, .siteNav, .dashboard__discover-title, .dashboard__discover-index-category, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -783,7 +783,7 @@ hr {
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__timeline, .project__qa, .billing__late,
-.billing__due {
+.billing__due, .events__feed {
   padding: 22.4px;
   padding: 1.4rem;
   margin-top: 22.4px;
@@ -989,7 +989,7 @@ hr {
   background: rgba(255, 255, 255, 0.97); }
 
 .billing__late-title,
-.billing__due-title {
+.billing__due-title, .events__feed-title {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -1800,7 +1800,7 @@ hr {
 .table__striped,
 .table__hover, .projects__queue-table,
 .projects__live-table, .overlay__confirm-bid-table, .billing__late-table,
-.billing__due-table, .invoice__sheet-bill-table {
+.billing__due-table, .invoice__sheet-bill-table, .events__feed-table {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
@@ -1808,7 +1808,7 @@ hr {
 .table__striped-thead,
 .table__hover-thead, .projects__queue-thead,
 .projects__live-thead, .overlay__confirm-bid-thead, .billing__late-thead,
-.billing__due-thead, .invoice__sheet-bill-thead {
+.billing__due-thead, .invoice__sheet-bill-thead, .events__feed-tr:first-child {
   border-bottom: 2px solid #e3e5ea;
   text-align: left; }
 
@@ -1816,7 +1816,7 @@ hr {
 .table__striped-th,
 .table__hover-th, .projects__queue-th,
 .projects__live-th, .overlay__confirm-bid-th, .billing__late-th,
-.billing__due-th, .invoice__sheet-bill-th {
+.billing__due-th, .invoice__sheet-bill-th, .events__feed-th, .events__feed-day-label {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding-bottom: 5.6px;
@@ -1826,14 +1826,14 @@ hr {
 .table__basic-tr,
 .table__hover-tr, .table__striped-tr, .projects__queue-tr,
 .projects__live-tr, .overlay__confirm-bid-tr, .overlay__confirm-bid-sum-tr, .billing__late-tr,
-.billing__due-tr, .invoice__sheet-bill-tr, .invoice__sheet-bill-sum-tr {
+.billing__due-tr, .invoice__sheet-bill-tr, .invoice__sheet-bill-sum-tr, .events__feed-tr {
   border-bottom: 1px solid #e3e5ea; }
 
 .table__basic-td,
 .table__striped-td,
 .table__hover-td, .projects__queue-td,
 .projects__live-td, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .billing__late-td,
-.billing__due-td, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td {
+.billing__due-td, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .events__feed-td {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding: 11.2px;
@@ -1843,14 +1843,14 @@ hr {
   .table__striped-td a,
   .table__hover-td a, .projects__queue-td a,
   .projects__live-td a, .overlay__confirm-bid-td a, .overlay__confirm-bid-sum-td a, .billing__late-td a,
-  .billing__due-td a, .invoice__sheet-bill-td a, .invoice__sheet-bill-sum-td a {
+  .billing__due-td a, .invoice__sheet-bill-td a, .invoice__sheet-bill-sum-td a, .events__feed-td a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
     .table__basic-td a:hover,
     .table__striped-td a:hover,
     .table__hover-td a:hover, .projects__queue-td a:hover,
     .projects__live-td a:hover, .overlay__confirm-bid-td a:hover, .overlay__confirm-bid-sum-td a:hover, .billing__late-td a:hover,
-    .billing__due-td a:hover, .invoice__sheet-bill-td a:hover, .invoice__sheet-bill-sum-td a:hover {
+    .billing__due-td a:hover, .invoice__sheet-bill-td a:hover, .invoice__sheet-bill-sum-td a:hover, .events__feed-td a:hover {
       color: #66c3b0;
       border-bottom: 1px solid #66c3b0; }
 
@@ -3380,6 +3380,58 @@ hr {
         margin-right: 0; }
       .invoice__sheet-bill-note:nth-child(2n+1) {
         clear: left; } }
+
+.events__feed {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .events__feed:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .events__feed {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-right: 0; }
+      .events__feed:last-child {
+        margin-right: 0; } }
+
+.events__feed-table,
+.events__feed-day,
+.events__feed-tr,
+.events__feed-day-label,
+.events__feed-td {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .events__feed-table:last-child,
+  .events__feed-day:last-child,
+  .events__feed-tr:last-child,
+  .events__feed-day-label:last-child,
+  .events__feed-td:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .events__feed-table,
+    .events__feed-day,
+    .events__feed-tr,
+    .events__feed-day-label,
+    .events__feed-td {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      .events__feed-table:last-child,
+      .events__feed-day:last-child,
+      .events__feed-tr:last-child,
+      .events__feed-day-label:last-child,
+      .events__feed-td:last-child {
+        margin-right: 0; } }
 
 .form__buttons,
 .form__selects,
@@ -6221,6 +6273,43 @@ dd {
     display: block;
     color: #93989c; }
 
+.events__feed-tr {
+  position: relative; }
+
+.is-scheduled:before, .is-service-complete:before, .is-recommended:before, .is-request-received:before, .is-bids-sent:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  top: 0.5rem;
+  height: 24px;
+  height: 1.5rem;
+  width: 24px;
+  width: 1.5rem;
+  background: center center no-repeat; }
+
+.is-scheduled:before {
+  background: url(../assets/scheduled-pin.svg); }
+
+.is-service-complete:before {
+  background: url(../assets/service-complete-pin.svg); }
+
+.is-recommended:before {
+  background: url(../assets/recommend-pin.svg); }
+
+.is-request-received:before {
+  background: url(../assets/request-received-pin.svg); }
+
+.is-bids-sent:before {
+  background: url(../assets/bids-sent-pin.svg); }
+
+.events__feed-td {
+  padding-left: 44.8px;
+  padding-left: 2.8rem; }
+  .events__feed-td a:hover {
+    color: #66c3b0;
+    border-bottom-color: #66c3b0; }
+
 /*
 Select2 Base Styling
 Version: 3.4.5
@@ -6700,16 +6789,31 @@ disabled look for disabled choices in the results dropdown
   position: absolute;
   width: 1px; }
 
-.account__overlay-wrapper, .page__wrapper, .account {
+.account__overlay-wrapper, .events, .page__wrapper, .account {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
-  max-width: 67.5rem; }
-  .account__overlay-wrapper:after, .page__wrapper:after, .account:after {
+  max-width: 67.5rem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  margin-bottom: 67.2px;
+  margin-bottom: 4.2rem;
+  padding-left: 11.2px;
+  padding-left: 0.7rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem; }
+  .account__overlay-wrapper:after, .events:after, .page__wrapper:after, .account:after {
     content: "";
     display: table;
     clear: both; }
+  @media screen and (min-width: 46.8em) {
+    .account__overlay-wrapper, .events, .page__wrapper, .account {
+      margin-top: 67.2px;
+      margin-top: 4.2rem;
+      margin-bottom: 67.2px;
+      margin-bottom: 4.2rem;
+      padding: 0; } }
 
 .page__wrapper {
   margin-top: 22.4px;

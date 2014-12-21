@@ -22,7 +22,7 @@ $(document).ready(function() {
       $(".accountNav__settings").toggleClass("is-masked");
       $(".accountNav__bucket").toggleClass("is-masked");
       $(".accountNav__bucket, .accountNav__settings").toggleClass("animated fadeIn");
-      $(".dashboard").toggleClass("is-masked");
+      $(".dashboard, .events").toggleClass("is-masked");
       $(".account").toggleClass("is-masked");
       $(".account").toggleClass("animated bounceInUp");
     });
