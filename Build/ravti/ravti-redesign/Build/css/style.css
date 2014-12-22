@@ -757,9 +757,9 @@ hr {
 .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
-.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__late-defcon1-tbody .billing__late-th,
-.billing__late-defcon2-tbody .billing__late-th,
-.billing__late-defcon3-tbody .billing__late-th, .billing__late-defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
+.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
+.billing__defcon2-tbody .billing__th,
+.billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
 .siteNav__invoices-popover-item-facility, .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-time,
@@ -768,7 +768,7 @@ hr {
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
 
-.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .billing__late-title,
+.proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .billing__title,
 .billing__due-title, .events__feed-title, .siteNav, .dashboard__discover-title, .dashboard__discover-index-category, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
@@ -988,7 +988,7 @@ hr {
 .overlay, .overlay-equipment, .overlay__confirm-wrapper {
   background: rgba(255, 255, 255, 0.97); }
 
-.billing__late-title,
+.billing__title,
 .billing__due-title, .events__feed-title {
   font-size: 23.04px;
   font-size: 1.44rem;
@@ -1799,7 +1799,7 @@ hr {
 .table__basic,
 .table__striped,
 .table__hover, .projects__queue-table,
-.projects__live-table, .overlay__confirm-bid-table, .billing__late-table,
+.projects__live-table, .overlay__confirm-bid-table, .billing__table,
 .billing__due-table, .invoice__sheet-bill-table, .events__feed-table {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
@@ -1807,7 +1807,7 @@ hr {
 .table__basic-thead,
 .table__striped-thead,
 .table__hover-thead, .projects__queue-thead,
-.projects__live-thead, .overlay__confirm-bid-thead, .billing__late-thead,
+.projects__live-thead, .overlay__confirm-bid-thead, .billing__thead,
 .billing__due-thead, .invoice__sheet-bill-thead, .events__feed-tr:first-child {
   border-bottom: 2px solid #e3e5ea;
   text-align: left; }
@@ -1815,8 +1815,7 @@ hr {
 .table__basic-th,
 .table__striped-th,
 .table__hover-th, .projects__queue-th,
-.projects__live-th, .overlay__confirm-bid-th, .billing__late-th,
-.billing__due-th, .invoice__sheet-bill-th, .events__feed-th, .events__feed-day-label {
+.projects__live-th, .overlay__confirm-bid-th, .billing__th, .invoice__sheet-bill-th, .events__feed-th, .events__feed-day-label {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding-bottom: 5.6px;
@@ -1825,14 +1824,14 @@ hr {
 
 .table__basic-tr,
 .table__hover-tr, .table__striped-tr, .projects__queue-tr,
-.projects__live-tr, .overlay__confirm-bid-tr, .overlay__confirm-bid-sum-tr, .billing__late-tr,
+.projects__live-tr, .overlay__confirm-bid-tr, .overlay__confirm-bid-sum-tr, .billing__tr,
 .billing__due-tr, .invoice__sheet-bill-tr, .invoice__sheet-bill-sum-tr, .events__feed-tr {
   border-bottom: 1px solid #e3e5ea; }
 
 .table__basic-td,
 .table__striped-td,
 .table__hover-td, .projects__queue-td,
-.projects__live-td, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .billing__late-td,
+.projects__live-td, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .billing__td,
 .billing__due-td, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .events__feed-td {
   font-size: 13.33333px;
   font-size: 0.83333rem;
@@ -1842,21 +1841,21 @@ hr {
   .table__basic-td a,
   .table__striped-td a,
   .table__hover-td a, .projects__queue-td a,
-  .projects__live-td a, .overlay__confirm-bid-td a, .overlay__confirm-bid-sum-td a, .billing__late-td a,
+  .projects__live-td a, .overlay__confirm-bid-td a, .overlay__confirm-bid-sum-td a, .billing__td a,
   .billing__due-td a, .invoice__sheet-bill-td a, .invoice__sheet-bill-sum-td a, .events__feed-td a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
     .table__basic-td a:hover,
     .table__striped-td a:hover,
     .table__hover-td a:hover, .projects__queue-td a:hover,
-    .projects__live-td a:hover, .overlay__confirm-bid-td a:hover, .overlay__confirm-bid-sum-td a:hover, .billing__late-td a:hover,
+    .projects__live-td a:hover, .overlay__confirm-bid-td a:hover, .overlay__confirm-bid-sum-td a:hover, .billing__td a:hover,
     .billing__due-td a:hover, .invoice__sheet-bill-td a:hover, .invoice__sheet-bill-sum-td a:hover, .events__feed-td a:hover {
       color: #66c3b0;
       border-bottom: 1px solid #66c3b0; }
 
-.billing__late-defcon1-tbody .billing__late-th,
-.billing__late-defcon2-tbody .billing__late-th,
-.billing__late-defcon3-tbody .billing__late-th, .billing__late-defcon-label {
+.billing__defcon1-tbody .billing__th,
+.billing__defcon2-tbody .billing__th,
+.billing__defcon3-tbody .billing__th, .billing__defcon-label {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding-left: 11.2px;
@@ -2837,174 +2836,145 @@ hr {
     .projects__live-td:nth-child(3):last-child {
       margin-right: 0; } }
 
-.billing__outstanding,
-.billing__completed {
+.billing {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .billing__outstanding:last-child,
-  .billing__completed:last-child {
+  .billing:last-child {
     margin-right: 0; }
 
-.billing__late,
-.billing__due {
+.billing__late {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .billing__late:last-child,
-  .billing__due:last-child {
+  .billing__late:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .billing__late,
-    .billing__due {
+    .billing__late {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 48.82117%; }
-      .billing__late:last-child,
-      .billing__due:last-child {
+      width: 100%; }
+      .billing__late:last-child {
         margin-right: 0; } }
 
-.billing__late-table,
-.billing__late-defcon1-tbody,
-.billing__late-defcon2-tbody,
-.billing__late-defcon3-tbody,
-.billing__late-thead,
-.billing__late-tr,
-.billing__due-table,
-.billing__due-tbody,
-.billing__due-thead,
-.billing__due-tr {
+.billing__table,
+.billing__defcon1-tbody,
+.billing__defcon2-tbody,
+.billing__defcon3-tbody,
+.billing__defcon4-tbody,
+.billing__thead,
+.billing__tr {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .billing__late-table:last-child,
-  .billing__late-defcon1-tbody:last-child,
-  .billing__late-defcon2-tbody:last-child,
-  .billing__late-defcon3-tbody:last-child,
-  .billing__late-thead:last-child,
-  .billing__late-tr:last-child,
-  .billing__due-table:last-child,
-  .billing__due-tbody:last-child,
-  .billing__due-thead:last-child,
-  .billing__due-tr:last-child {
+  .billing__table:last-child,
+  .billing__defcon1-tbody:last-child,
+  .billing__defcon2-tbody:last-child,
+  .billing__defcon3-tbody:last-child,
+  .billing__defcon4-tbody:last-child,
+  .billing__thead:last-child,
+  .billing__tr:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .billing__late-table,
-    .billing__late-defcon1-tbody,
-    .billing__late-defcon2-tbody,
-    .billing__late-defcon3-tbody,
-    .billing__late-thead,
-    .billing__late-tr,
-    .billing__due-table,
-    .billing__due-tbody,
-    .billing__due-thead,
-    .billing__due-tr {
+    .billing__table,
+    .billing__defcon1-tbody,
+    .billing__defcon2-tbody,
+    .billing__defcon3-tbody,
+    .billing__defcon4-tbody,
+    .billing__thead,
+    .billing__tr {
       float: left;
       display: block;
       margin-right: 4.82916%;
       width: 100%;
       margin-right: 0; }
-      .billing__late-table:last-child,
-      .billing__late-defcon1-tbody:last-child,
-      .billing__late-defcon2-tbody:last-child,
-      .billing__late-defcon3-tbody:last-child,
-      .billing__late-thead:last-child,
-      .billing__late-tr:last-child,
-      .billing__due-table:last-child,
-      .billing__due-tbody:last-child,
-      .billing__due-thead:last-child,
-      .billing__due-tr:last-child {
+      .billing__table:last-child,
+      .billing__defcon1-tbody:last-child,
+      .billing__defcon2-tbody:last-child,
+      .billing__defcon3-tbody:last-child,
+      .billing__defcon4-tbody:last-child,
+      .billing__thead:last-child,
+      .billing__tr:last-child {
         margin-right: 0; } }
 
-.billing__late-th:nth-child(1),
-.billing__late-td:nth-child(1),
-.billing__due-th:nth-child(1),
-.billing__due-td:nth-child(1) {
+.billing__th:nth-child(1),
+.billing__td:nth-child(1) {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   padding-right: 0; }
-  .billing__late-th:nth-child(1):last-child,
-  .billing__late-td:nth-child(1):last-child,
-  .billing__due-th:nth-child(1):last-child,
-  .billing__due-td:nth-child(1):last-child {
+  .billing__th:nth-child(1):last-child,
+  .billing__td:nth-child(1):last-child {
     margin-right: 0; }
-.billing__late-th:nth-child(2),
-.billing__late-td:nth-child(2),
-.billing__due-th:nth-child(2),
-.billing__due-td:nth-child(2) {
+.billing__th:nth-child(2),
+.billing__td:nth-child(2) {
+  display: none; }
+.billing__th:nth-child(3),
+.billing__td:nth-child(3) {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   padding-right: 0; }
-  .billing__late-th:nth-child(2):last-child,
-  .billing__late-td:nth-child(2):last-child,
-  .billing__due-th:nth-child(2):last-child,
-  .billing__due-td:nth-child(2):last-child {
+  .billing__th:nth-child(3):last-child,
+  .billing__td:nth-child(3):last-child {
     margin-right: 0; }
-.billing__late-th:nth-child(3),
-.billing__late-td:nth-child(3),
-.billing__due-th:nth-child(3),
-.billing__due-td:nth-child(3) {
+.billing__th:nth-child(4),
+.billing__td:nth-child(4) {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%; }
-  .billing__late-th:nth-child(3):last-child,
-  .billing__late-td:nth-child(3):last-child,
-  .billing__due-th:nth-child(3):last-child,
-  .billing__due-td:nth-child(3):last-child {
+  .billing__th:nth-child(4):last-child,
+  .billing__td:nth-child(4):last-child {
     margin-right: 0; }
 @media screen and (min-width: 46.8em) {
-  .billing__late-th:nth-child(1),
-  .billing__late-td:nth-child(1),
-  .billing__due-th:nth-child(1),
-  .billing__due-td:nth-child(1) {
+  .billing__th:nth-child(1),
+  .billing__td:nth-child(1) {
     float: left;
     display: block;
-    margin-right: 4.82916%;
-    width: 30.11389%;
+    margin-right: 2.35765%;
+    width: 23.23176%;
     padding-right: 0; }
-    .billing__late-th:nth-child(1):last-child,
-    .billing__late-td:nth-child(1):last-child,
-    .billing__due-th:nth-child(1):last-child,
-    .billing__due-td:nth-child(1):last-child {
+    .billing__th:nth-child(1):last-child,
+    .billing__td:nth-child(1):last-child {
       margin-right: 0; }
-  .billing__late-th:nth-child(2),
-  .billing__late-td:nth-child(2),
-  .billing__due-th:nth-child(2),
-  .billing__due-td:nth-child(2) {
+  .billing__th:nth-child(2),
+  .billing__td:nth-child(2) {
+    display: inline-block;
     float: left;
     display: block;
-    margin-right: 4.82916%;
-    width: 30.11389%;
+    margin-right: 2.35765%;
+    width: 31.76157%;
     padding-right: 0; }
-    .billing__late-th:nth-child(2):last-child,
-    .billing__late-td:nth-child(2):last-child,
-    .billing__due-th:nth-child(2):last-child,
-    .billing__due-td:nth-child(2):last-child {
+    .billing__th:nth-child(2):last-child,
+    .billing__td:nth-child(2):last-child {
       margin-right: 0; }
-  .billing__late-th:nth-child(3),
-  .billing__late-td:nth-child(3),
-  .billing__due-th:nth-child(3),
-  .billing__due-td:nth-child(3) {
+  .billing__th:nth-child(3),
+  .billing__td:nth-child(3) {
     float: left;
     display: block;
-    margin-right: 4.82916%;
-    width: 30.11389%; }
-    .billing__late-th:nth-child(3):last-child,
-    .billing__late-td:nth-child(3):last-child,
-    .billing__due-th:nth-child(3):last-child,
-    .billing__due-td:nth-child(3):last-child {
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    .billing__th:nth-child(3):last-child,
+    .billing__td:nth-child(3):last-child {
+      margin-right: 0; }
+  .billing__th:nth-child(4),
+  .billing__td:nth-child(4) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .billing__th:nth-child(4):last-child,
+    .billing__td:nth-child(4):last-child {
       margin-right: 0; } }
 
 .invoice {
@@ -3681,7 +3651,7 @@ dd {
 
 .siteNav {
   position: relative;
-  z-index: 10;
+  z-index: 1;
   height: 60px;
   height: 3.75rem;
   background: white;
@@ -5707,36 +5677,49 @@ dd {
   margin-right: 22.4px;
   margin-right: 1.4rem; }
 
-.billing__late-td:nth-child(1) {
+@media screen and (min-width: 46.8em) {
+  .billing__th:last-child {
+    text-align: right; } }
+
+.billing__td:nth-child(1) {
   padding-left: 11.2px;
   padding-left: 0.7rem; }
-.billing__late-td a:hover {
+.billing__td:nth-child(2) {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+@media screen and (min-width: 46.8em) {
+  .billing__td:last-child {
+    text-align: right; } }
+.billing__td a:hover {
   color: #f35b5b;
   border-bottom-color: #f35b5b; }
 
-.billing__late-defcon1-tbody .billing__late-tr,
-.billing__late-defcon2-tbody .billing__late-tr,
-.billing__late-defcon3-tbody .billing__late-tr {
+.billing__defcon1-tbody .billing__tr,
+.billing__defcon2-tbody .billing__tr,
+.billing__defcon3-tbody .billing__tr {
   border-bottom: 1px solid white; }
-  .billing__late-defcon1-tbody .billing__late-tr:first-of-type,
-  .billing__late-defcon2-tbody .billing__late-tr:first-of-type,
-  .billing__late-defcon3-tbody .billing__late-tr:first-of-type {
+  .billing__defcon1-tbody .billing__tr:first-of-type,
+  .billing__defcon2-tbody .billing__tr:first-of-type,
+  .billing__defcon3-tbody .billing__tr:first-of-type {
     background: white;
     border-bottom: 0; }
 
-.billing__late-defcon1-tbody .billing__late-tr {
+.billing__defcon1-tbody .billing__tr {
   background: rgba(243, 91, 91, 0.3); }
-.billing__late-defcon1-tbody .billing__late-defcon-label {
+.billing__defcon1-tbody .billing__defcon-label {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
-.billing__late-defcon2-tbody .billing__late-tr {
+.billing__defcon2-tbody .billing__tr {
   background: rgba(243, 91, 91, 0.2); }
 
-.billing__late-defcon3-tbody .billing__late-tr {
+.billing__defcon3-tbody .billing__tr {
   background: rgba(243, 91, 91, 0.1); }
 
-.billing__late-defcon-label {
+.billing__defcon-label {
   text-align: left; }
 
 .invoice__sheet-head {
@@ -6865,19 +6848,17 @@ disabled look for disabled choices in the results dropdown
       .proposal__subhead-2third-rule:last-child {
         margin-right: 0; } }
 
-.account__subnav, .projects__subnav, .billing__subnav,
+.account__subnav, .projects__subnav,
 .account__subnav-buckets,
-.projects__subnav-buckets,
-.billing__subnav-buckets {
+.projects__subnav-buckets {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .account__subnav:last-child, .projects__subnav:last-child, .billing__subnav:last-child,
+  .account__subnav:last-child, .projects__subnav:last-child,
   .account__subnav-buckets:last-child,
-  .projects__subnav-buckets:last-child,
-  .billing__subnav-buckets:last-child {
+  .projects__subnav-buckets:last-child {
     margin-right: 0; }
 
 .proposal__procure-subnav,

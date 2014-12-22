@@ -38,151 +38,244 @@
 		</ul>
 	</nav>
 </header>
-	<!-- Top Bar Site-Wide Navigation -->
 	<nav class="siteNav">
-		<a class='current-parent' href="index.html"><h1 class="siteNav__logo"></h1></a>
-		<ul class="siteNav__buckets">
-			<li class="current-parent current current siteNav__bucket-live"><a class='current current' href="billing.html">Billing</a>
-				<ul class="siteNav__buckets-list">
-					<a class='current-parent' href="index.html"><li class="siteNav__buckets-list-item">Dashboard</li></a>
-					<a href="projects.html"><li class="siteNav__buckets-list-item">Projects</li></a>
-					<a href="equipment.html"><li class="siteNav__buckets-list-item">Equipment</li></a>
-					<a href="work-orders.html"><li class="siteNav__buckets-list-item">Work Orders</li></a>
-				</ul>
-			</li>
-		</ul>
-		<div class="siteNav__account">
-			<span class="siteNav__account-username">Monique</span>
-			<img class="siteNav__account-image" src="assets/users_gibson.png"/>
+		<a class='current-parent' href="index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+		<h2 class="siteNav__page-title">Dashboard</h2>
+		<section class="siteNav__control">
+			<nav class="siteNav__alerts">
+				<i class="siteNav__alert-proposals">
+					<span class="has-alerts">5</span>
+				</i>
+				<i class="siteNav__alert-events">
+					<span class="has-alerts">&bull;</span>
+				</i>
+				<i class="siteNav__alert-invoices">
+					<span class="has-alerts">14</span>
+				</i>
+				<article class="siteNav__alerts-popover">
+					<section class="siteNav__proposals-popover is-masked">
+						<header class="siteNav__proposals-popover-head">
+							<h2 class="siteNav__proposals-popover-title">Pending Proposals</h2>
+						</header>
+						<ul class="siteNav__proposals-popover-list">
+							<li class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">Quiet Waters 7<span class="siteNav__proposals-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(1 of 4)</h4>
+								<time class="siteNav__proposals-popover-item-time">1 hour ago</time>
+							</li>
+							<li class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">Sunset International Center<span class="siteNav__proposals-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(2 of 4)</h4>
+								<time class="siteNav__proposals-popover-item-time">3 hour ago</time>
+							</li>
+							<li class="siteNav__proposals-popover-item is-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">Quiet Waters 7<span class="siteNav__proposals-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(4 of 4)</h4>
+								<time class="siteNav__proposals-popover-item-time">Yesterday at 5:19pm</time>
+							</li>
+							<li class="siteNav__proposals-popover-item is-not-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">Westside Plaza II<span class="siteNav__proposals-popover-item-title">Blower/Fan Coil Issues</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(0 of 4)</h4>
+								<time class="siteNav__proposals-popover-item-time">Yesterday at 3:08pm</time>
+							</li>
+							<li class="siteNav__proposals-popover-item is-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">8200 Doral<span class="siteNav__proposals-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(1 of 4)</h4>
+								<time class="siteNav__proposals-popover-item-time">Yesterday at 2:55pm</time>
+							</li>
+						</ul>
+						<footer class="siteNav__proposals-popover-footer">
+						<a href="projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
+						</footer>
+					</section>
+					<section class="siteNav__events-popover is-masked">
+						<header class="siteNav__events-popover-head">
+							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
+						</header>
+						<ul class="siteNav__events-popover-list">
+							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
+								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Tracking # added</h4>
+								<time class="siteNav__events-popover-item-time">1 hour ago</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
+								<h3 class="siteNav__events-popover-item-facility">Sunset International Center<span class="siteNav__events-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Installation Scheduled</h4>
+								<time class="siteNav__events-popover-item-time">3 hour ago</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Project Completed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 5:19pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">Westside Plaza II<span class="siteNav__events-popover-item-title">Blower/Fan Coil Issues</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Service Call Completed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 3:08pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 2:55pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Condensing Unit Repair</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Repair Approved</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 9:12am</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 8:55am</time>
+							</li>
+						</ul>
+						<footer class="siteNav__events-popover-footer">
+						<a href=""><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
+						</footer>
+					</section>
+					<section class="siteNav__invoices-popover is-masked">
+						<header class="siteNav__invoices-popover-head">
+							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
+						</header>
+						<ul class="siteNav__invoices-popover-list">
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
+								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+							</li>
+							<li class="siteNav__invoices-popover-item is-unviewed">
+								<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
+								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+							</li>
+						</ul>
+						<footer class="siteNav__invoices-popover-footer">
+						<a class='current current' href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+						</footer>
+					</section>
+				</article>
+			</nav>
+			<div class="siteNav__account">
+				<span class="siteNav__account-username">Monique</span>
+				<img class="siteNav__account-image" src="assets/users_gibson.png"/>
+			</div>
+		</section>
+		<div class="accountNav__bucket is-masked">
+			<h1 class="accountNav__bucket-title">Account Settings</h1>
+		</div>
+		<div class="accountNav__settings is-masked">
+			<span class="accountNav__toggle-label">Exit</span>
+			<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
 		</div>
 	</nav>
 	<!-- End Top Bar Nav -->
 	<!-- Main Content/Page View -->
 	<main class="page__wrapper">
-		<nav class="billing__subnav">
-			<ul class="billing__subnav-buckets">
-				<li class="billing__subnav-outstanding is-active"><a href="">Outstanding</a></li>
-				<li class="billing__subnav-paid"><a href="">Paid</a></li>
-			</ul>
-		</nav>
-		<section class="billing__outstanding">
+		<section class="billing">
 			<section class="billing__late">
-				<h2 class="billing__late-title">Late Payments</h2>
-				<table class="billing__late-table">
-					<thead class="billing__late-thead">
-					<tr class="billing__late-tr">
-						<th class="billing__late-th">Invoice #</th>
-						<th class="billing__late-th">Date Due</th>
-						<th class="billing__late-th">Amount</th>
+				<h2 class="billing__title">Outstanding Payments</h2>
+				<table class="billing__table">
+					<thead class="billing__thead">
+					<tr class="billing__tr">
+						<th class="billing__th">Invoice #</th>
+						<th class="billing__th">Facility</th>
+						<th class="billing__th">Date Due</th>
+						<th class="billing__th">Amount</th>
 					</tr>
 					</thead>
-					<tbody class="billing__late-defcon1-tbody">
-					<tr class="billing__late-tr">
-						<th class="billing__late-defcon-label">90+ Days Outstanding</th>
+					<tbody class="billing__defcon1-tbody">
+					<tr class="billing__tr">
+						<th class="billing__defcon-label">90+ Days Outstanding</th>
 					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 002</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$1,234.34</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 002</a></td>
+						<td class="billing__td">Sunset International Center</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$1,234.34</td>
 					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 005</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$1,234.34</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 005</a></td>
+						<td class="billing__td">Sunset International Center</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$1,234.34</td>
 					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 007</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$1,234.34</td>
-					</tr>
-					</tbody>
-					<tbody class="billing__late-defcon2-tbody">
-					<tr class="billing__late-tr">
-						<th class="billing__late-defcon-label">61-90 Days Outstanding</th>
-					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 031</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$234.34</td>
-					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 027</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$871.22</td>
-					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 029</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$2,111.35</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 007</a></td>
+						<td class="billing__td">Sunset International Center</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$1,234.34</td>
 					</tr>
 					</tbody>
-					<tbody class="billing__late-defcon3-tbody">
-					<tr class="billing__late-tr">
-						<th class="billing__late-defcon-label">31-60 Days Outstanding</th>
+					<tbody class="billing__defcon2-tbody">
+					<tr class="billing__tr">
+						<th class="billing__defcon-label">61-90 Days Outstanding</th>
 					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 006</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$871.22</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 031</a></td>
+						<td class="billing__td">Sunset International Center</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$234.34</td>
 					</tr>
-					<tr class="billing__late-tr">
-						<td class="billing__late-td"><a href="invoice.html">GIB - 012</a></td>
-						<td class="billing__late-td">10/11/14</td>
-						<td class="billing__late-td">$3,412.45</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 027</a></td>
+						<td class="billing__td">Doral 8200</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$871.22</td>
+					</tr>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 029</a></td>
+						<td class="billing__td">Doral 8200</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$2,111.35</td>
 					</tr>
 					</tbody>
-			    </table>
-			</section>
-			<section class="billing__due">
-				<h2 class="billing__due-title">Currently Due</h2>
-				<table class="billing__due-table">
-					<thead class="billing__due-thead">
-					<tr class="billing__due-tr">
-						<th class="billing__due-th">Invoice #</th>
-						<th class="billing__due-th">Date Due</th>
-						<th class="billing__due-th">Amount</th>
+					<tbody class="billing__defcon3-tbody">
+					<tr class="billing__tr">
+						<th class="billing__defcon-label">31-60 Days Outstanding</th>
 					</tr>
-					</thead>
-					<tbody class="billing__due-tbody">
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 002</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$1,234.34</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 006</a></td>
+						<td class="billing__td">Doral 8200</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$871.22</td>
 					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 005</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$1,234.34</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 012</a></td>
+						<td class="billing__td">West Plaza Center III</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$3,412.45</td>
 					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 007</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$1,234.34</td>
+					</tbody>
+					<tbody class="billing__defcon4-tbody">
+					<tr class="billing__tr">
+						<th class="billing__defcon-label">Currently Due</th>
 					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 031</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$234.34</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 006</a></td>
+						<td class="billing__td">Doral 8200</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$871.22</td>
 					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 027</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$871.22</td>
-					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 029</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$2,111.35</td>
-					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 006</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$871.22</td>
-					</tr>
-					<tr class="billing__due-tr">
-						<td class="billing__due-td"><a href="invoice.html">GIB - 012</a></td>
-						<td class="billing__due-td">10/11/14</td>
-						<td class="billing__due-td">$3,412.45</td>
+					<tr class="billing__tr">
+						<td class="billing__td"><a href="invoice.html">GIB - 012</a></td>
+						<td class="billing__td">West Plaza Center III</td>
+						<td class="billing__td">10/11/14</td>
+						<td class="billing__td">$3,412.45</td>
 					</tr>
 					</tbody>
 			    </table>
