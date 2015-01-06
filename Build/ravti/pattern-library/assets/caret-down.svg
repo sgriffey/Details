@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>caret-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="caret-down" sketch:type="MSArtboardGroup" fill="#092F3E">
+            <path d="M15.0000367,5.66664219 C15.0000367,5.58562346 14.9676292,5.52080847 14.919018,5.45599349 L12.877346,3.41432147 C12.7639197,3.30089524 12.5694748,3.30089524 12.4560486,3.41432147 L8.00001836,7.88655542 L3.54398815,3.41432147 C3.43056193,3.30089524 3.23611698,3.30089524 3.12269075,3.41432147 L1.08101873,5.45599349 C0.967592508,5.56941971 0.967592508,5.76386467 1.08101873,5.87729089 L7.78936966,12.5856418 C7.90279588,12.699068 8.09724084,12.699068 8.21066706,12.5856418 L14.919018,5.87729089 C14.9676292,5.8124759 15.0000367,5.74766092 15.0000367,5.66664219 L15.0000367,5.66664219 Z" id="" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
