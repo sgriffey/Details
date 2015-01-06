@@ -186,14 +186,16 @@
 	<main class="dashboard">
 		<section class="dashboard__mobile-request">
 			<section class="dashboard__mobile-request-card">
-				<h3 class="dashboard__mobile-request-card-cta">Request Work</h3>
+				<b class="dashboard__mobile-request-card-cta"></b>
+				<button class="dashboard__mobile-request-card-btn">Request Work</button>
 			</section>
 		</section>
 		<section class="dashboard__discover">
 			<h1 class="dashboard__discover-title">Choose a Facility</h1>
 			<input type="text" class="dashboard__discover-search" placeholder="Type to search">
 			<section class="dashboard__discover-index">
-				<h2 class="dashboard__discover-index-category">Tampa</h2>
+				<h1 class="dashboard__discover-index-title">Facilites <i>(By Region)</i></h1>
+				<h2 class="dashboard__discover-index-category"><b>Tampa</b></h2>
 				<ul class="dashboard__discover-index-list">
 					<li class="dashboard__discover-index-item">
 						<a href="facility.html">8200 Doral</a>
@@ -229,7 +231,7 @@
 						<a href="facility.html">Westside Plaza IV</a>
 					</li>
 				</ul>
-				<h2 class="dashboard__discover-index-category">Doral</h2>
+				<h2 class="dashboard__discover-index-category"><b>Doral</b></h2>
 				<ul class="dashboard__discover-index-list">
 					<li class="dashboard__discover-index-item">
 						<a href="facility.html">8200 Doral</a>
@@ -489,6 +491,117 @@
 		</section>
 	</section>
 </div>
+	<aside class="overlay__request-wrapper is-masked" id="overlay-request">
+	<section class="overlay__request">
+		<form class="overlay__request-form">
+			<h1 class="overlay__request-form-title">Request Work Order</h1>
+			<fieldset class="overlay__request-form-fieldset">
+				<div class="overlay__request-form-fieldset-split">
+					<label class="overlay__request-form-label">Facility</label>
+					<select class="overlay__request-form-select-drop">
+						<option value=""></option>
+						<option value="1">Davenport</option>
+						<option value="2">Trenton</option>
+						<option value="3">Spokane</option>
+						<option value="4">8200 Doral</option>
+						<option value="5">Quiet Waters 3</option>
+					</select>
+				</div>
+				<div class="overlay__request-form-fieldset-split">
+					<label class="overlay__request-form-label">Suite/Unit</label>
+					<select class="overlay__request-form-select-drop">
+						<option value=""></option>
+						<option value="1">101</option>
+						<option value="2">102</option>
+						<option value="3">103</option>
+						<option value="3">104</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset class="overlay__request-form-fieldset">
+				<label class="overlay__request-form-label">Equipment</label>
+				<select class="overlay__request-form-select-drop">
+					<option value=""></option>
+					<option value="1">Water Cooled Chiller</option>
+					<option value="2">Air Cooled Chiller</option>
+					<option value="3">Cooling Tower</option>
+					<option value="4">Air Handler</option>
+					<option value="5">Packaged Rooftop Unit</option>
+					<option value="6">Split System</option>
+					<option value="7">Vertical Self-Contained Unit</option>
+					<option value="8">Water Source Heat Pump</option>
+					<option value="9">Blower Coil/Fan Coil</option>
+					<option value="10">High Percentage Outdoor Air Unit</option>
+					<option value="11">Boiler</option>
+					<option value="12">Pump</option>
+					<option value="13">Heat Exchanger</option>
+					<option value="14">VAV Box</option>
+					<option value="15">VFD</option>
+					<option value="16">Actuator/Damper</option>
+					<option value="17">Control System</option>
+					<option value="18">Condensing Unit</option>
+					<option value="19">Energy Recovery Ventilation Unit</option>
+					<option value="20">Motor</option>
+				</select>
+			</fieldset>
+			<fieldset class="overlay__request-form-fieldset">
+				<label class="overlay__request-form-label">Details / Description</label>
+				<select class="overlay__request-form-select-drop">
+					<option value=""></option>
+					<option value="1">Not turning on/off</option>
+					<option value="2">Not cooling/heating</option>
+					<option value="3">Not reaching temperature</option>
+					<option value="4">Iced-up</option>
+					<option value="5">Water leak/drainage problem</option>
+					<option value="6">Compressor issue</option>
+					<option value="6">Unit Cycling</option>
+					<option value="7">Cond fan issue</option>
+					<option value="7">Evap fan issue</option>
+					<option value="7">Fan issue</option>
+					<option value="8">Thermostat</option>
+					<option value="8">Thermostat/Control Issue</option>
+					<option value="9">Strange sound(s)</option>
+					<option value="10">Tenant buildout</option>
+					<option value="11">Other</option>
+				</select>
+			</fieldset>
+			<fieldset class="overlay__request-form-fieldset">
+				<legend class="overlay__request-form-legend">Priority</legend>
+				<label class="overlay__request-form-check-label">
+					<input type="radio" class="overlay__request-form-check-radio" name="request">
+					<div class="overlay__request-form-check-text">Not time sensitive</div>
+				</label>
+				<label class="overlay__request-form-check-label">
+					<input type="radio" class="overlay__request-form-check-radio" name="request">
+					<div class="overlay__request-form-check-text">Immediate</div>
+				</label>
+				<label class="overlay__request-form-check-label">
+					<input type="radio" class="overlay__request-form-check-radio" name="request">
+					<div class="overlay__request-form-check-text">Emergency</div>
+				</label>
+			</fieldset>
+			<fieldset class="overlay__request-form-fieldset">
+				<div class="overlay__request-form-fieldset-split">
+					<label class="overlay__request-form-label">Project Contact Name</label>
+					<input type="text" class="form__input-field" placeholder="Donald Trump">
+				</div>
+				<div class="overlay__request-form-fieldset-split">
+					<label class="overlay__request-form-label">Project Contact Phone</label>
+					<input type="phone" class="form__input-field" placeholder="( ) --- ----">
+				</div>
+			</fieldset>
+			<div class="overlay__request-form-finalize"><input class="overlay__request-form-button-cancel" type="button" value="Cancel"><input class="overlay__request-form-button-submit" type="button" value="Submit">
+			</div>
+		</form>
+		<section class="overlay__request-feedback is-masked">
+	<h3 class="overlay__request-feedback-title">Request Submitted</h3>
+	<p class="overlay__request-feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
+	<footer class="overlay__request-feedback-dismiss">
+		<button class="overlay__request-feedback-dismiss-trigger">Okay</button>
+	</footer>
+</section>
+	</section>
+</aside>
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="js/app.js"></script>
 </body>

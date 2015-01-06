@@ -11,6 +11,38 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    //Request Work Mobile
+    $(".dashboard__mobile-request-card").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".overlay__request-wrapper").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $("#overlay-request").offset().top
+        }, 500);
+    });
+    $(".overlay__request-form-button-cancel").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".overlay__request-wrapper").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".mobileNav").offset().top
+        }, 300);
+    });
+    $(".overlay__request-form-button-submit").click(function(){
+        $(".overlay__request-form").toggleClass("is-masked");
+        $(".overlay__request-feedback").toggleClass("is-masked");
+        $('html, body').animate({
+                scrollTop: $("#overlay-request").offset().top
+        }, 300);
+        $(".overlay__request-feedback").toggleClass("animated zoomIn");
+    });
+    $(".overlay__request-feedback-dismiss-trigger").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".overlay__request-form").toggleClass("is-masked");
+        $(".overlay__request-feedback").toggleClass("is-masked");
+        $(".overlay__request-wrapper").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".mobileNav").offset().top
+        }, 300);
+    });
     //Request Work Order Dashboard Flow
     $(".dashboard__request-work-cta-btn").click(function(){
         $(".dashboard__aside-request").toggleClass("is-masked");
