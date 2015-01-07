@@ -724,7 +724,7 @@ hr {
   padding: 0;
   list-style-type: none; }
 
-.dashboard__mobile-request, .overlay__scope, .overlay__equipment-specs, .overlay__confirm, .overlay__request {
+.dashboard__mobile-request, .dashboard__index-grid-tile-hint b, .overlay__scope, .overlay__equipment-specs, .overlay__confirm, .overlay__request {
   padding: 0 11.2px; }
 
 .dashboard__index-header {
@@ -776,7 +776,7 @@ hr {
   font-weight: 400; }
 
 .proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
-.facility__billing-title, .events__feed-title, .siteNav, .dashboard__index-category b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
+.facility__billing-title, .events__feed-title, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__index-category b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -2194,6 +2194,36 @@ hr {
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn; }
+
+.slideUp {
+  -webkit-animation-name: slideUp;
+  animation-name: slideUp; }
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); } }
+
+@-webkit-keyframes fizzle {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@fizzle {
+  -webkit-animation-name: fizzle;
+  animation-name: fizzle;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
 
 .dashboard__mobile-request,
 .dashboard__mobile-request-card,
@@ -4355,6 +4385,7 @@ dd {
     vertical-align: middle; }
 
 .siteNav__logo {
+  position: relative;
   display: inline-block;
   float: left;
   height: 60px;
@@ -4363,6 +4394,17 @@ dd {
   width: 3.75rem;
   margin: 0;
   background: url(../../assets/ravti-app-logo.svg) center center no-repeat; }
+  .siteNav__logo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0; }
+  .siteNav__logo:hover:before {
+    opacity: 0.2; }
 
 .siteNav__page {
   position: absolute;
@@ -4976,11 +5018,6 @@ dd {
   border-top: 1px solid #e3e5ea;
   height: 96px;
   height: 6rem; }
-  .dashboard__index-grid-tile:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle; }
   @media screen and (min-width: 46.8em) {
     .dashboard__index-grid-tile {
       border: 0;
@@ -5021,7 +5058,37 @@ dd {
       top: 0;
       left: 0;
       width: 100%;
-      margin-top: 0; } }
+      margin-top: 0; }
+      .dashboard__index-grid-tile-thumbnail:hover .dashboard__index-grid-tile-hint {
+        opacity: 1;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); } }
+
+.dashboard__index-grid-tile-hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  text-align: center;
+  -webkit-transform: translate(-50%, -30%);
+  -ms-transform: translate(-50%, -30%);
+  -moz-transform: translate(-50%, -30%);
+  -o-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+  transition-property: all;
+  transition-duration: 0.125s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial; }
+  .dashboard__index-grid-tile-hint b {
+    background: #092f3e;
+    display: block;
+    color: white; }
+    .dashboard__index-grid-tile-hint b:last-child {
+      margin-top: 5.6px;
+      margin-top: 0.35rem; }
 
 .dashboard__index-grid-tile-img {
   background: #092f3e; }
@@ -5216,6 +5283,9 @@ dd {
 
 .dashboard__form-legend {
   margin-bottom: 0; }
+
+.dashboard__form-select-drop {
+  -moz-appearance: none; }
 
 @media screen and (min-width: 46.8em) {
   .dashboard__form-fieldset-split .dashboard__form-select-drop {
