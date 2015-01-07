@@ -44,18 +44,6 @@ $(document).ready(function() {
         }, 300);
     });
     //Request Work Order Dashboard Flow
-    $(".dashboard__request-work-cta-btn").click(function(){
-        $(".dashboard__aside-request").toggleClass("is-masked");
-        $(".dashboard__aside-request").addClass("animated bounceInDown");
-        $(".dashboard__request-work-cta-btn").toggleClass("is-hidden");
-        $(".dashboard__request-work-cta-btn").toggleClass("is-masked");
-    });
-    $(".dashboard__form-button-cancel").click(function(){
-        $(".dashboard__aside-request").toggleClass("is-masked");
-        $(".dashboard__aside-request").removeClass("animated bounceInDown");
-        $(".dashboard__request-work-cta-btn").toggleClass("is-masked");
-        $(".dashboard__request-work-cta-btn").toggleClass("is-hidden");
-    });
     $(".dashboard__form-button-submit").click(function(){
         $(".dashboard__aside-request").toggleClass("is-masked");
         $(".dashboard__aside-feedback").toggleClass("is-masked");
@@ -66,8 +54,7 @@ $(document).ready(function() {
         $(".dashboard__aside-feedback").toggleClass("is-masked");
         $(".dashboard__aside-feedback").toggleClass("animated fadeIn");
         $(".dashboard__aside-feedback-title, .dashboard__aside-feedback-copy, .dashboard__aside-feedback-dismiss-trigger").toggleClass("animated zoomIn");
-        $(".dashboard__request-work-cta-btn").toggleClass("is-hidden");
-        $(".dashboard__request-work-cta-btn").toggleClass("is-masked");
+        $(".dashboard__aside-request").toggleClass("is-masked");
     });
     //Account Settings Toggle
      $(".siteNav__account, .accountNav__settings").click(function() {
