@@ -56,6 +56,21 @@ $(document).ready(function() {
         $(".dashboard__aside-feedback-title, .dashboard__aside-feedback-copy, .dashboard__aside-feedback-dismiss-trigger").toggleClass("animated zoomIn");
         $(".dashboard__aside-request").toggleClass("is-masked");
     });
+    //Toggle between facility tiles and map
+    $(".dashboard__index-control-map").click(function(){
+        $(".dashboard__index-grid-view").toggleClass("is-masked");
+        $(".dashboard__index-map-view").toggleClass("is-masked");
+        $(".dashboard__index-title-background, .dashboard__index-controls-background").toggleClass("is-background-overlaid");
+        $(".dashboard__index-control-grid-icon").toggleClass("is-control-active");
+        $(".dashboard__index-control-map-icon").toggleClass("is-control-active");
+    });
+    $(".dashboard__index-control-grid").click(function(){
+        $(".dashboard__index-map-view").toggleClass("is-masked");
+        $(".dashboard__index-grid-view").toggleClass("is-masked");
+        $(".dashboard__index-title-background, .dashboard__index-controls-background").toggleClass("is-background-overlaid");
+        $(".dashboard__index-control-grid-icon").toggleClass("is-control-active");
+        $(".dashboard__index-control-map-icon").toggleClass("is-control-active");
+    });
     //Account Settings Toggle
      $(".siteNav__account, .accountNav__settings").click(function() {
         $(".siteNav").toggleClass("is-inverted-dark");
