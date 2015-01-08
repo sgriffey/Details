@@ -735,7 +735,7 @@ hr {
 .siteNav__invoices-popover-item-facility,
 .siteNav__invoices-popover-item-reference,
 .siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__form-fieldset, .proposal__terms-scan-list, .proposal__terms-view-scopes,
-.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .equipment__grid-sidebar-list, .equipment__grid-blank-stats-list, .facility__equipment-card-specs, .account__details-personal-form,
+.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .facility__equipment-card-specs, .facility__unit-info-list, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__abstract-contacts, .facility__duties-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
   margin: 0;
@@ -778,14 +778,14 @@ hr {
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list, .equipment__grid-masthead-status, .account__details-personal-head-toolbar-save,
+.siteNav__invoices-popover-list, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.overlay__confirm-input-file-button, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .equipment__grid-facility-title, .account__details-personal-label,
+.overlay__confirm-input-file-button, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .siteNav__alert-events, .siteNav__events-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-list .is-unviewed .siteNav__events-popover-item-time,
-.siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .equipment__grid-sidebar-list-section, .equipment__grid-sidebar-list-section:first-of-type .is-selected, .equipment__grid-sidebar-list-item .is-selected, .equipment__grid-masthead-status b, .equipment__grid-blank-stat b, .account__details-personal-head-toolbar-save,
+.siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .facility__unit-info-key, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
 .invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__abstract-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2) {
@@ -793,10 +793,12 @@ hr {
 
 .proposal__abstract-head, .proposal__form-head,
 .proposal__terms-scan-head,
-.proposal__terms-view-head, .project__abstract-head, .account__details-personal-head,
+.proposal__terms-view-head, .project__abstract-head, .facility__unit-info-head,
+.facility__unit-score-head, .account__details-personal-head,
 .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
-.proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
+.proposal__terms-view-head h1, .project__abstract-head h1, .facility__unit-info-head h1,
+.facility__unit-score-head h1, .account__details-personal-head h1,
 .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .proposal__terms-view-doc, .invoice__meta-doc-view, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
 .account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
@@ -806,20 +808,21 @@ hr {
 
 .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
-.proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
+.proposal__terms-view-head h1, .project__abstract-head h1, .facility__unit-info-head h1,
+.facility__unit-score-head h1, .account__details-personal-head h1,
 .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
 .billing__defcon2-tbody .billing__th,
 .billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
 .siteNav__invoices-popover-item-facility, .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-time,
-.siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .overlay__confirm-bid-metadata, .equipment__grid-sidebar-list-section:first-of-type, .equipment__grid-masthead-status, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
+.siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .overlay__confirm-bid-metadata, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
 
 .proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
-.facility__billing-title, .events__feed-title, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .equipment__grid-blank-overview-hero b, .facility__abstract-title, .facility__duty, .facility__event-header-title {
+.facility__billing-title, .events__feed-title, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .facility__abstract-title, .facility__duty, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -843,7 +846,7 @@ hr {
   border: 1px solid #e3e5ea;
   overflow: hidden; }
 
-.proposal__procure-goods-part, .project__equipment-piece, .equipment__grid-facility-card, .facility__equipment-card {
+.proposal__procure-goods-part, .project__equipment-piece, .facility__equipment-card {
   padding: 0;
   background: white;
   border: 1px solid #e3e5ea;
@@ -860,7 +863,8 @@ hr {
 
 .proposal__abstract-head, .proposal__form-head,
 .proposal__terms-scan-head,
-.proposal__terms-view-head, .project__abstract-head, .account__details-personal-head,
+.proposal__terms-view-head, .project__abstract-head, .facility__unit-info-head,
+.facility__unit-score-head, .account__details-personal-head,
 .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header {
   float: left;
   display: block;
@@ -884,26 +888,30 @@ hr {
   position: relative; }
   .proposal__abstract-head:last-child, .proposal__form-head:last-child,
   .proposal__terms-scan-head:last-child,
-  .proposal__terms-view-head:last-child, .project__abstract-head:last-child, .account__details-personal-head:last-child,
+  .proposal__terms-view-head:last-child, .project__abstract-head:last-child, .facility__unit-info-head:last-child,
+  .facility__unit-score-head:last-child, .account__details-personal-head:last-child,
   .account__details-company-head:last-child, .invoice__sheet-head:last-child, .invoice__meta-summary-head:last-child, .invoice__meta-doc-head:last-child, .invoice__meta-support-head:last-child, .facility__activity-prevent-head:last-child, .facility__event-header:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-head, .proposal__form-head,
     .proposal__terms-scan-head,
-    .proposal__terms-view-head, .project__abstract-head, .account__details-personal-head,
+    .proposal__terms-view-head, .project__abstract-head, .facility__unit-info-head,
+    .facility__unit-score-head, .account__details-personal-head,
     .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-prevent-head, .facility__event-header {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
   .proposal__abstract-head h1, .proposal__form-head h1,
   .proposal__terms-scan-head h1,
-  .proposal__terms-view-head h1, .project__abstract-head h1, .account__details-personal-head h1,
+  .proposal__terms-view-head h1, .project__abstract-head h1, .facility__unit-info-head h1,
+  .facility__unit-score-head h1, .account__details-personal-head h1,
   .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-prevent-head h1, .facility__event-header h1 {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
     display: inline-block; }
 
-.proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .project__abstract-body, .account__details-personal-body,
+.proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .project__abstract-body, .facility__unit-info-body,
+.facility__unit-score-body, .account__details-personal-body,
 .account__details-company-body, .invoice__sheet-body, .invoice__meta-summary-body, .invoice__meta-doc-body, .invoice__meta-support-body, .facility__activity-prevent-body, .facility__event-summary {
   padding: 22.4px;
   padding: 1.4rem;
@@ -1704,7 +1712,7 @@ hr {
   .account__details-company-input:-ms-input-placeholder {
     color: #c7cacd; }
 
-.form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .equipment__grid-facility-title, .account__details-personal-label,
+.form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden {
   display: block;
   font-size: 13.33333px;
@@ -2237,6 +2245,152 @@ hr {
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn; }
+
+.grain {
+  -webkit-animation-name: grain;
+  animation-name: grain; }
+
+@-webkit-keyframes grain {
+  0%, 100% {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+  10% {
+    -webkit-transform: translate(-5%, -10%);
+    -ms-transform: translate(-5%, -10%);
+    -moz-transform: translate(-5%, -10%);
+    -o-transform: translate(-5%, -10%);
+    transform: translate(-5%, -10%); }
+
+  20% {
+    -webkit-transform: translate(-15%, 5%);
+    -ms-transform: translate(-15%, 5%);
+    -moz-transform: translate(-15%, 5%);
+    -o-transform: translate(-15%, 5%);
+    transform: translate(-15%, 5%); }
+
+  30% {
+    -webkit-transform: translate(7%, -25%);
+    -ms-transform: translate(7%, -25%);
+    -moz-transform: translate(7%, -25%);
+    -o-transform: translate(7%, -25%);
+    transform: translate(7%, -25%); }
+
+  40% {
+    -webkit-transform: translate(21%, 20%);
+    -ms-transform: translate(21%, 20%);
+    -moz-transform: translate(21%, 20%);
+    -o-transform: translate(21%, 20%);
+    transform: translate(21%, 20%); }
+
+  50% {
+    -webkit-transform: translate(-25%, 10%);
+    -ms-transform: translate(-25%, 10%);
+    -moz-transform: translate(-25%, 10%);
+    -o-transform: translate(-25%, 10%);
+    transform: translate(-25%, 10%); }
+
+  60% {
+    -webkit-transform: translate(15%, 0%);
+    -ms-transform: translate(15%, 0%);
+    -moz-transform: translate(15%, 0%);
+    -o-transform: translate(15%, 0%);
+    transform: translate(15%, 0%); }
+
+  70% {
+    -webkit-transform: translate(0%, 15%);
+    -ms-transform: translate(0%, 15%);
+    -moz-transform: translate(0%, 15%);
+    -o-transform: translate(0%, 15%);
+    transform: translate(0%, 15%); }
+
+  80% {
+    -webkit-transform: translate(25%, 20%);
+    -ms-transform: translate(25%, 20%);
+    -moz-transform: translate(25%, 20%);
+    -o-transform: translate(25%, 20%);
+    transform: translate(25%, 20%); }
+
+  90% {
+    -webkit-transform: translate(-10%, 10%);
+    -ms-transform: translate(-10%, 10%);
+    -moz-transform: translate(-10%, 10%);
+    -o-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%); } }
+
+@keyframes grain {
+  0%, 100% {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+  10% {
+    -webkit-transform: translate(-5%, -10%);
+    -ms-transform: translate(-5%, -10%);
+    -moz-transform: translate(-5%, -10%);
+    -o-transform: translate(-5%, -10%);
+    transform: translate(-5%, -10%); }
+
+  20% {
+    -webkit-transform: translate(-15%, 5%);
+    -ms-transform: translate(-15%, 5%);
+    -moz-transform: translate(-15%, 5%);
+    -o-transform: translate(-15%, 5%);
+    transform: translate(-15%, 5%); }
+
+  30% {
+    -webkit-transform: translate(7%, -25%);
+    -ms-transform: translate(7%, -25%);
+    -moz-transform: translate(7%, -25%);
+    -o-transform: translate(7%, -25%);
+    transform: translate(7%, -25%); }
+
+  40% {
+    -webkit-transform: translate(21%, 20%);
+    -ms-transform: translate(21%, 20%);
+    -moz-transform: translate(21%, 20%);
+    -o-transform: translate(21%, 20%);
+    transform: translate(21%, 20%); }
+
+  50% {
+    -webkit-transform: translate(-25%, 10%);
+    -ms-transform: translate(-25%, 10%);
+    -moz-transform: translate(-25%, 10%);
+    -o-transform: translate(-25%, 10%);
+    transform: translate(-25%, 10%); }
+
+  60% {
+    -webkit-transform: translate(15%, 0%);
+    -ms-transform: translate(15%, 0%);
+    -moz-transform: translate(15%, 0%);
+    -o-transform: translate(15%, 0%);
+    transform: translate(15%, 0%); }
+
+  70% {
+    -webkit-transform: translate(0%, 15%);
+    -ms-transform: translate(0%, 15%);
+    -moz-transform: translate(0%, 15%);
+    -o-transform: translate(0%, 15%);
+    transform: translate(0%, 15%); }
+
+  80% {
+    -webkit-transform: translate(25%, 20%);
+    -ms-transform: translate(25%, 20%);
+    -moz-transform: translate(25%, 20%);
+    -o-transform: translate(25%, 20%);
+    transform: translate(25%, 20%); }
+
+  90% {
+    -webkit-transform: translate(-10%, 10%);
+    -ms-transform: translate(-10%, 10%);
+    -moz-transform: translate(-10%, 10%);
+    -o-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%); } }
 
 .dashboard__mobile-request,
 .dashboard__mobile-request-card,
@@ -3038,14 +3192,16 @@ hr {
     margin-right: 0; }
 
 .facility__equipment-map,
-.facility__equipment-cards {
+.facility__equipment-cards,
+.facility__unit {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
   .facility__equipment-map:last-child,
-  .facility__equipment-cards:last-child {
+  .facility__equipment-cards:last-child,
+  .facility__unit:last-child {
     margin-right: 0; }
 
 .facility__equipment-map {
@@ -3096,6 +3252,122 @@ hr {
       .facility__equipment-card-img:last-child,
       .facility__equipment-card-specs:last-child {
         margin-right: 0; } }
+
+.facility__unit-aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__unit-aside:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .facility__unit-aside:last-child {
+        margin-right: 0; } }
+
+.facility__unit-showcase {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__unit-showcase:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-showcase {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      margin-right: 0; }
+      .facility__unit-showcase:last-child {
+        margin-right: 0; } }
+
+.facility__unit-info,
+.facility__unit-info-head,
+.facility__unit-info-head-title,
+.facility__unit-info-head-body,
+.facility__unit-score,
+.facility__unit-score-head,
+.facility__unit-score-head-title,
+.facility__unit-score-head-body,
+.facility__unit-info-list,
+.facility__unit-info-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__unit-info:last-child,
+  .facility__unit-info-head:last-child,
+  .facility__unit-info-head-title:last-child,
+  .facility__unit-info-head-body:last-child,
+  .facility__unit-score:last-child,
+  .facility__unit-score-head:last-child,
+  .facility__unit-score-head-title:last-child,
+  .facility__unit-score-head-body:last-child,
+  .facility__unit-info-list:last-child,
+  .facility__unit-info-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-info,
+    .facility__unit-info-head,
+    .facility__unit-info-head-title,
+    .facility__unit-info-head-body,
+    .facility__unit-score,
+    .facility__unit-score-head,
+    .facility__unit-score-head-title,
+    .facility__unit-score-head-body,
+    .facility__unit-info-list,
+    .facility__unit-info-item {
+      float: left;
+      display: block;
+      margin-right: 5.85151%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__unit-info:last-child,
+      .facility__unit-info-head:last-child,
+      .facility__unit-info-head-title:last-child,
+      .facility__unit-info-head-body:last-child,
+      .facility__unit-score:last-child,
+      .facility__unit-score-head:last-child,
+      .facility__unit-score-head-title:last-child,
+      .facility__unit-score-head-body:last-child,
+      .facility__unit-info-list:last-child,
+      .facility__unit-info-item:last-child {
+        margin-right: 0; } }
+
+.facility__unit-info-key,
+.facility__unit-info-value {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0; }
+  .facility__unit-info-key:last-child,
+  .facility__unit-info-value:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-info-key,
+    .facility__unit-info-value {
+      float: left;
+      display: block;
+      margin-right: 5.85151%;
+      width: 47.07425%; }
+      .facility__unit-info-key:last-child,
+      .facility__unit-info-value:last-child {
+        margin-right: 0; }
+      .facility__unit-info-key:nth-child(2n),
+      .facility__unit-info-value:nth-child(2n) {
+        margin-right: 0; }
+      .facility__unit-info-key:nth-child(2n+1),
+      .facility__unit-info-value:nth-child(2n+1) {
+        clear: left; } }
 
 .account__overlay {
   position: absolute;
@@ -5099,14 +5371,27 @@ dd {
       top: 0;
       left: 0;
       width: 100%;
-      margin-top: 0; }
+      margin-top: 0;
+      overflow: hidden; }
       .dashboard__index-grid-tile-thumbnail:hover .dashboard__index-grid-tile-hint {
         opacity: 1;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); } }
+        transform: translate(-50%, -50%); }
+      .dashboard__index-grid-tile-thumbnail:after {
+        animation: grain 5s steps(10) infinite;
+        -webkit-animation: grain 5s steps(10) infinite;
+        background: url(http://cl.ly/image/2m2R0A3m1b3x/noise.png);
+        opacity: 1;
+        content: '';
+        display: block;
+        height: 400%;
+        left: -100%;
+        position: absolute;
+        top: -100%;
+        width: 400%; } }
 
 .dashboard__index-grid-tile-hint {
   position: absolute;
@@ -6524,148 +6809,6 @@ dd {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
-.equipment__grid-sidebar {
-  position: relative;
-  display: block;
-  height: 464px;
-  height: 29rem;
-  overflow: scroll;
-  border-top: 3px solid #e3e5ea;
-  border-bottom: 3px solid #e3e5ea;
-  padding-top: 11.2px;
-  padding-top: 0.7rem; }
-
-.equipment__grid-sidebar-list {
-  margin-top: 0;
-  padding-bottom: 22.4px;
-  padding-bottom: 1.4rem; }
-
-.equipment__grid-sidebar-list-section {
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  line-height: 1.68;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  text-transform: uppercase; }
-  .equipment__grid-sidebar-list-section:first-of-type {
-    margin-top: 0;
-    text-transform: none;
-    color: #93989c;
-    display: none; }
-    @media screen and (min-width: 46.8em) {
-      .equipment__grid-sidebar-list-section:first-of-type {
-        display: block; } }
-    .equipment__grid-sidebar-list-section:first-of-type a:hover {
-      color: #092f3e; }
-    .equipment__grid-sidebar-list-section:first-of-type .is-selected {
-      color: #092f3e; }
-  .equipment__grid-sidebar-list-section:nth-child(2) {
-    margin-top: 11.2px;
-    margin-top: 0.7rem; }
-
-.equipment__grid-sidebar-list-item {
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  line-height: 1.68;
-  margin-top: 5.6px;
-  margin-top: 0.35rem;
-  color: #93989c;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-  .equipment__grid-sidebar-list-item:first-of-type {
-    margin-top: 11.2px;
-    margin-top: 0.7rem; }
-  .equipment__grid-sidebar-list-item a:hover {
-    color: #092f3e; }
-  .equipment__grid-sidebar-list-item .is-selected {
-    color: #092f3e; }
-
-@media screen and (min-width: 46.8em) {
-  .equipment__grid-masthead,
-  .equipment__grid-content {
-    padding-left: 22.4px;
-    padding-left: 1.4rem; } }
-
-.equipment__grid-masthead-status {
-  font-size: 19.2px;
-  font-size: 1.2rem; }
-
-.equipment__grid-blank {
-  border-top: 3px solid #e3e5ea;
-  border-bottom: 3px solid #e3e5ea;
-  min-height: 464px;
-  min-height: 29rem; }
-
-.equipment__grid-blank-overview-hero,
-.equipment__grid-blank-overview-cta,
-.equipment__grid-blank-stats-list,
-.equipment__grid-blank-stat {
-  text-align: center; }
-
-.equipment__grid-blank-overview-hero {
-  margin-top: 67.2px;
-  margin-top: 4.2rem;
-  margin-bottom: 0;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-size: 33.1776px;
-  font-size: 2.0736rem;
-  line-height: 1.35031; }
-
-.equipment__grid-blank-overview-cta {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.4;
-  margin-top: 5.6px;
-  margin-top: 0.35rem;
-  color: #93989c; }
-
-.equipment__grid-blank-stats-list {
-  margin-top: 44.8px;
-  margin-top: 2.8rem;
-  text-align: center; }
-
-.equipment__grid-blank-stat {
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  line-height: 1.68;
-  padding-right: 11.2px;
-  padding-right: 0.7rem;
-  padding-left: 11.2px;
-  padding-left: 0.7rem; }
-  .equipment__grid-blank-stat:nth-child(-n+2) {
-    border-right: 1px solid #e3e5ea; }
-  .equipment__grid-blank-stat b {
-    display: block;
-    font-size: 19.2px;
-    font-size: 1.2rem;
-    line-height: 1.16667; }
-
-.equipment__grid-facility-title {
-  font-size: 16px;
-  font-size: 1rem;
-  padding-top: 11.2px;
-  padding-top: 0.7rem;
-  padding-bottom: 11.2px;
-  padding-bottom: 0.7rem;
-  display: inline-block;
-  text-transform: none;
-  border-top: 1px dotted #e3e5ea;
-  border-bottom: 1px dotted #e3e5ea; }
-
-.equipment__grid-facility-card {
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  -webkit-border-radius: 0;
-  -ms-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0; }
-
-.equipment__grid-facility-card-img {
-  border: 4px solid white; }
-
 .facility__equipment-map-iframe {
   width: 100%;
   height: 500px;
@@ -6693,6 +6836,19 @@ dd {
   padding-right: 11.2px;
   padding-right: 0.7rem;
   text-align: center; }
+
+.facility__unit-info-list {
+  margin-top: 0; }
+
+.facility__unit-info-item {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  padding-bottom: 5.6px;
+  padding-bottom: 0.35rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  border-bottom: 1px solid #e3e5ea; }
 
 .account__details-personal-head,
 .account__details-company-head {
