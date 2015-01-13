@@ -7665,6 +7665,7 @@ dd {
     margin-bottom: 0.7rem; }
 
 .facility__identity-cover {
+  border: none;
   position: relative;
   padding: 0;
   min-height: 310px;
@@ -7674,6 +7675,9 @@ dd {
   background: url(../../assets/doral.jpg);
   background: url(../../assets/doral.jpg) center center no-repeat;
   background-size: cover; }
+  @media screen and (min-width: 46.8em) {
+    .facility__identity-cover {
+      border: 1px solid #e3e5ea; } }
 
 .facility__identity-cover-plate {
   position: absolute;
@@ -7689,15 +7693,20 @@ dd {
   -moz-box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
   -o-box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
-  padding: 22.4px;
-  padding: 1.4rem;
+  padding: 11.2px;
+  padding: 0.7rem;
   background: white;
   text-align: center; }
+  @media screen and (min-width: 46.8em) {
+    .facility__identity-cover-plate {
+      padding: 22.4px;
+      padding: 1.4rem; } }
 
 .facility__identity-cover-title {
-  font-size: 23.04px;
-  font-size: 1.44rem;
-  line-height: 1.94444;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 1.16667;
+  line-height: 1;
   margin-bottom: 0; }
   @media screen and (min-width: 46.8em) {
     .facility__identity-cover-title {
@@ -7834,7 +7843,7 @@ dd {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-top: 8px solid #092f3e;
-    margin-left: -4px; }
+    margin-left: -8px; }
   .facility__duties-list .is-active:hover {
     border-color: transparent; }
 
