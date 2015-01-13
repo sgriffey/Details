@@ -43,6 +43,31 @@ $(document).ready(function() {
             scrollTop: $(".mobileNav").offset().top
         }, 300);
     });
+    //Toggle Subnav for Facility: Unit Piece
+    $(".facility__unit-subnav-gallery").click(function(){
+            $(".facility__unit-history").addClass("is-masked");
+            $(".facility__unit-request").addClass("is-masked");
+            $(".facility__unit-gallery").removeClass("is-masked");
+            $(".facility__unit-subnav-request").removeClass("is-active");
+            $(".facility__unit-subnav-history").removeClass("is-active");
+            $(".facility__unit-subnav-gallery").addClass("is-active");
+    });
+    $(".facility__unit-subnav-request").click(function(){
+            $(".facility__unit-history").addClass("is-masked");
+            $(".facility__unit-gallery").addClass("is-masked");
+            $(".facility__unit-request").removeClass("is-masked");
+            $(".facility__unit-subnav-history").removeClass("is-active");
+            $(".facility__unit-subnav-gallery").removeClass("is-active");
+            $(".facility__unit-subnav-request").addClass("is-active");
+    });
+    $(".facility__unit-subnav-history").click(function(){
+            $(".facility__unit-request").addClass("is-masked");
+            $(".facility__unit-gallery").addClass("is-masked");
+            $(".facility__unit-history").removeClass("is-masked");
+            $(".facility__unit-subnav-request").removeClass("is-active");
+            $(".facility__unit-subnav-gallery").removeClass("is-active");
+            $(".facility__unit-subnav-history").addClass("is-active");
+    });
     //Request Work Order Dashboard Flow
     $(".dashboard__form-button-submit").click(function(){
         $(".dashboard__aside-request").toggleClass("is-masked");
@@ -221,4 +246,22 @@ $(document).ready(function() {
     $(".dashboard, .events, .page__wrapper, main, .page__poster").click(function(){
         $("article.siteNav__alerts-popover section").addClass("is-masked");
     });
+    //Jquery Datepick
+    $( "#datepicker" ).datepicker();
+    //Adding History Item
+    $(".facility__unit-history-add-event").click(function(){
+        $(".facility__unit-history-add-info").removeClass("is-masked");
+        $(".facility__unit-history-add-event").addClass("is-emphasized-post-click");
+        $(".facility__unit-history-add-event").removeClass("is-emphasized-on-hover");
+    });
 });
+
+
+
+
+
+
+
+
+
+
