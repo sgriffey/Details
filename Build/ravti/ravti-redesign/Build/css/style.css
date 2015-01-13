@@ -5496,19 +5496,7 @@ dd {
         -ms-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
-      .dashboard__index-grid-tile-thumbnail:after {
-        animation: grain 5s steps(10) infinite;
-        -webkit-animation: grain 5s steps(10) infinite;
-        background: url(http://cl.ly/image/2m2R0A3m1b3x/noise.png);
-        opacity: 0.8;
-        content: '';
-        display: block;
-        height: 400%;
-        left: -100%;
-        position: absolute;
-        top: -100%;
-        width: 400%; } }
+        transform: translate(-50%, -50%); } }
 
 .dashboard__index-grid-tile-hint {
   position: absolute;
