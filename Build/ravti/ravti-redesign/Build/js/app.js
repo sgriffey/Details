@@ -106,7 +106,7 @@ $(document).ready(function() {
         $(".accountNav__settings").toggleClass("is-masked");
         $(".accountNav__bucket").toggleClass("is-masked");
         $(".accountNav__bucket, .accountNav__settings").toggleClass("animated fadeIn");
-        $(".dashboard, .events, .page__wrapper, .page__poster").toggleClass("is-masked");
+        $(".dashboard, .events, .page__wrapper, .page__poster, .page__wrapper-bleed").toggleClass("is-masked");
         $(".account").toggleClass("is-masked");
         $(".account").toggleClass("animated bounceInUp");
     });
@@ -243,7 +243,7 @@ $(document).ready(function() {
         $("article.siteNav__alerts-popover section").addClass("is-masked");
         $(".siteNav__invoices-popover").toggleClass("is-masked");
     });
-    $(".dashboard, .events, .page__wrapper, main, .page__poster").click(function(){
+    $(".dashboard, .events, .page__wrapper, main, .page__poster, page__wrapper-bleed").click(function(){
         $("article.siteNav__alerts-popover section").addClass("is-masked");
     });
     //Jquery Datepick

@@ -8600,7 +8600,7 @@ disabled look for disabled choices in the results dropdown
   position: absolute;
   width: 1px; }
 
-.account__overlay-wrapper, .events, .page__wrapper, .page__wrapper-top-bleed, .account {
+.account__overlay-wrapper, .events, .page__wrapper, .page__wrapper-bleed, .account {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
@@ -8614,12 +8614,12 @@ disabled look for disabled choices in the results dropdown
   padding-left: 0.7rem;
   padding-right: 11.2px;
   padding-right: 0.7rem; }
-  .account__overlay-wrapper:after, .events:after, .page__wrapper:after, .page__wrapper-top-bleed:after, .account:after {
+  .account__overlay-wrapper:after, .events:after, .page__wrapper:after, .page__wrapper-bleed:after, .account:after {
     content: "";
     display: table;
     clear: both; }
   @media screen and (min-width: 46.8em) {
-    .account__overlay-wrapper, .events, .page__wrapper, .page__wrapper-top-bleed, .account {
+    .account__overlay-wrapper, .events, .page__wrapper, .page__wrapper-bleed, .account {
       margin-top: 67.2px;
       margin-top: 4.2rem;
       margin-bottom: 67.2px;
@@ -8643,19 +8643,16 @@ disabled look for disabled choices in the results dropdown
       margin-bottom: 4.2rem;
       padding: 0; } }
 
-.page__wrapper-top-bleed {
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  margin-bottom: 67.2px;
-  margin-bottom: 4.2rem;
-  padding-left: 11.2px;
-  padding-left: 0.7rem;
-  padding-right: 11.2px;
-  padding-right: 0.7rem; }
+.page__wrapper-bleed {
+  margin: 0;
+  padding: 0; }
   @media screen and (min-width: 46.8em) {
-    .page__wrapper-top-bleed {
-      margin-top: 0;
+    .page__wrapper-bleed {
+      margin: 0 auto;
       padding: 0; } }
+
+.page__wrapper-bleed + .page__wrapper {
+  margin-top: 0; }
 
 .proposal__subhead,
 .proposal__subhead-rule {
