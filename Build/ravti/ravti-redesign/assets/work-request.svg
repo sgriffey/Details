@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
     <title>work-request</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="work-request" sketch:type="MSArtboardGroup">
             <g id="walkie-talkie" sketch:type="MSLayerGroup">
-                <rect id="Rectangle-450" fill="#FDA64D" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="40" rx="2"></rect>
+                <rect id="Rectangle-450" fill="#FF9A57" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="40" rx="2"></rect>
                 <g id="signal" transform="translate(4.000000, 13.000000)" stroke="#FFFFFF" sketch:type="MSShapeGroup">
                     <path d="M25.5699198,11.5680376 C26.4646439,10.4543896 27,9.03971435 27,7.5 C27,5.97668382 26.4759864,4.57575757 25.5983841,3.4676461 M7.43183166,3.42978328 C6.53605479,4.54376474 6,5.95928122 6,7.5 C6,9.06539874 6.55336589,10.5015519 7.47515477,11.6235167" id="Oval-345"></path>
                     <path d="M4.79565936,1.94065082 C3.6658614,3.50363039 3,5.42405506 3,7.5 C3,9.5934333 3.67712748,11.528715 4.82431126,13.0987739 M28.1175606,13.1774782 C29.2999643,11.5935995 30,9.62855079 30,7.5 C30,5.41580915 29.3288383,3.48837651 28.1908556,1.9220427" id="Oval-346"></path>

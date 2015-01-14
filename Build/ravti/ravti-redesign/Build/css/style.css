@@ -750,7 +750,7 @@ hr {
 .siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__form-fieldset, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-info-cancel, .facility__unit-history-add-info-submit, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .account__details-personal-head-toolbar-save,
-.account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
+.account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
@@ -764,7 +764,7 @@ hr {
   padding-right: 22.4px;
   padding-right: 1.4rem; }
 
-.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before {
+.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before, .facility__unit-navigation-button i {
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -780,7 +780,7 @@ hr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before {
+.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before, .facility__unit-navigation-button i {
   font-family: 'ravti-icons'; }
 
 .dashboard__index-control-map i:before {
@@ -791,6 +791,9 @@ hr {
 
 .facility__unit-history-add-event:before {
   content: "\e602"; }
+
+.facility__unit-navigation-button i:before {
+  content: "\e604"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -838,7 +841,8 @@ hr {
   font-weight: 400; }
 
 .proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .billing__title,
-.facility__billing-title, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty, .facility__event-header-title {
+.facility__billing-title, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.facility__duty-bucket, .facility__event-header-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -1159,7 +1163,8 @@ hr {
 
 .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list, .facility__duty {
+.siteNav__invoices-popover-list, .facility__duty,
+.facility__duty-bucket {
   border: 1px solid #e3e5ea; }
 
 .invoice__meta-support-copy, .facility__activity-prevent-memo {
@@ -1402,12 +1407,12 @@ hr {
 .form__buttons-encourage-block-large, .form__buttons-encourage-large, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .facility__unit-request-form-field, .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .account__details-personal-input,
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .facility__unit-request-form-field, .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .account__details-personal-input,
 .account__details-company-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   padding: 0.4em 1em 0.3em 1em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item {
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -1465,11 +1470,11 @@ hr {
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel {
+.form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #e3e5ea; }
-  .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .facility__unit-history-add-info-cancel:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .facility__unit-history-add-info-cancel:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .facility__unit-history-add-info-cancel:active, .account__details-personal-confirm-cancel:active {
+  .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .facility__unit-navigation-button:hover, .facility__unit-history-add-info-cancel:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .facility__unit-navigation-button:focus, .facility__unit-history-add-info-cancel:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .facility__unit-navigation-button:active, .facility__unit-history-add-info-cancel:active, .account__details-personal-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-encourage-large, .proposal__form-button-encourage {
@@ -3085,7 +3090,8 @@ hr {
 
 .facility__equipment-map,
 .facility__equipment-cards,
-.facility__unit {
+.facility__unit,
+.facility__unit-navigation {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -3093,7 +3099,8 @@ hr {
   margin-right: 0; }
   .facility__equipment-map:last-child,
   .facility__equipment-cards:last-child,
-  .facility__unit:last-child {
+  .facility__unit:last-child,
+  .facility__unit-navigation:last-child {
     margin-right: 0; }
 
 .facility__equipment-map {
@@ -4655,16 +4662,39 @@ hr {
       .facility__abstract-contact-number:last-child {
         margin-right: 0; } }
 
-.facility__duties,
-.facility__duties-list {
+.facility__duties {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .facility__duties:last-child,
-  .facility__duties-list:last-child {
+  .facility__duties:last-child {
     margin-right: 0; }
+
+.facility__duties-list {
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .facility__duties-list {
+      display: block;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__duties-list:last-child {
+        margin-right: 0; } }
+
+.facility__duties-mobile-list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__duties-mobile-list:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__duties-mobile-list {
+      display: none; } }
 
 .facility__duty {
   float: left;
@@ -4679,13 +4709,25 @@ hr {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 18.11388%; }
+      width: 14.70196%; }
       .facility__duty:last-child {
         margin-right: 0; }
-      .facility__duty:nth-child(5n) {
+      .facility__duty:nth-child(6n) {
         margin-right: 0; }
-      .facility__duty:nth-child(5n+1) {
+      .facility__duty:nth-child(6n+1) {
         clear: left; } }
+
+.facility__duty-bucket {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .facility__duty-bucket:last-child {
+    margin-right: 0; }
+  .facility__duty-bucket:nth-child(3n) {
+    margin-right: 0; }
+  .facility__duty-bucket:nth-child(3n+1) {
+    clear: left; }
 
 .facility__activity {
   float: left;
@@ -7567,14 +7609,38 @@ dd {
   padding-right: 0.7rem;
   text-align: center; }
 
-@media screen and (min-width: 46.8em) {
-  .facility__unit {
-    margin-top: 44.8px;
-    margin-top: 2.8rem; } }
+.facility__unit {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
 
-@media screen and (min-width: 46.8em) {
-  .facility__unit-info-head {
-    margin-top: 0; } }
+.facility__unit-navigation-button {
+  border-width: 1px;
+  -webkit-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  font-weight: 300;
+  font-style: normal; }
+  .facility__unit-navigation-button i {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    line-height: 1.68;
+    margin-right: 5.6px;
+    margin-right: 0.35rem; }
+  .facility__unit-navigation-button:hover, .facility__unit-navigation-button:active, .facility__unit-navigation-button:focus {
+    border-width: 1px; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-navigation-button {
+      margin-bottom: 22.4px;
+      margin-bottom: 1.4rem; } }
+
+.facility__unit-info-head {
+  margin-top: 0; }
 
 @media screen and (min-width: 46.8em) {
   .facility__unit-score-head {
@@ -7697,6 +7763,10 @@ dd {
   padding-left: 34px;
   padding-left: 2.125rem;
   line-height: 1.6; }
+
+.facility__unit-history-head {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
 
 .facility__unit-history-add-event {
   border: 1px dashed #c7cacd;
@@ -8292,13 +8362,15 @@ dd {
   padding: 0;
   min-height: 310px;
   min-height: 19.375rem;
-  margin-bottom: 22.4px;
-  margin-bottom: 1.4rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
   background: url(../../assets/doral.jpg);
   background: url(../../assets/doral.jpg) center center no-repeat;
   background-size: cover; }
   @media screen and (min-width: 46.8em) {
     .facility__identity-cover {
+      margin-bottom: 22.4px;
+      margin-bottom: 1.4rem;
       border: 1px solid #e3e5ea; } }
 
 .facility__identity-cover-plate {
@@ -8327,21 +8399,21 @@ dd {
 .facility__identity-cover-title {
   font-size: 19.2px;
   font-size: 1.2rem;
-  line-height: 1.16667;
   line-height: 1;
-  margin-bottom: 0; }
+  margin-bottom: 5.6px;
+  margin-bottom: 0.35rem; }
   @media screen and (min-width: 46.8em) {
     .facility__identity-cover-title {
       font-size: 33.1776px;
-      font-size: 2.0736rem;
-      line-height: 1.35031; } }
+      font-size: 2.0736rem; } }
 
 .facility__identity-cover-location span {
   display: block;
   font-style: normal;
   font-size: 13.33333px;
   font-size: 0.83333rem;
-  line-height: 1.68; }
+  line-height: 1.68;
+  line-height: 1.2; }
   @media screen and (min-width: 46.8em) {
     .facility__identity-cover-location span {
       font-size: 16px;
@@ -8474,7 +8546,27 @@ dd {
   .facility__duties-list .is-active:hover {
     border-color: transparent; }
 
-.facility__duty {
+.facility__duties-mobile-list a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  height: 2.8125rem;
+  vertical-align: middle; }
+  .facility__duties-mobile-list a:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+.facility__duties-mobile-list .is-active {
+  position: relative;
+  background: #092f3e;
+  border-color: transparent;
+  color: white; }
+  .facility__duties-mobile-list .is-active:hover {
+    border-color: transparent; }
+
+.facility__duty,
+.facility__duty-bucket {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   line-height: 1.68;
@@ -8482,8 +8574,13 @@ dd {
   text-transform: uppercase;
   text-align: center;
   background: white; }
-  .facility__duty:hover {
+  .facility__duty:hover,
+  .facility__duty-bucket:hover {
     border-color: #c7cacd; }
+
+.facility__duty-bucket {
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
 
 .facility__activity-prevent-prompt {
   font-size: 19.2px;
@@ -8720,7 +8817,10 @@ dd {
     display: block;
     color: #93989c; }
 
-.facility__projects-subnav,
+.facility__projects-subnav {
+  margin-top: 44.8px;
+  margin-top: 2.8rem; }
+
 .facility__projects-feed {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
@@ -8745,7 +8845,10 @@ dd {
   color: #f35b5b;
   border-bottom-color: #f35b5b; }
 
-.facility__service-subnav,
+.facility__service-subnav {
+  margin-top: 44.8px;
+  margin-top: 2.8rem; }
+
 .facility__service-feed {
   margin-top: 22.4px;
   margin-top: 1.4rem; }

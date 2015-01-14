@@ -11,6 +11,16 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    // Facility Equipment Interaction
+    $(".facility__equipment-card").click(function(){
+        $(".facility__unit,.facility__equipment-cards,.facility__equipment-map").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".facility__overview").offset().top
+        }, 500);
+    });
+    $(".facility__unit-navigation-button").click(function(){
+        $(".facility__unit,.facility__equipment-cards,.facility__equipment-map").toggleClass("is-masked");
+    });
     //Request Work Mobile
     $(".dashboard__mobile-request-card").click(function(){
         $(".dashboard").toggleClass("is-overlaid");
