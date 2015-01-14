@@ -184,36 +184,16 @@
 		</div>
 	</nav>
 	<!-- Main Content/Page View -->
-	<section class="page__poster">
+	<section class="page__wrapper-bleed">
 		<section class="facility__identity">
-			<section class="facility__abstract">
-				<div class="facility__abstract-map">
-					<figure class="facility__abstract-map-view"></figure>
+			<section class="facility__identity-cover">
+				<div class="facility__identity-cover-plate">
+					<h1 class="facility__identity-cover-title">8200 Doral</h1>
+					<address class="facility__identity-cover-location">
+						<span>NW 9th Ave</span>
+						<span>Doral, FL. 33178</span>
+					</address>
 				</div>
-				<h1 class="facility__abstract-title">820 Doral</h1>
-				<address class="facility__abstract-address">
-					<span>NW 9th Ave</span>
-					<span>Doral, FL. 33178</span>
-				</address>
-				<ul class="facility__abstract-contacts">
-					<li class="facility__abstract-contact">
-						<span class="facility__abstract-contact-name">Fred Mcgriff</span>
-						<span class="facility__abstract-contact-role">Asset Manager</span>
-						<span class="facility__abstract-contact-number">(925) 283-3458</span>
-					</li>
-					<li class="facility__abstract-contact">
-						<span class="facility__abstract-contact-name">Ken Griffey</span>
-						<span class="facility__abstract-contact-role">Property Manager</span>
-						<span class="facility__abstract-contact-number">(805) 490-3622</span>
-					</li>
-					<li class="facility__abstract-contact">
-						<span class="facility__abstract-contact-name">Frank Thomas</span>
-						<span class="facility__abstract-contact-role">Engineer</span>
-						<span class="facility__abstract-contact-number">(823) 490-3622</span>
-					</li>
-				</ul>
-			</section>
-			<section class="facility__hero">
 			</section>
 		</section>
 	</section>
@@ -221,17 +201,16 @@
 		<section class="facility__overview">
 			<nav class="facility__duties">
 				<ul class="facility__duties-list">
-					<li class="facility__duty"><a href="/facility.html">Activity</a></li>
-					<li class="facility__duty"><a href="facility/projects.html">Projects</a></li></a>
-					<li class="facility__duty"><a href="service-calls.html">Service Calls</a></li>
+					<li class="facility__duty"><a href="activity.html">Activity</a></li>
+					<li class="facility__duty"><a href="projects-blank.html">Projects</a></li></a>
+					<li class="facility__duty"><a href="service-blank.html">Service Calls</a></li>
 					<li class="facility__duty"><a href="equipment.html">Equipment</a></li>
-					<li class="facility__duty is-active"><a href="#">Billing</a></li>
+					<li class="current current facility__duty is-active"><a class='current current' href="billing.html">Billing</a></li>
 				</ul>
 			</nav>
 			<section class ="facility__billing">
 				<section class="facility__billing-feed">
-					<h2 class="facility__billing-title">Invoices</h2>
-					<table class="facility__billing-table">
+					<table class="facility__billing-table is-masked">
 						<thead class="facility__billing-thead">
 						<tr class="facility__billing-tr">
 							<th class="facility__billing-th">Invoice #</th>
@@ -261,6 +240,10 @@
 						</tr>
 						</tbody>
 				    </table>
+				    <div class="facility__billing-feed-blank">
+					    <h2>No Payments Due</h2>
+					    <p>Visit <a href="../billing.html">Outstanding Invoices</a> to ensure all payments are taken care of.</p>
+					</div>
 				</section>
 			</section>
 		</section>

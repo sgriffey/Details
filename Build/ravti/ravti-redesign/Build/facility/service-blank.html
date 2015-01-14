@@ -183,7 +183,6 @@
 			<img class="accountNav__toggle-image" src="../assets/dismiss-trigger-inverted.svg"/>
 		</div>
 	</nav>
-	<!-- Main Content/Page View -->
 	<section class="page__wrapper-bleed">
 		<section class="facility__identity">
 			<section class="facility__identity-cover">
@@ -203,65 +202,128 @@
 				<ul class="facility__duties-list">
 					<li class="facility__duty"><a href="activity.html">Activity</a></li>
 					<li class="facility__duty"><a href="projects-blank.html">Projects</a></li></a>
-					<li class="facility__duty"><a href="service-blank.html">Service Calls</a></li>
-					<li class="current current facility__duty is-active"><a class='current current' href="equipment.html">Equipment</a></li>
+					<li class="current current facility__duty is-active"><a class='current current' href="service-blank.html">Service Calls</a></li>
+					<li class="facility__duty"><a href="equipment.html">Equipment</a></li>
 					<li class="facility__duty"><a href="billing.html">Billing</a></li>
 				</ul>
 			</nav>
-			<section class="facility__equipment-map">
-				<iframe class="facility__equipment-map-iframe" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=18&center=37.4330%2C-122.1707&key=AIzaSyDbVOB4rMG7dbuJc13tMDIpkgEXv3zZtCI&maptype=satellite"></iframe>
-			</section>
-			<section class="facility__equipment-cards">
-				<article class="facility__equipment-card">
-					<img class="facility__equipment-card-img" src="../assets/rtu.jpg" />
-					<ul class="facility__equipment-card-specs">
-						<li class="facility__equipment-card-spec">RTU-3</li>
-						<li class="facility__equipment-card-spec">Trane</li>
-						<li class="facility__equipment-card-spec">7.5</li>
-						<li class="facility__equipment-card-spec">2003</li>
+			<section class ="facility__service">
+				<nav class="facility__service-subnav">
+					<ul class="facility__service-subnav-buckets">
+						<li class="facility__service-subnav-active is-active"><a href="">In-Progress</a></li>
+						<li class="facility__service-subnav-completed"><a href="">Completed</a></li>
 					</ul>
-				</article>
-				<article class="facility__equipment-card">
-					<img class="facility__equipment-card-img" src="../assets/rtu-2.jpg" />
-					<ul class="facility__equipment-card-specs">
-						<li class="facility__equipment-card-spec">RTU-3</li>
-						<li class="facility__equipment-card-spec">Trane</li>
-						<li class="facility__equipment-card-spec">7.5</li>
-						<li class="facility__equipment-card-spec">2003</li>
-					</ul>
-				</article>
-				<article class="facility__equipment-card">
-					<img class="facility__equipment-card-img" src="../assets/rtu-4.jpg" />
-					<ul class="facility__equipment-card-specs">
-						<li class="facility__equipment-card-spec">RTU-3</li>
-						<li class="facility__equipment-card-spec">Trane</li>
-						<li class="facility__equipment-card-spec">7.5</li>
-						<li class="facility__equipment-card-spec">2003</li>
-					</ul>
-				</article>
-				<article class="facility__equipment-card">
-					<img class="facility__equipment-card-img" src="../assets/rtu-2.jpg" />
-					<ul class="facility__equipment-card-specs">
-						<li class="facility__equipment-card-spec">RTU-3</li>
-						<li class="facility__equipment-card-spec">Trane</li>
-						<li class="facility__equipment-card-spec">7.5</li>
-						<li class="facility__equipment-card-spec">2003</li>
-					</ul>
-				</article>
-				<article class="facility__equipment-card">
-					<img class="facility__equipment-card-img" src="../assets/rtu-2.jpg" />
-					<ul class="facility__equipment-card-specs">
-						<li class="facility__equipment-card-spec">RTU-3</li>
-						<li class="facility__equipment-card-spec">Trane</li>
-						<li class="facility__equipment-card-spec">7.5</li>
-						<li class="facility__equipment-card-spec">2003</li>
-					</ul>
-				</article>
+				</nav>
+				<section class="facility__service-feed">
+					<table class="facility__service-table is-masked">
+						<thead class="facility__service-thead">
+							<tr class="facility__service-tr">
+								<th class="facility__service-th">Job #</th>
+								<th class="facility__service-th">Description</th>
+							</tr>
+						</thead>
+						<tbody class="facility__service-tbody">
+						<tr class="facility__service-tr">
+							<td class="facility__service-td"><a href="invoice.html">GIB - 002</a></td>
+							<td class="facility__service-td">10/11/14</td>
+							<td class="facility__service-td">$1,234.34</td>
+							<td class="facility__service-td">Due</td>
+						</tr>
+						<tr class="facility__service-tr">
+							<td class="facility__service-td"><a href="invoice.html">GIB - 005</a></td>
+							<td class="facility__service-td">10/11/14</td>
+							<td class="facility__service-td">$1,234.34</td>
+							<td class="facility__service-td">Paid</td>
+						</tr>
+						<tr class="facility__service-tr">
+							<td class="facility__service-td"><a href="invoice.html">GIB - 007</a></td>
+							<td class="facility__service-td">10/11/14</td>
+							<td class="facility__service-td">$1,234.34</td>
+							<td class="facility__service-td">Paid</td>
+						</tr>
+						</tbody>
+				    </table>
+				    <div class="facility__service-feed-blank">
+					    <h2>No Service Calls Requested</h2>
+					    <p>Visit this facility's <a href="../facility.html">Activity</a> page to see an overview of what's happening.</p>
+					</div>
+				</section>
 			</section>
 		</section>
 	</section>
 	<!-- End Content/Page View -->
+	<div class="account is-masked">
+	<nav class="account__subnav">
+		<ul class="account__subnav-buckets">
+			<li class="account__subnav-details is-active"><a href="">Details</a></li>
+			<li class="account__subnav-settings"><a href="">Notifications</a></li>
+			<li class="account__subnav-permissions"><a href="">Permissions</a></li>
+		</ul>
+	</nav>
+	<section class="account__details">
+		<section class="account__details-personal">
+			<header class="account__details-personal-head">
+				<h1 class="account__details-personal-head-title">Personal Information</h1>
+				<div class="account__details-personal-head-toolbar">
+					<button class="account__details-personal-head-toolbar-edit"></button>
+					<button class="account__details-personal-head-toolbar-lock is-masked"></button>
+				</div>
+			</header>
+			<section class="account__details-personal-body">
+				<form class="account__details-personal-form">
+					<label class="account__details-personal-label">First Name</label>
+					<input type="text" class="account__details-personal-input" value="Gil" disabled="true">
+					<label class="account__details-personal-label">Last Name</label>
+					<input type="text" class="account__details-personal-input" value="Villasenor" disabled="true">
+					<label class="account__details-personal-label">Email</label>
+					<input type="text" class="account__details-personal-input" value="gvillasenor@1111brickell.com" disabled="true">
+					<label class="account__details-personal-label">Phone</label>
+					<input type="text" class="account__details-personal-input" value="(786) 261-8509" disabled="true">
+					<div class="account__details-personal-confirm is-masked">
+						<input class="account__details-personal-confirm-cancel" type="button" value="Cancel"><input class="account__details-personal-confirm-save" type="button" value="Save">
+					</div>
+				</form>
+			</section>
+		</section>
+		<section class="account__details-company">
+			<header class="account__details-company-head">
+				<h1 class="account__details-company-head-title">Company Information</h1>
+			</header>
+			<section class="account__details-company-body">
+				<form class="account__details-company-form">
+					<label class="account__details-company-label">Company Name</label>
+					<input type="text" class="account__details-company-input" value="Gibson">
+					<label class="account__details-company-label">Contact Number</label>
+					<input type="text" class="account__details-company-input" value="(786) 261-8509">
+					<label class="account__details-company-label">Street Address</label>
+					<input type="text" class="account__details-company-input" value="8200NW 33rd St.">
+					<fieldset class="account__details-company-fieldset">
+						<div class="account__details-company-fieldset-3col">
+							<label class="account__details-company-label">City</label>
+							<input type="text" class="account__details-company-input" value="Doral">
+						</div>
+						<div class="account__details-company-fieldset-3col">
+							<label class="account__details-company-label">State</label>
+							<input type="text" class="account__details-company-input" value="FL">
+						</div>
+						<div class="account__details-company-fieldset-3col">
+							<label class="account__details-company-label">Zip</label>
+							<input type="text" class="account__details-company-input" value="3122">
+						</div>
+					</fieldset>
+					<fieldset class="account__details-company-fieldset-toggle">
+						<span class="account__details-company-inline-label">Tax exempt?</span>
+						<div class="account__details-company-toggle">
+							<input class="account__details-company-toggle-switch" type="radio" value="Yes" name="tax"><input class="account__details-company-toggle-switch" type="radio" value="No" name="tax">
+						</div>
+					</fieldset>
+				</form>
+			</section>
+		</section>
+	</section>
+</div>
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	    <script src="js/app.js"></script>
+	    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	    <script src="../js/app.js"></script>
 </body>
 </html>
