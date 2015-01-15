@@ -748,14 +748,16 @@ hr {
 .siteNav__invoices-popover-item-facility,
 .siteNav__invoices-popover-item-reference,
 .siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__form-fieldset, .proposal__terms-scan-list, .proposal__terms-view-scopes,
-.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-info-cancel, .facility__unit-history-add-info-submit, .account__details-personal-form,
+.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-cancel, .facility__unit-history-add-mobile-submit,
+.facility__unit-history-add-info-submit, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-.dashboard__mobile-request, .dashboard__index-grid-tile-hint b, .overlay__scope, .overlay__equipment-specs, .overlay__confirm, .overlay__request {
+.dashboard__mobile-request, .dashboard__index-grid-tile-hint b, .overlay__scope, .overlay__equipment-specs, .overlay__confirm, .overlay__request, .facility__unit-history-add-mobile {
   padding: 0 11.2px; }
 
 .dashboard__index-header, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-info-finalize {
@@ -764,7 +766,8 @@ hr {
   padding-right: 22.4px;
   padding-right: 1.4rem; }
 
-.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before, .facility__unit-navigation-button i {
+.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
+.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i {
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -780,7 +783,8 @@ hr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before, .facility__unit-navigation-button i {
+.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
+.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i {
   font-family: 'ravti-icons'; }
 
 .dashboard__index-control-map i:before {
@@ -789,7 +793,8 @@ hr {
 .dashboard__index-control-grid i:before {
   content: "\e601"; }
 
-.facility__unit-history-add-event:before {
+.facility__unit-history-add-event:before,
+.facility__unit-history-add-mobile:before {
   content: "\e602"; }
 
 .facility__unit-navigation-button i:before {
@@ -801,7 +806,8 @@ hr {
 .account__details-personal-head-toolbar-cancel {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-info-label, .account__details-personal-label,
+.overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .proposal__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
+.facility__unit-history-add-info-label, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden, .siteNav__alert-events, .siteNav__events-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .facility__unit-info-key, .ui-state-highlight, .ui-state-active, .account__details-personal-head-toolbar-save,
@@ -818,10 +824,14 @@ hr {
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .project__abstract-head h1, .facility__unit-info-head h1,
 .facility__unit-score-head h1, .facility__unit-history-head h1, .account__details-personal-head h1,
-.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-contacts-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .proposal__terms-view-doc, .invoice__meta-doc-view, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
-.account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
-.account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
-.account__details-company-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+.account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-contacts-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .proposal__terms-view-doc, .invoice__meta-doc-view, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
+.facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.account__details-company-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
+.facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+.account__details-company-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-mobile-date::-moz-placeholder,
+.facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+.account__details-company-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-mobile-date:-ms-input-placeholder,
+.facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
 .account__details-company-input:-ms-input-placeholder, .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
   font-weight: 400; }
 
@@ -1407,12 +1417,17 @@ hr {
 .form__buttons-encourage-block-large, .form__buttons-encourage-large, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .facility__unit-request-form-field, .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .account__details-personal-input,
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
+.facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
+.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .account__details-personal-input,
 .account__details-company-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   padding: 0.4em 1em 0.3em 1em; }
 
-.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item {
+.form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
+.facility__unit-history-add-info-submit, .account__details-personal-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -1456,11 +1471,15 @@ hr {
 .form__buttons-encourage-block-large {
   width: 100%; }
 
-.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-info-submit, .account__details-personal-confirm-save {
+.form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
+.facility__unit-history-add-info-submit, .account__details-personal-confirm-save {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
-  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-submit:hover, .proposal__procure-services-qa-post-btn:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .overlay__request-form-button-submit:hover, .facility__unit-request-form-button-submit:hover, .facility__unit-history-add-info-submit:hover, .account__details-personal-confirm-save:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__request-form-button-submit:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-info-submit:focus, .account__details-personal-confirm-save:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-submit:active, .proposal__procure-services-qa-post-btn:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__request-form-button-submit:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-info-submit:active, .account__details-personal-confirm-save:active {
+  .form__buttons-encourage:hover, .form__input-button-bleed:hover, .dashboard__form-button-submit:hover, .proposal__procure-services-qa-post-btn:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .overlay__request-form-button-submit:hover, .facility__unit-request-form-button-submit:hover, .facility__unit-history-add-mobile-submit:hover,
+  .facility__unit-history-add-info-submit:hover, .account__details-personal-confirm-save:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .dashboard__form-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__request-form-button-submit:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-mobile-submit:focus,
+  .facility__unit-history-add-info-submit:focus, .account__details-personal-confirm-save:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .dashboard__form-button-submit:active, .proposal__procure-services-qa-post-btn:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__request-form-button-submit:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-mobile-submit:active,
+  .facility__unit-history-add-info-submit:active, .account__details-personal-confirm-save:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-discourage {
@@ -1470,11 +1489,15 @@ hr {
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel {
+.form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .facility__unit-navigation-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-cancel, .account__details-personal-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #e3e5ea; }
-  .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .facility__unit-navigation-button:hover, .facility__unit-history-add-info-cancel:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .facility__unit-navigation-button:focus, .facility__unit-history-add-info-cancel:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .facility__unit-navigation-button:active, .facility__unit-history-add-info-cancel:active, .account__details-personal-confirm-cancel:active {
+  .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .facility__unit-navigation-button:hover, .facility__unit-history-add-mobile-cancel:hover,
+  .facility__unit-history-add-info-cancel:hover, .account__details-personal-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .facility__unit-navigation-button:focus, .facility__unit-history-add-mobile-cancel:focus,
+  .facility__unit-history-add-info-cancel:focus, .account__details-personal-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .facility__unit-navigation-button:active, .facility__unit-history-add-mobile-cancel:active,
+  .facility__unit-history-add-info-cancel:active, .account__details-personal-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-encourage-large, .proposal__form-button-encourage {
@@ -1791,7 +1814,8 @@ hr {
     [disabled="true"].form__input-field-large:hover, [disabled="true"].form__input-field-large:focus {
       border-color: #c7cacd; }
 
-.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .facility__unit-request-form-field, .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .account__details-personal-input,
+.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
+.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .account__details-personal-input,
 .account__details-company-input {
   -webkit-appearance: none;
   font-size: 16px;
@@ -1805,38 +1829,49 @@ hr {
   padding-left: 11.2px;
   font-family: "jaf-bernino-sans", sans-serif;
   outline: none; }
-  .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .dashboard__form-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .overlay__request-form-field:active, .facility__unit-request-form-field:active, .facility__unit-history-add-info-date:active, .facility__unit-history-add-info-textarea:active, .account__details-personal-input:active,
-  .account__details-company-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__form-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .overlay__request-form-field:focus, .facility__unit-request-form-field:focus, .facility__unit-history-add-info-date:focus, .facility__unit-history-add-info-textarea:focus, .account__details-personal-input:focus,
+  .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .dashboard__form-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .overlay__request-form-field:active, .facility__unit-request-form-field:active, .facility__unit-history-add-mobile-date:active,
+  .facility__unit-history-add-info-date:active, .facility__unit-history-add-info-textarea:active, .account__details-personal-input:active,
+  .account__details-company-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__form-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .overlay__request-form-field:focus, .facility__unit-request-form-field:focus, .facility__unit-history-add-mobile-date:focus,
+  .facility__unit-history-add-info-date:focus, .facility__unit-history-add-info-textarea:focus, .account__details-personal-input:focus,
   .account__details-company-input:focus {
     border-color: #66c3b0; }
-  [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].dashboard__form-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].overlay__request-form-field, [disabled="true"].facility__unit-request-form-field, [disabled="true"].facility__unit-history-add-info-date, [disabled="true"].facility__unit-history-add-info-textarea, [disabled="true"].account__details-personal-input,
+  [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].dashboard__form-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].overlay__request-form-field, [disabled="true"].facility__unit-request-form-field, [disabled="true"].facility__unit-history-add-mobile-date,
+  [disabled="true"].facility__unit-history-add-info-date, [disabled="true"].facility__unit-history-add-info-textarea, [disabled="true"].account__details-personal-input,
   [disabled="true"].account__details-company-input {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].dashboard__form-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].overlay__request-form-field:checked, [disabled="true"].facility__unit-request-form-field:checked, [disabled="true"].facility__unit-history-add-info-date:checked, [disabled="true"].facility__unit-history-add-info-textarea:checked, [disabled="true"].account__details-personal-input:checked,
+    [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].dashboard__form-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].overlay__request-form-field:checked, [disabled="true"].facility__unit-request-form-field:checked, [disabled="true"].facility__unit-history-add-mobile-date:checked,
+    [disabled="true"].facility__unit-history-add-info-date:checked, [disabled="true"].facility__unit-history-add-info-textarea:checked, [disabled="true"].account__details-personal-input:checked,
     [disabled="true"].account__details-company-input:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].dashboard__form-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].overlay__request-form-field:hover, [disabled="true"].facility__unit-request-form-field:hover, [disabled="true"].facility__unit-history-add-info-date:hover, [disabled="true"].facility__unit-history-add-info-textarea:hover, [disabled="true"].account__details-personal-input:hover,
-    [disabled="true"].account__details-company-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__form-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].overlay__request-form-field:focus, [disabled="true"].facility__unit-request-form-field:focus, [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].account__details-personal-input:focus,
+    [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].dashboard__form-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].overlay__request-form-field:hover, [disabled="true"].facility__unit-request-form-field:hover, [disabled="true"].facility__unit-history-add-mobile-date:hover,
+    [disabled="true"].facility__unit-history-add-info-date:hover, [disabled="true"].facility__unit-history-add-info-textarea:hover, [disabled="true"].account__details-personal-input:hover,
+    [disabled="true"].account__details-company-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__form-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].overlay__request-form-field:focus, [disabled="true"].facility__unit-request-form-field:focus, [disabled="true"].facility__unit-history-add-mobile-date:focus,
+    [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].account__details-personal-input:focus,
     [disabled="true"].account__details-company-input:focus {
       border-color: #c7cacd; }
-  .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+  .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
+  .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
   .account__details-company-input::-webkit-input-placeholder {
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+  .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
+  .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
   .account__details-company-input:-moz-placeholder {
     /* Firefox 18- */
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+  .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-mobile-date::-moz-placeholder,
+  .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
   .account__details-company-input::-moz-placeholder {
     /* Firefox 19+ */
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+  .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-mobile-date:-ms-input-placeholder,
+  .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
   .account__details-company-input:-ms-input-placeholder {
     color: #c7cacd; }
 
-.form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-info-label, .account__details-personal-label,
+.form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
+.facility__unit-history-add-info-label, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .form__input-field-label-hidden {
   display: block;
   font-size: 13.33333px;
@@ -3091,7 +3126,11 @@ hr {
 .facility__equipment-map,
 .facility__equipment-cards,
 .facility__unit,
-.facility__unit-navigation {
+.facility__unit-navigation,
+.facility__unit-history-add-mobile,
+.facility__unit-history-add-mobile-label,
+.facility__unit-history-add-mobile-date,
+.facility__unit-history-add-mobile-finalize {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -3100,7 +3139,11 @@ hr {
   .facility__equipment-map:last-child,
   .facility__equipment-cards:last-child,
   .facility__unit:last-child,
-  .facility__unit-navigation:last-child {
+  .facility__unit-navigation:last-child,
+  .facility__unit-history-add-mobile:last-child,
+  .facility__unit-history-add-mobile-label:last-child,
+  .facility__unit-history-add-mobile-date:last-child,
+  .facility__unit-history-add-mobile-finalize:last-child {
     margin-right: 0; }
 
 .facility__equipment-map {
@@ -3303,6 +3346,7 @@ hr {
 .facility__unit-history-add,
 .facility__unit-history-add-event,
 .facility__unit-history-add-event-cta,
+.facility__unit-history-add-event-mobile,
 .facility__unit-history-add-info,
 .facility__unit-history-add-info-legend,
 .facility__unit-history-add-info-fieldset,
@@ -3341,6 +3385,7 @@ hr {
   .facility__unit-history-add:last-child,
   .facility__unit-history-add-event:last-child,
   .facility__unit-history-add-event-cta:last-child,
+  .facility__unit-history-add-event-mobile:last-child,
   .facility__unit-history-add-info:last-child,
   .facility__unit-history-add-info-legend:last-child,
   .facility__unit-history-add-info-fieldset:last-child,
@@ -3376,6 +3421,7 @@ hr {
     .facility__unit-history-add,
     .facility__unit-history-add-event,
     .facility__unit-history-add-event-cta,
+    .facility__unit-history-add-event-mobile,
     .facility__unit-history-add-info,
     .facility__unit-history-add-info-legend,
     .facility__unit-history-add-info-fieldset,
@@ -3414,6 +3460,7 @@ hr {
       .facility__unit-history-add:last-child,
       .facility__unit-history-add-event:last-child,
       .facility__unit-history-add-event-cta:last-child,
+      .facility__unit-history-add-event-mobile:last-child,
       .facility__unit-history-add-info:last-child,
       .facility__unit-history-add-info-legend:last-child,
       .facility__unit-history-add-info-fieldset:last-child,
@@ -7693,7 +7740,8 @@ dd {
 
 .facility__unit-score-sheet-meter-green {
   background: #66c3b0;
-  width: 40%; }
+  width: 40%;
+  border-right: 0; }
 
 .facility__unit-subnav {
   margin-top: 22.4px;
@@ -7768,12 +7816,21 @@ dd {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
-.facility__unit-history-add-event {
+.facility__unit-history-add {
+  border-bottom: none; }
+
+.facility__unit-history-index {
+  border-top: 1px solid #e3e5ea; }
+
+.facility__unit-history-add-event,
+.facility__unit-history-add-mobile {
   border: 1px dashed #c7cacd;
   position: relative; }
-  .facility__unit-history-add-event:hover {
+  .facility__unit-history-add-event:hover,
+  .facility__unit-history-add-mobile:hover {
     cursor: pointer; }
-  .facility__unit-history-add-event:before {
+  .facility__unit-history-add-event:before,
+  .facility__unit-history-add-mobile:before {
     text-align: center;
     color: #93989c;
     background: white;
@@ -7796,6 +7853,18 @@ dd {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border: 2px solid white; }
+
+.facility__unit-history-add-mobile {
+  display: block; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-history-add-mobile {
+      display: none; } }
+
+.facility__unit-history-add-event {
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-history-add-event {
+      display: block; } }
 
 .facility__unit-history-add-info {
   -webkit-transform: translate(0, -22.4px);
@@ -7851,6 +7920,7 @@ dd {
   color: #54545a;
   text-align: center; }
 
+.facility__unit-history-add-mobile-date,
 .facility__unit-history-add-info-date {
   margin-bottom: 0; }
 
@@ -7869,6 +7939,14 @@ dd {
   border: none;
   margin-top: 0; }
 
+.facility__unit-history-add-mobile-finalize {
+  text-align: right;
+  padding-top: 22.4px;
+  padding-top: 1.4rem;
+  padding-bottom: 22.4px;
+  padding-bottom: 1.4rem; }
+
+.facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel {
   margin-right: 11.2px;
   margin-right: 0.7rem; }
