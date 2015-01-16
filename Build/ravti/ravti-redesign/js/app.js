@@ -11,6 +11,29 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    // HVAC Suite Lease Display Lease + Form Details
+    $(".facility__suite-upload-lease-input").change(function(){
+        $(".facility__suite-lease-body, .facility__suite-upload-lease-form, .facility__suite-upload-lease-view, .facility__suite-lease-head-toolbar").toggleClass("is-masked");
+    });
+    // HVAC Suite Lease Form Toggle Details
+    $('.facility__suite-lease-head-toolbar-edit').click(function() {
+        $('.facility__suite-lease-form-input').attr("disabled", false);
+        $('.facility__suite-lease-head-toolbar-edit').toggleClass("is-masked");
+        $('.facility__suite-lease-head-toolbar-lock').toggleClass("is-masked");
+        $('.facility__suite-lease-form-confirm').toggleClass("is-masked");
+    });
+    $('.facility__suite-lease-head-toolbar-lock').click(function() {
+        $('.facility__suite-lease-form-input').attr("disabled", true);
+       $('.facility__suite-lease-head-toolbar-edit').toggleClass("is-masked");
+        $('.facility__suite-lease-head-toolbar-lock').toggleClass("is-masked");
+        $('.facility__suite-lease-form-confirm').toggleClass("is-masked");
+    });
+    $('.facility__suite-lease-form-confirm-cancel, .facility__suite-lease-form-confirm-save').click(function() {
+        $('.facility__suite-lease-form-input').attr("disabled", true);
+        $('.facility__suite-lease-head-toolbar-edit').toggleClass("is-masked");
+        $('.facility__suite-lease-head-toolbar-lock').toggleClass("is-masked");
+        $('.facility__suite-lease-form-confirm').toggleClass("is-masked");
+    });
     // Facility Equipment Interaction
     $(".facility__equipment-card").click(function(){
         $(".facility__unit,.facility__equipment-cards,.facility__equipment-map").toggleClass("is-masked");
