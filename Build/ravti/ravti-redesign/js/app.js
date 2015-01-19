@@ -44,7 +44,20 @@ $(document).ready(function() {
     $(".facility__unit-navigation-button").click(function(){
         $(".facility__unit,.facility__equipment-cards,.facility__equipment-map").toggleClass("is-masked");
     });
-    //Request Work Mobile
+    // Jquery Datepick
+    $( "#datepicker" ).datepicker();
+    // Adding History Item
+    $(".facility__unit-history-add-event").click(function(){
+        $(".facility__unit-history-add-info").removeClass("is-masked");
+        $(".facility__unit-history-add-event").addClass("is-emphasized-post-click");
+        $(".facility__unit-history-add-event").removeClass("is-emphasized-on-hover");
+    });
+    $(".facility__unit-history-add-info-cancel").click(function(){
+        $(".facility__unit-history-add-info").toggleClass("is-masked");
+        $(".facility__unit-history-add-event").toggleClass("is-emphasized-post-click");
+        $(".facility__unit-history-add-event").toggleClass("is-emphasized-on-hover");
+    });
+    // Request Work Mobile
     $(".dashboard__mobile-request-card").click(function(){
         $(".dashboard").toggleClass("is-overlaid");
         $(".overlay__request-wrapper").toggleClass("is-masked");
@@ -197,8 +210,15 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
-     $(".project__equipment-piece, .proposal__procure-goods-part").click(function(){
+    $(".project__equipment-piece, .proposal__procure-goods-part").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay-equipment").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay-equipment").offset().top
+            }, 500);
+    });
+    $(".facility__suite-unit-card").click(function(){
+            $(".page__wrapper, .page__wrapper-bleed").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
             $('html, body').animate({
                 scrollTop: $("#overlay-equipment").offset().top
@@ -278,14 +298,6 @@ $(document).ready(function() {
     });
     $(".dashboard, .events, .page__wrapper, main, .page__poster, page__wrapper-bleed").click(function(){
         $("article.siteNav__alerts-popover section").addClass("is-masked");
-    });
-    //Jquery Datepick
-    $( "#datepicker" ).datepicker();
-    //Adding History Item
-    $(".facility__unit-history-add-event").click(function(){
-        $(".facility__unit-history-add-info").removeClass("is-masked");
-        $(".facility__unit-history-add-event").addClass("is-emphasized-post-click");
-        $(".facility__unit-history-add-event").removeClass("is-emphasized-on-hover");
     });
 });
 

@@ -768,7 +768,7 @@ hr {
   padding-right: 1.4rem; }
 
 .dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i {
+.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i, .facility__suite-navigation-button i {
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -785,7 +785,7 @@ hr {
   -moz-osx-font-smoothing: grayscale; }
 
 .dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i {
+.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i, .facility__suite-navigation-button i {
   font-family: 'ravti-icons'; }
 
 .dashboard__index-control-map i:before {
@@ -798,7 +798,7 @@ hr {
 .facility__unit-history-add-mobile:before {
   content: "\e602"; }
 
-.facility__unit-navigation-button i:before {
+.facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before {
   content: "\e604"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
@@ -860,7 +860,12 @@ hr {
 
 .proposal__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
-.facility__duty-bucket, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suite-tally-total {
+.facility__duty-bucket, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
+.facility__suites-paginate-prev,
+.facility__suites-paginate-page,
+.facility__suites-paginate-gap,
+.facility__suites-paginate-next,
+.facility__suites-paginate-last, .facility__suite-tally-total {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -1430,6 +1435,32 @@ hr {
 .facility__billing-feed-blank:before {
   background: url(../assets/billing-blank-slate.svg) center center no-repeat; }
 
+.facility__unit-navigation-button, .facility__suite-navigation-button {
+  border-width: 1px;
+  -webkit-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  font-weight: 300;
+  font-style: normal; }
+  .facility__unit-navigation-button i, .facility__suite-navigation-button i {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    line-height: 1.68;
+    margin-right: 5.6px;
+    margin-right: 0.35rem; }
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus {
+    border-width: 1px; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-navigation-button, .facility__suite-navigation-button {
+      margin-bottom: 22.4px;
+      margin-bottom: 1.4rem; } }
+
 .hero {
   background: #66c3b0;
   min-height: 20rem;
@@ -1522,7 +1553,7 @@ hr {
   padding: 0.6em 2em 0.5em 2em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-navigation-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
 .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
@@ -1530,7 +1561,7 @@ hr {
   padding: 0.4em 1em 0.3em 1em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-navigation-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
@@ -1593,14 +1624,14 @@ hr {
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-navigation-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-navigation-button, .facility__suite-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #e3e5ea; }
-  .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .account__details-personal-confirm-cancel:hover, .facility__unit-navigation-button:hover, .facility__unit-history-add-mobile-cancel:hover,
-  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .account__details-personal-confirm-cancel:focus, .facility__unit-navigation-button:focus, .facility__unit-history-add-mobile-cancel:focus,
-  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .account__details-personal-confirm-cancel:active, .facility__unit-navigation-button:active, .facility__unit-history-add-mobile-cancel:active,
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .account__details-personal-confirm-cancel:hover, .facility__unit-history-add-mobile-cancel:hover,
+  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .account__details-personal-confirm-cancel:focus, .facility__unit-history-add-mobile-cancel:focus,
+  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .account__details-personal-confirm-cancel:active, .facility__unit-history-add-mobile-cancel:active,
   .facility__unit-history-add-info-cancel:active, .facility__suite-lease-form-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
@@ -2095,6 +2126,32 @@ hr {
   background: rgba(102, 195, 176, 0.2);
   border-color: #66c3b0; }
 
+.facility__unit-navigation-button, .facility__suite-navigation-button {
+  border-width: 1px;
+  -webkit-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  font-weight: 300;
+  font-style: normal; }
+  .facility__unit-navigation-button i, .facility__suite-navigation-button i {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    line-height: 1.68;
+    margin-right: 5.6px;
+    margin-right: 0.35rem; }
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus {
+    border-width: 1px; }
+  @media screen and (min-width: 46.8em) {
+    .facility__unit-navigation-button, .facility__suite-navigation-button {
+      margin-bottom: 22.4px;
+      margin-bottom: 1.4rem; } }
+
 .table__example {
   float: left;
   display: block;
@@ -2168,7 +2225,6 @@ hr {
 .table__hover-thead, .projects__queue-thead,
 .projects__live-thead, .overlay__confirm-bid-thead, .billing__thead,
 .facility__billing-thead, .invoice__sheet-bill-thead, .facility__unit-history-index-thead, .facility__projects-thead, .facility__service-thead, .facility__suites-thead, .events__feed-tr:first-child {
-  border-bottom: 2px solid #e3e5ea;
   text-align: left; }
 
 .table__basic-th,
@@ -2187,6 +2243,11 @@ hr {
 .projects__live-tr, .overlay__confirm-bid-tr, .overlay__confirm-bid-sum-tr, .billing__tr,
 .facility__billing-tr, .invoice__sheet-bill-tr, .invoice__sheet-bill-sum-tr, .facility__unit-history-index-tr, .facility__projects-tr, .facility__service-tr, .facility__suites-tr, .events__feed-tr {
   border-bottom: 1px solid #e3e5ea; }
+  .table__basic-tr:last-child,
+  .table__hover-tr:last-child, .table__striped-tr:last-child, .projects__queue-tr:last-child,
+  .projects__live-tr:last-child, .overlay__confirm-bid-tr:last-child, .overlay__confirm-bid-sum-tr:last-child, .billing__tr:last-child,
+  .facility__billing-tr:last-child, .invoice__sheet-bill-tr:last-child, .invoice__sheet-bill-sum-tr:last-child, .facility__unit-history-index-tr:last-child, .facility__projects-tr:last-child, .facility__service-tr:last-child, .facility__suites-tr:last-child, .events__feed-tr:last-child {
+    border-bottom: 3px solid #e3e5ea; }
 
 .table__basic-td,
 .table__striped-td,
@@ -5357,6 +5418,8 @@ hr {
 .facility__suites-tbody,
 .facility__suites-thead,
 .facility__suites-tr,
+.facility__suites-paginate,
+.facility__suite-navigation,
 .facility__suite {
   float: left;
   display: block;
@@ -5368,6 +5431,8 @@ hr {
   .facility__suites-tbody:last-child,
   .facility__suites-thead:last-child,
   .facility__suites-tr:last-child,
+  .facility__suites-paginate:last-child,
+  .facility__suite-navigation:last-child,
   .facility__suite:last-child {
     margin-right: 0; }
 
@@ -7804,6 +7869,9 @@ dd {
   margin-bottom: 0.7rem;
   border-bottom: 1px solid #e3e5ea; }
 
+.overlay__equipment-gallery-image {
+  background: #e3e5ea; }
+
 .overlay__scope-title {
   font-size: 33.1776px;
   font-size: 2.0736rem;
@@ -8881,32 +8949,6 @@ dd {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
-.facility__unit-navigation-button {
-  border-width: 1px;
-  -webkit-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
-  margin-bottom: 22.4px;
-  margin-bottom: 1.4rem;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  font-weight: 300;
-  font-style: normal; }
-  .facility__unit-navigation-button i {
-    font-size: 13.33333px;
-    font-size: 0.83333rem;
-    line-height: 1.68;
-    margin-right: 5.6px;
-    margin-right: 0.35rem; }
-  .facility__unit-navigation-button:hover, .facility__unit-navigation-button:active, .facility__unit-navigation-button:focus {
-    border-width: 1px; }
-  @media screen and (min-width: 46.8em) {
-    .facility__unit-navigation-button {
-      margin-bottom: 22.4px;
-      margin-bottom: 1.4rem; } }
-
 .facility__unit-info-head {
   margin-top: 0; }
 
@@ -9333,13 +9375,85 @@ dd {
   margin-top: 44.8px;
   margin-top: 2.8rem; }
 
+.facility__suites-tr .is-unoccupied {
+  font-style: italic;
+  color: #93989c; }
+  .facility__suites-tr .is-unoccupied:before {
+    content: "\2014 ";
+    display: inline-block;
+    color: rgba(9, 47, 62, 0.4);
+    margin-right: 4px;
+    margin-right: 0.25rem; }
+  .facility__suites-tr .is-unoccupied:after {
+    content: "\2014 ";
+    display: inline-block;
+    color: rgba(9, 47, 62, 0.4);
+    margin-left: 4px;
+    margin-left: 0.25rem; }
+
+@media screen and (min-width: 46.8em) {
+  .facility__suites-td {
+    font-size: 16px;
+    font-size: 1rem; } }
+
+.facility__suites-paginate {
+  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem; }
+
+.facility__suites-paginate-first,
+.facility__suites-paginate-prev,
+.facility__suites-paginate-page,
+.facility__suites-paginate-gap,
+.facility__suites-paginate-next,
+.facility__suites-paginate-last {
+  display: inline-block;
+  margin-right: 5.6px;
+  margin-right: 0.35rem; }
+  .facility__suites-paginate-first a,
+  .facility__suites-paginate-prev a,
+  .facility__suites-paginate-page a,
+  .facility__suites-paginate-gap a,
+  .facility__suites-paginate-next a,
+  .facility__suites-paginate-last a {
+    display: inline-block;
+    border: 1px solid #e3e5ea;
+    padding-left: 11.2px;
+    padding-left: 0.7rem;
+    padding-right: 11.2px;
+    padding-right: 0.7rem;
+    padding-top: 6px;
+    padding-top: 0.375rem;
+    padding-bottom: 6px;
+    padding-bottom: 0.375rem; }
+    .facility__suites-paginate-first a:hover,
+    .facility__suites-paginate-prev a:hover,
+    .facility__suites-paginate-page a:hover,
+    .facility__suites-paginate-gap a:hover,
+    .facility__suites-paginate-next a:hover,
+    .facility__suites-paginate-last a:hover {
+      cursor: pointer;
+      border-color: #93989c; }
+  .facility__suites-paginate-first .is-current,
+  .facility__suites-paginate-prev .is-current,
+  .facility__suites-paginate-page .is-current,
+  .facility__suites-paginate-gap .is-current,
+  .facility__suites-paginate-next .is-current,
+  .facility__suites-paginate-last .is-current {
+    border-color: transparent;
+    background: #66c3b0;
+    color: white; }
+    .facility__suites-paginate-first .is-current:hover,
+    .facility__suites-paginate-prev .is-current:hover,
+    .facility__suites-paginate-page .is-current:hover,
+    .facility__suites-paginate-gap .is-current:hover,
+    .facility__suites-paginate-next .is-current:hover,
+    .facility__suites-paginate-last .is-current:hover {
+      border-color: transparent;
+      cursor: default; }
+
 .facility__suite {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
-  @media screen and (min-width: 46.8em) {
-    .facility__suite {
-      margin-top: 44.8px;
-      margin-top: 2.8rem; } }
 
 .facility__suite-info-head,
 .facility__suite-lease-head,
