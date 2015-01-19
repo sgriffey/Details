@@ -11,6 +11,14 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    //Repair Equipment Overlay
+    $(".repair__unit").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay-equipment").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay-equipment").offset().top
+            }, 500);
+    });
     // HVAC Suite Lease Display Lease + Form Details
     $(".facility__suite-upload-lease-input").change(function(){
         $(".facility__suite-lease-body, .facility__suite-upload-lease-form, .facility__suite-upload-lease-view, .facility__suite-lease-head-toolbar").toggleClass("is-masked");
