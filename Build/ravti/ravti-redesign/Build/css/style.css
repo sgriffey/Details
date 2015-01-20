@@ -864,7 +864,7 @@ hr {
   font-weight: 400; }
 
 .proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
-.facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
 .facility__duty-bucket, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
 .facility__suites-paginate-prev,
 .facility__suites-paginate-page,
@@ -885,7 +885,7 @@ hr {
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__timeline, .project__qa, .billing__late,
-.facility__billing-feed, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .events__feed {
+.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .events__feed {
   padding: 22.4px;
   padding: 1.4rem;
   margin-top: 22.4px;
@@ -1284,9 +1284,9 @@ hr {
 .facility__suite-upload-lease-view-doc:before {
   background-image: url(../../assets/tenant-lease-contract.svg); }
 
-.facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
+.facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .facility__activity-feed-blank p a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
   border-bottom: 1px solid #e3e5ea; }
-  .facility__projects-feed-blank p a:hover, .facility__service-feed-blank p a:hover, .facility__billing-feed-blank p a:hover, .invoice__meta-support-copy a:hover, .facility__activity-prevent-memo a:hover {
+  .facility__projects-feed-blank p a:hover, .facility__service-feed-blank p a:hover, .facility__billing-feed-blank p a:hover, .facility__activity-feed-blank p a:hover, .invoice__meta-support-copy a:hover, .facility__activity-prevent-memo a:hover {
     cursor: pointer;
     color: #092f3e;
     border-bottom-color: #092f3e; }
@@ -1409,10 +1409,10 @@ hr {
   transition-delay: initial;
   -webkit-transition-delay: initial; }
 
-.facility__projects-feed-blank, .facility__service-feed-blank, .facility__billing-feed-blank {
+.facility__projects-feed-blank, .facility__service-feed-blank, .facility__billing-feed-blank, .facility__activity-feed-blank {
   text-align: center;
   color: #93989c; }
-  .facility__projects-feed-blank:before, .facility__service-feed-blank:before, .facility__billing-feed-blank:before {
+  .facility__projects-feed-blank:before, .facility__service-feed-blank:before, .facility__billing-feed-blank:before, .facility__activity-feed-blank:before {
     content: '';
     margin: 0 auto;
     display: block;
@@ -1421,21 +1421,21 @@ hr {
     width: 58px;
     width: 3.625rem;
     background: center center no-repeat; }
-  .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2 {
+  .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2 {
     font-size: 19.2px;
     font-size: 1.2rem;
     margin: 0;
     margin-top: 11.2px;
     margin-top: 0.7rem; }
-  .facility__projects-feed-blank p, .facility__service-feed-blank p, .facility__billing-feed-blank p {
+  .facility__projects-feed-blank p, .facility__service-feed-blank p, .facility__billing-feed-blank p, .facility__activity-feed-blank p {
     margin-top: 5.6px;
     margin-top: 0.35rem;
     font-size: 13.33333px;
     font-size: 0.83333rem; }
 
 .facility__projects-feed, .facility__service-feed {
-  min-height: 200px;
-  min-height: 12.5rem; }
+  min-height: 203px;
+  min-height: 12.6875rem; }
 
 .facility__projects-feed-blank:before {
   background: url(../../assets/projects-blank-slate.svg) center center no-repeat; }
@@ -1445,6 +1445,13 @@ hr {
 
 .facility__billing-feed-blank:before {
   background: url(../../assets/billing-blank-slate.svg) center center no-repeat; }
+
+.facility__activity-feed-blank:before {
+  width: 282px;
+  width: 17.625rem;
+  height: 42px;
+  height: 2.625rem;
+  background: url(../../assets/activity-blank-slate.svg) center center no-repeat; }
 
 .facility__unit-navigation-button, .facility__suite-navigation-button {
   border-width: 1px;
@@ -5114,6 +5121,7 @@ hr {
         margin-right: 0; } }
 
 .facility__activity-feed-event,
+.facility__activity-feed-blank,
 .facility__event-header,
 .facility__event-summary,
 .facility__event-summary-list,
@@ -5130,6 +5138,7 @@ hr {
   width: 100%;
   margin-right: 0; }
   .facility__activity-feed-event:last-child,
+  .facility__activity-feed-blank:last-child,
   .facility__event-header:last-child,
   .facility__event-summary:last-child,
   .facility__event-summary-list:last-child,
@@ -5143,6 +5152,7 @@ hr {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .facility__activity-feed-event,
+    .facility__activity-feed-blank,
     .facility__event-header,
     .facility__event-summary,
     .facility__event-summary-list,
@@ -5159,6 +5169,7 @@ hr {
       width: 100%;
       margin-right: 0; }
       .facility__activity-feed-event:last-child,
+      .facility__activity-feed-blank:last-child,
       .facility__event-header:last-child,
       .facility__event-summary:last-child,
       .facility__event-summary-list:last-child,
@@ -9489,20 +9500,45 @@ dd {
   .facility__activity-feed-event-anchor:hover {
     cursor: pointer; }
 
-.facility__activity-feed-event {
+.facility__activity-feed-event,
+.facility__activity-feed-blank {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
   @media screen and (min-width: 46.8em) {
-    .facility__activity-feed-event {
+    .facility__activity-feed-event,
+    .facility__activity-feed-blank {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
-  .facility__activity-feed-event:hover {
+  .facility__activity-feed-event:hover,
+  .facility__activity-feed-blank:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     -ms-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     -moz-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     -o-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1); }
+
+.facility__activity-feed-blank {
+  border: 1px dashed #c7cacd;
+  background: transparent; }
+  .facility__activity-feed-blank:hover {
+    cursor: default;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    -ms-box-shadow: 0 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 0 transparent;
+    -o-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent; }
+  @media screen and (min-width: 46.8em) {
+    .facility__activity-feed-blank {
+      min-height: 408px;
+      min-height: 25.5rem; }
+      .facility__activity-feed-blank:before {
+        margin-top: 67.2px;
+        margin-top: 4.2rem; } }
+  .facility__activity-feed-blank p {
+    max-width: 320px;
+    max-width: 20rem;
+    margin: 5.6px auto 0; }
 
 .facility__event-header {
   margin-top: 0;
