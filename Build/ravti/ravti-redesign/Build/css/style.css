@@ -9521,6 +9521,8 @@ dd {
 .facility__activity-feed-blank {
   border: 1px dashed #c7cacd;
   background: transparent; }
+  .facility__activity-feed-blank:before {
+    width: 100%; }
   .facility__activity-feed-blank:hover {
     cursor: default;
     -webkit-box-shadow: 0 0 0 0 transparent;
