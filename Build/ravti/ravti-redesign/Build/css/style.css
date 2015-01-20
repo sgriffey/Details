@@ -9621,11 +9621,11 @@ dd {
   .facility__event-summary-list-item:first-of-type {
     padding-top: 0; }
   .facility__event-summary-list-item:nth-child(1) .facility__event-summary-list-term:before {
-    background-image: url(../../assets/manufacturer.svg); }
+    background-image: url(../../assets/activity-equipment.svg); }
   .facility__event-summary-list-item:nth-child(2) .facility__event-summary-list-term:before {
-    background-image: url(../../assets/tag.svg); }
+    background-image: url(../../assets/activity-issue.svg); }
   .facility__event-summary-list-item:nth-child(3) .facility__event-summary-list-term:before {
-    background-image: url(../../assets/tonnage.svg); }
+    background-image: url(../../assets/activity-priority.svg); }
   .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-term:before {
     background-image: url(../../assets/comment.svg); }
   .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
@@ -9695,7 +9695,13 @@ dd {
   margin: 0; }
   .facility__event-meta-stamp-user img {
     max-width: 40px;
-    max-width: 2.5rem; }
+    max-width: 2.5rem;
+    -webkit-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+    overflow: hidden; }
 
 .facility__event-meta-stamp-cite {
   vertical-align: middle;
