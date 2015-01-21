@@ -7800,6 +7800,12 @@ dd {
 .proposal__form-head-title span {
   opacity: 0; }
 
+.proposal__form-head-toolbar {
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .proposal__form-head-toolbar {
+      display: block; } }
+
 .proposal__form-head-toolbar-save {
   padding-left: 22.4px;
   padding-left: 1.4rem;
