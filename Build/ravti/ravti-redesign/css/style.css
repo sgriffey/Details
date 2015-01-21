@@ -725,7 +725,7 @@ hr {
       min-height: 260px;
       min-height: 16.25rem; } }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .projects__subnav-active,
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
 .proposal__procure-subnav-qa, .project__details-subnav-terms,
 .project__details-subnav-equipment,
@@ -803,7 +803,7 @@ hr {
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list, .account__details-personal-head-toolbar-save,
+.siteNav__invoices-popover-list, .proposal__form-head-toolbar-save, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   font-family: "jaf-bernino-sans", sans-serif; }
 
@@ -971,7 +971,7 @@ hr {
     margin-bottom: 0;
     display: inline-block; }
 
-.account__details-personal-head-toolbar, .facility__suite-lease-head-toolbar {
+.proposal__form-head-toolbar, .account__details-personal-head-toolbar, .facility__suite-lease-head-toolbar {
   position: absolute;
   right: 22.4px;
   right: 1.4rem;
@@ -982,7 +982,7 @@ hr {
   -o-transform: translateY(50%);
   transform: translateY(50%); }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit {
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save {
   background: white;
   border: 1px solid #e3e5ea;
   -webkit-border-radius: 999px;
@@ -994,43 +994,23 @@ hr {
   height: 2.5rem;
   width: 40px;
   width: 2.5rem; }
-  .account__details-personal-head-toolbar-edit:before, .facility__suite-lease-head-toolbar-edit:before {
+  .account__details-personal-head-toolbar-edit:before, .facility__suite-lease-head-toolbar-edit:before, .account__details-personal-head-toolbar-lock:before, .facility__suite-lease-head-toolbar-lock:before, .proposal__form-head-toolbar-save:before {
     content: '';
     display: inline-block;
     height: 30px;
     height: 1.875rem;
     width: 30px;
     width: 1.875rem;
-    background: center center no-repeat;
-    background-image: url(../assets/edit-form.svg); }
-  .account__details-personal-head-toolbar-edit:hover, .facility__suite-lease-head-toolbar-edit:hover, .account__details-personal-head-toolbar-edit:focus, .facility__suite-lease-head-toolbar-edit:focus, .account__details-personal-head-toolbar-edit:active, .facility__suite-lease-head-toolbar-edit:active {
+    background: center center no-repeat; }
+  .account__details-personal-head-toolbar-edit:hover, .facility__suite-lease-head-toolbar-edit:hover, .account__details-personal-head-toolbar-lock:hover, .facility__suite-lease-head-toolbar-lock:hover, .proposal__form-head-toolbar-save:hover, .account__details-personal-head-toolbar-edit:focus, .facility__suite-lease-head-toolbar-edit:focus, .account__details-personal-head-toolbar-lock:focus, .facility__suite-lease-head-toolbar-lock:focus, .proposal__form-head-toolbar-save:focus, .account__details-personal-head-toolbar-edit:active, .facility__suite-lease-head-toolbar-edit:active, .account__details-personal-head-toolbar-lock:active, .facility__suite-lease-head-toolbar-lock:active, .proposal__form-head-toolbar-save:active {
     outline: 0;
     border-color: #c7cacd; }
 
-.account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock {
-  background: white;
-  border: 1px solid #e3e5ea;
-  -webkit-border-radius: 999px;
-  -ms-border-radius: 999px;
-  -moz-border-radius: 999px;
-  -o-border-radius: 999px;
-  border-radius: 999px;
-  height: 40px;
-  height: 2.5rem;
-  width: 40px;
-  width: 2.5rem; }
-  .account__details-personal-head-toolbar-lock:before, .facility__suite-lease-head-toolbar-lock:before {
-    content: '';
-    display: inline-block;
-    height: 30px;
-    height: 1.875rem;
-    width: 30px;
-    width: 1.875rem;
-    background: center center no-repeat;
-    background-image: url(../assets/lock-icon.svg); }
-  .account__details-personal-head-toolbar-lock:hover, .facility__suite-lease-head-toolbar-lock:hover, .account__details-personal-head-toolbar-lock:focus, .facility__suite-lease-head-toolbar-lock:focus, .account__details-personal-head-toolbar-lock:active, .facility__suite-lease-head-toolbar-lock:active {
-    outline: 0;
-    border-color: #c7cacd; }
+.account__details-personal-head-toolbar-edit:before, .facility__suite-lease-head-toolbar-edit:before {
+  background-image: url(../assets/edit-form.svg); }
+
+.account__details-personal-head-toolbar-lock:before, .facility__suite-lease-head-toolbar-lock:before {
+  background-image: url(../assets/lock-icon.svg); }
 
 .proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .repair__abstract-body,
 .repair__scope-body,
@@ -7817,31 +7797,46 @@ dd {
   .proposal__terms-view-scope-doc:last-of-type {
     margin-bottom: 0; }
 
-.proposal__form-save {
-  position: absolute;
-  display: inline-block;
-  top: 0;
-  right: 0;
-  font-size: 13.33333px;
-  font-size: 0.83333rem; }
-  .proposal__form-save b {
-    position: relative; }
-  .proposal__form-save:before {
+.proposal__form-head-title span {
+  opacity: 0; }
+
+.proposal__form-head-toolbar-save {
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  padding-right: 44.8px;
+  padding-right: 2.8rem;
+  width: auto;
+  color: #c7cacd;
+  vertical-align: middle;
+  position: relative; }
+  .proposal__form-head-toolbar-save:before {
     content: '';
-    position: absolute;
     display: inline-block;
-    top: 2px;
-    top: 0.125rem;
-    left: -18px;
-    left: -1.125rem;
-    height: 14px;
-    height: 0.875rem;
-    width: 14px;
-    width: 0.875rem;
-    margin-right: 5.6px;
-    margin-right: 0.35rem;
-    background: center center no-repeat;
-    background-image: url(../assets/save-icon.svg); }
+    height: 100%;
+    width: auto;
+    vertical-align: middle; }
+  .proposal__form-head-toolbar-save:hover, .proposal__form-head-toolbar-save:focus, .proposal__form-head-toolbar-save:active {
+    color: #93989c; }
+  .proposal__form-head-toolbar-save i {
+    position: absolute;
+    height: 40px;
+    height: 2.5rem;
+    width: 40px;
+    width: 2.5rem;
+    display: inline-block;
+    top: 0;
+    right: 0; }
+    .proposal__form-head-toolbar-save i:before {
+      content: '';
+      display: inline-block;
+      height: 34px;
+      height: 2.125rem;
+      width: 34px;
+      width: 2.125rem;
+      margin-right: 5.6px;
+      margin-right: 0.35rem;
+      background: center center no-repeat;
+      background-image: url(../assets/pdf-download-icon.svg); }
 
 .proposal__form-fieldset {
   margin-top: 22.4px;
