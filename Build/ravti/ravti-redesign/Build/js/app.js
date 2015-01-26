@@ -11,6 +11,25 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    // Onboard Interaction steps
+    $(".onboard-dashboard__button-submit").click(function(){
+            $(".is-form-beacon").toggleClass("is-masked");
+            $(".onboard-dashboard__request, .onboard-dashboard__form").toggleClass("is-slid-out");
+            $(".onboard-dashboard__facility").addClass("is-slid-down");
+            $(".is-tile-beacon").toggleClass("is-masked");
+    });
+    // Onboard Notifications Overlay
+    $(".onboard-facility__button-finish").click(function(){
+            $(".page__wrapper, .page__wrapper-bleed").toggleClass("is-overlaid");
+            $(".overlay__onboard-wrapper").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay-onboard").offset().top
+            }, 500);
+    });
+    $(".overlay__confirm-form-button-neutral").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay__confirm-wrapper").toggleClass("is-masked");
+    });
     //Repair Equipment Overlay
     $(".repair__unit").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
