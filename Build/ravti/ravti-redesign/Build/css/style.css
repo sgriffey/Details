@@ -456,12 +456,14 @@ table {
     display: table;
     clear: both; }
 
-.overlay__equipment {
+.overlay__equipment,
+.overlay__inspections {
   max-width: 91.125rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 60rem; }
-  .overlay__equipment:after {
+  .overlay__equipment:after,
+  .overlay__inspections:after {
     content: "";
     display: table;
     clear: both; }
@@ -689,7 +691,7 @@ hr {
   position: fixed; }
 
 .is-overlaid {
-  max-height: 100%;
+  max-height: 80%;
   overflow-y: hidden; }
 
 .is-inverted-dark {
@@ -741,11 +743,7 @@ hr {
   -o-transform: translateY(-300%);
   transform: translateY(-300%); }
 
-<<<<<<< HEAD
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .projects__subnav-active,
-=======
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .projects__subnav-active,
->>>>>>> onboard
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
 .proposal__procure-subnav-qa, .project__details-subnav-terms,
 .project__details-subnav-equipment,
@@ -755,7 +753,8 @@ hr {
 .facility__unit-subnav-request,
 .facility__unit-subnav-history, .facility__projects-subnav-active,
 .facility__projects-subnav-completed, .facility__service-subnav-active,
-.facility__service-subnav-completed, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .repair__abstract-dl, .repair__abstract-scope, .form__buttons-group, .form__example-fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
+.facility__service-subnav-completed, .facility__pm-subnav-equipment,
+.facility__pm-subnav-tenants, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .repair__abstract-dl, .repair__abstract-scope, .form__buttons-group, .form__example-fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -768,17 +767,17 @@ hr {
 .siteNav__invoices-popover-item-facility,
 .siteNav__invoices-popover-item-reference,
 .siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__index-grid-tiles-onboard, .dashboard__form-fieldset, .proposal__terms-scan-list, .proposal__terms-view-scopes,
-.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .overlay__onboard-copy, .overlay__onboard-fieldset, .account__details-personal-form,
+.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-info-list,
-.facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .sidebar ul, .sidebar li {
+.facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .facility__pm-timeline-list, .facility__pm-equipment-specs, .facility__pm-equipment-inspections, .facility__pm-tenant-list, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-.dashboard__mobile-request, .dashboard__index-grid-tile-hint b, .repair__unit-card-specs, .overlay__scope, .overlay__equipment-specs, .overlay__confirm, .overlay__request, .overlay__onboard, .facility__unit-history-add-mobile {
+.dashboard__mobile-request, .dashboard__index-grid-tile-hint b, .repair__unit-card-specs, .overlay__scope, .overlay__equipment-specs, .overlay__confirm, .overlay__request, .overlay__onboard, .overlay__inspections, .facility__unit-history-add-mobile, .facility__pm-equipment-specs, .facility__pm-equipment-inspections {
   padding: 0 11.2px; }
 
 .dashboard__index-header, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-info-finalize {
@@ -788,7 +787,7 @@ hr {
   padding-right: 1.4rem; }
 
 .dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i, .facility__suite-navigation-button i {
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -805,7 +804,7 @@ hr {
   -moz-osx-font-smoothing: grayscale; }
 
 .dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__unit-navigation-button i, .facility__suite-navigation-button i {
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
   font-family: 'ravti-icons'; }
 
 .dashboard__index-control-map i:before {
@@ -815,10 +814,10 @@ hr {
   content: "\e601"; }
 
 .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before {
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before {
   content: "\e602"; }
 
-.facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before {
+.facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before {
   content: "\e604"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
@@ -837,7 +836,7 @@ hr {
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
 .invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__activity-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2), .facility__unit-info-key, .ui-state-highlight, .ui-state-active, .facility__suite-info-key,
-.facility__suite-lease-key {
+.facility__suite-lease-key, .facility__pm-tenant-list-titles span, .facility__pm-tenant-action-enroll {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
@@ -847,14 +846,18 @@ hr {
 .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-contacts-head, .facility__activity-prevent-head, .facility__event-header, .facility__unit-info-head,
 .facility__unit-score-head, .facility__unit-history-head, .facility__suite-info-head,
 .facility__suite-lease-head,
-.facility__suite-service-head, .proposal__abstract-head h1, .proposal__form-head h1,
+.facility__suite-service-head, .facility__pm-upcoming-head,
+.facility__pm-timeline-head,
+.facility__pm-approval-head, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .repair__abstract-head h1,
 .repair__bid-head h1, .repair__unit-head h1, .project__abstract-head h1, .account__details-personal-head h1,
 .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-contacts-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .facility__unit-info-head h1,
 .facility__unit-score-head h1, .facility__unit-history-head h1, .facility__suite-info-head h1,
 .facility__suite-lease-head h1,
-.facility__suite-service-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.facility__suite-service-head h1, .facility__pm-upcoming-head h1,
+.facility__pm-timeline-head h1,
+.facility__pm-approval-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
 .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
 .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
@@ -872,7 +875,9 @@ hr {
 .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-contacts-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .facility__unit-info-head h1,
 .facility__unit-score-head h1, .facility__unit-history-head h1, .facility__suite-info-head h1,
 .facility__suite-lease-head h1,
-.facility__suite-service-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
+.facility__suite-service-head h1, .facility__pm-upcoming-head h1,
+.facility__pm-timeline-head h1,
+.facility__pm-approval-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
 .billing__defcon2-tbody .billing__th,
 .billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
@@ -884,15 +889,16 @@ hr {
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
 
-.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
+.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
-.onboard-facility__aside-summary-cta, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
-.facility__duty-bucket, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
+.onboard-facility__aside-summary-cta, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.facility__duty-bucket, .facility__activity-prevent-copy, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
 .facility__suites-paginate-prev,
 .facility__suites-paginate-page,
 .facility__suites-paginate-gap,
 .facility__suites-paginate-next,
-.facility__suites-paginate-last, .facility__suite-tally-total {
+.facility__suites-paginate-last, .facility__suite-tally-total, .facility__pm-upcoming-date, .facility__pm-upcoming-vendor-title, .facility__pm-timeline-event-type, .facility__pm-equipment-parent-suite,
+.facility__pm-equipment-parent-tenant, .facility__pm-equipment-full-view {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -907,7 +913,7 @@ hr {
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__timeline, .project__qa, .billing__late,
-.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .events__feed {
+.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .facility__pm-tenant-body, .events__feed {
   padding: 22.4px;
   padding: 1.4rem;
   margin-top: 22.4px;
@@ -916,8 +922,8 @@ hr {
   border: 1px solid #e3e5ea;
   overflow: hidden; }
 
-.proposal__procure-goods-part, .project__equipment-piece, .facility__equipment-card, .facility__unit-gallery-feature-photo,
-.facility__unit-gallery-grid-photo, .facility__suite-unit-card {
+.facility__equipment-card, .facility__unit-gallery-feature-photo,
+.facility__unit-gallery-grid-photo, .facility__suite-unit-card, .facility__pm-equipment-card, .proposal__procure-goods-part, .project__equipment-piece {
   padding: 0;
   background: white;
   border: 1px solid #e3e5ea;
@@ -927,7 +933,7 @@ hr {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt {
+.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -939,7 +945,9 @@ hr {
 .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-contacts-head, .facility__activity-prevent-head, .facility__event-header, .facility__unit-info-head,
 .facility__unit-score-head, .facility__unit-history-head, .facility__suite-info-head,
 .facility__suite-lease-head,
-.facility__suite-service-head {
+.facility__suite-service-head, .facility__pm-upcoming-head,
+.facility__pm-timeline-head,
+.facility__pm-approval-head {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -967,7 +975,9 @@ hr {
   .account__details-company-head:last-child, .invoice__sheet-head:last-child, .invoice__meta-summary-head:last-child, .invoice__meta-doc-head:last-child, .invoice__meta-support-head:last-child, .facility__activity-contacts-head:last-child, .facility__activity-prevent-head:last-child, .facility__event-header:last-child, .facility__unit-info-head:last-child,
   .facility__unit-score-head:last-child, .facility__unit-history-head:last-child, .facility__suite-info-head:last-child,
   .facility__suite-lease-head:last-child,
-  .facility__suite-service-head:last-child {
+  .facility__suite-service-head:last-child, .facility__pm-upcoming-head:last-child,
+  .facility__pm-timeline-head:last-child,
+  .facility__pm-approval-head:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-head, .proposal__form-head,
@@ -977,7 +987,9 @@ hr {
     .account__details-company-head, .invoice__sheet-head, .invoice__meta-summary-head, .invoice__meta-doc-head, .invoice__meta-support-head, .facility__activity-contacts-head, .facility__activity-prevent-head, .facility__event-header, .facility__unit-info-head,
     .facility__unit-score-head, .facility__unit-history-head, .facility__suite-info-head,
     .facility__suite-lease-head,
-    .facility__suite-service-head {
+    .facility__suite-service-head, .facility__pm-upcoming-head,
+    .facility__pm-timeline-head,
+    .facility__pm-approval-head {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
   .proposal__abstract-head h1, .proposal__form-head h1,
@@ -987,7 +999,9 @@ hr {
   .account__details-company-head h1, .invoice__sheet-head h1, .invoice__meta-summary-head h1, .invoice__meta-doc-head h1, .invoice__meta-support-head h1, .facility__activity-contacts-head h1, .facility__activity-prevent-head h1, .facility__event-header h1, .facility__unit-info-head h1,
   .facility__unit-score-head h1, .facility__unit-history-head h1, .facility__suite-info-head h1,
   .facility__suite-lease-head h1,
-  .facility__suite-service-head h1 {
+  .facility__suite-service-head h1, .facility__pm-upcoming-head h1,
+  .facility__pm-timeline-head h1,
+  .facility__pm-approval-head h1 {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
@@ -1041,7 +1055,9 @@ hr {
 .facility__unit-score-body, .facility__unit-history-add,
 .facility__unit-history-index, .facility__suite-info-body,
 .facility__suite-lease-body,
-.facility__suite-upload-body {
+.facility__suite-upload-body, .facility__pm-upcoming-body,
+.facility__pm-timeline-body,
+.facility__pm-approval-body {
   padding: 22.4px;
   padding: 1.4rem;
   background: white;
@@ -1062,19 +1078,20 @@ hr {
 .facility__unit-subnav-request,
 .facility__unit-subnav-history, .facility__projects-subnav-active,
 .facility__projects-subnav-completed, .facility__service-subnav-active,
-.facility__service-subnav-completed, .siteNav__events-popover-footer-label,
+.facility__service-subnav-completed, .facility__pm-subnav-equipment,
+.facility__pm-subnav-tenants, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2px; }
 
-.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets {
+.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets {
   border-top: 2px solid #e3e5ea; }
-  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active {
+  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active {
     border-top: 2px solid #092f3e;
     color: #092f3e; }
-    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover {
+    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover {
       color: #092f3e; }
 
 .projects__subnav-active,
@@ -1087,7 +1104,8 @@ hr {
 .facility__unit-subnav-request,
 .facility__unit-subnav-history, .facility__projects-subnav-active,
 .facility__projects-subnav-completed, .facility__service-subnav-active,
-.facility__service-subnav-completed {
+.facility__service-subnav-completed, .facility__pm-subnav-equipment,
+.facility__pm-subnav-tenants {
   font-size: 11.11111px;
   font-size: 0.69444rem;
   display: inline-block;
@@ -1107,7 +1125,8 @@ hr {
   .facility__unit-subnav-request:hover,
   .facility__unit-subnav-history:hover, .facility__projects-subnav-active:hover,
   .facility__projects-subnav-completed:hover, .facility__service-subnav-active:hover,
-  .facility__service-subnav-completed:hover {
+  .facility__service-subnav-completed:hover, .facility__pm-subnav-equipment:hover,
+  .facility__pm-subnav-tenants:hover {
     cursor: pointer;
     color: #93989c; }
 
@@ -1209,7 +1228,7 @@ hr {
   .facility__suite-upload-service-button:before {
     background-image: url(../../assets/service-contract-upload.svg); }
 
-.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .facility__suite-upload-lease-view-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .facility__suite-upload-lease-view-doc:hover a, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a {
+.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover {
   cursor: pointer;
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in; }
@@ -1219,7 +1238,7 @@ hr {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out; }
 
-.overlay, .overlay-equipment, .overlay__confirm-wrapper, .overlay__request-wrapper, .overlay__onboard-wrapper {
+.overlay, .overlay-equipment, .overlay__confirm-wrapper, .overlay__request-wrapper, .overlay__onboard-wrapper, .overlay__inspections-wrapper {
   background: rgba(255, 255, 255, 0.97); }
 
 .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
@@ -1254,7 +1273,7 @@ hr {
     .proposal__abstract-address span:first-of-type, .repair__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type {
       color: #54545a; }
 
-.proposal__terms-view-doc, .invoice__meta-doc-view, .facility__suite-upload-lease-view-doc {
+.proposal__terms-view-doc, .invoice__meta-doc-view, .facility__suite-upload-lease-view-doc, .facility__pm-approval-doc {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding-left: 22.4px;
@@ -1265,7 +1284,7 @@ hr {
   margin-bottom: 0;
   color: #93989c;
   text-align: center; }
-  .proposal__terms-view-doc:before, .invoice__meta-doc-view:before, .facility__suite-upload-lease-view-doc:before {
+  .proposal__terms-view-doc:before, .invoice__meta-doc-view:before, .facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
     content: '';
     display: block;
     margin: 0 auto;
@@ -1276,14 +1295,14 @@ hr {
     margin-bottom: 5.6px;
     margin-bottom: 0.35rem;
     background: center center no-repeat; }
-  .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .facility__suite-upload-lease-view-doc:hover a {
+  .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
 
 .proposal__terms-view-doc:before, .invoice__meta-doc-view:before {
   background-image: url(../../assets/scope-large.svg); }
 
-.facility__suite-upload-lease-view-doc:before {
+.facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
   background-image: url(../../assets/tenant-lease-contract.svg); }
 
 .facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .facility__activity-feed-blank p a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
@@ -1313,7 +1332,7 @@ hr {
 .onboard-sitenav__alert-invoices .has-alerts, .siteNav__alert-proposals .has-alerts, .siteNav__alert-events .has-alerts, .siteNav__alert-invoices .has-alerts {
   transition: 0.2s cubic-bezier(0.3, 0, 0, 1.3); }
 
-.onboard-dashboard__form, .siteNav__events-popover-item-facility,
+.facility__pm-equipment-inspection, .facility__pm-equipment-inspection a, .onboard-dashboard__form, .siteNav__events-popover-item-facility,
 .siteNav__events-popover-item-type,
 .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-facility,
@@ -1350,7 +1369,7 @@ hr {
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem; }
 
-.proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec {
+.proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec, .facility__pm-equipment-spec {
   margin-top: 5.6px;
   margin-top: 0.35rem;
   margin-bottom: 16.8px;
@@ -1365,7 +1384,7 @@ hr {
   font-size: 0.69444rem;
   display: inline-block;
   position: relative; }
-  .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before {
+  .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before, .facility__pm-equipment-spec:before {
     content: '';
     position: absolute;
     top: 0;
@@ -1375,13 +1394,13 @@ hr {
     width: 20px;
     width: 1.25rem;
     background: center center no-repeat; }
-  .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before {
+  .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before {
     background-image: url(../../assets/tag.svg); }
-  .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before {
+  .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before {
     background-image: url(../../assets/manufacturer.svg); }
-  .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before {
+  .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before {
     background-image: url(../../assets/tonnage.svg); }
-  .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before {
+  .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before {
     background-image: url(../../assets/calendar.svg); }
 
 .onboard-dashboard__finalize, .dashboard__form-finalize, .facility__unit-history-add-info-finalize {
@@ -1458,7 +1477,7 @@ hr {
   height: 2.625rem;
   background: url(../../assets/activity-blank-slate.svg) center center no-repeat; }
 
-.facility__unit-navigation-button, .facility__suite-navigation-button {
+.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
   border-width: 1px;
   -webkit-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -1471,16 +1490,16 @@ hr {
   font-size: 0.83333rem;
   font-weight: 300;
   font-style: normal; }
-  .facility__unit-navigation-button i, .facility__suite-navigation-button i {
+  .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     line-height: 1.68;
     margin-right: 5.6px;
     margin-right: 0.35rem; }
-  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus {
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus {
     border-width: 1px; }
   @media screen and (min-width: 46.8em) {
-    .facility__unit-navigation-button, .facility__suite-navigation-button {
+    .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
       margin-bottom: 22.4px;
       margin-bottom: 1.4rem; } }
 
@@ -1543,6 +1562,84 @@ hr {
     -o-border-radius: 50%;
     border-radius: 50%;
     background: #66c3b0; }
+
+.facility__equipment-card, .facility__unit-gallery-feature-photo,
+.facility__unit-gallery-grid-photo, .facility__suite-unit-card, .facility__pm-equipment-card {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+  .facility__equipment-card:hover, .facility__unit-gallery-feature-photo:hover,
+  .facility__unit-gallery-grid-photo:hover, .facility__suite-unit-card:hover, .facility__pm-equipment-card:hover {
+    cursor: pointer;
+    border-color: #c7cacd; }
+  .facility__equipment-card img, .facility__unit-gallery-feature-photo img,
+  .facility__unit-gallery-grid-photo img, .facility__suite-unit-card img, .facility__pm-equipment-card img {
+    border: 4px solid white;
+    vertical-align: bottom; }
+
+.facility__pm-upcoming-vendor-label:before, .facility__pm-upcoming-vendor-label:after {
+  content: "\2014";
+  display: inline-block;
+  color: rgba(9, 47, 62, 0.4); }
+.facility__pm-upcoming-vendor-label:before {
+  margin-right: 5.6px;
+  margin-right: 0.35rem; }
+.facility__pm-upcoming-vendor-label:after {
+  margin-left: 5.6px;
+  margin-left: 0.35rem; }
+
+.facility__pm-equipment-inspection {
+  position: relative;
+  padding-left: 28px;
+  padding-left: 1.75rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  padding-top: 1px;
+  padding-top: 0.0625rem;
+  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  border-bottom: 1px solid #e3e5ea;
+  text-align: left; }
+  .facility__pm-equipment-inspection a {
+    display: inline-block; }
+    .facility__pm-equipment-inspection a:hover {
+      color: #93989c; }
+    .facility__pm-equipment-inspection a:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      margin: 0 auto;
+      height: 18px;
+      height: 1.125rem;
+      width: 18px;
+      width: 1.125rem;
+      background: center center no-repeat;
+      background-image: url(../../assets/scope-icon.svg); }
+  .facility__pm-equipment-inspection:last-child {
+    margin-bottom: 0;
+    border-bottom: 0; }
+
+.facility__suite-map, .facility__pm-map {
+  display: none;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  border: 1px solid #e3e5ea;
+  background: rgba(227, 229, 234, 0.5); }
+  @media screen and (min-width: 46.8em) {
+    .facility__suite-map, .facility__pm-map {
+      display: block; } }
+  .facility__suite-map iframe, .facility__pm-map iframe {
+    width: 100%;
+    min-height: 342px;
+    min-height: 21.375rem; }
 
 .hero {
   background: #66c3b0;
@@ -1637,7 +1734,7 @@ hr {
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
 .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
@@ -1646,7 +1743,7 @@ hr {
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
@@ -1713,14 +1810,14 @@ hr {
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.facility__unit-navigation-button, .facility__suite-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__unit-history-add-mobile-cancel,
+.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #e3e5ea; }
-  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .onboard__previous-slide:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .repair__bid-finalize-neutral:hover, .repair__bid-finalize-rebid:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .account__details-personal-confirm-cancel:hover, .facility__unit-history-add-mobile-cancel:hover,
-  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .onboard__previous-slide:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .repair__bid-finalize-neutral:focus, .repair__bid-finalize-rebid:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .account__details-personal-confirm-cancel:focus, .facility__unit-history-add-mobile-cancel:focus,
-  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .onboard__previous-slide:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .repair__bid-finalize-neutral:active, .repair__bid-finalize-rebid:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .account__details-personal-confirm-cancel:active, .facility__unit-history-add-mobile-cancel:active,
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .onboard__previous-slide:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .repair__bid-finalize-neutral:hover, .repair__bid-finalize-rebid:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .account__details-personal-confirm-cancel:hover, .facility__activity-prevent-button:hover, .facility__unit-history-add-mobile-cancel:hover,
+  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .onboard__previous-slide:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .repair__bid-finalize-neutral:focus, .repair__bid-finalize-rebid:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .account__details-personal-confirm-cancel:focus, .facility__activity-prevent-button:focus, .facility__unit-history-add-mobile-cancel:focus,
+  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .onboard__previous-slide:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .repair__bid-finalize-neutral:active, .repair__bid-finalize-rebid:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .account__details-personal-confirm-cancel:active, .facility__activity-prevent-button:active, .facility__unit-history-add-mobile-cancel:active,
   .facility__unit-history-add-info-cancel:active, .facility__suite-lease-form-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
@@ -2216,7 +2313,7 @@ hr {
   background: rgba(102, 195, 176, 0.2);
   border-color: #66c3b0; }
 
-.facility__unit-navigation-button, .facility__suite-navigation-button {
+.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
   border-width: 1px;
   -webkit-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -2229,16 +2326,16 @@ hr {
   font-size: 0.83333rem;
   font-weight: 300;
   font-style: normal; }
-  .facility__unit-navigation-button i, .facility__suite-navigation-button i {
+  .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     line-height: 1.68;
     margin-right: 5.6px;
     margin-right: 0.35rem; }
-  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus {
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus {
     border-width: 1px; }
   @media screen and (min-width: 46.8em) {
-    .facility__unit-navigation-button, .facility__suite-navigation-button {
+    .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
       margin-bottom: 22.4px;
       margin-bottom: 1.4rem; } }
 
@@ -3043,7 +3140,8 @@ hr {
 .overlay-equipment,
 .overlay__confirm-wrapper,
 .overlay__onboard-wrapper,
-.overlay__request-wrapper {
+.overlay__request-wrapper,
+.overlay__inspections-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -3061,7 +3159,8 @@ hr {
   margin-bottom: 44.8px;
   margin-bottom: 2.8rem; }
 
-.overlay__equipment {
+.overlay__equipment,
+.overlay__inspections {
   position: relative;
   margin-top: 22.4px;
   margin-top: 1.4rem;
@@ -3090,7 +3189,7 @@ hr {
 .overlay__scope-title,
 .overlay__scope-similarity,
 .overlay__scope-tasks,
-.overlay__scope-task
+.overlay__scope-task,
 .overlay__request-form,
 .overlay__request-form-title,
 .overlay__request-form-fieldset,
@@ -3128,7 +3227,7 @@ hr {
   .overlay__scope-title:last-child,
   .overlay__scope-similarity:last-child,
   .overlay__scope-tasks:last-child,
-  .overlay__scope-task
+  .overlay__scope-task:last-child,
   .overlay__request-form:last-child,
   .overlay__request-form-title:last-child,
   .overlay__request-form-fieldset:last-child,
@@ -3214,21 +3313,25 @@ hr {
       .overlay__confirm-form-fieldset-split:nth-child(2n+1) {
         clear: left; } }
 
-.overlay__equipment-specs {
+.overlay__equipment-specs,
+.overlay__inspections-aside {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .overlay__equipment-specs:last-child {
+  .overlay__equipment-specs:last-child,
+  .overlay__inspections-aside:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .overlay__equipment-specs {
+    .overlay__equipment-specs,
+    .overlay__inspections-aside {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .overlay__equipment-specs:last-child {
+      .overlay__equipment-specs:last-child,
+      .overlay__inspections-aside:last-child {
         margin-right: 0; } }
 
 .overlay__equipment-header,
@@ -3277,39 +3380,63 @@ hr {
       .overlay__equipment-spec-value:last-child {
         margin-right: 0; } }
 
-.overlay__equipment-gallery {
+.overlay__equipment-gallery,
+.overlay__inspections-showcase {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .overlay__equipment-gallery:last-child {
+  .overlay__equipment-gallery:last-child,
+  .overlay__inspections-showcase:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .overlay__equipment-gallery {
+    .overlay__equipment-gallery,
+    .overlay__inspections-showcase {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 65.88078%; }
-      .overlay__equipment-gallery:last-child {
+      .overlay__equipment-gallery:last-child,
+      .overlay__inspections-showcase:last-child {
         margin-right: 0; } }
 
-.overlay__equipment-gallery-image {
+.overlay__equipment-gallery-image,
+.overlay__inspections-title,
+.overlay__inspections-copy,
+.overlay__inspections-list,
+.overlay__inspections-list li,
+.overlay__inspections-item {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .overlay__equipment-gallery-image:last-child {
+  .overlay__equipment-gallery-image:last-child,
+  .overlay__inspections-title:last-child,
+  .overlay__inspections-copy:last-child,
+  .overlay__inspections-list:last-child,
+  .overlay__inspections-list li:last-child,
+  .overlay__inspections-item:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .overlay__equipment-gallery-image {
+    .overlay__equipment-gallery-image,
+    .overlay__inspections-title,
+    .overlay__inspections-copy,
+    .overlay__inspections-list,
+    .overlay__inspections-list li,
+    .overlay__inspections-item {
       float: left;
       display: block;
       margin-right: 3.57866%;
       width: 100%;
       margin-right: 0; }
-      .overlay__equipment-gallery-image:last-child {
+      .overlay__equipment-gallery-image:last-child,
+      .overlay__inspections-title:last-child,
+      .overlay__inspections-copy:last-child,
+      .overlay__inspections-list:last-child,
+      .overlay__inspections-list li:last-child,
+      .overlay__inspections-item:last-child {
         margin-right: 0; } }
 
 .account__overlay {
@@ -5277,6 +5404,8 @@ hr {
 .facility__activity-prevent-body,
 .facility__activity-prevent-prompt,
 .facility__activity-prevent-memo,
+.facility__activity-prevent-count,
+.facility__activity-prevent-copy,
 .facility__activity-contacts,
 .facility__activity-contacts-head,
 .facility__activity-contacts-title,
@@ -5293,6 +5422,8 @@ hr {
   .facility__activity-prevent-body:last-child,
   .facility__activity-prevent-prompt:last-child,
   .facility__activity-prevent-memo:last-child,
+  .facility__activity-prevent-count:last-child,
+  .facility__activity-prevent-copy:last-child,
   .facility__activity-contacts:last-child,
   .facility__activity-contacts-head:last-child,
   .facility__activity-contacts-title:last-child,
@@ -5307,6 +5438,8 @@ hr {
     .facility__activity-prevent-body,
     .facility__activity-prevent-prompt,
     .facility__activity-prevent-memo,
+    .facility__activity-prevent-count,
+    .facility__activity-prevent-copy,
     .facility__activity-contacts,
     .facility__activity-contacts-head,
     .facility__activity-contacts-title,
@@ -5324,6 +5457,8 @@ hr {
       .facility__activity-prevent-body:last-child,
       .facility__activity-prevent-prompt:last-child,
       .facility__activity-prevent-memo:last-child,
+      .facility__activity-prevent-count:last-child,
+      .facility__activity-prevent-copy:last-child,
       .facility__activity-contacts:last-child,
       .facility__activity-contacts-head:last-child,
       .facility__activity-contacts-title:last-child,
@@ -6524,6 +6659,319 @@ hr {
       .facility__suite-unit-card-specs:last-child {
         margin-right: 0; } }
 
+.facility__pm,
+.facility__pm-naviation {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm:last-child,
+  .facility__pm-naviation:last-child {
+    margin-right: 0; }
+
+.facility__pm-aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-aside:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .facility__pm-aside:last-child {
+        margin-right: 0; } }
+
+.facility__pm-showcase {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-showcase:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-showcase {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      margin-right: 0; }
+      .facility__pm-showcase:last-child {
+        margin-right: 0; } }
+
+.facility__pm-upcoming,
+.facility__pm-upcoming-head,
+.facility__pm-upcoming-head-title,
+.facility__pm-upcoming-head-body,
+.facility__pm-upcoming-date,
+.facility__pm-upcoming-date-month,
+.facility__pm-upcoming-date-day,
+.facility__pm-upcoming-vendor,
+.facility__pm-upcoming-vendor-label,
+.facility__pm-upcoming-vendor-title,
+.facility__pm-approval,
+.facility__pm-approval-head,
+.facility__pm-approval-head-title,
+.facility__pm-approval-body,
+.facility__pm-approval-doc,
+.facility__pm-timeline-head,
+.facility__pm-timeline-head-title,
+.facility__pm-timeline-body,
+.facility__pm-timeline-list,
+.facility__pm-timeline-event,
+.facility__pm-timeline-event-type {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-upcoming:last-child,
+  .facility__pm-upcoming-head:last-child,
+  .facility__pm-upcoming-head-title:last-child,
+  .facility__pm-upcoming-head-body:last-child,
+  .facility__pm-upcoming-date:last-child,
+  .facility__pm-upcoming-date-month:last-child,
+  .facility__pm-upcoming-date-day:last-child,
+  .facility__pm-upcoming-vendor:last-child,
+  .facility__pm-upcoming-vendor-label:last-child,
+  .facility__pm-upcoming-vendor-title:last-child,
+  .facility__pm-approval:last-child,
+  .facility__pm-approval-head:last-child,
+  .facility__pm-approval-head-title:last-child,
+  .facility__pm-approval-body:last-child,
+  .facility__pm-approval-doc:last-child,
+  .facility__pm-timeline-head:last-child,
+  .facility__pm-timeline-head-title:last-child,
+  .facility__pm-timeline-body:last-child,
+  .facility__pm-timeline-list:last-child,
+  .facility__pm-timeline-event:last-child,
+  .facility__pm-timeline-event-type:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-upcoming,
+    .facility__pm-upcoming-head,
+    .facility__pm-upcoming-head-title,
+    .facility__pm-upcoming-head-body,
+    .facility__pm-upcoming-date,
+    .facility__pm-upcoming-date-month,
+    .facility__pm-upcoming-date-day,
+    .facility__pm-upcoming-vendor,
+    .facility__pm-upcoming-vendor-label,
+    .facility__pm-upcoming-vendor-title,
+    .facility__pm-approval,
+    .facility__pm-approval-head,
+    .facility__pm-approval-head-title,
+    .facility__pm-approval-body,
+    .facility__pm-approval-doc,
+    .facility__pm-timeline-head,
+    .facility__pm-timeline-head-title,
+    .facility__pm-timeline-body,
+    .facility__pm-timeline-list,
+    .facility__pm-timeline-event,
+    .facility__pm-timeline-event-type {
+      float: left;
+      display: block;
+      margin-right: 5.85151%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__pm-upcoming:last-child,
+      .facility__pm-upcoming-head:last-child,
+      .facility__pm-upcoming-head-title:last-child,
+      .facility__pm-upcoming-head-body:last-child,
+      .facility__pm-upcoming-date:last-child,
+      .facility__pm-upcoming-date-month:last-child,
+      .facility__pm-upcoming-date-day:last-child,
+      .facility__pm-upcoming-vendor:last-child,
+      .facility__pm-upcoming-vendor-label:last-child,
+      .facility__pm-upcoming-vendor-title:last-child,
+      .facility__pm-approval:last-child,
+      .facility__pm-approval-head:last-child,
+      .facility__pm-approval-head-title:last-child,
+      .facility__pm-approval-body:last-child,
+      .facility__pm-approval-doc:last-child,
+      .facility__pm-timeline-head:last-child,
+      .facility__pm-timeline-head-title:last-child,
+      .facility__pm-timeline-body:last-child,
+      .facility__pm-timeline-list:last-child,
+      .facility__pm-timeline-event:last-child,
+      .facility__pm-timeline-event-type:last-child {
+        margin-right: 0; } }
+
+.facility__pm-map,
+.facility__pm-map-iframe,
+.facility__pm-subnav,
+.facility__pm-subnav-buckets,
+.facility__pm-equipment,
+.facility__pm-tenants,
+.facility__pm-tenant-body,
+.facility__pm-tenant-list,
+.facility__pm-tenant-list-titles,
+.facility__pm-tenant-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-map:last-child,
+  .facility__pm-map-iframe:last-child,
+  .facility__pm-subnav:last-child,
+  .facility__pm-subnav-buckets:last-child,
+  .facility__pm-equipment:last-child,
+  .facility__pm-tenants:last-child,
+  .facility__pm-tenant-body:last-child,
+  .facility__pm-tenant-list:last-child,
+  .facility__pm-tenant-list-titles:last-child,
+  .facility__pm-tenant-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-map,
+    .facility__pm-map-iframe,
+    .facility__pm-subnav,
+    .facility__pm-subnav-buckets,
+    .facility__pm-equipment,
+    .facility__pm-tenants,
+    .facility__pm-tenant-body,
+    .facility__pm-tenant-list,
+    .facility__pm-tenant-list-titles,
+    .facility__pm-tenant-item {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__pm-map:last-child,
+      .facility__pm-map-iframe:last-child,
+      .facility__pm-subnav:last-child,
+      .facility__pm-subnav-buckets:last-child,
+      .facility__pm-equipment:last-child,
+      .facility__pm-tenants:last-child,
+      .facility__pm-tenant-body:last-child,
+      .facility__pm-tenant-list:last-child,
+      .facility__pm-tenant-list-titles:last-child,
+      .facility__pm-tenant-item:last-child {
+        margin-right: 0; } }
+
+.facility__pm-equipment-card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-equipment-card:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-equipment-card {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 47.94454%; }
+      .facility__pm-equipment-card:last-child {
+        margin-right: 0; }
+      .facility__pm-equipment-card:nth-child(2n) {
+        margin-right: 0; }
+      .facility__pm-equipment-card:nth-child(2n+1) {
+        clear: left; } }
+
+.facility__pm-equipment-img,
+.facility__pm-equipment-specs,
+.facility__pm-equipment-inspections,
+.facility__pm-equipment-inspection,
+.facility__pm-equipment-inspection a,
+.facility__pm-equipment-full,
+.facility__pm-equipment-full-view {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-equipment-img:last-child,
+  .facility__pm-equipment-specs:last-child,
+  .facility__pm-equipment-inspections:last-child,
+  .facility__pm-equipment-inspection:last-child,
+  .facility__pm-equipment-inspection a:last-child,
+  .facility__pm-equipment-full:last-child,
+  .facility__pm-equipment-full-view:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-equipment-img,
+    .facility__pm-equipment-specs,
+    .facility__pm-equipment-inspections,
+    .facility__pm-equipment-inspection,
+    .facility__pm-equipment-inspection a,
+    .facility__pm-equipment-full,
+    .facility__pm-equipment-full-view {
+      float: left;
+      display: block;
+      margin-right: 8.57432%;
+      width: 100%;
+      margin-right: 0; }
+      .facility__pm-equipment-img:last-child,
+      .facility__pm-equipment-specs:last-child,
+      .facility__pm-equipment-inspections:last-child,
+      .facility__pm-equipment-inspection:last-child,
+      .facility__pm-equipment-inspection a:last-child,
+      .facility__pm-equipment-full:last-child,
+      .facility__pm-equipment-full-view:last-child {
+        margin-right: 0; } }
+
+.facility__pm-tenant-suite {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-tenant-suite:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-tenant-suite {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 16.71127%; }
+      .facility__pm-tenant-suite:last-child {
+        margin-right: 0; } }
+
+.facility__pm-tenant-name {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-tenant-name:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-tenant-name {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 49.43184%; }
+      .facility__pm-tenant-name:last-child {
+        margin-right: 0; } }
+
+.facility__pm-tenant-cost {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .facility__pm-tenant-cost:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-tenant-cost {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 25.63506%;
+      margin-right: 0; }
+      .facility__pm-tenant-cost:last-child {
+        margin-right: 0; } }
+
 .form__buttons,
 .form__selects,
 .form__input,
@@ -6899,275 +7347,6 @@ dd {
 .onboard-sitenav__alert-events,
 .onboard-sitenav__alert-invoices {
   opacity: 0; }
-<<<<<<< HEAD
-=======
-
-.onboard-dashboard__index-title span {
-  display: inline-block;
-  padding: 5.6px;
-  padding: 0.35rem;
-  margin-left: -5.6px;
-  margin-left: -0.35rem; }
-.onboard-dashboard__index-title i {
-  opacity: 0; }
-
-.onboard-dashboard__aside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  max-height: 100%;
-  z-index: 1;
-  border: none;
-  margin-top: 0;
-  overflow: hidden;
-  display: none; }
-  @media screen and (min-width: 46.8em) {
-    .onboard-dashboard__aside {
-      display: block;
-      position: relative;
-      border-left: 1px solid #e3e5ea; } }
-
-.onboard-dashboard__form {
-  position: relative;
-  overflow: visible; }
-
-.onboard-dashboard__request,
-.onboard-dashboard__facility {
-  position: absolute;
-  top: 352px;
-  top: 22rem;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-left: 0;
-  padding: 22.4px;
-  padding: 1.4rem; }
-
-.onboard-dashboard__facility {
-  top: 0;
-  border-top: 0; }
-  .onboard-dashboard__facility .onboard-dashboard__cta {
-    font-size: 39.81312px;
-    font-size: 2.48832rem;
-    margin-top: 44.8px;
-    margin-top: 2.8rem;
-    margin-bottom: 0;
-    position: relative; }
-    .onboard-dashboard__facility .onboard-dashboard__cta:before {
-      content: '';
-      position: absolute;
-      top: -22.4px;
-      top: -1.4rem;
-      left: 0;
-      z-index: -1;
-      background: url(../../assets/onboard-facility-highlight.svg);
-      background-repeat: no-repeat;
-      height: 270px;
-      height: 16.875rem;
-      width: 100%; }
-
-.onboard-dashboard__cta {
-  font-size: 39.81312px;
-  font-size: 2.48832rem;
-  margin-bottom: 0;
-  position: relative; }
-  .onboard-dashboard__cta:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background: url(../../assets/welcome-highlight.svg);
-    background-repeat: no-repeat;
-    height: 204px;
-    height: 12.75rem;
-    width: 100%; }
-
-.onboard-dashboard__copy {
-  margin-top: 11.2px;
-  margin-top: 0.7rem;
-  margin-bottom: 0; }
-
-.is-form-beacon {
-  position: absolute;
-  top: -26px;
-  top: -1.625rem;
-  left: -26px;
-  left: -1.625rem;
-  z-index: 2; }
-
-.is-facility-beacon {
-  position: absolute;
-  display: inline;
-  top: -26px;
-  top: -1.625rem;
-  right: -26px;
-  right: -1.625rem;
-  z-index: 1; }
-
-.is-tile-beacon,
-.is-feed-beacon {
-  position: absolute;
-  top: -26px;
-  top: -1.625rem;
-  right: -26px;
-  right: -1.625rem;
-  z-index: 1; }
-
-.is-feed-beacon {
-  left: -26px;
-  left: -1.625rem; }
-
-.onboard-facility__duties-list a {
-  display: inline;
-  width: 100%;
-  height: 45px;
-  height: 2.8125rem;
-  vertical-align: middle;
-  z-index: 2; }
-  .onboard-facility__duties-list a:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle; }
-.onboard-facility__duties-list .is-active {
-  position: relative;
-  background: #092f3e;
-  border-color: transparent;
-  color: white; }
-  .onboard-facility__duties-list .is-active:after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    bottom: -8px;
-    bottom: -0.5rem;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid #092f3e;
-    margin-left: -8px; }
-  .onboard-facility__duties-list .is-active:hover {
-    border-color: transparent; }
-.onboard-facility__duties-list .is-focused {
-  color: #092f3e;
-  border: 1px solid #e3e5ea;
-  background: white; }
-
-.onboard-facility__duty {
-  height: 45px;
-  height: 2.8125rem;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  line-height: 1.68;
-  color: #93989c;
-  border: 1px dashed #e3e5ea;
-  position: relative;
-  text-transform: uppercase;
-  text-align: center;
-  background: transparent;
-  vertical-align: middle; }
-  .onboard-facility__duty:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle; }
-
-.onboard-facility__activity-feed {
-  position: relative;
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
-  @media screen and (min-width: 46.8em) {
-    .onboard-facility__activity-feed {
-      margin-top: 44.8px;
-      margin-top: 2.8rem; } }
-  .onboard-facility__activity-feed:hover {
-    cursor: default;
-    -webkit-box-shadow: 0 0 0 0 transparent;
-    -ms-box-shadow: 0 0 0 0 transparent;
-    -moz-box-shadow: 0 0 0 0 transparent;
-    -o-box-shadow: 0 0 0 0 transparent;
-    box-shadow: 0 0 0 0 transparent; }
-
-.onboard-facility__event-summary-list {
-  opacity: 0.6; }
-
-.onboard-facility__event-summary,
-.onboard-facility__aside-summary,
-.onboard-facility__overview {
-  padding: 22.4px;
-  padding: 1.4rem;
-  position: relative; }
-  .onboard-facility__event-summary:before,
-  .onboard-facility__aside-summary:before,
-  .onboard-facility__overview:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background: url(../../assets/onboard-activity-highlight.svg);
-    background-repeat: no-repeat;
-    height: 317px;
-    height: 19.8125rem;
-    width: 100%; }
-
-.onboard-facility__overview {
-  margin-top: 44.8px;
-  margin-top: 2.8rem; }
-  .onboard-facility__overview:before {
-    background: url(../../assets/onboard-facility-welcome-highlight.svg);
-    background-repeat: no-repeat;
-    height: 288px;
-    height: 18rem;
-    width: 100%; }
-
-.onboard-facility__overview-note,
-.onboard-facility__aside-summary-note {
-  margin: 0;
-  margin-top: 11.2px;
-  margin-top: 0.7rem; }
-
-.onboard-facility__overview-cta,
-.onboard-facility__aside-summary-cta {
-  font-size: 39.81312px;
-  font-size: 2.48832rem;
-  line-height: 1;
-  margin-bottom: 0; }
-
-.onboard-facility__aside-summary {
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
-
-.onboard-facility__button-finish {
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
-
-.siteNav {
-  position: relative;
-  z-index: 2;
-  height: 60px;
-  height: 3.75rem;
-  background: white;
-  -webkit-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
-  -ms-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
-  -moz-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
-  -o-box-shadow: inset 0px -1px 0px 0px #e3e5ea;
-  box-shadow: inset 0px -1px 0px 0px #e3e5ea;
-  -webkit-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
-  -ms-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
-  -moz-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
-  -o-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
-  box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2); }
-  .siteNav:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle; }
->>>>>>> onboard
 
 .onboard-dashboard__index-title span {
   display: inline-block;
@@ -9863,6 +10042,89 @@ dd {
   margin-bottom: 44.8px;
   margin-bottom: 2.8rem; }
 
+.overlay__inspections {
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__inspections {
+      padding: 0;
+      margin-top: 44.8px;
+      margin-top: 2.8rem; } }
+
+.overlay__inspections-title {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  padding-bottom: 5.6px;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid #e3e5ea; }
+
+.overlay__inspections-copy {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  text-align: center; }
+
+.overlay__inspections-dismiss {
+  cursor: pointer;
+  -webkit-appearance: none;
+  position: fixed;
+  z-index: 4;
+  display: inline-block;
+  top: 22.4px;
+  top: 1.4rem;
+  right: 22.4px;
+  right: 1.4rem;
+  width: 42px;
+  width: 2.625rem;
+  height: 42px;
+  height: 2.625rem;
+  background: url(../../assets/dismiss-trigger.svg) center center no-repeat;
+  border: 0;
+  outline: none; }
+  @media screen and (min-width: 46.8em) {
+    .overlay__inspections-dismiss {
+      right: 44.8px;
+      right: 2.8rem; } }
+
+.overlay__inspections-list li {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.overlay__inspections-item {
+  padding: 22.4px;
+  padding: 1.4rem;
+  padding-left: 67.2px;
+  padding-left: 4.2rem;
+  border: 2px solid #e3e5ea;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  position: relative; }
+  .overlay__inspections-item:hover {
+    background: #fafafb;
+    cursor: pointer; }
+  .overlay__inspections-item:before {
+    content: '';
+    position: absolute;
+    left: 22.4px;
+    left: 1.4rem;
+    display: block;
+    margin: 0 auto;
+    height: 18px;
+    height: 1.125rem;
+    width: 18px;
+    width: 1.125rem;
+    background: url(../../assets/scope-icon.svg) center center no-repeat; }
+
+@media screen and (min-width: 46.8em) {
+  .overlay__inspections-showcase {
+    padding-left: 44.8px;
+    padding-left: 2.8rem; } }
+
 .account__details-personal-head,
 .account__details-company-head {
   margin-top: 22.4px;
@@ -10410,14 +10672,36 @@ dd {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
+.facility__activity-prevent:hover .facility__activity-prevent-head,
+.facility__activity-prevent:hover .facility__activity-prevent-body {
+  border-color: #c7cacd; }
+
+.facility__activity-prevent-body {
+  text-align: center; }
+
 .facility__activity-prevent-prompt {
   font-size: 19.2px;
   font-size: 1.2rem;
-  line-height: 1.16667;
-  text-align: center; }
+  line-height: 1.16667; }
 
-.facility__activity-prevent-memo {
-  text-align: center; }
+.facility__activity-prevent-count {
+  font-size: 39.81312px;
+  font-size: 2.48832rem;
+  line-height: 1.12526; }
+
+.facility__activity-prevent-copy {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 1.16667;
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  color: #93989c; }
+
+.facility__activity-prevent-button {
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
 
 .facility__activity-feed-event-anchor {
   display: block; }
@@ -10685,24 +10969,6 @@ dd {
   height: 31.25rem;
   margin-top: 44.8px;
   margin-top: 2.8rem; }
-
-.facility__equipment-card, .facility__unit-gallery-feature-photo,
-.facility__unit-gallery-grid-photo, .facility__suite-unit-card {
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  -webkit-border-radius: 0;
-  -ms-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0; }
-  .facility__equipment-card:hover, .facility__unit-gallery-feature-photo:hover,
-  .facility__unit-gallery-grid-photo:hover, .facility__suite-unit-card:hover {
-    cursor: pointer;
-    border-color: #c7cacd; }
-  .facility__equipment-card img, .facility__unit-gallery-feature-photo img,
-  .facility__unit-gallery-grid-photo img, .facility__suite-unit-card img {
-    border: 4px solid white;
-    vertical-align: bottom; }
 
 .facility__equipment-card-specs {
   padding-left: 11.2px;
@@ -11291,27 +11557,325 @@ dd {
     .facility__suite-tally-total {
       margin-top: 0; } }
 
-.facility__suite-map {
-  display: none;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  border: 1px solid #e3e5ea;
-  background: rgba(227, 229, 234, 0.5); }
-  @media screen and (min-width: 46.8em) {
-    .facility__suite-map {
-      display: block; } }
-
-.facility__suite-map-iframe {
-  width: 100%;
-  min-height: 342px;
-  min-height: 21.375rem; }
-
 .facility__suite-unit-card-specs {
   padding-left: 11.2px;
   padding-left: 0.7rem;
   padding-right: 11.2px;
   padding-right: 0.7rem;
   text-align: center; }
+
+.facility__pm {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.facility__pm-upcoming-head,
+.facility__pm-timeline-head,
+.facility__pm-approval-head {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.facility__pm-upcoming-head {
+  margin-top: 0; }
+
+.facility__pm-upcoming-body,
+.facility__pm-timeline-body,
+.facility__pm-approval-body {
+  text-align: center; }
+
+.facility__pm-timeline-body {
+  padding-left: 33.6px;
+  padding-left: 2.1rem; }
+
+.facility__pm-upcoming-date-month {
+  font-size: 27.648px;
+  font-size: 1.728rem;
+  margin-bottom: 0;
+  line-height: 1; }
+
+.facility__pm-upcoming-date-day {
+  font-size: 64px;
+  font-size: 4rem;
+  line-height: 1; }
+
+.facility__pm-upcoming-vendor {
+  text-align: center; }
+
+.facility__pm-upcoming-vendor-label {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 11.2px;
+  margin-top: 0.7rem;
+  color: #93989c;
+  font-style: italic; }
+
+.facility__pm-upcoming-vendor-title {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 1.16667;
+  color: #93989c; }
+
+.facility__pm-timeline-list {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  text-align: left; }
+
+.facility__pm-timeline-event {
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  padding-bottom: 44.8px;
+  padding-bottom: 2.8rem;
+  position: relative;
+  border-left: 2px solid #e3e5ea;
+  color: #93989c; }
+  .facility__pm-timeline-event:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    height: 1.25rem;
+    width: 20px;
+    width: 1.25rem;
+    -webkit-transform: translateX(-57%);
+    -ms-transform: translateX(-57%);
+    -moz-transform: translateX(-57%);
+    -o-transform: translateX(-57%);
+    transform: translateX(-57%);
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid rgba(9, 47, 62, 0.2); }
+  .facility__pm-timeline-event:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 9px;
+    height: 0.5625rem;
+    width: 10px;
+    width: 0.625rem;
+    -webkit-transform: translate(-63%, 50%);
+    -ms-transform: translate(-63%, 50%);
+    -moz-transform: translate(-63%, 50%);
+    -o-transform: translate(-63%, 50%);
+    transform: translate(-63%, 50%);
+    background: center center no-repeat;
+    background-image: url(../../assets/time-check.svg); }
+  .facility__pm-timeline-event:last-of-type {
+    border-left: 2px solid transparent; }
+
+.facility__pm-timeline-event-meta {
+  display: inline-block;
+  border-bottom: 1px solid #c7cacd;
+  color: #092f3e; }
+  .facility__pm-timeline-event-meta:hover {
+    border-bottom-color: #092f3e; }
+
+.facility__pm-timeline-event-date,
+.facility__pm-timeline-event-vendor {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  display: inline-block; }
+
+.facility__pm-map {
+  margin-top: 0;
+  vertical-align: bottom;
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-map {
+      display: block; } }
+
+.facility__pm-subnav {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-subnav {
+      margin-top: 44.8px;
+      margin-top: 2.8rem; } }
+
+.facility__pm-equipment-card {
+  position: relative; }
+  .facility__pm-equipment-card:hover {
+    cursor: default;
+    border-color: #e3e5ea; }
+
+.facility__pm-equipment-parent {
+  position: absolute;
+  display: inline-block;
+  top: 11.2px;
+  top: 0.7rem;
+  left: 11.2px;
+  left: 0.7rem; }
+
+.facility__pm-equipment-parent-suite,
+.facility__pm-equipment-parent-tenant {
+  background: #092f3e;
+  color: white;
+  padding: 5.6px;
+  padding: 0.35rem;
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68; }
+
+.facility__pm-equipment-parent-suite {
+  display: inline-block;
+  margin-top: 0; }
+
+.facility__pm-equipment-parent-tenant {
+  display: block; }
+
+.facility__pm-equipment-specs {
+  text-align: center; }
+
+.facility__pm-equipment-inspections {
+  border-top: 1px dotted #e3e5ea; }
+
+.facility__pm-equipment-inspection:first-child {
+  padding-top: 11.2px;
+  padding-top: 0.7rem; }
+  .facility__pm-equipment-inspection:first-child a:before {
+    margin-top: 11.2px;
+    margin-top: 0.7rem; }
+
+.facility__pm-equipment-inspection-date:after {
+  content: "\2014";
+  display: inline-block;
+  color: rgba(9, 47, 62, 0.4);
+  margin-right: 5.6px;
+  margin-right: 0.35rem;
+  margin-left: 5.6px;
+  margin-left: 0.35rem; }
+
+.facility__pm-equipment-full {
+  border-top: 1px solid #e3e5ea;
+  text-align: center; }
+  .facility__pm-equipment-full:hover {
+    background: #fafafb;
+    cursor: pointer; }
+    .facility__pm-equipment-full:hover .facility__pm-equipment-full-view {
+      color: #092f3e; }
+
+.facility__pm-equipment-full-view {
+  text-transform: uppercase;
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  color: #93989c;
+  padding: 5.6px;
+  padding: 0.35rem; }
+
+.facility__pm-tenant-list-titles {
+  border-bottom: 3px solid #e3e5ea;
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem; }
+  .facility__pm-tenant-list-titles span {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    line-height: 1.68; }
+
+.facility__pm-tenant-list {
+  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem; }
+
+.facility__pm-tenant-item {
+  padding: 11.2px;
+  padding: 0.7rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  position: relative;
+  padding-left: 0;
+  border-bottom: 1px solid #e3e5ea; }
+
+.is-enrolled .facility__pm-tenant-suite:before, .is-not-enrolled .facility__pm-tenant-suite:before {
+  content: '';
+  display: inline-block;
+  margin-right: 11.2px;
+  margin-right: 0.7rem;
+  height: 10px;
+  height: 0.625rem;
+  width: 10px;
+  width: 0.625rem;
+  -webkit-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -o-border-radius: 999px;
+  border-radius: 999px; }
+
+.is-enrolled .facility__pm-tenant-suite:before {
+  background: #66c3b0; }
+.is-enrolled .facility__pm-tenant-action {
+  display: none; }
+
+.is-not-enrolled .facility__pm-tenant-suite:before {
+  background: #f35b5b; }
+.is-not-enrolled:hover .facility__pm-tenant-action {
+  opacity: 1; }
+
+.facility__pm-tenant-cost {
+  text-align: left; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-tenant-cost {
+      text-align: right; } }
+
+.facility__pm-tenant-action {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  margin-top: -1rem;
+  right: 0;
+  opacity: 1; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-tenant-action {
+      top: 6px;
+      top: 0.375rem;
+      margin-top: 0;
+      opacity: 0; } }
+
+.facility__pm-tenant-action-enroll {
+  height: 32px;
+  height: 2rem;
+  padding-left: 16px;
+  padding-left: 1rem;
+  padding-right: 10px;
+  padding-right: 0.625rem;
+  color: #092f3e;
+  background: #fafafb;
+  border: 1px solid #c7cacd;
+  -webkit-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -o-border-radius: 999px;
+  border-radius: 999px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative; }
+  .facility__pm-tenant-action-enroll:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    vertical-align: middle; }
+  .facility__pm-tenant-action-enroll i {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5.6px;
+    padding-left: 0.35rem; }
+  @media screen and (min-width: 46.8em) {
+    .facility__pm-tenant-action-enroll {
+      border-color: #e3e5ea;
+      color: #93989c; }
+      .facility__pm-tenant-action-enroll:hover {
+        border-color: #c7cacd;
+        color: #092f3e; } }
 
 .events__feed-tr {
   position: relative; }

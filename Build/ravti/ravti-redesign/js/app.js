@@ -30,6 +30,18 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay__confirm-wrapper").toggleClass("is-masked");
     });
+    // PM Inspections Full List Overlay
+    $(".facility__pm-equipment-full-view").click(function(){
+            $(".page__wrapper, .page__wrapper-bleed").toggleClass("is-overlaid");
+            $(".overlay__inspections-wrapper").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $(".overlay__inspections-wrapper").offset().top
+            }, 500);
+    });
+    $(".overlay__inspections-dismiss").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay__inspections-wrapper").toggleClass("is-masked");
+    });
     //Repair Equipment Overlay
     $(".repair__unit").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
@@ -115,6 +127,19 @@ $(document).ready(function() {
         $('html, body').animate({
             scrollTop: $(".mobileNav").offset().top
         }, 300);
+    });
+    //Toggle Subnav for PM
+    $(".facility__pm-subnav-equipment").click(function(){
+            $(".facility__pm-tenant-body").addClass("is-masked");
+            $(".facility__pm-equipment").removeClass("is-masked");
+            $(".facility__pm-subnav-tenants").removeClass("is-active");
+            $(".facility__pm-subnav-equipment").addClass("is-active");
+    });
+    $(".facility__pm-subnav-tenants").click(function(){
+            $(".facility__pm-equipment").addClass("is-masked");
+            $(".facility__pm-tenant-body").removeClass("is-masked");
+            $(".facility__pm-subnav-equipment").removeClass("is-active");
+            $(".facility__pm-subnav-tenants").addClass("is-active");
     });
     //Toggle Subnav for Facility: Unit Piece
     $(".facility__unit-subnav-gallery").click(function(){
