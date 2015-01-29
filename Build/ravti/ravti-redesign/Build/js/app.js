@@ -11,6 +11,15 @@ $(document).ready(function() {
             $(".project__terms-scan").addClass("terms-scan-expanded");
             $(".project__terms-scan-expand").addClass("is-hidden");
     });
+    $(".rfq__scan-expand").click(function(){
+            $(".rfq__scan-body").addClass("scan-expanded");
+            $(".rfq__scan-expand").addClass("is-hidden");
+    });
+    // RFQ Vendor Submit
+    $(".rfq__bid-upload-file").change(function(){
+            $(".rfq__bid-upload-filename").text(this.value);
+            $(".rfq__bid-upload-approved").removeClass("is-hidden");
+    });
     // Onboard Interaction steps
     $(".onboard-dashboard__button-submit").click(function(){
             $(".is-form-beacon").toggleClass("is-masked");
@@ -141,6 +150,19 @@ $(document).ready(function() {
             $(".facility__pm-subnav-equipment").removeClass("is-active");
             $(".facility__pm-subnav-tenants").addClass("is-active");
     });
+    //Toggle Subnav for RFQ
+    $(".rfq__aside-subnav-equipment").click(function(){
+            $(".rfq__qa").addClass("is-masked");
+            $(".rfq__equipment").removeClass("is-masked");
+            $(".rfq__aside-subnav-qa").removeClass("is-active");
+            $(".rfq__aside-subnav-equipment").addClass("is-active");
+    });
+    $(".rfq__aside-subnav-qa").click(function(){
+            $(".rfq__equipment").addClass("is-masked");
+            $(".rfq__qa").removeClass("is-masked");
+            $(".rfq__aside-subnav-equipment").removeClass("is-active");
+            $(".rfq__aside-subnav-qa").addClass("is-active");
+    });
     //Toggle Subnav for Facility: Unit Piece
     $(".facility__unit-subnav-gallery").click(function(){
             $(".facility__unit-history").addClass("is-masked");
@@ -252,6 +274,13 @@ $(document).ready(function() {
     });
     //For Modal Overlays
     $(".overlay-scope").click(function(){
+            $(".page__wrapper").toggleClass("is-overlaid");
+            $(".overlay").toggleClass("is-masked");
+            $('html, body').animate({
+                scrollTop: $("#overlay").offset().top
+            }, 500);
+    });
+    $(".rfq__zoom-doc").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
             $('html, body').animate({

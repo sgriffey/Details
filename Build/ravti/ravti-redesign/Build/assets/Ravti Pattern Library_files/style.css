@@ -513,8 +513,8 @@ ul, ol, dl {
  */
 @font-face {
   font-family: 'ravti-icons';
-  src: url(../assets/fonts/icomoon.eot?-7sddyo);
-  src: url(../assets/fonts/icomoon.eot?#iefix-7sddyo) format("embedded-opentype"), url(../assets/fonts/icomoon.woff?-7sddyo) format("woff"), url(../assets/fonts/icomoon.ttf?-7sddyo) format("truetype"), url(../assets/fonts/icomoon.svg?-7sddyo#icomoon) format("svg");
+  src: url(../../../assets/fonts/icomoon.eot?-7sddyo);
+  src: url(../../../assets/fonts/icomoon.eot?#iefix-7sddyo) format("embedded-opentype"), url(../../../assets/fonts/icomoon.woff?-7sddyo) format("woff"), url(../../../assets/fonts/icomoon.ttf?-7sddyo) format("truetype"), url(../../../assets/fonts/icomoon.svg?-7sddyo#icomoon) format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -742,9 +742,6 @@ hr {
   -moz-transform: translateY(-300%);
   -o-transform: translateY(-300%);
   transform: translateY(-300%); }
-
-.is-visible {
-  visibility: visible !important; }
 
 .account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
@@ -1063,10 +1060,10 @@ hr {
     border-color: #c7cacd; }
 
 .account__details-personal-head-toolbar-edit:before, .facility__suite-lease-head-toolbar-edit:before {
-  background-image: url(../assets/edit-form.svg); }
+  background-image: url(../../../assets/edit-form.svg); }
 
 .account__details-personal-head-toolbar-lock:before, .facility__suite-lease-head-toolbar-lock:before {
-  background-image: url(../assets/lock-icon.svg); }
+  background-image: url(../../../assets/lock-icon.svg); }
 
 .proposal__abstract-body, .proposal__terms-view-body, .proposal__terms-scan-body, .proposal__form-body, .repair__abstract-body,
 .repair__scope-body,
@@ -1209,12 +1206,12 @@ hr {
     -webkit-user-select: none; }
 
 .rfq__bid-upload:before {
-  background-image: url(../assets/proposal-view.svg); }
+  background-image: url(../../../assets/proposal-view.svg); }
 
 .overlay__confirm-input-file-button {
   border-color: #66c3b0; }
   .overlay__confirm-input-file-button:before {
-    background-image: url(../assets/approve-rfq.svg); }
+    background-image: url(../../../assets/approve-rfq.svg); }
   .overlay__confirm-input-file-button:hover {
     background: rgba(102, 195, 176, 0.2); }
 
@@ -1232,7 +1229,7 @@ hr {
     margin-top: 0.7rem;
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem;
-    background-image: url(../assets/attach-history.svg); }
+    background-image: url(../../../assets/attach-history.svg); }
 
 .facility__suite-upload-lease-button {
   font-size: 13.33333px;
@@ -1242,7 +1239,7 @@ hr {
   .facility__suite-upload-lease-button:hover {
     background: rgba(227, 229, 234, 0.2); }
   .facility__suite-upload-lease-button:before {
-    background-image: url(../assets/lease-contract-upload.svg); }
+    background-image: url(../../../assets/lease-contract-upload.svg); }
 
 .facility__suite-upload-service-button {
   font-size: 13.33333px;
@@ -1252,7 +1249,7 @@ hr {
   .facility__suite-upload-service-button:hover {
     background: rgba(227, 229, 234, 0.2); }
   .facility__suite-upload-service-button:before {
-    background-image: url(../assets/service-contract-upload.svg); }
+    background-image: url(../../../assets/service-contract-upload.svg); }
 
 .proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .rfq__zoom-doc:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover, .rfq__zoom-scope-dual:hover, .rfq__zoom-scope-dual:hover a, .rfq__zoom-item a:hover {
   cursor: pointer;
@@ -1291,7 +1288,7 @@ hr {
     margin-right: 11.2px;
     margin-right: 0.7rem;
     background: center center no-repeat;
-    background-image: url(../assets/address-icon.svg); }
+    background-image: url(../../../assets/address-icon.svg); }
   .proposal__abstract-address span, .repair__abstract-address span, .invoice__meta-summary-address span, .rfq__abstract-address span {
     display: block;
     font-style: normal;
@@ -1326,10 +1323,10 @@ hr {
     border-bottom: 1px solid #092f3e; }
 
 .proposal__terms-view-doc:before, .invoice__meta-doc-view:before, .rfq__zoom-doc:before {
-  background-image: url(../assets/scope-large.svg); }
+  background-image: url(../../../assets/scope-large.svg); }
 
 .facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
-  background-image: url(../assets/tenant-lease-contract.svg); }
+  background-image: url(../../../assets/tenant-lease-contract.svg); }
 
 .facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .facility__activity-feed-blank p a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
   border-bottom: 1px solid #e3e5ea; }
@@ -1421,13 +1418,13 @@ hr {
     width: 1.25rem;
     background: center center no-repeat; }
   .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before, .rfq__equipment-unit-spec-item:nth-child(1):before {
-    background-image: url(../assets/tag.svg); }
+    background-image: url(../../../assets/tag.svg); }
   .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before, .rfq__equipment-unit-spec-item:nth-child(2):before {
-    background-image: url(../assets/manufacturer.svg); }
+    background-image: url(../../../assets/manufacturer.svg); }
   .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before, .rfq__equipment-unit-spec-item:nth-child(3):before {
-    background-image: url(../assets/tonnage.svg); }
+    background-image: url(../../../assets/tonnage.svg); }
   .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before, .rfq__equipment-unit-spec-item:nth-child(4):before {
-    background-image: url(../assets/calendar.svg); }
+    background-image: url(../../../assets/calendar.svg); }
 
 .onboard-dashboard__finalize, .dashboard__form-finalize, .facility__unit-history-add-info-finalize {
   margin-top: 22.4px;
@@ -1488,20 +1485,20 @@ hr {
   min-height: 12.6875rem; }
 
 .facility__projects-feed-blank:before {
-  background: url(../assets/projects-blank-slate.svg) center center no-repeat; }
+  background: url(../../../assets/projects-blank-slate.svg) center center no-repeat; }
 
 .facility__service-feed-blank:before {
-  background: url(../assets/service-blank-slate.svg) center center no-repeat; }
+  background: url(../../../assets/service-blank-slate.svg) center center no-repeat; }
 
 .facility__billing-feed-blank:before {
-  background: url(../assets/billing-blank-slate.svg) center center no-repeat; }
+  background: url(../../../assets/billing-blank-slate.svg) center center no-repeat; }
 
 .facility__activity-feed-blank:before {
   width: 282px;
   width: 17.625rem;
   height: 42px;
   height: 2.625rem;
-  background: url(../assets/activity-blank-slate.svg) center center no-repeat; }
+  background: url(../../../assets/activity-blank-slate.svg) center center no-repeat; }
 
 .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
   border-width: 1px;
@@ -1648,7 +1645,7 @@ hr {
       width: 18px;
       width: 1.125rem;
       background: center center no-repeat;
-      background-image: url(../assets/scope-icon.svg); }
+      background-image: url(../../../assets/scope-icon.svg); }
   .facility__pm-equipment-inspection:last-child {
     margin-bottom: 0;
     border-bottom: 0; }
@@ -1748,7 +1745,7 @@ hr {
     content: '';
     display: inline-block;
     margin-right: 5.6px;
-    background: url(../assets/notes-icon.svg) center center;
+    background: url(../../../assets/notes-icon.svg) center center;
     background-repeat: no-repeat; }
 
 .library__notes-brief {
@@ -1979,13 +1976,13 @@ hr {
   -o-border-radius: 0;
   border-radius: 0;
   font-weight: 400;
-  background: url(../assets/caret-down.svg) right center;
+  background: url(../../../assets/caret-down.svg) right center;
   background-repeat: no-repeat;
   background-position: 95% 54%;
   position: relative; }
   .form__select-drop::before, .dashboard__form-select-drop::before, .overlay__request-form-select-drop::before, .facility__unit-request-form-select-drop::before {
     content: '';
-    background: url(../assets/caret-down.svg) center center;
+    background: url(../../../assets/caret-down.svg) center center;
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -2051,7 +2048,7 @@ hr {
       cursor: not-allowed; }
       [disabled="true"].form__select-radio:checked:before, [disabled="true"].dashboard__form-check-radio:checked:before, [disabled="true"].proposal__form-check-radio:checked:before, [disabled="true"].overlay__request-form-check-radio:checked:before, [disabled="true"].facility__unit-request-form-check-radio:checked:before, [disabled="true"].rfq__bid-check-radio:checked:before {
         content: '';
-        background: url(../assets/bullet.svg) center center no-repeat;
+        background: url(../../../assets/bullet.svg) center center no-repeat;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -2073,7 +2070,7 @@ hr {
     background-color: rgba(102, 195, 176, 0.4); }
     .form__select-radio:checked:before, .dashboard__form-check-radio:checked:before, .proposal__form-check-radio:checked:before, .overlay__request-form-check-radio:checked:before, .facility__unit-request-form-check-radio:checked:before, .rfq__bid-check-radio:checked:before {
       content: '';
-      background: url(../assets/bullet.svg) center center no-repeat;
+      background: url(../../../assets/bullet.svg) center center no-repeat;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -2115,7 +2112,7 @@ hr {
     background-color: rgba(102, 195, 176, 0.4); }
     .form__select-check:checked:before, .overlay__onboard-checkbox-input:checked:before {
       content: '';
-      background: url(../assets/input-check.svg) center center no-repeat;
+      background: url(../../../assets/input-check.svg) center center no-repeat;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -7444,7 +7441,7 @@ hr {
   .form__input-file-button:before {
     content: '';
     display: block;
-    background: url(../assets/invoice.svg) center center no-repeat;
+    background: url(../../../assets/invoice.svg) center center no-repeat;
     padding: 22.4px;
     height: 90px;
     height: 5.625rem;
@@ -7649,7 +7646,7 @@ dd {
   width: 2.625rem;
   opacity: 0.3;
   background: center center no-repeat;
-  background: url(../assets/dismiss-trigger.svg) center center no-repeat; }
+  background: url(../../../assets/dismiss-trigger.svg) center center no-repeat; }
   .onboard__dismiss-icon:before {
     content: '';
     display: inline-block;
@@ -7787,7 +7784,7 @@ dd {
       top: -1.4rem;
       left: 0;
       z-index: -1;
-      background: url(../assets/onboard-facility-highlight.svg);
+      background: url(../../../assets/onboard-facility-highlight.svg);
       background-repeat: no-repeat;
       height: 270px;
       height: 16.875rem;
@@ -7804,7 +7801,7 @@ dd {
     top: 0;
     left: 0;
     z-index: -1;
-    background: url(../assets/welcome-highlight.svg);
+    background: url(../../../assets/welcome-highlight.svg);
     background-repeat: no-repeat;
     height: 204px;
     height: 12.75rem;
@@ -7935,7 +7932,7 @@ dd {
     top: 0;
     left: 0;
     z-index: -1;
-    background: url(../assets/onboard-activity-highlight.svg);
+    background: url(../../../assets/onboard-activity-highlight.svg);
     background-repeat: no-repeat;
     height: 317px;
     height: 19.8125rem;
@@ -7945,7 +7942,7 @@ dd {
   margin-top: 44.8px;
   margin-top: 2.8rem; }
   .onboard-facility__overview:before {
-    background: url(../assets/onboard-facility-welcome-highlight.svg);
+    background: url(../../../assets/onboard-facility-welcome-highlight.svg);
     background-repeat: no-repeat;
     height: 288px;
     height: 18rem;
@@ -8005,7 +8002,7 @@ dd {
   width: 60px;
   width: 3.75rem;
   margin: 0;
-  background: url(../assets/ravti-app-logo.svg) center center no-repeat; }
+  background: url(../../../assets/ravti-app-logo.svg) center center no-repeat; }
   .siteNav__logo:before {
     content: '';
     position: absolute;
@@ -8078,7 +8075,7 @@ dd {
     width: 14px;
     width: 0.875rem;
     background: center center no-repeat;
-    background-image: url(../assets/nav-caret.svg); }
+    background-image: url(../../../assets/nav-caret.svg); }
 
 .siteNav__buckets-list {
   position: absolute;
@@ -8175,13 +8172,13 @@ dd {
     cursor: pointer; }
 
 .siteNav__alert-proposals {
-  background: url(../assets/nav-proposals-icon.svg) center center no-repeat; }
+  background: url(../../../assets/nav-proposals-icon.svg) center center no-repeat; }
 
 .siteNav__alert-events {
-  background: url(../assets/nav-events-icon.svg) center center no-repeat; }
+  background: url(../../../assets/nav-events-icon.svg) center center no-repeat; }
 
 .siteNav__alert-invoices {
-  background: url(../assets/nav-invoices-icon.svg) center center no-repeat; }
+  background: url(../../../assets/nav-invoices-icon.svg) center center no-repeat; }
 
 .siteNav__alerts-popover {
   position: absolute;
@@ -8296,11 +8293,11 @@ dd {
 
 .is-ready-to-approve:before {
   background: center center no-repeat;
-  background: url(../assets/proposal-ready.svg); }
+  background: url(../../../assets/proposal-ready.svg); }
 
 .is-not-ready-to-approve:before {
   background: center center no-repeat;
-  background: url(../assets/proposal-not-ready.svg); }
+  background: url(../../../assets/proposal-not-ready.svg); }
 
 .popover-tracking-badge:before {
   background: #afe0d6;
@@ -8465,7 +8462,7 @@ dd {
   height: 3.75rem;
   width: 60px;
   width: 3.75rem;
-  background: url(../assets/ravti-app-logo.svg) center center no-repeat;
+  background: url(../../../assets/ravti-app-logo.svg) center center no-repeat;
   background-color: #092f3e;
   display: inline-block; }
 
@@ -8477,12 +8474,12 @@ dd {
   height: 3.75rem;
   width: 60px;
   width: 3.75rem;
-  background: url(../assets/mobile-nav-menu.svg) center center no-repeat;
+  background: url(../../../assets/mobile-nav-menu.svg) center center no-repeat;
   display: inline-block;
   cursor: pointer; }
 
 .is-nav-open {
-  background: url(../assets/mobile-nav-close.svg) center center no-repeat; }
+  background: url(../../../assets/mobile-nav-close.svg) center center no-repeat; }
 
 .mobileNav__masthead {
   display: block;
@@ -8532,7 +8529,7 @@ dd {
   margin: 0 auto;
   margin-bottom: 11.2px;
   margin-bottom: 0.7rem;
-  background: url(../assets/mobile-dash-request.svg) center center no-repeat; }
+  background: url(../../../assets/mobile-dash-request.svg) center center no-repeat; }
 
 @media screen and (min-width: 46.8em) {
   .dashboard__collection {
@@ -8844,7 +8841,7 @@ dd {
     margin: 0 auto;
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem;
-    background: url(../assets/dash-request-feedback.svg) center center no-repeat; }
+    background: url(../../../assets/dash-request-feedback.svg) center center no-repeat; }
     @media screen and (min-width: 46.8em) {
       .dashboard__aside-feedback-title:before {
         margin-top: 67.2px;
@@ -9044,7 +9041,7 @@ dd {
     width: 16px;
     width: 1rem;
     background: center center no-repeat;
-    background-image: url(../assets/service-icon.svg); }
+    background-image: url(../../../assets/service-icon.svg); }
   .proposal__terms-scan-list-bullet:nth-child(1), .proposal__terms-scan-list-bullet:nth-child(2) {
     margin-top: 0; }
 
@@ -9077,7 +9074,7 @@ dd {
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem;
     background: center center no-repeat;
-    background-image: url(../assets/scope-dual.svg); }
+    background-image: url(../../../assets/scope-dual.svg); }
   .proposal__terms-view-scope-dual:hover a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
@@ -9112,7 +9109,7 @@ dd {
     width: 18px;
     width: 1.125rem;
     background: center center no-repeat;
-    background-image: url(../assets/scope-icon.svg); }
+    background-image: url(../../../assets/scope-icon.svg); }
   .proposal__terms-view-scope-doc a {
     display: inline-block;
     border-bottom: 1px solid transparent; }
@@ -9200,7 +9197,7 @@ dd {
       margin-right: 5.6px;
       margin-right: 0.35rem;
       background: center center no-repeat;
-      background-image: url(../assets/pdf-download-icon.svg); }
+      background-image: url(../../../assets/pdf-download-icon.svg); }
 
 .proposal__form-fieldset {
   margin-top: 22.4px;
@@ -9529,7 +9526,7 @@ dd {
     margin-right: 11.2px;
     margin-right: 0.7rem;
     background: center center no-repeat;
-    background-image: url(../assets/address-icon.svg); }
+    background-image: url(../../../assets/address-icon.svg); }
   .project__abstract-address span {
     display: block;
     font-style: normal;
@@ -9675,7 +9672,7 @@ dd {
     -o-transform: translate(-63%, 50%);
     transform: translate(-63%, 50%);
     background: center center no-repeat;
-    background-image: url(../assets/time-check.svg); }
+    background-image: url(../../../assets/time-check.svg); }
 
 .current-event {
   border-left: 2px dotted #e3e5ea; }
@@ -9864,7 +9861,7 @@ dd {
     width: 16px;
     width: 1rem;
     background: center center no-repeat;
-    background-image: url(../assets/service-icon.svg); }
+    background-image: url(../../../assets/service-icon.svg); }
   .project__terms-scan-bullet:nth-child(1), .project__terms-scan-bullet:nth-child(2) {
     margin-top: 0; }
 
@@ -9892,7 +9889,7 @@ dd {
     margin-bottom: 5.6px;
     margin-bottom: 0.35rem;
     background: center center no-repeat;
-    background-image: url(../assets/scope-large.svg); }
+    background-image: url(../../../assets/scope-large.svg); }
   .project__terms-view-doc:hover a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
@@ -9953,13 +9950,13 @@ dd {
     width: 1.25rem;
     background: center center no-repeat; }
   .project__equipment-piece-spec:nth-child(1):before {
-    background-image: url(../assets/tag.svg); }
+    background-image: url(../../../assets/tag.svg); }
   .project__equipment-piece-spec:nth-child(2):before {
-    background-image: url(../assets/manufacturer.svg); }
+    background-image: url(../../../assets/manufacturer.svg); }
   .project__equipment-piece-spec:nth-child(3):before {
-    background-image: url(../assets/tonnage.svg); }
+    background-image: url(../../../assets/tonnage.svg); }
   .project__equipment-piece-spec:nth-child(4):before {
-    background-image: url(../assets/calendar.svg); }
+    background-image: url(../../../assets/calendar.svg); }
 
 .overlay__scope {
   margin-top: 11.2px;
@@ -9984,7 +9981,7 @@ dd {
   height: 42px;
   height: 2.625rem;
   background: center center no-repeat;
-  background: url(../assets/dismiss-trigger.svg) center center no-repeat;
+  background: url(../../../assets/dismiss-trigger.svg) center center no-repeat;
   border: 0;
   outline: none; }
   @media screen and (min-width: 46.8em) {
@@ -10007,7 +10004,7 @@ dd {
   height: 42px;
   height: 2.625rem;
   background: center center no-repeat;
-  background: url(../assets/dismiss-trigger.svg) center center no-repeat;
+  background: url(../../../assets/dismiss-trigger.svg) center center no-repeat;
   border: 0;
   outline: none; }
   @media screen and (min-width: 46.8em) {
@@ -10100,7 +10097,7 @@ dd {
   width: 2.625rem;
   height: 42px;
   height: 2.625rem;
-  background: url(../assets/dismiss-trigger.svg) center center no-repeat;
+  background: url(../../../assets/dismiss-trigger.svg) center center no-repeat;
   border: 0;
   outline: none; }
   @media screen and (min-width: 46.8em) {
@@ -10285,7 +10282,7 @@ dd {
     margin: 0 auto;
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem;
-    background: url(../assets/dash-request-feedback.svg) center center no-repeat; }
+    background: url(../../../assets/dash-request-feedback.svg) center center no-repeat; }
     @media screen and (min-width: 46.8em) {
       .overlay__request-feedback-title:before {
         margin-top: 67.2px;
@@ -10335,7 +10332,7 @@ dd {
   width: 2.625rem;
   height: 42px;
   height: 2.625rem;
-  background: url(../assets/dismiss-trigger.svg) center center no-repeat;
+  background: url(../../../assets/dismiss-trigger.svg) center center no-repeat;
   border: 0;
   outline: none; }
   @media screen and (min-width: 46.8em) {
@@ -10348,13 +10345,13 @@ dd {
   margin-top: 1.4rem;
   border: none; }
   .overlay__onboard-fieldset .is-replacement:before {
-    background: url(../assets/replacement.svg); }
+    background: url(../../../assets/replacement.svg); }
   .overlay__onboard-fieldset .is-repair:before {
-    background: url(../assets/repair.svg); }
+    background: url(../../../assets/repair.svg); }
   .overlay__onboard-fieldset .is-service:before {
-    background: url(../assets/service.svg); }
+    background: url(../../../assets/service.svg); }
   .overlay__onboard-fieldset .is-work-request:before {
-    background: url(../assets/work-request.svg); }
+    background: url(../../../assets/work-request.svg); }
 
 .overlay__onboard-legend {
   font-size: 11.11111px;
@@ -10462,7 +10459,7 @@ dd {
   width: 2.625rem;
   height: 42px;
   height: 2.625rem;
-  background: url(../assets/dismiss-trigger.svg) center center no-repeat;
+  background: url(../../../assets/dismiss-trigger.svg) center center no-repeat;
   border: 0;
   outline: none; }
   @media screen and (min-width: 46.8em) {
@@ -10500,7 +10497,7 @@ dd {
     height: 1.125rem;
     width: 18px;
     width: 1.125rem;
-    background: url(../assets/scope-icon.svg) center center no-repeat; }
+    background: url(../../../assets/scope-icon.svg) center center no-repeat; }
 
 @media screen and (min-width: 46.8em) {
   .overlay__inspections-showcase {
@@ -10653,7 +10650,7 @@ dd {
   width: 5.5rem;
   margin-bottom: 0;
   background: top left no-repeat;
-  background-image: url(../assets/ravti-logo-black.svg); }
+  background-image: url(../../../assets/ravti-logo-black.svg); }
 
 .invoice__sheet-entity {
   margin-top: 120px;
@@ -10823,7 +10820,7 @@ dd {
       margin-bottom: 5.6px;
       margin-bottom: 0.35rem;
       background: center center no-repeat;
-      background-image: url(../assets/support-icon.svg); }
+      background-image: url(../../../assets/support-icon.svg); }
   .invoice__meta-support-copy:last-of-type {
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem; }
@@ -10836,8 +10833,8 @@ dd {
   min-height: 19.375rem;
   margin-bottom: 11.2px;
   margin-bottom: 0.7rem;
-  background: url(../assets/doral.jpg);
-  background: url(../assets/doral.jpg) center center no-repeat;
+  background: url(../../../assets/doral.jpg);
+  background: url(../../../assets/doral.jpg) center center no-repeat;
   background-size: cover; }
   @media screen and (min-width: 46.8em) {
     .facility__identity-cover {
@@ -11147,19 +11144,19 @@ dd {
     vertical-align: middle; }
   .facility__event-header .is-work-request:before {
     background: center center no-repeat;
-    background: url(../assets/work-request.svg); }
+    background: url(../../../assets/work-request.svg); }
   .facility__event-header .is-repair:before {
     background: center center no-repeat;
-    background: url(../assets/repair.svg); }
+    background: url(../../../assets/repair.svg); }
   .facility__event-header .is-replacement:before {
     background: center center no-repeat;
-    background: url(../assets/replacement.svg); }
+    background: url(../../../assets/replacement.svg); }
   .facility__event-header .is-preventative:before {
     background: center center no-repeat;
-    background: url(../assets/preventative.svg); }
+    background: url(../../../assets/preventative.svg); }
   .facility__event-header .is-service-call:before {
     background: center center no-repeat;
-    background: url(../assets/service.svg); }
+    background: url(../../../assets/service.svg); }
 
 .facility__event-header-title {
   margin-bottom: 0;
@@ -11249,13 +11246,13 @@ dd {
   .facility__event-summary-list-item:first-of-type {
     padding-top: 0; }
   .facility__event-summary-list-item:nth-child(1) .facility__event-summary-list-term:before {
-    background-image: url(../assets/activity-equipment.svg); }
+    background-image: url(../../../assets/activity-equipment.svg); }
   .facility__event-summary-list-item:nth-child(2) .facility__event-summary-list-term:before {
-    background-image: url(../assets/activity-issue.svg); }
+    background-image: url(../../../assets/activity-issue.svg); }
   .facility__event-summary-list-item:nth-child(3) .facility__event-summary-list-term:before {
-    background-image: url(../assets/activity-priority.svg); }
+    background-image: url(../../../assets/activity-priority.svg); }
   .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-term:before {
-    background-image: url(../assets/comment.svg); }
+    background-image: url(../../../assets/comment.svg); }
   .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
     font-size: 16px;
     font-size: 1rem;
@@ -11666,16 +11663,16 @@ dd {
 .ui-datepicker-prev {
   top: 0;
   left: 0;
-  background: url(../assets/arrow-left.svg) center center no-repeat; }
+  background: url(../../../assets/arrow-left.svg) center center no-repeat; }
   .ui-datepicker-prev:hover {
-    background: url(../assets/arrow-left.svg) center center no-repeat, rgba(255, 255, 255, 0.6); }
+    background: url(../../../assets/arrow-left.svg) center center no-repeat, rgba(255, 255, 255, 0.6); }
 
 .ui-datepicker-next {
   top: 0;
   right: 0;
-  background: url(../assets/arrow-right.svg) center center no-repeat; }
+  background: url(../../../assets/arrow-right.svg) center center no-repeat; }
   .ui-datepicker-next:hover {
-    background: url(../assets/arrow-right.svg) center center no-repeat, white; }
+    background: url(../../../assets/arrow-right.svg) center center no-repeat, white; }
 
 .ui-datepicker-prev {
   float: left;
@@ -12046,7 +12043,7 @@ dd {
     -o-transform: translate(-63%, 50%);
     transform: translate(-63%, 50%);
     background: center center no-repeat;
-    background-image: url(../assets/time-check.svg); }
+    background-image: url(../../../assets/time-check.svg); }
   .facility__pm-timeline-event:last-of-type {
     border-left: 2px solid transparent; }
 
@@ -12275,19 +12272,19 @@ dd {
   background: center center no-repeat; }
 
 .is-scheduled:before {
-  background: url(../assets/scheduled-pin.svg); }
+  background: url(../../../assets/scheduled-pin.svg); }
 
 .is-service-complete:before {
-  background: url(../assets/service-complete-pin.svg); }
+  background: url(../../../assets/service-complete-pin.svg); }
 
 .is-recommended:before {
-  background: url(../assets/recommend-pin.svg); }
+  background: url(../../../assets/recommend-pin.svg); }
 
 .is-request-received:before {
-  background: url(../assets/request-received-pin.svg); }
+  background: url(../../../assets/request-received-pin.svg); }
 
 .is-bids-sent:before {
-  background: url(../assets/bids-sent-pin.svg); }
+  background: url(../../../assets/bids-sent-pin.svg); }
 
 .events__feed-td {
   padding-left: 44.8px;
@@ -12429,7 +12426,7 @@ dd {
     width: 16px;
     width: 1rem;
     background: center center no-repeat;
-    background-image: url(../assets/service-icon.svg); }
+    background-image: url(../../../assets/service-icon.svg); }
   .rfq__scan-item:nth-child(1), .rfq__scan-item:nth-child(2) {
     margin-top: 0; }
 
@@ -12462,7 +12459,7 @@ dd {
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem;
     background: center center no-repeat;
-    background-image: url(../assets/scope-dual.svg); }
+    background-image: url(../../../assets/scope-dual.svg); }
   .rfq__zoom-scope-dual:hover a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
@@ -12497,7 +12494,7 @@ dd {
     width: 18px;
     width: 1.125rem;
     background: center center no-repeat;
-    background-image: url(../assets/scope-icon.svg); }
+    background-image: url(../../../assets/scope-icon.svg); }
   .rfq__zoom-item a {
     display: inline-block;
     border-bottom: 1px solid transparent; }
@@ -12585,7 +12582,7 @@ dd {
       margin-right: 5.6px;
       margin-right: 0.35rem;
       background: center center no-repeat;
-      background-image: url(../assets/pdf-download-icon.svg); }
+      background-image: url(../../../assets/pdf-download-icon.svg); }
 
 .rfq__bid-fieldset {
   margin-top: 22.4px;
@@ -12681,30 +12678,6 @@ dd {
   font-size: 1rem;
   line-height: 1.4;
   color: #f35b5b; }
-
-.rfq__bid-upload {
-  position: relative; }
-
-.rfq__bid-upload-filename {
-  display: block;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  color: #93989c;
-  min-height: 18px;
-  min-height: 1.125rem; }
-
-.rfq__bid-upload-approved {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  margin-left: -15px;
-  margin-left: -0.9375rem;
-  text-align: center;
-  background: url(../assets/approved-stamp.svg) center center no-repeat;
-  height: 30px;
-  height: 1.875rem;
-  width: 30px;
-  width: 1.875rem; }
 
 .rfq__aside {
   margin-top: 22.4px;
@@ -12953,11 +12926,11 @@ Version: 3.4.5
   margin-top: 4px; }
 
 .select2-search input.select2-active {
-  background: white url(../js/select2-spinner.gif) no-repeat 100%;
-  background: url(../js/select2-spinner.gif) no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
-  background: url(../js/select2-spinner.gif) no-repeat 100%, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url(../js/select2-spinner.gif) no-repeat 100%, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url(../js/select2-spinner.gif) no-repeat 100%, linear-gradient(top, white 85%, #eeeeee 99%); }
+  background: white url(../../../js/select2-spinner.gif) no-repeat 100%;
+  background: url(../../../js/select2-spinner.gif) no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url(../../../js/select2-spinner.gif) no-repeat 100%, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url(../../../js/select2-spinner.gif) no-repeat 100%, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url(../../../js/select2-spinner.gif) no-repeat 100%, linear-gradient(top, white 85%, #eeeeee 99%); }
 
 .select2-container-active {
   border: 2px solid #5883ed !important; }
@@ -13075,7 +13048,7 @@ disabled look for disabled choices in the results dropdown
   display: none; }
 
 .select2-more-results.select2-active {
-  background: #f4f4f4 url(../js/select2-spinner.gif) no-repeat 100%; }
+  background: #f4f4f4 url(../../../js/select2-spinner.gif) no-repeat 100%; }
 
 .select2-more-results {
   background: #f4f4f4;
@@ -13143,7 +13116,7 @@ disabled look for disabled choices in the results dropdown
   background: transparent !important; }
 
 .select2-container-multi .select2-choices .select2-search-field input.select2-active {
-  background: white url(../js/select2-spinner.gif) no-repeat 100% !important; }
+  background: white url(../../../js/select2-spinner.gif) no-repeat 100% !important; }
 
 .select2-default {
   color: #999 !important;
@@ -13189,7 +13162,7 @@ disabled look for disabled choices in the results dropdown
   position: absolute;
   left: 4px;
   outline: none;
-  background: url(../assets/close.svg) left top no-repeat; }
+  background: url(../../../assets/close.svg) left top no-repeat; }
 
 /* disabled styles */
 .select2-container-multi.select2-container-disabled .select2-choices {

@@ -743,7 +743,10 @@ hr {
   -o-transform: translateY(-300%);
   transform: translateY(-300%); }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .projects__subnav-active,
+.is-visible {
+  visibility: visible !important; }
+
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
 .proposal__procure-subnav-qa, .project__details-subnav-terms,
 .project__details-subnav-equipment,
@@ -754,7 +757,8 @@ hr {
 .facility__unit-subnav-history, .facility__projects-subnav-active,
 .facility__projects-subnav-completed, .facility__service-subnav-active,
 .facility__service-subnav-completed, .facility__pm-subnav-equipment,
-.facility__pm-subnav-tenants, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .repair__abstract-dl, .repair__abstract-scope, .form__buttons-group, .form__example-fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
+.facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
+.rfq__aside-subnav-qa, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .repair__abstract-dl, .repair__abstract-scope, .form__buttons-group, .form__example-fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -772,7 +776,8 @@ hr {
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-info-list,
-.facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .facility__pm-timeline-list, .facility__pm-equipment-specs, .facility__pm-equipment-inspections, .facility__pm-tenant-list, .sidebar ul, .sidebar li {
+.facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .facility__pm-timeline-list, .facility__pm-equipment-specs, .facility__pm-equipment-inspections, .facility__pm-tenant-list, .rfq__scan-list, .rfq__zoom-list,
+.rfq__zoom-list-dual, .rfq__bid-fieldset, .rfq__bid-options-details, .rfq__equipment-unit-spec-list, .rfq__qa, .sidebar ul, .sidebar li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
@@ -823,12 +828,12 @@ hr {
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
 .siteNav__invoices-popover-list, .proposal__form-head-toolbar-save, .account__details-personal-head-toolbar-save,
-.account__details-personal-head-toolbar-cancel {
+.account__details-personal-head-toolbar-cancel, .rfq__bid-head-toolbar-save {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.proposal__abstract-address span:first-of-type, .repair__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .overlay__onboard-legend, .account__details-personal-label,
+.proposal__abstract-address span:first-of-type, .repair__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .rfq__abstract-address span:first-of-type, .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .overlay__onboard-legend, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
-.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .form__input-field-label-hidden, .onboard__copy b, .onboard-dashboard__copy b, .onboard-facility__overview-note b,
+.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .form__input-field-label-hidden, .onboard__copy b, .onboard-dashboard__copy b, .onboard-facility__overview-note b,
 .onboard-facility__aside-summary-note b, .siteNav__alert-events, .siteNav__events-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .repair__bid-tr:last-child td, .repair__bid-th:last-child,
@@ -836,7 +841,7 @@ hr {
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
 .invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__activity-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2), .facility__unit-info-key, .ui-state-highlight, .ui-state-active, .facility__suite-info-key,
-.facility__suite-lease-key, .facility__pm-tenant-list-titles span, .facility__pm-tenant-action-enroll {
+.facility__suite-lease-key, .facility__pm-tenant-list-titles span, .facility__pm-tenant-action-enroll, .rfq__bid-option-price, .rfq__bid-options-detail b, .rfq__qa-username {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
@@ -848,7 +853,9 @@ hr {
 .facility__suite-lease-head,
 .facility__suite-service-head, .facility__pm-upcoming-head,
 .facility__pm-timeline-head,
-.facility__pm-approval-head, .proposal__abstract-head h1, .proposal__form-head h1,
+.facility__pm-approval-head, .rfq__abstract-head, .rfq__scan-head,
+.rfq__zoom-head,
+.rfq__bid-head, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .repair__abstract-head h1,
 .repair__bid-head h1, .repair__unit-head h1, .project__abstract-head h1, .account__details-personal-head h1,
@@ -857,15 +864,17 @@ hr {
 .facility__suite-lease-head h1,
 .facility__suite-service-head h1, .facility__pm-upcoming-head h1,
 .facility__pm-timeline-head h1,
-.facility__pm-approval-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.facility__pm-approval-head h1, .rfq__abstract-head h1, .rfq__scan-head h1,
+.rfq__zoom-head h1,
+.rfq__bid-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
 .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
-.facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+.facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .rfq__qa-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
-.facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+.facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .rfq__bid-field:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .rfq__qa-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
 .account__details-company-input::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-mobile-date::-moz-placeholder,
-.facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+.facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .rfq__bid-field::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .rfq__qa-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
 .account__details-company-input:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-mobile-date:-ms-input-placeholder,
-.facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
+.facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .rfq__bid-field:-ms-input-placeholder, .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc {
   font-weight: 400; }
 
 .proposal__abstract-head h1, .proposal__form-head h1,
@@ -877,7 +886,9 @@ hr {
 .facility__suite-lease-head h1,
 .facility__suite-service-head h1, .facility__pm-upcoming-head h1,
 .facility__pm-timeline-head h1,
-.facility__pm-approval-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
+.facility__pm-approval-head h1, .rfq__abstract-head h1, .rfq__scan-head h1,
+.rfq__zoom-head h1,
+.rfq__bid-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
 .billing__defcon2-tbody .billing__th,
 .billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
@@ -889,16 +900,17 @@ hr {
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
   font-weight: 400; }
 
-.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
+.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job, .rfq__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
-.onboard-facility__aside-summary-cta, .siteNav, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.onboard-facility__aside-summary-cta, .siteNav,
+.siteNav-guest, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
 .facility__duty-bucket, .facility__activity-prevent-copy, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
 .facility__suites-paginate-prev,
 .facility__suites-paginate-page,
 .facility__suites-paginate-gap,
 .facility__suites-paginate-next,
 .facility__suites-paginate-last, .facility__suite-tally-total, .facility__pm-upcoming-date, .facility__pm-upcoming-vendor-title, .facility__pm-timeline-event-type, .facility__pm-equipment-parent-suite,
-.facility__pm-equipment-parent-tenant, .facility__pm-equipment-full-view {
+.facility__pm-equipment-parent-tenant, .facility__pm-equipment-full-view, .rfq__scan-expand, .rfq__zoom-item a:after {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -913,7 +925,7 @@ hr {
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__timeline, .project__qa, .billing__late,
-.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .facility__pm-tenant-body, .events__feed {
+.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .facility__pm-tenant-body, .events__feed, .rfq__qa {
   padding: 22.4px;
   padding: 1.4rem;
   margin-top: 22.4px;
@@ -923,7 +935,7 @@ hr {
   overflow: hidden; }
 
 .facility__equipment-card, .facility__unit-gallery-feature-photo,
-.facility__unit-gallery-grid-photo, .facility__suite-unit-card, .facility__pm-equipment-card, .proposal__procure-goods-part, .project__equipment-piece {
+.facility__unit-gallery-grid-photo, .facility__suite-unit-card, .facility__pm-equipment-card, .proposal__procure-goods-part, .project__equipment-piece, .rfq__equipment-unit {
   padding: 0;
   background: white;
   border: 1px solid #e3e5ea;
@@ -933,7 +945,7 @@ hr {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count {
+.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -947,7 +959,9 @@ hr {
 .facility__suite-lease-head,
 .facility__suite-service-head, .facility__pm-upcoming-head,
 .facility__pm-timeline-head,
-.facility__pm-approval-head {
+.facility__pm-approval-head, .rfq__abstract-head, .rfq__scan-head,
+.rfq__zoom-head,
+.rfq__bid-head {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -977,7 +991,9 @@ hr {
   .facility__suite-lease-head:last-child,
   .facility__suite-service-head:last-child, .facility__pm-upcoming-head:last-child,
   .facility__pm-timeline-head:last-child,
-  .facility__pm-approval-head:last-child {
+  .facility__pm-approval-head:last-child, .rfq__abstract-head:last-child, .rfq__scan-head:last-child,
+  .rfq__zoom-head:last-child,
+  .rfq__bid-head:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-head, .proposal__form-head,
@@ -989,7 +1005,9 @@ hr {
     .facility__suite-lease-head,
     .facility__suite-service-head, .facility__pm-upcoming-head,
     .facility__pm-timeline-head,
-    .facility__pm-approval-head {
+    .facility__pm-approval-head, .rfq__abstract-head, .rfq__scan-head,
+    .rfq__zoom-head,
+    .rfq__bid-head {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
   .proposal__abstract-head h1, .proposal__form-head h1,
@@ -1001,13 +1019,15 @@ hr {
   .facility__suite-lease-head h1,
   .facility__suite-service-head h1, .facility__pm-upcoming-head h1,
   .facility__pm-timeline-head h1,
-  .facility__pm-approval-head h1 {
+  .facility__pm-approval-head h1, .rfq__abstract-head h1, .rfq__scan-head h1,
+  .rfq__zoom-head h1,
+  .rfq__bid-head h1 {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
     display: inline-block; }
 
-.proposal__form-head-toolbar, .account__details-personal-head-toolbar, .facility__suite-lease-head-toolbar {
+.proposal__form-head-toolbar, .account__details-personal-head-toolbar, .facility__suite-lease-head-toolbar, .rfq__bid-head-toolbar {
   position: absolute;
   right: 22.4px;
   right: 1.4rem;
@@ -1018,7 +1038,7 @@ hr {
   -o-transform: translateY(50%);
   transform: translateY(50%); }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save {
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save {
   background: white;
   border: 1px solid #e3e5ea;
   -webkit-border-radius: 999px;
@@ -1030,7 +1050,7 @@ hr {
   height: 2.5rem;
   width: 40px;
   width: 2.5rem; }
-  .account__details-personal-head-toolbar-edit:before, .facility__suite-lease-head-toolbar-edit:before, .account__details-personal-head-toolbar-lock:before, .facility__suite-lease-head-toolbar-lock:before, .proposal__form-head-toolbar-save:before {
+  .account__details-personal-head-toolbar-edit:before, .facility__suite-lease-head-toolbar-edit:before, .account__details-personal-head-toolbar-lock:before, .facility__suite-lease-head-toolbar-lock:before, .proposal__form-head-toolbar-save:before, .rfq__bid-head-toolbar-save:before {
     content: '';
     display: inline-block;
     height: 30px;
@@ -1038,7 +1058,7 @@ hr {
     width: 30px;
     width: 1.875rem;
     background: center center no-repeat; }
-  .account__details-personal-head-toolbar-edit:hover, .facility__suite-lease-head-toolbar-edit:hover, .account__details-personal-head-toolbar-lock:hover, .facility__suite-lease-head-toolbar-lock:hover, .proposal__form-head-toolbar-save:hover, .account__details-personal-head-toolbar-edit:focus, .facility__suite-lease-head-toolbar-edit:focus, .account__details-personal-head-toolbar-lock:focus, .facility__suite-lease-head-toolbar-lock:focus, .proposal__form-head-toolbar-save:focus, .account__details-personal-head-toolbar-edit:active, .facility__suite-lease-head-toolbar-edit:active, .account__details-personal-head-toolbar-lock:active, .facility__suite-lease-head-toolbar-lock:active, .proposal__form-head-toolbar-save:active {
+  .account__details-personal-head-toolbar-edit:hover, .facility__suite-lease-head-toolbar-edit:hover, .account__details-personal-head-toolbar-lock:hover, .facility__suite-lease-head-toolbar-lock:hover, .proposal__form-head-toolbar-save:hover, .rfq__bid-head-toolbar-save:hover, .account__details-personal-head-toolbar-edit:focus, .facility__suite-lease-head-toolbar-edit:focus, .account__details-personal-head-toolbar-lock:focus, .facility__suite-lease-head-toolbar-lock:focus, .proposal__form-head-toolbar-save:focus, .rfq__bid-head-toolbar-save:focus, .account__details-personal-head-toolbar-edit:active, .facility__suite-lease-head-toolbar-edit:active, .account__details-personal-head-toolbar-lock:active, .facility__suite-lease-head-toolbar-lock:active, .proposal__form-head-toolbar-save:active, .rfq__bid-head-toolbar-save:active {
     outline: 0;
     border-color: #c7cacd; }
 
@@ -1057,7 +1077,7 @@ hr {
 .facility__suite-lease-body,
 .facility__suite-upload-body, .facility__pm-upcoming-body,
 .facility__pm-timeline-body,
-.facility__pm-approval-body {
+.facility__pm-approval-body, .rfq__abstract-body, .rfq__zoom-body, .rfq__scan-body, .rfq__bid-body {
   padding: 22.4px;
   padding: 1.4rem;
   background: white;
@@ -1079,19 +1099,20 @@ hr {
 .facility__unit-subnav-history, .facility__projects-subnav-active,
 .facility__projects-subnav-completed, .facility__service-subnav-active,
 .facility__service-subnav-completed, .facility__pm-subnav-equipment,
-.facility__pm-subnav-tenants, .siteNav__events-popover-footer-label,
+.facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
+.rfq__aside-subnav-qa, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2px; }
 
-.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets {
+.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets {
   border-top: 2px solid #e3e5ea; }
-  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active {
+  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active, .rfq__aside-subnav-buckets .is-active {
     border-top: 2px solid #092f3e;
     color: #092f3e; }
-    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover {
+    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover, .rfq__aside-subnav-buckets .is-active:hover {
       color: #092f3e; }
 
 .projects__subnav-active,
@@ -1105,7 +1126,8 @@ hr {
 .facility__unit-subnav-history, .facility__projects-subnav-active,
 .facility__projects-subnav-completed, .facility__service-subnav-active,
 .facility__service-subnav-completed, .facility__pm-subnav-equipment,
-.facility__pm-subnav-tenants {
+.facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
+.rfq__aside-subnav-qa {
   font-size: 11.11111px;
   font-size: 0.69444rem;
   display: inline-block;
@@ -1126,7 +1148,8 @@ hr {
   .facility__unit-subnav-history:hover, .facility__projects-subnav-active:hover,
   .facility__projects-subnav-completed:hover, .facility__service-subnav-active:hover,
   .facility__service-subnav-completed:hover, .facility__pm-subnav-equipment:hover,
-  .facility__pm-subnav-tenants:hover {
+  .facility__pm-subnav-tenants:hover, .rfq__aside-subnav-equipment:hover,
+  .rfq__aside-subnav-qa:hover {
     cursor: pointer;
     color: #93989c; }
 
@@ -1134,7 +1157,7 @@ hr {
 *Dashed file upload widgets
 *This extends into specific assets below
 */
-.overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button {
+.rfq__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding: 11.2px;
@@ -1147,7 +1170,7 @@ hr {
   border: 1px dashed #66c3b0;
   cursor: pointer;
   text-align: center; }
-  .overlay__confirm-input-file-button:before, .facility__unit-history-add-info-attach:before, .facility__suite-upload-lease-button:before, .facility__suite-upload-service-button:before {
+  .rfq__bid-upload:before, .overlay__confirm-input-file-button:before, .facility__unit-history-add-info-attach:before, .facility__suite-upload-lease-button:before, .facility__suite-upload-service-button:before {
     content: '';
     display: block;
     background: center center no-repeat;
@@ -1163,27 +1186,30 @@ hr {
     white-space: nowrap;
     -webkit-user-select: none;
     transition: cubic-bezier(0.53, -0.24, 0, 1.03); }
-    .overlay__confirm-input-file-button:before:hover, .facility__unit-history-add-info-attach:before:hover, .facility__suite-upload-lease-button:before:hover, .facility__suite-upload-service-button:before:hover {
+    .rfq__bid-upload:before:hover, .overlay__confirm-input-file-button:before:hover, .facility__unit-history-add-info-attach:before:hover, .facility__suite-upload-lease-button:before:hover, .facility__suite-upload-service-button:before:hover {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       -moz-transform: scale(1.05);
       -o-transform: scale(1.05);
       transform: scale(1.05); }
-  .overlay__confirm-input-file-button:hover, .facility__unit-history-add-info-attach:hover, .facility__suite-upload-lease-button:hover, .facility__suite-upload-service-button:hover {
+  .rfq__bid-upload:hover, .overlay__confirm-input-file-button:hover, .facility__unit-history-add-info-attach:hover, .facility__suite-upload-lease-button:hover, .facility__suite-upload-service-button:hover {
     background: rgba(102, 195, 176, 0.05); }
-    .overlay__confirm-input-file-button:hover::before, .facility__unit-history-add-info-attach:hover::before, .facility__suite-upload-lease-button:hover::before, .facility__suite-upload-service-button:hover::before {
+    .rfq__bid-upload:hover::before, .overlay__confirm-input-file-button:hover::before, .facility__unit-history-add-info-attach:hover::before, .facility__suite-upload-lease-button:hover::before, .facility__suite-upload-service-button:hover::before {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       -moz-transform: scale(1.05);
       -o-transform: scale(1.05);
       transform: scale(1.05); }
-  .overlay__confirm-input-file-button input::-webkit-file-upload-button, .facility__unit-history-add-info-attach input::-webkit-file-upload-button, .facility__suite-upload-lease-button input::-webkit-file-upload-button, .facility__suite-upload-service-button input::-webkit-file-upload-button {
+  .rfq__bid-upload input::-webkit-file-upload-button, .overlay__confirm-input-file-button input::-webkit-file-upload-button, .facility__unit-history-add-info-attach input::-webkit-file-upload-button, .facility__suite-upload-lease-button input::-webkit-file-upload-button, .facility__suite-upload-service-button input::-webkit-file-upload-button {
     visibility: hidden; }
-  .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input {
+  .rfq__bid-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input {
     display: none;
     visibility: hidden;
     outline: none;
     -webkit-user-select: none; }
+
+.rfq__bid-upload:before {
+  background-image: url(../../assets/proposal-view.svg); }
 
 .overlay__confirm-input-file-button {
   border-color: #66c3b0; }
@@ -1228,7 +1254,7 @@ hr {
   .facility__suite-upload-service-button:before {
     background-image: url(../../assets/service-contract-upload.svg); }
 
-.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover {
+.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .rfq__zoom-doc:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover, .rfq__zoom-scope-dual:hover, .rfq__zoom-scope-dual:hover a, .rfq__zoom-item a:hover {
   cursor: pointer;
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in; }
@@ -1247,13 +1273,13 @@ hr {
   font-size: 1.44rem;
   margin-bottom: 0; }
 
-.proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address {
+.proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address {
   padding-left: 28px;
   padding-left: 28px/16pxrem;
   margin-top: 22.4px;
   margin-top: 1.4rem;
   position: relative; }
-  .proposal__abstract-address:before, .repair__abstract-address:before, .invoice__meta-summary-address:before {
+  .proposal__abstract-address:before, .repair__abstract-address:before, .invoice__meta-summary-address:before, .rfq__abstract-address:before {
     content: '';
     position: absolute;
     top: 0;
@@ -1266,14 +1292,14 @@ hr {
     margin-right: 0.7rem;
     background: center center no-repeat;
     background-image: url(../../assets/address-icon.svg); }
-  .proposal__abstract-address span, .repair__abstract-address span, .invoice__meta-summary-address span {
+  .proposal__abstract-address span, .repair__abstract-address span, .invoice__meta-summary-address span, .rfq__abstract-address span {
     display: block;
     font-style: normal;
     color: #93989c; }
-    .proposal__abstract-address span:first-of-type, .repair__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type {
+    .proposal__abstract-address span:first-of-type, .repair__abstract-address span:first-of-type, .invoice__meta-summary-address span:first-of-type, .rfq__abstract-address span:first-of-type {
       color: #54545a; }
 
-.proposal__terms-view-doc, .invoice__meta-doc-view, .facility__suite-upload-lease-view-doc, .facility__pm-approval-doc {
+.proposal__terms-view-doc, .invoice__meta-doc-view, .rfq__zoom-doc, .facility__suite-upload-lease-view-doc, .facility__pm-approval-doc {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding-left: 22.4px;
@@ -1284,7 +1310,7 @@ hr {
   margin-bottom: 0;
   color: #93989c;
   text-align: center; }
-  .proposal__terms-view-doc:before, .invoice__meta-doc-view:before, .facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
+  .proposal__terms-view-doc:before, .invoice__meta-doc-view:before, .rfq__zoom-doc:before, .facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
     content: '';
     display: block;
     margin: 0 auto;
@@ -1295,11 +1321,11 @@ hr {
     margin-bottom: 5.6px;
     margin-bottom: 0.35rem;
     background: center center no-repeat; }
-  .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a {
+  .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
 
-.proposal__terms-view-doc:before, .invoice__meta-doc-view:before {
+.proposal__terms-view-doc:before, .invoice__meta-doc-view:before, .rfq__zoom-doc:before {
   background-image: url(../../assets/scope-large.svg); }
 
 .facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
@@ -1315,7 +1341,7 @@ hr {
 .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
 .siteNav__invoices-popover-list, .facility__duty,
-.facility__duty-bucket {
+.facility__duty-bucket, .rfq__map {
   border: 1px solid #e3e5ea; }
 
 .invoice__meta-support-copy, .facility__activity-prevent-memo {
@@ -1369,7 +1395,7 @@ hr {
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem; }
 
-.proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec, .facility__pm-equipment-spec {
+.proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec, .facility__pm-equipment-spec, .rfq__equipment-unit-spec-item {
   margin-top: 5.6px;
   margin-top: 0.35rem;
   margin-bottom: 16.8px;
@@ -1384,7 +1410,7 @@ hr {
   font-size: 0.69444rem;
   display: inline-block;
   position: relative; }
-  .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before, .facility__pm-equipment-spec:before {
+  .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before, .facility__pm-equipment-spec:before, .rfq__equipment-unit-spec-item:before {
     content: '';
     position: absolute;
     top: 0;
@@ -1394,13 +1420,13 @@ hr {
     width: 20px;
     width: 1.25rem;
     background: center center no-repeat; }
-  .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before {
+  .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before, .rfq__equipment-unit-spec-item:nth-child(1):before {
     background-image: url(../../assets/tag.svg); }
-  .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before {
+  .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before, .rfq__equipment-unit-spec-item:nth-child(2):before {
     background-image: url(../../assets/manufacturer.svg); }
-  .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before {
+  .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before, .rfq__equipment-unit-spec-item:nth-child(3):before {
     background-image: url(../../assets/tonnage.svg); }
-  .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before {
+  .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before, .rfq__equipment-unit-spec-item:nth-child(4):before {
     background-image: url(../../assets/calendar.svg); }
 
 .onboard-dashboard__finalize, .dashboard__form-finalize, .facility__unit-history-add-info-finalize {
@@ -1729,21 +1755,21 @@ hr {
   color: #93989c;
   font-size: 13.33333px; }
 
-.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
+.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
-.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
-.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
+.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   padding: 0.4em 1em 0.3em 1em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
@@ -1763,7 +1789,7 @@ hr {
   border: none;
   outline: none; }
 
-.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large {
+.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large {
   -webkit-appearance: none;
   font-size: 19.2px;
   font-size: 1.2rem;
@@ -1790,17 +1816,17 @@ hr {
 
 .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
-.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save {
+.facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
   .form__buttons-encourage:hover, .form__input-button-bleed:hover, .onboard__next-slide:hover,
   .onboard__finish-slide:hover, .onboard-dashboard__button-submit:hover, .dashboard__form-button-submit:hover, .proposal__procure-services-qa-post-btn:hover, .repair__bid-finalize-encourage:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .overlay__request-form-button-submit:hover, .overlay__onboard-finalize-submit:hover, .account__details-personal-confirm-save:hover, .facility__unit-request-form-button-submit:hover, .facility__unit-history-add-mobile-submit:hover,
-  .facility__unit-history-add-info-submit:hover, .facility__suite-lease-form-confirm-save:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .onboard__next-slide:focus,
+  .facility__unit-history-add-info-submit:hover, .facility__suite-lease-form-confirm-save:hover, .rfq__qa-post-btn:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .onboard__next-slide:focus,
   .onboard__finish-slide:focus, .onboard-dashboard__button-submit:focus, .dashboard__form-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .repair__bid-finalize-encourage:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__request-form-button-submit:focus, .overlay__onboard-finalize-submit:focus, .account__details-personal-confirm-save:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-mobile-submit:focus,
-  .facility__unit-history-add-info-submit:focus, .facility__suite-lease-form-confirm-save:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .onboard__next-slide:active,
+  .facility__unit-history-add-info-submit:focus, .facility__suite-lease-form-confirm-save:focus, .rfq__qa-post-btn:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .onboard__next-slide:active,
   .onboard__finish-slide:active, .onboard-dashboard__button-submit:active, .dashboard__form-button-submit:active, .proposal__procure-services-qa-post-btn:active, .repair__bid-finalize-encourage:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__request-form-button-submit:active, .overlay__onboard-finalize-submit:active, .account__details-personal-confirm-save:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-mobile-submit:active,
-  .facility__unit-history-add-info-submit:active, .facility__suite-lease-form-confirm-save:active {
+  .facility__unit-history-add-info-submit:active, .facility__suite-lease-form-confirm-save:active, .rfq__qa-post-btn:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-discourage {
@@ -1821,11 +1847,11 @@ hr {
   .facility__unit-history-add-info-cancel:active, .facility__suite-lease-form-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
-.form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage {
+.form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
-  .form__buttons-encourage-large:hover, .onboard-facility__button-finish:hover, .proposal__form-button-encourage:hover, .form__buttons-encourage-large:focus, .onboard-facility__button-finish:focus, .proposal__form-button-encourage:focus, .form__buttons-encourage-large:active, .onboard-facility__button-finish:active, .proposal__form-button-encourage:active {
+  .form__buttons-encourage-large:hover, .onboard-facility__button-finish:hover, .proposal__form-button-encourage:hover, .rfq__bid-button-encourage:hover, .form__buttons-encourage-large:focus, .onboard-facility__button-finish:focus, .proposal__form-button-encourage:focus, .rfq__bid-button-encourage:focus, .form__buttons-encourage-large:active, .onboard-facility__button-finish:active, .proposal__form-button-encourage:active, .rfq__bid-button-encourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
 
 .form__buttons-discourage-large {
@@ -1981,20 +2007,20 @@ hr {
     [disabled="true"].form__select-drop:hover, [disabled="true"].dashboard__form-select-drop:hover, [disabled="true"].overlay__request-form-select-drop:hover, [disabled="true"].facility__unit-request-form-select-drop:hover, [disabled="true"].form__select-drop:focus, [disabled="true"].dashboard__form-select-drop:focus, [disabled="true"].overlay__request-form-select-drop:focus, [disabled="true"].facility__unit-request-form-select-drop:focus {
       border-color: #c7cacd; }
 
-.form__selects-label, .dashboard__form-check-label, .proposal__form-check-label, .overlay__request-form-check-label, .overlay__onboard-checkbox-label, .facility__unit-request-form-check-label {
+.form__selects-label, .dashboard__form-check-label, .proposal__form-check-label, .overlay__request-form-check-label, .overlay__onboard-checkbox-label, .facility__unit-request-form-check-label, .rfq__bid-check-label {
   padding: 5.6px;
   padding: 0.35rem;
   margin-bottom: 0;
   font-size: 16px;
   font-size: 1rem; }
-  .form__selects-label:first-of-type, .dashboard__form-check-label:first-of-type, .proposal__form-check-label:first-of-type, .overlay__request-form-check-label:first-of-type, .overlay__onboard-checkbox-label:first-of-type, .facility__unit-request-form-check-label:first-of-type {
+  .form__selects-label:first-of-type, .dashboard__form-check-label:first-of-type, .proposal__form-check-label:first-of-type, .overlay__request-form-check-label:first-of-type, .overlay__onboard-checkbox-label:first-of-type, .facility__unit-request-form-check-label:first-of-type, .rfq__bid-check-label:first-of-type {
     margin-top: 5.6px;
     margin-top: 0.35rem; }
-  .form__selects-label:last-of-type, .dashboard__form-check-label:last-of-type, .proposal__form-check-label:last-of-type, .overlay__request-form-check-label:last-of-type, .overlay__onboard-checkbox-label:last-of-type, .facility__unit-request-form-check-label:last-of-type {
+  .form__selects-label:last-of-type, .dashboard__form-check-label:last-of-type, .proposal__form-check-label:last-of-type, .overlay__request-form-check-label:last-of-type, .overlay__onboard-checkbox-label:last-of-type, .facility__unit-request-form-check-label:last-of-type, .rfq__bid-check-label:last-of-type {
     margin-bottom: 22.4px;
     margin-bottom: 1.4rem; }
 
-.form__select-radio, .dashboard__form-check-radio, .proposal__form-check-radio, .overlay__request-form-check-radio, .facility__unit-request-form-check-radio {
+.form__select-radio, .dashboard__form-check-radio, .proposal__form-check-radio, .overlay__request-form-check-radio, .facility__unit-request-form-check-radio, .rfq__bid-check-radio {
   -webkit-appearance: none;
   position: relative;
   background: white;
@@ -2015,15 +2041,15 @@ hr {
   margin-top: 0;
   margin-left: 0;
   outline: none; }
-  [disabled="true"].form__select-radio, [disabled="true"].dashboard__form-check-radio, [disabled="true"].proposal__form-check-radio, [disabled="true"].overlay__request-form-check-radio, [disabled="true"].facility__unit-request-form-check-radio {
+  [disabled="true"].form__select-radio, [disabled="true"].dashboard__form-check-radio, [disabled="true"].proposal__form-check-radio, [disabled="true"].overlay__request-form-check-radio, [disabled="true"].facility__unit-request-form-check-radio, [disabled="true"].rfq__bid-check-radio {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4);
     cursor: not-allowed; }
-    [disabled="true"].form__select-radio:checked, [disabled="true"].dashboard__form-check-radio:checked, [disabled="true"].proposal__form-check-radio:checked, [disabled="true"].overlay__request-form-check-radio:checked, [disabled="true"].facility__unit-request-form-check-radio:checked {
+    [disabled="true"].form__select-radio:checked, [disabled="true"].dashboard__form-check-radio:checked, [disabled="true"].proposal__form-check-radio:checked, [disabled="true"].overlay__request-form-check-radio:checked, [disabled="true"].facility__unit-request-form-check-radio:checked, [disabled="true"].rfq__bid-check-radio:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4);
       cursor: not-allowed; }
-      [disabled="true"].form__select-radio:checked:before, [disabled="true"].dashboard__form-check-radio:checked:before, [disabled="true"].proposal__form-check-radio:checked:before, [disabled="true"].overlay__request-form-check-radio:checked:before, [disabled="true"].facility__unit-request-form-check-radio:checked:before {
+      [disabled="true"].form__select-radio:checked:before, [disabled="true"].dashboard__form-check-radio:checked:before, [disabled="true"].proposal__form-check-radio:checked:before, [disabled="true"].overlay__request-form-check-radio:checked:before, [disabled="true"].facility__unit-request-form-check-radio:checked:before, [disabled="true"].rfq__bid-check-radio:checked:before {
         content: '';
         background: url(../../assets/bullet.svg) center center no-repeat;
         position: absolute;
@@ -2039,13 +2065,13 @@ hr {
         -moz-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
-    [disabled="true"].form__select-radio:hover, [disabled="true"].dashboard__form-check-radio:hover, [disabled="true"].proposal__form-check-radio:hover, [disabled="true"].overlay__request-form-check-radio:hover, [disabled="true"].facility__unit-request-form-check-radio:hover, [disabled="true"].form__select-radio:focus, [disabled="true"].dashboard__form-check-radio:focus, [disabled="true"].proposal__form-check-radio:focus, [disabled="true"].overlay__request-form-check-radio:focus, [disabled="true"].facility__unit-request-form-check-radio:focus {
+    [disabled="true"].form__select-radio:hover, [disabled="true"].dashboard__form-check-radio:hover, [disabled="true"].proposal__form-check-radio:hover, [disabled="true"].overlay__request-form-check-radio:hover, [disabled="true"].facility__unit-request-form-check-radio:hover, [disabled="true"].rfq__bid-check-radio:hover, [disabled="true"].form__select-radio:focus, [disabled="true"].dashboard__form-check-radio:focus, [disabled="true"].proposal__form-check-radio:focus, [disabled="true"].overlay__request-form-check-radio:focus, [disabled="true"].facility__unit-request-form-check-radio:focus, [disabled="true"].rfq__bid-check-radio:focus {
       cursor: not-allowed;
       border-color: #c7cacd; }
-  .form__select-radio:checked, .dashboard__form-check-radio:checked, .proposal__form-check-radio:checked, .overlay__request-form-check-radio:checked, .facility__unit-request-form-check-radio:checked {
+  .form__select-radio:checked, .dashboard__form-check-radio:checked, .proposal__form-check-radio:checked, .overlay__request-form-check-radio:checked, .facility__unit-request-form-check-radio:checked, .rfq__bid-check-radio:checked {
     border-color: #66c3b0;
     background-color: rgba(102, 195, 176, 0.4); }
-    .form__select-radio:checked:before, .dashboard__form-check-radio:checked:before, .proposal__form-check-radio:checked:before, .overlay__request-form-check-radio:checked:before, .facility__unit-request-form-check-radio:checked:before {
+    .form__select-radio:checked:before, .dashboard__form-check-radio:checked:before, .proposal__form-check-radio:checked:before, .overlay__request-form-check-radio:checked:before, .facility__unit-request-form-check-radio:checked:before, .rfq__bid-check-radio:checked:before {
       content: '';
       background: url(../../assets/bullet.svg) center center no-repeat;
       position: absolute;
@@ -2061,11 +2087,11 @@ hr {
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
-  .form__select-radio:hover, .dashboard__form-check-radio:hover, .proposal__form-check-radio:hover, .overlay__request-form-check-radio:hover, .facility__unit-request-form-check-radio:hover {
+  .form__select-radio:hover, .dashboard__form-check-radio:hover, .proposal__form-check-radio:hover, .overlay__request-form-check-radio:hover, .facility__unit-request-form-check-radio:hover, .rfq__bid-check-radio:hover {
     cursor: pointer; }
-  .form__select-radio:hover, .dashboard__form-check-radio:hover, .proposal__form-check-radio:hover, .overlay__request-form-check-radio:hover, .facility__unit-request-form-check-radio:hover, .form__select-radio:focus, .dashboard__form-check-radio:focus, .proposal__form-check-radio:focus, .overlay__request-form-check-radio:focus, .facility__unit-request-form-check-radio:focus {
+  .form__select-radio:hover, .dashboard__form-check-radio:hover, .proposal__form-check-radio:hover, .overlay__request-form-check-radio:hover, .facility__unit-request-form-check-radio:hover, .rfq__bid-check-radio:hover, .form__select-radio:focus, .dashboard__form-check-radio:focus, .proposal__form-check-radio:focus, .overlay__request-form-check-radio:focus, .facility__unit-request-form-check-radio:focus, .rfq__bid-check-radio:focus {
     border-color: rgba(0, 0, 0, 0.4); }
-  .form__select-radio:active, .dashboard__form-check-radio:active, .proposal__form-check-radio:active, .overlay__request-form-check-radio:active, .facility__unit-request-form-check-radio:active {
+  .form__select-radio:active, .dashboard__form-check-radio:active, .proposal__form-check-radio:active, .overlay__request-form-check-radio:active, .facility__unit-request-form-check-radio:active, .rfq__bid-check-radio:active {
     border-color: #66c3b0; }
 
 .form__select-check, .overlay__onboard-checkbox-input {
@@ -2136,9 +2162,9 @@ hr {
     [disabled="true"].form__input-field-large:hover, [disabled="true"].form__input-field-large:focus {
       border-color: #c7cacd; }
 
-.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
+.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
-.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input {
+.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -2151,50 +2177,50 @@ hr {
   padding-left: 11.2px;
   font-family: "jaf-bernino-sans", sans-serif;
   outline: none; }
-  .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .dashboard__form-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .overlay__request-form-field:active, .account__details-personal-input:active,
+  .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .rfq__qa-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .dashboard__form-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .overlay__request-form-field:active, .account__details-personal-input:active,
   .account__details-company-input:active, .facility__unit-request-form-field:active, .facility__unit-history-add-mobile-date:active,
-  .facility__unit-history-add-info-date:active, .facility__unit-history-add-info-textarea:active, .facility__suite-lease-form-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__form-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .overlay__request-form-field:focus, .account__details-personal-input:focus,
+  .facility__unit-history-add-info-date:active, .facility__unit-history-add-info-textarea:active, .facility__suite-lease-form-input:active, .rfq__bid-field:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .rfq__qa-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__form-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .overlay__request-form-field:focus, .account__details-personal-input:focus,
   .account__details-company-input:focus, .facility__unit-request-form-field:focus, .facility__unit-history-add-mobile-date:focus,
-  .facility__unit-history-add-info-date:focus, .facility__unit-history-add-info-textarea:focus, .facility__suite-lease-form-input:focus {
+  .facility__unit-history-add-info-date:focus, .facility__unit-history-add-info-textarea:focus, .facility__suite-lease-form-input:focus, .rfq__bid-field:focus {
     border-color: #66c3b0; }
-  [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].dashboard__form-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].overlay__request-form-field, [disabled="true"].account__details-personal-input,
+  [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].rfq__qa-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].dashboard__form-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].overlay__request-form-field, [disabled="true"].account__details-personal-input,
   [disabled="true"].account__details-company-input, [disabled="true"].facility__unit-request-form-field, [disabled="true"].facility__unit-history-add-mobile-date,
-  [disabled="true"].facility__unit-history-add-info-date, [disabled="true"].facility__unit-history-add-info-textarea, [disabled="true"].facility__suite-lease-form-input {
+  [disabled="true"].facility__unit-history-add-info-date, [disabled="true"].facility__unit-history-add-info-textarea, [disabled="true"].facility__suite-lease-form-input, [disabled="true"].rfq__bid-field {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].dashboard__form-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].overlay__request-form-field:checked, [disabled="true"].account__details-personal-input:checked,
+    [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].rfq__qa-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].dashboard__form-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].overlay__request-form-field:checked, [disabled="true"].account__details-personal-input:checked,
     [disabled="true"].account__details-company-input:checked, [disabled="true"].facility__unit-request-form-field:checked, [disabled="true"].facility__unit-history-add-mobile-date:checked,
-    [disabled="true"].facility__unit-history-add-info-date:checked, [disabled="true"].facility__unit-history-add-info-textarea:checked, [disabled="true"].facility__suite-lease-form-input:checked {
+    [disabled="true"].facility__unit-history-add-info-date:checked, [disabled="true"].facility__unit-history-add-info-textarea:checked, [disabled="true"].facility__suite-lease-form-input:checked, [disabled="true"].rfq__bid-field:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4); }
-    [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].dashboard__form-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].overlay__request-form-field:hover, [disabled="true"].account__details-personal-input:hover,
+    [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].rfq__qa-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].dashboard__form-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].overlay__request-form-field:hover, [disabled="true"].account__details-personal-input:hover,
     [disabled="true"].account__details-company-input:hover, [disabled="true"].facility__unit-request-form-field:hover, [disabled="true"].facility__unit-history-add-mobile-date:hover,
-    [disabled="true"].facility__unit-history-add-info-date:hover, [disabled="true"].facility__unit-history-add-info-textarea:hover, [disabled="true"].facility__suite-lease-form-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__form-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].overlay__request-form-field:focus, [disabled="true"].account__details-personal-input:focus,
+    [disabled="true"].facility__unit-history-add-info-date:hover, [disabled="true"].facility__unit-history-add-info-textarea:hover, [disabled="true"].facility__suite-lease-form-input:hover, [disabled="true"].rfq__bid-field:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].rfq__qa-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__form-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].overlay__request-form-field:focus, [disabled="true"].account__details-personal-input:focus,
     [disabled="true"].account__details-company-input:focus, [disabled="true"].facility__unit-request-form-field:focus, [disabled="true"].facility__unit-history-add-mobile-date:focus,
-    [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].facility__suite-lease-form-input:focus {
+    [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].facility__suite-lease-form-input:focus, [disabled="true"].rfq__bid-field:focus {
       border-color: #c7cacd; }
-  .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+  .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
   .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
-  .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder {
+  .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder {
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+  .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .rfq__qa-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
   .account__details-company-input:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
-  .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder {
+  .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .rfq__bid-field:-moz-placeholder {
     /* Firefox 18- */
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+  .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .rfq__qa-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__form-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__request-form-field::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
   .account__details-company-input::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-mobile-date::-moz-placeholder,
-  .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder {
+  .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .rfq__bid-field::-moz-placeholder {
     /* Firefox 19+ */
     color: #c7cacd; }
-  .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+  .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .rfq__qa-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__form-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__request-form-field:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
   .account__details-company-input:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-mobile-date:-ms-input-placeholder,
-  .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder {
+  .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .rfq__bid-field:-ms-input-placeholder {
     color: #c7cacd; }
 
 .form__input-field-label, .form__input-file-button, .form__example-legend, .dashboard__form-legend, .dashboard__form-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .overlay__confirm-form-label, .overlay__request-form-legend, .overlay__request-form-label, .overlay__onboard-legend, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
-.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .form__input-field-label-hidden {
+.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .form__input-field-label-hidden {
   display: block;
   font-size: 13.33333px;
   font-size: 0.83333rem;
@@ -2232,7 +2258,7 @@ hr {
     [disabled="true"].form__input-field-text:hover, [disabled="true"].form__input-field-text:focus {
       border-color: #c7cacd; }
 
-.proposal__procure-services-qa-textarea, .project__qa-chat-textarea {
+.proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea {
   -webkit-appearance: none;
   font-size: 13.33333px;
   font-size: 0.83333rem;
@@ -6972,6 +6998,360 @@ hr {
       .facility__pm-tenant-cost:last-child {
         margin-right: 0; } }
 
+.rfq__block {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__block:last-child {
+    margin-right: 0; }
+
+.rfq__abstract,
+.rfq__map,
+.rfq__scan,
+.rfq__zoom {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__abstract:last-child,
+  .rfq__map:last-child,
+  .rfq__scan:last-child,
+  .rfq__zoom:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__abstract,
+    .rfq__map,
+    .rfq__scan,
+    .rfq__zoom {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .rfq__abstract:last-child,
+      .rfq__map:last-child,
+      .rfq__scan:last-child,
+      .rfq__zoom:last-child {
+        margin-right: 0; }
+      .rfq__abstract:nth-child(2n),
+      .rfq__map:nth-child(2n),
+      .rfq__scan:nth-child(2n),
+      .rfq__zoom:nth-child(2n) {
+        margin-right: 0; }
+      .rfq__abstract:nth-child(2n+1),
+      .rfq__map:nth-child(2n+1),
+      .rfq__scan:nth-child(2n+1),
+      .rfq__zoom:nth-child(2n+1) {
+        clear: left; } }
+
+.rfq__abstract-head,
+.rfq__abstract-body,
+.rfq__abstract-job,
+.rfq__abstract-address,
+.rfq__abstract-summary,
+.rfq__map-iframe,
+.rfq__scan-head,
+.rfq__scan-body,
+.rfq__scan-list,
+.rfq__zoom-head,
+.rfq__zoom-body,
+.rfq__zoom-doc,
+.rfq__zoom-list,
+.rfq__zoom-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__abstract-head:last-child,
+  .rfq__abstract-body:last-child,
+  .rfq__abstract-job:last-child,
+  .rfq__abstract-address:last-child,
+  .rfq__abstract-summary:last-child,
+  .rfq__map-iframe:last-child,
+  .rfq__scan-head:last-child,
+  .rfq__scan-body:last-child,
+  .rfq__scan-list:last-child,
+  .rfq__zoom-head:last-child,
+  .rfq__zoom-body:last-child,
+  .rfq__zoom-doc:last-child,
+  .rfq__zoom-list:last-child,
+  .rfq__zoom-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__abstract-head,
+    .rfq__abstract-body,
+    .rfq__abstract-job,
+    .rfq__abstract-address,
+    .rfq__abstract-summary,
+    .rfq__map-iframe,
+    .rfq__scan-head,
+    .rfq__scan-body,
+    .rfq__scan-list,
+    .rfq__zoom-head,
+    .rfq__zoom-body,
+    .rfq__zoom-doc,
+    .rfq__zoom-list,
+    .rfq__zoom-item {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .rfq__abstract-head:last-child,
+      .rfq__abstract-body:last-child,
+      .rfq__abstract-job:last-child,
+      .rfq__abstract-address:last-child,
+      .rfq__abstract-summary:last-child,
+      .rfq__map-iframe:last-child,
+      .rfq__scan-head:last-child,
+      .rfq__scan-body:last-child,
+      .rfq__scan-list:last-child,
+      .rfq__zoom-head:last-child,
+      .rfq__zoom-body:last-child,
+      .rfq__zoom-doc:last-child,
+      .rfq__zoom-list:last-child,
+      .rfq__zoom-item:last-child {
+        margin-right: 0; } }
+
+.rfq__scan-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .rfq__scan-item:last-child {
+    margin-right: 0; }
+  .rfq__scan-item:nth-child(2n) {
+    margin-right: 0; }
+  .rfq__scan-item:nth-child(2n+1) {
+    clear: left; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__scan-item {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .rfq__scan-item:last-child {
+        margin-right: 0; }
+      .rfq__scan-item:nth-child(2n) {
+        margin-right: 0; }
+      .rfq__scan-item:nth-child(2n+1) {
+        clear: left; } }
+
+.rfq__showcase {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__showcase:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__showcase {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .rfq__showcase:last-child {
+        margin-right: 0; } }
+
+.rfq__aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__aside:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .rfq__aside:last-child {
+        margin-right: 0; } }
+
+.rfq__bid-head,
+.rfq__bid-body,
+.rfq__bid-form,
+.rfq__bid-label,
+.rfq__bid-check-label,
+.rfq__bid-fieldset,
+.rfq__bid-options,
+.rfq__bid-options-details,
+.rfq__bid-options-detail,
+.rfq__bid-legend,
+.rfq__bid-finalize,
+.rfq__bid-select-drop,
+.rfq__bid-total,
+.rfq__bid-finalize-text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__bid-head:last-child,
+  .rfq__bid-body:last-child,
+  .rfq__bid-form:last-child,
+  .rfq__bid-label:last-child,
+  .rfq__bid-check-label:last-child,
+  .rfq__bid-fieldset:last-child,
+  .rfq__bid-options:last-child,
+  .rfq__bid-options-details:last-child,
+  .rfq__bid-options-detail:last-child,
+  .rfq__bid-legend:last-child,
+  .rfq__bid-finalize:last-child,
+  .rfq__bid-select-drop:last-child,
+  .rfq__bid-total:last-child,
+  .rfq__bid-finalize-text:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__bid-head,
+    .rfq__bid-body,
+    .rfq__bid-form,
+    .rfq__bid-label,
+    .rfq__bid-check-label,
+    .rfq__bid-fieldset,
+    .rfq__bid-options,
+    .rfq__bid-options-details,
+    .rfq__bid-options-detail,
+    .rfq__bid-legend,
+    .rfq__bid-finalize,
+    .rfq__bid-select-drop,
+    .rfq__bid-total,
+    .rfq__bid-finalize-text {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      .rfq__bid-head:last-child,
+      .rfq__bid-body:last-child,
+      .rfq__bid-form:last-child,
+      .rfq__bid-label:last-child,
+      .rfq__bid-check-label:last-child,
+      .rfq__bid-fieldset:last-child,
+      .rfq__bid-options:last-child,
+      .rfq__bid-options-details:last-child,
+      .rfq__bid-options-detail:last-child,
+      .rfq__bid-legend:last-child,
+      .rfq__bid-finalize:last-child,
+      .rfq__bid-select-drop:last-child,
+      .rfq__bid-total:last-child,
+      .rfq__bid-finalize-text:last-child {
+        margin-right: 0; } }
+
+.rfq__aside-subnav,
+.rfq__aside-subnav-buckets,
+.rfq__equipment,
+.rfq__equipment-unit,
+.rfq__equipment-unit-spec-list,
+.rfq__qa,
+.rfq__qa-response,
+.rfq__qa-comment {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__aside-subnav:last-child,
+  .rfq__aside-subnav-buckets:last-child,
+  .rfq__equipment:last-child,
+  .rfq__equipment-unit:last-child,
+  .rfq__equipment-unit-spec-list:last-child,
+  .rfq__qa:last-child,
+  .rfq__qa-response:last-child,
+  .rfq__qa-comment:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__aside-subnav,
+    .rfq__aside-subnav-buckets,
+    .rfq__equipment,
+    .rfq__equipment-unit,
+    .rfq__equipment-unit-spec-list,
+    .rfq__qa,
+    .rfq__qa-response,
+    .rfq__qa-comment {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .rfq__aside-subnav:last-child,
+      .rfq__aside-subnav-buckets:last-child,
+      .rfq__equipment:last-child,
+      .rfq__equipment-unit:last-child,
+      .rfq__equipment-unit-spec-list:last-child,
+      .rfq__qa:last-child,
+      .rfq__qa-response:last-child,
+      .rfq__qa-comment:last-child {
+        margin-right: 0; } }
+
+.rfq__qa-user {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%; }
+  .rfq__qa-user:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__qa-user {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 6.0049%; }
+      .rfq__qa-user:last-child {
+        margin-right: 0; } }
+
+.rfq__qa-text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  margin-right: 0; }
+  .rfq__qa-text:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__qa-text {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 86.57213%;
+      margin-right: 0; }
+      .rfq__qa-text:last-child {
+        margin-right: 0; } }
+
+.rfq__qa-username,
+.rfq__qa-textarea,
+.rfq__qa-answer,
+.rfq__qa-post {
+  float: left;
+  display: block;
+  margin-right: 2.57751%;
+  width: 100%;
+  margin-right: 0; }
+  .rfq__qa-username:last-child,
+  .rfq__qa-textarea:last-child,
+  .rfq__qa-answer:last-child,
+  .rfq__qa-post:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__qa-username,
+    .rfq__qa-textarea,
+    .rfq__qa-answer,
+    .rfq__qa-post {
+      float: left;
+      display: block;
+      margin-right: 8.57432%;
+      width: 100%;
+      margin-right: 0; }
+      .rfq__qa-username:last-child,
+      .rfq__qa-textarea:last-child,
+      .rfq__qa-answer:last-child,
+      .rfq__qa-post:last-child {
+        margin-right: 0; } }
+
 .form__buttons,
 .form__selects,
 .form__input,
@@ -7592,7 +7972,8 @@ dd {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
-.siteNav {
+.siteNav,
+.siteNav-guest {
   position: relative;
   z-index: 2;
   height: 60px;
@@ -7608,7 +7989,8 @@ dd {
   -moz-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
   -o-box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2);
   box-shadow: 0 0 3px 0 rgba(9, 47, 62, 0.2); }
-  .siteNav:before {
+  .siteNav:before,
+  .siteNav-guest:before {
     content: '';
     display: inline-block;
     height: 100%;
@@ -11914,6 +12296,484 @@ dd {
     color: #66c3b0;
     border-bottom-color: #66c3b0; }
 
+.rfq__abstract-head {
+  margin-top: 0; }
+
+.rfq__abstract-head-title,
+.rfq__scan-head-title,
+.rfq__zoom-head-title,
+.rfq__form-head-title {
+  /* is style by nested selectors of %card-head */ }
+
+.rfq__abstract-body {
+  min-height: 300px;
+  min-height: 18.75rem; }
+
+.rfq__abstract-job-tag {
+  margin-left: 11.2px;
+  margin-left: 0.7rem;
+  padding-left: 5.6px;
+  padding-left: 0.35rem;
+  padding-right: 5.6px;
+  padding-right: 0.35rem;
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background: #66c3b0;
+  color: white;
+  text-transform: uppercase; }
+
+.rfq__abstract-address::first-letter {
+  text-transform: uppercase; }
+
+.rfq__abstract-summary {
+  color: #54545a;
+  margin-bottom: 0; }
+
+.rfq__map {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__map {
+      display: block;
+      margin-top: 0; } }
+
+.rfq__map-iframe {
+  min-height: 340px;
+  min-height: 21.25rem; }
+
+.rfq__zoom-body {
+  min-height: 170px;
+  min-height: 10.625rem; }
+
+.rfq__scan-body {
+  max-height: 170px;
+  max-height: 10.625rem;
+  position: relative;
+  overflow-y: hidden;
+  -webkit-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+  .rfq__scan-body:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 70px;
+    height: 4.375rem;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(top, transparent, white);
+    background-image: linear-gradient(to bottom,transparent, white); }
+
+.scan-expanded {
+  max-height: 800px;
+  max-height: 50rem; }
+  .scan-expanded:after {
+    opacity: 0; }
+
+.rfq__scan-expand {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 11.2px;
+  bottom: 0.7rem;
+  -webkit-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding-left: 11.2px;
+  padding-left: 0.7rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #66c3b0;
+  text-transform: uppercase;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  z-index: 1; }
+  .rfq__scan-expand:hover {
+    background: #66c3b0;
+    cursor: pointer; }
+
+.rfq__scan-item {
+  margin-top: 16.8px;
+  margin-top: 1.05rem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  position: relative; }
+  .rfq__scan-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    height: 1rem;
+    width: 16px;
+    width: 1rem;
+    background: center center no-repeat;
+    background-image: url(../../assets/service-icon.svg); }
+  .rfq__scan-item:nth-child(1), .rfq__scan-item:nth-child(2) {
+    margin-top: 0; }
+
+.rfq__zoom-list-dual {
+  position: relative;
+  text-align: center; }
+  .rfq__zoom-list-dual:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #e3e5ea;
+    left: 50%; }
+
+.rfq__zoom-scope-dual {
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  padding: 5.6px;
+  padding: 0.35rem;
+  color: #93989c; }
+  .rfq__zoom-scope-dual:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 59px;
+    height: 3.6875rem;
+    width: 46px;
+    width: 2.875rem;
+    margin-bottom: 11.2px;
+    margin-bottom: 0.7rem;
+    background: center center no-repeat;
+    background-image: url(../../assets/scope-dual.svg); }
+  .rfq__zoom-scope-dual:hover a {
+    color: #092f3e;
+    border-bottom: 1px solid #092f3e; }
+
+.rfq__zoom-item {
+  overflow: hidden;
+  position: relative;
+  padding-left: 28px;
+  padding-left: 1.75rem;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  padding-top: 1px;
+  padding-top: 0.0625rem;
+  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  border-bottom: 1px solid #fafafb;
+  text-align: left; }
+  .rfq__zoom-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    height: 18px;
+    height: 1.125rem;
+    width: 18px;
+    width: 1.125rem;
+    background: center center no-repeat;
+    background-image: url(../../assets/scope-icon.svg); }
+  .rfq__zoom-item a {
+    display: inline-block;
+    border-bottom: 1px solid transparent; }
+    .rfq__zoom-item a:after {
+      content: 'view scope';
+      position: absolute;
+      top: 0;
+      right: -22.4px;
+      text-transform: uppercase;
+      font-size: 11.11111px;
+      font-size: 0.69444rem;
+      color: #93989c;
+      background: white;
+      border: 1px solid #e3e5ea;
+      opacity: 0;
+      -webkit-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-box-shadow: 0 0 4px 0 #fafafb;
+      -ms-box-shadow: 0 0 4px 0 #fafafb;
+      -moz-box-shadow: 0 0 4px 0 #fafafb;
+      -o-box-shadow: 0 0 4px 0 #fafafb;
+      box-shadow: 0 0 4px 0 #fafafb;
+      padding-left: 5.6px;
+      padding-left: 0.35rem;
+      padding-right: 5.6px;
+      padding-right: 0.35rem;
+      -webkit-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -ms-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -moz-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -o-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+    .rfq__zoom-item a:hover {
+      border-bottom: 1px solid #092f3e; }
+      .rfq__zoom-item a:hover:after {
+        right: 0;
+        opacity: 1; }
+  .rfq__zoom-item:last-of-type {
+    margin-bottom: 0; }
+
+.rfq__bid-head-title span {
+  opacity: 0; }
+
+.rfq__bid-head-toolbar {
+  display: none; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__bid-head-toolbar {
+      display: block; } }
+
+.rfq__bid-head-toolbar-save {
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  padding-right: 44.8px;
+  padding-right: 2.8rem;
+  width: auto;
+  color: #c7cacd;
+  vertical-align: middle;
+  position: relative; }
+  .rfq__bid-head-toolbar-save:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    vertical-align: middle; }
+  .rfq__bid-head-toolbar-save:hover, .rfq__bid-head-toolbar-save:focus, .rfq__bid-head-toolbar-save:active {
+    color: #93989c; }
+  .rfq__bid-head-toolbar-save i {
+    position: absolute;
+    height: 40px;
+    height: 2.5rem;
+    width: 40px;
+    width: 2.5rem;
+    display: inline-block;
+    top: 0;
+    right: 0; }
+    .rfq__bid-head-toolbar-save i:before {
+      content: '';
+      display: inline-block;
+      height: 34px;
+      height: 2.125rem;
+      width: 34px;
+      width: 2.125rem;
+      margin-right: 5.6px;
+      margin-right: 0.35rem;
+      background: center center no-repeat;
+      background-image: url(../../assets/pdf-download-icon.svg); }
+
+.rfq__bid-fieldset {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  border: none; }
+  .rfq__bid-fieldset:first-of-type {
+    margin-top: 0; }
+
+.rfq__bid-legend {
+  margin-bottom: 0; }
+  .rfq__bid-legend i {
+    color: #93989c;
+    font-weight: 400;
+    font-style: normal; }
+
+.rfq__bid-check-label {
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  display: block;
+  position: relative; }
+  .rfq__bid-check-label:last-of-type {
+    margin-bottom: 0; }
+  .rfq__bid-check-label:hover, .rfq__bid-check-label:focus {
+    background: rgba(102, 195, 176, 0.2);
+    cursor: pointer; }
+    .rfq__bid-check-label:hover .rfq__bid-option-price, .rfq__bid-check-label:focus .rfq__bid-option-price {
+      color: #66c3b0; }
+
+.rfq__bid-check-radio {
+  position: absolute;
+  top: 5.6px;
+  left: 5.6px; }
+  .rfq__bid-check-radio:checked ~ .rfq__bid-options .rfq__bid-option-price {
+    color: #66c3b0; }
+  .rfq__bid-check-radio:checked ~ .rfq__bid-options .rfq__bid-options-details {
+    max-height: 400px;
+    max-height: 25rem;
+    overflow: auto; }
+
+.rfq__bid-options {
+  padding-left: 34px;
+  padding-left: 2.125rem;
+  line-height: 1.6; }
+
+.rfq__bid-option-price {
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
+  color: rgba(102, 195, 176, 0.4); }
+
+.rfq__bid-options-details {
+  max-height: 0;
+  overflow: hidden; }
+
+.rfq__bid-options-detail {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  color: #54545a; }
+
+.rfq__bid-total {
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem;
+  margin-top: 44.8px;
+  margin-top: 2.8rem;
+  margin-bottom: 44.8px;
+  margin-bottom: 2.8rem;
+  border-top: 1px dotted #66c3b0;
+  border-bottom: 1px dotted #66c3b0; }
+
+.rfq__bid-total-label {
+  font-size: 16px;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-transbid: none; }
+
+.rfq__bid-total-number {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  padding-left: 11.2px;
+  padding-left: 0.7rem;
+  display: inline-block;
+  margin: 0;
+  color: #66c3b0; }
+
+.rfq__bid-finalize-text {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #f35b5b; }
+
+.rfq__bid-upload {
+  position: relative; }
+
+.rfq__bid-upload-filename {
+  display: block;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  color: #93989c;
+  min-height: 18px;
+  min-height: 1.125rem; }
+
+.rfq__bid-upload-approved {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -15px;
+  margin-left: -0.9375rem;
+  text-align: center;
+  background: url(../../assets/approved-stamp.svg) center center no-repeat;
+  height: 30px;
+  height: 1.875rem;
+  width: 30px;
+  width: 1.875rem; }
+
+.rfq__aside {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+  @media screen and (min-width: 46.8em) {
+    .rfq__aside {
+      margin-top: 44.8px;
+      margin-top: 2.8rem; } }
+
+.rfq__equipment-unit {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+  .rfq__equipment-unit:hover {
+    cursor: pointer;
+    border-color: #c7cacd; }
+  .rfq__equipment-unit img {
+    border: 4px solid white;
+    border-bottom: 0; }
+
+.rfq__equipment-unit-spec-list {
+  padding-left: 11.2px;
+  padding-left: 0.7rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
+  text-align: center; }
+
+.rfq__qa-text {
+  font-style: normal; }
+
+.rfq__qa-response {
+  padding-bottom: 22.4px;
+  padding-bottom: 1.4rem; }
+  .rfq__qa-response:first-of-type {
+    margin-top: 0; }
+
+.rfq__qa-user {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #66c3b0;
+  margin-bottom: 0;
+  line-height: 0; }
+
+.rfq__qa-username {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  margin-bottom: 0; }
+
+.rfq__qa-post {
+  border-top: 1px solid #e3e5ea;
+  padding-top: 22.4px;
+  padding-top: 1.4rem; }
+
+.rfq__qa-answer {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #54545a; }
+
 /*
 Select2 Base Styling
 Version: 3.4.5
@@ -13468,6 +14328,18 @@ disabled look for disabled choices in the results dropdown
         content: "";
         display: table;
         clear: both; } }
+
+.siteNav-guest {
+  display: block;
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: none; }
+  .siteNav-guest:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 @media screen and (min-width: 46.8em) {
   .mobileNav {

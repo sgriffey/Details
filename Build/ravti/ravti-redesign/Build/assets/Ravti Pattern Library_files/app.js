@@ -15,11 +15,6 @@ $(document).ready(function() {
             $(".rfq__scan-body").addClass("scan-expanded");
             $(".rfq__scan-expand").addClass("is-hidden");
     });
-    // RFQ Vendor Submit
-    $(".rfq__bid-upload-file").change(function(){
-            $(".rfq__bid-upload-filename").text(this.value);
-            $(".rfq__bid-upload-approved").removeClass("is-hidden");
-    });
     // Onboard Interaction steps
     $(".onboard-dashboard__button-submit").click(function(){
             $(".is-form-beacon").toggleClass("is-masked");
