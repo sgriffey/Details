@@ -15,6 +15,15 @@ $(document).ready(function() {
             $(".rfq__scan-body").addClass("scan-expanded");
             $(".rfq__scan-expand").addClass("is-hidden");
     });
+    // RFQ Vendor Invite Deny
+    $(".rfq__invite-deny").click(function(){
+        $(".rfq__invite").toggleClass("is-masked");
+        $(".rfq__dismiss").toggleClass("is-masked");
+    });
+    $(".rfq__dismiss-submit").click(function(){
+        $(".rfq__dismiss-submit").toggleClass("is-masked");
+        $(".rfq__dismiss-feedback").toggleClass("is-masked");
+    });
     // RFQ Vendor Submit
     $(".rfq__bid-upload-file").change(function(){
             $(".rfq__bid-upload-filename").text(this.value);
