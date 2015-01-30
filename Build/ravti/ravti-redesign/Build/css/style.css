@@ -13122,9 +13122,10 @@ Select2 Base Styling
 Version: 3.4.5
 */
 .select2-container {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin: 0;
   position: relative;
   display: inline-block;
@@ -13132,6 +13133,8 @@ Version: 3.4.5
   zoom: 1;
   *display: inline;
   vertical-align: middle; }
+  .select2-container:last-child {
+    margin-right: 0; }
 
 .select2-container,
 .select2-drop,
@@ -13649,45 +13652,69 @@ disabled look for disabled choices in the results dropdown
 
 .proposal__subhead,
 .proposal__subhead-rule {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__subhead:last-child,
+  .proposal__subhead-rule:last-child {
+    margin-right: 0; }
 
 .proposal__subhead-2third,
 .proposal__subhead-2third-rule {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__subhead-2third:last-child,
+  .proposal__subhead-2third-rule:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__subhead-2third,
     .proposal__subhead-2third-rule {
-      display: table-cell;
-      padding-right: 3.13133%;
-      width: 103.13133%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__subhead-2third:last-child,
+      .proposal__subhead-2third-rule:last-child {
+        margin-right: 0; } }
 
 .proposal__subnav-controls,
 .proposal__subnav-buckets {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__subnav-controls:last-child,
+  .proposal__subnav-buckets:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__subnav-controls,
     .proposal__subnav-buckets {
-      display: table-cell;
-      padding-right: 4.0243%;
-      width: 104.0243%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__subnav-controls:last-child,
+      .proposal__subnav-buckets:last-child {
+        margin-right: 0; } }
 
 .proposal__procure-subnav,
 .proposal__procure-subnav-buckets {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__procure-subnav:last-child,
+  .proposal__procure-subnav-buckets:last-child {
+    margin-right: 0; }
 
 @media screen and (min-width: 46.8em) {
   .proposal__subnav-controls {
@@ -13696,27 +13723,44 @@ disabled look for disabled choices in the results dropdown
 .proposal__grid,
 .proposal__terms,
 .proposal {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__grid:last-child,
+  .proposal__terms:last-child,
+  .proposal:last-child {
+    margin-right: 0; }
 
 .proposal__abstract,
 .proposal__map,
 .proposal__terms-scan,
 .proposal__terms-view {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__abstract:last-child,
+  .proposal__map:last-child,
+  .proposal__terms-scan:last-child,
+  .proposal__terms-view:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract,
     .proposal__map,
     .proposal__terms-scan,
     .proposal__terms-view {
-      display: table-cell;
-      padding-right: 1.96471%;
-      width: 50.78588%; }
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .proposal__abstract:last-child,
+      .proposal__map:last-child,
+      .proposal__terms-scan:last-child,
+      .proposal__terms-view:last-child {
+        margin-right: 0; }
       .proposal__abstract:nth-child(2n),
       .proposal__map:nth-child(2n),
       .proposal__terms-scan:nth-child(2n),
@@ -13734,10 +13778,18 @@ disabled look for disabled choices in the results dropdown
 .proposal__abstract-body,
 .proposal__terms-view-body,
 .proposal__terms-view-body {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__abstract-head:last-child,
+  .proposal__terms-scan-head:last-child,
+  .proposal__terms-scan-head:last-child,
+  .proposal__abstract-body:last-child,
+  .proposal__terms-view-body:last-child,
+  .proposal__terms-view-body:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-head,
     .proposal__terms-scan-head,
@@ -13745,42 +13797,62 @@ disabled look for disabled choices in the results dropdown
     .proposal__abstract-body,
     .proposal__terms-view-body,
     .proposal__terms-view-body {
-      display: table-cell;
-      padding-right: 4.0243%;
-      width: 104.0243%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__abstract-head:last-child,
+      .proposal__terms-scan-head:last-child,
+      .proposal__terms-scan-head:last-child,
+      .proposal__abstract-body:last-child,
+      .proposal__terms-view-body:last-child,
+      .proposal__terms-view-body:last-child {
+        margin-right: 0; } }
 
 .proposal__terms-scan-list-bullet {
-  display: table-cell;
-  padding-right: 1.96471%;
-  width: 50.78588%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .proposal__terms-scan-list-bullet:last-child {
+    margin-right: 0; }
   .proposal__terms-scan-list-bullet:nth-child(2n) {
     margin-right: 0; }
   .proposal__terms-scan-list-bullet:nth-child(2n+1) {
     clear: left; }
   @media screen and (min-width: 46.8em) {
     .proposal__terms-scan-list-bullet {
-      display: table-cell;
-      padding-right: 3.21944%;
-      width: 50.80486%; }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .proposal__terms-scan-list-bullet:last-child {
+        margin-right: 0; }
       .proposal__terms-scan-list-bullet:nth-child(2n) {
         margin-right: 0; }
       .proposal__terms-scan-list-bullet:nth-child(2n+1) {
         clear: left; } }
 
 .proposal__terms-view-scope-dual {
-  display: table-cell;
-  padding-right: 1.96471%;
-  width: 50.78588%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .proposal__terms-view-scope-dual:last-child {
+    margin-right: 0; }
   .proposal__terms-view-scope-dual:nth-child(2n) {
     margin-right: 0; }
   .proposal__terms-view-scope-dual:nth-child(2n+1) {
     clear: left; }
   @media screen and (min-width: 46.8em) {
     .proposal__terms-view-scope-dual {
-      display: table-cell;
-      padding-right: 3.21944%;
-      width: 50.80486%; }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .proposal__terms-view-scope-dual:last-child {
+        margin-right: 0; }
       .proposal__terms-view-scope-dual:nth-child(2n) {
         margin-right: 0; }
       .proposal__terms-view-scope-dual:nth-child(2n+1) {
@@ -13793,10 +13865,19 @@ disabled look for disabled choices in the results dropdown
 .proposal__terms-view-doc,
 .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-doc {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__abstract-job:last-child,
+  .proposal__abstract-address:last-child,
+  .proposal__abstract-summary:last-child,
+  .proposal__map-iframe:last-child,
+  .proposal__terms-view-doc:last-child,
+  .proposal__terms-view-scopes:last-child,
+  .proposal__terms-view-scopes-doc:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-job,
     .proposal__abstract-address,
@@ -13805,10 +13886,19 @@ disabled look for disabled choices in the results dropdown
     .proposal__terms-view-doc,
     .proposal__terms-view-scopes,
     .proposal__terms-view-scopes-doc {
-      display: table-cell;
-      padding-right: 4.0243%;
-      width: 104.0243%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__abstract-job:last-child,
+      .proposal__abstract-address:last-child,
+      .proposal__abstract-summary:last-child,
+      .proposal__map-iframe:last-child,
+      .proposal__terms-view-doc:last-child,
+      .proposal__terms-view-scopes:last-child,
+      .proposal__terms-view-scopes-doc:last-child {
+        margin-right: 0; } }
 
 .proposal__form,
 .proposal__form-fieldset,
@@ -13819,49 +13909,79 @@ disabled look for disabled choices in the results dropdown
   width: 100%; }
 
 .proposal__bid {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__bid:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__bid {
-      display: table-cell;
-      padding-right: 2.06295%;
-      width: 67.94373%; } }
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .proposal__bid:last-child {
+        margin-right: 0; } }
 
 .proposal__form-head,
 .proposal__form-body,
 .proposal__form-fields,
 .proposal__form-label,
 .proposal__form-check-label {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__form-head:last-child,
+  .proposal__form-body:last-child,
+  .proposal__form-fields:last-child,
+  .proposal__form-label:last-child,
+  .proposal__form-check-label:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__form-head,
     .proposal__form-body,
     .proposal__form-fields,
     .proposal__form-label,
     .proposal__form-check-label {
-      display: table-cell;
-      padding-right: 3.13133%;
-      width: 103.13133%; } }
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      .proposal__form-head:last-child,
+      .proposal__form-body:last-child,
+      .proposal__form-fields:last-child,
+      .proposal__form-label:last-child,
+      .proposal__form-check-label:last-child {
+        margin-right: 0; } }
 
 .proposal__options,
 .proposal__options-details,
 .proposal__options-detail {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__options:last-child,
+  .proposal__options-details:last-child,
+  .proposal__options-detail:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__options,
     .proposal__options-details,
     .proposal__options-detail {
-      display: table-cell;
-      padding-right: 3.13133%;
-      width: 103.13133%; } }
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      .proposal__options:last-child,
+      .proposal__options-details:last-child,
+      .proposal__options-detail:last-child {
+        margin-right: 0; } }
 
 .proposal__option-price,
 .proposal__option-vendor {
@@ -13870,31 +13990,43 @@ disabled look for disabled choices in the results dropdown
   padding-right: 0.7rem; }
 
 .proposal__form-fieldset-split {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__form-fieldset-split:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__form-fieldset-split {
-      display: table-cell;
-      padding-right: 2.684%;
-      width: 50.89467%; }
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%; }
+      .proposal__form-fieldset-split:last-child {
+        margin-right: 0; }
       .proposal__form-fieldset-split:nth-child(2n) {
         margin-right: 0; }
       .proposal__form-fieldset-split:nth-child(2n+1) {
         clear: left; } }
 
 .proposal__procure {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__procure:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__procure {
-      display: table-cell;
-      padding-right: 1.76824%;
-      width: 33.5298%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-right: 0; }
+      .proposal__procure:last-child {
+        margin-right: 0; } }
 
 .proposal__procure-goods,
 .proposal__procure-goods-part,
@@ -13903,10 +14035,19 @@ disabled look for disabled choices in the results dropdown
 .proposal__procure-services-qa,
 .proposal__procure-services-qa-response,
 .proposal__procure-services-qa-comment {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__procure-goods:last-child,
+  .proposal__procure-goods-part:last-child,
+  .proposal__procure-goods-specs:last-child,
+  .proposal__procure-services:last-child,
+  .proposal__procure-services-qa:last-child,
+  .proposal__procure-services-qa-response:last-child,
+  .proposal__procure-services-qa-comment:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__procure-goods,
     .proposal__procure-goods-part,
@@ -13915,75 +14056,125 @@ disabled look for disabled choices in the results dropdown
     .proposal__procure-services-qa,
     .proposal__procure-services-qa-response,
     .proposal__procure-services-qa-comment {
-      display: table-cell;
-      padding-right: 5.56723%;
-      width: 105.56723%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__procure-goods:last-child,
+      .proposal__procure-goods-part:last-child,
+      .proposal__procure-goods-specs:last-child,
+      .proposal__procure-services:last-child,
+      .proposal__procure-services-qa:last-child,
+      .proposal__procure-services-qa-response:last-child,
+      .proposal__procure-services-qa-comment:last-child {
+        margin-right: 0; } }
 
 .proposal__procure-services-qa-user {
-  display: table-cell;
-  padding-right: 0%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
   width: 6.17215%; }
+  .proposal__procure-services-qa-user:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__procure-services-qa-user {
-      display: table-cell;
-      padding-right: -7.42297%;
-      width: -1.41807%; } }
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 6.0049%; }
+      .proposal__procure-services-qa-user:last-child {
+        margin-right: 0; } }
 
 .proposal__procure-services-qa-text {
-  display: table-cell;
-  padding-right: 2.14332%;
-  width: 93.61352%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
   margin-right: 0; }
+  .proposal__procure-services-qa-text:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__procure-services-qa-text {
-      display: table-cell;
-      padding-right: 5.30212%;
-      width: 91.87425%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 86.57213%;
+      margin-right: 0; }
+      .proposal__procure-services-qa-text:last-child {
+        margin-right: 0; } }
 
 .proposal__procure-services-qa-username,
 .proposal__procure-services-qa-textarea,
 .proposal__procure-services-qa-answer,
 .proposal__procure-services-qa-post {
-  display: table-cell;
-  padding-right: 2.34319%;
-  width: 102.34319%;
+  float: left;
+  display: block;
+  margin-right: 2.57751%;
+  width: 100%;
   margin-right: 0; }
+  .proposal__procure-services-qa-username:last-child,
+  .proposal__procure-services-qa-textarea:last-child,
+  .proposal__procure-services-qa-answer:last-child,
+  .proposal__procure-services-qa-post:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__procure-services-qa-username,
     .proposal__procure-services-qa-textarea,
     .proposal__procure-services-qa-answer,
     .proposal__procure-services-qa-post {
-      display: table-cell;
-      padding-right: 6.12451%;
-      width: 106.12451%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 8.57432%;
+      width: 100%;
+      margin-right: 0; }
+      .proposal__procure-services-qa-username:last-child,
+      .proposal__procure-services-qa-textarea:last-child,
+      .proposal__procure-services-qa-answer:last-child,
+      .proposal__procure-services-qa-post:last-child {
+        margin-right: 0; } }
 
 .project__details-subnav,
 .project__details-subnav-buckets,
 .project__grid {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .project__details-subnav:last-child,
+  .project__details-subnav-buckets:last-child,
+  .project__grid:last-child {
+    margin-right: 0; }
 
 .project__abstract,
 .project__map,
 .project__status,
 .project__details {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .project__abstract:last-child,
+  .project__map:last-child,
+  .project__status:last-child,
+  .project__details:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__abstract,
     .project__map,
     .project__status,
     .project__details {
-      display: table-cell;
-      padding-right: 1.96471%;
-      width: 50.78588%; }
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .project__abstract:last-child,
+      .project__map:last-child,
+      .project__status:last-child,
+      .project__details:last-child {
+        margin-right: 0; }
       .project__abstract:nth-child(2n),
       .project__map:nth-child(2n),
       .project__status:nth-child(2n),
@@ -14015,10 +14206,32 @@ disabled look for disabled choices in the results dropdown
 .project__qa-chat,
 .project__qa-chat-response,
 .project__qa-chat-comment {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .project__abstract-head:last-child,
+  .project__abstract-body:last-child,
+  .project__abstract-vendors:last-child,
+  .project__banner:last-child,
+  .project__banner-headline:last-child,
+  .project__banner-progress:last-child,
+  .project__timeline:last-child,
+  .project__timeline-list:last-child,
+  .project__timeline-event:last-child,
+  .project__timeline-event-status:last-child,
+  .project__timeline-event-tracking:last-child,
+  .project__timeline-event-appointment:last-child,
+  .project__terms-scan:last-child,
+  .project__terms-view:last-child,
+  .project__terms-view-doc:last-child,
+  .project__equipment:last-child,
+  .project__qa:last-child,
+  .project__qa-chat:last-child,
+  .project__qa-chat-response:last-child,
+  .project__qa-chat-comment:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__abstract-head,
     .project__abstract-body,
@@ -14040,104 +14253,174 @@ disabled look for disabled choices in the results dropdown
     .project__qa-chat,
     .project__qa-chat-response,
     .project__qa-chat-comment {
-      display: table-cell;
-      padding-right: 4.0243%;
-      width: 104.0243%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-right: 0; }
+      .project__abstract-head:last-child,
+      .project__abstract-body:last-child,
+      .project__abstract-vendors:last-child,
+      .project__banner:last-child,
+      .project__banner-headline:last-child,
+      .project__banner-progress:last-child,
+      .project__timeline:last-child,
+      .project__timeline-list:last-child,
+      .project__timeline-event:last-child,
+      .project__timeline-event-status:last-child,
+      .project__timeline-event-tracking:last-child,
+      .project__timeline-event-appointment:last-child,
+      .project__terms-scan:last-child,
+      .project__terms-view:last-child,
+      .project__terms-view-doc:last-child,
+      .project__equipment:last-child,
+      .project__qa:last-child,
+      .project__qa-chat:last-child,
+      .project__qa-chat-response:last-child,
+      .project__qa-chat-comment:last-child {
+        margin-right: 0; } }
 
 .project__qa-chat-user {
-  display: table-cell;
-  padding-right: 0%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
   width: 6.17215%; }
+  .project__qa-chat-user:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__qa-chat-user {
-      display: table-cell;
-      padding-right: -1.60972%;
-      width: 6.66477%; } }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 8.27449%; }
+      .project__qa-chat-user:last-child {
+        margin-right: 0; } }
 
 .project__qa-chat-text {
-  display: table-cell;
-  padding-right: 2.14332%;
-  width: 93.61352%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
   margin-right: 0; }
+  .project__qa-chat-text:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__qa-chat-text {
-      display: table-cell;
-      padding-right: 3.90932%;
-      width: 90.80567%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 86.89636%;
+      margin-right: 0; }
+      .project__qa-chat-text:last-child {
+        margin-right: 0; } }
 
 .project__qa-chat-username,
 .project__qa-chat-textarea,
 .project__qa-chat-answer,
 .project__qa-chat-post {
-  display: table-cell;
-  padding-right: 2.34319%;
-  width: 102.34319%;
+  float: left;
+  display: block;
+  margin-right: 2.57751%;
+  width: 100%;
   margin-right: 0; }
+  .project__qa-chat-username:last-child,
+  .project__qa-chat-textarea:last-child,
+  .project__qa-chat-answer:last-child,
+  .project__qa-chat-post:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__qa-chat-username,
     .project__qa-chat-textarea,
     .project__qa-chat-answer,
     .project__qa-chat-post {
-      display: table-cell;
-      padding-right: 4.49883%;
-      width: 104.49883%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 5.55738%;
+      width: 100%;
+      margin-right: 0; }
+      .project__qa-chat-username:last-child,
+      .project__qa-chat-textarea:last-child,
+      .project__qa-chat-answer:last-child,
+      .project__qa-chat-post:last-child {
+        margin-right: 0; } }
 
 .project__terms-scan-bullet {
-  display: table-cell;
-  padding-right: 1.96471%;
-  width: 50.78588%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .project__terms-scan-bullet:last-child {
+    margin-right: 0; }
   .project__terms-scan-bullet:nth-child(2n) {
     margin-right: 0; }
   .project__terms-scan-bullet:nth-child(2n+1) {
     clear: left; }
   @media screen and (min-width: 46.8em) {
     .project__terms-scan-bullet {
-      display: table-cell;
-      padding-right: 3.21944%;
-      width: 50.80486%; }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .project__terms-scan-bullet:last-child {
+        margin-right: 0; }
       .project__terms-scan-bullet:nth-child(2n) {
         margin-right: 0; }
       .project__terms-scan-bullet:nth-child(2n+1) {
         clear: left; } }
 
 .project__equipment-piece {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .project__equipment-piece:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__equipment-piece {
-      display: table-cell;
-      padding-right: 3.21944%;
-      width: 50.80486%; }
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .project__equipment-piece:last-child {
+        margin-right: 0; }
       .project__equipment-piece:nth-child(2n) {
         margin-right: 0; }
       .project__equipment-piece:nth-child(2n+1) {
         clear: left; } }
 
 .project__equipment-piece-specs {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .project__equipment-piece-specs:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .project__equipment-piece-specs {
-      display: table-cell;
-      padding-right: 6.7656%;
-      width: 106.7656%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 10.1484%;
+      width: 100%;
+      margin-right: 0; }
+      .project__equipment-piece-specs:last-child {
+        margin-right: 0; } }
 
 .form__buttons,
 .form__selects,
 .form__input,
 .form__input-bleed {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .form__buttons:last-child,
+  .form__selects:last-child,
+  .form__input:last-child,
+  .form__input-bleed:last-child {
+    margin-right: 0; }
 
 .form__example,
 .form__example-fieldset,
@@ -14146,16 +14429,22 @@ disabled look for disabled choices in the results dropdown
   width: 100%; }
 
 .form__input-field-bleed {
-  display: table-cell;
-  padding-right: 2.06295%;
-  width: 67.94373%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
   margin-right: 0; }
+  .form__input-field-bleed:last-child {
+    margin-right: 0; }
 
 .form__input-button-bleed {
-  display: table-cell;
-  padding-right: 1.76824%;
-  width: 33.5298%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
   margin-right: 0; }
+  .form__input-button-bleed:last-child {
+    margin-right: 0; }
 
 .form__selects-label {
   display: block; }
@@ -14184,27 +14473,39 @@ disabled look for disabled choices in the results dropdown
   visibility: hidden; }
 
 .form__example-column {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .form__example-column:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .form__example-column {
-      display: table-cell;
-      padding-right: 2.81639%;
-      width: 102.81639%;
-      margin-right: 0; } }
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 100%;
+      margin-right: 0; }
+      .form__example-column:last-child {
+        margin-right: 0; } }
 
 .form__col-3 {
-  display: table-cell;
-  padding-right: 2.16118%;
-  width: 102.16118%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   margin-right: 0; }
+  .form__col-3:last-child {
+    margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .form__col-3 {
-      display: table-cell;
-      padding-right: 2.11229%;
-      width: 33.33333%; }
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 31.22104%; }
+      .form__col-3:last-child {
+        margin-right: 0; }
       .form__col-3:nth-child(3n) {
         margin-right: 0; }
       .form__col-3:nth-child(3n+1) {
