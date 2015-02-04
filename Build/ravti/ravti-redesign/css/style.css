@@ -762,7 +762,8 @@ hr {
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list, .siteNav__events-popover-item-facility,
+.siteNav__invoices-popover-list,
+.siteNav__invoices-popover-list-blank, .siteNav__events-popover-item-facility,
 .siteNav__events-popover-item-type,
 .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-facility,
@@ -827,7 +828,8 @@ hr {
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list, .proposal__form-head-toolbar-save, .account__details-personal-head-toolbar-save,
+.siteNav__invoices-popover-list,
+.siteNav__invoices-popover-list-blank, .proposal__form-head-toolbar-save, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .rfq__bid-head-toolbar-save {
   font-family: "jaf-bernino-sans", sans-serif; }
 
@@ -836,7 +838,8 @@ hr {
 .facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .form__input-field-label-hidden, .onboard__copy b, .onboard-dashboard__copy b, .onboard-facility__overview-note b,
 .onboard-facility__aside-summary-note b, .siteNav__alert-events, .siteNav__events-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-list .is-unviewed .siteNav__events-popover-item-time,
-.siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .repair__bid-tr:last-child td, .repair__bid-th:last-child,
+.siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time,
+.siteNav__invoices-popover-list-blank .is-unviewed .siteNav__events-popover-item-time, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .repair__bid-tr:last-child td, .repair__bid-th:last-child,
 .repair__bid-td:last-child, .repair__bid-sum-td, .project__abstract-address span:first-of-type, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
@@ -891,7 +894,7 @@ hr {
 .rfq__zoom-head h1,
 .rfq__bid-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
 .billing__defcon2-tbody .billing__th,
-.billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__events-popover-item-facility,
+.billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__invoices-popover-list-blank p, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
 .siteNav__invoices-popover-item-facility, .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-time,
@@ -902,7 +905,7 @@ hr {
   font-weight: 400; }
 
 .proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job, .rfq__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
-.facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
+.facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .facility__unit-history-index-blank h2, .siteNav__invoices-popover-list-blank h2, .facility__unit-score-sheet-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
 .onboard-facility__aside-summary-cta, .siteNav,
 .siteNav-guest, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
 .facility__duty-bucket, .facility__activity-prevent-copy, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
@@ -1075,7 +1078,8 @@ hr {
 .repair__scope-body,
 .repair__bid-body, .project__abstract-body, .account__details-personal-body,
 .account__details-company-body, .invoice__sheet-body, .invoice__meta-summary-body, .invoice__meta-doc-body, .invoice__meta-support-body, .facility__identity-cover, .facility__activity-contacts-body, .facility__activity-prevent-body, .facility__event-summary, .facility__unit-info-body,
-.facility__unit-score-body, .facility__unit-history-add,
+.facility__unit-score-body,
+.facility__unit-score-body-blank, .facility__unit-history-add,
 .facility__unit-history-index, .facility__suite-info-body,
 .facility__suite-lease-body,
 .facility__suite-upload-body, .facility__pm-upcoming-body,
@@ -1334,16 +1338,17 @@ hr {
 .facility__suite-upload-lease-view-doc:before, .facility__pm-approval-doc:before {
   background-image: url(../assets/tenant-lease-contract.svg); }
 
-.facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .facility__activity-feed-blank p a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
+.facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .facility__activity-feed-blank p a, .facility__unit-history-index-blank p a, .siteNav__invoices-popover-list-blank p a, .facility__unit-score-sheet-blank p a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
   border-bottom: 1px solid #e3e5ea; }
-  .facility__projects-feed-blank p a:hover, .facility__service-feed-blank p a:hover, .facility__billing-feed-blank p a:hover, .facility__activity-feed-blank p a:hover, .invoice__meta-support-copy a:hover, .facility__activity-prevent-memo a:hover {
+  .facility__projects-feed-blank p a:hover, .facility__service-feed-blank p a:hover, .facility__billing-feed-blank p a:hover, .facility__activity-feed-blank p a:hover, .facility__unit-history-index-blank p a:hover, .siteNav__invoices-popover-list-blank p a:hover, .facility__unit-score-sheet-blank p a:hover, .invoice__meta-support-copy a:hover, .facility__activity-prevent-memo a:hover {
     cursor: pointer;
     color: #092f3e;
     border-bottom-color: #092f3e; }
 
 .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list, .facility__duty,
+.siteNav__invoices-popover-list,
+.siteNav__invoices-popover-list-blank, .facility__duty,
 .facility__duty-bucket, .rfq__map {
   border: 1px solid #e3e5ea; }
 
@@ -1462,10 +1467,10 @@ hr {
   transition-delay: initial;
   -webkit-transition-delay: initial; }
 
-.facility__projects-feed-blank, .facility__service-feed-blank, .facility__billing-feed-blank, .facility__activity-feed-blank {
+.facility__projects-feed-blank, .facility__service-feed-blank, .facility__billing-feed-blank, .facility__activity-feed-blank, .facility__unit-history-index-blank, .siteNav__invoices-popover-list-blank, .facility__unit-score-sheet-blank {
   text-align: center;
   color: #93989c; }
-  .facility__projects-feed-blank:before, .facility__service-feed-blank:before, .facility__billing-feed-blank:before, .facility__activity-feed-blank:before {
+  .facility__projects-feed-blank:before, .facility__service-feed-blank:before, .facility__billing-feed-blank:before, .facility__activity-feed-blank:before, .facility__unit-history-index-blank:before, .siteNav__invoices-popover-list-blank:before, .facility__unit-score-sheet-blank:before {
     content: '';
     margin: 0 auto;
     display: block;
@@ -1474,13 +1479,13 @@ hr {
     width: 58px;
     width: 3.625rem;
     background: center center no-repeat; }
-  .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2 {
+  .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .facility__unit-history-index-blank h2, .siteNav__invoices-popover-list-blank h2, .facility__unit-score-sheet-blank h2 {
     font-size: 19.2px;
     font-size: 1.2rem;
     margin: 0;
     margin-top: 11.2px;
     margin-top: 0.7rem; }
-  .facility__projects-feed-blank p, .facility__service-feed-blank p, .facility__billing-feed-blank p, .facility__activity-feed-blank p {
+  .facility__projects-feed-blank p, .facility__service-feed-blank p, .facility__billing-feed-blank p, .facility__activity-feed-blank p, .facility__unit-history-index-blank p, .siteNav__invoices-popover-list-blank p, .facility__unit-score-sheet-blank p {
     margin-top: 5.6px;
     margin-top: 0.35rem;
     font-size: 13.33333px;
@@ -1505,6 +1510,16 @@ hr {
   height: 42px;
   height: 2.625rem;
   background: url(../assets/activity-blank-slate.svg) center center no-repeat; }
+
+.facility__unit-history-index-blank:before {
+  background: url(../assets/unit-history-blank-slate.svg) center center no-repeat; }
+
+.siteNav__invoices-popover-list-blank:before {
+  width: 104px;
+  width: 6.5rem;
+  height: 58px;
+  height: 3.625rem;
+  background: url(../assets/invoices-popover-blank-slate.svg) center center no-repeat; }
 
 .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
   border-width: 1px;
@@ -1762,7 +1777,7 @@ hr {
   padding: 0.6em 2em 0.5em 2em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
-.onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
+.onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-score-sheet-cta, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .rfq__invite-accept,
 .rfq__dismiss-submit, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
@@ -1772,7 +1787,7 @@ hr {
   padding: 0.4em 1em 0.3em 1em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
-.onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
+.onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-score-sheet-cta, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .rfq__invite-accept,
 .rfq__dismiss-submit, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item {
@@ -1820,20 +1835,20 @@ hr {
   width: 100%; }
 
 .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
-.onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
+.onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-score-sheet-cta, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .rfq__invite-accept,
 .rfq__dismiss-submit {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
   .form__buttons-encourage:hover, .form__input-button-bleed:hover, .onboard__next-slide:hover,
-  .onboard__finish-slide:hover, .onboard-dashboard__button-submit:hover, .dashboard__form-button-submit:hover, .proposal__procure-services-qa-post-btn:hover, .repair__bid-finalize-encourage:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .overlay__request-form-button-submit:hover, .overlay__onboard-finalize-submit:hover, .account__details-personal-confirm-save:hover, .facility__unit-request-form-button-submit:hover, .facility__unit-history-add-mobile-submit:hover,
+  .onboard__finish-slide:hover, .onboard-dashboard__button-submit:hover, .dashboard__form-button-submit:hover, .proposal__procure-services-qa-post-btn:hover, .repair__bid-finalize-encourage:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .overlay__request-form-button-submit:hover, .overlay__onboard-finalize-submit:hover, .account__details-personal-confirm-save:hover, .facility__unit-score-sheet-cta:hover, .facility__unit-request-form-button-submit:hover, .facility__unit-history-add-mobile-submit:hover,
   .facility__unit-history-add-info-submit:hover, .facility__suite-lease-form-confirm-save:hover, .rfq__qa-post-btn:hover, .rfq__invite-accept:hover,
   .rfq__dismiss-submit:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .onboard__next-slide:focus,
-  .onboard__finish-slide:focus, .onboard-dashboard__button-submit:focus, .dashboard__form-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .repair__bid-finalize-encourage:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__request-form-button-submit:focus, .overlay__onboard-finalize-submit:focus, .account__details-personal-confirm-save:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-mobile-submit:focus,
+  .onboard__finish-slide:focus, .onboard-dashboard__button-submit:focus, .dashboard__form-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .repair__bid-finalize-encourage:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__request-form-button-submit:focus, .overlay__onboard-finalize-submit:focus, .account__details-personal-confirm-save:focus, .facility__unit-score-sheet-cta:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-mobile-submit:focus,
   .facility__unit-history-add-info-submit:focus, .facility__suite-lease-form-confirm-save:focus, .rfq__qa-post-btn:focus, .rfq__invite-accept:focus,
   .rfq__dismiss-submit:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .onboard__next-slide:active,
-  .onboard__finish-slide:active, .onboard-dashboard__button-submit:active, .dashboard__form-button-submit:active, .proposal__procure-services-qa-post-btn:active, .repair__bid-finalize-encourage:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__request-form-button-submit:active, .overlay__onboard-finalize-submit:active, .account__details-personal-confirm-save:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-mobile-submit:active,
+  .onboard__finish-slide:active, .onboard-dashboard__button-submit:active, .dashboard__form-button-submit:active, .proposal__procure-services-qa-post-btn:active, .repair__bid-finalize-encourage:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__request-form-button-submit:active, .overlay__onboard-finalize-submit:active, .account__details-personal-confirm-save:active, .facility__unit-score-sheet-cta:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-mobile-submit:active,
   .facility__unit-history-add-info-submit:active, .facility__suite-lease-form-confirm-save:active, .rfq__qa-post-btn:active, .rfq__invite-accept:active,
   .rfq__dismiss-submit:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
@@ -5781,8 +5796,10 @@ hr {
 .facility__unit-score,
 .facility__unit-score-head,
 .facility__unit-score-head-title,
-.facility__unit-score-head-body,
+.facility__unit-score-body,
+.facility__unit-score-body-blank,
 .facility__unit-score-sheet,
+.facility__unit-score-sheet-blank,
 .facility__unit-score-sheet-number,
 .facility__unit-score-sheet-advice,
 .facility__unit-score-sheet-meter,
@@ -5800,8 +5817,10 @@ hr {
   .facility__unit-score:last-child,
   .facility__unit-score-head:last-child,
   .facility__unit-score-head-title:last-child,
-  .facility__unit-score-head-body:last-child,
+  .facility__unit-score-body:last-child,
+  .facility__unit-score-body-blank:last-child,
   .facility__unit-score-sheet:last-child,
+  .facility__unit-score-sheet-blank:last-child,
   .facility__unit-score-sheet-number:last-child,
   .facility__unit-score-sheet-advice:last-child,
   .facility__unit-score-sheet-meter:last-child,
@@ -5816,8 +5835,10 @@ hr {
     .facility__unit-score,
     .facility__unit-score-head,
     .facility__unit-score-head-title,
-    .facility__unit-score-head-body,
+    .facility__unit-score-body,
+    .facility__unit-score-body-blank,
     .facility__unit-score-sheet,
+    .facility__unit-score-sheet-blank,
     .facility__unit-score-sheet-number,
     .facility__unit-score-sheet-advice,
     .facility__unit-score-sheet-meter,
@@ -5835,8 +5856,10 @@ hr {
       .facility__unit-score:last-child,
       .facility__unit-score-head:last-child,
       .facility__unit-score-head-title:last-child,
-      .facility__unit-score-head-body:last-child,
+      .facility__unit-score-body:last-child,
+      .facility__unit-score-body-blank:last-child,
       .facility__unit-score-sheet:last-child,
+      .facility__unit-score-sheet-blank:last-child,
       .facility__unit-score-sheet-number:last-child,
       .facility__unit-score-sheet-advice:last-child,
       .facility__unit-score-sheet-meter:last-child,
@@ -5887,6 +5910,7 @@ hr {
 .facility__unit-request-form-check-label,
 .facility__unit-request-form-check-text,
 .facility__unit-history,
+.facility__unit-history-index-blank,
 .facility__unit-history-head,
 .facility__unit-history-title,
 .facility__unit-history-add,
@@ -5928,6 +5952,7 @@ hr {
   .facility__unit-request-form-check-label:last-child,
   .facility__unit-request-form-check-text:last-child,
   .facility__unit-history:last-child,
+  .facility__unit-history-index-blank:last-child,
   .facility__unit-history-head:last-child,
   .facility__unit-history-title:last-child,
   .facility__unit-history-add:last-child,
@@ -5966,6 +5991,7 @@ hr {
     .facility__unit-request-form-check-label,
     .facility__unit-request-form-check-text,
     .facility__unit-history,
+    .facility__unit-history-index-blank,
     .facility__unit-history-head,
     .facility__unit-history-title,
     .facility__unit-history-add,
@@ -6007,6 +6033,7 @@ hr {
       .facility__unit-request-form-check-label:last-child,
       .facility__unit-request-form-check-text:last-child,
       .facility__unit-history:last-child,
+      .facility__unit-history-index-blank:last-child,
       .facility__unit-history-head:last-child,
       .facility__unit-history-title:last-child,
       .facility__unit-history-add:last-child,
@@ -8425,7 +8452,8 @@ dd {
 
 .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
-.siteNav__invoices-popover-list {
+.siteNav__invoices-popover-list,
+.siteNav__invoices-popover-list-blank {
   float: none;
   max-height: 400px;
   max-height: 25rem;
@@ -8434,8 +8462,15 @@ dd {
   background: white; }
   .siteNav__events-popover-list .is-unviewed,
   .siteNav__proposals-popover-list .is-unviewed,
-  .siteNav__invoices-popover-list .is-unviewed {
+  .siteNav__invoices-popover-list .is-unviewed,
+  .siteNav__invoices-popover-list-blank .is-unviewed {
     background: #f1faf8; }
+
+.siteNav__invoices-popover-list-blank {
+  padding-top: 22.4px;
+  padding-top: 1.4rem;
+  min-height: 200px;
+  min-height: 12.5rem; }
 
 .siteNav__events-popover-item,
 .siteNav__proposals-popover-item,
@@ -11542,6 +11577,25 @@ dd {
   .facility__unit-score-head {
     margin-top: 22.4px;
     margin-top: 1.4rem; } }
+
+.facility__unit-score-body-blank {
+  background: white url(../assets/condition-score-blank-slate.svg) no-repeat center center;
+  background-size: cover;
+  min-height: 200px;
+  min-height: 12.5rem; }
+
+.facility__unit-score-sheet-blank:before {
+  display: none; }
+.facility__unit-score-sheet-blank h2, .facility__unit-score-sheet-blank p {
+  max-width: 300px;
+  max-width: 18.75rem;
+  margin: 0 auto; }
+.facility__unit-score-sheet-blank p {
+  margin-top: 5.6px;
+  margin-top: 0.35rem; }
+.facility__unit-score-sheet-blank a {
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
 
 .facility__unit-info-list {
   margin-top: 0; }
