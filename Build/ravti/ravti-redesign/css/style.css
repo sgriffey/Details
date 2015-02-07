@@ -778,7 +778,7 @@ hr {
 .facility__unit-history-add-info-cancel, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-info-list,
 .facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .facility__pm-timeline-list, .facility__pm-equipment-specs, .facility__pm-equipment-inspections, .facility__pm-tenant-list, .rfq__scan-list, .rfq__zoom-list,
-.rfq__zoom-list-dual, .rfq__bid-fieldset, .rfq__bid-options-details, .rfq__equipment-unit-spec-list, .rfq__qa, .rfq__dismiss-fieldset {
+.rfq__zoom-list-dual, .rfq__bid-fieldset, .rfq__bid-options-details, .rfq__equipment-unit-spec-list, .rfq__qa, .rfq__dismiss-fieldset, .vendor__bid-fieldset, .vendor__bid-submission-title, .vendor__bid-submission-copy, .vendor__bid-history-cta-title, .vendor__bid-history-list, .vendor__bid-history-pending-title, .vendor__bid-history-pending-copy {
   margin: 0;
   padding: 0;
   list-style-type: none; }
@@ -793,7 +793,7 @@ hr {
   padding-right: 1.4rem; }
 
 .dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i, .vendor__bid-history-pending-dismiss, .vendor__bid-history-cta-button, .vendor__bid-history-item-remove {
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -809,8 +809,8 @@ hr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.dashboard__index-control-map i, .dashboard__index-control-grid i, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
+.dashboard__index-control-map i:before, .dashboard__index-control-grid i:before, .facility__unit-history-add-event:before,
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before, .vendor__bid-history-pending-dismiss:before, .vendor__bid-history-cta-button:before, .vendor__bid-history-item-remove:before {
   font-family: 'ravti-icons'; }
 
 .dashboard__index-control-map i:before {
@@ -823,8 +823,23 @@ hr {
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before {
   content: "\e602"; }
 
-.facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before {
+.facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before {
   content: "\e604"; }
+
+.vendor__bid-history-pending-dismiss:before, .vendor__bid-history-cta-button:before {
+  content: "\e607"; }
+
+.vendor__bid-history-pending-dismiss:before {
+  content: "\e606"; }
+
+.vendor__bid-history-item-remove {
+  line-height: 1; }
+  .vendor__bid-history-item-remove:before {
+    font-family: "jaf-bernino-sans", sans-serif;
+    line-height: 1; }
+  .vendor__bid-history-item-remove:after {
+    font-family: 'ravti-icons';
+    content: "\e609"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -845,7 +860,7 @@ hr {
 .invoice__sheet-engagement-deadline,
 .invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__activity-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2), .facility__unit-info-key, .ui-state-highlight, .ui-state-active, .facility__suite-info-key,
 .facility__suite-lease-key, .facility__pm-tenant-list-titles span, .facility__pm-tenant-action-enroll, .rfq__bid-option-price, .rfq__bid-options-detail b, .rfq__qa-username, .rfq__invite-scope b,
-.rfq__invite-location b, .rfq__dismiss-check-radio:checked ~ .rfq__dismiss-option {
+.rfq__invite-location b, .rfq__dismiss-check-radio:checked ~ .rfq__dismiss-option, .vendor__bid-history-cta-title b, .vendor__bid-history-pending-title b {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
@@ -859,7 +874,8 @@ hr {
 .facility__pm-timeline-head,
 .facility__pm-approval-head, .rfq__abstract-head, .rfq__scan-head,
 .rfq__zoom-head,
-.rfq__bid-head, .proposal__abstract-head h1, .proposal__form-head h1,
+.rfq__bid-head, .vendor__bid-head,
+.vendor__queue-head, .proposal__abstract-head h1, .proposal__form-head h1,
 .proposal__terms-scan-head h1,
 .proposal__terms-view-head h1, .repair__abstract-head h1,
 .repair__bid-head h1, .repair__unit-head h1, .project__abstract-head h1, .account__details-personal-head h1,
@@ -870,7 +886,8 @@ hr {
 .facility__pm-timeline-head h1,
 .facility__pm-approval-head h1, .rfq__abstract-head h1, .rfq__scan-head h1,
 .rfq__zoom-head h1,
-.rfq__bid-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.rfq__bid-head h1, .vendor__bid-head h1,
+.vendor__queue-head h1, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__form-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
 .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
 .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .rfq__qa-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__form-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__request-form-field:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
@@ -892,7 +909,8 @@ hr {
 .facility__pm-timeline-head h1,
 .facility__pm-approval-head h1, .rfq__abstract-head h1, .rfq__scan-head h1,
 .rfq__zoom-head h1,
-.rfq__bid-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
+.rfq__bid-head h1, .vendor__bid-head h1,
+.vendor__queue-head h1, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
 .billing__defcon2-tbody .billing__th,
 .billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__invoices-popover-list-blank p, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
@@ -901,10 +919,10 @@ hr {
 .siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .repair__bid-th,
 .repair__bid-td, .overlay__confirm-bid-metadata, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
-.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition {
+.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition, .vendor-dash__card-copy {
   font-weight: 400; }
 
-.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job, .rfq__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
+.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job, .vendor-dash__card-title, .vendor__bid-submission-title, .rfq__bid-upload, .vendor__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__form-title, .overlay__request-form-title, .billing__title,
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .facility__unit-history-index-blank h2, .siteNav__invoices-popover-list-blank h2, .facility__unit-score-sheet-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
 .onboard-facility__aside-summary-cta, .siteNav,
 .siteNav-guest, .dashboard__index-grid-tile-hint b, .dashboard__aside-feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
@@ -916,7 +934,7 @@ hr {
 .facility__suites-paginate-last, .facility__suite-tally-total, .facility__pm-upcoming-date, .facility__pm-upcoming-vendor-title, .facility__pm-timeline-event-type, .facility__pm-equipment-parent-suite,
 .facility__pm-equipment-parent-tenant, .facility__pm-equipment-full-view, .rfq__scan-expand, .rfq__zoom-item a:after, .rfq__invite-prompt,
 .rfq__dismiss-prompt, .rfq__invite-scope b,
-.rfq__invite-location b, .rfq__invite-th {
+.rfq__invite-location b, .rfq__invite-th, .vendor__bid-history-pending-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -931,7 +949,7 @@ hr {
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
 .project__terms-view, .project__timeline, .project__qa, .billing__late,
-.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .facility__pm-tenant-body, .events__feed, .rfq__qa {
+.facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-feed, .facility__service-feed, .facility__suites, .facility__pm-tenant-body, .events__feed, .rfq__qa, .vendor-dash__card {
   padding: 22.4px;
   padding: 1.4rem;
   margin-top: 22.4px;
@@ -951,7 +969,7 @@ hr {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job {
+.proposal__abstract-job, .repair__abstract-job, .project__abstract-job, .invoice__meta-summary-job, .facility__activity-prevent-prompt, .facility__activity-prevent-count, .rfq__abstract-job, .vendor-dash__card-title, .vendor__bid-submission-title {
   font-size: 23.04px;
   font-size: 1.44rem;
   margin-bottom: 0; }
@@ -967,7 +985,8 @@ hr {
 .facility__pm-timeline-head,
 .facility__pm-approval-head, .rfq__abstract-head, .rfq__scan-head,
 .rfq__zoom-head,
-.rfq__bid-head {
+.rfq__bid-head, .vendor__bid-head,
+.vendor__queue-head {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -999,7 +1018,8 @@ hr {
   .facility__pm-timeline-head:last-child,
   .facility__pm-approval-head:last-child, .rfq__abstract-head:last-child, .rfq__scan-head:last-child,
   .rfq__zoom-head:last-child,
-  .rfq__bid-head:last-child {
+  .rfq__bid-head:last-child, .vendor__bid-head:last-child,
+  .vendor__queue-head:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .proposal__abstract-head, .proposal__form-head,
@@ -1013,7 +1033,8 @@ hr {
     .facility__pm-timeline-head,
     .facility__pm-approval-head, .rfq__abstract-head, .rfq__scan-head,
     .rfq__zoom-head,
-    .rfq__bid-head {
+    .rfq__bid-head, .vendor__bid-head,
+    .vendor__queue-head {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
   .proposal__abstract-head h1, .proposal__form-head h1,
@@ -1027,7 +1048,8 @@ hr {
   .facility__pm-timeline-head h1,
   .facility__pm-approval-head h1, .rfq__abstract-head h1, .rfq__scan-head h1,
   .rfq__zoom-head h1,
-  .rfq__bid-head h1 {
+  .rfq__bid-head h1, .vendor__bid-head h1,
+  .vendor__queue-head h1 {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     margin-bottom: 0;
@@ -1084,7 +1106,8 @@ hr {
 .facility__suite-lease-body,
 .facility__suite-upload-body, .facility__pm-upcoming-body,
 .facility__pm-timeline-body,
-.facility__pm-approval-body, .rfq__abstract-body, .rfq__zoom-body, .rfq__scan-body, .rfq__bid-body {
+.facility__pm-approval-body, .rfq__abstract-body, .rfq__zoom-body, .rfq__scan-body, .rfq__bid-body, .vendor__bid-body,
+.vendor__queue-body {
   padding: 22.4px;
   padding: 1.4rem;
   background: white;
@@ -1164,7 +1187,7 @@ hr {
 *Dashed file upload widgets
 *This extends into specific assets below
 */
-.rfq__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button {
+.rfq__bid-upload, .vendor__bid-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .facility__suite-upload-lease-button, .facility__suite-upload-service-button {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding: 11.2px;
@@ -1177,14 +1200,12 @@ hr {
   border: 1px dashed #66c3b0;
   cursor: pointer;
   text-align: center; }
-  .rfq__bid-upload:before, .overlay__confirm-input-file-button:before, .facility__unit-history-add-info-attach:before, .facility__suite-upload-lease-button:before, .facility__suite-upload-service-button:before {
+  .rfq__bid-upload:before, .vendor__bid-upload:before, .overlay__confirm-input-file-button:before, .facility__unit-history-add-info-attach:before, .facility__suite-upload-lease-button:before, .facility__suite-upload-service-button:before {
     content: '';
     display: block;
     background: center center no-repeat;
     text-align: center;
     margin: 0 auto;
-    padding: 22.4px;
-    padding: 1.4rem;
     height: 90px;
     height: 5.625rem;
     width: 90px;
@@ -1193,29 +1214,29 @@ hr {
     white-space: nowrap;
     -webkit-user-select: none;
     transition: cubic-bezier(0.53, -0.24, 0, 1.03); }
-    .rfq__bid-upload:before:hover, .overlay__confirm-input-file-button:before:hover, .facility__unit-history-add-info-attach:before:hover, .facility__suite-upload-lease-button:before:hover, .facility__suite-upload-service-button:before:hover {
+    .rfq__bid-upload:before:hover, .vendor__bid-upload:before:hover, .overlay__confirm-input-file-button:before:hover, .facility__unit-history-add-info-attach:before:hover, .facility__suite-upload-lease-button:before:hover, .facility__suite-upload-service-button:before:hover {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       -moz-transform: scale(1.05);
       -o-transform: scale(1.05);
       transform: scale(1.05); }
-  .rfq__bid-upload:hover, .overlay__confirm-input-file-button:hover, .facility__unit-history-add-info-attach:hover, .facility__suite-upload-lease-button:hover, .facility__suite-upload-service-button:hover {
+  .rfq__bid-upload:hover, .vendor__bid-upload:hover, .overlay__confirm-input-file-button:hover, .facility__unit-history-add-info-attach:hover, .facility__suite-upload-lease-button:hover, .facility__suite-upload-service-button:hover {
     background: rgba(102, 195, 176, 0.05); }
-    .rfq__bid-upload:hover::before, .overlay__confirm-input-file-button:hover::before, .facility__unit-history-add-info-attach:hover::before, .facility__suite-upload-lease-button:hover::before, .facility__suite-upload-service-button:hover::before {
+    .rfq__bid-upload:hover::before, .vendor__bid-upload:hover::before, .overlay__confirm-input-file-button:hover::before, .facility__unit-history-add-info-attach:hover::before, .facility__suite-upload-lease-button:hover::before, .facility__suite-upload-service-button:hover::before {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       -moz-transform: scale(1.05);
       -o-transform: scale(1.05);
       transform: scale(1.05); }
-  .rfq__bid-upload input::-webkit-file-upload-button, .overlay__confirm-input-file-button input::-webkit-file-upload-button, .facility__unit-history-add-info-attach input::-webkit-file-upload-button, .facility__suite-upload-lease-button input::-webkit-file-upload-button, .facility__suite-upload-service-button input::-webkit-file-upload-button {
+  .rfq__bid-upload input::-webkit-file-upload-button, .vendor__bid-upload input::-webkit-file-upload-button, .overlay__confirm-input-file-button input::-webkit-file-upload-button, .facility__unit-history-add-info-attach input::-webkit-file-upload-button, .facility__suite-upload-lease-button input::-webkit-file-upload-button, .facility__suite-upload-service-button input::-webkit-file-upload-button {
     visibility: hidden; }
-  .rfq__bid-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input {
+  .rfq__bid-upload input, .vendor__bid-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input {
     display: none;
     visibility: hidden;
     outline: none;
     -webkit-user-select: none; }
 
-.rfq__bid-upload:before {
+.rfq__bid-upload:before, .vendor__bid-upload:before {
   background-image: url(../assets/proposal-view.svg); }
 
 .overlay__confirm-input-file-button {
@@ -1261,7 +1282,7 @@ hr {
   .facility__suite-upload-service-button:before {
     background-image: url(../assets/service-contract-upload.svg); }
 
-.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .rfq__zoom-doc:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover, .rfq__zoom-scope-dual:hover, .rfq__zoom-scope-dual:hover a, .rfq__zoom-item a:hover {
+.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .rfq__zoom-doc:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover, .rfq__zoom-scope-dual:hover, .rfq__zoom-scope-dual:hover a, .rfq__zoom-item a:hover, .vendor__bid-history-item:hover, .vendor__bid-history-item:hover a:hover {
   cursor: pointer;
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in; }
@@ -1386,7 +1407,7 @@ hr {
 .facility__unit-request-form-label,
 .facility__unit-request-form-field,
 .facility__unit-request-form-finalize,
-.facility__unit-request-form-select-drop, .facility__unit-request-form-select-drop option, .facility__suites-td:nth-child(2) {
+.facility__unit-request-form-select-drop, .facility__unit-request-form-select-drop option, .facility__suites-td:nth-child(2), .vendor__bid-history-item {
   white-space: nowrap;
   overflow: hidden;
   -ms-text-overflow: ellipsis;
@@ -1521,7 +1542,7 @@ hr {
   height: 3.625rem;
   background: url(../assets/invoices-popover-blank-slate.svg) center center no-repeat; }
 
-.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
+.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button {
   border-width: 1px;
   -webkit-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -1534,16 +1555,16 @@ hr {
   font-size: 0.83333rem;
   font-weight: 300;
   font-style: normal; }
-  .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
+  .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     line-height: 1.68;
     margin-right: 5.6px;
     margin-right: 0.35rem; }
-  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus {
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .vendor__bid-submission-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .vendor__bid-submission-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .vendor__bid-submission-button:focus {
     border-width: 1px; }
   @media screen and (min-width: 46.8em) {
-    .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
+    .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button {
       margin-bottom: 22.4px;
       margin-bottom: 1.4rem; } }
 
@@ -1779,7 +1800,7 @@ hr {
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-score-sheet-cta, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .rfq__invite-accept,
-.rfq__dismiss-submit, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
+.rfq__dismiss-submit, .vendor__bid-button, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__form-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__request-form-field, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
 .facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
@@ -1789,7 +1810,7 @@ hr {
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-score-sheet-cta, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .rfq__invite-accept,
-.rfq__dismiss-submit, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
+.rfq__dismiss-submit, .vendor__bid-button, .form__buttons-discourage, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
@@ -1837,21 +1858,38 @@ hr {
 .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
 .onboard__finish-slide, .onboard-dashboard__button-submit, .dashboard__form-button-submit, .proposal__procure-services-qa-post-btn, .repair__bid-finalize-encourage, .project__qa-chat-post-btn, .overlay__confirm-form-button-encourage, .overlay__request-form-button-submit, .overlay__onboard-finalize-submit, .account__details-personal-confirm-save, .facility__unit-score-sheet-cta, .facility__unit-request-form-button-submit, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-lease-form-confirm-save, .rfq__qa-post-btn, .rfq__invite-accept,
-.rfq__dismiss-submit {
+.rfq__dismiss-submit, .vendor__bid-button {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
   .form__buttons-encourage:hover, .form__input-button-bleed:hover, .onboard__next-slide:hover,
   .onboard__finish-slide:hover, .onboard-dashboard__button-submit:hover, .dashboard__form-button-submit:hover, .proposal__procure-services-qa-post-btn:hover, .repair__bid-finalize-encourage:hover, .project__qa-chat-post-btn:hover, .overlay__confirm-form-button-encourage:hover, .overlay__request-form-button-submit:hover, .overlay__onboard-finalize-submit:hover, .account__details-personal-confirm-save:hover, .facility__unit-score-sheet-cta:hover, .facility__unit-request-form-button-submit:hover, .facility__unit-history-add-mobile-submit:hover,
   .facility__unit-history-add-info-submit:hover, .facility__suite-lease-form-confirm-save:hover, .rfq__qa-post-btn:hover, .rfq__invite-accept:hover,
-  .rfq__dismiss-submit:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .onboard__next-slide:focus,
+  .rfq__dismiss-submit:hover, .vendor__bid-button:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .onboard__next-slide:focus,
   .onboard__finish-slide:focus, .onboard-dashboard__button-submit:focus, .dashboard__form-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .repair__bid-finalize-encourage:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__request-form-button-submit:focus, .overlay__onboard-finalize-submit:focus, .account__details-personal-confirm-save:focus, .facility__unit-score-sheet-cta:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-mobile-submit:focus,
   .facility__unit-history-add-info-submit:focus, .facility__suite-lease-form-confirm-save:focus, .rfq__qa-post-btn:focus, .rfq__invite-accept:focus,
-  .rfq__dismiss-submit:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .onboard__next-slide:active,
+  .rfq__dismiss-submit:focus, .vendor__bid-button:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .onboard__next-slide:active,
   .onboard__finish-slide:active, .onboard-dashboard__button-submit:active, .dashboard__form-button-submit:active, .proposal__procure-services-qa-post-btn:active, .repair__bid-finalize-encourage:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__request-form-button-submit:active, .overlay__onboard-finalize-submit:active, .account__details-personal-confirm-save:active, .facility__unit-score-sheet-cta:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-mobile-submit:active,
   .facility__unit-history-add-info-submit:active, .facility__suite-lease-form-confirm-save:active, .rfq__qa-post-btn:active, .rfq__invite-accept:active,
-  .rfq__dismiss-submit:active {
+  .rfq__dismiss-submit:active, .vendor__bid-button:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-encourage, [disabled="true"].form__input-button-bleed, [disabled="true"].onboard__next-slide,
+  [disabled="true"].onboard__finish-slide, [disabled="true"].onboard-dashboard__button-submit, [disabled="true"].dashboard__form-button-submit, [disabled="true"].proposal__procure-services-qa-post-btn, [disabled="true"].repair__bid-finalize-encourage, [disabled="true"].project__qa-chat-post-btn, [disabled="true"].overlay__confirm-form-button-encourage, [disabled="true"].overlay__request-form-button-submit, [disabled="true"].overlay__onboard-finalize-submit, [disabled="true"].account__details-personal-confirm-save, [disabled="true"].facility__unit-score-sheet-cta, [disabled="true"].facility__unit-request-form-button-submit, [disabled="true"].facility__unit-history-add-mobile-submit,
+  [disabled="true"].facility__unit-history-add-info-submit, [disabled="true"].facility__suite-lease-form-confirm-save, [disabled="true"].rfq__qa-post-btn, [disabled="true"].rfq__invite-accept,
+  [disabled="true"].rfq__dismiss-submit, [disabled="true"].vendor__bid-button {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-encourage:hover, [disabled="true"].form__input-button-bleed:hover, [disabled="true"].onboard__next-slide:hover,
+    [disabled="true"].onboard__finish-slide:hover, [disabled="true"].onboard-dashboard__button-submit:hover, [disabled="true"].dashboard__form-button-submit:hover, [disabled="true"].proposal__procure-services-qa-post-btn:hover, [disabled="true"].repair__bid-finalize-encourage:hover, [disabled="true"].project__qa-chat-post-btn:hover, [disabled="true"].overlay__confirm-form-button-encourage:hover, [disabled="true"].overlay__request-form-button-submit:hover, [disabled="true"].overlay__onboard-finalize-submit:hover, [disabled="true"].account__details-personal-confirm-save:hover, [disabled="true"].facility__unit-score-sheet-cta:hover, [disabled="true"].facility__unit-request-form-button-submit:hover, [disabled="true"].facility__unit-history-add-mobile-submit:hover,
+    [disabled="true"].facility__unit-history-add-info-submit:hover, [disabled="true"].facility__suite-lease-form-confirm-save:hover, [disabled="true"].rfq__qa-post-btn:hover, [disabled="true"].rfq__invite-accept:hover,
+    [disabled="true"].rfq__dismiss-submit:hover, [disabled="true"].vendor__bid-button:hover, [disabled="true"].form__buttons-encourage:focus, [disabled="true"].form__input-button-bleed:focus, [disabled="true"].onboard__next-slide:focus,
+    [disabled="true"].onboard__finish-slide:focus, [disabled="true"].onboard-dashboard__button-submit:focus, [disabled="true"].dashboard__form-button-submit:focus, [disabled="true"].proposal__procure-services-qa-post-btn:focus, [disabled="true"].repair__bid-finalize-encourage:focus, [disabled="true"].project__qa-chat-post-btn:focus, [disabled="true"].overlay__confirm-form-button-encourage:focus, [disabled="true"].overlay__request-form-button-submit:focus, [disabled="true"].overlay__onboard-finalize-submit:focus, [disabled="true"].account__details-personal-confirm-save:focus, [disabled="true"].facility__unit-score-sheet-cta:focus, [disabled="true"].facility__unit-request-form-button-submit:focus, [disabled="true"].facility__unit-history-add-mobile-submit:focus,
+    [disabled="true"].facility__unit-history-add-info-submit:focus, [disabled="true"].facility__suite-lease-form-confirm-save:focus, [disabled="true"].rfq__qa-post-btn:focus, [disabled="true"].rfq__invite-accept:focus,
+    [disabled="true"].rfq__dismiss-submit:focus, [disabled="true"].vendor__bid-button:focus, [disabled="true"].form__buttons-encourage:active, [disabled="true"].form__input-button-bleed:active, [disabled="true"].onboard__next-slide:active,
+    [disabled="true"].onboard__finish-slide:active, [disabled="true"].onboard-dashboard__button-submit:active, [disabled="true"].dashboard__form-button-submit:active, [disabled="true"].proposal__procure-services-qa-post-btn:active, [disabled="true"].repair__bid-finalize-encourage:active, [disabled="true"].project__qa-chat-post-btn:active, [disabled="true"].overlay__confirm-form-button-encourage:active, [disabled="true"].overlay__request-form-button-submit:active, [disabled="true"].overlay__onboard-finalize-submit:active, [disabled="true"].account__details-personal-confirm-save:active, [disabled="true"].facility__unit-score-sheet-cta:active, [disabled="true"].facility__unit-request-form-button-submit:active, [disabled="true"].facility__unit-history-add-mobile-submit:active,
+    [disabled="true"].facility__unit-history-add-info-submit:active, [disabled="true"].facility__suite-lease-form-confirm-save:active, [disabled="true"].rfq__qa-post-btn:active, [disabled="true"].rfq__invite-accept:active,
+    [disabled="true"].rfq__dismiss-submit:active, [disabled="true"].vendor__bid-button:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-discourage {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -1859,17 +1897,31 @@ hr {
   background-color: #f6d262; }
   .form__buttons-discourage:hover, .form__buttons-discourage:focus, .form__buttons-discourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-discourage {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-discourage:hover, [disabled="true"].form__buttons-discourage:focus, [disabled="true"].form__buttons-discourage:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
-.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
+.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button, .form__select-drop, .dashboard__form-select-drop, .overlay__request-form-select-drop, .facility__unit-request-form-select-drop, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .dashboard__mobile-request-card-btn, .dashboard__aside-feedback-dismiss-trigger, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__request-form-button-cancel, .overlay__request-feedback-dismiss-trigger, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #e3e5ea; }
-  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .onboard__previous-slide:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .repair__bid-finalize-neutral:hover, .repair__bid-finalize-rebid:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .account__details-personal-confirm-cancel:hover, .facility__activity-prevent-button:hover, .facility__unit-history-add-mobile-cancel:hover,
-  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .onboard__previous-slide:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .repair__bid-finalize-neutral:focus, .repair__bid-finalize-rebid:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .account__details-personal-confirm-cancel:focus, .facility__activity-prevent-button:focus, .facility__unit-history-add-mobile-cancel:focus,
-  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .onboard__previous-slide:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .repair__bid-finalize-neutral:active, .repair__bid-finalize-rebid:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .account__details-personal-confirm-cancel:active, .facility__activity-prevent-button:active, .facility__unit-history-add-mobile-cancel:active,
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .vendor__bid-submission-button:hover, .form__select-drop:hover, .dashboard__form-select-drop:hover, .overlay__request-form-select-drop:hover, .facility__unit-request-form-select-drop:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .onboard__previous-slide:hover, .dashboard__mobile-request-card-btn:hover, .dashboard__aside-feedback-dismiss-trigger:hover, .repair__bid-finalize-neutral:hover, .repair__bid-finalize-rebid:hover, .overlay__confirm-form-button-neutral:hover, .overlay__request-form-button-cancel:hover, .overlay__request-feedback-dismiss-trigger:hover, .account__details-personal-confirm-cancel:hover, .facility__activity-prevent-button:hover, .facility__unit-history-add-mobile-cancel:hover,
+  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .vendor__bid-submission-button:focus, .form__select-drop:focus, .dashboard__form-select-drop:focus, .overlay__request-form-select-drop:focus, .facility__unit-request-form-select-drop:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .onboard__previous-slide:focus, .dashboard__mobile-request-card-btn:focus, .dashboard__aside-feedback-dismiss-trigger:focus, .repair__bid-finalize-neutral:focus, .repair__bid-finalize-rebid:focus, .overlay__confirm-form-button-neutral:focus, .overlay__request-form-button-cancel:focus, .overlay__request-feedback-dismiss-trigger:focus, .account__details-personal-confirm-cancel:focus, .facility__activity-prevent-button:focus, .facility__unit-history-add-mobile-cancel:focus,
+  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .vendor__bid-submission-button:active, .form__select-drop:active, .dashboard__form-select-drop:active, .overlay__request-form-select-drop:active, .facility__unit-request-form-select-drop:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .onboard__previous-slide:active, .dashboard__mobile-request-card-btn:active, .dashboard__aside-feedback-dismiss-trigger:active, .repair__bid-finalize-neutral:active, .repair__bid-finalize-rebid:active, .overlay__confirm-form-button-neutral:active, .overlay__request-form-button-cancel:active, .overlay__request-feedback-dismiss-trigger:active, .account__details-personal-confirm-cancel:active, .facility__activity-prevent-button:active, .facility__unit-history-add-mobile-cancel:active,
   .facility__unit-history-add-info-cancel:active, .facility__suite-lease-form-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].facility__unit-navigation-button, [disabled="true"].facility__suite-navigation-button, [disabled="true"].facility__pm-navigation-button, [disabled="true"].vendor__bid-submission-button, [disabled="true"].form__select-drop, [disabled="true"].dashboard__form-select-drop, [disabled="true"].overlay__request-form-select-drop, [disabled="true"].facility__unit-request-form-select-drop, [disabled="true"].account__details-company-toggle-switch, [disabled="true"].form__buttons-neutral, [disabled="true"].onboard__previous-slide, [disabled="true"].dashboard__mobile-request-card-btn, [disabled="true"].dashboard__aside-feedback-dismiss-trigger, [disabled="true"].repair__bid-finalize-neutral, [disabled="true"].repair__bid-finalize-rebid, [disabled="true"].overlay__confirm-form-button-neutral, [disabled="true"].overlay__request-form-button-cancel, [disabled="true"].overlay__request-feedback-dismiss-trigger, [disabled="true"].account__details-personal-confirm-cancel, [disabled="true"].facility__activity-prevent-button, [disabled="true"].facility__unit-history-add-mobile-cancel,
+  [disabled="true"].facility__unit-history-add-info-cancel, [disabled="true"].facility__suite-lease-form-confirm-cancel {
+    opacity: 0.3; }
+    [disabled="true"].facility__unit-navigation-button:hover, [disabled="true"].facility__suite-navigation-button:hover, [disabled="true"].facility__pm-navigation-button:hover, [disabled="true"].vendor__bid-submission-button:hover, [disabled="true"].form__select-drop:hover, [disabled="true"].dashboard__form-select-drop:hover, [disabled="true"].overlay__request-form-select-drop:hover, [disabled="true"].facility__unit-request-form-select-drop:hover, [disabled="true"].account__details-company-toggle-switch:hover, [disabled="true"].form__buttons-neutral:hover, [disabled="true"].onboard__previous-slide:hover, [disabled="true"].dashboard__mobile-request-card-btn:hover, [disabled="true"].dashboard__aside-feedback-dismiss-trigger:hover, [disabled="true"].repair__bid-finalize-neutral:hover, [disabled="true"].repair__bid-finalize-rebid:hover, [disabled="true"].overlay__confirm-form-button-neutral:hover, [disabled="true"].overlay__request-form-button-cancel:hover, [disabled="true"].overlay__request-feedback-dismiss-trigger:hover, [disabled="true"].account__details-personal-confirm-cancel:hover, [disabled="true"].facility__activity-prevent-button:hover, [disabled="true"].facility__unit-history-add-mobile-cancel:hover,
+    [disabled="true"].facility__unit-history-add-info-cancel:hover, [disabled="true"].facility__suite-lease-form-confirm-cancel:hover, [disabled="true"].facility__unit-navigation-button:focus, [disabled="true"].facility__suite-navigation-button:focus, [disabled="true"].facility__pm-navigation-button:focus, [disabled="true"].vendor__bid-submission-button:focus, [disabled="true"].form__select-drop:focus, [disabled="true"].dashboard__form-select-drop:focus, [disabled="true"].overlay__request-form-select-drop:focus, [disabled="true"].facility__unit-request-form-select-drop:focus, [disabled="true"].account__details-company-toggle-switch:focus, [disabled="true"].form__buttons-neutral:focus, [disabled="true"].onboard__previous-slide:focus, [disabled="true"].dashboard__mobile-request-card-btn:focus, [disabled="true"].dashboard__aside-feedback-dismiss-trigger:focus, [disabled="true"].repair__bid-finalize-neutral:focus, [disabled="true"].repair__bid-finalize-rebid:focus, [disabled="true"].overlay__confirm-form-button-neutral:focus, [disabled="true"].overlay__request-form-button-cancel:focus, [disabled="true"].overlay__request-feedback-dismiss-trigger:focus, [disabled="true"].account__details-personal-confirm-cancel:focus, [disabled="true"].facility__activity-prevent-button:focus, [disabled="true"].facility__unit-history-add-mobile-cancel:focus,
+    [disabled="true"].facility__unit-history-add-info-cancel:focus, [disabled="true"].facility__suite-lease-form-confirm-cancel:focus, [disabled="true"].facility__unit-navigation-button:active, [disabled="true"].facility__suite-navigation-button:active, [disabled="true"].facility__pm-navigation-button:active, [disabled="true"].vendor__bid-submission-button:active, [disabled="true"].form__select-drop:active, [disabled="true"].dashboard__form-select-drop:active, [disabled="true"].overlay__request-form-select-drop:active, [disabled="true"].facility__unit-request-form-select-drop:active, [disabled="true"].account__details-company-toggle-switch:active, [disabled="true"].form__buttons-neutral:active, [disabled="true"].onboard__previous-slide:active, [disabled="true"].dashboard__mobile-request-card-btn:active, [disabled="true"].dashboard__aside-feedback-dismiss-trigger:active, [disabled="true"].repair__bid-finalize-neutral:active, [disabled="true"].repair__bid-finalize-rebid:active, [disabled="true"].overlay__confirm-form-button-neutral:active, [disabled="true"].overlay__request-form-button-cancel:active, [disabled="true"].overlay__request-feedback-dismiss-trigger:active, [disabled="true"].account__details-personal-confirm-cancel:active, [disabled="true"].facility__activity-prevent-button:active, [disabled="true"].facility__unit-history-add-mobile-cancel:active,
+    [disabled="true"].facility__unit-history-add-info-cancel:active, [disabled="true"].facility__suite-lease-form-confirm-cancel:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -1877,6 +1929,11 @@ hr {
   background-color: #66c3b0; }
   .form__buttons-encourage-large:hover, .onboard-facility__button-finish:hover, .proposal__form-button-encourage:hover, .rfq__bid-button-encourage:hover, .form__buttons-encourage-large:focus, .onboard-facility__button-finish:focus, .proposal__form-button-encourage:focus, .rfq__bid-button-encourage:focus, .form__buttons-encourage-large:active, .onboard-facility__button-finish:active, .proposal__form-button-encourage:active, .rfq__bid-button-encourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-encourage-large, [disabled="true"].onboard-facility__button-finish, [disabled="true"].proposal__form-button-encourage, [disabled="true"].rfq__bid-button-encourage {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-encourage-large:hover, [disabled="true"].onboard-facility__button-finish:hover, [disabled="true"].proposal__form-button-encourage:hover, [disabled="true"].rfq__bid-button-encourage:hover, [disabled="true"].form__buttons-encourage-large:focus, [disabled="true"].onboard-facility__button-finish:focus, [disabled="true"].proposal__form-button-encourage:focus, [disabled="true"].rfq__bid-button-encourage:focus, [disabled="true"].form__buttons-encourage-large:active, [disabled="true"].onboard-facility__button-finish:active, [disabled="true"].proposal__form-button-encourage:active, [disabled="true"].rfq__bid-button-encourage:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-discourage-large {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -1884,6 +1941,11 @@ hr {
   background-color: #f6d262; }
   .form__buttons-discourage-large:hover, .form__buttons-discourage-large:focus, .form__buttons-discourage-large:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-discourage-large {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-discourage-large:hover, [disabled="true"].form__buttons-discourage-large:focus, [disabled="true"].form__buttons-discourage-large:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-neutral-large {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -1891,6 +1953,11 @@ hr {
   background-color: white; }
   .form__buttons-neutral-large:hover, .form__buttons-neutral-large:focus, .form__buttons-neutral-large:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-neutral-large {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-neutral-large:hover, [disabled="true"].form__buttons-neutral-large:focus, [disabled="true"].form__buttons-neutral-large:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-encourage-block {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -1898,6 +1965,11 @@ hr {
   background-color: #66c3b0; }
   .form__buttons-encourage-block:hover, .form__buttons-encourage-block:focus, .form__buttons-encourage-block:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-encourage-block {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-encourage-block:hover, [disabled="true"].form__buttons-encourage-block:focus, [disabled="true"].form__buttons-encourage-block:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-encourage-block-large {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -1905,6 +1977,11 @@ hr {
   background-color: #66c3b0; }
   .form__buttons-encourage-block-large:hover, .form__buttons-encourage-block-large:focus, .form__buttons-encourage-block-large:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].form__buttons-encourage-block-large {
+    opacity: 0.3; }
+    [disabled="true"].form__buttons-encourage-block-large:hover, [disabled="true"].form__buttons-encourage-block-large:focus, [disabled="true"].form__buttons-encourage-block-large:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
 
 .form__buttons-group {
   border: none;
@@ -2363,7 +2440,7 @@ hr {
   background: rgba(102, 195, 176, 0.2);
   border-color: #66c3b0; }
 
-.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
+.facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button {
   border-width: 1px;
   -webkit-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -2376,16 +2453,16 @@ hr {
   font-size: 0.83333rem;
   font-weight: 300;
   font-style: normal; }
-  .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i {
+  .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i {
     font-size: 13.33333px;
     font-size: 0.83333rem;
     line-height: 1.68;
     margin-right: 5.6px;
     margin-right: 0.35rem; }
-  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus {
+  .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .vendor__bid-submission-button:hover, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .vendor__bid-submission-button:active, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .vendor__bid-submission-button:focus {
     border-width: 1px; }
   @media screen and (min-width: 46.8em) {
-    .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button {
+    .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button {
       margin-bottom: 22.4px;
       margin-bottom: 1.4rem; } }
 
@@ -2453,7 +2530,7 @@ hr {
 .table__striped,
 .table__hover, .projects__queue-table,
 .projects__live-table, .repair__bid-table, .overlay__confirm-bid-table, .billing__table,
-.facility__billing-table, .invoice__sheet-bill-table, .facility__unit-history-index-table, .facility__projects-table, .facility__service-table, .facility__suites-table, .events__feed-table {
+.facility__billing-table, .invoice__sheet-bill-table, .facility__unit-history-index-table, .facility__projects-table, .facility__service-table, .facility__suites-table, .events__feed-table, .vendor__queue-table {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
@@ -2469,7 +2546,7 @@ hr {
 .table__striped-th,
 .table__hover-th, .projects__queue-th,
 .projects__live-th, .repair__bid-th, .overlay__confirm-bid-th, .billing__th,
-.facility__billing-th, .invoice__sheet-bill-th, .facility__unit-history-index-th, .facility__projects-th, .facility__service-th, .facility__suites-th, .events__feed-th, .events__feed-day-label {
+.facility__billing-th, .invoice__sheet-bill-th, .facility__unit-history-index-th, .facility__projects-th, .facility__service-th, .facility__suites-th, .events__feed-th, .events__feed-day-label, .vendor__queue-th {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding-bottom: 5.6px;
@@ -2479,19 +2556,19 @@ hr {
 .table__basic-tr,
 .table__hover-tr, .table__striped-tr, .projects__queue-tr,
 .projects__live-tr, .repair__bid-tr, .repair__bid-sum-tr, .overlay__confirm-bid-tr, .overlay__confirm-bid-sum-tr, .billing__tr,
-.facility__billing-tr, .invoice__sheet-bill-tr, .invoice__sheet-bill-sum-tr, .facility__unit-history-index-tr, .facility__projects-tr, .facility__service-tr, .facility__suites-tr, .events__feed-tr {
+.facility__billing-tr, .invoice__sheet-bill-tr, .invoice__sheet-bill-sum-tr, .facility__unit-history-index-tr, .facility__projects-tr, .facility__service-tr, .facility__suites-tr, .events__feed-tr, .vendor__queue-tr {
   border-bottom: 1px solid #e3e5ea; }
   .table__basic-tr:last-child,
   .table__hover-tr:last-child, .table__striped-tr:last-child, .projects__queue-tr:last-child,
   .projects__live-tr:last-child, .repair__bid-tr:last-child, .repair__bid-sum-tr:last-child, .overlay__confirm-bid-tr:last-child, .overlay__confirm-bid-sum-tr:last-child, .billing__tr:last-child,
-  .facility__billing-tr:last-child, .invoice__sheet-bill-tr:last-child, .invoice__sheet-bill-sum-tr:last-child, .facility__unit-history-index-tr:last-child, .facility__projects-tr:last-child, .facility__service-tr:last-child, .facility__suites-tr:last-child, .events__feed-tr:last-child {
+  .facility__billing-tr:last-child, .invoice__sheet-bill-tr:last-child, .invoice__sheet-bill-sum-tr:last-child, .facility__unit-history-index-tr:last-child, .facility__projects-tr:last-child, .facility__service-tr:last-child, .facility__suites-tr:last-child, .events__feed-tr:last-child, .vendor__queue-tr:last-child {
     border-bottom: 3px solid #e3e5ea; }
 
 .table__basic-td,
 .table__striped-td,
 .table__hover-td, .projects__queue-td,
 .projects__live-td, .repair__bid-td, .repair__bid-sum-td, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .billing__td,
-.facility__billing-td, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .facility__unit-history-index-td, .facility__projects-td, .facility__service-td, .facility__suites-td, .events__feed-td {
+.facility__billing-td, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .facility__unit-history-index-td, .facility__projects-td, .facility__service-td, .facility__suites-td, .events__feed-td, .vendor__queue-td {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   padding: 11.2px;
@@ -2501,14 +2578,14 @@ hr {
   .table__striped-td a,
   .table__hover-td a, .projects__queue-td a,
   .projects__live-td a, .repair__bid-td a, .repair__bid-sum-td a, .overlay__confirm-bid-td a, .overlay__confirm-bid-sum-td a, .billing__td a,
-  .facility__billing-td a, .invoice__sheet-bill-td a, .invoice__sheet-bill-sum-td a, .facility__unit-history-index-td a, .facility__projects-td a, .facility__service-td a, .facility__suites-td a, .events__feed-td a {
+  .facility__billing-td a, .invoice__sheet-bill-td a, .invoice__sheet-bill-sum-td a, .facility__unit-history-index-td a, .facility__projects-td a, .facility__service-td a, .facility__suites-td a, .events__feed-td a, .vendor__queue-td a {
     color: #092f3e;
     border-bottom: 1px solid #092f3e; }
     .table__basic-td a:hover,
     .table__striped-td a:hover,
     .table__hover-td a:hover, .projects__queue-td a:hover,
     .projects__live-td a:hover, .repair__bid-td a:hover, .repair__bid-sum-td a:hover, .overlay__confirm-bid-td a:hover, .overlay__confirm-bid-sum-td a:hover, .billing__td a:hover,
-    .facility__billing-td a:hover, .invoice__sheet-bill-td a:hover, .invoice__sheet-bill-sum-td a:hover, .facility__unit-history-index-td a:hover, .facility__projects-td a:hover, .facility__service-td a:hover, .facility__suites-td a:hover, .events__feed-td a:hover {
+    .facility__billing-td a:hover, .invoice__sheet-bill-td a:hover, .invoice__sheet-bill-sum-td a:hover, .facility__unit-history-index-td a:hover, .facility__projects-td a:hover, .facility__service-td a:hover, .facility__suites-td a:hover, .events__feed-td a:hover, .vendor__queue-td a:hover {
       color: #66c3b0;
       border-bottom: 1px solid #66c3b0; }
 
@@ -7549,6 +7626,257 @@ hr {
     margin-right: 0; }
   .rfq__invite-th:nth-child(3n+1),
   .rfq__invite-td:nth-child(3n+1) {
+    clear: left; }
+
+.vendor-dash__grid {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor-dash__grid:last-child {
+    margin-right: 0; }
+
+.vendor-dash__card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .vendor-dash__card:last-child {
+    margin-right: 0; }
+  .vendor-dash__card:nth-child(2n) {
+    margin-right: 0; }
+  .vendor-dash__card:nth-child(2n+1) {
+    clear: left; }
+  @media screen and (min-width: 46.8em) {
+    .vendor-dash__card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .vendor-dash__card:last-child {
+        margin-right: 0; }
+      .vendor-dash__card:nth-child(2n) {
+        margin-right: 0; }
+      .vendor-dash__card:nth-child(2n+1) {
+        clear: left; } }
+
+.vendor-dash__card-title,
+.vendor-dash__card-copy {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor-dash__card-title:last-child,
+  .vendor-dash__card-copy:last-child {
+    margin-right: 0; }
+
+.vendor__pricing {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor__pricing:last-child {
+    margin-right: 0; }
+
+.vendor__showcase {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor__showcase:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .vendor__showcase {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .vendor__showcase:last-child {
+        margin-right: 0; } }
+
+.vendor__aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor__aside:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .vendor__aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .vendor__aside:last-child {
+        margin-right: 0; } }
+
+.vendor__bid-head,
+.vendor__bid-head-title,
+.vendor__bid-body,
+.vendor__bid-form,
+.vendor__bid-fieldset,
+.vendor__bid-upload,
+.vendor__bid-upload-filename,
+.vendor__bid-finalize,
+.vendor__bid-finalize-copy,
+.vendor__bid-submission,
+.vendor__bid-submission-title,
+.vendor__bid-submission-copy,
+.vendor__bid-history,
+.vendor__bid-history-catalog,
+.vendor__bid-history-cta,
+.vendor__bid-history-cta-title,
+.vendor__bid-history-pending,
+.vendor__bid-history-pending-title,
+.vendor__bid-history-pending-copy,
+.vendor__bid-history-list,
+.vendor__bid-history-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor__bid-head:last-child,
+  .vendor__bid-head-title:last-child,
+  .vendor__bid-body:last-child,
+  .vendor__bid-form:last-child,
+  .vendor__bid-fieldset:last-child,
+  .vendor__bid-upload:last-child,
+  .vendor__bid-upload-filename:last-child,
+  .vendor__bid-finalize:last-child,
+  .vendor__bid-finalize-copy:last-child,
+  .vendor__bid-submission:last-child,
+  .vendor__bid-submission-title:last-child,
+  .vendor__bid-submission-copy:last-child,
+  .vendor__bid-history:last-child,
+  .vendor__bid-history-catalog:last-child,
+  .vendor__bid-history-cta:last-child,
+  .vendor__bid-history-cta-title:last-child,
+  .vendor__bid-history-pending:last-child,
+  .vendor__bid-history-pending-title:last-child,
+  .vendor__bid-history-pending-copy:last-child,
+  .vendor__bid-history-list:last-child,
+  .vendor__bid-history-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .vendor__bid-head,
+    .vendor__bid-head-title,
+    .vendor__bid-body,
+    .vendor__bid-form,
+    .vendor__bid-fieldset,
+    .vendor__bid-upload,
+    .vendor__bid-upload-filename,
+    .vendor__bid-finalize,
+    .vendor__bid-finalize-copy,
+    .vendor__bid-submission,
+    .vendor__bid-submission-title,
+    .vendor__bid-submission-copy,
+    .vendor__bid-history,
+    .vendor__bid-history-catalog,
+    .vendor__bid-history-cta,
+    .vendor__bid-history-cta-title,
+    .vendor__bid-history-pending,
+    .vendor__bid-history-pending-title,
+    .vendor__bid-history-pending-copy,
+    .vendor__bid-history-list,
+    .vendor__bid-history-item {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      margin-right: 0; }
+      .vendor__bid-head:last-child,
+      .vendor__bid-head-title:last-child,
+      .vendor__bid-body:last-child,
+      .vendor__bid-form:last-child,
+      .vendor__bid-fieldset:last-child,
+      .vendor__bid-upload:last-child,
+      .vendor__bid-upload-filename:last-child,
+      .vendor__bid-finalize:last-child,
+      .vendor__bid-finalize-copy:last-child,
+      .vendor__bid-submission:last-child,
+      .vendor__bid-submission-title:last-child,
+      .vendor__bid-submission-copy:last-child,
+      .vendor__bid-history:last-child,
+      .vendor__bid-history-catalog:last-child,
+      .vendor__bid-history-cta:last-child,
+      .vendor__bid-history-cta-title:last-child,
+      .vendor__bid-history-pending:last-child,
+      .vendor__bid-history-pending-title:last-child,
+      .vendor__bid-history-pending-copy:last-child,
+      .vendor__bid-history-list:last-child,
+      .vendor__bid-history-item:last-child {
+        margin-right: 0; } }
+
+.vendor__queue-head,
+.vendor__queue-head-title,
+.vendor__queue-body,
+.vendor__queue-table,
+.vendor__queue-thead,
+.vendor__queue-tbody {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .vendor__queue-head:last-child,
+  .vendor__queue-head-title:last-child,
+  .vendor__queue-body:last-child,
+  .vendor__queue-table:last-child,
+  .vendor__queue-thead:last-child,
+  .vendor__queue-tbody:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .vendor__queue-head,
+    .vendor__queue-head-title,
+    .vendor__queue-body,
+    .vendor__queue-table,
+    .vendor__queue-thead,
+    .vendor__queue-tbody {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      .vendor__queue-head:last-child,
+      .vendor__queue-head-title:last-child,
+      .vendor__queue-body:last-child,
+      .vendor__queue-table:last-child,
+      .vendor__queue-thead:last-child,
+      .vendor__queue-tbody:last-child {
+        margin-right: 0; } }
+
+.vendor__queue-tr {
+  width: 100%;
+  display: table;
+  width: 100%;
+  table-layout: fixed; }
+  .vendor__queue-tr:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.vendor__queue-th,
+.vendor__queue-td {
+  display: table-cell;
+  padding-right: 1.342%;
+  width: 18.47907%;
+  padding: 2.35765%; }
+  .vendor__queue-th:last-child,
+  .vendor__queue-td:last-child {
+    display: table-cell;
+    padding-right: 2.38578%;
+    width: 37.64911%; }
+  .vendor__queue-th:nth-child(4n),
+  .vendor__queue-td:nth-child(4n) {
+    margin-right: 0; }
+  .vendor__queue-th:nth-child(4n+1),
+  .vendor__queue-td:nth-child(4n+1) {
     clear: left; }
 
 .form__buttons,
@@ -13170,6 +13498,306 @@ dd {
   padding-left: 34px;
   padding-left: 2.125rem;
   line-height: 1.6; }
+
+.vendor-dash__card {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  min-height: 160px;
+  min-height: 10rem;
+  display: inline-block; }
+  .vendor-dash__card:hover, .vendor-dash__card:focus, .vendor-dash__card:active {
+    border-color: #c7cacd;
+    cursor: pointer; }
+
+.vendor-dash__card-title {
+  line-height: 1;
+  margin-bottom: 0; }
+
+.vendor-dash__card-copy {
+  margin-top: 11.2px;
+  margin-top: 0.7rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  color: #54545a; }
+
+.vendor__bid-head,
+.vendor__queue-head {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.vendor__bid-head {
+  position: relative; }
+
+.vendor__bid-body {
+  min-height: 524px;
+  min-height: 32.75rem;
+  position: relative; }
+  .vendor__bid-body .is-rolled-up {
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-top: 0;
+    overflow-y: scroll; }
+
+.vendor__bid-form {
+  overflow: hidden; }
+
+.vendor__bid-fieldset {
+  border: 0; }
+
+.vendor__bid-finalize-copy {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem;
+  color: #54545a;
+  border-bottom: 3px solid #e3e5ea;
+  text-align: center; }
+
+.vendor__bid-upload {
+  position: relative; }
+
+.vendor__bid-upload-filename {
+  display: block;
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  color: #93989c;
+  min-height: 18px;
+  min-height: 1.125rem; }
+
+.vendor__bid-upload-approved {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -15px;
+  margin-left: -0.9375rem;
+  text-align: center;
+  background: url(../assets/approved-stamp.svg) center center no-repeat;
+  height: 30px;
+  height: 1.875rem;
+  width: 30px;
+  width: 1.875rem; }
+
+.vendor__bid-submission {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 22.4px;
+  padding: 1.4rem; }
+
+.vendor__bid-submission-title {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  line-height: 1.2; }
+  .vendor__bid-submission-title:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 92px;
+    height: 5.75rem;
+    width: 92px;
+    width: 5.75rem;
+    -webkit-transform: translateX(9px);
+    -ms-transform: translateX(9px);
+    -moz-transform: translateX(9px);
+    -o-transform: translateX(9px);
+    transform: translateX(9px);
+    margin-bottom: 5.6px;
+    margin-bottom: 0.35rem;
+    background: url(../assets/rfq-submitted.svg) center center no-repeat; }
+
+.vendor__bid-submission-copy {
+  text-align: left;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
+  .vendor__bid-submission-copy:first-child {
+    margin-top: 0; }
+
+.vendor__bid-submission-button {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.vendor__bid-history {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px dotted #e3e5ea;
+  color: #092f3e; }
+
+.vendor__bid-history-cta,
+.vendor__bid-history-pending {
+  padding: 11.2px;
+  padding: 0.7rem; }
+
+.vendor__bid-history-cta-title {
+  font-size: 13.33333px;
+  font-size: 0.83333rem; }
+  .vendor__bid-history-cta-title b {
+    color: #66c3b0;
+    margin-right: 4px;
+    margin-right: 0.25rem; }
+
+.vendor__bid-history-pending-dismiss, .vendor__bid-history-cta-button {
+  position: absolute;
+  display: table;
+  right: 22.4px;
+  right: 1.4rem;
+  border: 1px solid #e3e5ea;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  height: 40px;
+  height: 2.5rem;
+  width: 40px;
+  width: 2.5rem;
+  text-align: center;
+  background: white; }
+  .vendor__bid-history-pending-dismiss:before, .vendor__bid-history-cta-button:before {
+    display: table-cell;
+    vertical-align: middle;
+    color: #c7cacd; }
+  .vendor__bid-history-pending-dismiss:hover, .vendor__bid-history-cta-button:hover {
+    border-color: #c7cacd;
+    cursor: pointer; }
+    .vendor__bid-history-pending-dismiss:hover:before, .vendor__bid-history-cta-button:hover:before {
+      color: #092f3e; }
+
+.vendor__bid-history-pending-dismiss {
+  z-index: 1;
+  top: 11.2px;
+  top: 0.7rem; }
+
+.vendor__bid-history-cta-button {
+  top: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.vendor__bid-history-list {
+  padding: 11.2px;
+  padding: 0.7rem;
+  padding-top: 0; }
+
+.vendor__bid-history-item {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #e3e5ea;
+  border-collapse: collapse;
+  position: relative; }
+  .vendor__bid-history-item:hover .vendor__bid-history-item-remove {
+    opacity: 1; }
+  .vendor__bid-history-item:hover a:active, .vendor__bid-history-item:hover a:focus {
+    outline: none; }
+
+.vendor__bid-history-item-remove {
+  background: #f35b5b;
+  color: white;
+  padding: 5.6px;
+  padding: 0.35rem;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  opacity: 0;
+  top: 50%;
+  right: 0;
+  position: absolute;
+  -webkit-box-shadow: 0 0 6px 4px white;
+  -ms-box-shadow: 0 0 6px 4px white;
+  -moz-box-shadow: 0 0 6px 4px white;
+  -o-box-shadow: 0 0 6px 4px white;
+  box-shadow: 0 0 6px 4px white;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .vendor__bid-history-item-remove:hover {
+    cursor: pointer; }
+  .vendor__bid-history-item-remove:before {
+    content: 'Remove'; }
+  .vendor__bid-history-item-remove:after {
+    margin-left: 4px;
+    margin-left: 0.25rem; }
+
+.vendor__bid-history-pending {
+  padding-top: 22.4px;
+  padding-top: 1.4rem;
+  padding-bottom: 0; }
+
+.vendor__bid-history-pending-title {
+  font-size: 19.2px;
+  font-size: 1.2rem; }
+  .vendor__bid-history-pending-title b {
+    color: #66c3b0;
+    margin-right: 4px;
+    margin-right: 0.25rem; }
+
+.vendor__bid-history-pending-copy {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid #e3e5ea; }
+
+.vendor__queue-table {
+  margin-top: 0;
+  margin-bottom: 44.8px;
+  margin-bottom: 2.8rem;
+  text-align: left; }
+
+.vendor__queue-th {
+  vertical-align: bottom; }
+
+.vendor__queue-tr {
+  height: 64px;
+  height: 4rem; }
+  .vendor__queue-tr:hover {
+    background: #fafafb; }
+  .vendor__queue-tr .vendor__queue-td:first-child {
+    font-size: 11.11111px;
+    font-size: 0.69444rem; }
+    .vendor__queue-tr .vendor__queue-td:first-child:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      height: 40px;
+      height: 2.5rem;
+      width: 40px;
+      width: 2.5rem;
+      margin-bottom: 5.6px;
+      margin-bottom: 0.35rem;
+      margin-right: 5.6px;
+      margin-right: 0.35rem; }
+  .vendor__queue-tr .is-replacement:before {
+    background: url(../assets/replacement.svg) no-repeat center center; }
+  .vendor__queue-tr .is-repair:before {
+    background: url(../assets/repair.svg) no-repeat center center; }
+  .vendor__queue-tr .is-maintenance:before {
+    background: url(../assets/preventative.svg) no-repeat center center; }
+
+.vendor__queue-thead .not-interactive {
+  height: auto; }
+  .vendor__queue-thead .not-interactive:hover {
+    background: white; }
+
+.vendor__queue-td {
+  vertical-align: middle; }
 
 /*
 Select2 Base Styling

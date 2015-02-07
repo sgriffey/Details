@@ -29,6 +29,36 @@ $(document).ready(function() {
             $(".rfq__bid-upload-filename").text(this.value);
             $(".rfq__bid-upload-approved").removeClass("is-hidden");
     });
+     // Vendor Pricing Upload File
+    $(".vendor__bid-upload-file").change(function(){
+            $(".vendor__bid-upload-filename").text(this.value);
+            $(".vendor__bid-upload-approved").toggleClass("is-hidden");
+            $(".vendor__bid-upload-filename").toggleClass("is-hidden");
+            $(".vendor__bid-button").attr("disabled", false);
+    });
+    $(".vendor__bid-button").click(function() {
+        $(".vendor__bid-history").toggleClass("is-masked");
+        $(".vendor__bid-upload-approved").toggleClass("is-hidden");
+        $(".vendor__bid-upload-filename").toggleClass("is-hidden");
+        $(".vendor__bid-form").toggleClass("is-masked");
+        $(".vendor__bid-submission").toggleClass("is-slid-down");
+
+    });
+    $(".vendor__bid-submission-button").click(function() {
+        $(".vendor__bid-submission").toggleClass("is-slid-down");
+        $(".vendor__bid-form").toggleClass("is-masked");
+    });
+    // Vendor Pricing Bid History
+    $(".vendor__bid-history-cta-button, .vendor__bid-history-pending-dismiss").click(function(){
+            $(".vendor__bid-history").toggleClass("is-rolled-up");
+            $(".vendor__bid-history-cta").toggleClass("is-masked");
+            $(".vendor__bid-history-pending").toggleClass("is-masked");
+            $(".vendor__bid-history-pending-dismiss").toggleClass("is-masked");
+            $(".vendor__bid-history-list").toggleClass("is-masked");
+    });
+    $(".vendor__bid-history-item-remove").click(function(){
+            $(this).closest(".vendor__bid-history-item").toggleClass("is-masked");
+    });
     // Onboard Interaction steps
     $(".onboard-dashboard__button-submit").click(function(){
             $(".is-form-beacon").toggleClass("is-masked");
