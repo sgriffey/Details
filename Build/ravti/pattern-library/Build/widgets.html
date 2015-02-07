@@ -32,11 +32,13 @@
 		</header></a>
 		<ul class="siteNav__sidebar">
 			<a class='current-parent' href="index.html"><li class="siteNav__sidebar-chapter">About</li></a>
-			<a class='current current' href="personas.html"><li class="siteNav__sidebar-chapter selected">Personas</li></a>
+			<a href="personas.html"><li class="siteNav__sidebar-chapter">Personas</li></a>
 			<a href="color.html"><li class="siteNav__sidebar-chapter">Colors</li></a>
 			<a href="typography.html"><li class="siteNav__sidebar-chapter">Typography</li></a>
 			<a href="form-elements.html"><li class="siteNav__sidebar-chapter">Form Elements</li></a>
 			<a href="tables.html"><li class="siteNav__sidebar-chapter">Tables</li></a>
+			<a href="grid.html"><li class="siteNav__sidebar-chapter">Grid System</li></a>
+			<a class='current current' href="widgets.html"><li class="siteNav__sidebar-chapter selected">Widgets</li></a>
 		</ul>
 	</nav>
 	<header class="mobileNav">
@@ -47,11 +49,13 @@
 		<nav class="mobileNav__menu">
 			<ul class="mobileNav__menu-list">
 				<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">About</a></li>
-				<li class='current current'><a href="personas.html" class="current current mobileNav__menu-list-item">Personas</a></li>
+				<li><a href="personas.html" class="mobileNav__menu-list-item">Personas</a></li>
 				<li><a href="color.html" class="mobileNav__menu-list-item">Colors</a></li>
 				<li><a href="typography.html" class="mobileNav__menu-list-item">Typography</a></li>
 				<li><a href="form-elements.html" class="mobileNav__menu-list-item">Form Elements</a></li>
 				<li><a href="tables.html" class="mobileNav__menu-list-item">Tables</a></li>
+				<li><a href="grid.html" class="mobileNav__menu-list-item">Grid System</a></li>
+				<li class='current current'><a href="widgets.html" class="current current mobileNav__menu-list-item">Widgets</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -59,25 +63,23 @@
 		<main class="container">
 			<section class="library">
 				<section class="library__chapter">
-	<h3 class="library__chapter-title">Audience</h3>
-	<p class="library__chapter-purpose">Innovation starts with empathy. It's important that as we build tools and systems to consistently think about our audience and the behaviors they conduct. “It’s our responsibility to be less clever, to make choices that service a wide spectrum of people, to think of ourselves as gracious hosts who never assume our guests know our home as well as we do.”</p>
+	<h2 class="library__chapter-title">Widgets</h2>
+	<p class="library__chapter-purpose">The ingredients that make the recipe. The starters. </p>
 	<hr>
-	<div class="personas">
-		<img src="assets/VINNY.jpg" class="personas__portrait"/>
-	</div>
-	<section class="library__notes">
-		<span class="library__notes-dogear">Context</span>
-		<ul>
-			<li>Initiates work orders</li>
-			<li>View equipment (&amp; history by property + facility)</li>
-			<li>Receives Notifications (Need to change filters, perform inspection, etc)</li>
-			<li>Orders Parts</li>
-			<li>RFQ's</li>
-			<li>Preferred Vendors (Invites them as well)</li>
-			<li>Never @ his desk. Always on the move.</li>
-			<li>One of few mobile viewers. Needs to do everything on fly.</li>
-		</ul>
-	</section>
+	<section class="library__chapter-section">
+		<h3 class="library__chapter-section-title">Sub-navigation</h3>
+		<div class="widgets__subnav">
+			<ul class="widgets__subnav-pages">
+				<li class="widgets__subnav-page is-active"><a href="">Equipment Details</a></li>
+				<li class="widgets__subnav-page"><a href="">RFQ</a></li>
+				<li class="widgets__subnav-page"><a href="">Q&amp;A</a></li>
+			</ul>
+		</div>
+	<section>
+	<aside class="library__notes">
+		<span class="library__notes-dogear">Notes</span>
+		<p class="library__notes-brief">Within each application bucket, above cards you'll find subnav page navigation.</p>
+	</aside>
 </section>
 			</section>
 		</main>
