@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favi-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favi-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favi-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favi-114.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favi-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="assets/favi-57.png">
+<link rel="icon" href="assets/favi-32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <title>Upload Job Information</title> 
+  <script src="//use.typekit.net/pti5qzj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<nav class="siteNav">
+	<a href="../vendor-dash.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+	<h2 class="siteNav__page-title">Job Info</h2>
+	<section class="siteNav__control">
+		<div class="siteNav__account">
+			<span class="siteNav__account-username">Melissa</span>
+			<img class="siteNav__account-image" src="../assets/users_debon-air.png"/>
+		</div>
+	</section>
+	<div class="accountNav__bucket is-masked">
+		<h1 class="accountNav__bucket-title">Account Settings</h1>
+	</div>
+	<div class="accountNav__settings is-masked">
+		<span class="accountNav__toggle-label">Exit</span>
+		<img class="accountNav__toggle-image" src="../assets/dismiss-trigger-inverted.svg"/>
+	</div>
+</nav>
+	
+	<main class="page__wrapper">
+		<section class="vendor__pricing">
+			<section class="vendor__showcase">
+				<header class="vendor__info-head">
+					<h1 class="vendor__info-head-title">Submit Job Info</h1>
+					<i class="vendor__info-history-pending-dismiss is-masked"></i>
+				</header>
+				<section class="vendor__info-body">
+					<section class="vendor__info-submission is-slid-out">
+						<h3 class="vendor__info-submission-title">Success!</h3>
+						<p class="vendor__info-submission-copy">Our staff will promptly work to match uploaded documents with the appropriate job.</p>
+						<p class="vendor__info-submission-copy">Once your tickets are reviewed and matched, those applicable projects will be cleared from the “Awaiting Job Info" list.</p>
+						<a class="vendor__info-submission-button">Okay</a>
+					</section>
+					<form class="vendor__info-form">
+						<fieldset class="vendor__info-fieldset">
+							<label class="vendor__info-upload">Upload Your Service Ticket(s) / Maintenance Reports Here
+								<input type="file" class="vendor__info-upload-file" multiple="multiple">
+								<i class="vendor__info-upload-approved is-hidden"></i>
+								<span class="vendor__info-upload-filename is-hidden"></span>
+							</label>
+						</fieldset>
+						<div class="vendor__info-finalize">
+							<p class="vendor__info-finalize-copy">*Please ensure each document has an associated Job # attached.</p><input class="vendor__info-button" type="button" value="Submit info" disabled="true">
+						</div>
+					</form>
+					<footer class="vendor__info-history is-masked">
+						<div class="vendor__info-history-catalog">
+							<div class="vendor__info-history-cta">
+								<h2 class="vendor__info-history-cta-title"><b>(6)</b>Tickets Pending Review</h2>
+								<i class="vendor__info-history-cta-button"></i>
+							</div>
+							<div class="vendor__info-history-pending is-masked">
+								<h2 class="vendor__info-history-pending-title"><b>(6)</b>Pending Review</h2>
+								<p class="vendor__info-history-pending-copy">Below are all submitted documents waiting review by the Ravti team.</p>
+							</div>
+							<ul class="vendor__info-history-list is-masked">
+								<li class="vendor__info-history-item"><a href="http://drp.mk/i/t6sc" target="_blank">GIB_106_Replacement-Proposal_Option_1.pdf</a><i class="vendor__info-history-item-remove"></i></li>
+								<li class="vendor__info-history-item">GIB_105_Replacement-Proposal_Option_2.pdf<i class="vendor__info-history-item-remove"></i></li>
+								<li class="vendor__info-history-item">GIB_108_Replacement-Proposal_Option_3.pdf<i class="vendor__info-history-item-remove"></i></li>
+								<li class="vendor__info-history-item">GIB_111_Chiller-tower-repair_Option_1.pdf<i class="vendor__info-history-item-remove"></i></li>
+								<li class="vendor__info-history-item">GIB_115_Chiller-tower-repair_Option_2.pdf<i class="vendor__info-history-item-remove"></i></li>
+								<li class="vendor__info-history-item">GIB_111_Chiller-tower-repair_Option_2.pdf<i class="vendor__info-history-item-remove"></i></li>
+							</ul>
+						</div>
+					</footer>
+				</section>
+			</section>
+			<section class="vendor__aside">
+				<header class="vendor__queue-head">
+					<h1 class="vendor__queue-head-title">Awaiting Job Info</h1>
+				</header>
+				<section class="vendor__queue-body">
+					<section class="vendor__queue-table">
+						<header class="vendor__queue-thead">
+							<div class="vendor__queue-tr not-interactive">
+								<span class="vendor__queue-th">Type</span>
+								<span class="vendor__queue-th">Days Outstanding</span>
+								<span class="vendor__queue-th">Job #</span>
+								<span class="vendor__queue-th">Description</span>
+							</div>
+						</header>
+						<section class="vendor__queue-tbody">
+							<div class="vendor__queue-tr">
+								<a href="reporting/job-info.html" class="vendor__queue-td is-replacement"></a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">7 days ago</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">GIB-104</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">Airport Commerce Suite 100 Split System Upgrade and Ductwork Install
+								</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="reporting/job-info.html" class="vendor__queue-td is-repair"></a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">4 days ago</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">GIB-105</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">Transal Plaza 1 Split systems syncing</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="reporting/job-info.html" class="vendor__queue-td is-replacement"></a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">1 day ago</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">GIB-106</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">Westside Plaza 1 Packaged Rooptop Unit Estimate</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="reporting/job-info.html" class="vendor__queue-td is-replacement"></a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">1 day ago</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">GIB-107</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">8200 Doral ACHU Replacement</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="reporting/job-info.html" class="vendor__queue-td is-maintenance"></a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">4 hrs. ago</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">GIB-107</a>
+								<a href="reporting/job-info.html" class="vendor__queue-td">8200 Doral P.M. Program</a>
+							</div>
+						</section>
+					</section>
+				</section>
+				<header class="vendor__queue-head">
+					<h1 class="vendor__queue-head-title">Awaiting Job Info</h1>
+				</header>
+				<section class="vendor__queue-body">
+					<section class="vendor__queue-blank is-blank-info">
+						<h2>No Documentation Outstanding</h2>
+					    <p>Currently there is no job information requiring submission.</p>
+					</section>
+				</section>
+			</section>
+		</section>
+	</main>
+	<!-- Any Modals/Additional Content to be triggered/overlaid -->
+		<div class="account is-masked">
+	<nav class="account__subnav">
+		<ul class="account__subnav-buckets">
+			<li class="account__subnav-details is-active"><a href="">Details</a></li>
+			<li class="account__subnav-settings"><a href="">Notifications</a></li>
+			<li class="account__subnav-permissions"><a href="">Permissions</a></li>
+		</ul>
+	</nav>
+	<section class="account__details">
+		<section class="account__details-personal">
+			<header class="account__details-personal-head">
+				<h1 class="account__details-personal-head-title">Personal Information</h1>
+				<div class="account__details-personal-head-toolbar">
+					<button class="account__details-personal-head-toolbar-edit"></button>
+					<button class="account__details-personal-head-toolbar-lock is-masked"></button>
+				</div>
+			</header>
+			<section class="account__details-personal-body">
+				<form class="account__details-personal-form">
+					<label class="account__details-personal-label">First Name</label>
+					<input type="text" class="account__details-personal-input" value="Gil" disabled="true">
+					<label class="account__details-personal-label">Last Name</label>
+					<input type="text" class="account__details-personal-input" value="Villasenor" disabled="true">
+					<label class="account__details-personal-label">Email</label>
+					<input type="text" class="account__details-personal-input" value="gvillasenor@1111brickell.com" disabled="true">
+					<label class="account__details-personal-label">Phone</label>
+					<input type="text" class="account__details-personal-input" value="(786) 261-8509" disabled="true">
+					<div class="account__details-personal-confirm is-masked">
+						<input class="account__details-personal-confirm-cancel" type="button" value="Cancel"><input class="account__details-personal-confirm-save" type="button" value="Save">
+					</div>
+				</form>
+			</section>
+		</section>
+		<section class="account__details-company">
+			<header class="account__details-company-head">
+				<h1 class="account__details-company-head-title">Company Information</h1>
+			</header>
+			<section class="account__details-company-body">
+				<form class="account__details-company-form">
+					<label class="account__details-company-label">Company Name</label>
+					<input type="text" class="account__details-company-input" value="Gibson">
+					<label class="account__details-company-label">Contact Number</label>
+					<input type="text" class="account__details-company-input" value="(786) 261-8509">
+					<label class="account__details-company-label">Street Address</label>
+					<input type="text" class="account__details-company-input" value="8200NW 33rd St.">
+					<fieldset class="account__details-company-fieldset">
+						<div class="account__details-company-fieldset-3col">
+							<label class="account__details-company-label">City</label>
+							<input type="text" class="account__details-company-input" value="Doral">
+						</div>
+						<div class="account__details-company-fieldset-3col">
+							<label class="account__details-company-label">State</label>
+							<input type="text" class="account__details-company-input" value="FL">
+						</div>
+						<div class="account__details-company-fieldset-3col">
+							<label class="account__details-company-label">Zip</label>
+							<input type="text" class="account__details-company-input" value="3122">
+						</div>
+					</fieldset>
+					<fieldset class="account__details-company-fieldset-toggle">
+						<span class="account__details-company-inline-label">Tax exempt?</span>
+						<div class="account__details-company-toggle">
+							<input class="account__details-company-toggle-switch" type="radio" value="Yes" name="tax"><input class="account__details-company-toggle-switch" type="radio" value="No" name="tax">
+						</div>
+					</fieldset>
+				</form>
+			</section>
+		</section>
+	</section>
+</div>
+
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	    <script src="../js/app.js"></script>
+</body>
+</html>

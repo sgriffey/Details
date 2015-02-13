@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="calendar" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-297" stroke="#AAACAD" stroke-width="2" sketch:type="MSShapeGroup" x="3" y="3" width="14" height="14"></rect>
+            <path d="M3,14 L3,14.6 L17,14.6 L17,14 L3,14 Z" id="Rectangle-299" fill="#AAACAD" sketch:type="MSShapeGroup"></path>
+            <path d="M3,6 L3,6.59999999 L17,6.59999999 L17,6 L3,6 Z" id="Rectangle-300" fill="#AAACAD" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-300" fill="#AAACAD" sketch:type="MSShapeGroup" x="6" y="5" width="1" height="3"></rect>
+            <rect id="Rectangle-301" fill="#AAACAD" sketch:type="MSShapeGroup" x="13" y="5" width="1" height="3"></rect>
+            <path d="M9.87,10.335 C9.87,9.76 9.715,9.25 9.39,8.935 C9.195,8.745 8.905,8.59 8.495,8.59 C8.095,8.59 7.81,8.74 7.61,8.935 C7.285,9.25 7.13,9.76 7.13,10.335 C7.13,10.905 7.285,11.41 7.61,11.73 C7.81,11.925 8.095,12.075 8.495,12.075 C8.905,12.075 9.195,11.92 9.39,11.73 C9.715,11.41 9.87,10.905 9.87,10.335 L9.87,10.335 Z M8.5,9.25 C8.63,9.25 8.72,9.29 8.81,9.375 C9.055,9.615 9.09,10.095 9.09,10.33 C9.09,10.59 9.045,11.06 8.81,11.29 C8.72,11.375 8.63,11.415 8.5,11.415 C8.37,11.415 8.28,11.375 8.19,11.29 C7.955,11.06 7.91,10.59 7.91,10.33 C7.91,10.095 7.945,9.615 8.19,9.375 C8.28,9.29 8.37,9.25 8.5,9.25 L8.5,9.25 Z M12.465,8.665 L10.825,8.665 L10.485,10.47 C10.65,10.38 10.885,10.295 11.165,10.295 C11.515,10.295 11.68,10.435 11.72,10.47 C11.8,10.54 11.89,10.66 11.89,10.86 C11.89,11.055 11.8,11.2 11.695,11.28 C11.575,11.375 11.395,11.415 11.22,11.415 C11.02,11.415 10.855,11.36 10.715,11.27 C10.61,11.205 10.485,11.095 10.395,10.995 L10.22,11.71 C10.64,12.035 11.015,12.075 11.33,12.075 C11.67,12.075 12.035,12.025 12.34,11.725 C12.495,11.57 12.68,11.295 12.68,10.865 C12.68,10.47 12.525,10.21 12.375,10.06 C12.19,9.87 11.9,9.735 11.525,9.735 C11.44,9.735 11.335,9.745 11.25,9.76 L11.34,9.315 L12.465,9.315 L12.465,8.665 Z" id="05" fill="#AAACAD" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
