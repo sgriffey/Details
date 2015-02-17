@@ -400,35 +400,53 @@
 			</section>
 		</section>
 		<section class="dashboard__aside">
-			<section class="dashboard__aside-request">
-	<form class="dashboard__form">
-		<h2 class="dashboard__form-title">Request Work Order</h2>
-		<fieldset class="dashboard__form-fieldset">
-			<div class="dashboard__form-fieldset-split">
-				<label class="dashboard__form-label">Facility</label>
-				<select class="dashboard__form-select-drop">
-					<option value=""></option>
-					<option value="1">Davenport Bka;ldkjf ;lakj ;lkjlk;j</option>
-					<option value="2">Trenton</option>
-					<option value="3">Spokane</option>
-					<option value="4">8200 Doral</option>
-					<option value="5">Quiet Waters 3</option>
-				</select>
-			</div>
-			<div class="dashboard__form-fieldset-split">
-				<label class="dashboard__form-label">Suite/Unit</label>
-				<select class="dashboard__form-select-drop">
-					<option value=""></option>
-					<option value="1">101</option>
-					<option value="2">102</option>
-					<option value="3">103</option>
-					<option value="3">104</option>
-				</select>
-			</div>
+			<section class="dashboard__request-panel">
+	<h2 class="dashboard__request-title">Request Work Order</h2>
+	<section class="dashboard__request-options">
+		<a class="dashboard__request-option is-service"><span>Service Call</span></a>
+		<a class="dashboard__request-option is-repair"><span>Repair / Parts</span></a>
+		<a class="dashboard__request-option is-pm"><span>Maintenance</span></a>
+		<a class="dashboard__request-option is-replacement"><span>Replacement</span></a>
+		<a class="dashboard__request-option is-lease"><span>Tenant Move Out</span></a>
+	</section>
+	<section class="dashboard__request-support">
+		<p class="dashboard__request-support-copy">Any questions? We're here to help.</p>
+		<p class="dashboard__request-support-copy">Phone: <a href="tel:8662022539">(866) 202-2539</a></p>
+		<p class="dashboard__request-support-copy">Email: <a href="mailto:support@ravti.com">support@ravti.com</a></p>
+	</section>
+</section>
+<section class="dashboard__request-control is-slid-right" id="is-service">
+	<h2 class="dashboard__request-control-title service"><b>Service Call</b><i class="dashboard__request-control-dismiss"></i></h2>
+	<form class="dashboard__request-control-form">
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Facility</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Davenport</option>
+				<option value="2">Doral</option>
+				<option value="3">Gibson</option>
+				<option value="4">Higuera</option>
+				<option value="5">Hudson</option>
+				<option value="6">Isaac</option>
+				<option value="7">Pierre</option>
+				<option value="8">Quincy</option>
+			</select>
 		</fieldset>
-		<fieldset class="dashboard__form-fieldset">
-			<label class="dashboard__form-label">Equipment</label>
-			<select class="dashboard__form-select-drop">
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Suite</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">102</option>
+				<option value="2">107</option>
+				<option value="3">109</option>
+				<option value="4">123</option>
+				<option value="5">132</option>
+				<option value="6">135</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset is-masked" id="optional-equipment">
+			<label class="dashboard__request-control-label">Equipment</label>
+			<select class="dashboard__request-control-select-drop">
 				<option value=""></option>
 				<option value="1">Water Cooled Chiller</option>
 				<option value="2">Air Cooled Chiller</option>
@@ -452,62 +470,257 @@
 				<option value="20">Motor</option>
 			</select>
 		</fieldset>
-		<fieldset class="dashboard__form-fieldset">
-			<label class="dashboard__form-label">Details / Description</label>
-			<select class="dashboard__form-select-drop">
-				<option value=""></option>
-				<option value="1">Not turning on/off</option>
-				<option value="2">Not cooling/heating</option>
-				<option value="3">Not reaching temperature</option>
-				<option value="4">Iced-up</option>
-				<option value="5">Water leak/drainage problem</option>
-				<option value="6">Compressor issue</option>
-				<option value="6">Unit Cycling</option>
-				<option value="7">Cond fan issue</option>
-				<option value="7">Evap fan issue</option>
-				<option value="7">Fan issue</option>
-				<option value="8">Thermostat</option>
-				<option value="8">Thermostat/Control Issue</option>
-				<option value="9">Strange sound(s)</option>
-				<option value="10">Tenant buildout</option>
-				<option value="11">Other</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__form-fieldset">
-			<legend class="dashboard__form-legend">Priority</legend>
-			<label class="dashboard__form-check-label">
-				<input type="radio" class="dashboard__form-check-radio" name="request">
-				<div class="dashboard__form-check-text">Not time sensitive</div>
-			</label>
-			<label class="dashboard__form-check-label">
-				<input type="radio" class="dashboard__form-check-radio" name="request">
-				<div class="dashboard__form-check-text">Immediate</div>
-			</label>
-			<label class="dashboard__form-check-label">
-				<input type="radio" class="dashboard__form-check-radio" name="request">
-				<div class="dashboard__form-check-text">Emergency</div>
+		<a class="dashboard__request-control-tag">
+			<i class="dashboard__request-control-tag-icon"></i><span class="dashboard__request-control-tag-text">Add a specific piece of equipment</span>
+		</a>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-checkbox-label">
+				<input type="checkbox" class="dashboard__request-control-checkbox-input" name="emergency" checked>
+				<div class="dashboard__request-control-checkbox-text">This is an emergency</div>
 			</label>
 		</fieldset>
-		<fieldset class="dashboard__form-fieldset">
-			<div class="dashboard__form-fieldset-split">
-				<label class="dashboard__form-label">Contact Name</label>
-				<input type="text" class="dashboard__form-field" placeholder="Donald Trump">
-			</div>
-			<div class="dashboard__form-fieldset-split">
-				<label class="dashboard__form-label">Contact Phone</label>
-				<input type="phone" class="dashboard__form-field" placeholder="( ) --- ----">
-			</div>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Additional notes?</label>
+			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
 		</fieldset>
-		<div class="dashboard__form-finalize"><input class="dashboard__form-button-submit" type="button" value="Submit">
+		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
 		</div>
 	</form>
-</section>
-			<section class="dashboard__aside-feedback is-masked">
-	<h3 class="dashboard__aside-feedback-title">Request Submitted</h3>
-	<p class="dashboard__aside-feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
-	<footer class="dashboard__aside-feedback-dismiss">
-		<button class="dashboard__aside-feedback-dismiss-trigger">Okay</button>
+	<section class="dashboard__feedback is-masked">
+	<h3 class="dashboard__feedback-title">Request Submitted</h3>
+	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
+	<footer class="dashboard__feedback-dismiss">
+		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
 	</footer>
+</section>
+</section>
+<section class="dashboard__request-control is-slid-right" id="is-repair">
+	<h2 class="dashboard__request-control-title repair"><b>Repair/Parts</b><i class="dashboard__request-control-dismiss"></i></h2>
+	<form class="dashboard__request-control-form">
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Facility</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Davenport</option>
+				<option value="2">Doral</option>
+				<option value="3">Gibson</option>
+				<option value="4">Higuera</option>
+				<option value="5">Hudson</option>
+				<option value="6">Isaac</option>
+				<option value="7">Pierre</option>
+				<option value="8">Quincy</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Suite</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">102</option>
+				<option value="2">107</option>
+				<option value="3">109</option>
+				<option value="4">123</option>
+				<option value="5">132</option>
+				<option value="6">135</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset is-masked" id="optional-equipment">
+			<label class="dashboard__request-control-label">Equipment</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Water Cooled Chiller</option>
+				<option value="2">Air Cooled Chiller</option>
+				<option value="3">Cooling Tower</option>
+				<option value="4">Air Handler</option>
+				<option value="5">Packaged Rooftop Unit</option>
+				<option value="6">Split System</option>
+				<option value="7">Vertical Self-Contained Unit</option>
+				<option value="8">Water Source Heat Pump</option>
+				<option value="9">Blower Coil/Fan Coil</option>
+				<option value="10">High Percentage Outdoor Air Unit</option>
+				<option value="11">Boiler</option>
+				<option value="12">Pump</option>
+				<option value="13">Heat Exchanger</option>
+				<option value="14">VAV Box</option>
+				<option value="15">VFD</option>
+				<option value="16">Actuator/Damper</option>
+				<option value="17">Control System</option>
+				<option value="18">Condensing Unit</option>
+				<option value="19">Energy Recovery Ventilation Unit</option>
+				<option value="20">Motor</option>
+			</select>
+		</fieldset>
+		<a class="dashboard__request-control-tag">
+			<i class="dashboard__request-control-tag-icon"></i><span class="dashboard__request-control-tag-text">Add a specific piece of equipment</span>
+		</a>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-upload">
+				<i class="dashboard__request-control-upload-icon"></i><span class="dashboard__request-control-upload-text">Attach service ticket(s)?</span>
+				<input type="file" class="vendor__invoice-upload-file" multiple="multiple">
+			</label>
+			<span class="dashboard__request-control-upload-filename is-hidden"><b>(3)</b> files uploaded</span>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Additional notes?</label>
+			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
+		</fieldset>
+		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
+		</div>
+	</form>
+	<section class="dashboard__feedback is-masked">
+	<h3 class="dashboard__feedback-title">Request Submitted</h3>
+	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
+	<footer class="dashboard__feedback-dismiss">
+		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
+	</footer>
+</section>
+</section>
+<section class="dashboard__request-control is-slid-right" id="is-pm">
+	<h2 class="dashboard__request-control-title pm"><b>Maintenance</b><i class="dashboard__request-control-dismiss"></i></h2>
+	<form class="dashboard__request-control-form">
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Facility</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Davenport</option>
+				<option value="2">Doral</option>
+				<option value="3">Gibson</option>
+				<option value="4">Higuera</option>
+				<option value="5">Hudson</option>
+				<option value="6">Isaac</option>
+				<option value="7">Pierre</option>
+				<option value="8">Quincy</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Additional notes?</label>
+			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
+		</fieldset>
+		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
+		</div>
+	</form>
+	<section class="dashboard__feedback is-masked">
+	<h3 class="dashboard__feedback-title">Request Submitted</h3>
+	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
+	<footer class="dashboard__feedback-dismiss">
+		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
+	</footer>
+</section>
+</section>
+<section class="dashboard__request-control is-slid-right" id="is-replacement">
+	<h2 class="dashboard__request-control-title replacement"><b>Replacement</b><i class="dashboard__request-control-dismiss"></i></h2>
+	<form class="dashboard__request-control-form">
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Facility</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Davenport</option>
+				<option value="2">Doral</option>
+				<option value="3">Gibson</option>
+				<option value="4">Higuera</option>
+				<option value="5">Hudson</option>
+				<option value="6">Isaac</option>
+				<option value="7">Pierre</option>
+				<option value="8">Quincy</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset-half">
+			<label class="dashboard__request-control-label">Suite</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">102</option>
+				<option value="2">107</option>
+				<option value="3">109</option>
+				<option value="4">123</option>
+				<option value="5">132</option>
+				<option value="6">135</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset is-optional is-masked">
+			<label class="dashboard__request-control-label">Equipment</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Water Cooled Chiller</option>
+				<option value="2">Air Cooled Chiller</option>
+				<option value="3">Cooling Tower</option>
+				<option value="4">Air Handler</option>
+				<option value="5">Packaged Rooftop Unit</option>
+				<option value="6">Split System</option>
+				<option value="7">Vertical Self-Contained Unit</option>
+				<option value="8">Water Source Heat Pump</option>
+				<option value="9">Blower Coil/Fan Coil</option>
+				<option value="10">High Percentage Outdoor Air Unit</option>
+				<option value="11">Boiler</option>
+				<option value="12">Pump</option>
+				<option value="13">Heat Exchanger</option>
+				<option value="14">VAV Box</option>
+				<option value="15">VFD</option>
+				<option value="16">Actuator/Damper</option>
+				<option value="17">Control System</option>
+				<option value="18">Condensing Unit</option>
+				<option value="19">Energy Recovery Ventilation Unit</option>
+				<option value="20">Motor</option>
+			</select>
+		</fieldset>
+		<a class="dashboard__request-control-tag">
+			<i class="dashboard__request-control-tag-icon"></i><span class="dashboard__request-control-tag-text">Add a specific piece of equipment</span>
+		</a>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-upload">
+				<i class="dashboard__request-control-upload-icon"></i><span class="dashboard__request-control-upload-text">Attach service ticket(s)?</span>
+				<input type="file" class="vendor__invoice-upload-file" multiple="multiple">
+			</label>
+			<span class="dashboard__request-control-upload-filename is-hidden"><b>(3)</b> files uploaded</span>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Additional notes?</label>
+			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
+		</fieldset>
+		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
+		</div>
+	</form>
+	<section class="dashboard__feedback is-masked">
+	<h3 class="dashboard__feedback-title">Request Submitted</h3>
+	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
+	<footer class="dashboard__feedback-dismiss">
+		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
+	</footer>
+</section>
+</section>
+<section class="dashboard__request-control is-slid-right" id="is-lease">
+	<h2 class="dashboard__request-control-title lease"><b>Tenant Move Out</b><i class="dashboard__request-control-dismiss"></i></h2>
+	<form class="dashboard__request-control-form">
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Facility</label>
+			<select class="dashboard__request-control-select-drop">
+				<option value=""></option>
+				<option value="1">Davenport</option>
+				<option value="2">Doral</option>
+				<option value="3">Gibson</option>
+				<option value="4">Higuera</option>
+				<option value="5">Hudson</option>
+				<option value="6">Isaac</option>
+				<option value="7">Pierre</option>
+				<option value="8">Quincy</option>
+			</select>
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Date Due</label>
+			<input class="dashboard__request-control-input" id="datepicker" />
+		</fieldset>
+		<fieldset class="dashboard__request-control-fieldset">
+			<label class="dashboard__request-control-label">Additional notes?</label>
+			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
+		</fieldset>
+		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
+		</div>
+	</form>
+	<section class="dashboard__feedback is-masked">
+	<h3 class="dashboard__feedback-title">Request Submitted</h3>
+	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
+	<footer class="dashboard__feedback-dismiss">
+		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
+	</footer>
+</section>
 </section>
 		</section>
 	</main>

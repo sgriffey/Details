@@ -15,6 +15,45 @@ $(document).ready(function() {
             $(".rfq__scan-body").addClass("scan-expanded");
             $(".rfq__scan-expand").addClass("is-hidden");
     });
+    //Request Control Add Files
+    $(".dashboard__request-control-upload").change(function(){
+        $(this).next().removeClass("is-hidden");
+    });
+    //Request Control Add Equipment
+    $(".dashboard__request-control-tag").click(function(){
+        $(this).prev().toggleClass("is-masked");
+        $(this).closest(".dashboard__request-control-tag").toggleClass("is-masked");
+    });
+    //Request Control: Input Submitted
+    $(".dashboard__request-control-button-submit").click(function(){
+        $(".dashboard__feedback").toggleClass("is-masked");
+        $(".dashboard__feedback").toggleClass("animated fadeIn");
+    });
+    $(".dashboard__feedback-dismiss-trigger").click(function(){
+        $(this).closest(".dashboard__request-control").addClass("is-slid-right");
+        $(".dashboard__feedback").toggleClass("is-masked");
+        $(".dashboard__feedback").toggleClass("animated fadeIn");
+    }); 
+    //Dismiss Request Control
+    $(".dashboard__request-control-dismiss").click(function(){
+        $(this).closest(".dashboard__request-control").toggleClass("is-slid-right");
+    });
+    // Dashboard Control Request
+    $(".is-service").click(function(){
+        $("#is-service").toggleClass("is-slid-right");
+    });
+    $(".is-repair").click(function(){
+        $("#is-repair").toggleClass("is-slid-right");
+    });
+    $(".is-pm").click(function(){
+        $("#is-pm").toggleClass("is-slid-right");
+    });
+    $(".is-replacement").click(function(){
+        $("#is-replacement").toggleClass("is-slid-right");
+    });
+    $(".is-lease").click(function(){
+        $("#is-lease").toggleClass("is-slid-right");
+    });
     // RFQ Vendor Invite Deny
     $(".rfq__invite-deny").click(function(){
         $(".rfq__invite").toggleClass("is-masked");
