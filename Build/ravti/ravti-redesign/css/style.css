@@ -779,7 +779,8 @@ hr {
 .siteNav__proposals-popover-item-time,
 .siteNav__invoices-popover-item-facility,
 .siteNav__invoices-popover-item-reference,
-.siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__index-grid-tiles-onboard, .dashboard__request-title, .dashboard__request-control-title, .dashboard__request-control-fieldset,
+.siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__index-grid-tiles-onboard, .dashboard__request-title,
+.dashboard__request-control-title, .dashboard__request-control-fieldset,
 .dashboard__request-control-fieldset-half, .dashboard__request-control-upload, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__po-entity-address, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__request-form-fieldset, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-save,
@@ -1021,7 +1022,7 @@ hr {
 .siteNav__proposals-popover-item-facility,
 .siteNav__invoices-popover-item-facility, .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-time,
-.siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .repair__bid-th,
+.siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .is-optional span, .repair__bid-th,
 .repair__bid-td, .project__po-entity-label, .project__po-bill-metadata, .overlay__confirm-bid-metadata, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition, .vendor-dash__card-copy, .job__po-entity-label, .job__po-bill-metadata {
@@ -1032,14 +1033,16 @@ hr {
 .vendor__info-submission-title, .job__abstract-job,
 .job__recap-job, .job__bid-submission-title,
 .job__invoice-submission-title,
-.job__info-submission-title, .job__invoice-upload, .rfq__bid-upload, .vendor__bid-upload, .job__bid-upload, .vendor__invoice-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .vendor__info-upload, .job__info-upload, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .dashboard__request-control-title, .overlay__request-form-title, .billing__title,
+.job__info-submission-title, .job__invoice-upload, .rfq__bid-upload, .vendor__bid-upload, .job__bid-upload, .vendor__invoice-upload, .overlay__confirm-input-file-button, .facility__unit-history-add-info-attach, .vendor__info-upload, .job__info-upload, .facility__suite-upload-lease-button, .facility__suite-upload-service-button, .onboard-dashboard__index-title, .dashboard__index-title, .overlay__request-form-title, .billing__title,
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .facility__unit-history-index-blank h2, .vendor__queue-body .is-blank-info h2,
 .vendor__lineup-body .is-blank-info h2, .vendor__queue-body .is-blank-pricing h2,
 .vendor__lineup-body .is-blank-pricing h2, .vendor__queue-body .is-blank-scheduling h2,
 .vendor__lineup-body .is-blank-scheduling h2, .siteNav__invoices-popover-list-blank h2, .vendor__queue-body .is-blank-invoicing h2,
 .vendor__lineup-body .is-blank-invoicing h2, .facility__unit-score-sheet-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .onboard__header, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
 .onboard-facility__aside-summary-cta, .siteNav,
-.siteNav-guest, .dashboard__index-grid-tile-hint b, .dashboard__request-title, .dashboard__request-option span, .dashboard__feedback-title, .dashboard__request-control-title b, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.siteNav-guest, .dashboard__index-grid-tile-hint b, .dashboard__request-title,
+.dashboard__request-control-title, .dashboard__request-title b,
+.dashboard__request-control-title b, .dashboard__request-option span, .dashboard__feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
 .facility__duty-bucket, .facility__activity-prevent-copy, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
 .facility__suites-paginate-prev,
 .facility__suites-paginate-page,
@@ -1465,7 +1468,7 @@ hr {
 .overlay, .overlay-equipment, .overlay__confirm-wrapper, .overlay__request-wrapper, .overlay__onboard-wrapper, .overlay__inspections-wrapper {
   background: rgba(255, 255, 255, 0.97); }
 
-.onboard-dashboard__index-title, .dashboard__index-title, .dashboard__request-control-title, .overlay__request-form-title, .billing__title,
+.onboard-dashboard__index-title, .dashboard__index-title, .overlay__request-form-title, .billing__title,
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title {
   font-size: 23.04px;
   font-size: 1.44rem;
@@ -1573,7 +1576,7 @@ hr {
 .siteNav__proposals-popover-item-time,
 .siteNav__invoices-popover-item-facility,
 .siteNav__invoices-popover-item-reference,
-.siteNav__invoices-popover-item-time, .dashboard__index-grid-tile-title, .dashboard__index-grid-tile-location, .dashboard__request-control-select-drop option, .facility__unit-request-form,
+.siteNav__invoices-popover-item-time, .dashboard__index-grid-tile-title, .dashboard__index-grid-tile-location, .dashboard__request-control-select-drop, .dashboard__request-control-select-drop option, .facility__unit-request-form,
 .facility__unit-request-form-fieldset,
 .facility__unit-request-form-legend,
 .facility__unit-request-form-label,
@@ -10777,15 +10780,24 @@ dd {
 .dashboard__request-panel {
   padding: 0; }
 
-.dashboard__request-title {
-  text-align: center;
+.dashboard__request-title,
+.dashboard__request-control-title {
   font-size: 23.04px;
   font-size: 1.44rem;
-  line-height: 1.94444;
-  margin-top: 11.2px;
-  margin-top: 0.7rem;
-  margin-bottom: 22.4px;
-  margin-bottom: 1.4rem; }
+  padding: 22.4px;
+  padding: 1.4rem;
+  text-align: center;
+  position: relative; }
+  .dashboard__request-title b,
+  .dashboard__request-control-title b {
+    background: #092f3e;
+    color: white;
+    padding: 4px;
+    padding: 0.25rem;
+    padding-left: 11.2px;
+    padding-left: 0.7rem;
+    padding-right: 11.2px;
+    padding-right: 0.7rem; }
 
 .dashboard__request-options {
   border-top: 2px solid #e3e5ea;
@@ -10826,12 +10838,7 @@ dd {
     background: url(../assets/tenant-move-out-badge.svg); }
 
 .dashboard__request-control-title {
-  font-size: 23.04px;
-  font-size: 1.44rem;
-  padding: 22.4px;
-  padding: 1.4rem;
-  text-align: center;
-  position: relative; }
+  border-bottom: 1px solid rgba(9, 47, 62, 0.2); }
 
 .dashboard__request-control-dismiss {
   content: '';
@@ -10852,24 +10859,19 @@ dd {
     cursor: pointer; }
 
 .service {
-  background: #ff8a55;
-  border-bottom: 1px solid rgba(9, 47, 62, 0.2); }
+  background: #ff8a55; }
 
 .repair {
-  background: #F35B5B;
-  border-bottom: 1px solid rgba(9, 47, 62, 0.2); }
+  background: #f35b5b; }
 
 .pm {
-  background: #58a1ed;
-  border-bottom: 1px solid rgba(9, 47, 62, 0.2); }
+  background: #58a1ed; }
 
 .lease {
-  background: #6FC99D;
-  border-bottom: 1px solid rgba(9, 47, 62, 0.2); }
+  background: #6fc99d; }
 
 .replacement {
-  background: #a0b1ff;
-  border-bottom: 1px solid rgba(9, 47, 62, 0.2); }
+  background: #a0b1ff; }
 
 .dashboard__request-control-form {
   padding: 22.4px;
@@ -11002,21 +11004,19 @@ dd {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
-.dashboard__request-control-title b {
-  background: #092f3e;
-  color: white;
-  padding: 4px;
-  padding: 0.25rem;
-  padding-left: 11.2px;
-  padding-left: 0.7rem;
-  padding-right: 11.2px;
-  padding-right: 0.7rem; }
-
 .dashboard__request-control-legend {
   margin-bottom: 0; }
 
 .dashboard__request-control-select-drop {
   -moz-appearance: none; }
+
+.is-optional {
+  position: relative; }
+  .is-optional span {
+    position: absolute;
+    right: 0;
+    text-transform: none;
+    color: #45b19b; }
 
 .dashboard__request-control-check-label {
   -webkit-border-radius: 2px;
