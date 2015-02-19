@@ -54,6 +54,72 @@ $(document).ready(function() {
     $(".is-lease").click(function(){
         $("#is-lease").toggleClass("is-slid-right");
     });
+    // Mobile Request Work Buckets
+    $("#mobile-replacement").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".is-mobile-replacement").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".is-mobile-replacement").offset().top
+        }, 500);
+    });
+    $("#mobile-repair").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".is-mobile-repair").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".is-mobile-repair").offset().top
+        }, 500);
+    });
+    $("#mobile-service").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".is-mobile-service").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".is-mobile-service").offset().top
+        }, 500);
+    });
+    $("#mobile-pm").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".is-mobile-pm").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".is-mobile-pm").offset().top
+        }, 500);
+    });
+    $("#mobile-lease").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(".is-mobile-lease").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".is-mobile-lease").offset().top
+        }, 500);
+    });
+    // Mobile Request Work Task Completion Methods
+    $(".overlay__mobile-request-button-cancel, .overlay__mobile-request-dismiss").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
+        $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $(".mobileNav").offset().top
+        }, 300);
+    });
+    $(".overlay__mobile-request-button-submit").click(function(){
+        $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
+        $("#mobile-request-feedback").toggleClass("is-masked");
+        $('html, body').animate({
+            scrollTop: $("#mobile-request-feedback").offset().top
+        }, 500);
+        $("#mobile-request-feedback").toggleClass("animated fadeIn");
+    });
+    $(".overlay__mobile-request-feedback-button").click(function(){
+        $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
+        $("#mobile-request-feedback").toggleClass("animated fadeIn");
+        $('html, body').animate({scrollTop: $(".mobileNav").offset().top}, 300);
+    });
+    // Mobile Request Work Equipment Add
+    $(".overlay__mobile-request-tag").click(function(){
+        $(this).prev().toggleClass("is-masked");
+        $(this).closest(".overlay__mobile-request-tag").toggleClass("is-masked");
+    });
+    // Mobile Request Work File Upload
+    $(".overlay__mobile-request-upload").change(function(){
+        $(this).next().removeClass("is-hidden");
+    });
     // RFQ Vendor Invite Deny
     $(".rfq__invite-deny").click(function(){
         $(".rfq__invite").toggleClass("is-masked");
@@ -202,38 +268,6 @@ $(document).ready(function() {
         $(".facility__unit-history-add-info").toggleClass("is-masked");
         $(".facility__unit-history-add-event").toggleClass("is-emphasized-post-click");
         $(".facility__unit-history-add-event").toggleClass("is-emphasized-on-hover");
-    });
-    // Request Work Mobile
-    $(".dashboard__mobile-request-card").click(function(){
-        $(".dashboard").toggleClass("is-overlaid");
-        $(".overlay__request-wrapper").toggleClass("is-masked");
-        $('html, body').animate({
-            scrollTop: $("#overlay-request").offset().top
-        }, 500);
-    });
-    $(".overlay__request-form-button-cancel").click(function(){
-        $(".dashboard").toggleClass("is-overlaid");
-        $(".overlay__request-wrapper").toggleClass("is-masked");
-        $('html, body').animate({
-            scrollTop: $(".mobileNav").offset().top
-        }, 300);
-    });
-    $(".overlay__request-form-button-submit").click(function(){
-        $(".overlay__request-form").toggleClass("is-masked");
-        $(".overlay__request-feedback").toggleClass("is-masked");
-        $('html, body').animate({
-                scrollTop: $("#overlay-request").offset().top
-        }, 300);
-        $(".overlay__request-feedback").toggleClass("animated zoomIn");
-    });
-    $(".overlay__request-feedback-dismiss-trigger").click(function(){
-        $(".dashboard").toggleClass("is-overlaid");
-        $(".overlay__request-form").toggleClass("is-masked");
-        $(".overlay__request-feedback").toggleClass("is-masked");
-        $(".overlay__request-wrapper").toggleClass("is-masked");
-        $('html, body').animate({
-            scrollTop: $(".mobileNav").offset().top
-        }, 300);
     });
     //Toggle Subnav for PM
     $(".facility__pm-subnav-equipment").click(function(){
