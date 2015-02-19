@@ -2641,6 +2641,12 @@ hr {
     [disabled="true"].account__details-company-input:focus, [disabled="true"].facility__unit-request-form-field:focus, [disabled="true"].facility__unit-history-add-mobile-date:focus,
     [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].facility__suite-lease-form-input:focus, [disabled="true"].rfq__bid-field:focus, [disabled="true"].job__schedule-input:focus, [disabled="true"].job__schedule-date:focus {
       border-color: #c7cacd; }
+  [type="date"].proposal__procure-services-qa-textarea, [type="date"].project__qa-chat-textarea, [type="date"].rfq__qa-textarea, [type="date"].job__qa-textarea, [type="date"].form__input-field-bleed, [type="date"].form__input-field, [type="date"].overlay__mobile-request-input, [type="date"].dashboard__request-control-input, [type="date"].dashboard__request-control-field, [type="date"].proposal__form-field, [type="date"].overlay__confirm-form-field, [type="date"].overlay__request-form-field, [type="date"].account__details-personal-input,
+  [type="date"].account__details-company-input, [type="date"].facility__unit-request-form-field, [type="date"].facility__unit-history-add-mobile-date,
+  [type="date"].facility__unit-history-add-info-date, [type="date"].facility__unit-history-add-info-textarea, [type="date"].facility__suite-lease-form-input, [type="date"].rfq__bid-field, [type="date"].job__schedule-input, [type="date"].job__schedule-date {
+    background: white;
+    min-height: 35px;
+    min-height: 2.1875rem; }
   .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .job__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .overlay__mobile-request-input::-webkit-input-placeholder, .dashboard__request-control-input::-webkit-input-placeholder, .dashboard__request-control-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__request-form-field::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
   .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
   .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .job__schedule-input::-webkit-input-placeholder, .job__schedule-date::-webkit-input-placeholder {
@@ -3788,6 +3794,7 @@ hr {
 
 .overlay__mobile-request-fieldset,
 .overlay__mobile-request-label,
+.overlay__mobile-request-input,
 .overlay__mobile-request-upload-file,
 .overlay__mobile-request-select,
 .overlay__mobile-request-textarea,
@@ -3802,6 +3809,7 @@ hr {
   margin-right: 0; }
   .overlay__mobile-request-fieldset:last-child,
   .overlay__mobile-request-label:last-child,
+  .overlay__mobile-request-input:last-child,
   .overlay__mobile-request-upload-file:last-child,
   .overlay__mobile-request-select:last-child,
   .overlay__mobile-request-textarea:last-child,
