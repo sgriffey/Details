@@ -107,6 +107,7 @@ $(document).ready(function() {
         $("#mobile-request-feedback").toggleClass("animated fadeIn");
     });
     $(".overlay__mobile-request-feedback-button").click(function(){
+        $(".dashboard").toggleClass("is-overlaid");
         $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
         $("#mobile-request-feedback").toggleClass("animated fadeIn");
         $('html, body').animate({scrollTop: $(".mobileNav").offset().top}, 300);
