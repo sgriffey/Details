@@ -93,13 +93,13 @@ $(document).ready(function() {
     // Mobile Request Work Task Completion Methods
     $(".overlay__mobile-request-button-cancel, .overlay__mobile-request-dismiss").click(function(){
         $(".dashboard").toggleClass("is-overlaid");
-        $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
+        $(this).closest(".overlay__mobile-request-wrapper").toggleClass("is-masked");
         $('html, body').animate({
             scrollTop: $(".mobileNav").offset().top
         }, 300);
     });
     $(".overlay__mobile-request-button-submit").click(function(){
-        $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
+        $(this).closest(".overlay__mobile-request-wrapper").toggleClass("is-masked");
         $("#mobile-request-feedback").toggleClass("is-masked");
         $('html, body').animate({
             scrollTop: $("#mobile-request-feedback").offset().top
@@ -108,7 +108,7 @@ $(document).ready(function() {
     });
     $(".overlay__mobile-request-feedback-button").click(function(){
         $(".dashboard").toggleClass("is-overlaid");
-        $(this).closest(".overlay__request-wrapper").toggleClass("is-masked");
+        $(this).closest(".overlay__mobile-request-wrapper").toggleClass("is-masked");
         $("#mobile-request-feedback").toggleClass("animated fadeIn");
         $('html, body').animate({scrollTop: $(".mobileNav").offset().top}, 300);
     });
