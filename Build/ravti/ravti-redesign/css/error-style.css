@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #FAFAFB; }
+
+body {
+  margin: 0;
+  font-family: "jaf-bernino-sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  position: relative; }
+
+.logo {
+  position: absolute;
+  bottom: 5%;
+  max-width: 48px;
+  margin-left: -24px;
+  left: 50%; }
+
+.error {
+  top: 10%;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 280px;
+  max-width: 17.5rem;
+  min-height: 280px;
+  position: relative; }
+
+.error-value p {
+  color: #000;
+  font-size: 32px;
+  font-family: "futura-pt";
+  font-weight: 800; }
+
+.error-title {
+  font-family: "futura-pt";
+  margin: 20px 0 10px;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.33px; }
+
+.error-copy {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.33px;
+  color: #000;
+  text-align: left; }
+  .error-copy:first-of-type {
+    margin-top: 10px; }
+
+.error-copy-link {
+  text-decoration: none;
+  border-bottom: 1px solid #66C3B0;
+  color: #000; }
+  .error-copy-link:hover {
+    border-color: #000; }
+
+@keyframes fan-turn {
+  0% {
+    transform: rotate(0deg); }
+
+  100% {
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes fan-turn {
+  0% {
+    transform: rotate(0deg); }
+
+  12% {
+    transform: rotate(10deg); }
+
+  100% {
+    transform: rotate(360deg); } }
+
+.error-illustration {
+  height: 148px;
+  width: 148px;
+  position: relative;
+  margin: 0 auto; }
+
+.error-illustration-fan,
+.error-illustration-spokes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 148px;
+  width: 148px; }
+
+.error-illustration-fan {
+  animation-name: fan-turn;
+  -webkit-animation-name: fan-turn;
+  animation-duration: 1.6s;
+  -webkit-animation-duration: 1.2s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: backwards; }
