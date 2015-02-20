@@ -22,8 +22,9 @@
 }
 
 .timeline__period-topic {
-	font-size: $epsilon;
-	border-top: 2px solid rgba(0,0,0,.1);
+	@include font-size($delta);
+	line-height: 1.2;
+	border-top: 2px solid $signature-grey;
 	padding-top: $base-spacing-unit;
 	margin-bottom: 0;
 	letter-spacing: -0.5px;
@@ -34,22 +35,32 @@
 	font-family: serif;
 	font-size: $milli;
 	letter-spacing: -0.3px;
+
+	b {
+		font-style: normal;
+		font-weight: bold;
+	}
 }
 
-.timline__period-list {
+.timeline__period-list {
 	@extend %hard-reset;
 	padding-top: $base-spacing-unit;
 
 	dd {
 		@extend %hard-reset;
 		margin-bottom: $half-spacing-unit;
-		color: $teal;
+		color: $base;
 		font-weight: bold;
+		font-family: $futura;
 
 		a:hover {
-			color: $base;
+			color: $teal;
 		}
 	}
+}
+
+.timeline__period-video {
+	margin-top: $base-spacing-unit;
 }
 
 .timeline__image {

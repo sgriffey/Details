@@ -634,7 +634,7 @@ i {
     color: #66c3b0;
     border-bottom: 1px solid #66c3b0; }
 
-.timline__period-list, .timline__period-list dd, .masthead__pages-list, .interest__form-field-label,
+.timeline__period-list, .timeline__period-list dd, .masthead__pages-list, .interest__form-field-label,
 .interest__form-field-text, .footer__pages-list, .footer__law-list, .banner__pages-list, .request__form-field-label,
 .request__form-field-input, .capture__form-field-label,
 .capture__form-field-input, .text__list, .invite__form-field-label,
@@ -770,13 +770,15 @@ h1, h2, h3, h4, h5, h6, label {
   .timeline__period-date:last-child {
     margin-right: 0; }
 
-.timline__period-list {
+.timeline__period-list,
+.timeline__period-video {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .timline__period-list:last-child {
+  .timeline__period-list:last-child,
+  .timeline__period-video:last-child {
     margin-right: 0; }
 
 .timeline__image {
@@ -1955,8 +1957,11 @@ h1, h2, h3, h4, h5, h6, label {
   letter-spacing: -0.5px; }
 
 .timeline__period-topic {
-  font-size: 19.2px;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  font-size: 23.04px;
+  font-size: 1.44rem;
+  line-height: 1.94444;
+  line-height: 1.2;
+  border-top: 2px solid #d2d2d5;
   padding-top: 22.4px;
   margin-bottom: 0;
   letter-spacing: -0.5px; }
@@ -1966,15 +1971,22 @@ h1, h2, h3, h4, h5, h6, label {
   font-family: serif;
   font-size: 13.33333px;
   letter-spacing: -0.3px; }
-
-.timline__period-list {
-  padding-top: 22.4px; }
-  .timline__period-list dd {
-    margin-bottom: 11.2px;
-    color: #66c3b0;
+  .timeline__period-date b {
+    font-style: normal;
     font-weight: bold; }
-    .timline__period-list dd a:hover {
-      color: #0b0c0c; }
+
+.timeline__period-list {
+  padding-top: 22.4px; }
+  .timeline__period-list dd {
+    margin-bottom: 11.2px;
+    color: #0b0c0c;
+    font-weight: bold;
+    font-family: "futura-pt", sans-serif; }
+    .timeline__period-list dd a:hover {
+      color: #66c3b0; }
+
+.timeline__period-video {
+  margin-top: 22.4px; }
 
 .timeline__image {
   padding: 22.4px;

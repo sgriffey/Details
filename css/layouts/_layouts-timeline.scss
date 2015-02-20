@@ -22,7 +22,8 @@
 	@include omega();
 }
 
-.timline__period-list {
+.timeline__period-list,
+.timeline__period-video {
 	@include span-columns(12);
 	@include omega();
 }
@@ -31,3 +32,5 @@
 	@include span-columns(12);
 	@include omega();
 }
+
+
