@@ -67,9 +67,6 @@ body {
   0% {
     transform: rotate(0deg); }
 
-  12% {
-    transform: rotate(10deg); }
-
   100% {
     transform: rotate(360deg); } }
 
@@ -88,13 +85,23 @@ body {
   width: 148px; }
 
 .error-illustration-fan {
-  animation-name: fan-turn;
   -webkit-animation-name: fan-turn;
-  animation-duration: 1.6s;
-  -webkit-animation-duration: 1.2s;
+  -moz-animation-name: fan-turn;
+  -o-animation-name: fan-turn;
+  animation-name: fan-turn;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: backwards; }
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
