@@ -56,14 +56,34 @@ body {
   .error-copy-link:hover {
     border-color: #000; }
 
-@keyframes fan-turn {
+@-webkit-keyframes fan-turn {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
-@-webkit-keyframes fan-turn {
+@-moz-keyframes fan-turn {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes fan-turn {
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes fan-turn {
   0% {
     transform: rotate(0deg); }
 
