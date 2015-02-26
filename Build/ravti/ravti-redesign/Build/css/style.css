@@ -10878,6 +10878,16 @@ dd {
 
 .dashboard__request-control {
   padding: 0; }
+  .dashboard__request-control .service {
+    background: #ff8a55; }
+  .dashboard__request-control .repair {
+    background: #f35b5b; }
+  .dashboard__request-control .pm {
+    background: #58a1ed; }
+  .dashboard__request-control .lease {
+    background: #6fc99d; }
+  .dashboard__request-control .replacement {
+    background: #a0b1ff; }
 
 .dashboard__aside-request,
 .dashboard__request-panel,
@@ -10985,21 +10995,6 @@ dd {
   background: url(../../assets/dismiss-trigger.svg) center center no-repeat; }
   .dashboard__request-control-dismiss:hover {
     cursor: pointer; }
-
-.service {
-  background: #ff8a55; }
-
-.repair {
-  background: #f35b5b; }
-
-.pm {
-  background: #58a1ed; }
-
-.lease {
-  background: #6fc99d; }
-
-.replacement {
-  background: #a0b1ff; }
 
 .dashboard__request-control-form {
   padding: 22.4px;
