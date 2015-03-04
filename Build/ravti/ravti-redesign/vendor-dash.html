@@ -23,39 +23,42 @@
 </head>
 <body>
 	<nav class="siteNav">
-		<a class='current' href="vendor-dash.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
-		<h2 class="siteNav__page-title">Dashboard</h2>
-		<section class="siteNav__control">
-			<div class="siteNav__account">
-				<span class="siteNav__account-username">Melissa</span>
-				<img class="siteNav__account-image" src="assets/users_debon-air.png"/>
-			</div>
-		</section>
-		<div class="accountNav__bucket is-masked">
-			<h1 class="accountNav__bucket-title">Account Settings</h1>
+	<a class='current' href="vendor-dash.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+	<h2 class="siteNav__page-title">Dashboard</h2>
+	<section class="siteNav__control">
+		<nav class="siteNav__alerts">
+			<a class="siteNav__alert-jobs" href="vendor/job-index.html">View All Jobs</a>
+		</nav>
+		<div class="siteNav__account">
+			<span class="siteNav__account-username">Melissa</span>
+			<img class="siteNav__account-image" src="assets/users_debon-air.png"/>
 		</div>
-		<div class="accountNav__settings is-masked">
-			<span class="accountNav__toggle-label">Exit</span>
-			<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
-		</div>
-	</nav>
+	</section>
+	<div class="accountNav__bucket is-masked">
+		<h1 class="accountNav__bucket-title">Account Settings</h1>
+	</div>
+	<div class="accountNav__settings is-masked">
+		<span class="accountNav__toggle-label">Exit</span>
+		<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
+	</div>
+</nav>
 	
 	<main class="page__wrapper">
 		<section class="vendor-dash__grid">
 			<a class="vendor-dash__card" href="vendor/pricing.html">
-				<h2 class="vendor-dash__card-title">Submit Pricing</h2>
+				<h2 class="vendor-dash__card-title is-pricing">Submit Pricing</h2>
 				<p class="vendor-dash__card-copy">Manage RFQ's and proposal bids.</p>
 			</a>
 			<a class="vendor-dash__card" href="vendor/scheduling.html">
-				<h2 class="vendor-dash__card-title">Schedule Job</h2>
+				<h2 class="vendor-dash__card-title is-scheduling">Schedule Job</h2>
 				<p class="vendor-dash__card-copy">Dispatching that requires calendaring.</p>
 			</a>
 			<a class="vendor-dash__card" href="vendor/reporting.html">
-				<h2 class="vendor-dash__card-title">Upload Job Info</h2>
+				<h2 class="vendor-dash__card-title is-reporting">Upload Job Info</h2>
 				<p class="vendor-dash__card-copy">Manage Service tickets, Maintenance reports, etc.</p>
 			</a>
 			<a class="vendor-dash__card" href="vendor/invoices.html">
-				<h2 class="vendor-dash__card-title">Attach Invoice</h2>
+				<h2 class="vendor-dash__card-title is-invoicing">Attach Invoice</h2>
 				<p class="vendor-dash__card-copy">View purchase orders and manage invoicing.</p>
 			</a>
 		</section>
