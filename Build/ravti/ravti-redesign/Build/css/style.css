@@ -15699,7 +15699,7 @@ dd {
   min-height: 160px;
   min-height: 10rem;
   display: inline-block; }
-  .vendor-dash__card:hover, .vendor-dash__card:focus, .vendor-dash__card:active {
+  .vendor-dash__card:hover, .vendor-dash__card:focus {
     border-color: #c7cacd;
     -webkit-box-shadow: inset 0 -2px 0 #c7cacd;
     -ms-box-shadow: inset 0 -2px 0 #c7cacd;
@@ -15707,6 +15707,9 @@ dd {
     -o-box-shadow: inset 0 -2px 0 #c7cacd;
     box-shadow: inset 0 -2px 0 #c7cacd;
     cursor: pointer; }
+  .vendor-dash__card:focus, .vendor-dash__card:active {
+    outline: none;
+    outline: none; }
   .vendor-dash__card .is-pricing:before {
     background: url(../../assets/vendor-dash-pricing.svg) center center no-repeat; }
   .vendor-dash__card .is-scheduling:before {
@@ -16185,6 +16188,9 @@ dd {
   .vendor__queue-tr .is-service:before,
   .vendor__lineup-tr .is-service:before {
     background: url(../../assets/service.svg) no-repeat center center; }
+
+.vendor__index-td:nth-child(2) {
+  font-style: italic; }
 
 .vendor__index-thead .not-interactive,
 .vendor__queue-thead .not-interactive,
