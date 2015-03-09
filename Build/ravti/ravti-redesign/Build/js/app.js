@@ -15,6 +15,10 @@ $(document).ready(function() {
             $(".rfq__scan-body").addClass("scan-expanded");
             $(".rfq__scan-expand").addClass("is-hidden");
     });
+    // Vendor Signup Confirm
+    $(".vendor__signup-finalize-button").click(function(){
+            $(".vendor__signup, .vendor__registered").toggleClass("is-masked");
+    });
     //Request Control Add Files
     $(".dashboard__request-control-upload").change(function(){
         $(this).next().removeClass("is-hidden");

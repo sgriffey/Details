@@ -788,7 +788,8 @@ hr {
 .facility__unit-history-add-info-cancel, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-info-list,
 .facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .facility__pm-timeline-list, .facility__pm-equipment-specs, .facility__pm-equipment-inspections, .facility__pm-tenant-list, .rfq__scan-list, .rfq__zoom-list,
-.rfq__zoom-list-dual, .rfq__bid-fieldset, .rfq__bid-options-details, .rfq__equipment-unit-spec-list, .rfq__qa, .rfq__dismiss-fieldset, .vendor__signup-copy, .vendor__signup-feedback, .vendor__bid-fieldset,
+.rfq__zoom-list-dual, .rfq__bid-fieldset, .rfq__bid-options-details, .rfq__equipment-unit-spec-list, .rfq__qa, .rfq__dismiss-fieldset, .vendor__registered-copy,
+.vendor__signup-copy, .vendor__signup-feedback, .vendor__bid-fieldset,
 .vendor__invoice-fieldset,
 .vendor__info-fieldset, .vendor__bid-submission-title,
 .vendor__invoice-submission-title,
@@ -1060,7 +1061,8 @@ hr {
 .facility__suites-paginate-last, .facility__suite-tally-total, .facility__pm-upcoming-date, .facility__pm-upcoming-vendor-title, .facility__pm-timeline-event-type, .facility__pm-equipment-parent-suite,
 .facility__pm-equipment-parent-tenant, .facility__pm-equipment-full-view, .rfq__scan-expand, .rfq__zoom-item a:after, .rfq__invite-prompt,
 .rfq__dismiss-prompt, .rfq__invite-scope b,
-.rfq__invite-location b, .rfq__invite-th, .vendor__signup-header, .vendor__bid-history-pending-title,
+.rfq__invite-location b, .rfq__invite-th, .vendor__registered-header,
+.vendor__signup-header, .vendor__bid-history-pending-title,
 .vendor__invoice-history-pending-title,
 .vendor__info-history-pending-title, .job__scan-expand, .job__zoom-item a:after, .job__status-banner-headline, .job__po-bill-id, .job__po-bill-id b, .job__schedule-banner-headline, .job__banner-headline, .job__timeline-event-step {
   font-family: "futura-pt", sans-serif;
@@ -8326,28 +8328,35 @@ hr {
   .rfq__invite-td:nth-child(3n+1) {
     clear: left; }
 
-.vendor__signup {
+.vendor__signup,
+.vendor__registered {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .vendor__signup:last-child {
+  .vendor__signup:last-child,
+  .vendor__registered:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .vendor__signup {
+    .vendor__signup,
+    .vendor__registered {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
       margin-left: 25.58941%;
       margin-right: 0; }
-      .vendor__signup:last-child {
+      .vendor__signup:last-child,
+      .vendor__registered:last-child {
         margin-right: 0; } }
 
 .vendor__signup-logo,
 .vendor__signup-header,
 .vendor__signup-copy,
+.vendor__registered-logo,
+.vendor__registered-header,
+.vendor__registered-copy,
 .vendor__signup-form,
 .vendor__signup-fieldset,
 .vendor__signup-finalize,
@@ -8362,6 +8371,9 @@ hr {
   .vendor__signup-logo:last-child,
   .vendor__signup-header:last-child,
   .vendor__signup-copy:last-child,
+  .vendor__registered-logo:last-child,
+  .vendor__registered-header:last-child,
+  .vendor__registered-copy:last-child,
   .vendor__signup-form:last-child,
   .vendor__signup-fieldset:last-child,
   .vendor__signup-finalize:last-child,
@@ -8373,6 +8385,9 @@ hr {
     .vendor__signup-logo,
     .vendor__signup-header,
     .vendor__signup-copy,
+    .vendor__registered-logo,
+    .vendor__registered-header,
+    .vendor__registered-copy,
     .vendor__signup-form,
     .vendor__signup-fieldset,
     .vendor__signup-finalize,
@@ -8387,6 +8402,9 @@ hr {
       .vendor__signup-logo:last-child,
       .vendor__signup-header:last-child,
       .vendor__signup-copy:last-child,
+      .vendor__registered-logo:last-child,
+      .vendor__registered-header:last-child,
+      .vendor__registered-copy:last-child,
       .vendor__signup-form:last-child,
       .vendor__signup-fieldset:last-child,
       .vendor__signup-finalize:last-child,
@@ -15649,9 +15667,11 @@ dd {
   padding-left: 2.125rem;
   line-height: 1.6; }
 
-.vendor__signup-logo {
+.vendor__signup-logo,
+.vendor__registered-logo {
   text-align: center; }
-  .vendor__signup-logo:before {
+  .vendor__signup-logo:before,
+  .vendor__registered-logo:before {
     content: '';
     display: block;
     height: 46px;
@@ -15661,6 +15681,7 @@ dd {
     margin: 0 auto;
     background: url(../assets/ravti-logo-black.svg) center center no-repeat; }
 
+.vendor__registered-header,
 .vendor__signup-header {
   text-align: center;
   font-size: 23.04px;
@@ -15668,13 +15689,30 @@ dd {
   line-height: 1.1;
   margin: 0; }
   @media screen and (min-width: 46.8em) {
+    .vendor__registered-header,
     .vendor__signup-header {
       font-size: 33.1776px;
       font-size: 2.0736rem; } }
 
+.vendor__registered-header:before {
+  content: '';
+  display: block;
+  background: url(../assets/checkmark.svg) center center no-repeat;
+  margin: 0 auto;
+  margin-bottom: 11.2px;
+  margin-bottom: 0.7rem;
+  height: 44px;
+  height: 2.75rem;
+  width: 44px;
+  width: 2.75rem; }
+
+.vendor__registered-copy,
 .vendor__signup-copy {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
+
+.vendor__registered-copy {
+  text-align: center; }
 
 .vendor__signup-input {
   margin-bottom: 0; }
