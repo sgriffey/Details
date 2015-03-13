@@ -15,6 +15,10 @@ $(document).ready(function() {
             $(".rfq__scan-body").addClass("scan-expanded");
             $(".rfq__scan-expand").addClass("is-hidden");
     });
+    $(".job__scan-expand").click(function(){
+            $(".job__scan-body").addClass("scan-expanded");
+            $(".job__scan-expand").addClass("is-hidden");
+    });
     // Vendor Signup Confirm
     $(".vendor__signup-finalize-button").click(function(){
             $(".vendor__signup, .vendor__registered").toggleClass("is-masked");
@@ -428,7 +432,7 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
-    $(".project__equipment-piece, .proposal__procure-goods-part").click(function(){
+    $(".project__equipment-piece, .proposal__procure-goods-part, .job__equipment-unit").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
             $('html, body').animate({
