@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <title>scheduled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="scheduled" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-514" fill="#F35B5B" sketch:type="MSShapeGroup" x="2" y="2" width="20" height="5"></rect>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(16.000000, 8.000000)" fill="#F9BBB7">
+                <rect id="Rectangle-517" sketch:type="MSShapeGroup" x="0" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-517" sketch:type="MSShapeGroup" x="0" y="3" width="1" height="1"></rect>
+                <rect id="Rectangle-520" sketch:type="MSShapeGroup" x="0" y="6" width="1" height="1"></rect>
+            </g>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(13.000000, 8.000000)" fill="#F9BBB7">
+                <rect id="Rectangle-516" sketch:type="MSShapeGroup" x="0" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-516" sketch:type="MSShapeGroup" x="0" y="3" width="1" height="1"></rect>
+                <rect id="Rectangle-521" sketch:type="MSShapeGroup" x="0" y="6" width="1" height="1"></rect>
+            </g>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(10.000000, 8.000000)" fill="#F9BBB7">
+                <rect id="Rectangle-516" sketch:type="MSShapeGroup" x="0" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-516" sketch:type="MSShapeGroup" x="0" y="3" width="1" height="1"></rect>
+                <rect id="Rectangle-521" sketch:type="MSShapeGroup" x="0" y="6" width="1" height="1"></rect>
+                <rect id="Rectangle-526" sketch:type="MSShapeGroup" x="0" y="9" width="1" height="1"></rect>
+            </g>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(7.000000, 8.000000)" fill="#F9BBB7">
+                <rect id="Rectangle-516" sketch:type="MSShapeGroup" x="0" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-516" sketch:type="MSShapeGroup" x="0" y="3" width="1" height="1"></rect>
+                <rect id="Rectangle-521" sketch:type="MSShapeGroup" x="0" y="6" width="1" height="1"></rect>
+                <rect id="Rectangle-526" sketch:type="MSShapeGroup" x="0" y="9" width="1" height="1"></rect>
+            </g>
+            <ellipse id="Oval-383" stroke="#F35B5B" sketch:type="MSShapeGroup" transform="translate(15.966506, 15.325962) rotate(-311.000000) translate(-15.966506, -15.325962) " cx="15.9665064" cy="15.3259619" rx="2.18301272" ry="3.11602545"></ellipse>
+            <path d="M4,20 L20,20 L20,22 L3.5,22 L2,22 L2,7 L4,7 L4,20 Z M22,7 L22,22 L20,22 L20,7 L22,7 Z" id="Path" fill-opacity="0.898777187" fill="#F9B4AE" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

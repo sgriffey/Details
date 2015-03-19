@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <title>repair</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="repair" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-368" fill="#F35B5B" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="40" rx="2"></rect>
+            <path d="M20,8 L26.9282032,12 L26.9282032,20 L20,24 L13.0717968,20 L13.0717968,12 L20,8 Z M20,19 C21.6568542,19 23,17.6568542 23,16 C23,14.3431458 21.6568542,13 20,13 C18.3431458,13 17,14.3431458 17,16 C17,17.6568542 18.3431458,19 20,19 Z" id="Polygon-3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M27,39.9999984 C32,28.3681643 37,27.1089996 37,19.8990497 C37,12.6890999 32.6330363,6.74389916 27,5.90855244 L27,33.889547 L27,39.9999984 Z" id="Oval-338" fill="#092F3E" sketch:type="MSShapeGroup"></path>
+            <path d="M11.7279779,29.4748538 C14.5887376,20.3126567 12.7050286,11.5895996 5.25483333,9.15893558 L5.25483333,40 C8.17797124,33.0855179 9.12741672,34.2228413 11.7279779,29.4748538 Z" id="Oval-339" fill="#092F3E" sketch:type="MSShapeGroup" transform="translate(9.127417, 24.579468) scale(-1, 1) translate(-9.127417, -24.579468) "></path>
+            <path d="M27,22.125 L27,41 L13,41 L13,22.125 L13,22.25 L20,27 L27,22.25 L27,22.125 L27,22.125 Z" id="Rectangle-369" fill="#092F3E" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-370" fill="#2E4852" sketch:type="MSShapeGroup" x="17" y="37" width="7" height="3"></rect>
+            <rect id="Rectangle-371" fill="#425A63" sketch:type="MSShapeGroup" x="16" y="30" width="1" height="5"></rect>
+            <rect id="Rectangle-371" fill="#425A63" sketch:type="MSShapeGroup" x="18" y="30" width="1" height="5"></rect>
+            <rect id="Rectangle-372" fill="#425A63" sketch:type="MSShapeGroup" x="20" y="30" width="1" height="5"></rect>
+            <rect id="Rectangle-373" fill="#425A63" sketch:type="MSShapeGroup" x="22" y="30" width="1" height="5"></rect>
+            <rect id="Rectangle-374" fill="#425A63" sketch:type="MSShapeGroup" x="24" y="30" width="1" height="5"></rect>
+        </g>
+    </g>
+</svg>
