@@ -310,6 +310,19 @@ $(document).ready(function() {
         $(".facility__unit-history-add-event").toggleClass("is-emphasized-post-click");
         $(".facility__unit-history-add-event").toggleClass("is-emphasized-on-hover");
     });
+    //Toggle Subnav for Vendor Dash
+    $(".vendor__index-subnav-active").click(function(){
+            $(".vendor__index-completed").addClass("is-masked");
+            $(".vendor__index-active").removeClass("is-masked");
+            $(".vendor__index-subnav-completed").removeClass("is-active");
+            $(".vendor__index-subnav-active").addClass("is-active");
+    });
+    $(".vendor__index-subnav-completed").click(function(){
+            $(".vendor__index-active").addClass("is-masked");
+            $(".vendor__index-completed").removeClass("is-masked");
+            $(".vendor__index-subnav-active").removeClass("is-active");
+            $(".vendor__index-subnav-completed").addClass("is-active");
+    });
     //Toggle Subnav for PM
     $(".facility__pm-subnav-equipment").click(function(){
             $(".facility__pm-tenant-body").addClass("is-masked");

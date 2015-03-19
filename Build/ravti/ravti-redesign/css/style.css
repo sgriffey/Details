@@ -753,7 +753,7 @@ hr {
   -o-transform: translate3d(400%, 0, 0);
   transform: translate3d(400%, 0, 0); }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .job__aside-subnav-buckets, .projects__subnav-active,
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
 .proposal__procure-subnav-qa, .project__details-subnav-terms,
 .project__details-subnav-equipment,
@@ -765,7 +765,8 @@ hr {
 .facility__projects-subnav-completed, .facility__service-subnav-active,
 .facility__service-subnav-completed, .facility__pm-subnav-equipment,
 .facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
-.rfq__aside-subnav-qa, .job__aside-subnav-equipment,
+.rfq__aside-subnav-qa, .vendor__index-subnav-active,
+.vendor__index-subnav-completed, .job__aside-subnav-equipment,
 .job__aside-subnav-qa, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .repair__abstract-dl, .repair__abstract-scope, .job__recap-address, .job__abstract-freight, .job__schedule-status, .vendor__signup-fieldset, .job__status-list, .job__status-event-step, .form__buttons-group, .form__example-fieldset, .onboard-dashboard__title, .onboard-dashboard__fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
@@ -1057,7 +1058,7 @@ hr {
 .facility__billing-title, .facility__unit-request-form-title, .facility__unit-history-add-event-cta, .facility__projects-title, .facility__service-title, .events__feed-title, .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .facility__unit-history-index-blank h2, .vendor__queue-body .is-blank-info h2,
 .vendor__lineup-body .is-blank-info h2, .vendor__queue-body .is-blank-pricing h2,
 .vendor__lineup-body .is-blank-pricing h2, .vendor__queue-body .is-blank-scheduling h2,
-.vendor__lineup-body .is-blank-scheduling h2, .siteNav__invoices-popover-list-blank h2, .vendor__queue-body .is-blank-invoicing h2,
+.vendor__lineup-body .is-blank-scheduling h2, .vendor__index-body .is-blank-job h2, .siteNav__invoices-popover-list-blank h2, .vendor__queue-body .is-blank-invoicing h2,
 .vendor__lineup-body .is-blank-invoicing h2, .facility__unit-score-sheet-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .job__status-event-step, .job__status-edit-goods h2 b,
 .job__status-edit-labor h2 b, .onboard__header, .onboard-dashboard__title, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
 .onboard-facility__aside-summary-cta, .siteNav,
@@ -1315,7 +1316,8 @@ hr {
 .facility__projects-subnav-completed, .facility__service-subnav-active,
 .facility__service-subnav-completed, .facility__pm-subnav-equipment,
 .facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
-.rfq__aside-subnav-qa, .job__aside-subnav-equipment,
+.rfq__aside-subnav-qa, .vendor__index-subnav-active,
+.vendor__index-subnav-completed, .job__aside-subnav-equipment,
 .job__aside-subnav-qa, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label {
@@ -1323,12 +1325,12 @@ hr {
   font-weight: 700;
   letter-spacing: 0.2px; }
 
-.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .job__aside-subnav-buckets {
+.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets {
   border-top: 2px solid #e3e5ea; }
-  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active, .rfq__aside-subnav-buckets .is-active, .job__aside-subnav-buckets .is-active {
+  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active, .rfq__aside-subnav-buckets .is-active, .vendor__index-subnav-buckets .is-active, .job__aside-subnav-buckets .is-active {
     border-top: 2px solid #092f3e;
     color: #092f3e; }
-    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover, .rfq__aside-subnav-buckets .is-active:hover, .job__aside-subnav-buckets .is-active:hover {
+    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover, .rfq__aside-subnav-buckets .is-active:hover, .vendor__index-subnav-buckets .is-active:hover, .job__aside-subnav-buckets .is-active:hover {
       color: #092f3e; }
 
 .projects__subnav-active,
@@ -1343,7 +1345,8 @@ hr {
 .facility__projects-subnav-completed, .facility__service-subnav-active,
 .facility__service-subnav-completed, .facility__pm-subnav-equipment,
 .facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
-.rfq__aside-subnav-qa, .job__aside-subnav-equipment,
+.rfq__aside-subnav-qa, .vendor__index-subnav-active,
+.vendor__index-subnav-completed, .job__aside-subnav-equipment,
 .job__aside-subnav-qa {
   font-size: 11.11111px;
   font-size: 0.69444rem;
@@ -1366,7 +1369,8 @@ hr {
   .facility__projects-subnav-completed:hover, .facility__service-subnav-active:hover,
   .facility__service-subnav-completed:hover, .facility__pm-subnav-equipment:hover,
   .facility__pm-subnav-tenants:hover, .rfq__aside-subnav-equipment:hover,
-  .rfq__aside-subnav-qa:hover, .job__aside-subnav-equipment:hover,
+  .rfq__aside-subnav-qa:hover, .vendor__index-subnav-active:hover,
+  .vendor__index-subnav-completed:hover, .job__aside-subnav-equipment:hover,
   .job__aside-subnav-qa:hover {
     cursor: pointer;
     color: #93989c; }
@@ -1564,13 +1568,13 @@ hr {
 .facility__projects-feed-blank p a, .facility__service-feed-blank p a, .facility__billing-feed-blank p a, .facility__activity-feed-blank p a, .facility__unit-history-index-blank p a, .vendor__queue-body .is-blank-info p a,
 .vendor__lineup-body .is-blank-info p a, .vendor__queue-body .is-blank-pricing p a,
 .vendor__lineup-body .is-blank-pricing p a, .vendor__queue-body .is-blank-scheduling p a,
-.vendor__lineup-body .is-blank-scheduling p a, .siteNav__invoices-popover-list-blank p a, .vendor__queue-body .is-blank-invoicing p a,
+.vendor__lineup-body .is-blank-scheduling p a, .vendor__index-body .is-blank-job p a, .siteNav__invoices-popover-list-blank p a, .vendor__queue-body .is-blank-invoicing p a,
 .vendor__lineup-body .is-blank-invoicing p a, .facility__unit-score-sheet-blank p a, .dashboard__request-support-copy a, .invoice__meta-support-copy a, .facility__activity-prevent-memo a {
   border-bottom: 1px solid #e3e5ea; }
   .facility__projects-feed-blank p a:hover, .facility__service-feed-blank p a:hover, .facility__billing-feed-blank p a:hover, .facility__activity-feed-blank p a:hover, .facility__unit-history-index-blank p a:hover, .vendor__queue-body .is-blank-info p a:hover,
   .vendor__lineup-body .is-blank-info p a:hover, .vendor__queue-body .is-blank-pricing p a:hover,
   .vendor__lineup-body .is-blank-pricing p a:hover, .vendor__queue-body .is-blank-scheduling p a:hover,
-  .vendor__lineup-body .is-blank-scheduling p a:hover, .siteNav__invoices-popover-list-blank p a:hover, .vendor__queue-body .is-blank-invoicing p a:hover,
+  .vendor__lineup-body .is-blank-scheduling p a:hover, .vendor__index-body .is-blank-job p a:hover, .siteNav__invoices-popover-list-blank p a:hover, .vendor__queue-body .is-blank-invoicing p a:hover,
   .vendor__lineup-body .is-blank-invoicing p a:hover, .facility__unit-score-sheet-blank p a:hover, .dashboard__request-support-copy a:hover, .invoice__meta-support-copy a:hover, .facility__activity-prevent-memo a:hover {
     cursor: pointer;
     color: #092f3e;
@@ -1704,14 +1708,14 @@ hr {
 .facility__projects-feed-blank, .facility__service-feed-blank, .facility__billing-feed-blank, .facility__activity-feed-blank, .facility__unit-history-index-blank, .vendor__queue-body .is-blank-info,
 .vendor__lineup-body .is-blank-info, .vendor__queue-body .is-blank-pricing,
 .vendor__lineup-body .is-blank-pricing, .vendor__queue-body .is-blank-scheduling,
-.vendor__lineup-body .is-blank-scheduling, .siteNav__invoices-popover-list-blank, .vendor__queue-body .is-blank-invoicing,
+.vendor__lineup-body .is-blank-scheduling, .vendor__index-body .is-blank-job, .siteNav__invoices-popover-list-blank, .vendor__queue-body .is-blank-invoicing,
 .vendor__lineup-body .is-blank-invoicing, .facility__unit-score-sheet-blank {
   text-align: center;
   color: #93989c; }
   .facility__projects-feed-blank:before, .facility__service-feed-blank:before, .facility__billing-feed-blank:before, .facility__activity-feed-blank:before, .facility__unit-history-index-blank:before, .vendor__queue-body .is-blank-info:before,
   .vendor__lineup-body .is-blank-info:before, .vendor__queue-body .is-blank-pricing:before,
   .vendor__lineup-body .is-blank-pricing:before, .vendor__queue-body .is-blank-scheduling:before,
-  .vendor__lineup-body .is-blank-scheduling:before, .siteNav__invoices-popover-list-blank:before, .vendor__queue-body .is-blank-invoicing:before,
+  .vendor__lineup-body .is-blank-scheduling:before, .vendor__index-body .is-blank-job:before, .siteNav__invoices-popover-list-blank:before, .vendor__queue-body .is-blank-invoicing:before,
   .vendor__lineup-body .is-blank-invoicing:before, .facility__unit-score-sheet-blank:before {
     content: '';
     margin: 0 auto;
@@ -1724,7 +1728,7 @@ hr {
   .facility__projects-feed-blank h2, .facility__service-feed-blank h2, .facility__billing-feed-blank h2, .facility__activity-feed-blank h2, .facility__unit-history-index-blank h2, .vendor__queue-body .is-blank-info h2,
   .vendor__lineup-body .is-blank-info h2, .vendor__queue-body .is-blank-pricing h2,
   .vendor__lineup-body .is-blank-pricing h2, .vendor__queue-body .is-blank-scheduling h2,
-  .vendor__lineup-body .is-blank-scheduling h2, .siteNav__invoices-popover-list-blank h2, .vendor__queue-body .is-blank-invoicing h2,
+  .vendor__lineup-body .is-blank-scheduling h2, .vendor__index-body .is-blank-job h2, .siteNav__invoices-popover-list-blank h2, .vendor__queue-body .is-blank-invoicing h2,
   .vendor__lineup-body .is-blank-invoicing h2, .facility__unit-score-sheet-blank h2 {
     font-size: 19.2px;
     font-size: 1.2rem;
@@ -1734,7 +1738,7 @@ hr {
   .facility__projects-feed-blank p, .facility__service-feed-blank p, .facility__billing-feed-blank p, .facility__activity-feed-blank p, .facility__unit-history-index-blank p, .vendor__queue-body .is-blank-info p,
   .vendor__lineup-body .is-blank-info p, .vendor__queue-body .is-blank-pricing p,
   .vendor__lineup-body .is-blank-pricing p, .vendor__queue-body .is-blank-scheduling p,
-  .vendor__lineup-body .is-blank-scheduling p, .siteNav__invoices-popover-list-blank p, .vendor__queue-body .is-blank-invoicing p,
+  .vendor__lineup-body .is-blank-scheduling p, .vendor__index-body .is-blank-job p, .siteNav__invoices-popover-list-blank p, .vendor__queue-body .is-blank-invoicing p,
   .vendor__lineup-body .is-blank-invoicing p, .facility__unit-score-sheet-blank p {
     margin-top: 5.6px;
     margin-top: 0.35rem;
@@ -1787,6 +1791,9 @@ hr {
   height: 95px;
   height: 5.9375rem;
   background: url(../assets/vendor-scheduling-blank-slate.svg) center center no-repeat; }
+
+.vendor__index-body .is-blank-job:before {
+  background: url(../assets/projects-blank-slate.svg) center center no-repeat; }
 
 .siteNav__invoices-popover-list-blank:before, .vendor__queue-body .is-blank-invoicing:before,
 .vendor__lineup-body .is-blank-invoicing:before {
@@ -8546,15 +8553,21 @@ hr {
   .vendor-dash__card-copy:last-child {
     margin-right: 0; }
 
+.vendor__index-subnav,
+.vendor__index-subnav-buckets,
 .vendor__pricing,
-.vendor__full {
+.vendor__index-active,
+.vendor__index-completed {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
+  .vendor__index-subnav:last-child,
+  .vendor__index-subnav-buckets:last-child,
   .vendor__pricing:last-child,
-  .vendor__full:last-child {
+  .vendor__index-active:last-child,
+  .vendor__index-completed:last-child {
     margin-right: 0; }
 
 .vendor__showcase {
@@ -17120,6 +17133,11 @@ dd {
     .job__schedule-fieldset-half {
       padding-left: 44.8px;
       padding-left: 2.8rem; } }
+  .job__schedule-fieldset-half #datepicker {
+    display: none; }
+    @media screen and (min-width: 46.8em) {
+      .job__schedule-fieldset-half #datepicker {
+        display: inline-block; } }
 
 .job__schedule-fieldset-toggle {
   position: absolute;
@@ -17177,11 +17195,12 @@ dd {
     transform: translateY(-50%);
     background: url(../assets/shipping-emojii.svg) center center no-repeat; }
 
-.job__schedule-status + .job__schedule-form .job__schedule-select,
-.job__schedule-status + .job__schedule-form .job__schedule-date,
-.job__schedule-status + .job__schedule-form .job__schedule-input {
-  min-width: 300px;
-  min-width: 18.75rem; }
+@media screen and (min-width: 46.8em) {
+  .job__schedule-status + .job__schedule-form .job__schedule-select,
+  .job__schedule-status + .job__schedule-form .job__schedule-date,
+  .job__schedule-status + .job__schedule-form .job__schedule-input {
+    min-width: 300px;
+    min-width: 18.75rem; } }
 
 .job__schedule-status-detail {
   display: block; }
@@ -17206,7 +17225,12 @@ dd {
   margin-bottom: 0; }
 
 .job__schedule-date {
+  min-width: 217px;
+  min-width: 13.5625rem;
   margin-bottom: 0; }
+  @media screen and (min-width: 46.8em) {
+    .job__schedule-date[type="date"] {
+      display: none; } }
 
 .job__schedule-select {
   min-width: 217px;
@@ -17244,6 +17268,11 @@ dd {
         padding-top: 1.4rem; } }
   .job__schedule-option:first-of-type .job__schedule-label {
     padding-top: 0; }
+  .job__schedule-option #datepicker2 {
+    display: none; }
+    @media screen and (min-width: 46.8em) {
+      .job__schedule-option #datepicker2 {
+        display: inline-block; } }
 
 .job__schedule-add-tech {
   display: block;

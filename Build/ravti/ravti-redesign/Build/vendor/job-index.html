@@ -44,9 +44,15 @@
 </nav>
 	
 	<main class="page__wrapper">
-		<section class="vendor__full">
+		<nav class="vendor__index-subnav">
+			<ul class="vendor__index-subnav-buckets">
+				<li class="vendor__index-subnav-active is-active">In-Progress</li>
+				<li class="vendor__index-subnav-completed">Completed</li>
+			</ul>
+		</nav>
+		<section class="vendor__index-active">
 			<header class="vendor__index-head">
-				<h1 class="vendor__index-head-title">All Jobs (Active &amp; Completed)</h1>
+				<h1 class="vendor__index-head-title">All Active Jobs</h1>
 			</header>
 			<section class="vendor__index-body">
 				<section class="vendor__index-table">
@@ -84,6 +90,36 @@
 							<a href="job-ready.html" class="vendor__index-td">GIB-107</a>
 							<a href="job-ready.html" class="vendor__index-td">8200 Doral ACHU Replacement</a>
 						</div>
+					</section>
+				</section>
+			</section>
+		</section>
+		<section class="vendor__index-active">
+			<header class="vendor__index-head">
+				<h1 class="vendor__index-head-title">All Active Jobs</h1>
+			</header>
+			<section class="vendor__index-body">
+				<div class="vendor__index-blank is-blank-job">
+			    	<h2>No Projects Active</h2>
+			    	<p>Visit the <a href="pricing.html">Pricing page</a> to view proposals awaiting bids.</p>
+				</div>
+			</section>
+		</section>
+		<section class="vendor__index-completed is-masked">
+			<header class="vendor__index-head">
+				<h1 class="vendor__index-head-title">All Completed Jobs</h1>
+			</header>
+			<section class="vendor__index-body">
+				<section class="vendor__index-table">
+					<header class="vendor__index-thead">
+						<div class="vendor__index-tr not-interactive">
+							<span class="vendor__index-th">Type</span>
+							<span class="vendor__index-th">Job Status</span>
+							<span class="vendor__index-th">Job #</span>
+							<span class="vendor__index-th">Description</span>
+						</div>
+					</header>
+					<section class="vendor__index-tbody">
 						<div class="vendor__index-tr">
 							<a href="job-complete.html" class="vendor__index-td is-maintenance" title="preventative maintenance"></a>
 							<a href="job-complete.html" class="vendor__index-td">Complete</a>
@@ -99,6 +135,17 @@
 						</div>
 					</section>
 				</section>
+			</section>
+		</section>
+		<section class="vendor__index-completed is-masked">
+			<header class="vendor__index-head">
+				<h1 class="vendor__index-head-title">All Completed Jobs</h1>
+			</header>
+			<section class="vendor__index-body">
+				<div class="vendor__index-blank is-blank-job">
+			    	<h2>No Projects Completed</h2>
+			    	<p>Visit the <a href="pricing.html">Pricing page</a> to view proposals awaiting bids.</p>
+				</div>
 			</section>
 		</section>
 	</main>
