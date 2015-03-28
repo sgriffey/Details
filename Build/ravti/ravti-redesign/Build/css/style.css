@@ -8455,6 +8455,7 @@ hr {
 .vendor__signup-copy,
 .vendor__registered-logo,
 .vendor__registered-header,
+.vendor__registered-video,
 .vendor__registered-copy,
 .vendor__signup-form,
 .vendor__signup-fieldset,
@@ -8472,6 +8473,7 @@ hr {
   .vendor__signup-copy:last-child,
   .vendor__registered-logo:last-child,
   .vendor__registered-header:last-child,
+  .vendor__registered-video:last-child,
   .vendor__registered-copy:last-child,
   .vendor__signup-form:last-child,
   .vendor__signup-fieldset:last-child,
@@ -8486,6 +8488,7 @@ hr {
     .vendor__signup-copy,
     .vendor__registered-logo,
     .vendor__registered-header,
+    .vendor__registered-video,
     .vendor__registered-copy,
     .vendor__signup-form,
     .vendor__signup-fieldset,
@@ -8503,6 +8506,7 @@ hr {
       .vendor__signup-copy:last-child,
       .vendor__registered-logo:last-child,
       .vendor__registered-header:last-child,
+      .vendor__registered-video:last-child,
       .vendor__registered-copy:last-child,
       .vendor__signup-form:last-child,
       .vendor__signup-fieldset:last-child,
@@ -15810,8 +15814,27 @@ dd {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
+.vendor__registered-video {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  padding: 14px;
+  padding: 0.875rem;
+  border: 4px solid #e3e5ea;
+  background: url(../../assets/video-watermark.svg) center center no-repeat; }
+  .vendor__registered-video iframe {
+    height: 150px;
+    height: 9.375rem;
+    width: 100%; }
+    @media screen and (min-width: 46.8em) {
+      .vendor__registered-video iframe {
+        height: 281px;
+        height: 17.5625rem; } }
+
 .vendor__registered-copy {
-  text-align: center; }
+  padding-left: 14px;
+  padding-left: 0.875rem;
+  padding-right: 14px;
+  padding-right: 0.875rem; }
 
 .vendor__signup-input {
   margin-bottom: 0; }

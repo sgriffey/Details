@@ -55,7 +55,7 @@ $(document).ready(function() {
     $(".vendor__signup-finalize-button").click(function(){
             $(".vendor__signup").toggleClass("is-masked");
             $(".vendor__registered").toggleClass("is-masked");
-            $(".vendor__registered").toggleClass("animated bounceInUp");
+            $(".vendor__registered").toggleClass("animated fadeIn");
     });
     //Request Control Add Files
     $(".dashboard__request-control-upload").change(function(){
