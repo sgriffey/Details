@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="74px" viewBox="0 0 60 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>rfq 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="rfq-5" sketch:type="MSArtboardGroup">
+            <g id="blank-table" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+                <g id="cooperative" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-23" stroke="#E6E6E6" stroke-width="2" fill="#FFFFFF" transform="translate(28.000000, 34.000000) rotate(-9.000000) translate(-28.000000, -34.000000) " x="5" y="4" width="46" height="60"></rect>
+                    <rect id="Rectangle-24" stroke="#E6E6E6" stroke-width="2" fill="#FFFFFF" transform="translate(28.000000, 36.000000) rotate(9.000000) translate(-28.000000, -36.000000) " x="5" y="6" width="46" height="60"></rect>
+                    <rect id="Rectangle-22" stroke="#9B9B9B" stroke-width="2" fill="#9B9B9B" x="5" y="5" width="46" height="60"></rect>
+                    <rect id="Rectangle-29" stroke="#E6E6E6" stroke-width="2" fill="#FFFFFF" x="7" y="7" width="42" height="56"></rect>
+                    <rect id="Rectangle-23" x="11" y="11" width="9" height="9"></rect>
+                    <rect id="Rectangle-24" fill="#9B9B9B" x="11" y="13" width="12" height="1"></rect>
+                    <rect id="Rectangle-24" fill="#9B9B9B" x="11" y="24" width="16.5" height="1"></rect>
+                    <rect id="Rectangle-24" fill="#9B9B9B" x="11" y="17" width="9" height="1"></rect>
+                    <rect id="Rectangle-24" fill="#9B9B9B" x="11" y="28" width="11" height="1"></rect>
+                    <rect id="Rectangle-24" fill="#9B9B9B" x="11" y="36" width="16.5" height="1"></rect>
+                    <rect id="Rectangle-28" fill="#9B9B9B" x="11" y="40" width="9" height="1"></rect>
+                    <rect id="Rectangle-30" fill="#9B9B9B" x="37" y="51" width="3" height="2"></rect>
+                    <rect id="Rectangle-31" fill="#9B9B9B" x="11" y="51" width="9" height="2"></rect>
+                    <ellipse id="Oval-125" stroke="#E6E6E6" transform="translate(37.899014, 51.945281) rotate(-15.000000) translate(-37.899014, -51.945281) " cx="37.8990143" cy="51.9452805" rx="6.23273402" ry="3.44539709"></ellipse>
+                </g>
+                <path d="M39.5149287,9.80904635 L39.5149287,16.3972816 L41.1619875,16.3972816 L41.1619875,9.80904635 L39.5149287,9.80904635 Z M37.0443405,18.0443405 L41.1619875,18.0443405 L41.1619875,16.3972816 L37.0443405,16.3972816 L37.0443405,18.0443405 Z" id="Rectangle-142" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(39.103164, 13.926693) rotate(-315.000000) translate(-39.103164, -13.926693) "></path>
+                <path d="M39.5149287,20.8090464 L39.5149287,27.3972816 L41.1619875,27.3972816 L41.1619875,20.8090464 L39.5149287,20.8090464 Z M37.0443405,29.0443405 L41.1619875,29.0443405 L41.1619875,27.3972816 L37.0443405,27.3972816 L37.0443405,29.0443405 Z" id="Rectangle-142" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(39.103164, 24.926693) rotate(-315.000000) translate(-39.103164, -24.926693) "></path>
+                <path d="M39.5149287,32.8823529 L39.5149287,39.4705882 L41.1619875,39.4705882 L41.1619875,32.8823529 L39.5149287,32.8823529 Z M37.0443405,41.1176471 L41.1619875,41.1176471 L41.1619875,39.4705882 L37.0443405,39.4705882 L37.0443405,41.1176471 Z" id="Rectangle-142" fill="#9B9B9B" sketch:type="MSShapeGroup" transform="translate(39.103164, 37.000000) rotate(-315.000000) translate(-39.103164, -37.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
