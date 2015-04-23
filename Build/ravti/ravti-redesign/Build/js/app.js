@@ -516,7 +516,7 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
-    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit").click(function(){
+    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit, .o-job__bid-equipment").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
             $('html, body').animate({

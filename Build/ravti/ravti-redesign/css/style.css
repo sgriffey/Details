@@ -775,7 +775,8 @@ hr {
 .siteNav__invoices-popover-item-reference,
 .siteNav__invoices-popover-item-time, .accountNav__bucket-title, .mobileNav__menu-list, .dashboard__index-control-group, .dashboard__index-grid-tiles, .dashboard__index-grid-tiles-onboard, .dashboard__request-title,
 .dashboard__request-control-title, .dashboard__request-control-fieldset,
-.dashboard__request-control-fieldset-half, .dashboard__request-control-upload, .proposal__terms-scan-list, .proposal__terms-view-scopes,
+.dashboard__request-control-fieldset-half, .dashboard__request-control-upload, .projects__queue h2,
+.projects__live h2, .proposal__terms-scan-list, .proposal__terms-view-scopes,
 .proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__po-entity-address, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__mobile-request-title, .overlay__mobile-request-feedback-title, .overlay__mobile-request-fieldset, .overlay__mobile-request-upload, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .account__details-personal-form,
 .account__details-company-form, .account__details-company-fieldset, .account__details-company-fieldset-toggle, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-mobile-cancel,
@@ -1139,7 +1140,8 @@ hr {
 .onboard-facility__aside-summary-cta, .siteNav,
 .siteNav-guest, .dashboard__mobile-request-title b, .dashboard__mobile-request-option span, .dashboard__index-grid-tile-hint b, .dashboard__request-title,
 .dashboard__request-control-title, .dashboard__request-title b,
-.dashboard__request-control-title b, .dashboard__request-option span, .dashboard__feedback-title, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__mobile-request-title b, .overlay__mobile-request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.dashboard__request-control-title b, .dashboard__request-option span, .dashboard__feedback-title, .projects__queue h2,
+.projects__live h2, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__mobile-request-title b, .overlay__mobile-request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
 .facility__duty-bucket, .facility__activity-prevent-copy, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
 .facility__suites-paginate-prev,
 .facility__suites-paginate-page,
@@ -4800,16 +4802,6 @@ hr {
   .projects__queue:last-child,
   .projects__live:last-child {
     margin-right: 0; }
-  @media screen and (min-width: 46.8em) {
-    .projects__queue,
-    .projects__live {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .projects__queue:last-child,
-      .projects__live:last-child {
-        margin-right: 0; } }
 
 .projects__queue-table,
 .projects__queue-tbody,
@@ -4825,59 +4817,22 @@ hr {
   .projects__queue-thead:last-child,
   .projects__queue-tr:last-child {
     margin-right: 0; }
-  @media screen and (min-width: 46.8em) {
-    .projects__queue-table,
-    .projects__queue-tbody,
-    .projects__queue-thead,
-    .projects__queue-tr {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 100%;
-      margin-right: 0; }
-      .projects__queue-table:last-child,
-      .projects__queue-tbody:last-child,
-      .projects__queue-thead:last-child,
-      .projects__queue-tr:last-child {
-        margin-right: 0; } }
 
-.projects__queue-th:nth-child(1),
-.projects__queue-td:nth-child(1) {
+.projects__queue-th,
+.projects__queue-td {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%; }
-  .projects__queue-th:nth-child(1):last-child,
-  .projects__queue-td:nth-child(1):last-child {
+  .projects__queue-th:last-child,
+  .projects__queue-td:last-child {
     margin-right: 0; }
-.projects__queue-th:nth-child(2),
-.projects__queue-td:nth-child(2) {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
-  .projects__queue-th:nth-child(2):last-child,
-  .projects__queue-td:nth-child(2):last-child {
+  .projects__queue-th:nth-child(3n),
+  .projects__queue-td:nth-child(3n) {
     margin-right: 0; }
-@media screen and (min-width: 46.8em) {
-  .projects__queue-th:nth-child(1),
-  .projects__queue-td:nth-child(1) {
-    float: left;
-    display: block;
-    margin-right: 4.82916%;
-    width: 21.37813%; }
-    .projects__queue-th:nth-child(1):last-child,
-    .projects__queue-td:nth-child(1):last-child {
-      margin-right: 0; }
-  .projects__queue-th:nth-child(2),
-  .projects__queue-td:nth-child(2) {
-    float: left;
-    display: block;
-    margin-right: 4.82916%;
-    width: 73.79271%; }
-    .projects__queue-th:nth-child(2):last-child,
-    .projects__queue-td:nth-child(2):last-child {
-      margin-right: 0; } }
+  .projects__queue-th:nth-child(3n+1),
+  .projects__queue-td:nth-child(3n+1) {
+    clear: left; }
 
 .projects__live-table,
 .projects__live-tbody,
@@ -12205,6 +12160,7 @@ dd {
 .siteNav__events-popover-item,
 .siteNav__proposals-popover-item,
 .siteNav__invoices-popover-item {
+  display: block;
   position: relative;
   background: white;
   border-bottom: 1px solid #e3e5ea; }
@@ -13122,6 +13078,12 @@ dd {
   width: 5rem;
   margin-top: 5.6px;
   margin-top: 0.35rem; }
+
+.projects__queue h2,
+.projects__live h2 {
+  font-size: 23.04px;
+  font-size: 1.44rem;
+  text-align: left; }
 
 .proposal__abstract-head {
   margin-top: 0; }
@@ -19635,6 +19597,28 @@ dd {
   margin-top: 22.4px;
   margin-top: 1.4rem;
   text-align: center; }
+  .o-job__quote-cta .is-disabled {
+    color: #93989c !important; }
+    .o-job__quote-cta .is-disabled:hover {
+      background: transparent;
+      cursor: default; }
+      .o-job__quote-cta .is-disabled:hover:before {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1); }
+  .o-job__quote-cta .is-chosen {
+    color: #66c3b0 !important; }
+    .o-job__quote-cta .is-chosen:hover {
+      background: transparent;
+      cursor: default; }
+      .o-job__quote-cta .is-chosen:hover:before {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1); }
 
 .o-job__quote-cta-option {
   padding: 22.4px;
