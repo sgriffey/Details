@@ -40,17 +40,18 @@
 </header>
 	<nav class="siteNav">
 		<a class='current-parent' href="../index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
-		<h2 class="siteNav__page-title">Facility</h2>
+		<h2 class="siteNav__page-title">Projects</h2>
 		<section class="siteNav__control">
 			<nav class="siteNav__alerts">
 				<i class="siteNav__alert-proposals">
 					<span class="has-alerts">5</span>
 				</i>
+				<!--
 				<i class="siteNav__alert-events">
 					<span class="has-alerts">&bull;</span>
 				</i>
+				-->
 				<i class="siteNav__alert-invoices">
-					<span class="has-alerts">14</span>
 				</i>
 				<article class="siteNav__alerts-popover">
 					<section class="siteNav__proposals-popover is-masked">
@@ -85,9 +86,10 @@
 							</li>
 						</ul>
 						<footer class="siteNav__proposals-popover-footer">
-						<a href="projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
+						<a href="../projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
 						</footer>
 					</section>
+					<!--
 					<section class="siteNav__events-popover is-masked">
 						<header class="siteNav__events-popover-head">
 							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
@@ -133,11 +135,12 @@
 						<a href=""><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
 						</footer>
 					</section>
+					-->
 					<section class="siteNav__invoices-popover is-masked">
 						<header class="siteNav__invoices-popover-head">
 							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
 						</header>
-						<ul class="siteNav__invoices-popover-list">
+						<ul class="siteNav__invoices-popover-list is-masked">
 							<li class="siteNav__invoices-popover-item">
 								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
 								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
@@ -164,15 +167,19 @@
 								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
 							</li>
 						</ul>
-						<footer class="siteNav__invoices-popover-footer">
-						<a href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+						<footer class="siteNav__invoices-popover-footer is-masked">
+						<a href="../billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
 						</footer>
+						<div class="siteNav__invoices-popover-list-blank">
+							<h2>No Invoices Outstanding</h2>
+							<p>Yahoo! You're all caught up.</p>
+						</div>
 					</section>
 				</article>
 			</nav>
 			<div class="siteNav__account">
-				<span class="siteNav__account-username">Monique</span>
-				<img class="siteNav__account-image" src="../assets/users_gibson.png"/>
+				<span class="siteNav__account-username">John G.</span>
+				<img class="siteNav__account-image" src="../assets/dummy-avatar.svg"/>
 			</div>
 		</section>
 		<div class="accountNav__bucket is-masked">
@@ -183,14 +190,15 @@
 			<img class="accountNav__toggle-image" src="../assets/dismiss-trigger-inverted.svg"/>
 		</div>
 	</nav>
+	
 	<section class="page__wrapper-bleed">
 		<section class="facility__identity">
 			<section class="facility__identity-cover">
 				<div class="facility__identity-cover-plate">
-					<h1 class="facility__identity-cover-title">8200 Doral</h1>
+					<h1 class="facility__identity-cover-title">1 Howard</h1>
 					<address class="facility__identity-cover-location">
-						<span>NW 9th Ave</span>
-						<span>Doral, FL. 33178</span>
+						<span>1 Howard Street</span>
+						<span>San Francisco, CA 94111</span>
 					</address>
 				</div>
 			</section>
@@ -201,18 +209,14 @@
 			<nav class="facility__duties">
 				<ul class="facility__duties-list">
 					<li class="facility__duty"><a href="activity.html">Activity</a></li>
-					<li class="facility__duty is-active"><a href="project-blank.html">Projects</a></li></a>
-					<li class="facility__duty"><a href="service-blank.html">Service Calls</a></li>
+					<li class="facility__duty is-active"><a href="project-blank.html">Jobs</a></li></a>
 					<li class="facility__duty"><a href="equipment.html">Equipment</a></li>
-					<li class="facility__duty"><a href="suites.html">Suites</a></li>
-					<li class="facility__duty"><a href="billing.html">Billing</a></li>
+					<li class="facility__duty"><a href="billing.html">Invoices</a></li>
 				</ul>
 				<ul class="facility__duties-mobile-list">
 					<li class="facility__duty-bucket"><a href="activity.html">Activity</a></li>
-					<li class="current current facility__duty-bucket is-active"><a class='current current' href="projects-blank.html">Projects</a></li></a>
-					<li class="facility__duty-bucket"><a href="service-blank.html">Service Calls</a></li>
+					<li class="current current facility__duty-bucket is-active"><a class='current current' href="projects-blank.html">Jobs</a></li></a>
 					<li class="facility__duty-bucket"><a href="equipment.html">Equipment</a></li>
-					<li class="facility__duty-bucket"><a href="suites.html">Suites</a></li>
 					<li class="facility__duty-bucket"><a href="billing.html">Billing</a></li>
 				</ul>
 			</nav>
@@ -224,7 +228,7 @@
 					</ul>
 				</nav>
 				<section class="facility__projects-feed">
-					<table class="facility__projects-table is-masked">
+					<table class="facility__projects-table">
 						<thead class="facility__projects-thead">
 							<tr class="facility__projects-tr">
 								<th class="facility__projects-th">Job #</th>
@@ -232,27 +236,25 @@
 							</tr>
 						</thead>
 						<tbody class="facility__projects-tbody">
-						<tr class="facility__projects-tr">
-							<td class="facility__projects-td"><a href="invoice.html">GIB - 002</a></td>
-							<td class="facility__projects-td">10/11/14</td>
-							<td class="facility__projects-td">$1,234.34</td>
-							<td class="facility__projects-td">Due</td>
-						</tr>
-						<tr class="facility__projects-tr">
-							<td class="facility__projects-td"><a href="invoice.html">GIB - 005</a></td>
-							<td class="facility__projects-td">10/11/14</td>
-							<td class="facility__projects-td">$1,234.34</td>
-							<td class="facility__projects-td">Paid</td>
-						</tr>
-						<tr class="facility__projects-tr">
-							<td class="facility__projects-td"><a href="invoice.html">GIB - 007</a></td>
-							<td class="facility__projects-td">10/11/14</td>
-							<td class="facility__projects-td">$1,234.34</td>
-							<td class="facility__projects-td">Paid</td>
-						</tr>
+							<tr class="facility__projects-tr">
+								<td class="facility__projects-td"><a href="proposal.html">GIB - 002</a></td>
+								<td class="facility__projects-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+							</tr>
+							<tr class="facility__projects-tr">
+								<td class="facility__projects-td"><a href="proposal.html">GIB - 002</a></td>
+								<td class="facility__projects-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+							</tr>
+							<tr class="facility__projects-tr">
+								<td class="facility__projects-td"><a href="proposal.html">GIB - 002</a></td>
+								<td class="facility__projects-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+							</tr>
+							<tr class="facility__projects-tr">
+								<td class="facility__projects-td"><a href="proposal.html">GIB - 002</a></td>
+								<td class="facility__projects-td">Trenton, Downtown Doral - HVAC Maintenance</td>
+							</tr>
 						</tbody>
 				    </table>
-				    <div class="facility__projects-feed-blank">
+				    <div class="facility__projects-feed-blank is-masked">
 					    <h2>No Projects Active</h2>
 					    <p>Visit the <a href="../projects.html">Proposals feed</a> to view pending project bids.</p>
 					</div>

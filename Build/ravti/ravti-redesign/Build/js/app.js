@@ -15,41 +15,52 @@ $(document).ready(function() {
             $(".rfq__scan-body").addClass("scan-expanded");
             $(".rfq__scan-expand").addClass("is-hidden");
     });
-    $(".job__scan-expand").click(function(){
-            $(".job__scan-body").addClass("scan-expanded");
-            $(".job__scan-expand").addClass("is-hidden");
+    $(".v-job__scan-expand").click(function(){
+            $(".v-job__scan-body").addClass("scan-expanded");
+            $(".v-job__scan-expand").addClass("is-hidden");
+    });
+    // Job Proposal Commit & Approve
+    $(".o-job__bid-total-confirm-button").click(function(){
+            $(".o-job__bid-total-commit").toggleClass("is-masked");
+            $(".o-job__bid-total-commit").toggleClass("animated fadeIn");
+    });
+    $(".o-job__bid-total-cancel-button").click(function(){
+            $(".o-job__bid-total-commit").toggleClass("is-masked");
+    });
+    $(".o-job__bid-total-commit-button").click(function(){
+            $(".o-job__bid-total-commit, .o-job__bid-total-confirm-button, .o-job__bid-total-feedback").toggleClass("is-masked");
     });
     // Toggle Job Status Timeline
-    $(".job__status-timeline-button").click(function(){
-            $(".job__status-timeline").toggleClass("is-collapsed");
+    $(".v-job__status-timeline-button").click(function(){
+            $(".v-job__status-timeline").toggleClass("is-collapsed");
     });
     // Edit Timeline: Scheduling
     $("#schedule-goods").click(function(){
-            $(".job__status-edit, .job__status-edit-goods").removeClass("is-masked");
+            $(".v-job__status-edit, .v-job__status-edit-goods").removeClass("is-masked");
     });
     $("#schedule-labor").click(function(){
-            $(".job__status-edit, .job__status-edit-labor").removeClass("is-masked");
+            $(".v-job__status-edit, .v-job__status-edit-labor").removeClass("is-masked");
     });
-    $(".job__status-edit-dismiss").click(function(){
-        $(this).closest(".job__status-edit").toggleClass("is-masked");
-        $(".job__status-edit-goods, .job__status-edit-labor").addClass("is-masked");
+    $(".v-job__status-edit-dismiss").click(function(){
+        $(this).closest(".v-job__status-edit").toggleClass("is-masked");
+        $(".v-job__status-edit-goods, .v-job__status-edit-labor").addClass("is-masked");
     });
     //Edit Timeline: Add Files
-    $(".job__status-event-info-upload").change(function(){
+    $(".v-job__status-event-info-upload").change(function(){
         $(this).next().removeClass("is-hidden");
     });
     // Add Technician Vendor Scheduling
-    $(".job__schedule-add").click(function(){
-            $(".job__schedule-option").first().toggleClass("is-collapsed");
-            $(".job__schedule-add-tech").toggleClass("is-collapsed");
-            $(".job__schedule-add, .job__schedule-save, .job__schedule-cancel").toggleClass("is-masked");
-            $(".job__schedule-add-tech-input").attr("autofocus", true);
+    $(".v-job__schedule-add").click(function(){
+            $(".v-job__schedule-option").first().toggleClass("is-collapsed");
+            $(".v-job__schedule-add-tech").toggleClass("is-collapsed");
+            $(".v-job__schedule-add, .v-job__schedule-save, .v-job__schedule-cancel").toggleClass("is-masked");
+            $(".v-job__schedule-add-tech-input").attr("autofocus", true);
     });
-     $(".job__schedule-save, .job__schedule-cancel").click(function(){
-            $(".job__schedule-option").first().toggleClass("is-collapsed");
-            $(".job__schedule-add-tech").toggleClass("is-collapsed");
-            $(".job__schedule-add, .job__schedule-save, .job__schedule-cancel").toggleClass("is-masked");
-            $(".job__schedule-add-tech-input").removeAttr("autofocus");
+     $(".v-job__schedule-save, .v-job__schedule-cancel").click(function(){
+            $(".v-job__schedule-option").first().toggleClass("is-collapsed");
+            $(".v-job__schedule-add-tech").toggleClass("is-collapsed");
+            $(".v-job__schedule-add, .v-job__schedule-save, .v-job__schedule-cancel").toggleClass("is-masked");
+            $(".v-job__schedule-add-tech-input").removeAttr("autofocus");
     });
     // Vendor Signup Confirm
     $(".vendor__signup-finalize-button").click(function(){
@@ -173,7 +184,7 @@ $(document).ready(function() {
         $(".rfq__dismiss-feedback").toggleClass("is-masked");
     });
     // RFQ Vendor Submit
-    $(".job__schedule-button").click(function(){
+    $(".v-job__schedule-button").click(function(){
         $(this).next(".job__schedule-time-updated").addClass("animated fadeIn");
     });
     // RFQ Vendor Submit
@@ -200,21 +211,21 @@ $(document).ready(function() {
         $(".vendor__bid-form, .vendor__info-form, .vendor__invoice-form").toggleClass("is-masked");
     });
     // Job Page Upload File
-    $(".job__bid-upload-file, .job__info-upload-file, .job__invoice-upload-file").change(function(){
-        $(".job__bid-upload-filename, .job__info-upload-filename, .job__invoice-upload-filename").text(this.value);
-        $(".job__bid-upload-approved, .job__info-upload-approved, .job__invoice-upload-approved").toggleClass("is-hidden");
-        $(".job__bid-upload-filename, .job__info-upload-filename, .job__invoice-upload-filename").toggleClass("is-hidden");
-        $(".job__bid-button, .job__info-button, .job__invoice-button").attr("disabled", false);
+    $(".v-job__bid-upload-file, .v-job__info-upload-file, .v-job__invoice-upload-file").change(function(){
+        $(".v-job__bid-upload-filename, .v-job__info-upload-filename, .v-job__invoice-upload-filename").text(this.value);
+        $(".v-job__bid-upload-approved, .v-job__info-upload-approved, .v-job__invoice-upload-approved").toggleClass("is-hidden");
+        $(".v-job__bid-upload-filename, .v-job__info-upload-filename, .v-job__invoice-upload-filename").toggleClass("is-hidden");
+        $(".v-job__bid-button, .v-job__info-button, .v-job__invoice-button").attr("disabled", false);
     });
-    $(".job__bid-button-submit, .job__info-button-submit, .job__invoice-button-submit").click(function() {
-        $(".job__bid-upload-approved, .job__info-upload-approved, .job__invoice-upload-approved").toggleClass("is-hidden");
-        $(".job__bid-upload-filename, .job__info-upload-filename, .job__invoice-upload-filename").toggleClass("is-hidden");
-        $(".job__bid-form, .job__info-form, .job__invoice-form").toggleClass("is-masked");
-        $(".job__bid-submission, .job__info-submission, .job__invoice-submission").toggleClass("is-slid-down");
+    $(".v-job__bid-button-submit, .v-job__info-button-submit, .v-job__invoice-button-submit").click(function() {
+        $(".v-job__bid-upload-approved, .v-job__info-upload-approved, .v-job__invoice-upload-approved").toggleClass("is-hidden");
+        $(".v-job__bid-upload-filename, .v-job__info-upload-filename, .v-job__invoice-upload-filename").toggleClass("is-hidden");
+        $(".v-job__bid-form, .v-job__info-form, .v-job__invoice-form").toggleClass("is-masked");
+        $(".v-job__bid-submission, .v-job__info-submission, .v-job__invoice-submission").toggleClass("is-slid-down");
     });
-    $(".job__bid-submission-button, .job__info-submission-button, .job__invoice-submission-button").click(function() {
-        $(".job__bid-submission, .job__info-submission, .job__invoice-submission").toggleClass("is-slid-down");
-        $(".job__bid-form, .job__info-form, .job__invoice-form").toggleClass("is-masked");
+    $(".v-job__bid-submission-button, .v-job__info-submission-button, .v-job__invoice-submission-button").click(function() {
+        $(".v-job__bid-submission, .v-job__info-submission, .v-job__invoice-submission").toggleClass("is-slid-down");
+        $(".v-job__bid-form, .v-job__info-form, .v-job__invoice-form").toggleClass("is-masked");
     });
     // Vendor Queue Bid History
     $(".vendor__bid-history-cta-button, .vendor__bid-history-pending-dismiss, .vendor__info-history-cta-button, .vendor__info-history-pending-dismiss, .vendor__invoice-history-cta-button, .vendor__invoice-history-pending-dismiss").click(function(){
@@ -311,6 +322,19 @@ $(document).ready(function() {
         $(".facility__unit-history-add-info").toggleClass("is-masked");
         $(".facility__unit-history-add-event").toggleClass("is-emphasized-post-click");
         $(".facility__unit-history-add-event").toggleClass("is-emphasized-on-hover");
+    });
+    //Toggle Subnav for O-Jobs
+    $(".facility__projects-subnav-active").click(function(){
+            $(".facility__projects-completed").addClass("is-masked");
+            $(".facility__projects-active").removeClass("is-masked");
+            $(".facility__projects-subnav-completed").removeClass("is-active");
+            $(".facility__projects-subnav-active").addClass("is-active");
+    });
+    $(".facility__projects-subnav-completed").click(function(){
+            $(".facility__projects-active").addClass("is-masked");
+            $(".facility__projects-completed").removeClass("is-masked");
+            $(".facility__projects-subnav-active").removeClass("is-active");
+            $(".facility__projects-subnav-completed").addClass("is-active");
     });
     //Toggle Subnav for Vendor Dash
     $(".vendor__index-subnav-active").click(function(){
@@ -460,6 +484,19 @@ $(document).ready(function() {
             $(".proposal__procure-subnav-qa").toggleClass("is-active");
             $(".proposal__procure-subnav-equipment").toggleClass("is-active");
     });
+    //For Job Page
+    $(".v-job__aside-subnav-equipment").click(function(){
+            $(".v-job__qa").toggleClass("is-masked");
+            $(".v-job__aside-subnav-qa").toggleClass("is-active");
+            $(".v-job__aside-subnav-equipment").toggleClass("is-active");
+            $(".v-job__equipment").toggleClass("is-masked");
+    });
+     $(".v-job__aside-subnav-qa").click(function(){
+            $(".v-job__qa").toggleClass("is-masked");
+            $(".v-job__equipment").toggleClass("is-masked");
+            $(".v-job__aside-subnav-qa").toggleClass("is-active");
+            $(".v-job__aside-subnav-equipment").toggleClass("is-active");
+    });
     //For Modal Overlays
     $(".overlay-scope").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
@@ -468,22 +505,22 @@ $(document).ready(function() {
                 scrollTop: $("#overlay").offset().top
             }, 500);
     });
-    $(".rfq__zoom-doc").click(function(){
+    $(".rfq__zoom-doc, .o-job__bid-zoom-item").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
             $('html, body').animate({
-                scrollTop: $("#overlay").offset().top
+                scrollTop: $(".overlay").offset().top
             }, 500);
     });
      $(".overlay__dismiss").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
-    $(".project__equipment-piece, .proposal__procure-goods-part, .job__equipment-unit").click(function(){
+    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
             $('html, body').animate({
-                scrollTop: $("#overlay-equipment").offset().top
+                scrollTop: $(".overlay-equipment").offset().top
             }, 500);
     });
     $(".facility__suite-unit-card").click(function(){
@@ -497,6 +534,7 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
     });
+
     //Confirmation Overlay
     $(".proposal__form-button-encourage").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
@@ -565,7 +603,7 @@ $(document).ready(function() {
         $("article.siteNav__alerts-popover section").addClass("is-masked");
         $(".siteNav__invoices-popover").toggleClass("is-masked");
     });
-    $(".dashboard, .events, .page__wrapper, main, .page__poster, page__wrapper-bleed").click(function(){
+    $(".dashboard, .events, .page__wrapper, main, .page__poster, .page__wrapper-bleed").click(function(){
         $("article.siteNav__alerts-popover section").addClass("is-masked");
     });
 });

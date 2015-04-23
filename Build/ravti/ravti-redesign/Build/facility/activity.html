@@ -40,17 +40,18 @@
 </header>
 	<nav class="siteNav">
 		<a class='current-parent' href="../index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
-		<h2 class="siteNav__page-title">Facility</h2>
+		<h2 class="siteNav__page-title">Activity</h2>
 		<section class="siteNav__control">
 			<nav class="siteNav__alerts">
 				<i class="siteNav__alert-proposals">
 					<span class="has-alerts">5</span>
 				</i>
+				<!--
 				<i class="siteNav__alert-events">
 					<span class="has-alerts">&bull;</span>
 				</i>
+				-->
 				<i class="siteNav__alert-invoices">
-					<span class="has-alerts">14</span>
 				</i>
 				<article class="siteNav__alerts-popover">
 					<section class="siteNav__proposals-popover is-masked">
@@ -85,9 +86,10 @@
 							</li>
 						</ul>
 						<footer class="siteNav__proposals-popover-footer">
-						<a href="projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
+						<a href="../projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
 						</footer>
 					</section>
+					<!--
 					<section class="siteNav__events-popover is-masked">
 						<header class="siteNav__events-popover-head">
 							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
@@ -133,11 +135,12 @@
 						<a href=""><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
 						</footer>
 					</section>
+					-->
 					<section class="siteNav__invoices-popover is-masked">
 						<header class="siteNav__invoices-popover-head">
 							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
 						</header>
-						<ul class="siteNav__invoices-popover-list">
+						<ul class="siteNav__invoices-popover-list is-masked">
 							<li class="siteNav__invoices-popover-item">
 								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
 								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
@@ -164,15 +167,19 @@
 								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
 							</li>
 						</ul>
-						<footer class="siteNav__invoices-popover-footer">
-						<a href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+						<footer class="siteNav__invoices-popover-footer is-masked">
+						<a href="../billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
 						</footer>
+						<div class="siteNav__invoices-popover-list-blank">
+							<h2>No Invoices Outstanding</h2>
+							<p>Yahoo! You're all caught up.</p>
+						</div>
 					</section>
 				</article>
 			</nav>
 			<div class="siteNav__account">
-				<span class="siteNav__account-username">Monique</span>
-				<img class="siteNav__account-image" src="../assets/users_gibson.png"/>
+				<span class="siteNav__account-username">John G.</span>
+				<img class="siteNav__account-image" src="../assets/dummy-avatar.svg"/>
 			</div>
 		</section>
 		<div class="accountNav__bucket is-masked">
@@ -183,14 +190,15 @@
 			<img class="accountNav__toggle-image" src="../assets/dismiss-trigger-inverted.svg"/>
 		</div>
 	</nav>
+	
 	<section class="page__wrapper-bleed">
 		<section class="facility__identity">
 			<section class="facility__identity-cover">
 				<div class="facility__identity-cover-plate">
-					<h1 class="facility__identity-cover-title">8200 Doral</h1>
+					<h1 class="facility__identity-cover-title">1 Howard</h1>
 					<address class="facility__identity-cover-location">
-						<span>NW 9th Ave</span>
-						<span>Doral, FL. 33178</span>
+						<span>1 Howard Street</span>
+						<span>San Francisco, CA 94111</span>
 					</address>
 				</div>
 			</section>
@@ -201,165 +209,35 @@
 			<nav class="facility__duties">
 				<ul class="facility__duties-list">
 					<li class="facility__duty is-active"><a href="#">Activity</a></li>
-					<li class="facility__duty"><a href="projects-blank.html">Projects</a></li></a>
-					<li class="facility__duty"><a href="service-blank.html">Service Calls</a></li>
+					<li class="facility__duty"><a href="jobs.html">Jobs</a></li></a>
 					<li class="facility__duty"><a href="equipment.html">Equipment</a></li>
-					<li class="facility__duty"><a href="suites.html">Suites</a></li>
-					<li class="facility__duty"><a href="billing.html">Billing</a></li>
+					<li class="facility__duty"><a href="billing.html">Invoices</a></li>
 				</ul>
 				<ul class="facility__duties-mobile-list">
 					<li class="current current facility__duty-bucket is-active"><a class='current current' href="activity.html">Activity</a></li>
-					<li class="facility__duty-bucket"><a href="projects-blank.html">Projects</a></li></a>
-					<li class="facility__duty-bucket"><a href="service-blank.html">Service Calls</a></li>
+					<li class="facility__duty-bucket"><a href="jobs.html">Jobs</a></li></a>
 					<li class="facility__duty-bucket"><a href="equipment.html">Equipment</a></li>
-					<li class="facility__duty-bucket"><a href="suites.html">Suites</a></li>
-					<li class="facility__duty-bucket"><a href="billing.html">Billing</a></li>
+					<li class="facility__duty-bucket"><a href="billing.html">Invoices</a></li>
 				</ul>
 			</nav>
 			<section class="facility__activity">
 				<section class="facility__activity-feed">
-					<article class="facility__activity-feed-event">
+					<a class="facility__activity-feed-event" href="jobs/service-call.html">
 						<header class="facility__event-header">
-							<h2 class="facility__event-header-title is-work-request">Work Request</h2>
+							<h2 class="facility__event-header-title is-service-call">Service Call</h2>
 							<div class="facility__event-header-marker">
-								<span class="facility__event-header-marker-status">Collecting Bids</span><span class="facility__event-header-marker-tag">DOR &mdash; 003</span>
+								<span class="facility__event-header-marker-status">Scheduled</span><span class="facility__event-header-marker-tag">HOW &mdash; 003</span>
 							</div>
 						</header>
 						<div class="facility__event-summary">
 							<ul class="facility__event-summary-list">
 								<li class="facility__event-summary-list-item">
 									<span class="facility__event-summary-list-term">Equipment</span>
-									<span class="facility__event-summary-list-definition">Split-System</span>
+									<span class="facility__event-summary-list-definition">RTU-33</span>
 								</li>
 								<li class="facility__event-summary-list-item">
 									<span class="facility__event-summary-list-term">Issue/Description</span>
-									<span class="facility__event-summary-list-definition">Water Leak / Drainage Problem</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Priority</span>
-									<span class="facility__event-summary-list-definition">Emergency</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Notes</span>
-									<span class="facility__event-summary-list-definition">It's scorching hot outside. We don’t know what to do, please help!</span>
-								</li>
-							</ul>
-							<div class="facility__event-summary-thumbnail">
-								<img class="facility__event-summary-thumbnail-img" src="../assets/rtu.jpg" />
-							</div>
-						</div>
-						<footer class="facility__event-meta">
-							<div class="facility__event-meta-stamp">
-								<figure class="facility__event-meta-stamp-user">
-									<img src="../assets/dummy-avatar.svg" />
-								</figure>
-								<cite class="facility__event-meta-stamp-cite">
-									<span>Requested By: </span>
-									<span>Jay, Suite #125 </span>
-									<span>on December 18th at 2:21pm.</span>
-								</cite>
-							</div>
-						</footer>
-					</article>
-					<article class="facility__activity-feed-event">
-						<a class="facility__activity-feed-event-anchor">
-						<header class="facility__event-header">
-							<h2 class="facility__event-header-title is-repair">Repair</h2>
-							<div class="facility__event-header-marker">
-								<span class="facility__event-header-marker-status">Performing</span><span class="facility__event-header-marker-tag">DOR &mdash; 002</span>
-							</div>
-						</header>
-						<div class="facility__event-summary">
-							<ul class="facility__event-summary-list">
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Equipment</span>
-									<span class="facility__event-summary-list-definition">Split-System</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Issue/Description</span>
-									<span class="facility__event-summary-list-definition">Water Leak / Drainage Problem</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Priority</span>
-									<span class="facility__event-summary-list-definition">Emergency</span>
-								</li>
-							</ul>
-							<div class="facility__event-summary-thumbnail">
-								<img class="facility__event-summary-thumbnail-img" src="../assets/rtu-3.jpg" />
-							</div>
-						</div>
-						<footer class="facility__event-meta">
-							<div class="facility__event-meta-stamp">
-								<figure class="facility__event-meta-stamp-user">
-									<img src="../assets/dummy-avatar.svg" />
-								</figure>
-								<cite class="facility__event-meta-stamp-cite">
-									<span>Requested By: </span>
-									<span>Jay, Suite #125 </span>
-									<span>on December 18th at 2:21pm.</span>
-								</cite>
-							</div>
-						</footer>
-						</a>
-					</article>
-					<article class="facility__activity-feed-event">
-						<header class="facility__event-header">
-							<h2 class="facility__event-header-title is-preventative">Prevenative</h2>
-							<div class="facility__event-header-marker">
-								<span class="facility__event-header-marker-status">Performing</span><span class="facility__event-header-marker-tag">DOR &mdash; 002</span>
-							</div>
-						</header>
-						<div class="facility__event-summary">
-							<ul class="facility__event-summary-list">
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Equipment</span>
-									<span class="facility__event-summary-list-definition">Split-System</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Issue/Description</span>
-									<span class="facility__event-summary-list-definition">Water Leak / Drainage Problem</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Priority</span>
-									<span class="facility__event-summary-list-definition">Emergency</span>
-								</li>
-							</ul>
-							<div class="facility__event-summary-thumbnail">
-							</div>
-						</div>
-						<footer class="facility__event-meta">
-							<div class="facility__event-meta-stamp">
-								<figure class="facility__event-meta-stamp-user">
-									<img src="../assets/dummy-avatar.svg" />
-								</figure>
-								<cite class="facility__event-meta-stamp-cite">
-									<span>Requested By: </span>
-									<span>Jay, Suite #125 </span>
-									<span>on December 18th at 2:21pm.</span>
-								</cite>
-							</div>
-						</footer>
-					</article>
-					<article class="facility__activity-feed-event">
-						<header class="facility__event-header">
-							<h2 class="facility__event-header-title is-replacement">Replacement</h2>
-							<div class="facility__event-header-marker">
-								<span class="facility__event-header-marker-status">Performing</span><span class="facility__event-header-marker-tag">DOR &mdash; 002</span>
-							</div>
-						</header>
-						<div class="facility__event-summary">
-							<ul class="facility__event-summary-list">
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Equipment</span>
-									<span class="facility__event-summary-list-definition">Split-System</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Issue/Description</span>
-									<span class="facility__event-summary-list-definition">Water Leak / Drainage Problem</span>
-								</li>
-								<li class="facility__event-summary-list-item">
-									<span class="facility__event-summary-list-term">Priority</span>
-									<span class="facility__event-summary-list-definition">Emergency</span>
+									<span class="facility__event-summary-list-definition">Belt making funky noises</span>
 								</li>
 							</ul>
 							<div class="facility__event-summary-thumbnail">
@@ -373,12 +251,82 @@
 								</figure>
 								<cite class="facility__event-meta-stamp-cite">
 									<span>Requested By: </span>
-									<span>Jay, Suite #125 </span>
-									<span>on December 18th at 2:21pm.</span>
+									<span>Facility Engineer </span>
+									<span>on April 23th at 9:21pm.</span>
 								</cite>
 							</div>
 						</footer>
-					</article>
+					</a>
+					<a class="facility__activity-feed-event" href="jobs/job-proposal.html">
+						<header class="facility__event-header">
+							<h2 class="facility__event-header-title is-repair">Repair</h2>
+							<div class="facility__event-header-marker">
+								<span class="facility__event-header-marker-status">Pending</span><span class="facility__event-header-marker-tag">HOW &mdash; 002</span>
+							</div>
+						</header>
+						<div class="facility__event-summary">
+							<ul class="facility__event-summary-list">
+								<li class="facility__event-summary-list-item">
+									<span class="facility__event-summary-list-term">Equipment</span>
+									<span class="facility__event-summary-list-definition">VSC-1</span>
+								</li>
+								<li class="facility__event-summary-list-item">
+									<span class="facility__event-summary-list-term">Issue/Description</span>
+									<span class="facility__event-summary-list-definition">Compressor replacement with new refridgerant and new filter drier.</span>
+								</li>
+							</ul>
+							<div class="facility__event-summary-thumbnail">
+								<img class="facility__event-summary-thumbnail-img" src="../assets/vsc-1.jpg" />
+							</div>
+						</div>
+						<footer class="facility__event-meta">
+							<div class="facility__event-meta-stamp">
+								<figure class="facility__event-meta-stamp-user">
+									<img src="../assets/dummy-avatar.svg" />
+								</figure>
+								<cite class="facility__event-meta-stamp-cite">
+									<span>Requested By: </span>
+									<span>Facility Engineer </span>
+									<span>on April 14th at 9:38am.</span>
+								</cite>
+							</div>
+						</footer>
+					</a>
+					<a class="facility__activity-feed-event" href="jobs/job-completed.html">
+						<header class="facility__event-header">
+							<h2 class="facility__event-header-title is-replacement">Replacement</h2>
+							<div class="facility__event-header-marker">
+								<span class="facility__event-header-marker-status">Completed</span><span class="facility__event-header-marker-tag">HOW &mdash; 001</span>
+							</div>
+						</header>
+						<div class="facility__event-summary">
+							<ul class="facility__event-summary-list">
+								<li class="facility__event-summary-list-item">
+									<span class="facility__event-summary-list-term">Equipment</span>
+									<span class="facility__event-summary-list-definition">RTU-2</span>
+								</li>
+								<li class="facility__event-summary-list-item">
+									<span class="facility__event-summary-list-term">Issue/Description</span>
+									<span class="facility__event-summary-list-definition">Drainpan corroded. Replacement recommended.</span>
+								</li>
+							</ul>
+							<div class="facility__event-summary-thumbnail">
+								<img class="facility__event-summary-thumbnail-img" src="../assets/rtu.jpg" />
+							</div>
+						</div>
+						<footer class="facility__event-meta">
+							<div class="facility__event-meta-stamp">
+								<figure class="facility__event-meta-stamp-user">
+									<img src="../assets/dummy-avatar.svg" />
+								</figure>
+								<cite class="facility__event-meta-stamp-cite">
+									<span>Requested By: </span>
+									<span>John G. </span>
+									<span>on April 12th at 1:32pm.</span>
+								</cite>
+							</div>
+						</footer>
+					</a>
 				</section>
 				<section class="facility__activity-aside">
 					<article class="facility__activity-prevent">
