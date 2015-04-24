@@ -975,7 +975,9 @@ hr {
 .vendor__info-history-cta-title b, .vendor__bid-history-pending-title b,
 .vendor__invoice-history-pending-title b,
 .vendor__info-history-pending-title b, .vendor__index-td:nth-child(2), .job__recap-address span:first-of-type, .job__abstract-freight span, .job__po-entity-address span:first-of-type, .job__po-bill-td, .job__po-bill-sum-td, .job__schedule-copy b, .job__schedule-status-detail span:last-child, .job__qa-username, .o-job__event-list-label, .o-job__event-time-in span,
-.o-job__event-time-out span, .o-job__quote-vendor + .o-job__bid-label, .o-job__abstract-date-numeral, .o-job__bid-option-price, .o-job__bid-options-detail b, .o-job__bid-total-number, .o-job__perform-vendor li:first-child, .o-job__perform-vendor span:last-child, .v-job__recap-address span:first-of-type, .v-job__abstract-freight span, .v-job__po-entity-address span:first-of-type, .v-job__po-bill-td, .v-job__po-bill-sum-td, .v-job__schedule-copy b, .v-job__schedule-status-detail span:last-child, .v-job__qa-username {
+.o-job__event-time-out span, .o-job__quote-vendor + .o-job__bid-label, .o-job__abstract-date-numeral, .o-job__bid-option-price, .o-job__bid-options-detail b, .o-job__bid-total-number, .o-job__perform-vendor li:first-child, .o-job__perform-vendor span:last-child, .o-job__bid-meta,
+.o-job__event-meta,
+.o-job__quote-meta, .v-job__recap-address span:first-of-type, .v-job__abstract-freight span, .v-job__po-entity-address span:first-of-type, .v-job__po-bill-td, .v-job__po-bill-sum-td, .v-job__schedule-copy b, .v-job__schedule-status-detail span:last-child, .v-job__qa-username {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
@@ -19121,6 +19123,10 @@ dd {
 .o-job__feed-head,
 .o-job__bid-head,
 .o-job__scope-head {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.o-job__abstract-head {
   margin-top: 0; }
 
 .o-job__abstract-id {
@@ -19204,29 +19210,26 @@ dd {
   line-height: 1; }
 
 @media screen and (min-width: 46.8em) {
+  .o-job__feed {
+    position: relative;
+    border-left: 2px solid #e3e5ea;
+    padding-left: 22.4px;
+    padding-left: 1.4rem;
+    padding-bottom: 22.4px;
+    padding-bottom: 1.4rem; } }
+@media screen and (min-width: 46.8em) {
   .o-job__feed .is-job-closed {
     margin-top: 0; } }
 .o-job__feed > article {
-  margin-top: 44.8px;
-  margin-top: 2.8rem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
   position: relative; }
   @media screen and (min-width: 46.8em) {
-    .o-job__feed > article:first-child {
-      margin-top: 0; }
-      .o-job__feed > article:first-child:before {
-        display: none; } }
-  .o-job__feed > article:before {
-    content: '';
-    height: 44px;
-    height: 2.75rem;
-    width: 1px;
-    width: 0.0625rem;
-    background: #e3e5ea;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    top: -44px;
-    top: -2.75rem; }
+    .o-job__feed > article {
+      margin-top: 44.8px;
+      margin-top: 2.8rem; }
+      .o-job__feed > article:first-child {
+        margin-top: 0; } }
 .o-job__feed .o-job__feed-subnav + article {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
@@ -19238,6 +19241,23 @@ dd {
     display: none; }
   .o-job__feed .o-job__scope .o-job__scope-head {
     border-top: 4px double #e3e5ea; }
+.o-job__feed:after {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  display: inline-block;
+  background: #e3e5ea;
+  height: 2px;
+  height: 0.125rem;
+  left: -1px;
+  left: -0.0625rem;
+  width: 20px;
+  width: 1.25rem;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
 
 .o-job__feed-subnav {
   margin-top: 44.8px;
@@ -19264,19 +19284,6 @@ dd {
       .o-job__event:first-child:before,
       .o-job__perform:first-child:before {
         display: none; } }
-  .o-job__event:before,
-  .o-job__perform:before {
-    content: '';
-    height: 44px;
-    height: 2.75rem;
-    width: 1px;
-    width: 0.0625rem;
-    background: #e3e5ea;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    top: -44px;
-    top: -2.75rem; }
   .o-job__event .is-responded-to > ul:before,
   .o-job__perform .is-responded-to > ul:before {
     position: absolute;
@@ -19325,7 +19332,8 @@ dd {
 
 .o-job__event-header,
 .o-job__perform-header {
-  margin-top: 0;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
   background: white;
   border: 1px solid #e3e5ea; }
   @media screen and (min-width: 46.8em) {
@@ -19506,7 +19514,8 @@ dd {
     background-size: cover; }
 
 .o-job__quote-header {
-  margin-top: 0;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
   text-align: center;
   color: #092f3e; }
 
@@ -19662,9 +19671,6 @@ dd {
     .o-job__bid .is-sourcing {
       min-height: 600px;
       min-height: 37.5rem; } }
-
-.o-job__bid-head {
-  margin-top: 0; }
 
 .o-job__bid-head-title span {
   opacity: 0; }
@@ -20231,6 +20237,84 @@ dd {
       .o-job__perform-warranty-spec time {
         padding-top: 11.2px;
         padding-top: 0.7rem; } }
+
+.o-job__bid-meta,
+.o-job__event-meta,
+.o-job__quote-meta {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  line-height: 1.68;
+  padding: 11.2px;
+  padding: 0.7rem;
+  position: relative;
+  display: block;
+  text-align: center;
+  background: #fafafb; }
+  .o-job__bid-meta:before,
+  .o-job__event-meta:before,
+  .o-job__quote-meta:before, .o-job__bid-meta:after,
+  .o-job__event-meta:after,
+  .o-job__quote-meta:after {
+    content: '';
+    height: 22.4px;
+    height: 1.4rem;
+    width: 2px;
+    width: 0.125rem;
+    background: #e3e5ea;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .o-job__bid-meta:before,
+  .o-job__event-meta:before,
+  .o-job__quote-meta:before {
+    top: -22.4px;
+    top: -1.4rem; }
+  .o-job__bid-meta:after,
+  .o-job__event-meta:after,
+  .o-job__quote-meta:after {
+    bottom: -22.4px;
+    bottom: -1.4rem; }
+  @media screen and (min-width: 46.8em) {
+    .o-job__bid-meta,
+    .o-job__event-meta,
+    .o-job__quote-meta {
+      padding: 0;
+      text-align: left;
+      margin-top: -2px;
+      margin-top: -0.125rem; }
+      .o-job__bid-meta:before,
+      .o-job__event-meta:before,
+      .o-job__quote-meta:before {
+        content: '';
+        height: 16px;
+        height: 1rem;
+        width: 16px;
+        width: 1rem;
+        background: #e3e5ea;
+        position: absolute;
+        left: -23.4px;
+        left: -1.4625rem;
+        top: -2px;
+        top: -0.125rem;
+        -webkit-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -o-border-radius: 40px;
+        border-radius: 40px;
+        -webkit-transform: translate(-50%, 10%);
+        -ms-transform: translate(-50%, 10%);
+        -moz-transform: translate(-50%, 10%);
+        -o-transform: translate(-50%, 10%);
+        transform: translate(-50%, 10%); }
+      .o-job__bid-meta:after,
+      .o-job__event-meta:after,
+      .o-job__quote-meta:after {
+        display: none; } }
 
 .v-job__abstract-head,
 .v-job__recap-head,
