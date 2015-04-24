@@ -19243,6 +19243,9 @@ dd {
   margin-top: 44.8px;
   margin-top: 2.8rem; }
 
+.o-job__feed-subnav-buckets {
+  border-color: #c7cacd; }
+
 .o-job__feed-subnav-bucket {
   color: #93989c; }
   .o-job__feed-subnav-bucket:hover {
