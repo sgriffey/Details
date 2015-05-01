@@ -210,11 +210,17 @@
 							<h1 class="o-job__abstract-title">Job Overview</h1>
 						</header>
 						<section class="o-job__abstract-body">
-							<h2 class="o-job__abstract-id"><span>HOW-003</span></h2>
+							<h2 class="o-job__abstract-id"><span>HOW-002</span></h2>
 							<address class="o-job__abstract-address">
 								<span>1 Howard Ave</span>
 								<span>San Francisco, CA. 94111</span>
 							</address>
+							<dl class="o-job__abstract-dl">
+								<dt>Hired Vendors:</dt>
+								<dd>Bay Fog Mechanical</dd>
+								<dt>Service Location:</dt>
+								<dd>Roof</dd>
+							</dl>
 							<section class="o-job__abstract-timetable" border="0">
 								<section class="o-job__abstract-date">
 									<div class="o-job__abstract-date-open">
@@ -223,7 +229,7 @@
 									</div>
 									<div class="o-job__abstract-date-closed">
 										<span>Closed</span>
-										<time class="o-job__abstract-date-numeral"></time>
+										<time class="o-job__abstract-date-numeral is-undefined"></time>
 									</div>
 								</section>
 							</section>
@@ -240,30 +246,41 @@
 							<div class="o-job__event-body">
 								<ul class="o-job__event-list">
 									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Equipment</span>
+										<article class="o-job__event-equipment">
+											<div class="o-job__event-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__event-equipment-specs">
+												<li class="o-job__event-equipment-spec">RTU-33</li>
+												<li class="o-job__event-equipment-spec">Carrier</li>
+												<li class="o-job__event-equipment-spec">7.5</li>
+												<li class="o-job__event-equipment-spec is-undefined"></li>
+												<li class="o-job__event-equipment-spec">QR-1368</li>
+											</ul>
+										</article>
+									</li>
+									<li class="o-job__event-list-item">
 										<span class="o-job__event-list-label">Dispatched To</span>
 										<span class="o-job__event-list-value">Bay Fog Mechanical</span>
 									</li>
 									<li class="o-job__event-list-item">
 										<span class="o-job__event-list-label">Scheduled For</span>
-										<span class="o-job__event-list-value">4/24/15 &mdash; 11:30am</span>
+										<span class="o-job__event-list-value">4/24/15 - 11:30am</span>
 									</li>
 									<li class="o-job__event-list-item">
 										<div class="o-job__event-timetable">
-											<div class="o-job__event-times">
-												<div class="o-job__event-time-in">
-													<span>Arrival Time:</span>
-													<time>&mdash;</time>
-												</div>
-												<div class="o-job__event-time-out">
-													<span>Departure Time:</span>
-													<time>&mdash;</time>
-												</div>
+											<div class="o-job__event-time-in">
+												<span>Arrival Time</span>
+												<time class="is-undefined"></time>
+											</div>
+											<div class="o-job__event-time-out">
+												<span>Departure Time</span>
+												<time class="is-undefined"></time>
 											</div>
 										</div>
 									</li>
 									<li class="o-job__event-list-item">
 										<span class="o-job__event-list-label">Analysis</span>
-										<span class="o-job__event-list-value is-verbose">T.B.D.</span>
+										<span class="o-job__event-list-value is-undefined is-verbose"></span>
 									</li>
 								</ul>
 							</div>
@@ -276,25 +293,25 @@
 							<div class="o-job__event-body is-responded-to">
 								<ul class="o-job__event-list">
 									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Equipment</span>
+										<article class="o-job__event-equipment">
+											<div class="o-job__event-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__event-equipment-specs">
+												<li class="o-job__event-equipment-spec">RTU-33</li>
+												<li class="o-job__event-equipment-spec">Carrier</li>
+												<li class="o-job__event-equipment-spec is-undefined"></li>
+												<li class="o-job__event-equipment-spec">2006</li>
+												<li class="o-job__event-equipment-spec">QR-1368</li>
+											</ul>
+										</article>
+									</li>
+									<li class="o-job__event-list-item">
 										<span class="o-job__event-list-label">Requested By</span>
-										<span class="o-job__event-list-value">John G. on 4/24/14 at 9:21am</span>
+										<span class="o-job__event-list-value">John G. on 4/24/15 at 9:21am</span>
 									</li>
 									<li class="o-job__event-list-item">
 										<span class="o-job__event-list-label">Notes/Description</span>
-										<span class="o-job__event-list-value">Belt making funky noises</span>
-									</li>
-									<li class="o-job__event-list-item">
-										<span class="o-job__event-list-label">Equipment</span>
-										<article class="o-job__event-list-unit">
-											<div class="o-job__event-list-unit-img"><img src="../../assets/rtu-2.jpg"></div>
-											<ul class="o-job__event-list-unit-specs">
-												<li class="o-job__event-list-unit-spec">RTU-33</li>
-												<li class="o-job__event-list-unit-spec">Carrier</li>
-												<li class="o-job__event-list-unit-spec">7.5</li>
-												<li class="o-job__event-list-unit-spec">2006</li>
-												<li class="o-job__event-list-unit-spec">QR-45721</li>
-											</ul>
-										</article>
+										<span class="o-job__event-list-value is-verbose">Belt making funky noises</span>
 									</li>
 								</ul>
 							</div>
@@ -369,41 +386,6 @@
 		</section>
 	</section>
 </div>
-	<aside class="overlay is-masked" id="overlay">
-	<button class="overlay__dismiss"></button>
-	<section class="overlay__scope">
-		<h1 class="overlay__scope-title">Equipment and Equipment Warranty &mdash; RTU-1</h1>
-		<span class="overlay__scope-similarity">Same scope as RTU-2</span>
-		<ul class="overlay__scope-tasks">
-			<li class="overlay__scope-task">Disconnect all low-voltage wiring (control wiring)</li>
-			<li class="overlay__scope-task">Provide crane and necessary rigging to remove existing packaged
-			rooftop unit from existing location</li>
-			<li class="overlay__scope-task">Remove existing packaged rooftop unit from existing location, remove
-			from premise, and legally dispose of unit</li>
-			<li class="overlay__scope-task">Fly curb adapter (provided with equipment by owner) onto the roof</li>
-			<li class="overlay__scope-task">Provide necessary crane and rigging to place curb adapter on existing
-			roof curb</li>
-			<li class="overlay__scope-task">Utilize crane and provide necessary rigging to place new packaged
-			rooftop unit (provided by owner) on the curb adapter and seal
-			properly</li>
-			<li class="overlay__scope-task">Properly seal and sit new packaged rooftop unit on curb adapter</li>
-			<li class="overlay__scope-task">Provide and install new digital thermostat</li>
-			<li class="overlay__scope-task">Complete project in accordance with all necessary city, county and/or
-			state building code requirements (including but not limited to,
-			hurricane tie-down straps)</li>
-			<li class="overlay__scope-task">Pull all necessary building permits from proper city, county or state code
-			enforcement agency
-			</li>
-			<li class="overlay__scope-task">The scope of work for being awarded this project includes delivering a
-			fully operating system</li>
-			<li class="overlay__scope-task">Install unit in accordance to manufacture’s IOM (installation and
-			operation manual)</li>
-			<li class="overlay__scope-task">Provide authorized technician for start-up and first year warranty</li>
-			<li class="overlay__scope-task">First year warranty to include all parts, all labor and any after
-			hours emergency call for the first year</li>
-		</ul>
-	</section>
-</aside>
 	<aside class="overlay-equipment is-masked">
 	<button class="overlay-equipment-dismiss"></button>
 	<section class="overlay__equipment">
@@ -454,6 +436,36 @@
 			<img class="overlay__equipment-gallery-image" src="../../assets/rtu-3.jpg" />
 			<img class="overlay__equipment-gallery-image" src="../../assets/rtu-4.jpg" />
 		</section>
+	</section>
+</aside>
+	<aside class="overlay is-masked">
+	<button class="overlay__dismiss"></button>
+	<section class="overlay__scope">
+		<h1 class="overlay__scope-title">Parts, Labor and Materials Scope</h1>
+		<ul class="overlay__scope-tasks">
+			<li class="overlay__scope-task">Provide new OEM compressor</li>
+			<li class="overlay__scope-task">Freight</li>
+			<li class="overlay__scope-task">5-year compressor warranty</li>
+			<li class="overlay__scope-task">Shut down electrical power - lockout and tag out unit</li>
+			<li class="overlay__scope-task">Recover any existing refrigerant (if applicable) in accordance with EPA regulations</li>
+			<li class="overlay__scope-task">Break vacuum with dry nitrogen</li>
+			<li class="overlay__scope-task">Remove electrical wiring from defective compressor</li>
+			<li class="overlay__scope-task">Un-sweat refrigerant lines from defective compressor and liquid line filter/drier</li>
+			<li class="overlay__scope-task">Provide and install new filter drier (if existing, replace filter drier or drier core)</li>
+			<li class="overlay__scope-task">Install new OEM compressor and liquid line filter/drier and braze in refrigerant piping
+			</li>
+			<li class="overlay__scope-task">Pressurize refrigerant system with dry nitrogen and trace gas - leak check newly installed components and brazing  joints</li>
+			<li class="overlay__scope-task">Evacuate unit vacuum to 250 microns Hg</li>
+			<li class="overlay__scope-task">Hold test vacuum to ensure integrity of refrigeration circuit</li>
+			<li class="overlay__scope-task">Reconnect electrical wiring to new OEM compressor (if additional wiring is needed, provide and install)</li>
+			<li class="overlay__scope-task">Provide and install new virgin refrigerant into compressor circuit</li>
+			<li class="overlay__scope-task">Start unit</li>
+			<li class="overlay__scope-task">Check compressor amperage and ensure proper operation</li>
+			<li class="overlay__scope-task">Balance refrigerant charge to get correct liquid line sub-cooling</li>
+			<li class="overlay__scope-task">Ensure proper operation of new compressor and unit</li>
+			<li class="overlay__scope-task">Return to job site within 30 days and confirm proper operation and perform quick acid test to verify if filter drier needs to be replaced a second time  </li>
+			<li class="overlay__scope-task">Provide 60-day labor warranty</li>
+		</ul>
 	</section>
 </aside>
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

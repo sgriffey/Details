@@ -530,7 +530,12 @@ html {
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
-  letter-spacing: -0.02em; }
+  letter-spacing: -0.02em;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig"; }
 
 body {
   margin: 0 auto;
@@ -745,7 +750,7 @@ hr {
   -o-transform: translate3d(400%, 0, 0);
   transform: translate3d(400%, 0, 0); }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .o-job__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .o-job__feed-subnav-buckets, .v-job__aside-subnav-buckets, .projects__subnav-active,
+.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .o-job__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .v-job__aside-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
 .proposal__procure-subnav-qa, .project__details-subnav-terms,
 .project__details-subnav-equipment,
@@ -759,8 +764,8 @@ hr {
 .facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
 .rfq__aside-subnav-qa, .vendor__index-subnav-active,
 .vendor__index-subnav-completed, .job__aside-subnav-equipment,
-.job__aside-subnav-qa, .o-job__feed-subnav-bucket, .v-job__aside-subnav-equipment,
-.v-job__aside-subnav-qa, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .o-job__abstract-address, .v-job__abstract-address, .o-job__perform-vendor, .o-job__perform-warranty-label, .repair__abstract-dl, .repair__abstract-scope, .job__recap-address, .job__abstract-freight, .job__schedule-status, .v-job__recap-address, .v-job__abstract-freight, .v-job__schedule-status, .vendor__signup-fieldset, .job__status-list, .v-job__status-list, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .form__buttons-group, .form__example-fieldset, .onboard-dashboard__title, .onboard-dashboard__fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
+.job__aside-subnav-qa, .v-job__aside-subnav-equipment,
+.v-job__aside-subnav-qa, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .o-job__abstract-address, .v-job__abstract-address, .o-job__perform-vendor, .o-job__perform-warranty-label, .repair__abstract-dl, .repair__abstract-scope, .o-job__abstract-dl, .repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .repair__abstract-dl dt:first-child, .repair__abstract-scope dt:first-child, .o-job__abstract-dl dt:first-child, .repair__abstract-dl dd, .repair__abstract-scope dd, .o-job__abstract-dl dd, .job__recap-address, .job__abstract-freight, .job__schedule-status, .v-job__recap-address, .v-job__abstract-freight, .v-job__schedule-status, .vendor__signup-fieldset, .job__status-list, .v-job__status-list, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .form__buttons-group, .form__example-fieldset, .onboard-dashboard__title, .onboard-dashboard__fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -808,11 +813,15 @@ hr {
 .job__invoice-submission-copy,
 .job__info-submission-copy, .job__scan-list, .job__zoom-list,
 .job__zoom-list-dual, .job__status .is-collapsed .job__status-list, .job__status-timeline-button, .job__status-edit-goods h2,
-.job__status-edit-labor h2, .job__status-event-info-upload, .job__status-event-info-upload input, .job__po-bill-id, .job__po-entity-address, .job__schedule-copy, .job__schedule-fieldset, .job__schedule-fieldset-half, .job__timeline-list, .job__equipment-unit-spec-list, .job__qa, .o-job__abstract-id, .o-job__event-list, .o-job__bid-equipment-specs,
-.o-job__event-list-unit-specs, .o-job__quote-cost-price, .o-job__quote-vendor h2, .o-job__bid-fieldset, .o-job__bid-button-encourage, .o-job__bid-options-details, .o-job__bid-total, .o-job__bid-total-confirm-button,
-.o-job__bid-total-commit-button,
-.o-job__bid-total-cancel-button, .o-job__bid-scan-list,
-.o-job__bid-zoom-list, .o-job__bid-source-wrapper h2, .o-job__perform-warranty-spec-list, .o-job__perform-warranty-spec h3, .v-job__abstract-vendors, .v-job__invoice-fieldset,
+.job__status-edit-labor h2, .job__status-event-info-upload, .job__status-event-info-upload input, .job__po-bill-id, .job__po-entity-address, .job__schedule-copy, .job__schedule-fieldset, .job__schedule-fieldset-half, .job__timeline-list, .job__equipment-unit-spec-list, .job__qa, .o-job__abstract-id, .o-job__event-list, .o-job__quote-equipment-specs,
+.o-job__bid-equipment-specs,
+.o-job__event-equipment-specs, .o-job__quote-cost-price, .o-job__quote-cost-title, .o-job__quote-vendor h2, .o-job__quote-label + p, .o-job__bid-fieldset, .o-job__bid-options-details, .o-job__bid-total, .o-job__bid-total-number,
+.o-job__bid-total-label, .o-job__bid-scan-list,
+.o-job__bid-zoom-list,
+.o-job__bid-equipment-list,
+.o-job__quote-scan-list,
+.o-job__quote-zoom-list,
+.o-job__quote-equipment-list, .o-job__bid-source-wrapper h2, .o-job__perform-warranty-spec-list, .o-job__perform-warranty-spec h3, .v-job__abstract-vendors, .v-job__invoice-fieldset,
 .v-job__bid-fieldset,
 .v-job__info-fieldset, .v-job__invoice-finalize-text,
 .v-job__info-finalize-text, .v-job__bid-finalize-text, .v-job__invoice-finalize-address,
@@ -840,7 +849,7 @@ hr {
   padding-right: 22.4px;
   padding-right: 1.4rem; }
 
-.dashboard__index-control-map i, .job__schedule-save-icon, .o-job__quote-cta .is-cta-approve, .v-job__schedule-save-icon, .o-job__quote-cta .is-cta-bid, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
+.dashboard__index-control-map i, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .o-job__quote-cta [data-icon-bid], .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
 .dashboard__request-control-upload-icon, .overlay__mobile-request-upload-icon,
 .overlay__mobile-request-tag-icon, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .job__status-event-info-upload-icon, .job__schedule-add-icon, .v-job__status-event-info-upload-icon, .v-job__schedule-add-icon, .dashboard__feedback-dismiss-trigger i, .overlay__mobile-request-feedback-button i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i,
@@ -851,7 +860,7 @@ hr {
 .vendor__invoice-history-cta-button,
 .vendor__info-history-cta-button, .job__status-banner-button, .v-job__status-banner-button, .vendor__bid-history-item-remove,
 .vendor__invoice-history-item-remove,
-.vendor__info-history-item-remove, .o-job__quote-cta .is-cta-deny, .o-job__bid-total-feedback:after, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before {
+.vendor__info-history-item-remove, .o-job__quote-cta [data-icon-deny], .o-job__bid-verify-cancel, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before {
   display: inline-block;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -864,7 +873,7 @@ hr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.dashboard__index-control-map i:before, .job__schedule-save-icon:before, .o-job__quote-cta .is-cta-approve:before, .v-job__schedule-save-icon:before, .o-job__quote-cta .is-cta-bid:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
+.dashboard__index-control-map i:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .o-job__quote-cta [data-icon-bid]:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
 .dashboard__request-control-upload-icon:before, .overlay__mobile-request-upload-icon:before,
 .overlay__mobile-request-tag-icon:before, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .job__status-event-info-upload-icon:before, .job__schedule-add-icon:before, .v-job__status-event-info-upload-icon:before, .v-job__schedule-add-icon:before, .dashboard__feedback-dismiss-trigger i:before, .overlay__mobile-request-feedback-button i:before, .facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before,
@@ -875,7 +884,7 @@ hr {
 .vendor__invoice-history-cta-button:before,
 .vendor__info-history-cta-button:before, .job__status-banner-button:before, .v-job__status-banner-button:before, .vendor__bid-history-item-remove:before,
 .vendor__invoice-history-item-remove:before,
-.vendor__info-history-item-remove:before, .o-job__quote-cta .is-cta-deny:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .job__schedule-save-icon:after, .o-job__quote-cta .is-cta-approve:after, .v-job__schedule-save-icon:after, .o-job__quote-cta .is-cta-bid:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
+.vendor__info-history-item-remove:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
 .dashboard__request-control-upload-icon:after, .overlay__mobile-request-upload-icon:after,
 .overlay__mobile-request-tag-icon:after, .facility__pm-tenant-action-enroll i:after, .job__status-event-info-upload-icon:after, .job__schedule-add-icon:after, .v-job__status-event-info-upload-icon:after, .v-job__schedule-add-icon:after, .dashboard__feedback-dismiss-trigger i:after, .overlay__mobile-request-feedback-button i:after, .facility__unit-navigation-button i:after, .facility__suite-navigation-button i:after, .facility__pm-navigation-button i:after, .vendor__bid-submission-button i:after,
 .vendor__invoice-submission-button i:after,
@@ -885,17 +894,17 @@ hr {
 .vendor__invoice-history-cta-button:after,
 .vendor__info-history-cta-button:after, .job__status-banner-button:after, .v-job__status-banner-button:after, .vendor__bid-history-item-remove:after,
 .vendor__invoice-history-item-remove:after,
-.vendor__info-history-item-remove:after, .o-job__quote-cta .is-cta-deny:after, .o-job__bid-total-feedback:after {
+.vendor__info-history-item-remove:after, .o-job__quote-cta [data-icon-deny]:after, .o-job__bid-verify-cancel:after {
   font-family: 'ravti-icons';
   vertical-align: middle; }
 
 .dashboard__index-control-map i:before {
   content: "\e600"; }
 
-.job__schedule-save-icon:before, .o-job__quote-cta .is-cta-approve:before, .v-job__schedule-save-icon:before {
+.job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before {
   content: "\e60a"; }
 
-.o-job__quote-cta .is-cta-bid:before {
+.o-job__quote-cta [data-icon-bid]:before {
   content: "\e60b"; }
 
 .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before {
@@ -945,7 +954,7 @@ hr {
     font-family: 'ravti-icons';
     content: "\e609"; }
 
-.o-job__quote-cta .is-cta-deny:before {
+.o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before {
   content: "\e608"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
@@ -955,12 +964,16 @@ hr {
 .account__details-personal-head-toolbar-cancel, .rfq__bid-head-toolbar-save, .o-job__bid-head-toolbar-save {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.job__status-event span b, .v-job__status-event span b, .form__input-field-label, .form__input-file-button, .form__example-legend, .onboard-dashboard__label, .dashboard__request-control-legend, .dashboard__request-control-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .project__po-entity-label, .overlay__confirm-form-label, .overlay__mobile-request-label, .overlay__onboard-legend, .account__details-personal-label,
-.account__details-company-label, .invoice__sheet-entity-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
-.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .vendor__signup-label, .job__po-entity-label, .job__schedule-label, .o-job__bid-label,
+.repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .job__status-event span b, .v-job__status-event span b, .o-job__event-list-label,
+.o-job__bid-label,
+.o-job__quote-label,
 .o-job__bid-legend,
-.o-job__perform-warranty-label, .o-job__bid-total-label,
-.o-job__bid-total-feedback, .v-job__po-entity-label, .v-job__schedule-label, .form__input-field-label-hidden, .onboard__copy b, .onboard-dashboard__copy b, .onboard-facility__overview-note b,
+.o-job__perform-warranty-label,
+.o-job__event-time-in span,
+.o-job__event-time-out span,
+.o-job__event-doc-label, .o-job__perform-vendor li:first-child, .form__input-field-label, .form__input-file-button, .form__example-legend, .onboard-dashboard__label, .dashboard__request-control-legend, .dashboard__request-control-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .project__po-entity-label, .overlay__confirm-form-label, .overlay__mobile-request-label, .overlay__onboard-legend, .account__details-personal-label,
+.account__details-company-label, .invoice__sheet-entity-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
+.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .vendor__signup-label, .job__po-entity-label, .job__schedule-label, .v-job__po-entity-label, .v-job__schedule-label, .form__input-field-label-hidden, .onboard__copy b, .onboard-dashboard__copy b, .onboard-facility__overview-note b,
 .onboard-facility__aside-summary-note b, .siteNav__alert-events, .siteNav__events-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time,
@@ -974,8 +987,10 @@ hr {
 .vendor__invoice-history-cta-title b,
 .vendor__info-history-cta-title b, .vendor__bid-history-pending-title b,
 .vendor__invoice-history-pending-title b,
-.vendor__info-history-pending-title b, .vendor__index-td:nth-child(2), .job__recap-address span:first-of-type, .job__abstract-freight span, .job__po-entity-address span:first-of-type, .job__po-bill-td, .job__po-bill-sum-td, .job__schedule-copy b, .job__schedule-status-detail span:last-child, .job__qa-username, .o-job__event-list-label, .o-job__event-time-in span,
-.o-job__event-time-out span, .o-job__quote-vendor + .o-job__bid-label, .o-job__abstract-date-numeral, .o-job__bid-option-price, .o-job__bid-options-detail b, .o-job__bid-total-number, .o-job__perform-vendor li:first-child, .o-job__perform-vendor span:last-child, .o-job__bid-meta,
+.vendor__info-history-pending-title b, .vendor__index-td:nth-child(2), .job__recap-address span:first-of-type, .job__abstract-freight span, .job__po-entity-address span:first-of-type, .job__po-bill-td, .job__po-bill-sum-td, .job__schedule-copy b, .job__schedule-status-detail span:last-child, .job__qa-username, .o-job__abstract-date-numeral, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li,
+.o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li,
+.o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li,
+.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li, .o-job__bid-option-price, .o-job__bid-options-detail b, .o-job__perform-vendor span:last-child, .o-job__bid-meta,
 .o-job__event-meta,
 .o-job__quote-meta,
 .o-job__perform-meta, .v-job__recap-address span:first-of-type, .v-job__abstract-freight span, .v-job__po-entity-address span:first-of-type, .v-job__po-bill-td, .v-job__po-bill-sum-td, .v-job__schedule-copy b, .v-job__schedule-status-detail span:last-child, .v-job__qa-username {
@@ -1011,7 +1026,7 @@ hr {
 .o-job__feed-head,
 .o-job__bid-head,
 .o-job__scope-head, .o-job__event-header,
-.o-job__perform-header, .o-job__quote-header, .v-job__abstract-head,
+.o-job__perform-header, .v-job__abstract-head,
 .v-job__recap-head,
 .v-job__po-head,
 .v-job__scan-head,
@@ -1050,7 +1065,7 @@ hr {
 .o-job__feed-head h1,
 .o-job__bid-head h1,
 .o-job__scope-head h1, .o-job__event-header h1,
-.o-job__perform-header h1, .o-job__quote-header h1, .v-job__abstract-head h1,
+.o-job__perform-header h1, .v-job__abstract-head h1,
 .v-job__recap-head h1,
 .v-job__po-head h1,
 .v-job__scan-head h1,
@@ -1059,15 +1074,15 @@ hr {
 .v-job__status-head h1,
 .v-job__bid-head h1,
 .v-job__schedule-head h1,
-.v-job__invoice-head h1, .job__status-banner-progress, .o-job__abstract-date span, .o-job__quote-vendor-label, .v-job__status-banner-progress, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .job__qa-textarea::-webkit-input-placeholder, .v-job__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__request-control-input::-webkit-input-placeholder, .dashboard__request-control-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__mobile-request-input::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
+.v-job__invoice-head h1, .job__status-banner-progress, .o-job__quote-vendor-label, .v-job__status-banner-progress, .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .job__qa-textarea::-webkit-input-placeholder, .v-job__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__request-control-input::-webkit-input-placeholder, .dashboard__request-control-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__mobile-request-input::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
 .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
-.facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .vendor__signup-input::-webkit-input-placeholder, .job__schedule-input::-webkit-input-placeholder, .job__schedule-date::-webkit-input-placeholder, .job__schedule-add-tech-input::-webkit-input-placeholder, .o-job__bid-field::-webkit-input-placeholder, .v-job__schedule-input::-webkit-input-placeholder, .v-job__schedule-date::-webkit-input-placeholder, .v-job__schedule-add-tech-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .rfq__qa-textarea:-moz-placeholder, .job__qa-textarea:-moz-placeholder, .v-job__qa-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__request-control-input:-moz-placeholder, .dashboard__request-control-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__mobile-request-input:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
+.facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .vendor__signup-input::-webkit-input-placeholder, .job__schedule-input::-webkit-input-placeholder, .job__schedule-date::-webkit-input-placeholder, .job__schedule-add-tech-input::-webkit-input-placeholder, .v-job__schedule-input::-webkit-input-placeholder, .v-job__schedule-date::-webkit-input-placeholder, .v-job__schedule-add-tech-input::-webkit-input-placeholder, .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .rfq__qa-textarea:-moz-placeholder, .job__qa-textarea:-moz-placeholder, .v-job__qa-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__request-control-input:-moz-placeholder, .dashboard__request-control-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__mobile-request-input:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
 .account__details-company-input:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
-.facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .rfq__bid-field:-moz-placeholder, .vendor__signup-input:-moz-placeholder, .job__schedule-input:-moz-placeholder, .job__schedule-date:-moz-placeholder, .job__schedule-add-tech-input:-moz-placeholder, .o-job__bid-field:-moz-placeholder, .v-job__schedule-input:-moz-placeholder, .v-job__schedule-date:-moz-placeholder, .v-job__schedule-add-tech-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .rfq__qa-textarea::-moz-placeholder, .job__qa-textarea::-moz-placeholder, .v-job__qa-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__request-control-input::-moz-placeholder, .dashboard__request-control-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__mobile-request-input::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
+.facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .rfq__bid-field:-moz-placeholder, .vendor__signup-input:-moz-placeholder, .job__schedule-input:-moz-placeholder, .job__schedule-date:-moz-placeholder, .job__schedule-add-tech-input:-moz-placeholder, .v-job__schedule-input:-moz-placeholder, .v-job__schedule-date:-moz-placeholder, .v-job__schedule-add-tech-input:-moz-placeholder, .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .rfq__qa-textarea::-moz-placeholder, .job__qa-textarea::-moz-placeholder, .v-job__qa-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__request-control-input::-moz-placeholder, .dashboard__request-control-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__mobile-request-input::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
 .account__details-company-input::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-mobile-date::-moz-placeholder,
-.facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .rfq__bid-field::-moz-placeholder, .vendor__signup-input::-moz-placeholder, .job__schedule-input::-moz-placeholder, .job__schedule-date::-moz-placeholder, .job__schedule-add-tech-input::-moz-placeholder, .o-job__bid-field::-moz-placeholder, .v-job__schedule-input::-moz-placeholder, .v-job__schedule-date::-moz-placeholder, .v-job__schedule-add-tech-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .rfq__qa-textarea:-ms-input-placeholder, .job__qa-textarea:-ms-input-placeholder, .v-job__qa-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__request-control-input:-ms-input-placeholder, .dashboard__request-control-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__mobile-request-input:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
+.facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .rfq__bid-field::-moz-placeholder, .vendor__signup-input::-moz-placeholder, .job__schedule-input::-moz-placeholder, .job__schedule-date::-moz-placeholder, .job__schedule-add-tech-input::-moz-placeholder, .v-job__schedule-input::-moz-placeholder, .v-job__schedule-date::-moz-placeholder, .v-job__schedule-add-tech-input::-moz-placeholder, .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .rfq__qa-textarea:-ms-input-placeholder, .job__qa-textarea:-ms-input-placeholder, .v-job__qa-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__request-control-input:-ms-input-placeholder, .dashboard__request-control-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__mobile-request-input:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
 .account__details-company-input:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-mobile-date:-ms-input-placeholder,
-.facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .rfq__bid-field:-ms-input-placeholder, .vendor__signup-input:-ms-input-placeholder, .job__schedule-input:-ms-input-placeholder, .job__schedule-date:-ms-input-placeholder, .job__schedule-add-tech-input:-ms-input-placeholder, .o-job__bid-field:-ms-input-placeholder, .v-job__schedule-input:-ms-input-placeholder, .v-job__schedule-date:-ms-input-placeholder, .v-job__schedule-add-tech-input:-ms-input-placeholder, .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc, .job__abstract-vendor:after, .job__schedule-banner-progress, .job__banner-progress, .v-job__abstract-vendor:after, .v-job__schedule-banner-progress, .v-job__banner-progress {
+.facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .rfq__bid-field:-ms-input-placeholder, .vendor__signup-input:-ms-input-placeholder, .job__schedule-input:-ms-input-placeholder, .job__schedule-date:-ms-input-placeholder, .job__schedule-add-tech-input:-ms-input-placeholder, .v-job__schedule-input:-ms-input-placeholder, .v-job__schedule-date:-ms-input-placeholder, .v-job__schedule-add-tech-input:-ms-input-placeholder, .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .project__abstract-vendor:after, .project__banner-progress, .project__qa-chat-username span, .project__terms-view-doc, .job__abstract-vendor:after, .job__schedule-banner-progress, .job__banner-progress, .v-job__abstract-vendor:after, .v-job__schedule-banner-progress, .v-job__banner-progress {
   font-weight: 400; }
 
 .proposal__abstract-head h1, .proposal__form-head h1,
@@ -1100,7 +1115,7 @@ hr {
 .o-job__feed-head h1,
 .o-job__bid-head h1,
 .o-job__scope-head h1, .o-job__event-header h1,
-.o-job__perform-header h1, .o-job__quote-header h1, .v-job__abstract-head h1,
+.o-job__perform-header h1, .v-job__abstract-head h1,
 .v-job__recap-head h1,
 .v-job__po-head h1,
 .v-job__scan-head h1,
@@ -1109,7 +1124,14 @@ hr {
 .v-job__status-head h1,
 .v-job__bid-head h1,
 .v-job__schedule-head h1,
-.v-job__invoice-head h1, .dashboard__request-support-copy, .invoice__meta-support-copy, .facility__activity-prevent-memo, .billing__defcon1-tbody .billing__th,
+.v-job__invoice-head h1, .dashboard__request-support-copy, .invoice__meta-support-copy, .facility__activity-prevent-memo, .o-job__event-list-label i,
+.o-job__bid-label i,
+.o-job__quote-label i,
+.o-job__bid-legend i,
+.o-job__perform-warranty-label i,
+.o-job__event-time-in span i,
+.o-job__event-time-out span i,
+.o-job__event-doc-label i, .o-job__perform-vendor li:first-child i, .billing__defcon1-tbody .billing__th,
 .billing__defcon2-tbody .billing__th,
 .billing__defcon3-tbody .billing__th, .billing__defcon-label, .siteNav__proposals-popover-head h2, .siteNav__events-popover-head h2, .siteNav__invoices-popover-head h2, .siteNav__invoices-popover-list-blank p, .siteNav__events-popover-item-facility,
 .siteNav__proposals-popover-item-facility,
@@ -1118,7 +1140,10 @@ hr {
 .siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .is-optional span, .repair__bid-th,
 .repair__bid-td, .project__po-entity-label, .project__po-bill-metadata, .overlay__confirm-bid-metadata, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
-.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition, .vendor-dash__card-copy, .job__po-entity-label, .job__po-bill-metadata, .v-job__po-entity-label, .v-job__po-bill-metadata {
+.invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition, .vendor-dash__card-copy, .job__po-entity-label, .job__po-bill-metadata, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
+.o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
+.o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span,
+.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span, .v-job__po-entity-label, .v-job__po-bill-metadata {
   font-weight: 400; }
 
 .help__section-list-topic {
@@ -1137,9 +1162,10 @@ hr {
 .vendor__lineup-body .is-blank-info h2, .vendor__queue-body .is-blank-pricing h2,
 .vendor__lineup-body .is-blank-pricing h2, .vendor__queue-body .is-blank-scheduling h2,
 .vendor__lineup-body .is-blank-scheduling h2, .vendor__index-body .is-blank-job h2, .siteNav__invoices-popover-list-blank h2, .vendor__queue-body .is-blank-invoicing h2,
-.vendor__lineup-body .is-blank-invoicing h2, .facility__unit-score-sheet-blank h2, .repair__abstract-dl dt, .repair__abstract-scope dt, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .job__status-edit-goods h2 b,
-.job__status-edit-labor h2 b, .o-job__abstract-id span:first-child, .o-job__quote-cost-label b, .o-job__bid-source-wrapper h2 b, .v-job__status-edit-goods h2 b,
-.v-job__status-edit-labor h2 b, .onboard__header, .onboard-dashboard__title, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
+.vendor__lineup-body .is-blank-invoicing h2, .facility__unit-score-sheet-blank h2, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .job__status-edit-goods h2 b,
+.job__status-edit-labor h2 b, .o-job__abstract-id span:first-child, .o-job__quote-cost-title b, .o-job__bid-source-wrapper h2 b, .v-job__status-edit-goods h2 b,
+.v-job__status-edit-labor h2 b, .o-job__perform-header-title,
+.o-job__event-header-title, .onboard__header, .onboard-dashboard__title, .onboard-dashboard__facility .onboard-dashboard__cta, .onboard-dashboard__cta, .onboard-facility__duty, .onboard-facility__overview-cta,
 .onboard-facility__aside-summary-cta, .siteNav,
 .siteNav-guest, .dashboard__mobile-request-title b, .dashboard__mobile-request-option span, .dashboard__index-grid-tile-hint b, .dashboard__request-title,
 .dashboard__request-control-title, .dashboard__request-title b,
@@ -1156,8 +1182,8 @@ hr {
 .rfq__invite-location b, .rfq__invite-th, .vendor__registered-header,
 .vendor__signup-header, .vendor-dash__onboard-title, .vendor-dash__alert .has-alerts, .vendor__bid-history-pending-title,
 .vendor__invoice-history-pending-title,
-.vendor__info-history-pending-title, .job__scan-expand, .job__zoom-item a:after, .job__status-banner-headline, .job__po-bill-id, .job__po-bill-id b, .job__schedule-banner-headline, .job__banner-headline, .job__timeline-event-step, .o-job__abstract-id span, .o-job__perform-header-title,
-.o-job__event-header-title, .o-job__event-doc-view, .o-job__quote-cost, .o-job__quote-vendor h2, .o-job__quote-cta-option, .o-job__bid-total, .o-job__bid-zoom-item a:after, .v-job__scan-expand, .v-job__zoom-item a:after, .v-job__status-banner-headline, .v-job__po-bill-id, .v-job__po-bill-id b, .v-job__schedule-banner-headline, .v-job__banner-headline, .v-job__timeline-event-step, .help__hero h1, .help__bucket-title, .help__article h1, .help__article h2, .help__article h3, .help__article h4, .help__article h5, .help__article h6, .help__article-bucket, .help__article-title {
+.vendor__info-history-pending-title, .job__scan-expand, .job__zoom-item a:after, .job__status-banner-headline, .job__po-bill-id, .job__po-bill-id b, .job__schedule-banner-headline, .job__banner-headline, .job__timeline-event-step, .o-job__abstract-id span, .o-job__quote-vendor h2, .o-job__quote-cta-option, .o-job__bid-tab-rfq, .o-job__event-doc-label, .o-job__quote-zoom-item a:after,
+.o-job__bid-zoom-item a:after, .v-job__scan-expand, .v-job__zoom-item a:after, .v-job__status-banner-headline, .v-job__po-bill-id, .v-job__po-bill-id b, .v-job__schedule-banner-headline, .v-job__banner-headline, .v-job__timeline-event-step, .help__hero h1, .help__bucket-title, .help__article h1, .help__article h2, .help__article h3, .help__article h4, .help__article h5, .help__article h6, .help__article-bucket, .help__article-title {
   font-family: "futura-pt", sans-serif;
   font-weight: 700; }
 
@@ -1242,7 +1268,7 @@ hr {
 .o-job__feed-head,
 .o-job__bid-head,
 .o-job__scope-head, .o-job__event-header,
-.o-job__perform-header, .o-job__quote-header, .v-job__abstract-head,
+.o-job__perform-header, .v-job__abstract-head,
 .v-job__recap-head,
 .v-job__po-head,
 .v-job__scan-head,
@@ -1298,7 +1324,7 @@ hr {
     .o-job__feed-head,
     .o-job__bid-head,
     .o-job__scope-head, .o-job__event-header,
-    .o-job__perform-header, .o-job__quote-header, .v-job__abstract-head,
+    .o-job__perform-header, .v-job__abstract-head,
     .v-job__recap-head,
     .v-job__po-head,
     .v-job__scan-head,
@@ -1340,7 +1366,7 @@ hr {
   .o-job__feed-head h1,
   .o-job__bid-head h1,
   .o-job__scope-head h1, .o-job__event-header h1,
-  .o-job__perform-header h1, .o-job__quote-header h1, .v-job__abstract-head h1,
+  .o-job__perform-header h1, .v-job__abstract-head h1,
   .v-job__recap-head h1,
   .v-job__po-head h1,
   .v-job__scan-head h1,
@@ -1354,6 +1380,211 @@ hr {
     font-size: 0.83333rem;
     margin-bottom: 0;
     display: inline-block; }
+  .proposal__abstract-head .is-work-request:before, .proposal__form-head .is-work-request:before,
+  .proposal__terms-scan-head .is-work-request:before,
+  .proposal__terms-view-head .is-work-request:before, .repair__abstract-head .is-work-request:before,
+  .repair__bid-head .is-work-request:before, .repair__unit-head .is-work-request:before, .project__abstract-head .is-work-request:before,
+  .project__po-head .is-work-request:before, .account__details-personal-head .is-work-request:before,
+  .account__details-company-head .is-work-request:before, .invoice__sheet-head .is-work-request:before, .invoice__meta-summary-head .is-work-request:before, .invoice__meta-doc-head .is-work-request:before, .invoice__meta-support-head .is-work-request:before, .facility__activity-contacts-head .is-work-request:before, .facility__activity-prevent-head .is-work-request:before, .facility__event-header .is-work-request:before, .facility__unit-info-head .is-work-request:before,
+  .facility__unit-score-head .is-work-request:before, .facility__unit-history-head .is-work-request:before, .facility__suite-info-head .is-work-request:before,
+  .facility__suite-lease-head .is-work-request:before,
+  .facility__suite-service-head .is-work-request:before, .facility__pm-upcoming-head .is-work-request:before,
+  .facility__pm-timeline-head .is-work-request:before,
+  .facility__pm-approval-head .is-work-request:before, .rfq__abstract-head .is-work-request:before, .rfq__scan-head .is-work-request:before,
+  .rfq__zoom-head .is-work-request:before,
+  .rfq__bid-head .is-work-request:before, .vendor__index-head .is-work-request:before,
+  .vendor__bid-head .is-work-request:before,
+  .vendor__info-head .is-work-request:before,
+  .vendor__invoice-head .is-work-request:before,
+  .vendor__queue-head .is-work-request:before,
+  .vendor__lineup-head .is-work-request:before, .job__abstract-head .is-work-request:before,
+  .job__recap-head .is-work-request:before,
+  .job__po-head .is-work-request:before,
+  .job__scan-head .is-work-request:before,
+  .job__zoom-head .is-work-request:before,
+  .job__info-head .is-work-request:before,
+  .job__status-head .is-work-request:before,
+  .job__bid-head .is-work-request:before,
+  .job__schedule-head .is-work-request:before,
+  .job__invoice-head .is-work-request:before, .o-job__abstract-head .is-work-request:before,
+  .o-job__feed-head .is-work-request:before,
+  .o-job__bid-head .is-work-request:before,
+  .o-job__scope-head .is-work-request:before, .o-job__event-header .is-work-request:before,
+  .o-job__perform-header .is-work-request:before, .v-job__abstract-head .is-work-request:before,
+  .v-job__recap-head .is-work-request:before,
+  .v-job__po-head .is-work-request:before,
+  .v-job__scan-head .is-work-request:before,
+  .v-job__zoom-head .is-work-request:before,
+  .v-job__info-head .is-work-request:before,
+  .v-job__status-head .is-work-request:before,
+  .v-job__bid-head .is-work-request:before,
+  .v-job__schedule-head .is-work-request:before,
+  .v-job__invoice-head .is-work-request:before {
+    background: url(../../assets/work-request.svg) center center no-repeat; }
+  .proposal__abstract-head .is-repair:before, .proposal__form-head .is-repair:before,
+  .proposal__terms-scan-head .is-repair:before,
+  .proposal__terms-view-head .is-repair:before, .repair__abstract-head .is-repair:before,
+  .repair__bid-head .is-repair:before, .repair__unit-head .is-repair:before, .project__abstract-head .is-repair:before,
+  .project__po-head .is-repair:before, .account__details-personal-head .is-repair:before,
+  .account__details-company-head .is-repair:before, .invoice__sheet-head .is-repair:before, .invoice__meta-summary-head .is-repair:before, .invoice__meta-doc-head .is-repair:before, .invoice__meta-support-head .is-repair:before, .facility__activity-contacts-head .is-repair:before, .facility__activity-prevent-head .is-repair:before, .facility__event-header .is-repair:before, .facility__unit-info-head .is-repair:before,
+  .facility__unit-score-head .is-repair:before, .facility__unit-history-head .is-repair:before, .facility__suite-info-head .is-repair:before,
+  .facility__suite-lease-head .is-repair:before,
+  .facility__suite-service-head .is-repair:before, .facility__pm-upcoming-head .is-repair:before,
+  .facility__pm-timeline-head .is-repair:before,
+  .facility__pm-approval-head .is-repair:before, .rfq__abstract-head .is-repair:before, .rfq__scan-head .is-repair:before,
+  .rfq__zoom-head .is-repair:before,
+  .rfq__bid-head .is-repair:before, .vendor__index-head .is-repair:before,
+  .vendor__bid-head .is-repair:before,
+  .vendor__info-head .is-repair:before,
+  .vendor__invoice-head .is-repair:before,
+  .vendor__queue-head .is-repair:before,
+  .vendor__lineup-head .is-repair:before, .job__abstract-head .is-repair:before,
+  .job__recap-head .is-repair:before,
+  .job__po-head .is-repair:before,
+  .job__scan-head .is-repair:before,
+  .job__zoom-head .is-repair:before,
+  .job__info-head .is-repair:before,
+  .job__status-head .is-repair:before,
+  .job__bid-head .is-repair:before,
+  .job__schedule-head .is-repair:before,
+  .job__invoice-head .is-repair:before, .o-job__abstract-head .is-repair:before,
+  .o-job__feed-head .is-repair:before,
+  .o-job__bid-head .is-repair:before,
+  .o-job__scope-head .is-repair:before, .o-job__event-header .is-repair:before,
+  .o-job__perform-header .is-repair:before, .v-job__abstract-head .is-repair:before,
+  .v-job__recap-head .is-repair:before,
+  .v-job__po-head .is-repair:before,
+  .v-job__scan-head .is-repair:before,
+  .v-job__zoom-head .is-repair:before,
+  .v-job__info-head .is-repair:before,
+  .v-job__status-head .is-repair:before,
+  .v-job__bid-head .is-repair:before,
+  .v-job__schedule-head .is-repair:before,
+  .v-job__invoice-head .is-repair:before {
+    background: url(../../assets/repair.svg) center center no-repeat; }
+  .proposal__abstract-head .is-replacement:before, .proposal__form-head .is-replacement:before,
+  .proposal__terms-scan-head .is-replacement:before,
+  .proposal__terms-view-head .is-replacement:before, .repair__abstract-head .is-replacement:before,
+  .repair__bid-head .is-replacement:before, .repair__unit-head .is-replacement:before, .project__abstract-head .is-replacement:before,
+  .project__po-head .is-replacement:before, .account__details-personal-head .is-replacement:before,
+  .account__details-company-head .is-replacement:before, .invoice__sheet-head .is-replacement:before, .invoice__meta-summary-head .is-replacement:before, .invoice__meta-doc-head .is-replacement:before, .invoice__meta-support-head .is-replacement:before, .facility__activity-contacts-head .is-replacement:before, .facility__activity-prevent-head .is-replacement:before, .facility__event-header .is-replacement:before, .facility__unit-info-head .is-replacement:before,
+  .facility__unit-score-head .is-replacement:before, .facility__unit-history-head .is-replacement:before, .facility__suite-info-head .is-replacement:before,
+  .facility__suite-lease-head .is-replacement:before,
+  .facility__suite-service-head .is-replacement:before, .facility__pm-upcoming-head .is-replacement:before,
+  .facility__pm-timeline-head .is-replacement:before,
+  .facility__pm-approval-head .is-replacement:before, .rfq__abstract-head .is-replacement:before, .rfq__scan-head .is-replacement:before,
+  .rfq__zoom-head .is-replacement:before,
+  .rfq__bid-head .is-replacement:before, .vendor__index-head .is-replacement:before,
+  .vendor__bid-head .is-replacement:before,
+  .vendor__info-head .is-replacement:before,
+  .vendor__invoice-head .is-replacement:before,
+  .vendor__queue-head .is-replacement:before,
+  .vendor__lineup-head .is-replacement:before, .job__abstract-head .is-replacement:before,
+  .job__recap-head .is-replacement:before,
+  .job__po-head .is-replacement:before,
+  .job__scan-head .is-replacement:before,
+  .job__zoom-head .is-replacement:before,
+  .job__info-head .is-replacement:before,
+  .job__status-head .is-replacement:before,
+  .job__bid-head .is-replacement:before,
+  .job__schedule-head .is-replacement:before,
+  .job__invoice-head .is-replacement:before, .o-job__abstract-head .is-replacement:before,
+  .o-job__feed-head .is-replacement:before,
+  .o-job__bid-head .is-replacement:before,
+  .o-job__scope-head .is-replacement:before, .o-job__event-header .is-replacement:before,
+  .o-job__perform-header .is-replacement:before, .v-job__abstract-head .is-replacement:before,
+  .v-job__recap-head .is-replacement:before,
+  .v-job__po-head .is-replacement:before,
+  .v-job__scan-head .is-replacement:before,
+  .v-job__zoom-head .is-replacement:before,
+  .v-job__info-head .is-replacement:before,
+  .v-job__status-head .is-replacement:before,
+  .v-job__bid-head .is-replacement:before,
+  .v-job__schedule-head .is-replacement:before,
+  .v-job__invoice-head .is-replacement:before {
+    background: url(../../assets/replacement.svg) center center no-repeat; }
+  .proposal__abstract-head .is-preventative:before, .proposal__form-head .is-preventative:before,
+  .proposal__terms-scan-head .is-preventative:before,
+  .proposal__terms-view-head .is-preventative:before, .repair__abstract-head .is-preventative:before,
+  .repair__bid-head .is-preventative:before, .repair__unit-head .is-preventative:before, .project__abstract-head .is-preventative:before,
+  .project__po-head .is-preventative:before, .account__details-personal-head .is-preventative:before,
+  .account__details-company-head .is-preventative:before, .invoice__sheet-head .is-preventative:before, .invoice__meta-summary-head .is-preventative:before, .invoice__meta-doc-head .is-preventative:before, .invoice__meta-support-head .is-preventative:before, .facility__activity-contacts-head .is-preventative:before, .facility__activity-prevent-head .is-preventative:before, .facility__event-header .is-preventative:before, .facility__unit-info-head .is-preventative:before,
+  .facility__unit-score-head .is-preventative:before, .facility__unit-history-head .is-preventative:before, .facility__suite-info-head .is-preventative:before,
+  .facility__suite-lease-head .is-preventative:before,
+  .facility__suite-service-head .is-preventative:before, .facility__pm-upcoming-head .is-preventative:before,
+  .facility__pm-timeline-head .is-preventative:before,
+  .facility__pm-approval-head .is-preventative:before, .rfq__abstract-head .is-preventative:before, .rfq__scan-head .is-preventative:before,
+  .rfq__zoom-head .is-preventative:before,
+  .rfq__bid-head .is-preventative:before, .vendor__index-head .is-preventative:before,
+  .vendor__bid-head .is-preventative:before,
+  .vendor__info-head .is-preventative:before,
+  .vendor__invoice-head .is-preventative:before,
+  .vendor__queue-head .is-preventative:before,
+  .vendor__lineup-head .is-preventative:before, .job__abstract-head .is-preventative:before,
+  .job__recap-head .is-preventative:before,
+  .job__po-head .is-preventative:before,
+  .job__scan-head .is-preventative:before,
+  .job__zoom-head .is-preventative:before,
+  .job__info-head .is-preventative:before,
+  .job__status-head .is-preventative:before,
+  .job__bid-head .is-preventative:before,
+  .job__schedule-head .is-preventative:before,
+  .job__invoice-head .is-preventative:before, .o-job__abstract-head .is-preventative:before,
+  .o-job__feed-head .is-preventative:before,
+  .o-job__bid-head .is-preventative:before,
+  .o-job__scope-head .is-preventative:before, .o-job__event-header .is-preventative:before,
+  .o-job__perform-header .is-preventative:before, .v-job__abstract-head .is-preventative:before,
+  .v-job__recap-head .is-preventative:before,
+  .v-job__po-head .is-preventative:before,
+  .v-job__scan-head .is-preventative:before,
+  .v-job__zoom-head .is-preventative:before,
+  .v-job__info-head .is-preventative:before,
+  .v-job__status-head .is-preventative:before,
+  .v-job__bid-head .is-preventative:before,
+  .v-job__schedule-head .is-preventative:before,
+  .v-job__invoice-head .is-preventative:before {
+    background: url(../../assets/preventative.svg) center center no-repeat; }
+  .proposal__abstract-head .is-service-call:before, .proposal__form-head .is-service-call:before,
+  .proposal__terms-scan-head .is-service-call:before,
+  .proposal__terms-view-head .is-service-call:before, .repair__abstract-head .is-service-call:before,
+  .repair__bid-head .is-service-call:before, .repair__unit-head .is-service-call:before, .project__abstract-head .is-service-call:before,
+  .project__po-head .is-service-call:before, .account__details-personal-head .is-service-call:before,
+  .account__details-company-head .is-service-call:before, .invoice__sheet-head .is-service-call:before, .invoice__meta-summary-head .is-service-call:before, .invoice__meta-doc-head .is-service-call:before, .invoice__meta-support-head .is-service-call:before, .facility__activity-contacts-head .is-service-call:before, .facility__activity-prevent-head .is-service-call:before, .facility__event-header .is-service-call:before, .facility__unit-info-head .is-service-call:before,
+  .facility__unit-score-head .is-service-call:before, .facility__unit-history-head .is-service-call:before, .facility__suite-info-head .is-service-call:before,
+  .facility__suite-lease-head .is-service-call:before,
+  .facility__suite-service-head .is-service-call:before, .facility__pm-upcoming-head .is-service-call:before,
+  .facility__pm-timeline-head .is-service-call:before,
+  .facility__pm-approval-head .is-service-call:before, .rfq__abstract-head .is-service-call:before, .rfq__scan-head .is-service-call:before,
+  .rfq__zoom-head .is-service-call:before,
+  .rfq__bid-head .is-service-call:before, .vendor__index-head .is-service-call:before,
+  .vendor__bid-head .is-service-call:before,
+  .vendor__info-head .is-service-call:before,
+  .vendor__invoice-head .is-service-call:before,
+  .vendor__queue-head .is-service-call:before,
+  .vendor__lineup-head .is-service-call:before, .job__abstract-head .is-service-call:before,
+  .job__recap-head .is-service-call:before,
+  .job__po-head .is-service-call:before,
+  .job__scan-head .is-service-call:before,
+  .job__zoom-head .is-service-call:before,
+  .job__info-head .is-service-call:before,
+  .job__status-head .is-service-call:before,
+  .job__bid-head .is-service-call:before,
+  .job__schedule-head .is-service-call:before,
+  .job__invoice-head .is-service-call:before, .o-job__abstract-head .is-service-call:before,
+  .o-job__feed-head .is-service-call:before,
+  .o-job__bid-head .is-service-call:before,
+  .o-job__scope-head .is-service-call:before, .o-job__event-header .is-service-call:before,
+  .o-job__perform-header .is-service-call:before, .v-job__abstract-head .is-service-call:before,
+  .v-job__recap-head .is-service-call:before,
+  .v-job__po-head .is-service-call:before,
+  .v-job__scan-head .is-service-call:before,
+  .v-job__zoom-head .is-service-call:before,
+  .v-job__info-head .is-service-call:before,
+  .v-job__status-head .is-service-call:before,
+  .v-job__bid-head .is-service-call:before,
+  .v-job__schedule-head .is-service-call:before,
+  .v-job__invoice-head .is-service-call:before {
+    background: url(../../assets/service.svg) center center no-repeat; }
 
 .proposal__form-head-toolbar, .account__details-personal-head-toolbar, .facility__suite-lease-head-toolbar, .rfq__bid-head-toolbar, .o-job__bid-head-toolbar {
   position: absolute;
@@ -1420,9 +1651,8 @@ hr {
 .job__schedule-body, .job__po-body,
 .job__invoice-body, .o-job__abstract-body,
 .o-job__feed-body,
-.o-job__bid-body,
 .o-job__scan-body,
-.o-job__zoom-body, .o-job__event-body, .o-job__event-doc, .o-job__quote-body, .o-job__perform-body, .v-job__abstract-body,
+.o-job__zoom-body, .o-job__event-body, .o-job__event-doc, .o-job__quote-body, .o-job__bid-body, .o-job__perform-body, .v-job__abstract-body,
 .v-job__scan-body,
 .v-job__zoom-body,
 .v-job__recap-body,
@@ -1455,7 +1685,7 @@ hr {
 .facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
 .rfq__aside-subnav-qa, .vendor__index-subnav-active,
 .vendor__index-subnav-completed, .job__aside-subnav-equipment,
-.job__aside-subnav-qa, .o-job__feed-subnav-bucket, .v-job__aside-subnav-equipment,
+.job__aside-subnav-qa, .v-job__aside-subnav-equipment,
 .v-job__aside-subnav-qa, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label {
@@ -1463,12 +1693,12 @@ hr {
   font-weight: 700;
   letter-spacing: 0.2px; }
 
-.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .o-job__feed-subnav-buckets, .v-job__aside-subnav-buckets {
+.projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .v-job__aside-subnav-buckets {
   border-top: 2px solid #e3e5ea; }
-  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active, .rfq__aside-subnav-buckets .is-active, .vendor__index-subnav-buckets .is-active, .job__aside-subnav-buckets .is-active, .o-job__feed-subnav-buckets .is-active, .v-job__aside-subnav-buckets .is-active {
+  .projects__subnav-buckets .is-active, .proposal__procure-subnav-buckets .is-active, .project__details-subnav-buckets .is-active, .account__subnav-buckets .is-active, .facility__unit-subnav-buckets .is-active, .facility__projects-subnav-buckets .is-active, .facility__service-subnav-buckets .is-active, .facility__pm-subnav-buckets .is-active, .rfq__aside-subnav-buckets .is-active, .vendor__index-subnav-buckets .is-active, .job__aside-subnav-buckets .is-active, .v-job__aside-subnav-buckets .is-active {
     border-top: 2px solid #092f3e;
     color: #092f3e; }
-    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover, .rfq__aside-subnav-buckets .is-active:hover, .vendor__index-subnav-buckets .is-active:hover, .job__aside-subnav-buckets .is-active:hover, .o-job__feed-subnav-buckets .is-active:hover, .v-job__aside-subnav-buckets .is-active:hover {
+    .projects__subnav-buckets .is-active:hover, .proposal__procure-subnav-buckets .is-active:hover, .project__details-subnav-buckets .is-active:hover, .account__subnav-buckets .is-active:hover, .facility__unit-subnav-buckets .is-active:hover, .facility__projects-subnav-buckets .is-active:hover, .facility__service-subnav-buckets .is-active:hover, .facility__pm-subnav-buckets .is-active:hover, .rfq__aside-subnav-buckets .is-active:hover, .vendor__index-subnav-buckets .is-active:hover, .job__aside-subnav-buckets .is-active:hover, .v-job__aside-subnav-buckets .is-active:hover {
       color: #092f3e; }
 
 .projects__subnav-active,
@@ -1485,7 +1715,7 @@ hr {
 .facility__pm-subnav-tenants, .rfq__aside-subnav-equipment,
 .rfq__aside-subnav-qa, .vendor__index-subnav-active,
 .vendor__index-subnav-completed, .job__aside-subnav-equipment,
-.job__aside-subnav-qa, .o-job__feed-subnav-bucket, .v-job__aside-subnav-equipment,
+.job__aside-subnav-qa, .v-job__aside-subnav-equipment,
 .v-job__aside-subnav-qa {
   font-size: 11.11111px;
   font-size: 0.69444rem;
@@ -1510,7 +1740,7 @@ hr {
   .facility__pm-subnav-tenants:hover, .rfq__aside-subnav-equipment:hover,
   .rfq__aside-subnav-qa:hover, .vendor__index-subnav-active:hover,
   .vendor__index-subnav-completed:hover, .job__aside-subnav-equipment:hover,
-  .job__aside-subnav-qa:hover, .o-job__feed-subnav-bucket:hover, .v-job__aside-subnav-equipment:hover,
+  .job__aside-subnav-qa:hover, .v-job__aside-subnav-equipment:hover,
   .v-job__aside-subnav-qa:hover {
     cursor: pointer;
     color: #93989c; }
@@ -1624,11 +1854,12 @@ hr {
   .facility__suite-upload-service-button:before {
     background-image: url(../../assets/service-contract-upload.svg); }
 
-.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .rfq__zoom-doc:hover, .job__zoom-doc:hover, .v-job__zoom-doc:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .job__zoom-doc:hover a, .v-job__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover, .rfq__zoom-scope-dual:hover, .rfq__zoom-scope-dual:hover a, .rfq__zoom-item a:hover, .vendor__bid-history-item:hover,
+.proposal__terms-view-doc:hover, .invoice__meta-doc-view:hover, .rfq__zoom-doc:hover, .job__zoom-doc:hover, .v-job__zoom-doc:hover, .facility__suite-upload-lease-view-doc:hover, .facility__pm-approval-doc:hover, .proposal__terms-view-doc:hover a, .invoice__meta-doc-view:hover a, .rfq__zoom-doc:hover a, .job__zoom-doc:hover a, .v-job__zoom-doc:hover a, .facility__suite-upload-lease-view-doc:hover a, .facility__pm-approval-doc:hover a, .facility__pm-equipment-inspection a:hover, .o-job__quote-zoom-item a:hover,
+.o-job__bid-zoom-item a:hover, .proposal__terms-view-scope-dual:hover, .proposal__terms-view-scope-dual:hover a, .proposal__terms-view-scope-doc a:hover, .project__terms-view-doc:hover, .project__terms-view-doc:hover a, .facility__pm-timeline-event-meta:hover, .rfq__zoom-scope-dual:hover, .rfq__zoom-scope-dual:hover a, .rfq__zoom-item a:hover, .vendor__bid-history-item:hover,
 .vendor__invoice-history-item:hover,
 .vendor__info-history-item:hover, .vendor__bid-history-item:hover a:hover,
 .vendor__invoice-history-item:hover a:hover,
-.vendor__info-history-item:hover a:hover, .job__zoom-scope-dual:hover, .job__zoom-scope-dual:hover a, .job__zoom-item a:hover, .o-job__bid-zoom-item a:hover, .v-job__zoom-scope-dual:hover, .v-job__zoom-scope-dual:hover a, .v-job__zoom-item a:hover {
+.vendor__info-history-item:hover a:hover, .job__zoom-scope-dual:hover, .job__zoom-scope-dual:hover a, .job__zoom-item a:hover, .v-job__zoom-scope-dual:hover, .v-job__zoom-scope-dual:hover a, .v-job__zoom-item a:hover {
   cursor: pointer;
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in; }
@@ -1771,7 +2002,9 @@ hr {
 .onboard-sitenav__alert-invoices .has-alerts, .siteNav__alert-proposals .has-alerts, .siteNav__alert-events .has-alerts, .siteNav__alert-invoices .has-alerts, .help__section-list-topic {
   transition: 0.2s cubic-bezier(0.3, 0, 0, 1.3); }
 
-.facility__pm-equipment-inspection, .facility__pm-equipment-inspection a, .onboard-dashboard__form, .siteNav__events-popover-item-facility,
+.facility__pm-equipment-inspection, .o-job__quote-zoom-item,
+.o-job__bid-zoom-item, .facility__pm-equipment-inspection a, .o-job__quote-zoom-item a,
+.o-job__bid-zoom-item a, .onboard-dashboard__form, .siteNav__events-popover-item-facility,
 .siteNav__events-popover-item-type,
 .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-facility,
@@ -1804,8 +2037,9 @@ hr {
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem; }
 
-.proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec, .facility__pm-equipment-spec, .rfq__equipment-unit-spec-item, .job__equipment-unit-spec-item, .o-job__bid-equipment-spec,
-.o-job__event-list-unit-spec, .v-job__equipment-unit-spec-item {
+.proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec, .facility__pm-equipment-spec, .rfq__equipment-unit-spec-item, .job__equipment-unit-spec-item, .o-job__quote-equipment-spec,
+.o-job__bid-equipment-spec,
+.o-job__event-equipment-spec, .v-job__equipment-unit-spec-item {
   margin-top: 5.6px;
   margin-top: 0.35rem;
   margin-bottom: 16.8px;
@@ -1820,8 +2054,9 @@ hr {
   font-size: 0.69444rem;
   display: inline-block;
   position: relative; }
-  .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before, .facility__pm-equipment-spec:before, .rfq__equipment-unit-spec-item:before, .job__equipment-unit-spec-item:before, .o-job__bid-equipment-spec:before,
-  .o-job__event-list-unit-spec:before, .v-job__equipment-unit-spec-item:before {
+  .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before, .facility__pm-equipment-spec:before, .rfq__equipment-unit-spec-item:before, .job__equipment-unit-spec-item:before, .o-job__quote-equipment-spec:before,
+  .o-job__bid-equipment-spec:before,
+  .o-job__event-equipment-spec:before, .v-job__equipment-unit-spec-item:before {
     content: '';
     position: absolute;
     top: 0;
@@ -1831,20 +2066,25 @@ hr {
     width: 20px;
     width: 1.25rem;
     background: center center no-repeat; }
-  .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before, .rfq__equipment-unit-spec-item:nth-child(1):before, .job__equipment-unit-spec-item:nth-child(1):before, .o-job__bid-equipment-spec:nth-child(1):before,
-  .o-job__event-list-unit-spec:nth-child(1):before, .v-job__equipment-unit-spec-item:nth-child(1):before {
+  .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before, .rfq__equipment-unit-spec-item:nth-child(1):before, .job__equipment-unit-spec-item:nth-child(1):before, .o-job__quote-equipment-spec:nth-child(1):before,
+  .o-job__bid-equipment-spec:nth-child(1):before,
+  .o-job__event-equipment-spec:nth-child(1):before, .v-job__equipment-unit-spec-item:nth-child(1):before {
     background-image: url(../../assets/tag.svg); }
-  .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before, .rfq__equipment-unit-spec-item:nth-child(2):before, .job__equipment-unit-spec-item:nth-child(2):before, .o-job__bid-equipment-spec:nth-child(2):before,
-  .o-job__event-list-unit-spec:nth-child(2):before, .v-job__equipment-unit-spec-item:nth-child(2):before {
+  .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before, .rfq__equipment-unit-spec-item:nth-child(2):before, .job__equipment-unit-spec-item:nth-child(2):before, .o-job__quote-equipment-spec:nth-child(2):before,
+  .o-job__bid-equipment-spec:nth-child(2):before,
+  .o-job__event-equipment-spec:nth-child(2):before, .v-job__equipment-unit-spec-item:nth-child(2):before {
     background-image: url(../../assets/manufacturer.svg); }
-  .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before, .rfq__equipment-unit-spec-item:nth-child(3):before, .job__equipment-unit-spec-item:nth-child(3):before, .o-job__bid-equipment-spec:nth-child(3):before,
-  .o-job__event-list-unit-spec:nth-child(3):before, .v-job__equipment-unit-spec-item:nth-child(3):before {
+  .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before, .rfq__equipment-unit-spec-item:nth-child(3):before, .job__equipment-unit-spec-item:nth-child(3):before, .o-job__quote-equipment-spec:nth-child(3):before,
+  .o-job__bid-equipment-spec:nth-child(3):before,
+  .o-job__event-equipment-spec:nth-child(3):before, .v-job__equipment-unit-spec-item:nth-child(3):before {
     background-image: url(../../assets/tonnage.svg); }
-  .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before, .rfq__equipment-unit-spec-item:nth-child(4):before, .job__equipment-unit-spec-item:nth-child(4):before, .o-job__bid-equipment-spec:nth-child(4):before,
-  .o-job__event-list-unit-spec:nth-child(4):before, .v-job__equipment-unit-spec-item:nth-child(4):before {
+  .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before, .rfq__equipment-unit-spec-item:nth-child(4):before, .job__equipment-unit-spec-item:nth-child(4):before, .o-job__quote-equipment-spec:nth-child(4):before,
+  .o-job__bid-equipment-spec:nth-child(4):before,
+  .o-job__event-equipment-spec:nth-child(4):before, .v-job__equipment-unit-spec-item:nth-child(4):before {
     background-image: url(../../assets/calendar.svg); }
-  .proposal__procure-goods-spec:nth-child(5):before, .repair__unit-card-spec:nth-child(5):before, .facility__equipment-card-spec:nth-child(5):before, .facility__suite-unit-card-spec:nth-child(5):before, .facility__pm-equipment-spec:nth-child(5):before, .rfq__equipment-unit-spec-item:nth-child(5):before, .job__equipment-unit-spec-item:nth-child(5):before, .o-job__bid-equipment-spec:nth-child(5):before,
-  .o-job__event-list-unit-spec:nth-child(5):before, .v-job__equipment-unit-spec-item:nth-child(5):before {
+  .proposal__procure-goods-spec:nth-child(5):before, .repair__unit-card-spec:nth-child(5):before, .facility__equipment-card-spec:nth-child(5):before, .facility__suite-unit-card-spec:nth-child(5):before, .facility__pm-equipment-spec:nth-child(5):before, .rfq__equipment-unit-spec-item:nth-child(5):before, .job__equipment-unit-spec-item:nth-child(5):before, .o-job__quote-equipment-spec:nth-child(5):before,
+  .o-job__bid-equipment-spec:nth-child(5):before,
+  .o-job__event-equipment-spec:nth-child(5):before, .v-job__equipment-unit-spec-item:nth-child(5):before {
     background-image: url(../../assets/qr-code.svg); }
 
 .onboard-dashboard__finalize, .dashboard__request-control-finalize, .overlay__mobile-request-finalize, .facility__unit-history-add-info-finalize {
@@ -1855,7 +2095,14 @@ hr {
   border-top: 1px dotted #e3e5ea;
   text-align: right; }
 
-.onboard__dismiss-text, .onboard__dismiss-icon, .dashboard__index-grid-tile-hint, .o-job__quote-cta-option, .o-job__quote-cta-option:before {
+.onboard__dismiss-text, .onboard__dismiss-icon, .dashboard__index-grid-tile-hint, .o-job__quote-equipment,
+.o-job__quote-equipment-truncated,
+.o-job__bid-equipment,
+.o-job__bid-equipment-truncated,
+.o-job__event-equipment, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
+.o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
+.o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span,
+.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span, .o-job__quote-cta-option, .o-job__quote-cta-option:before {
   transition-property: all;
   -webkit-transition-property: all;
   transition-duration: 0.125s;
@@ -2016,25 +2263,34 @@ hr {
       margin-bottom: 22.4px;
       margin-bottom: 1.4rem; } }
 
-.repair__abstract-dl, .repair__abstract-scope {
-  margin-top: 11.2px;
-  margin-top: 0.7rem; }
-  .repair__abstract-dl dt, .repair__abstract-scope dt {
-    font-size: 13.33333px;
-    font-size: 0.83333rem;
-    margin-top: 0;
-    border-bottom: none;
+.repair__abstract-dl, .repair__abstract-scope, .o-job__abstract-dl {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+  .repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt {
     display: block;
-    color: #93989c; }
-  .repair__abstract-dl dd, .repair__abstract-scope dd {
-    padding-right: 5.6px;
-    padding-right: 0.35rem;
-    font-size: 13.33333px;
-    font-size: 0.83333rem;
-    line-height: 1.68;
-    margin-top: 0;
+    font-size: 11.11111px;
+    font-size: 0.69444rem;
+    margin-top: 11.2px;
+    margin-top: 0.7rem;
+    padding-top: 11.2px;
+    padding-top: 0.7rem;
+    border-top: 1px dotted #e3e5ea;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase; }
+    .repair__abstract-dl dt:first-child, .repair__abstract-scope dt:first-child, .o-job__abstract-dl dt:first-child {
+      border-top: 0; }
+  .repair__abstract-dl dd, .repair__abstract-scope dd, .o-job__abstract-dl dd {
     display: inline-block;
-    color: #54545a; }
+    font-size: 16px;
+    font-size: 1rem;
+    margin-top: 5.6px;
+    margin-top: 0.35rem; }
+    .repair__abstract-dl dd:first-letter, .repair__abstract-scope dd:first-letter, .o-job__abstract-dl dd:first-letter {
+      text-transform: uppercase; }
+  .repair__abstract-dl dd + dd:before, .repair__abstract-scope dd + dd:before, .o-job__abstract-dl dd + dd:before {
+    content: ',';
+    margin-right: 4px;
+    margin-right: 0.25rem; }
 
 .is-beacon {
   height: 60px;
@@ -2094,18 +2350,19 @@ hr {
     border: 4px solid white;
     vertical-align: bottom; }
 
-.facility__pm-upcoming-vendor-label:before, .facility__pm-upcoming-vendor-label:after {
+.facility__pm-upcoming-vendor-label:before, .o-job__abstract-date span:before, .facility__pm-upcoming-vendor-label:after, .o-job__abstract-date span:after {
   content: "\2014";
   display: inline-block;
   color: rgba(9, 47, 62, 0.4); }
-.facility__pm-upcoming-vendor-label:before {
+.facility__pm-upcoming-vendor-label:before, .o-job__abstract-date span:before {
   margin-right: 5.6px;
   margin-right: 0.35rem; }
-.facility__pm-upcoming-vendor-label:after {
+.facility__pm-upcoming-vendor-label:after, .o-job__abstract-date span:after {
   margin-left: 5.6px;
   margin-left: 0.35rem; }
 
-.facility__pm-equipment-inspection {
+.facility__pm-equipment-inspection, .o-job__quote-zoom-item,
+.o-job__bid-zoom-item {
   position: relative;
   padding-left: 28px;
   padding-left: 1.75rem;
@@ -2119,11 +2376,19 @@ hr {
   font-size: 0.83333rem;
   border-bottom: 1px solid #e3e5ea;
   text-align: left; }
-  .facility__pm-equipment-inspection a {
+  .facility__pm-equipment-inspection a, .o-job__quote-zoom-item a,
+  .o-job__bid-zoom-item a {
     display: inline-block; }
-    .facility__pm-equipment-inspection a:hover {
+    .facility__pm-equipment-inspection a:hover, .o-job__quote-zoom-item a:hover,
+    .o-job__bid-zoom-item a:hover {
       color: #93989c; }
-    .facility__pm-equipment-inspection a:before {
+    .facility__pm-equipment-inspection a:hover, .o-job__quote-zoom-item a:hover,
+    .o-job__bid-zoom-item a:hover, .facility__pm-equipment-inspection a:focus, .o-job__quote-zoom-item a:focus,
+    .o-job__bid-zoom-item a:focus, .facility__pm-equipment-inspection a:active, .o-job__quote-zoom-item a:active,
+    .o-job__bid-zoom-item a:active {
+      outline: none; }
+    .facility__pm-equipment-inspection a:before, .o-job__quote-zoom-item a:before,
+    .o-job__bid-zoom-item a:before {
       content: '';
       position: absolute;
       top: 0;
@@ -2136,7 +2401,8 @@ hr {
       width: 1.125rem;
       background: center center no-repeat;
       background-image: url(../../assets/scope-icon.svg); }
-  .facility__pm-equipment-inspection:last-child {
+  .facility__pm-equipment-inspection:last-child, .o-job__quote-zoom-item:last-child,
+  .o-job__bid-zoom-item:last-child {
     margin-bottom: 0;
     border-bottom: 0; }
 
@@ -2207,19 +2473,19 @@ hr {
       margin-top: 44.8px;
       margin-top: 2.8rem; } }
 
-.job__status-banner-progress, .o-job__abstract-date span, .o-job__quote-vendor-label, .v-job__status-banner-progress {
+.job__status-banner-progress, .o-job__quote-vendor-label, .v-job__status-banner-progress {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   margin-bottom: 0;
   color: white; }
-  .job__status-banner-progress:before, .o-job__abstract-date span:before, .o-job__quote-vendor-label:before, .v-job__status-banner-progress:before, .job__status-banner-progress:after, .o-job__abstract-date span:after, .o-job__quote-vendor-label:after, .v-job__status-banner-progress:after {
+  .job__status-banner-progress:before, .o-job__quote-vendor-label:before, .v-job__status-banner-progress:before, .job__status-banner-progress:after, .o-job__quote-vendor-label:after, .v-job__status-banner-progress:after {
     content: "\2014";
     display: inline-block;
     color: rgba(9, 47, 62, 0.4); }
-  .job__status-banner-progress:before, .o-job__abstract-date span:before, .o-job__quote-vendor-label:before, .v-job__status-banner-progress:before {
+  .job__status-banner-progress:before, .o-job__quote-vendor-label:before, .v-job__status-banner-progress:before {
     margin-right: 5.6px;
     margin-right: 0.35rem; }
-  .job__status-banner-progress:after, .o-job__abstract-date span:after, .o-job__quote-vendor-label:after, .v-job__status-banner-progress:after {
+  .job__status-banner-progress:after, .o-job__quote-vendor-label:after, .v-job__status-banner-progress:after {
     margin-left: 5.6px;
     margin-left: 0.35rem; }
 
@@ -2384,23 +2650,22 @@ hr {
   border-top: 3px solid #e3e5ea;
   border-bottom: 3px solid #e3e5ea; }
 
-.job__status-timeline-button:before, .o-job__bid-equipment:before,
-.o-job__event-list-unit:before, .o-job__bid-equipment-img:before,
-.o-job__event-list-unit-img:before, .o-job__bid-equipment-specs:before,
-.o-job__event-list-unit-specs:before, .o-job__bid-total-cost:before,
-.o-job__bid-total-confirm:before,
-.o-job__bid-total-commit-copy:before,
-.o-job__bid-total-commit-buttons:before, .o-job__bid-total-label:before,
-.o-job__bid-total-feedback:before, .o-job__bid-total-confirm-button:before,
-.o-job__bid-total-commit-button:before,
-.o-job__bid-total-cancel-button:before, .v-job__status-timeline-button:before {
+.job__status-timeline-button:before, .o-job__quote-equipment:before,
+.o-job__quote-equipment-truncated:before,
+.o-job__bid-equipment:before,
+.o-job__bid-equipment-truncated:before,
+.o-job__event-equipment:before, .o-job__quote-equipment-img:before,
+.o-job__bid-equipment-img:before,
+.o-job__event-equipment-img:before, .o-job__quote-equipment-specs:before,
+.o-job__bid-equipment-specs:before,
+.o-job__event-equipment-specs:before, .v-job__status-timeline-button:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle; }
 
 .job__status-edit-goods h2 b,
-.job__status-edit-labor h2 b, .o-job__abstract-id span:first-child, .o-job__quote-cost-label b, .o-job__bid-source-wrapper h2 b, .v-job__status-edit-goods h2 b,
+.job__status-edit-labor h2 b, .o-job__abstract-id span:first-child, .o-job__quote-cost-title b, .o-job__bid-source-wrapper h2 b, .v-job__status-edit-goods h2 b,
 .v-job__status-edit-labor h2 b {
   background: #092f3e;
   color: white;
@@ -2411,9 +2676,61 @@ hr {
   padding-right: 11.2px;
   padding-right: 0.7rem; }
 
-.o-job__abstract-id span, .o-job__bid-total-label,
-.o-job__bid-total-feedback {
+.o-job__abstract-id span {
   line-height: 1.2; }
+
+.o-job__perform-header-title,
+.o-job__event-header-title {
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 1.16667;
+  color: #092f3e; }
+  .o-job__perform-header-title:before,
+  .o-job__event-header-title:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    height: 2.5rem;
+    width: 40px;
+    width: 2.5rem;
+    margin-right: 11.2px;
+    margin-right: 0.7rem; }
+
+.o-job__abstract-date-open .is-undefined:before,
+.o-job__abstract-date-closed .is-undefined:before, .o-job__event-list-item .is-undefined:before {
+  content: "\2014";
+  display: inline-block;
+  color: #c7cacd; }
+
+.o-job__event-list-label,
+.o-job__bid-label,
+.o-job__quote-label,
+.o-job__bid-legend,
+.o-job__perform-warranty-label,
+.o-job__event-time-in span,
+.o-job__event-time-out span,
+.o-job__event-doc-label, .o-job__perform-vendor li:first-child {
+  display: block;
+  font-size: 11.11111px;
+  font-size: 0.69444rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+  padding: 0;
+  margin-bottom: 0; }
+  .o-job__event-list-label i,
+  .o-job__bid-label i,
+  .o-job__quote-label i,
+  .o-job__bid-legend i,
+  .o-job__perform-warranty-label i,
+  .o-job__event-time-in span i,
+  .o-job__event-time-out span i,
+  .o-job__event-doc-label i, .o-job__perform-vendor li:first-child i {
+    color: #54545a;
+    font-style: normal; }
 
 .hero {
   background: #66c3b0;
@@ -2503,7 +2820,7 @@ hr {
   color: #93989c;
   font-size: 13.33333px; }
 
-.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .o-job__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, .dashboard__request-control-textarea, .overlay__mobile-request-textarea, #select2, .form__input-select2-dropdown {
+.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large, .form__input-field-large, .form__input-field-text, .dashboard__request-control-textarea, .overlay__mobile-request-textarea, #select2, .form__input-select2-dropdown {
   padding: 0.6em 2em 0.5em 2em; }
 
 .form__buttons-encourage-block, .form__buttons-encourage, .form__input-button-bleed, .onboard__next-slide,
@@ -2513,14 +2830,14 @@ hr {
 .vendor__invoice-button,
 .vendor__info-button, .job__invoice-button-submit,
 .job__bid-button-submit,
-.job__info-button-submit, .job__status-event-cta-btn, .job__schedule-button, .job__qa-post-btn, .o-job__bid-total-confirm-button, .o-job__bid-total-commit-button, .v-job__invoice-button-submit,
+.job__info-button-submit, .job__status-event-cta-btn, .job__schedule-button, .job__qa-post-btn, .o-job__bid-verify-approve, .o-job__bid-verify-confirm, .v-job__invoice-button-submit,
 .v-job__bid-button-submit,
 .v-job__info-button-submit, .v-job__status-event-cta-btn, .v-job__schedule-button, .v-job__qa-post-btn, .form__buttons-discourage, .dashboard__feedback-dismiss-trigger, .overlay__mobile-request-feedback-button, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button,
 .vendor__invoice-submission-button,
 .vendor__info-submission-button, .form__select-drop, .onboard-dashboard__select-drop, .dashboard__request-control-select-drop, .overlay__mobile-request-select, .facility__unit-request-form-select-drop, .job__schedule-select, .v-job__schedule-select, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__mobile-request-button-cancel, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
-.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .o-job__bid-total-cancel-button, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .job__qa-textarea, .v-job__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__request-control-input, .dashboard__request-control-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__mobile-request-input, .account__details-personal-input,
+.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .o-job__bid-verify-cancel, .form__buttons-group-item, .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .job__qa-textarea, .v-job__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__request-control-input, .dashboard__request-control-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__mobile-request-input, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
-.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field, .vendor__signup-input, .job__schedule-input, .job__schedule-date, .job__schedule-add-tech-input, .o-job__bid-field, .v-job__schedule-input, .v-job__schedule-date, .v-job__schedule-add-tech-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
+.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field, .vendor__signup-input, .job__schedule-input, .job__schedule-date, .job__schedule-add-tech-input, .v-job__schedule-input, .v-job__schedule-date, .v-job__schedule-add-tech-input, .account__details-company-toggle-switch:before, .account__details-personal-head-toolbar-save,
 .account__details-personal-head-toolbar-cancel {
   padding: 0.4em 1em 0.3em 1em; }
 
@@ -2531,12 +2848,12 @@ hr {
 .vendor__invoice-button,
 .vendor__info-button, .job__invoice-button-submit,
 .job__bid-button-submit,
-.job__info-button-submit, .job__status-event-cta-btn, .job__schedule-button, .job__qa-post-btn, .o-job__bid-total-confirm-button, .o-job__bid-total-commit-button, .v-job__invoice-button-submit,
+.job__info-button-submit, .job__status-event-cta-btn, .job__schedule-button, .job__qa-post-btn, .o-job__bid-verify-approve, .o-job__bid-verify-confirm, .v-job__invoice-button-submit,
 .v-job__bid-button-submit,
 .v-job__info-button-submit, .v-job__status-event-cta-btn, .v-job__schedule-button, .v-job__qa-post-btn, .form__buttons-discourage, .dashboard__feedback-dismiss-trigger, .overlay__mobile-request-feedback-button, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button,
 .vendor__invoice-submission-button,
 .vendor__info-submission-button, .form__select-drop, .onboard-dashboard__select-drop, .dashboard__request-control-select-drop, .overlay__mobile-request-select, .facility__unit-request-form-select-drop, .job__schedule-select, .v-job__schedule-select, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__mobile-request-button-cancel, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
-.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .o-job__bid-total-cancel-button, .form__buttons-group-item {
+.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .o-job__bid-verify-cancel, .form__buttons-group-item {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -2555,7 +2872,7 @@ hr {
   border: none;
   outline: none; }
 
-.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .o-job__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large {
+.form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large {
   -webkit-appearance: none;
   font-size: 19.2px;
   font-size: 1.2rem;
@@ -2612,7 +2929,7 @@ hr {
 .vendor__invoice-button,
 .vendor__info-button, .job__invoice-button-submit,
 .job__bid-button-submit,
-.job__info-button-submit, .job__status-event-cta-btn, .job__schedule-button, .job__qa-post-btn, .o-job__bid-total-confirm-button, .o-job__bid-total-commit-button, .v-job__invoice-button-submit,
+.job__info-button-submit, .job__status-event-cta-btn, .job__schedule-button, .job__qa-post-btn, .o-job__bid-verify-approve, .o-job__bid-verify-confirm, .v-job__invoice-button-submit,
 .v-job__bid-button-submit,
 .v-job__info-button-submit, .v-job__status-event-cta-btn, .v-job__schedule-button, .v-job__qa-post-btn {
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -2625,7 +2942,7 @@ hr {
   .vendor__invoice-button:hover,
   .vendor__info-button:hover, .job__invoice-button-submit:hover,
   .job__bid-button-submit:hover,
-  .job__info-button-submit:hover, .job__status-event-cta-btn:hover, .job__schedule-button:hover, .job__qa-post-btn:hover, .o-job__bid-total-confirm-button:hover, .o-job__bid-total-commit-button:hover, .v-job__invoice-button-submit:hover,
+  .job__info-button-submit:hover, .job__status-event-cta-btn:hover, .job__schedule-button:hover, .job__qa-post-btn:hover, .o-job__bid-verify-approve:hover, .o-job__bid-verify-confirm:hover, .v-job__invoice-button-submit:hover,
   .v-job__bid-button-submit:hover,
   .v-job__info-button-submit:hover, .v-job__status-event-cta-btn:hover, .v-job__schedule-button:hover, .v-job__qa-post-btn:hover, .form__buttons-encourage:focus, .form__input-button-bleed:focus, .onboard__next-slide:focus,
   .onboard__finish-slide:focus, .onboard-dashboard__button-submit:focus, .dashboard__request-control-button-submit:focus, .proposal__procure-services-qa-post-btn:focus, .repair__bid-finalize-encourage:focus, .project__qa-chat-post-btn:focus, .overlay__confirm-form-button-encourage:focus, .overlay__mobile-request-button-submit:focus, .overlay__onboard-finalize-submit:focus, .account__details-personal-confirm-save:focus, .facility__unit-score-sheet-cta:focus, .facility__unit-request-form-button-submit:focus, .facility__unit-history-add-mobile-submit:focus,
@@ -2634,7 +2951,7 @@ hr {
   .vendor__invoice-button:focus,
   .vendor__info-button:focus, .job__invoice-button-submit:focus,
   .job__bid-button-submit:focus,
-  .job__info-button-submit:focus, .job__status-event-cta-btn:focus, .job__schedule-button:focus, .job__qa-post-btn:focus, .o-job__bid-total-confirm-button:focus, .o-job__bid-total-commit-button:focus, .v-job__invoice-button-submit:focus,
+  .job__info-button-submit:focus, .job__status-event-cta-btn:focus, .job__schedule-button:focus, .job__qa-post-btn:focus, .o-job__bid-verify-approve:focus, .o-job__bid-verify-confirm:focus, .v-job__invoice-button-submit:focus,
   .v-job__bid-button-submit:focus,
   .v-job__info-button-submit:focus, .v-job__status-event-cta-btn:focus, .v-job__schedule-button:focus, .v-job__qa-post-btn:focus, .form__buttons-encourage:active, .form__input-button-bleed:active, .onboard__next-slide:active,
   .onboard__finish-slide:active, .onboard-dashboard__button-submit:active, .dashboard__request-control-button-submit:active, .proposal__procure-services-qa-post-btn:active, .repair__bid-finalize-encourage:active, .project__qa-chat-post-btn:active, .overlay__confirm-form-button-encourage:active, .overlay__mobile-request-button-submit:active, .overlay__onboard-finalize-submit:active, .account__details-personal-confirm-save:active, .facility__unit-score-sheet-cta:active, .facility__unit-request-form-button-submit:active, .facility__unit-history-add-mobile-submit:active,
@@ -2643,7 +2960,7 @@ hr {
   .vendor__invoice-button:active,
   .vendor__info-button:active, .job__invoice-button-submit:active,
   .job__bid-button-submit:active,
-  .job__info-button-submit:active, .job__status-event-cta-btn:active, .job__schedule-button:active, .job__qa-post-btn:active, .o-job__bid-total-confirm-button:active, .o-job__bid-total-commit-button:active, .v-job__invoice-button-submit:active,
+  .job__info-button-submit:active, .job__status-event-cta-btn:active, .job__schedule-button:active, .job__qa-post-btn:active, .o-job__bid-verify-approve:active, .o-job__bid-verify-confirm:active, .v-job__invoice-button-submit:active,
   .v-job__bid-button-submit:active,
   .v-job__info-button-submit:active, .v-job__status-event-cta-btn:active, .v-job__schedule-button:active, .v-job__qa-post-btn:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
@@ -2654,7 +2971,7 @@ hr {
   [disabled="true"].vendor__invoice-button,
   [disabled="true"].vendor__info-button, [disabled="true"].job__invoice-button-submit,
   [disabled="true"].job__bid-button-submit,
-  [disabled="true"].job__info-button-submit, [disabled="true"].job__status-event-cta-btn, [disabled="true"].job__schedule-button, [disabled="true"].job__qa-post-btn, [disabled="true"].o-job__bid-total-confirm-button, [disabled="true"].o-job__bid-total-commit-button, [disabled="true"].v-job__invoice-button-submit,
+  [disabled="true"].job__info-button-submit, [disabled="true"].job__status-event-cta-btn, [disabled="true"].job__schedule-button, [disabled="true"].job__qa-post-btn, [disabled="true"].o-job__bid-verify-approve, [disabled="true"].o-job__bid-verify-confirm, [disabled="true"].v-job__invoice-button-submit,
   [disabled="true"].v-job__bid-button-submit,
   [disabled="true"].v-job__info-button-submit, [disabled="true"].v-job__status-event-cta-btn, [disabled="true"].v-job__schedule-button, [disabled="true"].v-job__qa-post-btn {
     opacity: 0.3; }
@@ -2665,7 +2982,7 @@ hr {
     [disabled="true"].vendor__invoice-button:hover,
     [disabled="true"].vendor__info-button:hover, [disabled="true"].job__invoice-button-submit:hover,
     [disabled="true"].job__bid-button-submit:hover,
-    [disabled="true"].job__info-button-submit:hover, [disabled="true"].job__status-event-cta-btn:hover, [disabled="true"].job__schedule-button:hover, [disabled="true"].job__qa-post-btn:hover, [disabled="true"].o-job__bid-total-confirm-button:hover, [disabled="true"].o-job__bid-total-commit-button:hover, [disabled="true"].v-job__invoice-button-submit:hover,
+    [disabled="true"].job__info-button-submit:hover, [disabled="true"].job__status-event-cta-btn:hover, [disabled="true"].job__schedule-button:hover, [disabled="true"].job__qa-post-btn:hover, [disabled="true"].o-job__bid-verify-approve:hover, [disabled="true"].o-job__bid-verify-confirm:hover, [disabled="true"].v-job__invoice-button-submit:hover,
     [disabled="true"].v-job__bid-button-submit:hover,
     [disabled="true"].v-job__info-button-submit:hover, [disabled="true"].v-job__status-event-cta-btn:hover, [disabled="true"].v-job__schedule-button:hover, [disabled="true"].v-job__qa-post-btn:hover, [disabled="true"].form__buttons-encourage:focus, [disabled="true"].form__input-button-bleed:focus, [disabled="true"].onboard__next-slide:focus,
     [disabled="true"].onboard__finish-slide:focus, [disabled="true"].onboard-dashboard__button-submit:focus, [disabled="true"].dashboard__request-control-button-submit:focus, [disabled="true"].proposal__procure-services-qa-post-btn:focus, [disabled="true"].repair__bid-finalize-encourage:focus, [disabled="true"].project__qa-chat-post-btn:focus, [disabled="true"].overlay__confirm-form-button-encourage:focus, [disabled="true"].overlay__mobile-request-button-submit:focus, [disabled="true"].overlay__onboard-finalize-submit:focus, [disabled="true"].account__details-personal-confirm-save:focus, [disabled="true"].facility__unit-score-sheet-cta:focus, [disabled="true"].facility__unit-request-form-button-submit:focus, [disabled="true"].facility__unit-history-add-mobile-submit:focus,
@@ -2674,7 +2991,7 @@ hr {
     [disabled="true"].vendor__invoice-button:focus,
     [disabled="true"].vendor__info-button:focus, [disabled="true"].job__invoice-button-submit:focus,
     [disabled="true"].job__bid-button-submit:focus,
-    [disabled="true"].job__info-button-submit:focus, [disabled="true"].job__status-event-cta-btn:focus, [disabled="true"].job__schedule-button:focus, [disabled="true"].job__qa-post-btn:focus, [disabled="true"].o-job__bid-total-confirm-button:focus, [disabled="true"].o-job__bid-total-commit-button:focus, [disabled="true"].v-job__invoice-button-submit:focus,
+    [disabled="true"].job__info-button-submit:focus, [disabled="true"].job__status-event-cta-btn:focus, [disabled="true"].job__schedule-button:focus, [disabled="true"].job__qa-post-btn:focus, [disabled="true"].o-job__bid-verify-approve:focus, [disabled="true"].o-job__bid-verify-confirm:focus, [disabled="true"].v-job__invoice-button-submit:focus,
     [disabled="true"].v-job__bid-button-submit:focus,
     [disabled="true"].v-job__info-button-submit:focus, [disabled="true"].v-job__status-event-cta-btn:focus, [disabled="true"].v-job__schedule-button:focus, [disabled="true"].v-job__qa-post-btn:focus, [disabled="true"].form__buttons-encourage:active, [disabled="true"].form__input-button-bleed:active, [disabled="true"].onboard__next-slide:active,
     [disabled="true"].onboard__finish-slide:active, [disabled="true"].onboard-dashboard__button-submit:active, [disabled="true"].dashboard__request-control-button-submit:active, [disabled="true"].proposal__procure-services-qa-post-btn:active, [disabled="true"].repair__bid-finalize-encourage:active, [disabled="true"].project__qa-chat-post-btn:active, [disabled="true"].overlay__confirm-form-button-encourage:active, [disabled="true"].overlay__mobile-request-button-submit:active, [disabled="true"].overlay__onboard-finalize-submit:active, [disabled="true"].account__details-personal-confirm-save:active, [disabled="true"].facility__unit-score-sheet-cta:active, [disabled="true"].facility__unit-request-form-button-submit:active, [disabled="true"].facility__unit-history-add-mobile-submit:active,
@@ -2683,7 +3000,7 @@ hr {
     [disabled="true"].vendor__invoice-button:active,
     [disabled="true"].vendor__info-button:active, [disabled="true"].job__invoice-button-submit:active,
     [disabled="true"].job__bid-button-submit:active,
-    [disabled="true"].job__info-button-submit:active, [disabled="true"].job__status-event-cta-btn:active, [disabled="true"].job__schedule-button:active, [disabled="true"].job__qa-post-btn:active, [disabled="true"].o-job__bid-total-confirm-button:active, [disabled="true"].o-job__bid-total-commit-button:active, [disabled="true"].v-job__invoice-button-submit:active,
+    [disabled="true"].job__info-button-submit:active, [disabled="true"].job__status-event-cta-btn:active, [disabled="true"].job__schedule-button:active, [disabled="true"].job__qa-post-btn:active, [disabled="true"].o-job__bid-verify-approve:active, [disabled="true"].o-job__bid-verify-confirm:active, [disabled="true"].v-job__invoice-button-submit:active,
     [disabled="true"].v-job__bid-button-submit:active,
     [disabled="true"].v-job__info-button-submit:active, [disabled="true"].v-job__status-event-cta-btn:active, [disabled="true"].v-job__schedule-button:active, [disabled="true"].v-job__qa-post-btn:active {
       border: 2px solid rgba(0, 0, 0, 0.1);
@@ -2704,48 +3021,60 @@ hr {
 .dashboard__feedback-dismiss-trigger, .overlay__mobile-request-feedback-button, .facility__unit-navigation-button, .facility__suite-navigation-button, .facility__pm-navigation-button, .vendor__bid-submission-button,
 .vendor__invoice-submission-button,
 .vendor__info-submission-button, .form__select-drop, .onboard-dashboard__select-drop, .dashboard__request-control-select-drop, .overlay__mobile-request-select, .facility__unit-request-form-select-drop, .job__schedule-select, .v-job__schedule-select, .account__details-company-toggle-switch, .form__buttons-neutral, .onboard__previous-slide, .repair__bid-finalize-neutral, .repair__bid-finalize-rebid, .overlay__confirm-form-button-neutral, .overlay__mobile-request-button-cancel, .account__details-personal-confirm-cancel, .facility__activity-prevent-button, .facility__unit-history-add-mobile-cancel,
-.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel, .o-job__bid-total-cancel-button {
+.facility__unit-history-add-info-cancel, .facility__suite-lease-form-confirm-cancel {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #e3e5ea; }
   .dashboard__feedback-dismiss-trigger:hover, .overlay__mobile-request-feedback-button:hover, .facility__unit-navigation-button:hover, .facility__suite-navigation-button:hover, .facility__pm-navigation-button:hover, .vendor__bid-submission-button:hover,
   .vendor__invoice-submission-button:hover,
   .vendor__info-submission-button:hover, .form__select-drop:hover, .onboard-dashboard__select-drop:hover, .dashboard__request-control-select-drop:hover, .overlay__mobile-request-select:hover, .facility__unit-request-form-select-drop:hover, .job__schedule-select:hover, .v-job__schedule-select:hover, .account__details-company-toggle-switch:hover, .form__buttons-neutral:hover, .onboard__previous-slide:hover, .repair__bid-finalize-neutral:hover, .repair__bid-finalize-rebid:hover, .overlay__confirm-form-button-neutral:hover, .overlay__mobile-request-button-cancel:hover, .account__details-personal-confirm-cancel:hover, .facility__activity-prevent-button:hover, .facility__unit-history-add-mobile-cancel:hover,
-  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .o-job__bid-total-cancel-button:hover, .dashboard__feedback-dismiss-trigger:focus, .overlay__mobile-request-feedback-button:focus, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .vendor__bid-submission-button:focus,
+  .facility__unit-history-add-info-cancel:hover, .facility__suite-lease-form-confirm-cancel:hover, .dashboard__feedback-dismiss-trigger:focus, .overlay__mobile-request-feedback-button:focus, .facility__unit-navigation-button:focus, .facility__suite-navigation-button:focus, .facility__pm-navigation-button:focus, .vendor__bid-submission-button:focus,
   .vendor__invoice-submission-button:focus,
   .vendor__info-submission-button:focus, .form__select-drop:focus, .onboard-dashboard__select-drop:focus, .dashboard__request-control-select-drop:focus, .overlay__mobile-request-select:focus, .facility__unit-request-form-select-drop:focus, .job__schedule-select:focus, .v-job__schedule-select:focus, .account__details-company-toggle-switch:focus, .form__buttons-neutral:focus, .onboard__previous-slide:focus, .repair__bid-finalize-neutral:focus, .repair__bid-finalize-rebid:focus, .overlay__confirm-form-button-neutral:focus, .overlay__mobile-request-button-cancel:focus, .account__details-personal-confirm-cancel:focus, .facility__activity-prevent-button:focus, .facility__unit-history-add-mobile-cancel:focus,
-  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .o-job__bid-total-cancel-button:focus, .dashboard__feedback-dismiss-trigger:active, .overlay__mobile-request-feedback-button:active, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .vendor__bid-submission-button:active,
+  .facility__unit-history-add-info-cancel:focus, .facility__suite-lease-form-confirm-cancel:focus, .dashboard__feedback-dismiss-trigger:active, .overlay__mobile-request-feedback-button:active, .facility__unit-navigation-button:active, .facility__suite-navigation-button:active, .facility__pm-navigation-button:active, .vendor__bid-submission-button:active,
   .vendor__invoice-submission-button:active,
   .vendor__info-submission-button:active, .form__select-drop:active, .onboard-dashboard__select-drop:active, .dashboard__request-control-select-drop:active, .overlay__mobile-request-select:active, .facility__unit-request-form-select-drop:active, .job__schedule-select:active, .v-job__schedule-select:active, .account__details-company-toggle-switch:active, .form__buttons-neutral:active, .onboard__previous-slide:active, .repair__bid-finalize-neutral:active, .repair__bid-finalize-rebid:active, .overlay__confirm-form-button-neutral:active, .overlay__mobile-request-button-cancel:active, .account__details-personal-confirm-cancel:active, .facility__activity-prevent-button:active, .facility__unit-history-add-mobile-cancel:active,
-  .facility__unit-history-add-info-cancel:active, .facility__suite-lease-form-confirm-cancel:active, .o-job__bid-total-cancel-button:active {
+  .facility__unit-history-add-info-cancel:active, .facility__suite-lease-form-confirm-cancel:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
   [disabled="true"].dashboard__feedback-dismiss-trigger, [disabled="true"].overlay__mobile-request-feedback-button, [disabled="true"].facility__unit-navigation-button, [disabled="true"].facility__suite-navigation-button, [disabled="true"].facility__pm-navigation-button, [disabled="true"].vendor__bid-submission-button,
   [disabled="true"].vendor__invoice-submission-button,
   [disabled="true"].vendor__info-submission-button, [disabled="true"].form__select-drop, [disabled="true"].onboard-dashboard__select-drop, [disabled="true"].dashboard__request-control-select-drop, [disabled="true"].overlay__mobile-request-select, [disabled="true"].facility__unit-request-form-select-drop, [disabled="true"].job__schedule-select, [disabled="true"].v-job__schedule-select, [disabled="true"].account__details-company-toggle-switch, [disabled="true"].form__buttons-neutral, [disabled="true"].onboard__previous-slide, [disabled="true"].repair__bid-finalize-neutral, [disabled="true"].repair__bid-finalize-rebid, [disabled="true"].overlay__confirm-form-button-neutral, [disabled="true"].overlay__mobile-request-button-cancel, [disabled="true"].account__details-personal-confirm-cancel, [disabled="true"].facility__activity-prevent-button, [disabled="true"].facility__unit-history-add-mobile-cancel,
-  [disabled="true"].facility__unit-history-add-info-cancel, [disabled="true"].facility__suite-lease-form-confirm-cancel, [disabled="true"].o-job__bid-total-cancel-button {
+  [disabled="true"].facility__unit-history-add-info-cancel, [disabled="true"].facility__suite-lease-form-confirm-cancel {
     opacity: 0.3; }
     [disabled="true"].dashboard__feedback-dismiss-trigger:hover, [disabled="true"].overlay__mobile-request-feedback-button:hover, [disabled="true"].facility__unit-navigation-button:hover, [disabled="true"].facility__suite-navigation-button:hover, [disabled="true"].facility__pm-navigation-button:hover, [disabled="true"].vendor__bid-submission-button:hover,
     [disabled="true"].vendor__invoice-submission-button:hover,
     [disabled="true"].vendor__info-submission-button:hover, [disabled="true"].form__select-drop:hover, [disabled="true"].onboard-dashboard__select-drop:hover, [disabled="true"].dashboard__request-control-select-drop:hover, [disabled="true"].overlay__mobile-request-select:hover, [disabled="true"].facility__unit-request-form-select-drop:hover, [disabled="true"].job__schedule-select:hover, [disabled="true"].v-job__schedule-select:hover, [disabled="true"].account__details-company-toggle-switch:hover, [disabled="true"].form__buttons-neutral:hover, [disabled="true"].onboard__previous-slide:hover, [disabled="true"].repair__bid-finalize-neutral:hover, [disabled="true"].repair__bid-finalize-rebid:hover, [disabled="true"].overlay__confirm-form-button-neutral:hover, [disabled="true"].overlay__mobile-request-button-cancel:hover, [disabled="true"].account__details-personal-confirm-cancel:hover, [disabled="true"].facility__activity-prevent-button:hover, [disabled="true"].facility__unit-history-add-mobile-cancel:hover,
-    [disabled="true"].facility__unit-history-add-info-cancel:hover, [disabled="true"].facility__suite-lease-form-confirm-cancel:hover, [disabled="true"].o-job__bid-total-cancel-button:hover, [disabled="true"].dashboard__feedback-dismiss-trigger:focus, [disabled="true"].overlay__mobile-request-feedback-button:focus, [disabled="true"].facility__unit-navigation-button:focus, [disabled="true"].facility__suite-navigation-button:focus, [disabled="true"].facility__pm-navigation-button:focus, [disabled="true"].vendor__bid-submission-button:focus,
+    [disabled="true"].facility__unit-history-add-info-cancel:hover, [disabled="true"].facility__suite-lease-form-confirm-cancel:hover, [disabled="true"].dashboard__feedback-dismiss-trigger:focus, [disabled="true"].overlay__mobile-request-feedback-button:focus, [disabled="true"].facility__unit-navigation-button:focus, [disabled="true"].facility__suite-navigation-button:focus, [disabled="true"].facility__pm-navigation-button:focus, [disabled="true"].vendor__bid-submission-button:focus,
     [disabled="true"].vendor__invoice-submission-button:focus,
     [disabled="true"].vendor__info-submission-button:focus, [disabled="true"].form__select-drop:focus, [disabled="true"].onboard-dashboard__select-drop:focus, [disabled="true"].dashboard__request-control-select-drop:focus, [disabled="true"].overlay__mobile-request-select:focus, [disabled="true"].facility__unit-request-form-select-drop:focus, [disabled="true"].job__schedule-select:focus, [disabled="true"].v-job__schedule-select:focus, [disabled="true"].account__details-company-toggle-switch:focus, [disabled="true"].form__buttons-neutral:focus, [disabled="true"].onboard__previous-slide:focus, [disabled="true"].repair__bid-finalize-neutral:focus, [disabled="true"].repair__bid-finalize-rebid:focus, [disabled="true"].overlay__confirm-form-button-neutral:focus, [disabled="true"].overlay__mobile-request-button-cancel:focus, [disabled="true"].account__details-personal-confirm-cancel:focus, [disabled="true"].facility__activity-prevent-button:focus, [disabled="true"].facility__unit-history-add-mobile-cancel:focus,
-    [disabled="true"].facility__unit-history-add-info-cancel:focus, [disabled="true"].facility__suite-lease-form-confirm-cancel:focus, [disabled="true"].o-job__bid-total-cancel-button:focus, [disabled="true"].dashboard__feedback-dismiss-trigger:active, [disabled="true"].overlay__mobile-request-feedback-button:active, [disabled="true"].facility__unit-navigation-button:active, [disabled="true"].facility__suite-navigation-button:active, [disabled="true"].facility__pm-navigation-button:active, [disabled="true"].vendor__bid-submission-button:active,
+    [disabled="true"].facility__unit-history-add-info-cancel:focus, [disabled="true"].facility__suite-lease-form-confirm-cancel:focus, [disabled="true"].dashboard__feedback-dismiss-trigger:active, [disabled="true"].overlay__mobile-request-feedback-button:active, [disabled="true"].facility__unit-navigation-button:active, [disabled="true"].facility__suite-navigation-button:active, [disabled="true"].facility__pm-navigation-button:active, [disabled="true"].vendor__bid-submission-button:active,
     [disabled="true"].vendor__invoice-submission-button:active,
     [disabled="true"].vendor__info-submission-button:active, [disabled="true"].form__select-drop:active, [disabled="true"].onboard-dashboard__select-drop:active, [disabled="true"].dashboard__request-control-select-drop:active, [disabled="true"].overlay__mobile-request-select:active, [disabled="true"].facility__unit-request-form-select-drop:active, [disabled="true"].job__schedule-select:active, [disabled="true"].v-job__schedule-select:active, [disabled="true"].account__details-company-toggle-switch:active, [disabled="true"].form__buttons-neutral:active, [disabled="true"].onboard__previous-slide:active, [disabled="true"].repair__bid-finalize-neutral:active, [disabled="true"].repair__bid-finalize-rebid:active, [disabled="true"].overlay__confirm-form-button-neutral:active, [disabled="true"].overlay__mobile-request-button-cancel:active, [disabled="true"].account__details-personal-confirm-cancel:active, [disabled="true"].facility__activity-prevent-button:active, [disabled="true"].facility__unit-history-add-mobile-cancel:active,
-    [disabled="true"].facility__unit-history-add-info-cancel:active, [disabled="true"].facility__suite-lease-form-confirm-cancel:active, [disabled="true"].o-job__bid-total-cancel-button:active {
+    [disabled="true"].facility__unit-history-add-info-cancel:active, [disabled="true"].facility__suite-lease-form-confirm-cancel:active {
       border: 2px solid rgba(0, 0, 0, 0.1);
       cursor: disabled; }
 
-.form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .o-job__bid-button-encourage {
+.o-job__bid-verify-cancel {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: #092f3e;
+  background-color: transparent; }
+  .o-job__bid-verify-cancel:hover, .o-job__bid-verify-cancel:focus, .o-job__bid-verify-cancel:active {
+    border: 2px solid rgba(0, 0, 0, 0.4); }
+  [disabled="true"].o-job__bid-verify-cancel {
+    opacity: 0.3; }
+    [disabled="true"].o-job__bid-verify-cancel:hover, [disabled="true"].o-job__bid-verify-cancel:focus, [disabled="true"].o-job__bid-verify-cancel:active {
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      cursor: disabled; }
+
+.form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage {
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: #092f3e;
   background-color: #66c3b0; }
-  .form__buttons-encourage-large:hover, .onboard-facility__button-finish:hover, .proposal__form-button-encourage:hover, .rfq__bid-button-encourage:hover, .o-job__bid-button-encourage:hover, .form__buttons-encourage-large:focus, .onboard-facility__button-finish:focus, .proposal__form-button-encourage:focus, .rfq__bid-button-encourage:focus, .o-job__bid-button-encourage:focus, .form__buttons-encourage-large:active, .onboard-facility__button-finish:active, .proposal__form-button-encourage:active, .rfq__bid-button-encourage:active, .o-job__bid-button-encourage:active {
+  .form__buttons-encourage-large:hover, .onboard-facility__button-finish:hover, .proposal__form-button-encourage:hover, .rfq__bid-button-encourage:hover, .form__buttons-encourage-large:focus, .onboard-facility__button-finish:focus, .proposal__form-button-encourage:focus, .rfq__bid-button-encourage:focus, .form__buttons-encourage-large:active, .onboard-facility__button-finish:active, .proposal__form-button-encourage:active, .rfq__bid-button-encourage:active {
     border: 2px solid rgba(0, 0, 0, 0.4); }
-  [disabled="true"].form__buttons-encourage-large, [disabled="true"].onboard-facility__button-finish, [disabled="true"].proposal__form-button-encourage, [disabled="true"].rfq__bid-button-encourage, [disabled="true"].o-job__bid-button-encourage {
+  [disabled="true"].form__buttons-encourage-large, [disabled="true"].onboard-facility__button-finish, [disabled="true"].proposal__form-button-encourage, [disabled="true"].rfq__bid-button-encourage {
     opacity: 0.3; }
-    [disabled="true"].form__buttons-encourage-large:hover, [disabled="true"].onboard-facility__button-finish:hover, [disabled="true"].proposal__form-button-encourage:hover, [disabled="true"].rfq__bid-button-encourage:hover, [disabled="true"].o-job__bid-button-encourage:hover, [disabled="true"].form__buttons-encourage-large:focus, [disabled="true"].onboard-facility__button-finish:focus, [disabled="true"].proposal__form-button-encourage:focus, [disabled="true"].rfq__bid-button-encourage:focus, [disabled="true"].o-job__bid-button-encourage:focus, [disabled="true"].form__buttons-encourage-large:active, [disabled="true"].onboard-facility__button-finish:active, [disabled="true"].proposal__form-button-encourage:active, [disabled="true"].rfq__bid-button-encourage:active, [disabled="true"].o-job__bid-button-encourage:active {
+    [disabled="true"].form__buttons-encourage-large:hover, [disabled="true"].onboard-facility__button-finish:hover, [disabled="true"].proposal__form-button-encourage:hover, [disabled="true"].rfq__bid-button-encourage:hover, [disabled="true"].form__buttons-encourage-large:focus, [disabled="true"].onboard-facility__button-finish:focus, [disabled="true"].proposal__form-button-encourage:focus, [disabled="true"].rfq__bid-button-encourage:focus, [disabled="true"].form__buttons-encourage-large:active, [disabled="true"].onboard-facility__button-finish:active, [disabled="true"].proposal__form-button-encourage:active, [disabled="true"].rfq__bid-button-encourage:active {
       border: 2px solid rgba(0, 0, 0, 0.1);
       cursor: disabled; }
 
@@ -2962,25 +3291,24 @@ hr {
     margin-bottom: 1.4rem; }
 
 .form__select-radio, .dashboard__request-control-check-radio, .proposal__form-check-radio, .facility__unit-request-form-check-radio, .rfq__bid-check-radio, .rfq__dismiss-check-radio, .o-job__bid-check-radio {
+  position: absolute;
   -webkit-appearance: none;
-  position: relative;
   background: white;
   border: 2px solid #e3e5ea;
   height: 24px;
   height: 1.5rem;
   width: 24px;
   width: 1.5rem;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  margin-right: 11.2px;
-  margin-right: 0.7rem;
-  margin-bottom: -5.6px;
-  margin-bottom: -0.35rem;
-  margin-top: 0;
-  margin-left: 0;
+  -webkit-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  top: 5.6px;
+  top: 0.35rem;
+  left: 5.6px;
+  left: 0.35rem;
+  margin: 0;
   outline: none; }
   [disabled="true"].form__select-radio, [disabled="true"].dashboard__request-control-check-radio, [disabled="true"].proposal__form-check-radio, [disabled="true"].facility__unit-request-form-check-radio, [disabled="true"].rfq__bid-check-radio, [disabled="true"].rfq__dismiss-check-radio, [disabled="true"].o-job__bid-check-radio {
     border-color: #c7cacd;
@@ -3107,7 +3435,7 @@ hr {
 
 .proposal__procure-services-qa-textarea, .project__qa-chat-textarea, .rfq__qa-textarea, .job__qa-textarea, .v-job__qa-textarea, .form__input-field-bleed, .form__input-field, .dashboard__request-control-input, .dashboard__request-control-field, .proposal__form-field, .overlay__confirm-form-field, .overlay__mobile-request-input, .account__details-personal-input,
 .account__details-company-input, .facility__unit-request-form-field, .facility__unit-history-add-mobile-date,
-.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field, .vendor__signup-input, .job__schedule-input, .job__schedule-date, .job__schedule-add-tech-input, .o-job__bid-field, .v-job__schedule-input, .v-job__schedule-date, .v-job__schedule-add-tech-input {
+.facility__unit-history-add-info-date, .facility__unit-history-add-info-textarea, .facility__suite-lease-form-input, .rfq__bid-field, .vendor__signup-input, .job__schedule-input, .job__schedule-date, .job__schedule-add-tech-input, .v-job__schedule-input, .v-job__schedule-date, .v-job__schedule-add-tech-input {
   -webkit-appearance: none;
   font-size: 16px;
   font-size: 1rem;
@@ -3122,57 +3450,54 @@ hr {
   outline: none; }
   .proposal__procure-services-qa-textarea:active, .project__qa-chat-textarea:active, .rfq__qa-textarea:active, .job__qa-textarea:active, .v-job__qa-textarea:active, .form__input-field-bleed:active, .form__input-field:active, .dashboard__request-control-input:active, .dashboard__request-control-field:active, .proposal__form-field:active, .overlay__confirm-form-field:active, .overlay__mobile-request-input:active, .account__details-personal-input:active,
   .account__details-company-input:active, .facility__unit-request-form-field:active, .facility__unit-history-add-mobile-date:active,
-  .facility__unit-history-add-info-date:active, .facility__unit-history-add-info-textarea:active, .facility__suite-lease-form-input:active, .rfq__bid-field:active, .vendor__signup-input:active, .job__schedule-input:active, .job__schedule-date:active, .job__schedule-add-tech-input:active, .o-job__bid-field:active, .v-job__schedule-input:active, .v-job__schedule-date:active, .v-job__schedule-add-tech-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .rfq__qa-textarea:focus, .job__qa-textarea:focus, .v-job__qa-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__request-control-input:focus, .dashboard__request-control-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .overlay__mobile-request-input:focus, .account__details-personal-input:focus,
+  .facility__unit-history-add-info-date:active, .facility__unit-history-add-info-textarea:active, .facility__suite-lease-form-input:active, .rfq__bid-field:active, .vendor__signup-input:active, .job__schedule-input:active, .job__schedule-date:active, .job__schedule-add-tech-input:active, .v-job__schedule-input:active, .v-job__schedule-date:active, .v-job__schedule-add-tech-input:active, .proposal__procure-services-qa-textarea:focus, .project__qa-chat-textarea:focus, .rfq__qa-textarea:focus, .job__qa-textarea:focus, .v-job__qa-textarea:focus, .form__input-field-bleed:focus, .form__input-field:focus, .dashboard__request-control-input:focus, .dashboard__request-control-field:focus, .proposal__form-field:focus, .overlay__confirm-form-field:focus, .overlay__mobile-request-input:focus, .account__details-personal-input:focus,
   .account__details-company-input:focus, .facility__unit-request-form-field:focus, .facility__unit-history-add-mobile-date:focus,
-  .facility__unit-history-add-info-date:focus, .facility__unit-history-add-info-textarea:focus, .facility__suite-lease-form-input:focus, .rfq__bid-field:focus, .vendor__signup-input:focus, .job__schedule-input:focus, .job__schedule-date:focus, .job__schedule-add-tech-input:focus, .o-job__bid-field:focus, .v-job__schedule-input:focus, .v-job__schedule-date:focus, .v-job__schedule-add-tech-input:focus {
+  .facility__unit-history-add-info-date:focus, .facility__unit-history-add-info-textarea:focus, .facility__suite-lease-form-input:focus, .rfq__bid-field:focus, .vendor__signup-input:focus, .job__schedule-input:focus, .job__schedule-date:focus, .job__schedule-add-tech-input:focus, .v-job__schedule-input:focus, .v-job__schedule-date:focus, .v-job__schedule-add-tech-input:focus {
     border-color: #66c3b0; }
   [disabled="true"].proposal__procure-services-qa-textarea, [disabled="true"].project__qa-chat-textarea, [disabled="true"].rfq__qa-textarea, [disabled="true"].job__qa-textarea, [disabled="true"].v-job__qa-textarea, [disabled="true"].form__input-field-bleed, [disabled="true"].form__input-field, [disabled="true"].dashboard__request-control-input, [disabled="true"].dashboard__request-control-field, [disabled="true"].proposal__form-field, [disabled="true"].overlay__confirm-form-field, [disabled="true"].overlay__mobile-request-input, [disabled="true"].account__details-personal-input,
   [disabled="true"].account__details-company-input, [disabled="true"].facility__unit-request-form-field, [disabled="true"].facility__unit-history-add-mobile-date,
-  [disabled="true"].facility__unit-history-add-info-date, [disabled="true"].facility__unit-history-add-info-textarea, [disabled="true"].facility__suite-lease-form-input, [disabled="true"].rfq__bid-field, [disabled="true"].vendor__signup-input, [disabled="true"].job__schedule-input, [disabled="true"].job__schedule-date, [disabled="true"].job__schedule-add-tech-input, [disabled="true"].o-job__bid-field, [disabled="true"].v-job__schedule-input, [disabled="true"].v-job__schedule-date, [disabled="true"].v-job__schedule-add-tech-input {
+  [disabled="true"].facility__unit-history-add-info-date, [disabled="true"].facility__unit-history-add-info-textarea, [disabled="true"].facility__suite-lease-form-input, [disabled="true"].rfq__bid-field, [disabled="true"].vendor__signup-input, [disabled="true"].job__schedule-input, [disabled="true"].job__schedule-date, [disabled="true"].job__schedule-add-tech-input, [disabled="true"].v-job__schedule-input, [disabled="true"].v-job__schedule-date, [disabled="true"].v-job__schedule-add-tech-input {
     border-color: #c7cacd;
     background-color: rgba(199, 202, 205, 0.4); }
     [disabled="true"].proposal__procure-services-qa-textarea:checked, [disabled="true"].project__qa-chat-textarea:checked, [disabled="true"].rfq__qa-textarea:checked, [disabled="true"].job__qa-textarea:checked, [disabled="true"].v-job__qa-textarea:checked, [disabled="true"].form__input-field-bleed:checked, [disabled="true"].form__input-field:checked, [disabled="true"].dashboard__request-control-input:checked, [disabled="true"].dashboard__request-control-field:checked, [disabled="true"].proposal__form-field:checked, [disabled="true"].overlay__confirm-form-field:checked, [disabled="true"].overlay__mobile-request-input:checked, [disabled="true"].account__details-personal-input:checked,
     [disabled="true"].account__details-company-input:checked, [disabled="true"].facility__unit-request-form-field:checked, [disabled="true"].facility__unit-history-add-mobile-date:checked,
-    [disabled="true"].facility__unit-history-add-info-date:checked, [disabled="true"].facility__unit-history-add-info-textarea:checked, [disabled="true"].facility__suite-lease-form-input:checked, [disabled="true"].rfq__bid-field:checked, [disabled="true"].vendor__signup-input:checked, [disabled="true"].job__schedule-input:checked, [disabled="true"].job__schedule-date:checked, [disabled="true"].job__schedule-add-tech-input:checked, [disabled="true"].o-job__bid-field:checked, [disabled="true"].v-job__schedule-input:checked, [disabled="true"].v-job__schedule-date:checked, [disabled="true"].v-job__schedule-add-tech-input:checked {
+    [disabled="true"].facility__unit-history-add-info-date:checked, [disabled="true"].facility__unit-history-add-info-textarea:checked, [disabled="true"].facility__suite-lease-form-input:checked, [disabled="true"].rfq__bid-field:checked, [disabled="true"].vendor__signup-input:checked, [disabled="true"].job__schedule-input:checked, [disabled="true"].job__schedule-date:checked, [disabled="true"].job__schedule-add-tech-input:checked, [disabled="true"].v-job__schedule-input:checked, [disabled="true"].v-job__schedule-date:checked, [disabled="true"].v-job__schedule-add-tech-input:checked {
       border-color: #c7cacd;
       background-color: rgba(199, 202, 205, 0.4); }
     [disabled="true"].proposal__procure-services-qa-textarea:hover, [disabled="true"].project__qa-chat-textarea:hover, [disabled="true"].rfq__qa-textarea:hover, [disabled="true"].job__qa-textarea:hover, [disabled="true"].v-job__qa-textarea:hover, [disabled="true"].form__input-field-bleed:hover, [disabled="true"].form__input-field:hover, [disabled="true"].dashboard__request-control-input:hover, [disabled="true"].dashboard__request-control-field:hover, [disabled="true"].proposal__form-field:hover, [disabled="true"].overlay__confirm-form-field:hover, [disabled="true"].overlay__mobile-request-input:hover, [disabled="true"].account__details-personal-input:hover,
     [disabled="true"].account__details-company-input:hover, [disabled="true"].facility__unit-request-form-field:hover, [disabled="true"].facility__unit-history-add-mobile-date:hover,
-    [disabled="true"].facility__unit-history-add-info-date:hover, [disabled="true"].facility__unit-history-add-info-textarea:hover, [disabled="true"].facility__suite-lease-form-input:hover, [disabled="true"].rfq__bid-field:hover, [disabled="true"].vendor__signup-input:hover, [disabled="true"].job__schedule-input:hover, [disabled="true"].job__schedule-date:hover, [disabled="true"].job__schedule-add-tech-input:hover, [disabled="true"].o-job__bid-field:hover, [disabled="true"].v-job__schedule-input:hover, [disabled="true"].v-job__schedule-date:hover, [disabled="true"].v-job__schedule-add-tech-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].rfq__qa-textarea:focus, [disabled="true"].job__qa-textarea:focus, [disabled="true"].v-job__qa-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__request-control-input:focus, [disabled="true"].dashboard__request-control-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].overlay__mobile-request-input:focus, [disabled="true"].account__details-personal-input:focus,
+    [disabled="true"].facility__unit-history-add-info-date:hover, [disabled="true"].facility__unit-history-add-info-textarea:hover, [disabled="true"].facility__suite-lease-form-input:hover, [disabled="true"].rfq__bid-field:hover, [disabled="true"].vendor__signup-input:hover, [disabled="true"].job__schedule-input:hover, [disabled="true"].job__schedule-date:hover, [disabled="true"].job__schedule-add-tech-input:hover, [disabled="true"].v-job__schedule-input:hover, [disabled="true"].v-job__schedule-date:hover, [disabled="true"].v-job__schedule-add-tech-input:hover, [disabled="true"].proposal__procure-services-qa-textarea:focus, [disabled="true"].project__qa-chat-textarea:focus, [disabled="true"].rfq__qa-textarea:focus, [disabled="true"].job__qa-textarea:focus, [disabled="true"].v-job__qa-textarea:focus, [disabled="true"].form__input-field-bleed:focus, [disabled="true"].form__input-field:focus, [disabled="true"].dashboard__request-control-input:focus, [disabled="true"].dashboard__request-control-field:focus, [disabled="true"].proposal__form-field:focus, [disabled="true"].overlay__confirm-form-field:focus, [disabled="true"].overlay__mobile-request-input:focus, [disabled="true"].account__details-personal-input:focus,
     [disabled="true"].account__details-company-input:focus, [disabled="true"].facility__unit-request-form-field:focus, [disabled="true"].facility__unit-history-add-mobile-date:focus,
-    [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].facility__suite-lease-form-input:focus, [disabled="true"].rfq__bid-field:focus, [disabled="true"].vendor__signup-input:focus, [disabled="true"].job__schedule-input:focus, [disabled="true"].job__schedule-date:focus, [disabled="true"].job__schedule-add-tech-input:focus, [disabled="true"].o-job__bid-field:focus, [disabled="true"].v-job__schedule-input:focus, [disabled="true"].v-job__schedule-date:focus, [disabled="true"].v-job__schedule-add-tech-input:focus {
+    [disabled="true"].facility__unit-history-add-info-date:focus, [disabled="true"].facility__unit-history-add-info-textarea:focus, [disabled="true"].facility__suite-lease-form-input:focus, [disabled="true"].rfq__bid-field:focus, [disabled="true"].vendor__signup-input:focus, [disabled="true"].job__schedule-input:focus, [disabled="true"].job__schedule-date:focus, [disabled="true"].job__schedule-add-tech-input:focus, [disabled="true"].v-job__schedule-input:focus, [disabled="true"].v-job__schedule-date:focus, [disabled="true"].v-job__schedule-add-tech-input:focus {
       border-color: #c7cacd; }
   [type="date"].proposal__procure-services-qa-textarea, [type="date"].project__qa-chat-textarea, [type="date"].rfq__qa-textarea, [type="date"].job__qa-textarea, [type="date"].v-job__qa-textarea, [type="date"].form__input-field-bleed, [type="date"].form__input-field, [type="date"].dashboard__request-control-input, [type="date"].dashboard__request-control-field, [type="date"].proposal__form-field, [type="date"].overlay__confirm-form-field, [type="date"].overlay__mobile-request-input, [type="date"].account__details-personal-input,
   [type="date"].account__details-company-input, [type="date"].facility__unit-request-form-field, [type="date"].facility__unit-history-add-mobile-date,
-  [type="date"].facility__unit-history-add-info-date, [type="date"].facility__unit-history-add-info-textarea, [type="date"].facility__suite-lease-form-input, [type="date"].rfq__bid-field, [type="date"].vendor__signup-input, [type="date"].job__schedule-input, [type="date"].job__schedule-date, [type="date"].job__schedule-add-tech-input, [type="date"].o-job__bid-field, [type="date"].v-job__schedule-input, [type="date"].v-job__schedule-date, [type="date"].v-job__schedule-add-tech-input {
+  [type="date"].facility__unit-history-add-info-date, [type="date"].facility__unit-history-add-info-textarea, [type="date"].facility__suite-lease-form-input, [type="date"].rfq__bid-field, [type="date"].vendor__signup-input, [type="date"].job__schedule-input, [type="date"].job__schedule-date, [type="date"].job__schedule-add-tech-input, [type="date"].v-job__schedule-input, [type="date"].v-job__schedule-date, [type="date"].v-job__schedule-add-tech-input {
     background: white;
     min-height: 35px;
     min-height: 2.1875rem; }
   .proposal__procure-services-qa-textarea::-webkit-input-placeholder, .project__qa-chat-textarea::-webkit-input-placeholder, .rfq__qa-textarea::-webkit-input-placeholder, .job__qa-textarea::-webkit-input-placeholder, .v-job__qa-textarea::-webkit-input-placeholder, .form__input-field-bleed::-webkit-input-placeholder, .form__input-field::-webkit-input-placeholder, .dashboard__request-control-input::-webkit-input-placeholder, .dashboard__request-control-field::-webkit-input-placeholder, .proposal__form-field::-webkit-input-placeholder, .overlay__confirm-form-field::-webkit-input-placeholder, .overlay__mobile-request-input::-webkit-input-placeholder, .account__details-personal-input::-webkit-input-placeholder,
   .account__details-company-input::-webkit-input-placeholder, .facility__unit-request-form-field::-webkit-input-placeholder, .facility__unit-history-add-mobile-date::-webkit-input-placeholder,
-  .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .vendor__signup-input::-webkit-input-placeholder, .job__schedule-input::-webkit-input-placeholder, .job__schedule-date::-webkit-input-placeholder, .job__schedule-add-tech-input::-webkit-input-placeholder, .o-job__bid-field::-webkit-input-placeholder, .v-job__schedule-input::-webkit-input-placeholder, .v-job__schedule-date::-webkit-input-placeholder, .v-job__schedule-add-tech-input::-webkit-input-placeholder {
+  .facility__unit-history-add-info-date::-webkit-input-placeholder, .facility__unit-history-add-info-textarea::-webkit-input-placeholder, .facility__suite-lease-form-input::-webkit-input-placeholder, .rfq__bid-field::-webkit-input-placeholder, .vendor__signup-input::-webkit-input-placeholder, .job__schedule-input::-webkit-input-placeholder, .job__schedule-date::-webkit-input-placeholder, .job__schedule-add-tech-input::-webkit-input-placeholder, .v-job__schedule-input::-webkit-input-placeholder, .v-job__schedule-date::-webkit-input-placeholder, .v-job__schedule-add-tech-input::-webkit-input-placeholder {
     color: #c7cacd; }
   .proposal__procure-services-qa-textarea:-moz-placeholder, .project__qa-chat-textarea:-moz-placeholder, .rfq__qa-textarea:-moz-placeholder, .job__qa-textarea:-moz-placeholder, .v-job__qa-textarea:-moz-placeholder, .form__input-field-bleed:-moz-placeholder, .form__input-field:-moz-placeholder, .dashboard__request-control-input:-moz-placeholder, .dashboard__request-control-field:-moz-placeholder, .proposal__form-field:-moz-placeholder, .overlay__confirm-form-field:-moz-placeholder, .overlay__mobile-request-input:-moz-placeholder, .account__details-personal-input:-moz-placeholder,
   .account__details-company-input:-moz-placeholder, .facility__unit-request-form-field:-moz-placeholder, .facility__unit-history-add-mobile-date:-moz-placeholder,
-  .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .rfq__bid-field:-moz-placeholder, .vendor__signup-input:-moz-placeholder, .job__schedule-input:-moz-placeholder, .job__schedule-date:-moz-placeholder, .job__schedule-add-tech-input:-moz-placeholder, .o-job__bid-field:-moz-placeholder, .v-job__schedule-input:-moz-placeholder, .v-job__schedule-date:-moz-placeholder, .v-job__schedule-add-tech-input:-moz-placeholder {
+  .facility__unit-history-add-info-date:-moz-placeholder, .facility__unit-history-add-info-textarea:-moz-placeholder, .facility__suite-lease-form-input:-moz-placeholder, .rfq__bid-field:-moz-placeholder, .vendor__signup-input:-moz-placeholder, .job__schedule-input:-moz-placeholder, .job__schedule-date:-moz-placeholder, .job__schedule-add-tech-input:-moz-placeholder, .v-job__schedule-input:-moz-placeholder, .v-job__schedule-date:-moz-placeholder, .v-job__schedule-add-tech-input:-moz-placeholder {
     /* Firefox 18- */
     color: #c7cacd; }
   .proposal__procure-services-qa-textarea::-moz-placeholder, .project__qa-chat-textarea::-moz-placeholder, .rfq__qa-textarea::-moz-placeholder, .job__qa-textarea::-moz-placeholder, .v-job__qa-textarea::-moz-placeholder, .form__input-field-bleed::-moz-placeholder, .form__input-field::-moz-placeholder, .dashboard__request-control-input::-moz-placeholder, .dashboard__request-control-field::-moz-placeholder, .proposal__form-field::-moz-placeholder, .overlay__confirm-form-field::-moz-placeholder, .overlay__mobile-request-input::-moz-placeholder, .account__details-personal-input::-moz-placeholder,
   .account__details-company-input::-moz-placeholder, .facility__unit-request-form-field::-moz-placeholder, .facility__unit-history-add-mobile-date::-moz-placeholder,
-  .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .rfq__bid-field::-moz-placeholder, .vendor__signup-input::-moz-placeholder, .job__schedule-input::-moz-placeholder, .job__schedule-date::-moz-placeholder, .job__schedule-add-tech-input::-moz-placeholder, .o-job__bid-field::-moz-placeholder, .v-job__schedule-input::-moz-placeholder, .v-job__schedule-date::-moz-placeholder, .v-job__schedule-add-tech-input::-moz-placeholder {
+  .facility__unit-history-add-info-date::-moz-placeholder, .facility__unit-history-add-info-textarea::-moz-placeholder, .facility__suite-lease-form-input::-moz-placeholder, .rfq__bid-field::-moz-placeholder, .vendor__signup-input::-moz-placeholder, .job__schedule-input::-moz-placeholder, .job__schedule-date::-moz-placeholder, .job__schedule-add-tech-input::-moz-placeholder, .v-job__schedule-input::-moz-placeholder, .v-job__schedule-date::-moz-placeholder, .v-job__schedule-add-tech-input::-moz-placeholder {
     /* Firefox 19+ */
     color: #c7cacd; }
   .proposal__procure-services-qa-textarea:-ms-input-placeholder, .project__qa-chat-textarea:-ms-input-placeholder, .rfq__qa-textarea:-ms-input-placeholder, .job__qa-textarea:-ms-input-placeholder, .v-job__qa-textarea:-ms-input-placeholder, .form__input-field-bleed:-ms-input-placeholder, .form__input-field:-ms-input-placeholder, .dashboard__request-control-input:-ms-input-placeholder, .dashboard__request-control-field:-ms-input-placeholder, .proposal__form-field:-ms-input-placeholder, .overlay__confirm-form-field:-ms-input-placeholder, .overlay__mobile-request-input:-ms-input-placeholder, .account__details-personal-input:-ms-input-placeholder,
   .account__details-company-input:-ms-input-placeholder, .facility__unit-request-form-field:-ms-input-placeholder, .facility__unit-history-add-mobile-date:-ms-input-placeholder,
-  .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .rfq__bid-field:-ms-input-placeholder, .vendor__signup-input:-ms-input-placeholder, .job__schedule-input:-ms-input-placeholder, .job__schedule-date:-ms-input-placeholder, .job__schedule-add-tech-input:-ms-input-placeholder, .o-job__bid-field:-ms-input-placeholder, .v-job__schedule-input:-ms-input-placeholder, .v-job__schedule-date:-ms-input-placeholder, .v-job__schedule-add-tech-input:-ms-input-placeholder {
+  .facility__unit-history-add-info-date:-ms-input-placeholder, .facility__unit-history-add-info-textarea:-ms-input-placeholder, .facility__suite-lease-form-input:-ms-input-placeholder, .rfq__bid-field:-ms-input-placeholder, .vendor__signup-input:-ms-input-placeholder, .job__schedule-input:-ms-input-placeholder, .job__schedule-date:-ms-input-placeholder, .job__schedule-add-tech-input:-ms-input-placeholder, .v-job__schedule-input:-ms-input-placeholder, .v-job__schedule-date:-ms-input-placeholder, .v-job__schedule-add-tech-input:-ms-input-placeholder {
     color: #c7cacd; }
 
 .form__input-field-label, .form__input-file-button, .form__example-legend, .onboard-dashboard__label, .dashboard__request-control-legend, .dashboard__request-control-label, .proposal__form-legend, .proposal__form-label, .proposal__form-total-label, .project__po-entity-label, .overlay__confirm-form-label, .overlay__mobile-request-label, .overlay__onboard-legend, .account__details-personal-label,
 .account__details-company-label, .invoice__sheet-entity-label, .facility__unit-request-form-legend, .facility__unit-request-form-label, .facility__unit-history-add-mobile-label,
-.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .vendor__signup-label, .job__po-entity-label, .job__schedule-label, .o-job__bid-label,
-.o-job__bid-legend,
-.o-job__perform-warranty-label, .o-job__bid-total-label,
-.o-job__bid-total-feedback, .v-job__po-entity-label, .v-job__schedule-label, .form__input-field-label-hidden {
+.facility__unit-history-add-info-label, .facility__suite-lease-form-label, .rfq__bid-legend, .rfq__bid-label, .rfq__bid-total-label, .vendor__signup-label, .job__po-entity-label, .job__schedule-label, .v-job__po-entity-label, .v-job__schedule-label, .form__input-field-label-hidden {
   display: block;
   font-size: 13.33333px;
   font-size: 0.83333rem;
@@ -3884,6 +4209,73 @@ hr {
 
   100% {
     -moz-transform: translate3d(0, -498px, 0); } }
+
+.o-job__bid-verify-confirm {
+  -webkit-animation-name: hue;
+  -moz-animation-name: hue;
+  -ms-animation-name: hue;
+  -o-animation-name: hue;
+  animation-name: hue;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
+  -ms-animation-duration: 1.2s;
+  -o-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-out-in;
+  -moz-animation-timing-function: ease-out-in;
+  -ms-animation-timing-function: ease-out-in;
+  -o-animation-timing-function: ease-out-in;
+  animation-timing-function: ease-out-in;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -ms-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-play-state: initial;
+  -moz-animation-play-state: initial;
+  -ms-animation-play-state: initial;
+  -o-animation-play-state: initial;
+  animation-play-state: initial; }
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg); }
+
+  to {
+    filter: hue-rotate(-20deg); } }
+
+@-o-keyframes hue {
+  from {
+    -o-filter: hue-rotate(0deg); }
+
+  to {
+    -o-filter: hue-rotate(-20deg); } }
+
+@-moz-keyframes hue {
+  from {
+    -moz-filter: hue-rotate(0deg); }
+
+  to {
+    -moz-filter: hue-rotate(-20deg); } }
+
+@-ms-keyframes hue {
+  from {
+    -ms-filter: hue-rotate(0deg); }
+
+  to {
+    -ms-filter: hue-rotate(-20deg); } }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg); }
+
+  to {
+    -webkit-filter: hue-rotate(-20deg); } }
 
 .dashboard__mobile-request,
 .dashboard__mobile-request-title,
@@ -10032,35 +10424,30 @@ hr {
       .o-job__aside:last-child {
         margin-right: 0; } }
 
-.o-job__abstract,
-.o-job__abstract-head,
-.o-job__abstract-body {
+.o-job__abstract {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .o-job__abstract:last-child,
-  .o-job__abstract-head:last-child,
-  .o-job__abstract-body:last-child {
+  .o-job__abstract:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .o-job__abstract,
-    .o-job__abstract-head,
-    .o-job__abstract-body {
+    .o-job__abstract {
       float: left;
       display: block;
       margin-right: 7.42297%;
       width: 100%; }
-      .o-job__abstract:last-child,
-      .o-job__abstract-head:last-child,
-      .o-job__abstract-body:last-child {
+      .o-job__abstract:last-child {
         margin-right: 0; } }
 
 .o-job__feed,
 .o-job__feed-subnav,
 .o-job__bid,
 .o-job__bid-body,
+.o-job__bid-rfq,
+.o-job__bid-verify,
+.o-job__bid-verify-decision,
 .o-job__bid-form,
 .o-job__bid-label,
 .o-job__bid-fieldset,
@@ -10074,14 +10461,27 @@ hr {
 .o-job__bid-options-details,
 .o-job__bid-options-detail,
 .o-job__bid-scan-list,
+.o-job__quote-scan-list,
 .o-job__bid-zoom-list,
+.o-job__bid-zoom-item,
+.o-job__bid-zoom-item a,
+.o-job__quote-zoom-list,
+.o-job__quote-zoom-item,
+.o-job__quote-zoom-item a,
+.o-job__bid-equipment-list,
+.o-job__quote-equipment-list,
 .o-job__bid-equipment,
+.o-job__quote-equipment,
+.o-job__bid-equipment-truncated,
+.o-job__quote-equipment-truncated,
 .o-job__scope,
 .o-job__scan-body,
 .o-job__zoom-body,
 .o-job__quote,
 .o-job__quote-body,
 .o-job__quote-cost,
+.o-job__quote-label,
+.o-job__quote-label + p,
 .o-job__quote-vendor,
 .o-job__quote-scope,
 .o-job__quote-cta,
@@ -10089,13 +10489,11 @@ hr {
 .o-job__perform-header,
 .o-job__perform-body,
 .o-job__event,
-.o-job__event-header,
-.o-job__event-body,
 .o-job__event-footer,
 .o-job__event-doc,
 .o-job__event-list,
 .o-job__event-list-item,
-.o-job__event-list-unit,
+.o-job__event-equipment,
 .o-job__event-timetable {
   float: left;
   display: block;
@@ -10106,6 +10504,9 @@ hr {
   .o-job__feed-subnav:last-child,
   .o-job__bid:last-child,
   .o-job__bid-body:last-child,
+  .o-job__bid-rfq:last-child,
+  .o-job__bid-verify:last-child,
+  .o-job__bid-verify-decision:last-child,
   .o-job__bid-form:last-child,
   .o-job__bid-label:last-child,
   .o-job__bid-fieldset:last-child,
@@ -10119,14 +10520,27 @@ hr {
   .o-job__bid-options-details:last-child,
   .o-job__bid-options-detail:last-child,
   .o-job__bid-scan-list:last-child,
+  .o-job__quote-scan-list:last-child,
   .o-job__bid-zoom-list:last-child,
+  .o-job__bid-zoom-item:last-child,
+  .o-job__bid-zoom-item a:last-child,
+  .o-job__quote-zoom-list:last-child,
+  .o-job__quote-zoom-item:last-child,
+  .o-job__quote-zoom-item a:last-child,
+  .o-job__bid-equipment-list:last-child,
+  .o-job__quote-equipment-list:last-child,
   .o-job__bid-equipment:last-child,
+  .o-job__quote-equipment:last-child,
+  .o-job__bid-equipment-truncated:last-child,
+  .o-job__quote-equipment-truncated:last-child,
   .o-job__scope:last-child,
   .o-job__scan-body:last-child,
   .o-job__zoom-body:last-child,
   .o-job__quote:last-child,
   .o-job__quote-body:last-child,
   .o-job__quote-cost:last-child,
+  .o-job__quote-label:last-child,
+  .o-job__quote-label + p:last-child,
   .o-job__quote-vendor:last-child,
   .o-job__quote-scope:last-child,
   .o-job__quote-cta:last-child,
@@ -10134,13 +10548,11 @@ hr {
   .o-job__perform-header:last-child,
   .o-job__perform-body:last-child,
   .o-job__event:last-child,
-  .o-job__event-header:last-child,
-  .o-job__event-body:last-child,
   .o-job__event-footer:last-child,
   .o-job__event-doc:last-child,
   .o-job__event-list:last-child,
   .o-job__event-list-item:last-child,
-  .o-job__event-list-unit:last-child,
+  .o-job__event-equipment:last-child,
   .o-job__event-timetable:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
@@ -10148,6 +10560,9 @@ hr {
     .o-job__feed-subnav,
     .o-job__bid,
     .o-job__bid-body,
+    .o-job__bid-rfq,
+    .o-job__bid-verify,
+    .o-job__bid-verify-decision,
     .o-job__bid-form,
     .o-job__bid-label,
     .o-job__bid-fieldset,
@@ -10161,14 +10576,27 @@ hr {
     .o-job__bid-options-details,
     .o-job__bid-options-detail,
     .o-job__bid-scan-list,
+    .o-job__quote-scan-list,
     .o-job__bid-zoom-list,
+    .o-job__bid-zoom-item,
+    .o-job__bid-zoom-item a,
+    .o-job__quote-zoom-list,
+    .o-job__quote-zoom-item,
+    .o-job__quote-zoom-item a,
+    .o-job__bid-equipment-list,
+    .o-job__quote-equipment-list,
     .o-job__bid-equipment,
+    .o-job__quote-equipment,
+    .o-job__bid-equipment-truncated,
+    .o-job__quote-equipment-truncated,
     .o-job__scope,
     .o-job__scan-body,
     .o-job__zoom-body,
     .o-job__quote,
     .o-job__quote-body,
     .o-job__quote-cost,
+    .o-job__quote-label,
+    .o-job__quote-label + p,
     .o-job__quote-vendor,
     .o-job__quote-scope,
     .o-job__quote-cta,
@@ -10176,13 +10604,11 @@ hr {
     .o-job__perform-header,
     .o-job__perform-body,
     .o-job__event,
-    .o-job__event-header,
-    .o-job__event-body,
     .o-job__event-footer,
     .o-job__event-doc,
     .o-job__event-list,
     .o-job__event-list-item,
-    .o-job__event-list-unit,
+    .o-job__event-equipment,
     .o-job__event-timetable {
       float: left;
       display: block;
@@ -10193,6 +10619,9 @@ hr {
       .o-job__feed-subnav:last-child,
       .o-job__bid:last-child,
       .o-job__bid-body:last-child,
+      .o-job__bid-rfq:last-child,
+      .o-job__bid-verify:last-child,
+      .o-job__bid-verify-decision:last-child,
       .o-job__bid-form:last-child,
       .o-job__bid-label:last-child,
       .o-job__bid-fieldset:last-child,
@@ -10206,14 +10635,27 @@ hr {
       .o-job__bid-options-details:last-child,
       .o-job__bid-options-detail:last-child,
       .o-job__bid-scan-list:last-child,
+      .o-job__quote-scan-list:last-child,
       .o-job__bid-zoom-list:last-child,
+      .o-job__bid-zoom-item:last-child,
+      .o-job__bid-zoom-item a:last-child,
+      .o-job__quote-zoom-list:last-child,
+      .o-job__quote-zoom-item:last-child,
+      .o-job__quote-zoom-item a:last-child,
+      .o-job__bid-equipment-list:last-child,
+      .o-job__quote-equipment-list:last-child,
       .o-job__bid-equipment:last-child,
+      .o-job__quote-equipment:last-child,
+      .o-job__bid-equipment-truncated:last-child,
+      .o-job__quote-equipment-truncated:last-child,
       .o-job__scope:last-child,
       .o-job__scan-body:last-child,
       .o-job__zoom-body:last-child,
       .o-job__quote:last-child,
       .o-job__quote-body:last-child,
       .o-job__quote-cost:last-child,
+      .o-job__quote-label:last-child,
+      .o-job__quote-label + p:last-child,
       .o-job__quote-vendor:last-child,
       .o-job__quote-scope:last-child,
       .o-job__quote-cta:last-child,
@@ -10221,81 +10663,141 @@ hr {
       .o-job__perform-header:last-child,
       .o-job__perform-body:last-child,
       .o-job__event:last-child,
-      .o-job__event-header:last-child,
-      .o-job__event-body:last-child,
       .o-job__event-footer:last-child,
       .o-job__event-doc:last-child,
       .o-job__event-list:last-child,
       .o-job__event-list-item:last-child,
-      .o-job__event-list-unit:last-child,
+      .o-job__event-equipment:last-child,
       .o-job__event-timetable:last-child {
         margin-right: 0; } }
 
+.o-job__quote-equipment-img,
 .o-job__bid-equipment-img,
-.o-job__event-list-unit-img {
+.o-job__event-equipment-img {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
+  .o-job__quote-equipment-img:last-child,
   .o-job__bid-equipment-img:last-child,
-  .o-job__event-list-unit-img:last-child {
+  .o-job__event-equipment-img:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-equipment-img,
     .o-job__bid-equipment-img,
-    .o-job__event-list-unit-img {
+    .o-job__event-equipment-img {
       float: left;
       display: block;
       margin-right: 3.57866%;
       width: 22.316%; }
+      .o-job__quote-equipment-img:last-child,
       .o-job__bid-equipment-img:last-child,
-      .o-job__event-list-unit-img:last-child {
+      .o-job__event-equipment-img:last-child {
         margin-right: 0; } }
 
+.o-job__quote-equipment-specs,
 .o-job__bid-equipment-specs,
-.o-job__event-list-unit-specs {
+.o-job__event-equipment-specs {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
+  .o-job__quote-equipment-specs:last-child,
   .o-job__bid-equipment-specs:last-child,
-  .o-job__event-list-unit-specs:last-child {
+  .o-job__event-equipment-specs:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-equipment-specs,
     .o-job__bid-equipment-specs,
-    .o-job__event-list-unit-specs {
+    .o-job__event-equipment-specs {
       float: left;
       display: block;
       margin-right: 3.57866%;
       width: 74.10533%;
       margin-right: 0; }
+      .o-job__quote-equipment-specs:last-child,
       .o-job__bid-equipment-specs:last-child,
-      .o-job__event-list-unit-specs:last-child {
+      .o-job__event-equipment-specs:last-child {
         margin-right: 0; } }
 
+.o-job__quote-scan-item,
 .o-job__bid-scan-item {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
+  .o-job__quote-scan-item:last-child,
   .o-job__bid-scan-item:last-child {
     margin-right: 0; }
+  .o-job__quote-scan-item:nth-child(2n),
   .o-job__bid-scan-item:nth-child(2n) {
     margin-right: 0; }
+  .o-job__quote-scan-item:nth-child(2n+1),
   .o-job__bid-scan-item:nth-child(2n+1) {
     clear: left; }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-scan-item,
     .o-job__bid-scan-item {
       float: left;
       display: block;
       margin-right: 3.57866%;
       width: 48.21067%; }
+      .o-job__quote-scan-item:last-child,
       .o-job__bid-scan-item:last-child {
         margin-right: 0; }
+      .o-job__quote-scan-item:nth-child(2n),
       .o-job__bid-scan-item:nth-child(2n) {
         margin-right: 0; }
+      .o-job__quote-scan-item:nth-child(2n+1),
       .o-job__bid-scan-item:nth-child(2n+1) {
+        clear: left; } }
+
+.o-job__event-time-in,
+.o-job__event-time-out,
+.o-job__bid-verify-cancel,
+.o-job__bid-verify-confirm {
+  float: left;
+  display: block;
+  width: 51.17883%; }
+  .o-job__event-time-in:last-child,
+  .o-job__event-time-out:last-child,
+  .o-job__bid-verify-cancel:last-child,
+  .o-job__bid-verify-confirm:last-child {
+    width: 48.82117%; }
+  .o-job__event-time-in:nth-child(2n),
+  .o-job__event-time-out:nth-child(2n),
+  .o-job__bid-verify-cancel:nth-child(2n),
+  .o-job__bid-verify-confirm:nth-child(2n) {
+    margin-right: 0; }
+  .o-job__event-time-in:nth-child(2n+1),
+  .o-job__event-time-out:nth-child(2n+1),
+  .o-job__bid-verify-cancel:nth-child(2n+1),
+  .o-job__bid-verify-confirm:nth-child(2n+1) {
+    clear: left; }
+  @media screen and (min-width: 46.8em) {
+    .o-job__event-time-in,
+    .o-job__event-time-out,
+    .o-job__bid-verify-cancel,
+    .o-job__bid-verify-confirm {
+      float: left;
+      display: block;
+      width: 51.78933%; }
+      .o-job__event-time-in:last-child,
+      .o-job__event-time-out:last-child,
+      .o-job__bid-verify-cancel:last-child,
+      .o-job__bid-verify-confirm:last-child {
+        width: 48.21067%; }
+      .o-job__event-time-in:nth-child(2n),
+      .o-job__event-time-out:nth-child(2n),
+      .o-job__bid-verify-cancel:nth-child(2n),
+      .o-job__bid-verify-confirm:nth-child(2n) {
+        margin-right: 0; }
+      .o-job__event-time-in:nth-child(2n+1),
+      .o-job__event-time-out:nth-child(2n+1),
+      .o-job__bid-verify-cancel:nth-child(2n+1),
+      .o-job__bid-verify-confirm:nth-child(2n+1) {
         clear: left; } }
 
 .o-job__quote-cta-option {
@@ -10308,15 +10810,7 @@ hr {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
     .o-job__quote-cta-option {
-      float: left;
-      display: block;
-      width: 34.52665%; }
-      .o-job__quote-cta-option:last-child {
-        width: 30.94799%; }
-      .o-job__quote-cta-option:nth-child(3n) {
-        margin-right: 0; }
-      .o-job__quote-cta-option:nth-child(3n+1) {
-        clear: left; } }
+      width: 33.3%; } }
 
 .v-job__half,
 .v-job__status,
@@ -11448,23 +11942,6 @@ ol {
     margin-bottom: 0.7rem;
     list-style: lower-latin inside none;
     color: #54545a; }
-
-dt {
-  margin: 0;
-  margin-top: 11.2px;
-  margin-top: 0.7rem;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-bottom: 1px dotted #092f3e; }
-
-dd {
-  margin: 0;
-  margin-top: 5.6px;
-  margin-top: 0.35rem;
-  color: #54545a; }
 
 .paragraph-descriptor {
   display: block;
@@ -19105,13 +19582,6 @@ dd {
   margin-bottom: 0;
   color: #54545a; }
 
-.o-job__event-list-label, .o-job__event-time-in span,
-.o-job__event-time-out span, .o-job__quote-vendor + .o-job__bid-label {
-  display: block;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  text-transform: uppercase; }
-
 .o-job {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
@@ -19131,7 +19601,7 @@ dd {
   margin-top: 0; }
 
 .o-job__abstract-id {
-  line-height: 1; }
+  line-height: 0; }
   .o-job__abstract-id span {
     font-size: 23.04px;
     font-size: 1.44rem;
@@ -19162,8 +19632,8 @@ dd {
 .o-job__abstract-timetable {
   display: table;
   width: 100%;
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
+  margin-top: 11.2px;
+  margin-top: 0.7rem;
   padding-top: 11.2px;
   padding-top: 0.7rem;
   border-top: 1px dotted #e3e5ea; }
@@ -19173,14 +19643,7 @@ dd {
   .o-job__abstract-date span {
     font-size: 13.33333px;
     font-size: 0.83333rem;
-    line-height: 1.68;
-    color: #66c3b0; }
-    .o-job__abstract-date span:before, .o-job__abstract-date span:after {
-      color: #66c3b0; }
-  .o-job__abstract-date .is-unfinished .o-job__abstract-date-day:before {
-    content: "\2014";
-    display: block;
-    color: #c7cacd; }
+    line-height: 1.68; }
 
 .o-job__abstract-date-open,
 .o-job__abstract-date-closed {
@@ -19192,22 +19655,11 @@ dd {
   border-right: 1px solid #e3e5ea; }
 
 .o-job__abstract-date-numeral {
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
   font-size: 19.2px;
   font-size: 1.2rem;
   display: block;
-  line-height: 1; }
-
-.o-job__abstract-date-month {
-  font-size: 19.2px;
-  font-size: 1.2rem;
-  display: block;
-  margin-bottom: 0;
-  line-height: 1; }
-
-.o-job__abstract-date-day {
-  display: block;
-  font-size: 33.1776px;
-  font-size: 2.0736rem;
   line-height: 1; }
 
 @media screen and (min-width: 46.8em) {
@@ -19218,9 +19670,6 @@ dd {
     padding-left: 1.4rem;
     padding-bottom: 22.4px;
     padding-bottom: 1.4rem; } }
-@media screen and (min-width: 46.8em) {
-  .o-job__feed .is-job-closed {
-    margin-top: 0; } }
 .o-job__feed > article {
   margin-top: 22.4px;
   margin-top: 1.4rem;
@@ -19231,17 +19680,6 @@ dd {
       margin-top: 2.8rem; }
       .o-job__feed > article:first-child {
         margin-top: 0; } }
-.o-job__feed .o-job__feed-subnav + article {
-  margin-top: 22.4px;
-  margin-top: 1.4rem; }
-  .o-job__feed .o-job__feed-subnav + article:before {
-    display: none; }
-.o-job__feed .o-job__scope {
-  margin-top: 0; }
-  .o-job__feed .o-job__scope:before {
-    display: none; }
-  .o-job__feed .o-job__scope .o-job__scope-head {
-    border-top: 4px double #e3e5ea; }
 .o-job__feed:after {
   position: absolute;
   bottom: 0;
@@ -19259,19 +19697,6 @@ dd {
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%); }
-
-.o-job__feed-subnav {
-  margin-top: 44.8px;
-  margin-top: 2.8rem; }
-
-.o-job__feed-subnav-buckets {
-  border-color: #c7cacd; }
-
-.o-job__feed-subnav-bucket {
-  color: #93989c; }
-  .o-job__feed-subnav-bucket:hover {
-    cursor: default;
-    color: #93989c; }
 
 .o-job__event,
 .o-job__perform {
@@ -19334,50 +19759,7 @@ dd {
 .o-job__event-header,
 .o-job__perform-header {
   margin-top: 22.4px;
-  margin-top: 1.4rem;
-  background: white;
-  border: 1px solid #e3e5ea; }
-  @media screen and (min-width: 46.8em) {
-    .o-job__event-header,
-    .o-job__perform-header {
-      height: 64px;
-      height: 4rem; } }
-  .o-job__event-header .is-work-request:before,
-  .o-job__perform-header .is-work-request:before {
-    background: url(../../assets/work-request.svg) center center no-repeat; }
-  .o-job__event-header .is-repair:before,
-  .o-job__perform-header .is-repair:before {
-    background: url(../../assets/repair.svg) center center no-repeat; }
-  .o-job__event-header .is-replacement:before,
-  .o-job__perform-header .is-replacement:before {
-    background: url(../../assets/replacement.svg) center center no-repeat; }
-  .o-job__event-header .is-preventative:before,
-  .o-job__perform-header .is-preventative:before {
-    background: url(../../assets/preventative.svg) center center no-repeat; }
-  .o-job__event-header .is-service-call:before,
-  .o-job__perform-header .is-service-call:before {
-    background: url(../../assets/service.svg) center center no-repeat; }
-
-.o-job__perform-header-title,
-.o-job__event-header-title {
-  margin-bottom: 0;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 19.2px;
-  font-size: 1.2rem;
-  line-height: 1.16667;
-  color: #092f3e; }
-  .o-job__perform-header-title:before,
-  .o-job__event-header-title:before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    height: 40px;
-    height: 2.5rem;
-    width: 40px;
-    width: 2.5rem;
-    margin-right: 11.2px;
-    margin-right: 0.7rem; }
+  margin-top: 1.4rem; }
 
 .o-job__event-body {
   padding-top: 11.2px;
@@ -19387,12 +19769,14 @@ dd {
 .o-job__event-list-item {
   font-size: 13.33333px;
   font-size: 0.83333rem;
-  line-height: 1.68;
   margin-top: 11.2px;
   margin-top: 0.7rem;
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem;
   border-bottom: 1px dotted #e3e5ea; }
+  .o-job__event-list-item:first-child {
+    padding-bottom: 22.4px;
+    padding-bottom: 1.4rem; }
   .o-job__event-list-item:last-child {
     border-bottom: 1px solid transparent; }
   .o-job__event-list-item .is-verbose {
@@ -19403,27 +19787,48 @@ dd {
   display: block;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: -0.4px;
-  line-height: 1.4; }
+  margin-top: 5.6px;
+  margin-top: 0.35rem; }
+  .o-job__event-list-value:first-letter {
+    text-transform: uppercase; }
 
+.o-job__quote-equipment,
+.o-job__quote-equipment-truncated,
 .o-job__bid-equipment,
-.o-job__event-list-unit {
+.o-job__bid-equipment-truncated,
+.o-job__event-equipment {
   border: 1px solid #e3e5ea;
   margin-top: 11.2px;
   margin-top: 0.7rem;
-  display: block; }
+  display: block;
+  -webkit-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+  -ms-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+  -moz-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+  -o-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
+  box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1); }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-equipment,
+    .o-job__quote-equipment-truncated,
     .o-job__bid-equipment,
-    .o-job__event-list-unit {
+    .o-job__bid-equipment-truncated,
+    .o-job__event-equipment {
       height: 124px;
       height: 7.75rem;
       -webkit-border-radius: 2px;
       -ms-border-radius: 2px;
       -moz-border-radius: 2px;
       -o-border-radius: 2px;
-      border-radius: 2px; } }
+      border-radius: 2px;
+      -webkit-box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.1);
+      -ms-box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.1);
+      -moz-box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.1);
+      -o-box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.1); } }
+  .o-job__quote-equipment:hover,
+  .o-job__quote-equipment-truncated:hover,
   .o-job__bid-equipment:hover,
-  .o-job__event-list-unit:hover {
+  .o-job__bid-equipment-truncated:hover,
+  .o-job__event-equipment:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     -ms-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
@@ -19431,55 +19836,124 @@ dd {
     -o-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1); }
 
+.o-job__quote-equipment-img,
 .o-job__bid-equipment-img,
-.o-job__event-list-unit-img {
+.o-job__event-equipment-img {
   line-height: 0; }
+  .o-job__quote-equipment-img img,
+  .o-job__bid-equipment-img img,
+  .o-job__event-equipment-img img {
+    border: 3px solid white; }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-equipment-img,
     .o-job__bid-equipment-img,
-    .o-job__event-list-unit-img {
+    .o-job__event-equipment-img {
       padding-left: 11.2px;
       padding-left: 0.7rem;
       height: 122px;
       height: 7.625rem;
       vertical-align: middle; }
+      .o-job__quote-equipment-img img,
       .o-job__bid-equipment-img img,
-      .o-job__event-list-unit-img img {
-        vertical-align: middle; } }
+      .o-job__event-equipment-img img {
+        vertical-align: middle;
+        border: 1px solid #e3e5ea; } }
 
+.o-job__quote-equipment-specs,
 .o-job__bid-equipment-specs,
-.o-job__event-list-unit-specs {
+.o-job__event-equipment-specs {
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem;
   text-align: center; }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-equipment-specs,
     .o-job__bid-equipment-specs,
-    .o-job__event-list-unit-specs {
+    .o-job__event-equipment-specs {
       height: 122px;
       height: 7.625rem;
       padding-bottom: 0;
       text-align: left;
       vertical-align: middle; } }
+  .o-job__quote-equipment-specs .is-undefined:before,
+  .o-job__bid-equipment-specs .is-undefined:before,
+  .o-job__event-equipment-specs .is-undefined:before {
+    content: ''; }
+  .o-job__quote-equipment-specs .is-undefined:after,
+  .o-job__bid-equipment-specs .is-undefined:after,
+  .o-job__event-equipment-specs .is-undefined:after {
+    content: "\2014";
+    display: inline-block;
+    color: #c7cacd; }
 
+.o-job__quote-equipment-spec,
 .o-job__bid-equipment-spec,
-.o-job__event-list-unit-spec {
+.o-job__event-equipment-spec {
   margin-bottom: 11.2px;
   margin-bottom: 0.7rem; }
 
-.o-job__event-timetable {
-  display: table; }
+.o-job__bid-equipment-list,
+.o-job__quote-equipment-list {
+  overflow-y: scroll;
+  max-height: 1120px;
+  max-height: 70rem; }
+  .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li,
+  .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li,
+  .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li,
+  .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li {
+    padding-left: 0;
+    font-size: 13.33333px;
+    font-size: 0.83333rem; }
+    .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
+    .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
+    .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span,
+    .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span {
+      display: block; }
+      .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span:last-child,
+      .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span:last-child,
+      .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span:last-child,
+      .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span:last-child {
+        display: none; }
+    .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li:before,
+    .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li:before,
+    .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li:before,
+    .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li:before {
+      content: '';
+      display: none; }
+    @media screen and (min-width: 46.8em) {
+      .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
+      .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
+      .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span,
+      .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span {
+        padding-left: 5.6px;
+        padding-left: 0.35rem; }
+        .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span:first-child,
+        .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span:first-child,
+        .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span:first-child,
+        .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span:first-child {
+          display: none; }
+        .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span:last-child,
+        .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span:last-child,
+        .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span:last-child,
+        .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span:last-child {
+          display: inline-block; } }
+  @media screen and (min-width: 46.8em) {
+    .o-job__bid-equipment-list,
+    .o-job__quote-equipment-list {
+      max-height: 570px;
+      max-height: 35.625rem; } }
 
-.o-job__event-times {
-  display: table-row; }
-
-.o-job__event-time-in,
-.o-job__event-time-out {
-  display: table-cell;
-  width: 50%; }
-  .o-job__event-time-in time,
-  .o-job__event-time-out time {
-    display: block;
-    font-size: 16px;
-    font-size: 1rem; }
+.o-job__event-time-in .is-undefined:before,
+.o-job__event-time-out .is-undefined:before {
+  content: "\2014";
+  display: block;
+  color: #c7cacd; }
+.o-job__event-time-in time,
+.o-job__event-time-out time {
+  display: block;
+  font-size: 16px;
+  font-size: 1rem;
+  margin-top: 5.6px;
+  margin-top: 0.35rem; }
 
 .o-job__event-doc {
   padding: 5.6px;
@@ -19488,18 +19962,10 @@ dd {
   .o-job__event-doc:hover {
     background: #fafafb;
     cursor: pointer; }
-    .o-job__event-doc:hover .o-job__event-doc-view {
-      color: #092f3e; }
-
-.o-job__event-doc-view {
-  text-transform: uppercase;
-  font-size: 11.11111px;
-  font-size: 0.69444rem;
-  color: #93989c; }
 
 .o-job__quote .is-rebid {
   position: relative; }
-  .o-job__quote .is-rebid .o-job__quote-vendor:before {
+  .o-job__quote .is-rebid:before {
     position: absolute;
     content: '';
     height: 180px;
@@ -19514,16 +19980,10 @@ dd {
     background: url(../../assets/quote-rebid-stamp.png) center center no-repeat;
     background-size: cover; }
 
-.o-job__quote-header {
-  margin-top: 22.4px;
-  margin-top: 1.4rem;
-  text-align: center;
-  color: #092f3e; }
-
 .o-job__quote-body {
-  position: relative;
-  padding-bottom: 44.8px;
-  padding-bottom: 2.8rem; }
+  border-top: 1px solid #e3e5ea;
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
 
 .o-job__quote-cost {
   text-align: center; }
@@ -19534,7 +19994,8 @@ dd {
 
 .o-job__quote-cost-price {
   font-size: 33.1776px;
-  font-size: 2.0736rem; }
+  font-size: 2.0736rem;
+  letter-spacing: -0.1rem; }
   .o-job__quote-cost-price:before {
     content: '';
     margin: 0 auto;
@@ -19546,101 +20007,68 @@ dd {
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem; }
 
-.o-job__quote-cost-label {
+.o-job__quote-cost-title {
   font-size: 19.2px;
   font-size: 1.2rem; }
-  .o-job__quote-cost-label b {
-    font-size: 19.2px;
-    font-size: 1.2rem;
+  .o-job__quote-cost-title b {
     background: #e1f4f0;
     color: #092f3e; }
 
 .o-job__quote-vendor {
   text-align: center;
-  border-bottom: 1px dotted #e3e5ea;
-  padding-bottom: 11.2px;
-  padding-bottom: 0.7rem; }
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
   .o-job__quote-vendor h2 {
-    font-size: 23.04px;
-    font-size: 1.44rem; }
-  .o-job__quote-vendor p {
-    margin-top: 11.2px;
-    margin-top: 0.7rem; }
+    font-size: 19.2px;
+    font-size: 1.2rem; }
 
-.o-job__bid-description {
+.o-job__quote-label + p {
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
+  padding-bottom: 22.4px;
+  padding-bottom: 1.4rem;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: -0.4px;
-  line-height: 1.4; }
+  border-bottom: 1px dotted #e3e5ea; }
 
 .o-job__quote-vendor-label {
   color: #092f3e; }
   .o-job__quote-vendor-label:before, .o-job__quote-vendor-label:after {
     color: rgba(9, 47, 62, 0.4); }
 
-.o-job__quote-scope {
-  padding: 11.2px;
-  padding: 0.7rem;
-  padding-left: 67.2px;
-  padding-left: 4.2rem;
-  border: 2px solid #e3e5ea;
-  -webkit-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  position: relative; }
-  .o-job__quote-scope:hover {
-    background: #fafafb;
-    cursor: pointer; }
-  .o-job__quote-scope:before {
-    content: '';
-    position: absolute;
-    left: 22.4px;
-    left: 1.4rem;
-    display: block;
-    margin: 0 auto;
-    height: 18px;
-    height: 1.125rem;
-    width: 18px;
-    width: 1.125rem;
-    background: url(../../assets/scope-icon.svg) center center no-repeat; }
-
 .o-job__quote-cta {
   margin-top: 22.4px;
   margin-top: 1.4rem;
+  border-bottom: 4px double #e3e5ea;
+  border-top: 4px double #e3e5ea;
   text-align: center; }
-  .o-job__quote-cta .is-disabled {
-    color: #93989c !important; }
-    .o-job__quote-cta .is-disabled:hover {
+  .o-job__quote-cta .is-denied {
+    color: #93989c; }
+    .o-job__quote-cta .is-denied:hover {
       background: transparent;
       cursor: default; }
-      .o-job__quote-cta .is-disabled:hover:before {
+      .o-job__quote-cta .is-denied:hover:before {
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         -moz-transform: scale(1);
         -o-transform: scale(1);
         transform: scale(1); }
-  .o-job__quote-cta .is-chosen {
-    color: #66c3b0 !important; }
-    .o-job__quote-cta .is-chosen:hover {
-      background: transparent;
-      cursor: default; }
-      .o-job__quote-cta .is-chosen:hover:before {
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        -moz-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1); }
+  .o-job__quote-cta .is-chosen:hover {
+    background: transparent;
+    cursor: default; }
+    .o-job__quote-cta .is-chosen:hover:before {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1); }
 
 .o-job__quote-cta-option {
   padding: 22.4px;
   padding: 1.4rem;
-  -webkit-appearance: none;
   line-height: 1;
   cursor: pointer;
   position: relative;
-  vertical-align: middle;
   text-align: center;
   border: none;
   outline: none; }
@@ -19663,6 +20091,81 @@ dd {
       -moz-transform: scale(1.1);
       -o-transform: scale(1.1);
       transform: scale(1.1); }
+
+.o-job__quote-cta + .o-job__quote-label {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.o-job__bid-tabs {
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  display: table;
+  width: 100%; }
+  .o-job__bid-tabs .is-active {
+    background: white;
+    border-bottom-color: white; }
+    .o-job__bid-tabs .is-active:hover {
+      background: white;
+      cursor: default; }
+
+.o-job__bid-tab-tr {
+  display: table-row;
+  width: 100%; }
+
+.o-job__bid-tab-rfq {
+  display: table-cell;
+  border: 1px solid #e3e5ea;
+  border-left: 0;
+  background: #fafafb;
+  z-index: 2;
+  padding: 11.2px;
+  padding: 0.7rem;
+  padding-left: 22.4px;
+  padding-left: 1.4rem;
+  font-size: 16px;
+  font-size: 1rem; }
+  .o-job__bid-tab-rfq:first-child {
+    border-left: 1px solid #e3e5ea;
+    -webkit-border-radius: 4px 0 0 0;
+    -ms-border-radius: 4px 0 0 0;
+    -moz-border-radius: 4px 0 0 0;
+    -o-border-radius: 4px 0 0 0;
+    border-radius: 4px 0 0 0; }
+  .o-job__bid-tab-rfq:last-child {
+    -webkit-border-radius: 0 4px 0 0;
+    -ms-border-radius: 0 4px 0 0;
+    -moz-border-radius: 0 4px 0 0;
+    -o-border-radius: 0 4px 0 0;
+    border-radius: 0 4px 0 0; }
+  .o-job__bid-tab-rfq:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.6); }
+
+.o-job__bid-verify {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 48px;
+  min-height: 3rem; }
+
+.o-job__bid-verify-approve {
+  padding: 11.2px;
+  padding: 0.7rem;
+  display: block; }
+
+.o-job__bid-verify-cancel,
+.o-job__bid-verify-confirm {
+  padding: 11.2px;
+  padding: 0.7rem; }
+  .o-job__bid-verify-cancel:before,
+  .o-job__bid-verify-confirm:before {
+    margin-right: 5.6px;
+    margin-right: 0.35rem; }
+
+.o-job__bid-verify-cancel {
+  border: 2px solid #fafafb; }
+  .o-job__bid-verify-cancel:hover, .o-job__bid-verify-cancel:focus, .o-job__bid-verify-cancel:active {
+    border: 2px solid #e3e5ea; }
 
 .o-job__bid .is-sourcing {
   position: relative;
@@ -19723,7 +20226,7 @@ dd {
       background: center center no-repeat;
       background-image: url(../../assets/pdf-download-icon.svg); }
 
-.o-job__bid .is-proposal-approved:before {
+.o-job__bid .is-proposal-approved:after {
   position: absolute;
   content: '';
   height: 180px;
@@ -19731,15 +20234,19 @@ dd {
   width: 180px;
   width: 11.25rem;
   display: inline-block;
-  top: 11.2px;
-  top: 0.7rem;
+  bottom: 11.2px;
+  bottom: 0.7rem;
   right: 11.2px;
   right: 0.7rem;
   background: url(../../assets/proposal-approved-stamp.png) center center no-repeat;
   background-size: cover; }
 
 .o-job__bid-body {
-  position: relative; }
+  position: relative;
+  padding-bottom: 67.2px;
+  padding-bottom: 4.2rem; }
+  .o-job__bid-body .o-job__bid-label:first-of-type {
+    margin-top: 0; }
 
 .o-job__bid-fieldset {
   margin-top: 22.4px;
@@ -19773,57 +20280,32 @@ dd {
   .o-job__bid-fieldset .is-denied-option:focus span {
     color: #93989c; }
 
-.o-job__bid-label,
-.o-job__bid-legend,
-.o-job__perform-warranty-label {
-  padding-top: 0;
-  margin-bottom: 0; }
-  .o-job__bid-label i,
-  .o-job__bid-legend i,
-  .o-job__perform-warranty-label i {
-    color: #93989c;
-    font-weight: 400;
-    font-style: normal; }
+.o-job__event-doc-label {
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  letter-spacing: 0; }
 
 .o-job__perform-warranty-label,
-.o-job__bid-label {
+.o-job__bid-label,
+.o-job__quote-label {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
-.o-job__bid-form + .o-job__bid-label {
+.o-job__bid-form {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
-.o-job__bid-button-encourage {
-  margin-top: 11.2px;
-  margin-top: 0.7rem; }
+.o-job__bid-check-label:last-of-type {
+  margin-bottom: 0; }
+.o-job__bid-check-label:hover .o-job__bid-option-price, .o-job__bid-check-label:focus .o-job__bid-option-price {
+  color: #66c3b0; }
 
-.o-job__bid-check-label {
-  -webkit-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  display: block;
-  position: relative; }
-  .o-job__bid-check-label:last-of-type {
-    margin-bottom: 0; }
-  .o-job__bid-check-label:hover, .o-job__bid-check-label:focus {
-    background: rgba(102, 195, 176, 0.2);
-    cursor: pointer; }
-    .o-job__bid-check-label:hover .o-job__bid-option-price, .o-job__bid-check-label:focus .o-job__bid-option-price {
-      color: #66c3b0; }
-
-.o-job__bid-check-radio {
-  position: absolute;
-  top: 5.6px;
-  left: 5.6px; }
-  .o-job__bid-check-radio:checked ~ .o-job__bid-options .o-job__bid-option-price {
-    color: #66c3b0; }
-  .o-job__bid-check-radio:checked ~ .o-job__bid-options .o-job__bid-options-details {
-    max-height: 400px;
-    max-height: 25rem;
-    overflow: auto; }
+.o-job__bid-check-radio:checked ~ .o-job__bid-options .o-job__bid-option-price {
+  color: #66c3b0; }
+.o-job__bid-check-radio:checked ~ .o-job__bid-options .o-job__bid-options-details {
+  max-height: 400px;
+  max-height: 25rem;
+  overflow: auto; }
 
 .o-job__bid-options {
   padding-left: 34px;
@@ -19845,124 +20327,29 @@ dd {
   color: #54545a; }
 
 .o-job__bid-total {
-  padding-top: 5.6px;
-  padding-top: 0.35rem;
+  padding-top: 11.2px;
+  padding-top: 0.7rem;
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem;
-  margin-top: 44.8px;
-  margin-top: 2.8rem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
   margin-bottom: 22.4px;
   margin-bottom: 1.4rem;
   position: relative;
-  border: none;
-  border-top: 1px dotted #66c3b0;
-  border-bottom: 1px dotted #66c3b0;
-  min-height: 62px;
-  min-height: 3.875rem; }
-  @media screen and (min-width: 46.8em) {
-    .o-job__bid-total {
-      padding-top: 5.6px;
-      padding-top: 0.35rem;
-      padding-bottom: 5.6px;
-      padding-bottom: 0.35rem;
-      margin-top: 44.8px;
-      margin-top: 2.8rem;
-      margin-bottom: 0; } }
+  border-top: 2px solid #e1f4f0;
+  border-bottom: 2px solid #e1f4f0; }
 
-.o-job__bid-total-commit {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: white; }
-  @media screen and (min-width: 46.8em) {
-    .o-job__bid-total-commit {
-      background: rgba(255, 255, 255, 0.94); } }
-
-.o-job__bid-total-cost,
-.o-job__bid-total-confirm,
-.o-job__bid-total-commit-copy,
-.o-job__bid-total-commit-buttons {
-  text-align: center; }
-  @media screen and (min-width: 46.8em) {
-    .o-job__bid-total-cost,
-    .o-job__bid-total-confirm,
-    .o-job__bid-total-commit-copy,
-    .o-job__bid-total-commit-buttons {
-      position: absolute;
-      display: inline-block;
-      height: 60px;
-      height: 3.75rem;
-      vertical-align: middle; } }
-
-.o-job__bid-total-cost:before,
-.o-job__bid-total-commit-copy:before {
-  display: none; }
-@media screen and (min-width: 46.8em) {
-  .o-job__bid-total-cost,
-  .o-job__bid-total-commit-copy {
-    left: 0;
-    top: 0; }
-    .o-job__bid-total-cost:before,
-    .o-job__bid-total-commit-copy:before {
-      display: inline-block; } }
-
-@media screen and (min-width: 46.8em) {
-  .o-job__bid-total-confirm,
-  .o-job__bid-total-commit-buttons {
-    right: 0;
-    top: 0; } }
-
-.o-job__bid-total-commit-copy,
-.o-job__bid-total-commit-buttons {
-  -webkit-transform: translateY(40%);
-  -ms-transform: translateY(40%);
-  -moz-transform: translateY(40%);
-  -o-transform: translateY(40%);
-  transform: translateY(40%); }
-  @media screen and (min-width: 46.8em) {
-    .o-job__bid-total-commit-copy,
-    .o-job__bid-total-commit-buttons {
-      -webkit-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -o-transform: translateY(0%);
-      transform: translateY(0%); } }
-
-.o-job__bid-total-label,
-.o-job__bid-total-feedback {
-  font-size: 19.2px;
-  font-size: 1.2rem;
-  padding: 0;
+.o-job__bid-total-number,
+.o-job__bid-total-label {
   display: inline-block;
-  text-transform: none;
-  vertical-align: middle; }
-
-.o-job__bid-total-feedback:after {
-  color: #66c3b0;
-  margin-left: 5.6px;
-  margin-left: 0.35rem;
-  content: "\e60a";
-  display: inline-block; }
+  font-size: 16px;
+  font-size: 1rem; }
 
 .o-job__bid-total-number {
   padding-left: 11.2px;
-  padding-left: 0.7rem;
-  display: inline-block;
-  color: #66c3b0; }
+  padding-left: 0.7rem; }
 
-.o-job__bid-total-confirm-button {
-  margin-top: 11.2px;
-  margin-top: 0.7rem; }
-  @media screen and (min-width: 46.8em) {
-    .o-job__bid-total-confirm-button {
-      margin-top: 0; } }
-
-.o-job__bid-total-commit-button {
-  margin-right: 11.2px;
-  margin-right: 0.7rem; }
-
+.o-job__quote-scan-item,
 .o-job__bid-scan-item {
   margin-top: 11.2px;
   margin-top: 0.7rem;
@@ -19971,6 +20358,7 @@ dd {
   font-size: 11.11111px;
   font-size: 0.69444rem;
   position: relative; }
+  .o-job__quote-scan-item:before,
   .o-job__bid-scan-item:before {
     content: '';
     position: absolute;
@@ -19982,9 +20370,12 @@ dd {
     width: 1rem;
     background: center center no-repeat;
     background-image: url(../../assets/service-icon.svg); }
-  .o-job__bid-scan-item:nth-child(1), .o-job__bid-scan-item:nth-child(2) {
+  .o-job__quote-scan-item:nth-child(1), .o-job__quote-scan-item:nth-child(2),
+  .o-job__bid-scan-item:nth-child(1),
+  .o-job__bid-scan-item:nth-child(2) {
     margin-top: 0; }
   @media screen and (min-width: 46.8em) {
+    .o-job__quote-scan-item,
     .o-job__bid-scan-item {
       margin-top: 16.8px;
       margin-top: 1.05rem;
@@ -19992,87 +20383,84 @@ dd {
       font-size: 0.83333rem; } }
 
 .o-job__bid-scan-list,
-.o-job__bid-zoom-list {
+.o-job__bid-zoom-list,
+.o-job__bid-equipment-list,
+.o-job__quote-scan-list,
+.o-job__quote-zoom-list,
+.o-job__quote-equipment-list {
   margin-top: 11.2px;
   margin-top: 0.7rem;
   padding-bottom: 22.4px;
   padding-bottom: 1.4rem;
   border-bottom: 1px dotted #e3e5ea; }
+  .o-job__bid-scan-list .o-job__quote-equipment:first-child,
+  .o-job__bid-scan-list .o-job__bid-equipment:first-child,
+  .o-job__bid-zoom-list .o-job__quote-equipment:first-child,
+  .o-job__bid-zoom-list .o-job__bid-equipment:first-child,
+  .o-job__bid-equipment-list .o-job__quote-equipment:first-child,
+  .o-job__bid-equipment-list .o-job__bid-equipment:first-child,
+  .o-job__quote-scan-list .o-job__quote-equipment:first-child,
+  .o-job__quote-scan-list .o-job__bid-equipment:first-child,
+  .o-job__quote-zoom-list .o-job__quote-equipment:first-child,
+  .o-job__quote-zoom-list .o-job__bid-equipment:first-child,
+  .o-job__quote-equipment-list .o-job__quote-equipment:first-child,
+  .o-job__quote-equipment-list .o-job__bid-equipment:first-child {
+    margin-top: 0; }
 
+.o-job__bid-zoom-list {
+  padding-bottom: 11.2px;
+  padding-bottom: 0.7rem; }
+
+.o-job__quote-zoom-list {
+  border-bottom-color: white;
+  padding-bottom: 0; }
+
+.o-job__quote-zoom-item,
 .o-job__bid-zoom-item {
-  overflow: hidden;
-  position: relative;
-  padding-left: 28px;
-  padding-left: 1.75rem;
-  margin-bottom: 11.2px;
-  margin-bottom: 0.7rem;
-  padding-top: 1px;
-  padding-top: 0.0625rem;
-  padding-bottom: 10px;
-  padding-bottom: 0.625rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 13.33333px;
-  font-size: 0.83333rem;
-  border-bottom: 1px solid #fafafb;
-  text-align: left; }
-  .o-job__bid-zoom-item:before {
-    content: '';
+  border-bottom-color: #fafafb; }
+  .o-job__quote-zoom-item a:after,
+  .o-job__bid-zoom-item a:after {
+    content: 'view scope';
     position: absolute;
     top: 0;
-    left: 0;
-    display: block;
-    margin: 0 auto;
-    height: 18px;
-    height: 1.125rem;
-    width: 18px;
-    width: 1.125rem;
-    background: center center no-repeat;
-    background-image: url(../../assets/scope-icon.svg); }
-  .o-job__bid-zoom-item a {
-    display: inline-block;
-    border-bottom: 1px solid transparent; }
-    .o-job__bid-zoom-item a:after {
-      content: 'view scope';
-      position: absolute;
-      top: 0;
-      right: -22.4px;
-      text-transform: uppercase;
-      font-size: 11.11111px;
-      font-size: 0.69444rem;
-      color: #93989c;
-      background: white;
-      border: 1px solid #e3e5ea;
-      opacity: 0;
-      -webkit-border-radius: 2px;
-      -ms-border-radius: 2px;
-      -moz-border-radius: 2px;
-      -o-border-radius: 2px;
-      border-radius: 2px;
-      -webkit-box-shadow: 0 0 4px 0 #fafafb;
-      -ms-box-shadow: 0 0 4px 0 #fafafb;
-      -moz-box-shadow: 0 0 4px 0 #fafafb;
-      -o-box-shadow: 0 0 4px 0 #fafafb;
-      box-shadow: 0 0 4px 0 #fafafb;
-      padding-left: 5.6px;
-      padding-left: 0.35rem;
-      padding-right: 5.6px;
-      padding-right: 0.35rem;
-      -webkit-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      -ms-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      -moz-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      -o-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-    .o-job__bid-zoom-item a:hover {
+    right: -22.4px;
+    right: -1.4rem;
+    text-transform: uppercase;
+    font-size: 11.11111px;
+    font-size: 0.69444rem;
+    color: #092f3e;
+    background: white;
+    border: 1px solid #e3e5ea;
+    opacity: 0;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 4px 0 #fafafb;
+    -ms-box-shadow: 0 0 4px 0 #fafafb;
+    -moz-box-shadow: 0 0 4px 0 #fafafb;
+    -o-box-shadow: 0 0 4px 0 #fafafb;
+    box-shadow: 0 0 4px 0 #fafafb;
+    padding-left: 5.6px;
+    padding-left: 0.35rem;
+    padding-right: 5.6px;
+    padding-right: 0.35rem;
+    -webkit-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .o-job__quote-zoom-item a:hover,
+  .o-job__bid-zoom-item a:hover {
+    color: #092f3e; }
+    .o-job__quote-zoom-item a:hover:after,
+    .o-job__bid-zoom-item a:hover:after {
+      right: 0;
+      opacity: 1; }
+    .o-job__quote-zoom-item a:hover span,
+    .o-job__bid-zoom-item a:hover span {
       border-bottom: 1px solid #092f3e; }
-      .o-job__bid-zoom-item a:hover:after {
-        right: 0;
-        opacity: 1; }
-  .o-job__bid-zoom-item:last-of-type {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: 1px solid transparent; }
 
 .o-job__bid-source {
   position: absolute;
@@ -20128,8 +20516,6 @@ dd {
     line-height: 1.68;
     padding-right: 5.6px;
     padding-right: 0.35rem; }
-    .o-job__perform-vendor li:first-child {
-      text-transform: uppercase; }
   .o-job__perform-vendor span {
     font-size: 13.33333px;
     font-size: 0.83333rem;
@@ -20140,7 +20526,10 @@ dd {
     margin-top: 0; }
 
 .o-job__perform-warranty-label {
-  padding-bottom: 0; }
+  padding-left: 28px;
+  padding-left: 1.75rem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
   .o-job__perform-warranty-label:before {
     background: url(../../assets/warranty-emojii.svg) center center no-repeat; }
   .o-job__perform-warranty-label i {

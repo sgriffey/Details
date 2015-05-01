@@ -59,7 +59,7 @@
 							<h2 class="siteNav__proposals-popover-title">Pending Proposals</h2>
 						</header>
 						<ul class="siteNav__proposals-popover-list">
-							<a href="job-proposal.html" class="current siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
+							<a href="job-proposal.html" class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
 								<h3 class="siteNav__proposals-popover-item-facility">1 Howard<span class="siteNav__proposals-popover-item-title">Vertical Self-Contained Compressor Replacement</span></h3>
 								<h4 class="siteNav__proposals-popover-item-count">(4 of 6)</h4>
 								<time class="siteNav__proposals-popover-item-time">1 hour ago</time>
@@ -215,6 +215,12 @@
 								<span>1 Howard Ave</span>
 								<span>San Francisco, CA. 94111</span>
 							</address>
+							<dl class="o-job__abstract-dl">
+								<dt>Hired Vendors:</dt>
+								<dd>Bay Fog Mechanical</dd><dd>AirStream</dd>
+								<dt>Service Location:</dt>
+								<dd>Roof</dd>
+							</dl>
 							<section class="o-job__abstract-timetable" border="0">
 								<section class="o-job__abstract-date">
 									<div class="o-job__abstract-date-open">
@@ -233,13 +239,13 @@
 				<section class="o-job__showcase">
 					<section class="o-job__feed">
 						<article class="o-job__bid">
-							<time class="o-job__bid-meta">Bidding Initiated: April 23</time>
-							<header class="o-job__bid-head">
-								<h1 class="o-job__bid-head-title">Job Proposal</h1>
-								<div class="o-job__bid-head-toolbar">
-									<a href="https://drive.google.com/file/d/0B2ipUQCRywuKQ0t4M2RVUVVKYVk/view?usp=sharing" class="o-job__bid-head-toolbar-save">Download PDF<i></i></a>
+							<time class="o-job__bid-meta">Proposal Bidding Initiated: April 23</time>
+							<nav class="o-job__bid-tabs">
+								<div class="o-job__bid-tab-tr">
+									<div class="o-job__bid-tab-rfq is-active" data-tab-rfq-a>Repair - A</div>
+									<div class="o-job__bid-tab-rfq" data-tab-rfq-b>Repair - B</div>
 								</div>
-							</header>
+							</nav>
 							<section class="o-job__bid-body">
 								<article class="o-job__bid-rfq" data-rfq-a>
 									<h2 class="o-job__bid-label">Equipment</h2>
@@ -340,6 +346,84 @@
 											<div class="o-job__bid-verify-decision is-masked">
 												<a class="o-job__bid-verify-cancel">Nevermind</a><a class="o-job__bid-verify-confirm">Confirm</a>
 											</div>
+										</div>
+									</form>
+								</article>
+								<article class="o-job__bid-rfq is-masked" data-rfq-b>
+									<h2 class="o-job__bid-label">Equipment</h2>
+									<ul class="o-job__bid-equipment-list">
+										<article class="o-job__bid-equipment">
+											<div class="o-job__bid-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__bid-equipment-specs">
+												<li class="o-job__bid-equipment-spec">VSC-1</li>
+												<li class="o-job__bid-equipment-spec">Trane</li>
+												<li class="o-job__bid-equipment-spec">72.0</li>
+												<li class="o-job__bid-equipment-spec">2009</li>
+												<li class="o-job__bid-equipment-spec">QR-5668</li>
+											</ul>
+										</article>
+									</ul>
+									<h2 class="o-job__bid-label">Proposal Highlights</h2>
+									<ul class="o-job__bid-scan-list">
+										<li class="o-job__bid-scan-item">OEM Compressor</li>
+										<li class="o-job__bid-scan-item">Freight</li>
+										<li class="o-job__bid-scan-item">5-year compressor warranty</li>
+										<li class="o-job__bid-scan-item">Installation Labor</li>
+									</ul>
+									<h2 class="o-job__bid-label">Proposal Scopes <i>(Full)</i></h2>
+									<ul class="o-job__bid-zoom-list">
+										<li class="o-job__bid-zoom-item"><a><span>OEM Parts - compressor replacement scope</span></a></li>
+									</ul>
+									<form class="o-job__bid-form">
+										<fieldset class="o-job__bid-fieldset">
+											<legend class="o-job__bid-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,105.55</span>
+													<span class="o-job__bid-option-vendor">Trane Parts</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>1-2 weeks</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>83722VR2</b></dd>
+													</dl>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,280.12</span>
+													<span class="o-job__bid-option-vendor">Local Trane</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>3 weeks</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>W3SBG4311</b></dd>
+													</dl>
+												</div>
+											</label>
+										</fieldset>
+										<fieldset class="o-job__bid-fieldset">
+											<legend class="o-job__bid-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
+											<label class="o-job__bid-check-label is-sourcing-price">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" disabled="true">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price"></span>
+													<span class="o-job__bid-option-vendor">Bay Fog Mechanical</span>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" checked>
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,278.56</span>
+													<span class="o-job__bid-option-vendor">Airstream</span>
+												</div>
+											</label>
+										</fieldset>
+										<section class="o-job__bid-total">
+											<div class="o-job__bid-total-cost">
+												<h3 class="o-job__bid-total-label">Total Cost Estimate:<b class="o-job__bid-total-number">$3,356.16</b></h3>
+											</div>
+										</section>
+										<div class="o-job__bid-verify">
+											<a class="o-job__bid-verify-approve">Approve Proposal</a>
 										</div>
 									</form>
 								</article>

@@ -19,16 +19,38 @@ $(document).ready(function() {
             $(".v-job__scan-body").addClass("scan-expanded");
             $(".v-job__scan-expand").addClass("is-hidden");
     });
+
+    // If Equipment List Has more 3 units
+    $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2)").addClass("is-masked");
+    $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated").click(function() {
+        $(".o-job__bid-equipment, .o-job__quote-equipment").removeClass("is-masked");
+        $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2)").addClass("animated fadeIn");
+        $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated").addClass("is-masked");
+    });
+    // Job RFQ Tab Toggling
+    $("*[data-tab-rfq-a]").click(function(){
+            $("*[data-rfq-b], *[data-rfq-c]").addClass("is-masked");
+            $("*[data-rfq-a]").removeClass("is-masked");
+            $("*[data-tab-rfq-b], *[data-tab-rfq-c]").removeClass("is-active");
+            $("*[data-tab-rfq-a]").addClass("is-active");
+    });
+    $("*[data-tab-rfq-b]").click(function(){
+            $("*[data-rfq-a], *[data-rfq-c]").addClass("is-masked");
+            $("*[data-rfq-b]").removeClass("is-masked");
+            $("*[data-tab-rfq-a], *[data-tab-rfq-c]").removeClass("is-active");
+            $("*[data-tab-rfq-b]").addClass("is-active");
+    });
     // Job Proposal Commit & Approve
-    $(".o-job__bid-total-confirm-button").click(function(){
-            $(".o-job__bid-total-commit").toggleClass("is-masked");
-            $(".o-job__bid-total-commit").toggleClass("animated fadeIn");
+    $(".o-job__bid-verify-approve").click(function(){
+        $(".o-job__bid-verify-decision, .o-job__bid-verify-approve").toggleClass("is-masked");
+        $(".o-job__bid-verify-decision").toggleClass("animated fadeIn");
     });
-    $(".o-job__bid-total-cancel-button").click(function(){
-            $(".o-job__bid-total-commit").toggleClass("is-masked");
+    $(".o-job__bid-verify-cancel").click(function(){
+        $(".o-job__bid-verify-decision, .o-job__bid-verify-approve").toggleClass("is-masked");
     });
-    $(".o-job__bid-total-commit-button").click(function(){
-            $(".o-job__bid-total-commit, .o-job__bid-total-confirm-button, .o-job__bid-total-feedback").toggleClass("is-masked");
+    $(".o-job__bid-verify-confirm").click(function(){
+        $(".o-job__bid-verify-decision").toggleClass("is-masked");
+        $(".o-job__bid-body").addClass("is-proposal-approved");
     });
     // Toggle Job Status Timeline
     $(".v-job__status-timeline-button").click(function(){
@@ -505,7 +527,7 @@ $(document).ready(function() {
                 scrollTop: $("#overlay").offset().top
             }, 500);
     });
-    $(".rfq__zoom-doc, .o-job__bid-zoom-item").click(function(){
+    $(".rfq__zoom-doc, .o-job__bid-zoom-item, .o-job__quote-zoom-item").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
             $('html, body').animate({

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
     <title>service-icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="success-2" sketch:type="MSArtboardGroup" transform="translate(-12.000000, -12.000000)">
             <g id="service-icon" sketch:type="MSLayerGroup" transform="translate(13.000000, 13.000000)">
-                <circle id="Oval-282" stroke="#6FC9B7" stroke-width="2" fill="#E1F4F0" sketch:type="MSShapeGroup" cx="7" cy="7" r="7"></circle>
-                <g id="check" transform="translate(7.453359, 6.051687) rotate(-315.000000) translate(-7.453359, -6.051687) translate(5.453359, 2.051687)" fill="#092F3E" sketch:type="MSShapeGroup">
-                    <path d="M2.47058824,8.8817842e-15 L2.47058824,6.58823529 L4.11764706,6.58823529 L4.11764706,8.8817842e-15 L2.47058824,8.8817842e-15 Z M2.35367281e-14,8.23529412 L4.11764706,8.23529412 L4.11764706,6.58823529 L2.36375814e-14,6.58823529 L2.35367281e-14,8.23529412 Z" id="Rectangle-142"></path>
+                <circle id="Oval-282" stroke="#C7CACD" stroke-width="2" fill="#F7F8FA" sketch:type="MSShapeGroup" cx="7" cy="7" r="7"></circle>
+                <g id="check" transform="translate(7.453359, 6.758794) rotate(-315.000000) translate(-7.453359, -6.758794) translate(4.953359, 2.258794)" fill="#092F3E" sketch:type="MSShapeGroup">
+                    <path d="M2.47058824,3.55271368e-15 L2.47058824,6.58823529 L4.11764706,6.58823529 L4.11764706,3.55271368e-15 L2.47058824,3.55271368e-15 Z M1.9095836e-14,8.23529412 L4.11764706,8.23529412 L4.11764706,6.58823529 L1.91966893e-14,6.58823529 L1.9095836e-14,8.23529412 Z" id="Rectangle-142"></path>
                 </g>
             </g>
         </g>
