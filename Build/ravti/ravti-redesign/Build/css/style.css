@@ -750,7 +750,7 @@ hr {
   -o-transform: translate3d(400%, 0, 0);
   transform: translate3d(400%, 0, 0); }
 
-.account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .o-job__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .v-job__aside-subnav-buckets, .projects__subnav-active,
+dd, .account__details-personal-head-toolbar-edit, .facility__suite-lease-head-toolbar-edit, .account__details-personal-head-toolbar-lock, .facility__suite-lease-head-toolbar-lock, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .o-job__bid-head-toolbar-save, .projects__subnav-buckets, .proposal__procure-subnav-buckets, .project__details-subnav-buckets, .account__subnav-buckets, .facility__unit-subnav-buckets, .facility__projects-subnav-buckets, .facility__service-subnav-buckets, .facility__pm-subnav-buckets, .rfq__aside-subnav-buckets, .vendor__index-subnav-buckets, .job__aside-subnav-buckets, .v-job__aside-subnav-buckets, .projects__subnav-active,
 .projects__subnav-completed, .proposal__procure-subnav-equipment,
 .proposal__procure-subnav-qa, .project__details-subnav-terms,
 .project__details-subnav-equipment,
@@ -20167,15 +20167,6 @@ ol {
   .o-job__bid-verify-cancel:hover, .o-job__bid-verify-cancel:focus, .o-job__bid-verify-cancel:active {
     border: 2px solid #e3e5ea; }
 
-.o-job__bid .is-sourcing {
-  position: relative;
-  min-height: 280px;
-  min-height: 17.5rem; }
-  @media screen and (min-width: 46.8em) {
-    .o-job__bid .is-sourcing {
-      min-height: 600px;
-      min-height: 37.5rem; } }
-
 .o-job__bid-head-title span {
   opacity: 0; }
 
@@ -20226,6 +20217,17 @@ ol {
       background: center center no-repeat;
       background-image: url(../../assets/pdf-download-icon.svg); }
 
+.o-job__bid .is-procuring {
+  position: relative;
+  min-height: 500px;
+  min-height: 31.25rem;
+  margin-top: 22.4px;
+  margin-top: 1.4rem;
+  border-top: 1px solid #e3e5ea; }
+  @media screen and (min-width: 46.8em) {
+    .o-job__bid .is-procuring {
+      min-height: 620px;
+      min-height: 38.75rem; } }
 .o-job__bid .is-proposal-approved:after {
   position: absolute;
   content: '';
@@ -20469,18 +20471,23 @@ ol {
   right: 0;
   bottom: 0;
   overflow-y: scroll;
-  background: url(../../assets/pricing-blank.svg) center center no-repeat;
+  background: url(../../assets/pricing-blank-mobile.svg) center center no-repeat;
   background-size: cover; }
+  @media screen and (min-width: 46.8em) {
+    .o-job__bid-source {
+      background: url(../../assets/pricing-blank.svg) center center no-repeat; } }
 
 .o-job__bid-source-wrapper {
   max-width: 480px;
   max-width: 30rem;
-  margin-top: 11.2px;
-  margin-top: 0.7rem;
+  margin-top: 67.2px;
+  margin-top: 4.2rem;
   padding: 22.4px;
   padding: 1.4rem; }
   @media screen and (min-width: 46.8em) {
     .o-job__bid-source-wrapper {
+      margin: 0;
+      padding: 0;
       position: absolute;
       top: 40%;
       left: 50%;
