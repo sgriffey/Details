@@ -2650,15 +2650,7 @@ dd, .account__details-personal-head-toolbar-edit, .facility__suite-lease-head-to
   border-top: 3px solid #e3e5ea;
   border-bottom: 3px solid #e3e5ea; }
 
-.job__status-timeline-button:before, .o-job__quote-equipment:before,
-.o-job__quote-equipment-truncated:before,
-.o-job__bid-equipment:before,
-.o-job__bid-equipment-truncated:before,
-.o-job__event-equipment:before, .o-job__quote-equipment-img:before,
-.o-job__bid-equipment-img:before,
-.o-job__event-equipment-img:before, .o-job__quote-equipment-specs:before,
-.o-job__bid-equipment-specs:before,
-.o-job__event-equipment-specs:before, .v-job__status-timeline-button:before {
+.job__status-timeline-button:before, .v-job__status-timeline-button:before {
   content: '';
   display: inline-block;
   height: 100%;
@@ -19814,6 +19806,7 @@ ol {
     .o-job__event-equipment {
       height: 124px;
       height: 7.75rem;
+      position: relative;
       -webkit-border-radius: 2px;
       -ms-border-radius: 2px;
       -moz-border-radius: 2px;
@@ -19848,32 +19841,40 @@ ol {
     .o-job__quote-equipment-img,
     .o-job__bid-equipment-img,
     .o-job__event-equipment-img {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
       padding-left: 11.2px;
-      padding-left: 0.7rem;
-      height: 122px;
-      height: 7.625rem;
-      vertical-align: middle; }
+      padding-left: 0.7rem; }
       .o-job__quote-equipment-img img,
       .o-job__bid-equipment-img img,
       .o-job__event-equipment-img img {
-        vertical-align: middle;
         border: 1px solid #e3e5ea; } }
 
 .o-job__quote-equipment-specs,
 .o-job__bid-equipment-specs,
 .o-job__event-equipment-specs {
-  padding-bottom: 11.2px;
-  padding-bottom: 0.7rem;
   text-align: center; }
   @media screen and (min-width: 46.8em) {
     .o-job__quote-equipment-specs,
     .o-job__bid-equipment-specs,
     .o-job__event-equipment-specs {
-      height: 122px;
-      height: 7.625rem;
-      padding-bottom: 0;
-      text-align: left;
-      vertical-align: middle; } }
+      left: 26%;
+      position: absolute;
+      top: 50%;
+      padding-right: 11.2px;
+      padding-right: 0.7rem;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      text-align: left; } }
   .o-job__quote-equipment-specs .is-undefined:before,
   .o-job__bid-equipment-specs .is-undefined:before,
   .o-job__event-equipment-specs .is-undefined:before {
@@ -20394,7 +20395,8 @@ ol {
   margin-top: 0.7rem;
   padding-bottom: 22.4px;
   padding-bottom: 1.4rem;
-  border-bottom: 1px dotted #e3e5ea; }
+  border-bottom: 1px dotted #e3e5ea;
+  overflow: visible; }
   .o-job__bid-scan-list .o-job__quote-equipment:first-child,
   .o-job__bid-scan-list .o-job__bid-equipment:first-child,
   .o-job__bid-zoom-list .o-job__quote-equipment:first-child,
