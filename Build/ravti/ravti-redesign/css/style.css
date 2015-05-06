@@ -2693,7 +2693,7 @@ dd, .account__details-personal-head-toolbar-edit, .facility__suite-lease-head-to
     margin-right: 0.7rem; }
 
 .o-job__abstract-date-open .is-undefined:before,
-.o-job__abstract-date-closed .is-undefined:before, .o-job__event-list-item .is-undefined:before {
+.o-job__abstract-date-closed .is-undefined:before, .o-job__event-list-item .is-undefined:before, .o-job__perform-vendor li .is-undefined:before {
   content: "\2014";
   display: inline-block;
   color: #c7cacd; }
@@ -2863,6 +2863,58 @@ dd, .account__details-personal-head-toolbar-edit, .facility__suite-lease-head-to
   text-align: center;
   border: none;
   outline: none; }
+  [disabled="true"].form__buttons-encourage-block, [disabled="true"].form__buttons-encourage, [disabled="true"].form__input-button-bleed, [disabled="true"].onboard__next-slide,
+  [disabled="true"].onboard__finish-slide, [disabled="true"].onboard-dashboard__button-submit, [disabled="true"].dashboard__request-control-button-submit, [disabled="true"].proposal__procure-services-qa-post-btn, [disabled="true"].repair__bid-finalize-encourage, [disabled="true"].project__qa-chat-post-btn, [disabled="true"].overlay__confirm-form-button-encourage, [disabled="true"].overlay__mobile-request-button-submit, [disabled="true"].overlay__onboard-finalize-submit, [disabled="true"].account__details-personal-confirm-save, [disabled="true"].facility__unit-score-sheet-cta, [disabled="true"].facility__unit-request-form-button-submit, [disabled="true"].facility__unit-history-add-mobile-submit,
+  [disabled="true"].facility__unit-history-add-info-submit, [disabled="true"].facility__suite-lease-form-confirm-save, [disabled="true"].rfq__qa-post-btn, [disabled="true"].rfq__invite-accept,
+  [disabled="true"].rfq__dismiss-submit, [disabled="true"].vendor__signup-finalize-button, [disabled="true"].vendor__bid-button,
+  [disabled="true"].vendor__invoice-button,
+  [disabled="true"].vendor__info-button, [disabled="true"].job__invoice-button-submit,
+  [disabled="true"].job__bid-button-submit,
+  [disabled="true"].job__info-button-submit, [disabled="true"].job__status-event-cta-btn, [disabled="true"].job__schedule-button, [disabled="true"].job__qa-post-btn, [disabled="true"].o-job__bid-verify-approve, [disabled="true"].o-job__bid-verify-confirm, [disabled="true"].v-job__invoice-button-submit,
+  [disabled="true"].v-job__bid-button-submit,
+  [disabled="true"].v-job__info-button-submit, [disabled="true"].v-job__status-event-cta-btn, [disabled="true"].v-job__schedule-button, [disabled="true"].v-job__qa-post-btn, [disabled="true"].form__buttons-discourage, [disabled="true"].dashboard__feedback-dismiss-trigger, [disabled="true"].overlay__mobile-request-feedback-button, [disabled="true"].facility__unit-navigation-button, [disabled="true"].facility__suite-navigation-button, [disabled="true"].facility__pm-navigation-button, [disabled="true"].vendor__bid-submission-button,
+  [disabled="true"].vendor__invoice-submission-button,
+  [disabled="true"].vendor__info-submission-button, [disabled="true"].form__select-drop, [disabled="true"].onboard-dashboard__select-drop, [disabled="true"].dashboard__request-control-select-drop, [disabled="true"].overlay__mobile-request-select, [disabled="true"].facility__unit-request-form-select-drop, [disabled="true"].job__schedule-select, [disabled="true"].v-job__schedule-select, [disabled="true"].account__details-company-toggle-switch, [disabled="true"].form__buttons-neutral, [disabled="true"].onboard__previous-slide, [disabled="true"].repair__bid-finalize-neutral, [disabled="true"].repair__bid-finalize-rebid, [disabled="true"].overlay__confirm-form-button-neutral, [disabled="true"].overlay__mobile-request-button-cancel, [disabled="true"].account__details-personal-confirm-cancel, [disabled="true"].facility__activity-prevent-button, [disabled="true"].facility__unit-history-add-mobile-cancel,
+  [disabled="true"].facility__unit-history-add-info-cancel, [disabled="true"].facility__suite-lease-form-confirm-cancel, [disabled="true"].o-job__bid-verify-cancel, [disabled="true"].form__buttons-group-item {
+    opacity: 0.4; }
+    [disabled="true"].form__buttons-encourage-block:hover, [disabled="true"].form__buttons-encourage:hover, [disabled="true"].form__input-button-bleed:hover, [disabled="true"].onboard__next-slide:hover,
+    [disabled="true"].onboard__finish-slide:hover, [disabled="true"].onboard-dashboard__button-submit:hover, [disabled="true"].dashboard__request-control-button-submit:hover, [disabled="true"].proposal__procure-services-qa-post-btn:hover, [disabled="true"].repair__bid-finalize-encourage:hover, [disabled="true"].project__qa-chat-post-btn:hover, [disabled="true"].overlay__confirm-form-button-encourage:hover, [disabled="true"].overlay__mobile-request-button-submit:hover, [disabled="true"].overlay__onboard-finalize-submit:hover, [disabled="true"].account__details-personal-confirm-save:hover, [disabled="true"].facility__unit-score-sheet-cta:hover, [disabled="true"].facility__unit-request-form-button-submit:hover, [disabled="true"].facility__unit-history-add-mobile-submit:hover,
+    [disabled="true"].facility__unit-history-add-info-submit:hover, [disabled="true"].facility__suite-lease-form-confirm-save:hover, [disabled="true"].rfq__qa-post-btn:hover, [disabled="true"].rfq__invite-accept:hover,
+    [disabled="true"].rfq__dismiss-submit:hover, [disabled="true"].vendor__signup-finalize-button:hover, [disabled="true"].vendor__bid-button:hover,
+    [disabled="true"].vendor__invoice-button:hover,
+    [disabled="true"].vendor__info-button:hover, [disabled="true"].job__invoice-button-submit:hover,
+    [disabled="true"].job__bid-button-submit:hover,
+    [disabled="true"].job__info-button-submit:hover, [disabled="true"].job__status-event-cta-btn:hover, [disabled="true"].job__schedule-button:hover, [disabled="true"].job__qa-post-btn:hover, [disabled="true"].o-job__bid-verify-approve:hover, [disabled="true"].o-job__bid-verify-confirm:hover, [disabled="true"].v-job__invoice-button-submit:hover,
+    [disabled="true"].v-job__bid-button-submit:hover,
+    [disabled="true"].v-job__info-button-submit:hover, [disabled="true"].v-job__status-event-cta-btn:hover, [disabled="true"].v-job__schedule-button:hover, [disabled="true"].v-job__qa-post-btn:hover, [disabled="true"].form__buttons-discourage:hover, [disabled="true"].dashboard__feedback-dismiss-trigger:hover, [disabled="true"].overlay__mobile-request-feedback-button:hover, [disabled="true"].facility__unit-navigation-button:hover, [disabled="true"].facility__suite-navigation-button:hover, [disabled="true"].facility__pm-navigation-button:hover, [disabled="true"].vendor__bid-submission-button:hover,
+    [disabled="true"].vendor__invoice-submission-button:hover,
+    [disabled="true"].vendor__info-submission-button:hover, [disabled="true"].form__select-drop:hover, [disabled="true"].onboard-dashboard__select-drop:hover, [disabled="true"].dashboard__request-control-select-drop:hover, [disabled="true"].overlay__mobile-request-select:hover, [disabled="true"].facility__unit-request-form-select-drop:hover, [disabled="true"].job__schedule-select:hover, [disabled="true"].v-job__schedule-select:hover, [disabled="true"].account__details-company-toggle-switch:hover, [disabled="true"].form__buttons-neutral:hover, [disabled="true"].onboard__previous-slide:hover, [disabled="true"].repair__bid-finalize-neutral:hover, [disabled="true"].repair__bid-finalize-rebid:hover, [disabled="true"].overlay__confirm-form-button-neutral:hover, [disabled="true"].overlay__mobile-request-button-cancel:hover, [disabled="true"].account__details-personal-confirm-cancel:hover, [disabled="true"].facility__activity-prevent-button:hover, [disabled="true"].facility__unit-history-add-mobile-cancel:hover,
+    [disabled="true"].facility__unit-history-add-info-cancel:hover, [disabled="true"].facility__suite-lease-form-confirm-cancel:hover, [disabled="true"].o-job__bid-verify-cancel:hover, [disabled="true"].form__buttons-group-item:hover, [disabled="true"].form__buttons-encourage-block:focus, [disabled="true"].form__buttons-encourage:focus, [disabled="true"].form__input-button-bleed:focus, [disabled="true"].onboard__next-slide:focus,
+    [disabled="true"].onboard__finish-slide:focus, [disabled="true"].onboard-dashboard__button-submit:focus, [disabled="true"].dashboard__request-control-button-submit:focus, [disabled="true"].proposal__procure-services-qa-post-btn:focus, [disabled="true"].repair__bid-finalize-encourage:focus, [disabled="true"].project__qa-chat-post-btn:focus, [disabled="true"].overlay__confirm-form-button-encourage:focus, [disabled="true"].overlay__mobile-request-button-submit:focus, [disabled="true"].overlay__onboard-finalize-submit:focus, [disabled="true"].account__details-personal-confirm-save:focus, [disabled="true"].facility__unit-score-sheet-cta:focus, [disabled="true"].facility__unit-request-form-button-submit:focus, [disabled="true"].facility__unit-history-add-mobile-submit:focus,
+    [disabled="true"].facility__unit-history-add-info-submit:focus, [disabled="true"].facility__suite-lease-form-confirm-save:focus, [disabled="true"].rfq__qa-post-btn:focus, [disabled="true"].rfq__invite-accept:focus,
+    [disabled="true"].rfq__dismiss-submit:focus, [disabled="true"].vendor__signup-finalize-button:focus, [disabled="true"].vendor__bid-button:focus,
+    [disabled="true"].vendor__invoice-button:focus,
+    [disabled="true"].vendor__info-button:focus, [disabled="true"].job__invoice-button-submit:focus,
+    [disabled="true"].job__bid-button-submit:focus,
+    [disabled="true"].job__info-button-submit:focus, [disabled="true"].job__status-event-cta-btn:focus, [disabled="true"].job__schedule-button:focus, [disabled="true"].job__qa-post-btn:focus, [disabled="true"].o-job__bid-verify-approve:focus, [disabled="true"].o-job__bid-verify-confirm:focus, [disabled="true"].v-job__invoice-button-submit:focus,
+    [disabled="true"].v-job__bid-button-submit:focus,
+    [disabled="true"].v-job__info-button-submit:focus, [disabled="true"].v-job__status-event-cta-btn:focus, [disabled="true"].v-job__schedule-button:focus, [disabled="true"].v-job__qa-post-btn:focus, [disabled="true"].form__buttons-discourage:focus, [disabled="true"].dashboard__feedback-dismiss-trigger:focus, [disabled="true"].overlay__mobile-request-feedback-button:focus, [disabled="true"].facility__unit-navigation-button:focus, [disabled="true"].facility__suite-navigation-button:focus, [disabled="true"].facility__pm-navigation-button:focus, [disabled="true"].vendor__bid-submission-button:focus,
+    [disabled="true"].vendor__invoice-submission-button:focus,
+    [disabled="true"].vendor__info-submission-button:focus, [disabled="true"].form__select-drop:focus, [disabled="true"].onboard-dashboard__select-drop:focus, [disabled="true"].dashboard__request-control-select-drop:focus, [disabled="true"].overlay__mobile-request-select:focus, [disabled="true"].facility__unit-request-form-select-drop:focus, [disabled="true"].job__schedule-select:focus, [disabled="true"].v-job__schedule-select:focus, [disabled="true"].account__details-company-toggle-switch:focus, [disabled="true"].form__buttons-neutral:focus, [disabled="true"].onboard__previous-slide:focus, [disabled="true"].repair__bid-finalize-neutral:focus, [disabled="true"].repair__bid-finalize-rebid:focus, [disabled="true"].overlay__confirm-form-button-neutral:focus, [disabled="true"].overlay__mobile-request-button-cancel:focus, [disabled="true"].account__details-personal-confirm-cancel:focus, [disabled="true"].facility__activity-prevent-button:focus, [disabled="true"].facility__unit-history-add-mobile-cancel:focus,
+    [disabled="true"].facility__unit-history-add-info-cancel:focus, [disabled="true"].facility__suite-lease-form-confirm-cancel:focus, [disabled="true"].o-job__bid-verify-cancel:focus, [disabled="true"].form__buttons-group-item:focus, [disabled="true"].form__buttons-encourage-block:active, [disabled="true"].form__buttons-encourage:active, [disabled="true"].form__input-button-bleed:active, [disabled="true"].onboard__next-slide:active,
+    [disabled="true"].onboard__finish-slide:active, [disabled="true"].onboard-dashboard__button-submit:active, [disabled="true"].dashboard__request-control-button-submit:active, [disabled="true"].proposal__procure-services-qa-post-btn:active, [disabled="true"].repair__bid-finalize-encourage:active, [disabled="true"].project__qa-chat-post-btn:active, [disabled="true"].overlay__confirm-form-button-encourage:active, [disabled="true"].overlay__mobile-request-button-submit:active, [disabled="true"].overlay__onboard-finalize-submit:active, [disabled="true"].account__details-personal-confirm-save:active, [disabled="true"].facility__unit-score-sheet-cta:active, [disabled="true"].facility__unit-request-form-button-submit:active, [disabled="true"].facility__unit-history-add-mobile-submit:active,
+    [disabled="true"].facility__unit-history-add-info-submit:active, [disabled="true"].facility__suite-lease-form-confirm-save:active, [disabled="true"].rfq__qa-post-btn:active, [disabled="true"].rfq__invite-accept:active,
+    [disabled="true"].rfq__dismiss-submit:active, [disabled="true"].vendor__signup-finalize-button:active, [disabled="true"].vendor__bid-button:active,
+    [disabled="true"].vendor__invoice-button:active,
+    [disabled="true"].vendor__info-button:active, [disabled="true"].job__invoice-button-submit:active,
+    [disabled="true"].job__bid-button-submit:active,
+    [disabled="true"].job__info-button-submit:active, [disabled="true"].job__status-event-cta-btn:active, [disabled="true"].job__schedule-button:active, [disabled="true"].job__qa-post-btn:active, [disabled="true"].o-job__bid-verify-approve:active, [disabled="true"].o-job__bid-verify-confirm:active, [disabled="true"].v-job__invoice-button-submit:active,
+    [disabled="true"].v-job__bid-button-submit:active,
+    [disabled="true"].v-job__info-button-submit:active, [disabled="true"].v-job__status-event-cta-btn:active, [disabled="true"].v-job__schedule-button:active, [disabled="true"].v-job__qa-post-btn:active, [disabled="true"].form__buttons-discourage:active, [disabled="true"].dashboard__feedback-dismiss-trigger:active, [disabled="true"].overlay__mobile-request-feedback-button:active, [disabled="true"].facility__unit-navigation-button:active, [disabled="true"].facility__suite-navigation-button:active, [disabled="true"].facility__pm-navigation-button:active, [disabled="true"].vendor__bid-submission-button:active,
+    [disabled="true"].vendor__invoice-submission-button:active,
+    [disabled="true"].vendor__info-submission-button:active, [disabled="true"].form__select-drop:active, [disabled="true"].onboard-dashboard__select-drop:active, [disabled="true"].dashboard__request-control-select-drop:active, [disabled="true"].overlay__mobile-request-select:active, [disabled="true"].facility__unit-request-form-select-drop:active, [disabled="true"].job__schedule-select:active, [disabled="true"].v-job__schedule-select:active, [disabled="true"].account__details-company-toggle-switch:active, [disabled="true"].form__buttons-neutral:active, [disabled="true"].onboard__previous-slide:active, [disabled="true"].repair__bid-finalize-neutral:active, [disabled="true"].repair__bid-finalize-rebid:active, [disabled="true"].overlay__confirm-form-button-neutral:active, [disabled="true"].overlay__mobile-request-button-cancel:active, [disabled="true"].account__details-personal-confirm-cancel:active, [disabled="true"].facility__activity-prevent-button:active, [disabled="true"].facility__unit-history-add-mobile-cancel:active,
+    [disabled="true"].facility__unit-history-add-info-cancel:active, [disabled="true"].facility__suite-lease-form-confirm-cancel:active, [disabled="true"].o-job__bid-verify-cancel:active, [disabled="true"].form__buttons-group-item:active {
+      cursor: default; }
 
 .form__buttons-encourage-block-large, .form__buttons-encourage-large, .onboard-facility__button-finish, .proposal__form-button-encourage, .rfq__bid-button-encourage, .form__buttons-discourage-large, .form__buttons-neutral-large {
   -webkit-appearance: none;
@@ -20229,20 +20281,6 @@ ol {
     .o-job__bid .is-procuring {
       min-height: 620px;
       min-height: 38.75rem; } }
-.o-job__bid .is-proposal-approved:after {
-  position: absolute;
-  content: '';
-  height: 180px;
-  height: 11.25rem;
-  width: 180px;
-  width: 11.25rem;
-  display: inline-block;
-  bottom: 11.2px;
-  bottom: 0.7rem;
-  right: 11.2px;
-  right: 0.7rem;
-  background: url(../assets/proposal-approved-stamp.png) center center no-repeat;
-  background-size: cover; }
 
 .o-job__bid-body {
   position: relative;
@@ -20250,6 +20288,20 @@ ol {
   padding-bottom: 4.2rem; }
   .o-job__bid-body .o-job__bid-label:first-of-type {
     margin-top: 0; }
+  .o-job__bid-body .is-proposal-approved:after {
+    position: absolute;
+    content: '';
+    height: 180px;
+    height: 11.25rem;
+    width: 180px;
+    width: 11.25rem;
+    display: inline-block;
+    bottom: 11.2px;
+    bottom: 0.7rem;
+    right: 11.2px;
+    right: 0.7rem;
+    background: url(../assets/proposal-approved-stamp.png) center center no-repeat;
+    background-size: cover; }
 
 .o-job__bid-fieldset {
   margin-top: 22.4px;
@@ -20341,6 +20393,19 @@ ol {
   position: relative;
   border-top: 2px solid #e1f4f0;
   border-bottom: 2px solid #e1f4f0; }
+  .o-job__bid-total .is-proposal-approved:after {
+    position: absolute;
+    content: '';
+    height: 180px;
+    height: 11.25rem;
+    width: 180px;
+    width: 11.25rem;
+    display: inline-block;
+    bottom: 0;
+    right: 11.2px;
+    right: 0.7rem;
+    background: url(../assets/proposal-approved-stamp.png) center center no-repeat;
+    background-size: cover; }
 
 .o-job__bid-total-number,
 .o-job__bid-total-label {
@@ -20395,8 +20460,7 @@ ol {
   margin-top: 0.7rem;
   padding-bottom: 22.4px;
   padding-bottom: 1.4rem;
-  border-bottom: 1px dotted #e3e5ea;
-  overflow: visible; }
+  border-bottom: 1px dotted #e3e5ea; }
   .o-job__bid-scan-list .o-job__quote-equipment:first-child,
   .o-job__bid-scan-list .o-job__bid-equipment:first-child,
   .o-job__bid-zoom-list .o-job__quote-equipment:first-child,
@@ -20611,8 +20675,14 @@ ol {
     border-left: none; }
   .o-job__perform-warranty-spec .is-warranty-valid:before {
     content: "\e60a"; }
+  .o-job__perform-warranty-spec .is-warranty-valid:after {
+    content: "Valid";
+    display: inline-block; }
   .o-job__perform-warranty-spec .is-warranty-invalid:before {
     content: "\e608"; }
+  .o-job__perform-warranty-spec .is-warranty-invalid:after {
+    content: "Invalid";
+    display: inline-block; }
   .o-job__perform-warranty-spec span {
     font-size: 13.33333px;
     font-size: 0.83333rem;
