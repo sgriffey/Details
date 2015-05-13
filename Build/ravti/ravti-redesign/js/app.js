@@ -20,9 +20,12 @@ $(document).ready(function() {
             $(".v-job__scan-expand").addClass("is-hidden");
     });
     //Tenants Enrolling in lease compliacnce
-    $(".tenant__lease-enroll-agree-checkbox, .tenant__lease-upload-file").change(function(){
+    $(".tenant__lease-enroll-agree-checkbox").change(function(){
+        $(".tenant__lease-enroll-verify-approve").attr("disabled", false);
+    });
+    $(".tenant__lease-upload-file").change(function(){
         $(".tenant__lease-upload-filename").toggleClass("is-hidden");
-        $(".tenant__lease-enroll-verify-approve, .tenant__lease-upload-button").attr("disabled", false);
+        $(".tenant__lease-upload-button").attr("disabled", false);
     });
     $(".tenant__lease-enroll-verify-approve").click(function(){
         $(".tenant__lease-enroll-feedback").toggleClass("is-slid-down");
