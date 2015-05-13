@@ -19,7 +19,21 @@ $(document).ready(function() {
             $(".v-job__scan-body").addClass("scan-expanded");
             $(".v-job__scan-expand").addClass("is-hidden");
     });
-
+    //Tenants Enrolling in lease compliacnce
+    $(".tenant__lease-enroll-agree-checkbox, .tenant__lease-upload-file").change(function(){
+        $(".tenant__lease-upload-filename").toggleClass("is-hidden");
+        $(".tenant__lease-enroll-verify-approve, .tenant__lease-upload-button").attr("disabled", false);
+    });
+    $(".tenant__lease-enroll-verify-approve").click(function(){
+        $(".tenant__lease-enroll-feedback").toggleClass("is-slid-down");
+        $(".tenant__lease-enroll-offering").toggleClass("is-hidden");
+        $(".tenant__lease-enroll-verify-approve").attr("disabled", true);
+    });
+    $(".tenant__lease-upload-button").click(function(){
+        $(".tenant__lease-upload-feedback").toggleClass("is-slid-down");
+        $(".tenant__lease-upload-offering").toggleClass("is-hidden");
+        $(".tenant__lease-upload-button").attr("disabled", true);
+    });
     // If Equipment List Has more 3 units
     $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2)").addClass("is-masked");
     $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated").click(function() {
