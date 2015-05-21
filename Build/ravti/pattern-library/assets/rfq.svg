@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>rfq</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="rfq" sketch:type="MSArtboardGroup">
+            <g id="cooperative" sketch:type="MSLayerGroup" transform="translate(22.000000, 14.000000)">
+                <rect id="Rectangle-22" stroke="#90ACF3" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="46" height="60"></rect>
+                <rect id="Rectangle-29" stroke="#DAE3FB" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="2" y="2" width="42" height="56"></rect>
+                <rect id="Rectangle-23" sketch:type="MSShapeGroup" x="6" y="6" width="9" height="9"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="23" y="8" width="12" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="19" width="16.5" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="27" width="12" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="32" y="19" width="3" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="32" y="27" width="3" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="26" y="12" width="9" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="23" width="11" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="31" width="16.5" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="32" y="23" width="3" height="1"></rect>
+                <rect id="Rectangle-24" fill="#373C3E" sketch:type="MSShapeGroup" x="30" y="31" width="5" height="1"></rect>
+                <rect id="Rectangle-28" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="35" width="9" height="1"></rect>
+                <rect id="Rectangle-27" fill="#373C3E" sketch:type="MSShapeGroup" x="32" y="35" width="3" height="1"></rect>
+                <rect id="Rectangle-26" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="39" width="9" height="1"></rect>
+                <rect id="Rectangle-25" fill="#373C3E" sketch:type="MSShapeGroup" x="32" y="39" width="3" height="1"></rect>
+                <rect id="Rectangle-30" fill="#373C3E" sketch:type="MSShapeGroup" x="32" y="46" width="3" height="2"></rect>
+                <rect id="Rectangle-31" fill="#373C3E" sketch:type="MSShapeGroup" x="6" y="46" width="9" height="2"></rect>
+                <ellipse id="Oval-125" stroke-opacity="0.898777187" stroke="#EE5334" sketch:type="MSShapeGroup" transform="translate(32.899014, 46.945281) rotate(-15.000000) translate(-32.899014, -46.945281) " cx="32.8990143" cy="46.9452805" rx="6.23273402" ry="3.44539709"></ellipse>
+            </g>
+            <g id="ADD-2" sketch:type="MSLayerGroup" transform="translate(59.000000, 7.000000)">
+                <circle id="Oval-287" stroke="#373D3E" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="9" cy="9" r="9"></circle>
+                <g id="Rectangle-144-+-Rectangle-146" transform="translate(9.000000, 9.000000) rotate(-270.000000) translate(-9.000000, -9.000000) translate(5.000000, 5.000000)" fill="#373D3E" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-144" transform="translate(4.000000, 4.000000) rotate(-90.000000) translate(-4.000000, -4.000000) " x="3" y="0" width="2" height="8"></rect>
+                    <rect id="Rectangle-145" transform="translate(4.000000, 4.000000) rotate(-180.000000) translate(-4.000000, -4.000000) " x="3" y="0" width="2" height="8"></rect>
+                </g>
+            </g>
+            <path d="M32.976,27 L31.688,27 L30.576,24.728 L29.776,24.728 L29.776,27 L28.664,27 L28.664,21.304 L30.896,21.304 C31.4346694,21.304 31.8773316,21.4613318 32.224,21.776 C32.5706684,22.0906682 32.744,22.514664 32.744,23.048 C32.744,23.789337 32.3973368,24.2879987 31.704,24.544 L32.976,27 Z M31.632,23.048 C31.632,22.8186655 31.5546674,22.6360007 31.4,22.5 C31.2453326,22.3639993 31.0533345,22.296 30.824,22.296 L29.776,22.296 L29.776,23.8 L30.824,23.8 C31.0586678,23.8 31.2519992,23.733334 31.404,23.6 C31.5560008,23.466666 31.632,23.2826678 31.632,23.048 L31.632,23.048 Z M37.648,22.296 L35.008,22.296 L35.008,23.696 L37.256,23.696 L37.256,24.688 L35.008,24.688 L35.008,27 L33.896,27 L33.896,21.304 L37.648,21.304 L37.648,22.296 Z M42.768,26.656 L42.184,27.24 L41.68,26.736 C41.3599984,26.944001 40.9760022,27.048 40.528,27.048 C39.919997,27.048 39.4053354,26.8400021 38.984,26.424 C38.7333321,26.1786654 38.5680004,25.8506687 38.488,25.44 C38.4453331,25.2213322 38.424,24.7920032 38.424,24.152 C38.424,23.5226635 38.4453331,23.0933345 38.488,22.864 C38.562667,22.4586646 38.7279987,22.1306679 38.984,21.88 C39.4053354,21.4639979 39.919997,21.256 40.528,21.256 C41.136003,21.256 41.6479979,21.4639979 42.064,21.88 C42.3146679,22.1306679 42.4799996,22.4586646 42.56,22.864 C42.6080002,23.1040012 42.632,23.5333302 42.632,24.152 L42.632,24.744 C42.632,25.0266681 42.6186668,25.205333 42.592,25.28 C42.5706666,25.5893349 42.4666676,25.8853319 42.28,26.168 L42.768,26.656 Z M41.52,24.152 L41.52,23.736 C41.52,23.5759992 41.5146667,23.4373339 41.504,23.32 C41.4399997,22.6053298 41.1146696,22.248 40.528,22.248 C39.9626638,22.248 39.6373338,22.6053298 39.552,23.32 L39.536,24.152 C39.5306666,24.5200018 39.5359999,24.7973324 39.552,24.984 C39.6213337,25.6986702 39.9466638,26.056 40.528,26.056 C40.6720007,26.056 40.7946662,26.0213337 40.896,25.952 L40.4,25.464 L40.992,24.88 L41.416,25.304 C41.4853337,25.095999 41.52,24.7120028 41.52,24.152 L41.52,24.152 Z" id="RFQ" fill="#5883ED" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
