@@ -26,8 +26,13 @@ $(document).ready(function() {
         $(this).siblings('.account__settings-vendor-facility').removeClass('is-expanded');
         $(this).toggleClass('is-expanded');
     });
-    $(document).on('click', '.account__settings-vendor', function() {
+    $(document).on('click', '.account__settings-vendor:not(.is-expanded)', function() {
         $(this).children('.account__settings-vendor-docs').toggleClass("is-masked");
+        $(this).toggleClass("is-expanded");
+    });
+    $(document).on('click', '.account__settings-vendor-abstract i', function() {
+        $(this).parent('.account__settings-vendor-abstract').next('.account__settings-vendor-docs').toggleClass('is-masked');
+        $(this).parents('.account__settings-vendor').toggleClass('is-expanded');
     });
     $(document).on('click', '.account__settings-vendor-cta', function() {
         $(this).siblings('.account__settings-vendor-set').toggleClass("is-masked");

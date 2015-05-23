@@ -762,7 +762,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .rfq__aside-subnav-qa, .vendor__index-subnav-active,
 .vendor__index-subnav-completed, .job__aside-subnav-equipment,
 .job__aside-subnav-qa, .v-job__aside-subnav-equipment,
-.v-job__aside-subnav-qa, .job__invoice-upload input, .v-job__invoice-upload input, .rfq__bid-upload input, .vendor__bid-upload input, .job__bid-upload input, .v-job__bid-upload input, .tenant__lease-upload-label input, .vendor__invoice-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .vendor__info-upload input, .job__info-upload input, .v-job__info-upload input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .o-job__abstract-address, .v-job__abstract-address, .o-job__perform-vendor, .o-job__perform-warranty-label, .repair__abstract-dl, .repair__abstract-scope, .o-job__abstract-dl, .repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .repair__abstract-dl dt:first-child, .repair__abstract-scope dt:first-child, .o-job__abstract-dl dt:first-child, .repair__abstract-dl dd, .repair__abstract-scope dd, .o-job__abstract-dl dd, .job__recap-address, .job__abstract-freight, .job__schedule-status, .v-job__recap-address, .v-job__abstract-freight, .v-job__schedule-status, .vendor__signup-fieldset, .job__status-list, .v-job__status-list, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .account__settings-vendor-docs form label, .form__buttons-group, .form__example-fieldset, .onboard-dashboard__title, .onboard-dashboard__fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
+.v-job__aside-subnav-qa, .job__invoice-upload input, .v-job__invoice-upload input, .rfq__bid-upload input, .vendor__bid-upload input, .job__bid-upload input, .v-job__bid-upload input, .tenant__lease-upload-label input, .vendor__invoice-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .vendor__info-upload input, .job__info-upload input, .v-job__info-upload input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .o-job__abstract-address, .v-job__abstract-address, .o-job__perform-vendor, .o-job__perform-warranty-label, .repair__abstract-dl, .repair__abstract-scope, .o-job__abstract-dl, .repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .repair__abstract-dl dt:first-child, .repair__abstract-scope dt:first-child, .o-job__abstract-dl dt:first-child, .repair__abstract-dl dd, .repair__abstract-scope dd, .o-job__abstract-dl dd, .job__recap-address, .job__abstract-freight, .job__schedule-status, .v-job__recap-address, .v-job__abstract-freight, .v-job__schedule-status, .account__settings-vendor-docs form fieldset, .vendor__signup-fieldset, .job__status-list, .v-job__status-list, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .account__settings-vendor-abstract > i, .account__settings-vendor-docs form label, .form__buttons-group, .form__example-fieldset, .onboard-dashboard__title, .onboard-dashboard__fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -850,7 +850,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   padding-right: 22.4px;
   padding-right: 1.4rem; }
 
-.dashboard__index-control-map i, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid], .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
+.dashboard__index-control-map i, .check:checked ~ .switch, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid], .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
 .dashboard__request-control-upload-icon, .overlay__mobile-request-upload-icon,
 .overlay__mobile-request-tag-icon, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .job__status-event-info-upload-icon, .job__schedule-add-icon, .v-job__status-event-info-upload-icon, .v-job__schedule-add-icon, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i, .overlay__mobile-request-feedback-button i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i,
@@ -861,7 +861,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-cta-button,
 .vendor__info-history-cta-button, .job__status-banner-button, .v-job__status-banner-button, .vendor__bid-history-item-remove,
 .vendor__invoice-history-item-remove,
-.vendor__info-history-item-remove, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled, .o-job__quote-cta [data-icon-deny], .o-job__bid-verify-cancel, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before {
+.vendor__info-history-item-remove, .toggle .switch, .account__settings-vendor-docs form fieldset div div .switch, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled, .o-job__quote-cta [data-icon-deny], .o-job__bid-verify-cancel, .account__settings-vendor-abstract > i span:first-child, .account__settings-vendor-abstract > i span:last-child, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before {
   display: inline-block;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -874,7 +874,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.dashboard__index-control-map i:before, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid]:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
+.dashboard__index-control-map i:before, .check:checked ~ .switch:before, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid]:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
 .dashboard__request-control-upload-icon:before, .overlay__mobile-request-upload-icon:before,
 .overlay__mobile-request-tag-icon:before, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .job__status-event-info-upload-icon:before, .job__schedule-add-icon:before, .v-job__status-event-info-upload-icon:before, .v-job__schedule-add-icon:before, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i:before, .overlay__mobile-request-feedback-button i:before, .facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before,
@@ -885,7 +885,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-cta-button:before,
 .vendor__info-history-cta-button:before, .job__status-banner-button:before, .v-job__status-banner-button:before, .vendor__bid-history-item-remove:before,
 .vendor__invoice-history-item-remove:before,
-.vendor__info-history-item-remove:before, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .account__settings-vendor-abstract h3 .is-filed:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
+.vendor__info-history-item-remove:before, .toggle .switch:before, .account__settings-vendor-docs form fieldset div div .switch:before, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .account__settings-vendor-abstract > i span:first-child:before, .account__settings-vendor-abstract > i span:last-child:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .check:checked ~ .switch:after, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch:after, .account__settings-vendor-abstract h3 .is-filed:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
 .dashboard__request-control-upload-icon:after, .overlay__mobile-request-upload-icon:after,
 .overlay__mobile-request-tag-icon:after, .facility__pm-tenant-action-enroll i:after, .job__status-event-info-upload-icon:after, .job__schedule-add-icon:after, .v-job__status-event-info-upload-icon:after, .v-job__schedule-add-icon:after, .dashboard__feedback-dismiss-trigger i:after, .overlay__mobile-request-feedback-button i:after, .facility__unit-navigation-button i:after, .facility__suite-navigation-button i:after, .facility__pm-navigation-button i:after, .vendor__bid-submission-button i:after,
 .vendor__invoice-submission-button i:after,
@@ -895,14 +895,14 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-cta-button:after,
 .vendor__info-history-cta-button:after, .job__status-banner-button:after, .v-job__status-banner-button:after, .vendor__bid-history-item-remove:after,
 .vendor__invoice-history-item-remove:after,
-.vendor__info-history-item-remove:after, .account__settings-vendor-abstract h3 .is-unfiled:after, .o-job__quote-cta [data-icon-deny]:after, .o-job__bid-verify-cancel:after {
+.vendor__info-history-item-remove:after, .toggle .switch:after, .account__settings-vendor-docs form fieldset div div .switch:after, .account__settings-vendor-abstract h3 .is-unfiled:after, .o-job__quote-cta [data-icon-deny]:after, .o-job__bid-verify-cancel:after, .account__settings-vendor-abstract > i span:first-child:after, .account__settings-vendor-abstract > i span:last-child:after {
   font-family: 'ravti-icons';
   vertical-align: middle; }
 
 .dashboard__index-control-map i:before {
   content: "\e600"; }
 
-.account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before {
+.check:checked ~ .switch:before, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before {
   content: "\e60a"; }
 
 .o-job__quote-cta [data-icon-bid]:before {
@@ -958,8 +958,14 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
     font-family: 'ravti-icons';
     content: "\e609"; }
 
-.account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before {
+.toggle .switch:before, .account__settings-vendor-docs form fieldset div div .switch:before, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before {
   content: "\e608"; }
+
+.account__settings-vendor-abstract > i span:first-child:before {
+  content: "\e610"; }
+
+.account__settings-vendor-abstract > i span:last-child:before {
+  content: "\e60f"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -2086,7 +2092,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   border-top: 1px dotted #e3e5ea;
   text-align: right; }
 
-.onboard__dismiss-text, .onboard__dismiss-icon, .dashboard__index-grid-tile-hint, .account__settings-label, .account__settings-label span, .account__settings-input, .account__settings-fieldset, .account__settings-vendor-group, .account__settings-vendor-group .is-default, .o-job__quote-equipment,
+.onboard__dismiss-text, .onboard__dismiss-icon, .dashboard__index-grid-tile-hint, .account__settings-label, .account__settings-label span, .account__settings-input, .account__settings-fieldset, .account__settings-vendor-group, .account__settings-vendor-group .is-default, .account__settings-vendor, .account__settings-vendor-abstract > i, .o-job__quote-equipment,
 .o-job__quote-equipment-truncated,
 .o-job__bid-equipment,
 .o-job__bid-equipment-truncated,
@@ -2448,7 +2454,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem; }
 
-.vendor__signup-fieldset {
+.account__settings-vendor-docs form fieldset, .vendor__signup-fieldset {
   border: 0; }
 
 .job__status-banner, .job__schedule-banner, .job__banner, .v-job__status-banner, .v-job__schedule-banner, .v-job__banner {
@@ -2641,7 +2647,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   border-top: 3px solid #e3e5ea;
   border-bottom: 3px solid #e3e5ea; }
 
-.job__status-timeline-button:before, .v-job__status-timeline-button:before {
+.account__settings-vendor-abstract > i:before, .job__status-timeline-button:before, .v-job__status-timeline-button:before {
   content: '';
   display: inline-block;
   height: 100%;
@@ -2726,6 +2732,34 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
+
+.account__settings-vendor-abstract > i {
+  padding-left: 11.2px;
+  padding-left: 0.7rem;
+  padding-right: 11.2px;
+  padding-right: 0.7rem;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -o-border-radius: 35px;
+  border-radius: 35px;
+  height: 35px;
+  height: 2.1875rem;
+  -webkit-box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  -ms-box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  -o-box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  font-family: "jaf-bernino-sans", sans-serif;
+  background: white;
+  border: 1px solid #e3e5ea;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: none; }
+  .account__settings-vendor-abstract > i:hover, .account__settings-vendor-abstract > i:focus {
+    border-color: #c7cacd;
+    cursor: pointer; }
 
 .hero {
   background: #6fc99b;
@@ -3205,18 +3239,72 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
     background-color: rgba(111, 201, 155, 0.15); }
 
 /* The toggle container */
-.toggle {
+.toggle, .account__settings-vendor-docs form fieldset div div {
   display: inline-block;
   position: relative;
-  width: 112px;
-  width: 7rem;
-  height: 58px;
-  height: 3.625rem;
-  background-color: #e3e5ea;
-  overflow: hidden; }
+  width: 40px;
+  width: 2.5rem;
+  height: 20px;
+  height: 1.25rem;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #fafafb;
+  overflow: visible; }
+  .toggle .switch, .account__settings-vendor-docs form fieldset div div .switch {
+    position: absolute;
+    left: -2px;
+    left: -0.125rem;
+    top: -2px;
+    top: -0.125rem;
+    bottom: -2px;
+    bottom: -0.125rem;
+    right: 18px;
+    right: 1.125rem;
+    -webkit-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+    color: #092f3e;
+    background-color: #c7cacd;
+    z-index: 1;
+    transition: 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+    .toggle .switch:before, .account__settings-vendor-docs form fieldset div div .switch:before {
+      font-size: 13.33333px;
+      font-size: 0.83333rem;
+      line-height: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-55%, -50%);
+      -ms-transform: translate(-55%, -50%);
+      -moz-transform: translate(-55%, -50%);
+      -o-transform: translate(-55%, -50%);
+      transform: translate(-55%, -50%); }
+  .toggle .track, .account__settings-vendor-docs form fieldset div div .track {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -webkit-box-shadow: 0 0 0 transparent;
+    -ms-box-shadow: 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 transparent;
+    -o-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #e3e5ea;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px; }
 
 /* Check that triggers the toggle */
-.check {
+.check, .account__settings-vendor-docs form fieldset div div input {
   position: absolute;
   display: block;
   cursor: pointer;
@@ -3225,48 +3313,22 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   width: 100%;
   height: 100%;
   opacity: 0;
-  z-index: 6; }
-  .check::before {
-    content: 'OFF';
-    font-weight: 700;
-    font-size: 13.33333px;
-    font-size: 0.83333rem;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: block;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
-  .check:checked ~ .track {
-    -webkit-box-shadow: inset 0 0 0 80px #6fc99b;
-    -ms-box-shadow: inset 0 0 0 80px #6fc99b;
-    -moz-box-shadow: inset 0 0 0 80px #6fc99b;
-    -o-box-shadow: inset 0 0 0 80px #6fc99b;
-    box-shadow: inset 0 0 0 80px #6fc99b; }
-  .check:checked ~ .switch {
-    right: 2px;
-    left: 58px;
+  z-index: 6;
+  visibility: visible; }
+  .check:checked ~ .track, .account__settings-vendor-docs form fieldset div div input:checked ~ .track {
+    -webkit-box-shadow: inset 0 0 0 80px #e1f4ea;
+    -ms-box-shadow: inset 0 0 0 80px #e1f4ea;
+    -moz-box-shadow: inset 0 0 0 80px #e1f4ea;
+    -o-box-shadow: inset 0 0 0 80px #e1f4ea;
+    box-shadow: inset 0 0 0 80px #e1f4ea;
+    border: 1px solid #a6ddc1; }
+  .check:checked ~ .switch, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch {
+    right: -2px;
+    right: -0.125rem;
+    left: 18px;
+    left: 1.125rem;
+    background: #6fc99b;
     transition: 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
-    .check:checked ~ .switch::before {
-      content: 'ON';
-      font-weight: 700;
-      font-size: 13.33333px;
-      font-size: 0.83333rem;
-      color: #6fc99b;
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      display: block;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
 
 .form__select-drop, .onboard-dashboard__select-drop, .dashboard__request-control-select-drop, .overlay__mobile-request-select, .facility__unit-request-form-select-drop, .job__schedule-select, .v-job__schedule-select {
   -moz-appearance: none;
@@ -15542,7 +15604,24 @@ ol {
 
 .account__settings-vendor-group {
   margin-top: 22.4px;
-  margin-top: 1.4rem; }
+  margin-top: 1.4rem;
+  	/* How all code should be strung. IF U Updated PL!
+  	* is-sortable for vendor list buggy. shelf this.
+  
+  	button {
+  		@extend %reset-appearance;
+  		@extend %hard-reset;
+  		@extend %no-outline;
+  		@extend %inline-icon-button;
+  		@include font-size($milli, false);
+  		i {
+  			@extend %shuffle-icon;
+  			&:before {
+  				@include px-rem(margin-right, $quarter-spacing-unit);
+  			}
+  		}
+  	}
+  	*/ }
   .account__settings-vendor-group .is-default {
     border: 1px dashed #e3e5ea; }
     .account__settings-vendor-group .is-default:hover {
@@ -15571,6 +15650,12 @@ ol {
     min-height: 0;
     max-height: 0;
     border: 0; }
+  .account__settings-vendor-group .is-expanded i {
+    opacity: 1; }
+    .account__settings-vendor-group .is-expanded i span:first-child {
+      display: none; }
+    .account__settings-vendor-group .is-expanded i span:last-child {
+      display: inline-block; }
 
 .account__settings-vendor {
   border: 1px solid #e3e5ea;
@@ -15586,7 +15671,7 @@ ol {
   margin-top: 0.7rem;
   min-height: 72px;
   min-height: 4.5rem;
-  max-height: auto;
+  max-height: none;
   position: relative; }
   .account__settings-vendor:first-child {
     margin-top: 0; }
@@ -15599,7 +15684,30 @@ ol {
     color: #93989c; }
   .account__settings-vendor:hover {
     cursor: pointer; }
+    .account__settings-vendor:hover i {
+      opacity: 1; }
 
+.account__settings-vendor-abstract > i {
+  padding: 0;
+  position: absolute;
+  right: 11.2px;
+  right: 0.7rem;
+  top: 11.2px;
+  top: 0.7rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem;
+  height: 24px;
+  height: 1.5rem;
+  width: 24px;
+  width: 1.5rem;
+  text-align: center;
+  opacity: 0; }
+  .account__settings-vendor-abstract > i span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle; }
+    .account__settings-vendor-abstract > i span:last-child {
+      display: none; }
 .account__settings-vendor-abstract h2 {
   font-size: 16px;
   font-size: 1rem; }
@@ -15635,20 +15743,24 @@ ol {
 
 .account__settings-vendor-docs {
   padding-bottom: 22.4px;
-  padding-bottom: 1.4rem; }
+  padding-bottom: 1.4rem;
+  font-size: 13.33333px;
+  font-size: 0.83333rem; }
   .account__settings-vendor-docs h3 {
-    margin-top: 11.2px;
-    margin-top: 0.7rem;
-    font-size: 13.33333px;
-    font-size: 0.83333rem;
+    padding-top: 11.2px;
+    padding-top: 0.7rem;
     padding-left: 40px;
     padding-left: 2.5rem;
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    border-top: 1px dotted #e3e5ea;
     position: relative; }
     .account__settings-vendor-docs h3:before {
       content: '';
       position: absolute;
-      top: 0;
       left: 0;
+      top: 11.2px;
+      top: 0.7rem;
       height: 30px;
       height: 1.875rem;
       width: 30px;
@@ -15659,16 +15771,32 @@ ol {
       -o-border-radius: 30px;
       border-radius: 30px;
       border: 1px solid #e3e5ea; }
-    .account__settings-vendor-docs h3:first-of-type:before {
+    .account__settings-vendor-docs h3:nth-of-type(1):before {
+      background: url(../assets/vendor-mp.svg) center center no-repeat; }
+    .account__settings-vendor-docs h3:nth-of-type(2):before {
       background: url(../assets/vendor-coi.svg) center center no-repeat; }
-    .account__settings-vendor-docs h3:last-of-type:before {
+    .account__settings-vendor-docs h3:nth-of-type(3):before {
       background: url(../assets/vendor-contract.svg) center center no-repeat; }
   .account__settings-vendor-docs form {
     display: block;
     margin-top: 5.6px;
     margin-top: 0.35rem;
     padding-left: 40px;
-    padding-left: 2.5rem; }
+    padding-left: 2.5rem;
+    padding-bottom: 11.2px;
+    padding-bottom: 0.7rem; }
+    .account__settings-vendor-docs form fieldset {
+      position: relative; }
+      .account__settings-vendor-docs form fieldset legend {
+        padding-right: 60px;
+        padding-right: 3.75rem; }
+      .account__settings-vendor-docs form fieldset div {
+        position: absolute;
+        top: 0;
+        right: 2px;
+        right: 0.125rem; }
+        .account__settings-vendor-docs form fieldset div div {
+          position: relative; }
     .account__settings-vendor-docs form label {
       display: inline-block;
       position: relative;
@@ -15686,21 +15814,17 @@ ol {
       visibility: hidden;
       outline: none;
       -webkit-user-select: none; }
-    .account__settings-vendor-docs form:first-of-type {
-      padding-bottom: 11.2px;
-      padding-bottom: 0.7rem;
-      border-bottom: 1px dotted #e3e5ea; }
   .account__settings-vendor-docs > ul {
     margin: 0;
     padding: 0;
-    margin-top: 5.6px;
-    margin-top: 0.35rem;
     padding-left: 40px;
     padding-left: 2.5rem; }
     .account__settings-vendor-docs > ul li {
-      font-size: 13.33333px;
-      font-size: 0.83333rem;
+      margin-top: 5.6px;
+      margin-top: 0.35rem;
       display: block; }
+      .account__settings-vendor-docs > ul li:first-of-type {
+        margin-top: 0; }
 
 .account__settings-vendor-cta {
   position: absolute;
