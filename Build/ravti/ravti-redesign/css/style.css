@@ -16092,12 +16092,16 @@ ol {
   padding-left: 0.7rem; }
   .account__settings-vendor-invite h2:before {
     margin-right: 5.6px;
-    margin-right: 0.35rem; }
+    margin-right: 0.35rem;
+    margin-left: 2px;
+    margin-left: 0.125rem;
+    line-height: inherit; }
   .account__settings-vendor-invite h2:hover {
     cursor: pointer; }
 .account__settings-vendor-invite form {
   border: 1px solid #a6ddc1;
-  background: white;
+  background-image: linear-gradient(to top, rgba(225, 244, 234, 0.3) 0%, white 100%);
+  background-size: cover;
   -webkit-border-radius: 2px;
   -ms-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -16441,9 +16445,9 @@ ol {
       background: #fafafb; }
 
 .account__settings-vendor-invite-controls {
-  border-top: 1px solid #e3e5ea; }
+  border-top: 1px solid #a6ddc1; }
   .account__settings-vendor-invite-controls input:first-child {
-    border-right: 1px solid #e3e5ea; }
+    border-right: 1px solid #a6ddc1; }
   .account__settings-vendor-invite-controls input:hover:last-child {
     background: #e1f4ea; }
 
