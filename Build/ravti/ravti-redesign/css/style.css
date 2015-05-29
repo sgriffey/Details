@@ -856,7 +856,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .dashboard__index-control-map i, .toast-success i, .check:checked ~ .switch, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid], .account__settings-vendor-docs form label .is-uploading i, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
 .dashboard__request-control-upload-icon, .overlay__mobile-request-upload-icon,
 .overlay__mobile-request-tag-icon, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .job__status-event-info-upload-icon, .job__schedule-add-icon, .v-job__status-event-info-upload-icon, .v-job__schedule-add-icon, .account__settings-vendor-invite h2, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i, .overlay__mobile-request-feedback-button i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i,
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .job__status-event-info-upload-icon, .job__schedule-add-icon, .v-job__status-event-info-upload-icon, .v-job__schedule-add-icon, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i, .overlay__mobile-request-feedback-button i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i,
 .vendor__invoice-submission-button i,
 .vendor__info-submission-button i, .vendor__bid-history-pending-dismiss,
 .vendor__invoice-history-pending-dismiss,
@@ -864,7 +864,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-cta-button,
 .vendor__info-history-cta-button, .job__status-banner-button, .v-job__status-banner-button, .account__settings-vendor-docs > div button, .vendor__bid-history-item-remove,
 .vendor__invoice-history-item-remove,
-.vendor__info-history-item-remove, .toggle .switch, .account__settings-vendor-docs form fieldset div div .switch, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled, .o-job__quote-cta [data-icon-deny], .o-job__bid-verify-cancel, .account__settings-vendor-abstract > i span:first-child, .account__settings-vendor-abstract > i span:last-child, .toast-error i, .account__settings-body .is-errors [data-field-error] ~ i, .account__settings-form-feedback i, .account__settings-fieldset .is-error ~ i, .account__settings-vendor-group .is-alert > i, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before {
+.vendor__info-history-item-remove, .toggle .switch, .account__settings-vendor-docs form fieldset div div .switch, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled, .o-job__quote-cta [data-icon-deny], .o-job__bid-verify-cancel, .account__settings-vendor-abstract > i span:first-child, .account__settings-vendor-abstract > i span:last-child, .toast-error i, .account__settings-body .is-errors [data-field-error] ~ i, .account__settings-form-feedback i, .account__settings-fieldset .is-error ~ i, .account__settings-vendor-group .is-alert > i, .account__settings-vendor-invite h2, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before {
   display: inline-block;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -880,7 +880,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .dashboard__index-control-map i:before, .toast-success i:before, .check:checked ~ .switch:before, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__settings-vendor-abstract h3 .is-filed:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid]:before, .account__settings-vendor-docs form label .is-uploading i:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
 .dashboard__request-control-upload-icon:before, .overlay__mobile-request-upload-icon:before,
 .overlay__mobile-request-tag-icon:before, .facility__unit-history-add-event:before,
-.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .job__status-event-info-upload-icon:before, .job__schedule-add-icon:before, .v-job__status-event-info-upload-icon:before, .v-job__schedule-add-icon:before, .account__settings-vendor-invite h2:before, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i:before, .overlay__mobile-request-feedback-button i:before, .facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before,
+.facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .job__status-event-info-upload-icon:before, .job__schedule-add-icon:before, .v-job__status-event-info-upload-icon:before, .v-job__schedule-add-icon:before, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i:before, .overlay__mobile-request-feedback-button i:before, .facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before,
 .vendor__invoice-submission-button i:before,
 .vendor__info-submission-button i:before, .vendor__bid-history-pending-dismiss:before,
 .vendor__invoice-history-pending-dismiss:before,
@@ -888,9 +888,9 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-cta-button:before,
 .vendor__info-history-cta-button:before, .job__status-banner-button:before, .v-job__status-banner-button:before, .account__settings-vendor-docs > div button:before, .vendor__bid-history-item-remove:before,
 .vendor__invoice-history-item-remove:before,
-.vendor__info-history-item-remove:before, .toggle .switch:before, .account__settings-vendor-docs form fieldset div div .switch:before, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .account__settings-vendor-abstract > i span:first-child:before, .account__settings-vendor-abstract > i span:last-child:before, .toast-error i:before, .account__settings-body .is-errors [data-field-error] ~ i:before, .account__settings-form-feedback i:before, .account__settings-fieldset .is-error ~ i:before, .account__settings-vendor-group .is-alert > i:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .toast-success i:after, .check:checked ~ .switch:after, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch:after, .account__settings-vendor-abstract h3 .is-filed:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .account__settings-vendor-docs form label .is-uploading i:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
+.vendor__info-history-item-remove:before, .toggle .switch:before, .account__settings-vendor-docs form fieldset div div .switch:before, .account__settings-label-cancel:before, .account__settings-vendor-abstract h3 .is-unfiled:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .account__settings-vendor-abstract > i span:first-child:before, .account__settings-vendor-abstract > i span:last-child:before, .toast-error i:before, .account__settings-body .is-errors [data-field-error] ~ i:before, .account__settings-form-feedback i:before, .account__settings-fieldset .is-error ~ i:before, .account__settings-vendor-group .is-alert > i:before, .account__settings-vendor-invite h2:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .toast-success i:after, .check:checked ~ .switch:after, .account__settings-vendor-docs form fieldset div div input:checked ~ .switch:after, .account__settings-vendor-abstract h3 .is-filed:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .account__settings-vendor-docs form label .is-uploading i:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
 .dashboard__request-control-upload-icon:after, .overlay__mobile-request-upload-icon:after,
-.overlay__mobile-request-tag-icon:after, .facility__pm-tenant-action-enroll i:after, .job__status-event-info-upload-icon:after, .job__schedule-add-icon:after, .v-job__status-event-info-upload-icon:after, .v-job__schedule-add-icon:after, .account__settings-vendor-invite h2:after, .dashboard__feedback-dismiss-trigger i:after, .overlay__mobile-request-feedback-button i:after, .facility__unit-navigation-button i:after, .facility__suite-navigation-button i:after, .facility__pm-navigation-button i:after, .vendor__bid-submission-button i:after,
+.overlay__mobile-request-tag-icon:after, .facility__pm-tenant-action-enroll i:after, .job__status-event-info-upload-icon:after, .job__schedule-add-icon:after, .v-job__status-event-info-upload-icon:after, .v-job__schedule-add-icon:after, .dashboard__feedback-dismiss-trigger i:after, .overlay__mobile-request-feedback-button i:after, .facility__unit-navigation-button i:after, .facility__suite-navigation-button i:after, .facility__pm-navigation-button i:after, .vendor__bid-submission-button i:after,
 .vendor__invoice-submission-button i:after,
 .vendor__info-submission-button i:after, .vendor__bid-history-pending-dismiss:after,
 .vendor__invoice-history-pending-dismiss:after,
@@ -898,7 +898,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-cta-button:after,
 .vendor__info-history-cta-button:after, .job__status-banner-button:after, .v-job__status-banner-button:after, .account__settings-vendor-docs > div button:after, .vendor__bid-history-item-remove:after,
 .vendor__invoice-history-item-remove:after,
-.vendor__info-history-item-remove:after, .toggle .switch:after, .account__settings-vendor-docs form fieldset div div .switch:after, .account__settings-vendor-abstract h3 .is-unfiled:after, .o-job__quote-cta [data-icon-deny]:after, .o-job__bid-verify-cancel:after, .account__settings-vendor-abstract > i span:first-child:after, .account__settings-vendor-abstract > i span:last-child:after, .toast-error i:after, .account__settings-body .is-errors [data-field-error] ~ i:after, .account__settings-form-feedback i:after, .account__settings-fieldset .is-error ~ i:after, .account__settings-vendor-group .is-alert > i:after {
+.vendor__info-history-item-remove:after, .toggle .switch:after, .account__settings-vendor-docs form fieldset div div .switch:after, .account__settings-vendor-abstract h3 .is-unfiled:after, .o-job__quote-cta [data-icon-deny]:after, .o-job__bid-verify-cancel:after, .account__settings-vendor-abstract > i span:first-child:after, .account__settings-vendor-abstract > i span:last-child:after, .toast-error i:after, .account__settings-body .is-errors [data-field-error] ~ i:after, .account__settings-form-feedback i:after, .account__settings-fieldset .is-error ~ i:after, .account__settings-vendor-group .is-alert > i:after, .account__settings-vendor-invite h2:after {
   font-family: 'ravti-icons';
   vertical-align: middle; }
 
@@ -925,9 +925,6 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .overlay__mobile-request-tag-icon:before, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .job__status-event-info-upload-icon:before, .job__schedule-add-icon:before, .v-job__status-event-info-upload-icon:before, .v-job__schedule-add-icon:before {
   content: "\e602"; }
-
-.account__settings-vendor-invite h2:before {
-  content: "\e60e"; }
 
 .account__settings-label-edit:before {
   content: "\e60d"; }
@@ -975,6 +972,9 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 
 .toast-error i:before, .account__settings-body .is-errors [data-field-error] ~ i:before, .account__settings-form-feedback i:before, .account__settings-fieldset .is-error ~ i:before, .account__settings-vendor-group .is-alert > i:before {
   content: "\e612"; }
+
+.account__settings-vendor-invite h2:before {
+  content: "\e613"; }
 
 .siteNav__proposals-popover-head, .siteNav__events-popover-head, .siteNav__invoices-popover-head, .siteNav__events-popover-list,
 .siteNav__proposals-popover-list,
@@ -1147,7 +1147,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .siteNav__invoices-popover-item-facility, .siteNav__events-popover-item-time,
 .siteNav__proposals-popover-item-time,
 .siteNav__invoices-popover-item-time, .dashboard__index-controls-label, .is-optional span, .repair__bid-th,
-.repair__bid-td, .project__po-entity-label, .project__po-bill-metadata, .overlay__confirm-bid-metadata, .account__settings-vendor-facility-mechanical, .account__settings-vendor .is-mp h2:after, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
+.repair__bid-td, .project__po-entity-label, .project__po-bill-metadata, .overlay__confirm-bid-metadata, .account__settings-vendor-facility-mechanical, .account__settings-vendor-invite h2:before, .account__settings-vendor .is-mp h2:after, .invoice__sheet-entity-label, .invoice__sheet-engagement-kickoff span,
 .invoice__sheet-engagement-deadline span,
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition, .vendor-dash__card-copy, .job__po-entity-label, .job__po-bill-metadata, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
 .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
@@ -16087,9 +16087,10 @@ ol {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   margin-top: 11.2px;
-  margin-top: 0.7rem; }
+  margin-top: 0.7rem;
+  padding-left: 11.2px;
+  padding-left: 0.7rem; }
   .account__settings-vendor-invite h2:before {
-    color: #6fc99b;
     margin-right: 5.6px;
     margin-right: 0.35rem; }
   .account__settings-vendor-invite h2:hover {
