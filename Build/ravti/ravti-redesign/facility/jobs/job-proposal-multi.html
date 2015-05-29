@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favi-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favi-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favi-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favi-114.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favi-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="/assets/favi-57.png">
+<link rel="icon" href="/assets/favi-32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  <title>Ravti Pattern Library</title> 
+  <script src="//use.typekit.net/pti5qzj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<header class="mobileNav">
+	<div class="mobileNav__masthead">
+		<a class='current-parent' href="index.html"><h1 class="mobileNav__logo"></h1></a>
+		<a class="mobileNav__link"></a>
+	</div>
+	<nav class="mobileNav__menu">
+		<ul class="mobileNav__menu-list">
+			<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">Dashboard</a></li>
+			<li><a href="projects.html" class="mobileNav__menu-list-item">Projects</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Equipment</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Accounting</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Work Orders</a></li>
+			<li><a href="" class="mobileNav__menu-list-item">Your Account</a></li>
+		</ul>
+	</nav>
+</header>
+	<nav class="siteNav">
+		<a class='current-parent' href="../../index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+		<h2 class="siteNav__page-title">Job Overview</h2>
+		<section class="siteNav__control">
+			<nav class="siteNav__alerts">
+				<i class="siteNav__alert-proposals">
+					<span class="has-alerts">1</span>
+				</i>
+				<!--
+				<i class="siteNav__alert-events">
+					<span class="has-alerts">&bull;</span>
+				</i>
+				-->
+				<i class="siteNav__alert-invoices">
+				</i>
+				<article class="siteNav__alerts-popover">
+					<section class="siteNav__proposals-popover is-masked">
+						<header class="siteNav__proposals-popover-head">
+							<h2 class="siteNav__proposals-popover-title">Pending Proposals</h2>
+						</header>
+						<ul class="siteNav__proposals-popover-list">
+							<a href="job-proposal.html" class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">1 Howard<span class="siteNav__proposals-popover-item-title">Vertical Self-Contained Compressor Replacement</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(4 of 6)</h4>
+								<time class="siteNav__proposals-popover-item-time">1 hour ago</time>
+							</a>
+						</ul>
+						<footer class="siteNav__proposals-popover-footer">
+						<a href="../../projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
+						</footer>
+					</section>
+					<!--
+					<section class="siteNav__events-popover is-masked">
+						<header class="siteNav__events-popover-head">
+							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
+						</header>
+						<ul class="siteNav__events-popover-list">
+							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
+								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Tracking # added</h4>
+								<time class="siteNav__events-popover-item-time">1 hour ago</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
+								<h3 class="siteNav__events-popover-item-facility">Sunset International Center<span class="siteNav__events-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Installation Scheduled</h4>
+								<time class="siteNav__events-popover-item-time">3 hour ago</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Project Completed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 5:19pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">Westside Plaza II<span class="siteNav__events-popover-item-title">Blower/Fan Coil Issues</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Service Call Completed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 3:08pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 2:55pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Condensing Unit Repair</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Repair Approved</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 9:12am</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 8:55am</time>
+							</li>
+						</ul>
+						<footer class="siteNav__events-popover-footer">
+						<a href=""><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
+						</footer>
+					</section>
+					-->
+					<section class="siteNav__invoices-popover is-masked">
+						<header class="siteNav__invoices-popover-head">
+							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
+						</header>
+						<ul class="siteNav__invoices-popover-list is-masked">
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
+								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+							</li>
+							<li class="siteNav__invoices-popover-item is-unviewed">
+								<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
+								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+							</li>
+						</ul>
+						<footer class="siteNav__invoices-popover-footer is-masked">
+						<a href="../../billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+						</footer>
+						<div class="siteNav__invoices-popover-list-blank">
+							<h2>No Invoices Outstanding</h2>
+							<p>Yahoo! You're all caught up.</p>
+						</div>
+					</section>
+				</article>
+			</nav>
+			<div class="siteNav__account">
+				<span class="siteNav__account-username">John G.</span>
+				<img class="siteNav__account-image" src="../../assets/dummy-avatar.svg"/>
+			</div>
+		</section>
+		<div class="accountNav__bucket is-masked">
+			<h1 class="accountNav__bucket-title">Account Settings</h1>
+		</div>
+		<div class="accountNav__settings is-masked">
+			<span class="accountNav__toggle-label">Exit</span>
+			<img class="accountNav__toggle-image" src="../../assets/dismiss-trigger-inverted.svg"/>
+		</div>
+	</nav>
+	
+	<section class="page__wrapper-bleed">
+		<section class="facility__identity">
+			<section class="facility__identity-cover">
+				<div class="facility__identity-cover-plate">
+					<h1 class="facility__identity-cover-title">1 Howard</h1>
+					<address class="facility__identity-cover-location">
+						<span>1 Howard Street</span>
+						<span>San Francisco, CA 94111</span>
+					</address>
+				</div>
+			</section>
+		</section>
+	</section>
+	<section class="page__wrapper">
+		<section class="facility__overview">
+			<nav class="facility__duties">
+				<ul class="facility__duties-list">
+					<li class="facility__duty"><a href="../activity.html">Activity</a></li>
+					<li class="facility__duty is-active"><a href="../jobs.html">Jobs</a></li></a>
+					<li class="facility__duty"><a href="../equipment.html">Equipment</a></li>
+					<li class="facility__duty"><a href="../billing.html">Invoices</a></li>
+				</ul>
+				<ul class="facility__duties-mobile-list">
+					<li class="facility__duty-bucket"><a href="../activity.html">Activity</a></li>
+					<li class="facility__duty-bucket is-active"><a href="../jobs.html">Jobs</a></li></a>
+					<li class="facility__duty-bucket"><a href="../equipment.html">Equipment</a></li>
+					<li class="facility__duty-bucket"><a href="../billing.html">Billing</a></li>
+				</ul>
+			</nav>
+			<section class="o-job">
+				<nav class="facility__unit-navigation">
+					<a class="facility__unit-navigation-button" href="../jobs.html"><i></i>View all Jobs</a>
+				</nav>
+				<section class="o-job__aside">
+					<section class="o-job__abstract">
+						<header class="o-job__abstract-head">
+							<h1 class="o-job__abstract-title">Job Overview</h1>
+						</header>
+						<section class="o-job__abstract-body">
+							<h2 class="o-job__abstract-id"><span>HOW-002</span><span>1 Howard VSC-1 Compressor Replacement</span></h2>
+							<address class="o-job__abstract-address">
+								<span>1 Howard Ave</span>
+								<span>San Francisco, CA. 94111</span>
+							</address>
+							<dl class="o-job__abstract-dl">
+								<dt>Hired Vendors:</dt>
+								<dd>Bay Fog Mechanical</dd><dd>AirStream</dd>
+								<dt>Service Location:</dt>
+								<dd>Roof</dd>
+							</dl>
+							<section class="o-job__abstract-timetable" border="0">
+								<section class="o-job__abstract-date">
+									<div class="o-job__abstract-date-open">
+										<span>Opened</span>
+										<time class="o-job__abstract-date-numeral">4/14/15</time>
+									</div>
+									<div class="o-job__abstract-date-closed">
+										<span>Closed</span>
+										<time class="o-job__abstract-date-numeral"></time>
+									</div>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+				<section class="o-job__showcase">
+					<section class="o-job__feed">
+						<article class="o-job__bid">
+							<time class="o-job__bid-meta">Proposal Bidding Initiated: April 23</time>
+							<nav class="o-job__bid-tabs">
+								<div class="o-job__bid-tab-tr">
+									<div class="o-job__bid-tab-rfq is-active" data-tab-rfq-a>Repair - A</div>
+									<div class="o-job__bid-tab-rfq" data-tab-rfq-b>Repair - B</div>
+								</div>
+							</nav>
+							<section class="o-job__bid-body">
+								<article class="o-job__bid-rfq" data-rfq-a>
+									<h2 class="o-job__bid-label">Equipment</h2>
+									<ul class="o-job__bid-equipment-list">
+										<article class="o-job__bid-equipment">
+											<div class="o-job__bid-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__bid-equipment-specs">
+												<li class="o-job__bid-equipment-spec">VSC-1</li>
+												<li class="o-job__bid-equipment-spec">Trane</li>
+												<li class="o-job__bid-equipment-spec">72.0</li>
+												<li class="o-job__bid-equipment-spec">2009</li>
+												<li class="o-job__bid-equipment-spec">QR-5668</li>
+											</ul>
+										</article>
+									</ul>
+									<h2 class="o-job__bid-label">Proposal Highlights</h2>
+									<ul class="o-job__bid-scan-list">
+										<li class="o-job__bid-scan-item">OEM Compressor</li>
+										<li class="o-job__bid-scan-item">Freight</li>
+										<li class="o-job__bid-scan-item">5-year compressor warranty</li>
+										<li class="o-job__bid-scan-item">Installation Labor</li>
+										<li class="o-job__bid-scan-item">60-day labor warranty</li>
+										<li class="o-job__bid-scan-item">New filter drier</li>
+									</ul>
+									<h2 class="o-job__bid-label">Proposal Scopes <i>(Full)</i></h2>
+									<ul class="o-job__bid-zoom-list">
+										<li class="o-job__bid-zoom-item"><a><span>OEM Parts - compressor replacement scope</span></a></li>
+										<li class="o-job__bid-zoom-item"><a><span>Labor and materials - compressor replacement scope</span></a></li>
+									</ul>
+									<form class="o-job__bid-form">
+										<fieldset class="o-job__bid-fieldset">
+											<legend class="o-job__bid-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,105.55</span>
+													<span class="o-job__bid-option-vendor">Trane Parts</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>1-2 weeks</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>83722VR2</b></dd>
+													</dl>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,280.12</span>
+													<span class="o-job__bid-option-vendor">Local Trane</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>3 weeks</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>W3SBG4311</b></dd>
+													</dl>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer" checked>
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,488.43</span>
+													<span class="o-job__bid-option-vendor">Danfoss</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>6 days</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>92483FV2</b></dd>
+													</dl>
+												</div>
+											</label>
+										</fieldset>
+										<fieldset class="o-job__bid-fieldset">
+											<legend class="o-job__bid-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
+											<label class="o-job__bid-check-label is-sourcing-price">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" disabled="true">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price"></span>
+													<span class="o-job__bid-option-vendor">Bay Fog Mechanical</span>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" checked>
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,278.56</span>
+													<span class="o-job__bid-option-vendor">Airstream</span>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label is-sourcing-price">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" disabled="true">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price"></span>
+													<span class="o-job__bid-option-vendor">ICOM</span>
+												</div>
+											</label>
+										</fieldset>
+										<section class="o-job__bid-total">
+											<div class="o-job__bid-total-cost is-proposal-approved">
+												<h3 class="o-job__bid-total-label">Total Cost Estimate:</h3><h3 class="o-job__bid-total-number">$2,356.16</h3>
+											</div>
+										</section>
+										<div class="o-job__bid-verify">
+											<a class="o-job__bid-verify-approve">Approve Proposal</a>
+											<div class="o-job__bid-verify-decision is-masked">
+												<a class="o-job__bid-verify-cancel">Nevermind</a><a class="o-job__bid-verify-confirm">Confirm</a>
+											</div>
+										</div>
+									</form>
+								</article>
+								<article class="o-job__bid-rfq is-masked" data-rfq-b>
+									<h2 class="o-job__bid-label">Equipment</h2>
+									<ul class="o-job__bid-equipment-list">
+										<article class="o-job__bid-equipment">
+											<div class="o-job__bid-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__bid-equipment-specs">
+												<li class="o-job__bid-equipment-spec">VSC-1</li>
+												<li class="o-job__bid-equipment-spec">Trane</li>
+												<li class="o-job__bid-equipment-spec">72.0</li>
+												<li class="o-job__bid-equipment-spec">2009</li>
+												<li class="o-job__bid-equipment-spec">QR-5668</li>
+											</ul>
+										</article>
+									</ul>
+									<h2 class="o-job__bid-label">Proposal Highlights</h2>
+									<ul class="o-job__bid-scan-list">
+										<li class="o-job__bid-scan-item">OEM Compressor</li>
+										<li class="o-job__bid-scan-item">Freight</li>
+										<li class="o-job__bid-scan-item">5-year compressor warranty</li>
+										<li class="o-job__bid-scan-item">Installation Labor</li>
+									</ul>
+									<h2 class="o-job__bid-label">Proposal Scopes <i>(Full)</i></h2>
+									<ul class="o-job__bid-zoom-list">
+										<li class="o-job__bid-zoom-item"><a><span>OEM Parts - compressor replacement scope</span></a></li>
+									</ul>
+									<form class="o-job__bid-form">
+										<fieldset class="o-job__bid-fieldset">
+											<legend class="o-job__bid-legend">Manufacturer <i>(PLEASE SELECT ONE)</i></legend>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,105.55</span>
+													<span class="o-job__bid-option-vendor">Trane Parts</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>1-2 weeks</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>83722VR2</b></dd>
+													</dl>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="manufacturer">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,280.12</span>
+													<span class="o-job__bid-option-vendor">Local Trane</span>
+													<dl class="o-job__bid-options-details">
+														<dd class="o-job__bid-options-detail">Estimated Lead Time: <b>3 weeks</b></dd>
+														<dd class="o-job__bid-options-detail">Model #: <b>W3SBG4311</b></dd>
+													</dl>
+												</div>
+											</label>
+										</fieldset>
+										<fieldset class="o-job__bid-fieldset">
+											<legend class="o-job__bid-legend">LOCAL MECHANICAL <i>(PLEASE SELECT ONE)</i></legend>
+											<label class="o-job__bid-check-label is-sourcing-price">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" disabled="true">
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price"></span>
+													<span class="o-job__bid-option-vendor">Bay Fog Mechanical</span>
+												</div>
+											</label>
+											<label class="o-job__bid-check-label">
+												<input type="radio" class="o-job__bid-check-radio" name="mechanical" checked>
+												<div class="o-job__bid-options">
+													<span class="o-job__bid-option-price">$1,278.56</span>
+													<span class="o-job__bid-option-vendor">Airstream</span>
+												</div>
+											</label>
+										</fieldset>
+										<section class="o-job__bid-total">
+											<div class="o-job__bid-total-cost">
+												<h3 class="o-job__bid-total-label">Total Cost Estimate:<b class="o-job__bid-total-number">$3,356.16</b></h3>
+											</div>
+										</section>
+										<div class="o-job__bid-verify">
+											<a class="o-job__bid-verify-approve">Approve Proposal</a>
+											<div class="o-job__bid-verify-decision is-masked">
+												<a class="o-job__bid-verify-cancel">Nevermind</a><a class="o-job__bid-verify-confirm">Confirm</a>
+											</div>
+										</div>
+									</form>
+								</article>
+							</section>
+						</article>
+						<article class="o-job__quote">
+							<time class="o-job__quote-meta">Quoted: April 23</time>
+							<section class="o-job__quote-body is-rebid">
+								<div class="o-job__quote-cost">
+									<h1 class="o-job__quote-cost-price is-repair-quote">$3,411.76</h1>
+									<h3 class="o-job__quote-cost-title"><b>Total Repair Cost</b></h3>
+								</div>
+								<div class="o-job__quote-vendor">
+									<b class="o-job__quote-vendor-label">Quoted By</b>
+									<h2>Bay Fog Mechancial</h2>
+								</div>
+								<footer class="o-job__quote-cta">
+									<a class="o-job__quote-cta-option is-denied" data-icon-deny>Deny</a>
+									<a class="o-job__quote-cta-option is-chosen" data-icon-bid>Get More Bids</a>
+									<a class="o-job__quote-cta-option is-denied" data-icon-approve>Accept</a>
+								</footer>
+								<h2 class="o-job__quote-label">Summary</h2>
+								<p>Compressor replacement with new refridgerant and new filter drier.</p>
+								<h2 class="o-job__quote-label">Equipment Involved</h2>
+								<ul class="o-job__quote-equipment-list">
+									<article class="o-job__quote-equipment">
+										<div class="o-job__quote-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+										<ul class="o-job__quote-equipment-specs">
+											<li class="o-job__quote-equipment-spec">VSC-1</li>
+											<li class="o-job__quote-equipment-spec">Trane</li>
+											<li class="o-job__quote-equipment-spec">72.0</li>
+											<li class="o-job__quote-equipment-spec">2009</li>
+											<li class="o-job__quote-equipment-spec">QR-5668</li>
+										</ul>
+									</article>
+								</ul>
+								<h2 class="o-job__quote-label">Proposal Highlights</h2>
+								<ul class="o-job__quote-scan-list">
+									<li class="o-job__quote-scan-item">OEM Compressor</li>
+									<li class="o-job__quote-scan-item">Freight</li>
+									<li class="o-job__quote-scan-item">5-year compressor warranty</li>
+									<li class="o-job__quote-scan-item">Installation Labor</li>
+									<li class="o-job__quote-scan-item">60-day labor warranty</li>
+									<li class="o-job__quote-scan-item">New filter drier</li>
+								</ul>
+								<h2 class="o-job__quote-label">Proposal Scope <i>(Full)</i></h2>
+								<ul class="o-job__quote-zoom-list">
+									<li class="o-job__quote-zoom-item"><a><span>Parts, labor and materials - compressor replacement scope</span></a></li>
+								</ul>
+							</section>
+						</article>
+						<article class="o-job__event">
+							<time class="o-job__event-meta">Performed: April 14</time>
+							<header class="o-job__event-header">
+								<h2 class="o-job__event-header-title is-service-call">Service Call</h2>
+							</header>
+							<div class="o-job__event-body is-serviced-to">
+								<ul class="o-job__event-list">
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Equipment</span>
+										<article class="o-job__event-equipment">
+											<div class="o-job__event-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__event-equipment-specs">
+												<li class="o-job__event-equipment-spec">VSC-1</li>
+												<li class="o-job__event-equipment-spec">Trane</li>
+												<li class="o-job__event-equipment-spec">72.0</li>
+												<li class="o-job__event-equipment-spec">2009</li>
+												<li class="o-job__event-equipment-spec">QR-5668</li>
+											</ul>
+										</article>
+									</li>
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Dispatched To</span>
+										<span class="o-job__event-list-value">Bay Fog Mechanical</span>
+									</li>
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Scheduled For</span>
+										<span class="o-job__event-list-value">4/14/15 &mdash; 12:00pm</span>
+									</li>
+									<li class="o-job__event-list-item">
+										<div class="o-job__event-timetable">
+											<div class="o-job__event-time-in">
+												<span>Arrival Time:</span>
+												<time>11:51 am</time>
+											</div>
+											<div class="o-job__event-time-out">
+												<span>Departure Time:</span>
+												<time>12:49pm</time>
+											</div>
+										</div>
+									</li>
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Analysis</span>
+										<span class="o-job__event-list-value is-verbose">Erik diagnosed compressor was grounded and burnt out. Compressor replacement required.</span>
+									</li>
+								</ul>
+							</div>
+							<a class="o-job__event-doc" href="http://cdn2.dropmark.com/72454/a30d49b7af8af26b82158f06eba965c5b75e5bf5/svc-ticket.png" target="_blank">
+								<span class="o-job__event-doc-label">View Attached Service Ticket</span>
+							</a>
+						</article>
+						<article class="o-job__event">
+							<time class="o-job__event-meta">Submitted: April 14</time>
+							<header class="o-job__event-header">
+								<h2 class="o-job__event-header-title is-work-request">Work Request</h2>
+							</header>
+							<div class="o-job__event-body is-responded-to">
+								<ul class="o-job__event-list">
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Equipment</span>
+										<article class="o-job__event-equipment">
+											<div class="o-job__event-equipment-img"><img src="../../assets/vsc-1.jpg"></div>
+											<ul class="o-job__event-equipment-specs">
+												<li class="o-job__event-equipment-spec">VSC-1</li>
+												<li class="o-job__event-equipment-spec">Trane</li>
+												<li class="o-job__event-equipment-spec">72.0</li>
+												<li class="o-job__event-equipment-spec">2009</li>
+												<li class="o-job__event-equipment-spec">QR-5668</li>
+											</ul>
+										</article>
+									</li>
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Requested By</span>
+										<span class="o-job__event-list-value">John G. on April 14th at 9:38am</span>
+									</li>
+									<li class="o-job__event-list-item">
+										<span class="o-job__event-list-label">Notes/Description</span>
+										<span class="o-job__event-list-value is-verbose">equipment not cooling as desired.</span>
+									</li>
+								</ul>
+							</div>
+						</article>
+					</section>
+				</section>
+			</section>
+		</section>
+	</section>
+	<!-- End Content/Page View -->
+	<div class="account is-masked">
+	<nav class="account__subnav">
+		<ul class="account__subnav-buckets">
+			<li class="account__subnav-bucket is-active"><a href="">Company</a></li>
+			<li class="account__subnav-bucket"><a href="">Notifications</a></li>
+			<li class="account__subnav-bucket"><a href="">Permissions</a></li>
+		</ul>
+	</nav>
+	<section class="account__settings">
+		<section class="account__settings-half">
+			<section class="account__settings-card" data-settings-company>
+				<header class="account__settings-head">
+					<h1>Preferred Vendors</h1>
+				</header>
+				<section class="account__settings-body">
+					<article class="account__settings-vendor-facility">
+						<header>
+							<img src="assets/facil-4.jpg">
+							<h1 class="account__settings-vendor-facility-title">1 Howard</h1>
+							<h2 class="account__settings-vendor-facility-mechanical">Preferred Vendor: Bayfog Mechanical</h2>
+							<b>Vendors Picked: 3 of 3</b>
+						</header>
+						<section class="account__settings-vendor-group is-masked">
+							<article class="account__settings-vendor">
+								<header class="account__settings-vendor-abstract is-mp">
+									<h2>Bayfog Mechanical</h2>
+									<h3>C.O.I.:<i class="is-filed"></i></h3><h3>Vendor Contract:<i  class="is-filed"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__settings-vendor-docs is-masked">
+									<h3>Maintenance Provider</h3>
+									<form>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox"/>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<h3>Certificate of Insurance</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span class="is-uploading"><i></i>Uploading</span>
+										</label>
+										<label>
+											<a href="">View</a>
+										</label>
+									</form>
+									<h3>Vendor Contracts</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+									</form>
+									<ul>
+										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+									</ul>
+									<div>
+										<button class="account__settings-vendor-remove">Remove Vendor</button>
+									</div>
+								</footer>
+							</article>
+							<article class="account__settings-vendor is-shrunk">
+								<header class="account__settings-vendor-abstract">
+									<h2>AirScrong</h2>
+									<h3>C.O.I.:<i class="is-unfiled"></i></h3><h3>Vendor Contract:<i class="is-unfiled"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__settings-vendor-docs is-masked">
+									<h3>Maintenance Provider</h3>
+									<form>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox"/>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<h3>Certificate of Insurance</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+										<label>
+											<a href="">View</a>
+										</label>
+									</form>
+									<h3>Vendor Contracts</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+									</form>
+									<ul>
+										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+									</ul>
+								</footer>
+							</article>
+							<article class="account__settings-vendor is-default">
+								<div class="account__settings-vendor-cta">
+									<span>Option currently assigned by Ravti</span>
+									<span>&#43; Pick a preferred vendor</span>
+								</div>
+								<form class="account__settings-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Breeze Brothers</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Coolie Fly</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Fresh Flint Bell Air</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<div class="account__settings-vendor-set-controls is-masked">
+										<input class="account__settings-vendor-set-cancel" type="button" value="Cancel" ><input class="account__settings-vendor-set-save" type="button" value="Save &amp; Update" >
+									</div>
+								</form>
+							</article>
+							<article class="account__settings-vendor is-shrunk">
+								<header class="account__settings-vendor-abstract">
+									<h2>Coolie Fly</h2>
+									<h3>C.O.I.:<i class="is-unfiled"></i></h3><h3>Vendor Contract:<i class="is-unfiled"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__settings-vendor-docs is-masked">
+									<h3>Maintenance Provider</h3>
+									<form>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox"/>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<h3>Certificate of Insurance</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+										<label>
+											<a href="">View</a>
+										</label>
+									</form>
+									<h3>Vendor Contracts</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+									</form>
+									<ul>
+										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+									</ul>
+								</footer>
+							</article>
+							<article class="account__settings-vendor is-default">
+								<div class="account__settings-vendor-cta">
+									<span>Option currently assigned by Ravti</span>
+									<span>&#43; Pick a preferred vendor</span>
+								</div>
+								<form class="account__settings-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Breeze Brothers</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Coolie Fly</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Fresh Flint Bell Air</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<div class="account__settings-vendor-set-controls is-masked">
+										<input class="account__settings-vendor-set-cancel" type="button" value="Cancel" ><input class="account__settings-vendor-set-save" type="button" value="Save &amp; Update">
+									</div>
+								</form>
+							</article>
+							<footer class="account__settings-vendor-invite">
+								<h2>Vendor Not Listed? Click to invite.</h2>
+								<form class="is-masked">
+									<legend>Please enter the desired vendor's information &mdash; we'll contact them regarding your request.</legend>
+									<fieldset>
+										<label>Company Name</label>
+										<input type="text">
+									</fieldset>
+									<fieldset>
+										<div>
+											<label>Email</label>
+											<input type="text">
+										</div><div><label>Phone Number</label><input type="text"></div>
+									</fieldset>
+									<div class="account__settings-vendor-invite-controls">
+										<input type="button" value="Cancel" ><input type="button" value="Invite">
+									</div>
+								</form>
+							</footer>
+						</section>
+					</article>
+					<article class="account__settings-vendor-facility">
+						<header>
+							<img src="assets/facil-2.jpg">
+							<h1 class="account__settings-vendor-facility-title">42 Sansome</h1>
+							<h2 class="account__settings-vendor-facility-mechanical">Preferred Vendor: Bayfog Mechanical</h2>
+							<b>Vendors Picked: 1 of 3</b>
+						</header>
+						<section class="account__settings-vendor-group is-masked">
+							<div class="account__settings-vendor-blank is-loading">
+								<i></i>
+								<p>Locating Vendors...</p>
+							</div>
+						</section>
+					</article>
+					<article class="account__settings-vendor-facility">
+						<header>
+							<img src="assets/facil-6.jpg">
+							<h1 class="account__settings-vendor-facility-title">888 Xavier</h1>
+							<h2 class="account__settings-vendor-facility-mechanical">Preferred Vendor: Bayfog Mechanical</h2>
+							<b>Vendors Picked: 1 of 3</b>
+						</header>
+						<section class="account__settings-vendor-group is-masked">
+							<div class="account__settings-vendor-blank is-alert">
+								<i></i>
+								<p>Loading Error.<br>Please check your Internet connection.</p>
+							</div>
+						</section>
+					</article>
+				</section>
+			</section>
+		</section>
+		<section class="account__settings-half">
+			<section class="account__settings-card" data-settings-company>
+				<header class="account__settings-head">
+					<h1>Company Information</h1>
+				</header>
+				<section class="account__settings-body">
+					<form class="account__settings-form is-errors">
+						<div class="account__settings-form-feedback">
+							<i></i>
+							<h2>Whoops!</h2>
+							<p>_Fieldname_ can't be blank.</p>
+							<p>_Fieldname_ can't be blank.</p>
+						</div>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Company Name<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span>
+							</label>
+							<input type="text" class="account__settings-input" value="Harbaugh Housing" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Contact Number<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="(786) 261-8509" disabled="disabled"><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Street Address<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="1 Howard Ave." disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">City<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="San Francisco" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">State<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="CA" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">Zip<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="94111" disabled="disabled"><i></i>
+							</div>
+						</fieldset>
+					</form>
+				</section>
+			</section>
+		</section>
+	</section>
+</div>
+<aside class="overlay__alert-wrapper is-masked">
+	<button class="overlay__dismiss"></button>
+	<section class="overlay__alert is-slid-out">
+		<h1 class="overlay__alert-title">Remove Preferred Vendor</h1>
+		<p class="overlay__alert-copy">Removing preference elimnates them from receiving priority on future work requests. Please confirm your decision below.</p>
+		<footer class="overlay__alert-controls">
+			<button class="overlay__alert-controls-encourage">Remove</button><br>
+			<button class="overlay__alert-controls-secondary">Nevermind</button>
+		</footer>
+	</section>
+</aside>
+	<aside class="overlay-equipment is-masked">
+	<button class="overlay-equipment-dismiss"></button>
+	<section class="overlay__equipment">
+		<section class="overlay__equipment-specs">
+			<h2 class="overlay__equipment-header">Unit Information</h2>
+			<ul class="overlay__equipment-spec-list">
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Tag</span>
+					<span class="overlay__equipment-spec-value">RTU-4</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Facility</span>
+					<span class="overlay__equipment-spec-value">Suite #Wakefield Vette</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Type</span>
+					<span class="overlay__equipment-spec-value">Packaged Rooftop Unit</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Tonnage</span>
+					<span class="overlay__equipment-spec-value">12.0</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Model #</span>
+					<span class="overlay__equipment-spec-value">4D44566FR</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Serial #</span>
+					<span class="overlay__equipment-spec-value">YR34VLS4V</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Manufacturer</span>
+					<span class="overlay__equipment-spec-value">Carrier</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Manufactured on</span>
+					<span class="overlay__equipment-spec-value">November 1985</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Location</span>
+					<span class="overlay__equipment-spec-value">Ground</span>
+				</li>
+			</ul>
+		</section>
+		<section class="overlay__equipment-gallery">
+			<img class="overlay__equipment-gallery-image" src="../../assets/rtu.jpg" />
+			<img class="overlay__equipment-gallery-image" src="../../assets/rtu-2.jpg" />
+			<img class="overlay__equipment-gallery-image" src="../../assets/rtu-3.jpg" />
+			<img class="overlay__equipment-gallery-image" src="../../assets/rtu-4.jpg" />
+		</section>
+	</section>
+</aside>
+	<aside class="overlay is-masked">
+	<button class="overlay__dismiss"></button>
+	<section class="overlay__scope">
+		<h1 class="overlay__scope-title">Parts, Labor and Materials Scope</h1>
+		<ul class="overlay__scope-tasks">
+			<li class="overlay__scope-task">Provide new OEM compressor</li>
+			<li class="overlay__scope-task">Freight</li>
+			<li class="overlay__scope-task">5-year compressor warranty</li>
+			<li class="overlay__scope-task">Shut down electrical power - lockout and tag out unit</li>
+			<li class="overlay__scope-task">Recover any existing refrigerant (if applicable) in accordance with EPA regulations</li>
+			<li class="overlay__scope-task">Break vacuum with dry nitrogen</li>
+			<li class="overlay__scope-task">Remove electrical wiring from defective compressor</li>
+			<li class="overlay__scope-task">Un-sweat refrigerant lines from defective compressor and liquid line filter/drier</li>
+			<li class="overlay__scope-task">Provide and install new filter drier (if existing, replace filter drier or drier core)</li>
+			<li class="overlay__scope-task">Install new OEM compressor and liquid line filter/drier and braze in refrigerant piping
+			</li>
+			<li class="overlay__scope-task">Pressurize refrigerant system with dry nitrogen and trace gas - leak check newly installed components and brazing  joints</li>
+			<li class="overlay__scope-task">Evacuate unit vacuum to 250 microns Hg</li>
+			<li class="overlay__scope-task">Hold test vacuum to ensure integrity of refrigeration circuit</li>
+			<li class="overlay__scope-task">Reconnect electrical wiring to new OEM compressor (if additional wiring is needed, provide and install)</li>
+			<li class="overlay__scope-task">Provide and install new virgin refrigerant into compressor circuit</li>
+			<li class="overlay__scope-task">Start unit</li>
+			<li class="overlay__scope-task">Check compressor amperage and ensure proper operation</li>
+			<li class="overlay__scope-task">Balance refrigerant charge to get correct liquid line sub-cooling</li>
+			<li class="overlay__scope-task">Ensure proper operation of new compressor and unit</li>
+			<li class="overlay__scope-task">Return to job site within 30 days and confirm proper operation and perform quick acid test to verify if filter drier needs to be replaced a second time  </li>
+			<li class="overlay__scope-task">Provide 60-day labor warranty</li>
+		</ul>
+	</section>
+</aside>
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	    <script src="../../js/app.js"></script>
+</body>
+</html>

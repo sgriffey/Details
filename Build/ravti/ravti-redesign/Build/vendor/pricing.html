@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favi-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favi-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favi-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favi-114.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favi-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="assets/favi-57.png">
+<link rel="icon" href="assets/favi-32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <title>Upload RFQ Bids</title> 
+  <script src="//use.typekit.net/pti5qzj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<nav class="siteNav">
+	<a href="../vendor-dash.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+	<h2 class="siteNav__page-title">Pricing</h2>
+	<section class="siteNav__control">
+		<nav class="siteNav__alerts">
+			<a class="siteNav__alert-jobs" href="job-index.html">View All Jobs</a>
+		</nav>
+		<div class="siteNav__account">
+			<span class="siteNav__account-username">Melissa</span>
+			<img class="siteNav__account-image" src="../assets/users_debon-air.png"/>
+		</div>
+	</section>
+	<div class="accountNav__bucket is-masked">
+		<h1 class="accountNav__bucket-title">Account Settings</h1>
+	</div>
+	<div class="accountNav__settings is-masked">
+		<span class="accountNav__toggle-label">Exit</span>
+		<img class="accountNav__toggle-image" src="../assets/dismiss-trigger-inverted.svg"/>
+	</div>
+</nav>
+	
+	<main class="page__wrapper">
+		<section class="vendor__pricing">
+			<section class="vendor__showcase">
+				<header class="vendor__bid-head">
+					<h1 class="vendor__bid-head-title">Submit Pricing</h1>
+					<i class="vendor__bid-history-pending-dismiss is-masked"></i>
+				</header>
+				<section class="vendor__bid-body">
+					<section class="vendor__bid-submission is-slid-out">
+						<h3 class="vendor__bid-submission-title">Thank You for the Submission!</h3>
+						<p class="vendor__bid-submission-copy">Our staff will work quickly to match submitted proposals with the appropriate RFQs.</p>
+						<p class="vendor__bid-submission-copy">Once your proposals are reviewed and matched, those applicable projects will be cleared from the “awaiting pricing” list.</p>
+						<a class="vendor__bid-submission-button">Okay</a>
+					</section>
+					<form class="vendor__bid-form">
+						<fieldset class="vendor__bid-fieldset">
+							<label class="vendor__bid-upload">Upload Your Proposal(s) Here
+								<input type="file" class="vendor__bid-upload-file" multiple="multiple">
+								<i class="vendor__bid-upload-approved is-hidden"></i>
+								<span class="vendor__bid-upload-filename is-hidden">(5) Documents Attached</span>
+							</label>
+						</fieldset>
+						<div class="vendor__bid-finalize">
+							<p class="vendor__bid-finalize-copy">*Please ensure each proposal has an associated Job # attached.</p><input class="vendor__bid-button" type="button" value="Submit Bid" disabled="true">
+						</div>
+					</form>
+					<footer class="vendor__bid-history is-masked">
+						<div class="vendor__bid-history-catalog">
+							<div class="vendor__bid-history-cta">
+								<h2 class="vendor__bid-history-cta-title"><b>(5)</b>Proposals Pending Review</h2>
+								<i class="vendor__bid-history-cta-button"></i>
+							</div>
+							<div class="vendor__bid-history-pending is-masked">
+								<h2 class="vendor__bid-history-pending-title"><b>(6)</b>Pending Review</h2>
+								<p class="vendor__bid-history-pending-copy">Below are all submitted proposals waiting review by Ravti representatives.</p>
+							</div>
+							<ul class="vendor__bid-history-list is-masked">
+								<li class="vendor__bid-history-item"><a href="http://drp.mk/i/t6sc" target="_blank">GIB_106_Replacement-Proposal_Option_1.pdf ;lakdjf;alkdjf;aldskfja;sdlkfj</a><i class="vendor__bid-history-item-remove"></i></li>
+								<li class="vendor__bid-history-item">GIB_105_Replacement-Proposal_Option_2.pdf<i class="vendor__bid-history-item-remove"></i></li>
+								<li class="vendor__bid-history-item">GIB_108_Replacement-Proposal_Option_3.pdf<i class="vendor__bid-history-item-remove"></i></li>
+								<li class="vendor__bid-history-item">GIB_111_Chiller-tower-repair_Option_1.pdf<i class="vendor__bid-history-item-remove"></i></li>
+								<li class="vendor__bid-history-item">GIB_115_Chiller-tower-repair_Option_2.pdf<i class="vendor__bid-history-item-remove"></i></li>
+								<li class="vendor__bid-history-item">GIB_111_Chiller-tower-repair_Option_2.pdf<i class="vendor__bid-history-item-remove"></i></li>
+							</ul>
+						</div>
+					</footer>
+				</section>
+			</section>
+			<section class="vendor__aside">
+				<header class="vendor__queue-head">
+					<h1 class="vendor__queue-head-title">Projects Awaiting Pricing</h1>
+				</header>
+				<section class="vendor__queue-body">
+					<section class="vendor__queue-table">
+						<header class="vendor__queue-thead">
+							<div class="vendor__queue-tr not-interactive">
+								<span class="vendor__queue-th">Type</span>
+								<span class="vendor__queue-th">Due</span>
+								<span class="vendor__queue-th">Job #</span>
+								<span class="vendor__queue-th">Description</span>
+							</div>
+						</header>
+						<section class="vendor__queue-tbody">
+							<div class="vendor__queue-tr">
+								<a href="pricing/job-pricing.html" class="vendor__queue-td is-replacement"></a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">Less than 1hr</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">GIB-104</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">Airport Commerce Suite 100 Split System Upgrade and Ductwork Install
+								</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="pricing/job-pricing.html" class="vendor__queue-td is-repair"></a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">2 weeks</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">GIB-105</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">Transal Plaza 1 Split systems syncing</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="pricing/job-pricing.html" class="vendor__queue-td is-replacement"></a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">4 hrs.</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">GIB-106</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">Westside Plaza 1 Packaged Rooptop Unit Estimate</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="pricing/job-pricing.html" class="vendor__queue-td is-replacement"></a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">4 hrs.</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">GIB-107</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">8200 Doral ACHU Replacement</a>
+							</div>
+							<div class="vendor__queue-tr">
+								<a href="pricing/job-pricing.html" class="vendor__queue-td is-maintenance"></a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">4 hrs.</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">GIB-107</a>
+								<a href="pricing/job-pricing.html" class="vendor__queue-td">8200 Doral P.M. Program</a>
+							</div>
+						</section>
+					</section>
+				</section>
+				<header class="vendor__queue-head is-masked">
+					<h1 class="vendor__queue-head-title">Projects Awaiting Pricing</h1>
+				</header>
+				<section class="vendor__queue-body is-masked">
+					<section class="vendor__queue-blank is-blank-pricing">
+						<h2>No Pricing Needed</h2>
+					    <p>Currently there are no jobs that require pricing.</p>
+					</section>
+				</section>
+			</section>
+		</section>
+	</main>
+	<!-- Any Modals/Additional Content to be triggered/overlaid -->
+		<div class="account is-masked">
+	<nav class="account__subnav">
+		<ul class="account__subnav-buckets">
+			<li class="account__subnav-bucket is-active"><a href="">Company</a></li>
+			<li class="account__subnav-bucket"><a href="">Notifications</a></li>
+			<li class="account__subnav-bucket"><a href="">Permissions</a></li>
+		</ul>
+	</nav>
+	<section class="account__settings">
+		<section class="account__settings-half">
+			<section class="account__settings-card" data-settings-company>
+				<header class="account__settings-head">
+					<h1>Preferred Vendors</h1>
+				</header>
+				<section class="account__settings-body">
+					<article class="account__settings-vendor-facility">
+						<header>
+							<img src="assets/facil-4.jpg">
+							<h1 class="account__settings-vendor-facility-title">1 Howard</h1>
+							<h2 class="account__settings-vendor-facility-mechanical">Preferred Vendor: Bayfog Mechanical</h2>
+							<b>Vendors Picked: 3 of 3</b>
+						</header>
+						<section class="account__settings-vendor-group is-masked">
+							<article class="account__settings-vendor">
+								<header class="account__settings-vendor-abstract is-mp">
+									<h2>Bayfog Mechanical</h2>
+									<h3>C.O.I.:<i class="is-filed"></i></h3><h3>Vendor Contract:<i  class="is-filed"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__settings-vendor-docs is-masked">
+									<h3>Maintenance Provider</h3>
+									<form>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox"/>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<h3>Certificate of Insurance</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span class="is-uploading"><i></i>Uploading</span>
+										</label>
+										<label>
+											<a href="">View</a>
+										</label>
+									</form>
+									<h3>Vendor Contracts</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+									</form>
+									<ul>
+										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+									</ul>
+									<div>
+										<button class="account__settings-vendor-remove">Remove Vendor</button>
+									</div>
+								</footer>
+							</article>
+							<article class="account__settings-vendor is-shrunk">
+								<header class="account__settings-vendor-abstract">
+									<h2>AirScrong</h2>
+									<h3>C.O.I.:<i class="is-unfiled"></i></h3><h3>Vendor Contract:<i class="is-unfiled"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__settings-vendor-docs is-masked">
+									<h3>Maintenance Provider</h3>
+									<form>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox"/>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<h3>Certificate of Insurance</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+										<label>
+											<a href="">View</a>
+										</label>
+									</form>
+									<h3>Vendor Contracts</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+									</form>
+									<ul>
+										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+									</ul>
+								</footer>
+							</article>
+							<article class="account__settings-vendor is-default">
+								<div class="account__settings-vendor-cta">
+									<span>Option currently assigned by Ravti</span>
+									<span>&#43; Pick a preferred vendor</span>
+								</div>
+								<form class="account__settings-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Breeze Brothers</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Coolie Fly</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Fresh Flint Bell Air</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<div class="account__settings-vendor-set-controls is-masked">
+										<input class="account__settings-vendor-set-cancel" type="button" value="Cancel" ><input class="account__settings-vendor-set-save" type="button" value="Save &amp; Update" >
+									</div>
+								</form>
+							</article>
+							<article class="account__settings-vendor is-shrunk">
+								<header class="account__settings-vendor-abstract">
+									<h2>Coolie Fly</h2>
+									<h3>C.O.I.:<i class="is-unfiled"></i></h3><h3>Vendor Contract:<i class="is-unfiled"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__settings-vendor-docs is-masked">
+									<h3>Maintenance Provider</h3>
+									<form>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox"/>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<h3>Certificate of Insurance</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+										<label>
+											<a href="">View</a>
+										</label>
+									</form>
+									<h3>Vendor Contracts</h3>
+									<form>
+										<label>
+											<input type="file" />
+											<span>Upload</span>
+										</label>
+									</form>
+									<ul>
+										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+									</ul>
+								</footer>
+							</article>
+							<article class="account__settings-vendor is-default">
+								<div class="account__settings-vendor-cta">
+									<span>Option currently assigned by Ravti</span>
+									<span>&#43; Pick a preferred vendor</span>
+								</div>
+								<form class="account__settings-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Breeze Brothers</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Coolie Fly</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<label class="account__settings-vendor-set-option">
+										<span>Fresh Flint Bell Air</span>
+										<input type="radio" name="vendor-list">
+									</label>
+									<div class="account__settings-vendor-set-controls is-masked">
+										<input class="account__settings-vendor-set-cancel" type="button" value="Cancel" ><input class="account__settings-vendor-set-save" type="button" value="Save &amp; Update">
+									</div>
+								</form>
+							</article>
+							<footer class="account__settings-vendor-invite">
+								<h2>Vendor Not Listed? Click to invite.</h2>
+								<form class="is-masked">
+									<legend>Please enter the desired vendor's information &mdash; we'll contact them regarding your request.</legend>
+									<fieldset>
+										<label>Company Name</label>
+										<input type="text">
+									</fieldset>
+									<fieldset>
+										<div>
+											<label>Email</label>
+											<input type="text">
+										</div><div><label>Phone Number</label><input type="text"></div>
+									</fieldset>
+									<div class="account__settings-vendor-invite-controls">
+										<input type="button" value="Cancel" ><input type="button" value="Invite">
+									</div>
+								</form>
+							</footer>
+						</section>
+					</article>
+					<article class="account__settings-vendor-facility">
+						<header>
+							<img src="assets/facil-2.jpg">
+							<h1 class="account__settings-vendor-facility-title">42 Sansome</h1>
+							<h2 class="account__settings-vendor-facility-mechanical">Preferred Vendor: Bayfog Mechanical</h2>
+							<b>Vendors Picked: 1 of 3</b>
+						</header>
+						<section class="account__settings-vendor-group is-masked">
+							<div class="account__settings-vendor-blank is-loading">
+								<i></i>
+								<p>Locating Vendors...</p>
+							</div>
+						</section>
+					</article>
+					<article class="account__settings-vendor-facility">
+						<header>
+							<img src="assets/facil-6.jpg">
+							<h1 class="account__settings-vendor-facility-title">888 Xavier</h1>
+							<h2 class="account__settings-vendor-facility-mechanical">Preferred Vendor: Bayfog Mechanical</h2>
+							<b>Vendors Picked: 1 of 3</b>
+						</header>
+						<section class="account__settings-vendor-group is-masked">
+							<div class="account__settings-vendor-blank is-alert">
+								<i></i>
+								<p>Loading Error.<br>Please check your Internet connection.</p>
+							</div>
+						</section>
+					</article>
+				</section>
+			</section>
+		</section>
+		<section class="account__settings-half">
+			<section class="account__settings-card" data-settings-company>
+				<header class="account__settings-head">
+					<h1>Company Information</h1>
+				</header>
+				<section class="account__settings-body">
+					<form class="account__settings-form is-errors">
+						<div class="account__settings-form-feedback">
+							<i></i>
+							<h2>Whoops!</h2>
+							<p>_Fieldname_ can't be blank.</p>
+							<p>_Fieldname_ can't be blank.</p>
+						</div>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Company Name<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span>
+							</label>
+							<input type="text" class="account__settings-input" value="Harbaugh Housing" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Contact Number<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="(786) 261-8509" disabled="disabled"><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Street Address<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="1 Howard Ave." disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">City<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="San Francisco" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">State<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="CA" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">Zip<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="94111" disabled="disabled"><i></i>
+							</div>
+						</fieldset>
+					</form>
+				</section>
+			</section>
+		</section>
+	</section>
+</div>
+<aside class="overlay__alert-wrapper is-masked">
+	<button class="overlay__dismiss"></button>
+	<section class="overlay__alert is-slid-out">
+		<h1 class="overlay__alert-title">Remove Preferred Vendor</h1>
+		<p class="overlay__alert-copy">Removing preference elimnates them from receiving priority on future work requests. Please confirm your decision below.</p>
+		<footer class="overlay__alert-controls">
+			<button class="overlay__alert-controls-encourage">Remove</button><br>
+			<button class="overlay__alert-controls-secondary">Nevermind</button>
+		</footer>
+	</section>
+</aside>
+
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	    <script src="../js/app.js"></script>
+</body>
+</html>
