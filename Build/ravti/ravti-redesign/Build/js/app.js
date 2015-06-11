@@ -19,6 +19,28 @@ $(document).ready(function() {
             $(".v-job__scan-body").addClass("scan-expanded");
             $(".v-job__scan-expand").addClass("is-hidden");
     });
+    //Account Settings
+    $(document).on('click', '*[data-account-tab-facilities]', function() {
+        $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').removeClass("is-masked");
+        $("*[data-personal-card]").parent('.account__half').addClass("is-masked");
+        $("*[data-team-card]").parent('.account__full').addClass("is-masked");
+        $("*[data-account-tab-facilities]").toggleClass("is-active");
+        $("*[data-account-tab-personal], *[data-account-tab-team], *[data-account-tab-notifications]").removeClass("is-active");
+    });
+    $(document).on('click', '*[data-account-tab-team]', function() {
+        $("*[data-team-card]").parent('.account__full').removeClass("is-masked");
+        $("*[data-personal-card]").parent('.account__half').addClass("is-masked");
+        $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').addClass("is-masked");
+        $("*[data-account-tab-team]").toggleClass("is-active");
+        $("*[data-account-tab-personal], *[data-account-tab-facilities], *[data-account-tab-notifications]").removeClass("is-active");
+    });
+    $(document).on('click', '*[data-account-tab-personal]', function() {
+        $("*[data-team-card]").parent('.account__full').addClass("is-masked");
+        $("*[data-personal-card]").parent('.account__half').removeClass("is-masked");
+        $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').addClass("is-masked");
+        $("*[data-account-tab-personal]").toggleClass("is-active");
+        $("*[data-account-tab-facilities], *[data-account-tab-team], *[data-account-tab-notifications]").removeClass("is-active");
+    });
     // Invite Vendor
     $(document).on('click', '.account__settings-vendor-invite h2', function() {
         $(this).next('form').toggleClass('is-masked');
