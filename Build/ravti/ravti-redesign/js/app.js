@@ -41,6 +41,18 @@ $(document).ready(function() {
         $("*[data-account-tab-personal]").toggleClass("is-active");
         $("*[data-account-tab-facilities], *[data-account-tab-team], *[data-account-tab-notifications]").removeClass("is-active");
     });
+    //Change text on delete team member
+    $(document).on('click', '.account__team-auth-delete-cta', function() {
+       $(this).toggleClass('is-masked');
+       $(this).siblings('label, span').toggleClass('is-masked');
+    });
+    $(document).on('click', '.account__team-auth-delete-confirm', function() {
+       $(this).parents('.account__team-auth-member').remove();
+    });
+    $(document).on('click', '.account__team-auth-delete-cancel', function() {
+        $(this).toggleClass('is-masked');
+        $(this).prevAll('.account__team-auth-delete-confirm, .account__team-auth-delete-cta, span').toggleClass('is-masked');
+    });
     // Invite Vendor
     $(document).on('click', '.account__settings-vendor-invite h2', function() {
         $(this).next('form').toggleClass('is-masked');

@@ -101,14 +101,13 @@
 		<section class="account__full is-masked">
 			<section class="account__team-auth" data-team-card>
 				<h1>Permissions</h1>
-				<p>This is where you edit system access for team members.</p>
+				<p>This is where you edit system access for team members</p>
 				<section class="account__team-auth-rules">
 					<div>
 						<h2 class="is-admin">Admin’s can:</h2>
 						<ul>
 							<li>See all facilities in the portfolio</li>
 							<li>Remove facilities</li>
-							<li>Invite team members</li>
 							<li>Grant others admin privileges</li>
 							<li>Do everything Managers can do</li>
 						</ul>
@@ -116,9 +115,9 @@
 					<div>
 						<h2 class="is-manager">Manager's can:</h2>
 						<ul>
-							<li>Invite people to their facilities</li>
+							<li>Invite team members</li>
 							<li>Decide which members view which facilities</li>
-							<li>Remove team members</li>
+							<li>Delete team members</li>
 						</ul>
 					</div>
 				</section>
@@ -227,6 +226,12 @@
 								<input type="checkbox" name="vendor-list" checked>
 								<span>3 Wade</span>
 							</label>
+						</form>
+						<form class="account__team-auth-delete">
+							<label class="account__team-auth-delete-cta"><input type="button"><span>Delete Teammate</span></label>
+							<span class="is-masked">Are you sure?</span>
+							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
+							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
 						</form>
 					</article>
 					<article class="account__team-auth-member">
@@ -357,6 +362,12 @@
 								<div>You don't have permission to edit this.</div>
 							</label>
 						</form>
+						<form class="account__team-auth-delete is-locked">
+							<label class="account__team-auth-delete-cta"><input type="button" disabled><span>Delete Teammate</span></label>
+							<span class="is-masked">Are you sure?</span>
+							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
+							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
+						</form>
 					</article>
 					<article class="account__team-auth-member">
 						<div class="account__team-auth-member-avatar">
@@ -462,7 +473,12 @@
 								<span>3 Wade</span>
 							</label>
 						</form>
-						<button>Delete Member</button>
+						<form class="account__team-auth-delete">
+							<label class="account__team-auth-delete-cta"><input type="button"><span>Delete Teammate</span></label>
+							<span class="is-masked">Are you sure?</span>
+							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
+							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
+						</form>
 					</article>
 					<article class="account__team-auth-member">
 						<div class="account__team-auth-member-avatar">
@@ -568,7 +584,12 @@
 								<span>3 Wade</span>
 							</label>
 						</form>
-						<button>Delete Member</button>
+						<form class="account__team-auth-delete">
+							<label class="account__team-auth-delete-cta"><input type="button"><span>Delete Teammate</span></label>
+							<span class="is-masked">Are you sure?</span>
+							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
+							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
+						</form>
 					</article>
 				</section>
 			</section>
@@ -643,79 +664,79 @@
 				</header>
 				<section class="account__index-body">
 					<div class="account__index-list">
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-2.jpg">
 							</div>
 							<h2 class="account__index-item-title">234 Bush Gardens Where the Knicks Play</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-2.jpg">
 							</div>
 							<h2 class="account__index-item-title">1 Howard</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
 							<h2 class="account__index-item-title">145 Keary</h2>
 						</a>
-						<a href="" class="account__index-item is-selected">
+						<a class="account__index-item is-selected">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-3.jpg">
 							</div>
 							<h2 class="account__index-item-title">333 Maybry Lane A</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-3.jpg">
 							</div>
 							<h2 class="account__index-item-title">333 Maybry Lane B</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-3.jpg">
 							</div>
 							<h2 class="account__index-item-title">333 Maybry Lane C</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-3.jpg">
 							</div>
 							<h2 class="account__index-item-title">333 Maybry Lane C</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
 							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
 							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
 							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
 							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
 							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
 						</a>
-						<a href="" class="account__index-item">
+						<a class="account__index-item">
 							<div class="account__index-thumbnail">
 								<img src="assets/facil-thumb-1.jpg">
 							</div>
@@ -887,7 +908,7 @@
 											<span class="is-uploading"><i></i>Uploading</span>
 										</label>
 										<label>
-											<a href="">View</a>
+											<a>View</a>
 										</label>
 									</form>
 									<h3>Vendor Contracts</h3>
