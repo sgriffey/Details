@@ -19,6 +19,60 @@ $(document).ready(function() {
             $(".v-job__scan-body").addClass("scan-expanded");
             $(".v-job__scan-expand").addClass("is-hidden");
     });
+    //Account Settings on mobile
+    $(document).on('click', '*[data-mobilenav-settings]', function() {
+        $(".mobileNav__menu").toggleClass("mobileNav__menu-is-active");
+        $(".mobileNav__link").toggleClass("is-nav-open");
+        $("main, .account").toggleClass("is-masked");
+    });
+     // Invite Vendor
+    $(document).on('click', '.account__facility-vendor-invite h2', function() {
+        $(this).next('form').toggleClass('is-masked');
+    });
+    $(document).on('click', '.account__facility-vendor-invite-controls input', function() {
+        $(this).parents('.account__facility-vendor-invite form').toggleClass('is-masked');
+    });
+    $(document).on('click', '.account__facility-vendor-invite-controls input:nth-child(2)', function() {
+        $('.toast-success').toggleClass('is-masked is-toast-in');
+        setTimeout(function() {
+             $('.toast-success').toggleClass("is-toast-in");
+        }, 4000);
+        setTimeout(function() {
+             $('.toast-success').addClass("is-toast-out");
+        }, 5000);
+        setTimeout(function() {
+             $('.toast-success').removeClass("is-toast-out").addClass("is-masked");
+        }, 6000);
+    });
+    //Inviting Team Member
+    $(document).on('click', '.account__team-auth-add-cta', function() {
+        $(this).siblings('.account__team-auth-add').toggleClass("is-masked");
+        $(this).parent().toggleClass("is-blank is-inviting");
+        $(this).toggleClass("is-masked");
+    });
+    $(document).on('click', '.account__team-auth-add > div input:nth-child(2)', function() {
+        $('.toast-success').toggleClass('is-masked is-toast-in');
+        setTimeout(function() {
+             $('.toast-success').toggleClass("is-toast-in");
+        }, 4000);
+        setTimeout(function() {
+             $('.toast-success').addClass("is-toast-out");
+        }, 5000);
+        setTimeout(function() {
+             $('.toast-success').removeClass("is-toast-out").addClass("is-masked");
+        }, 6000);
+    });
+    $(document).on('click', '.toast-success h2', function() {
+        $('.toast-success').addClass("is-toast-out");
+        setTimeout(function() {
+             $('.toast-success').removeClass("is-toast-out").addClass("is-masked");
+        }, 2000);
+    });
+    $(document).on('click', '.account__team-auth-add > div input', function() {
+        $(this).parents('.account__team-auth-add').toggleClass('is-masked');
+        $(this).parents('.account__team-auth-add').siblings('.account__team-auth-add-cta').toggleClass('is-masked');
+        $(this).parents('.account__team-auth-member').toggleClass('is-blank is-inviting');
+    });
     //Account Settings
     $(document).on('click', '*[data-account-tab-facilities]', function() {
         $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').removeClass("is-masked");
@@ -41,24 +95,20 @@ $(document).ready(function() {
         $("*[data-account-tab-personal]").toggleClass("is-active");
         $("*[data-account-tab-facilities], *[data-account-tab-team], *[data-account-tab-notifications]").removeClass("is-active");
     });
-    //Change text on delete team member
-    $(document).on('click', '.account__team-auth-delete-cta', function() {
+    //Deleting Team Member/Preferred Vednor
+    $(document).on('click', '*[data-delete-teammate]:not(.is-disabled), [data-delete-vendor]:not(.is-disabled)', function() {
        $(this).toggleClass('is-masked');
-       $(this).siblings('label, span').toggleClass('is-masked');
+       $(this).siblings('input, span').toggleClass('is-masked');
     });
-    $(document).on('click', '.account__team-auth-delete-confirm', function() {
-       $(this).parents('.account__team-auth-member').remove();
+    $(document).on('click', '*[data-delete-teammate-confirm], *[data-delete-vendor-confirm]', function() {
+       $(this).parents('.account__team-auth-member, account__facility-vendor').remove();
     });
-    $(document).on('click', '.account__team-auth-delete-cancel', function() {
+    $(document).on('click', '*[data-delete-teammate-cancel], *[data-delete-vendor-cancel]', function() {
         $(this).toggleClass('is-masked');
-        $(this).prevAll('.account__team-auth-delete-confirm, .account__team-auth-delete-cta, span').toggleClass('is-masked');
-    });
-    // Invite Vendor
-    $(document).on('click', '.account__settings-vendor-invite h2', function() {
-        $(this).next('form').toggleClass('is-masked');
+        $(this).prevAll('*[data-delete-teammate-confirm], *[data-delete-teammate], *[data-delete-vendor-confirm], *[data-delete-vendor], span').toggleClass('is-masked');
     });
     // Alert Overlay
-    $(document).on('click', '.account__settings-vendor-remove', function() {
+    $(document).on('click', '.account__facility-vendor-remove', function() {
          $(".account").toggleClass("is-overlaid");
             $(".overlay__alert-wrapper").toggleClass("is-masked animated fadeIn");
             $(".overlay__alert").toggleClass("is-slid-down");
@@ -72,39 +122,28 @@ $(document).ready(function() {
         $(".overlay__alert").toggleClass("is-slid-down");
     });
     // Assiging A preferred Vendor
-    $(document).on('click', '.account__settings-vendor-facility:not(.is-expanded)', function() {
-        $(this).children('.account__settings-vendor-group').toggleClass('is-masked');
-        $(this).siblings('.account__settings-vendor-facility').children('.account__settings-vendor-group').addClass('is-masked');
-        $(this).siblings('.account__settings-vendor-facility').removeClass('is-expanded');
-        $(this).toggleClass('is-expanded');
-    });
-    $(document).on('click', '.account__settings-vendor:not(.is-expanded)', function() {
-        $(this).children('.account__settings-vendor-docs').toggleClass("is-masked");
+    $(document).on('click', '.account__facility-vendor:not(.is-expanded)', function() {
+        $(this).children('.account__facility-vendor-docs').toggleClass("is-masked");
         $(this).toggleClass("is-expanded");
     });
-    $(document).on('click', '.account__settings-vendor-abstract i', function() {
-        $(this).parent('.account__settings-vendor-abstract').next('.account__settings-vendor-docs').toggleClass('is-masked');
-        $(this).parents('.account__settings-vendor').toggleClass('is-expanded');
+    $(document).on('click', '.account__facility-vendor-abstract i', function() {
+        $(this).parent('.account__facility-vendor-abstract').next('.account__facility-vendor-docs').toggleClass('is-masked');
+        $(this).parents('.account__facility-vendor').toggleClass('is-expanded');
     });
-    $(document).on('click', '.account__settings-vendor-cta', function() {
-        $(this).siblings('.account__settings-vendor-set').toggleClass("is-masked");
-        $(this).parent('.account__settings-vendor').toggleClass("is-assigning");
+    $(document).on('click', '.account__facility-vendor-cta', function() {
+        $(this).siblings('.account__facility-vendor-set').toggleClass("is-masked");
+        $(this).parent('.account__facility-vendor').toggleClass("is-assigning");
         $(this).toggleClass("is-masked");
     });
-    $(document).on('click', '.account__settings-vendor-set-option', function() {
-        $(this).siblings('.account__settings-vendor-set-controls').removeClass('is-masked');
+    $(document).on('click', '.account__facility-vendor-set-cancel', function() {
+        $(this).parents('.account__facility-vendor-set').toggleClass('is-masked');
+        $(this).parents('.account__facility-vendor-set').prev('.account__facility-vendor-cta').toggleClass('is-masked');
+        $(this).parents('.account__facility-vendor').toggleClass("is-assigning");
     });
-    $(document).on('click', '.account__settings-vendor-set-cancel', function() {
-        $(this).parents('.account__settings-vendor-set').toggleClass('is-masked');
-        $(this).parents('.account__settings-vendor-set').prev('.account__settings-vendor-cta').toggleClass('is-masked');
-        $(this).parents('.account__settings-vendor').toggleClass("is-assigning");
+    $(document).on('click', '.account__facility-vendor-set-save', function() {
+        $(this).parents('.account__facility-vendor-set').toggleClass('is-masked');
+        $(this).parents('.account__facility-vendor').toggleClass("is-assigning is-masked");
     });
-    $(document).on('click', '.account__settings-vendor-set-save', function() {
-        $(this).parents('.account__settings-vendor-set').toggleClass('is-masked');
-        $(this).parents('.account__settings-vendor').toggleClass("is-assigning, is-masked");
-        $(this).parents('.account__settings-vendor').prev().toggleClass("is-shrunk");
-    });
-
     //Adding Comments to Proposal
     $('.proposal__procure-services-qa-post-btn').click(function() {
         var toAdd = $("textarea[name=response]").val();

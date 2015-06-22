@@ -29,12 +29,10 @@
 	</div>
 	<nav class="mobileNav__menu">
 		<ul class="mobileNav__menu-list">
-			<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">Dashboard</a></li>
-			<li><a href="projects.html" class="mobileNav__menu-list-item">Projects</a></li>
-			<li><a href="" class="mobileNav__menu-list-item">Equipment</a></li>
-			<li><a href="" class="mobileNav__menu-list-item">Accounting</a></li>
-			<li><a href="" class="mobileNav__menu-list-item">Work Orders</a></li>
-			<li><a href="" class="mobileNav__menu-list-item">Your Account</a></li>
+			<li><a href="../../index.html" class="mobileNav__menu-list-item">Dashboard</a></li>
+			<li><a href="projects.html" class="mobileNav__menu-list-item">Proposals</a></li>
+			<li><a href="billing.html" class="mobileNav__menu-list-item">Invoices</a></li>
+			<li><b class="mobileNav__menu-list-item" data-mobilenav-settings>Account Settings</b></li>
 		</ul>
 	</nav>
 </header>
@@ -248,508 +246,12 @@
 	<div class="account is-masked">
 	<nav class="account__subnav">
 		<ul class="account__subnav-buckets">
-			<li class="account__subnav-bucket is-active" data-account-tab-personal><a>Personal</a></li>
-			<li class="account__subnav-bucket" data-account-tab-facilities><a>Facilities</a></li>
+			<li class="account__subnav-bucket is-active" data-account-tab-personal><a>Account</a></li>
+			<li class="account__subnav-bucket" data-account-tab-facilities><a>Portfolio</a></li>
 			<li class="account__subnav-bucket" data-account-tab-team><a>Team</a></li>
 		</ul>
 	</nav>
 	<section class="account__settings">
-		<section class="account__full is-masked">
-			<section class="account__team-auth" data-team-card>
-				<h1>Permissions</h1>
-				<p>This is where you edit system access for team members</p>
-				<section class="account__team-auth-rules">
-					<div>
-						<h2 class="is-admin">Admin’s can:</h2>
-						<ul>
-							<li>See all facilities in the portfolio</li>
-							<li>Remove facilities</li>
-							<li>Grant others admin privileges</li>
-							<li>Do everything Managers can do</li>
-						</ul>
-					</div>
-					<div>
-						<h2 class="is-manager">Manager's can:</h2>
-						<ul>
-							<li>Invite team members</li>
-							<li>Decide which members view which facilities</li>
-							<li>Delete team members</li>
-						</ul>
-					</div>
-				</section>
-				<h2>Team Members:</h2>
-				<section class="account__team-auth-list">
-					<article class="account__team-auth-member">
-						<div class="account__team-auth-member-avatar">
-							<img src="http://cdn2.dropmark.com/72454/a49c0d4668c056e3cd49160673c140763d470243/crg.jpg" />
-						</div>
-						<h3>Chris Ginter (You)</h3>
-						<h4>crg@full-tilt.com</h4>
-						<form class="account__team-auth-role">
-							<label><input type="checkbox" checked><span class="is-manager"><i>Make</i> Manager</span></label>
-						</form>
-						<form class="account__team-auth-facilities">
-							<legend>Facilities Allowed to View <i>(Click To Prohibit):</i></legend>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>234 Bush Gardens</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>1 Howard</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>145 Kearny</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane A</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane B</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane C</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane D</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane E</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane F</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-						</form>
-						<form class="account__team-auth-delete">
-							<label class="account__team-auth-delete-cta"><input type="button"><span>Delete Teammate</span></label>
-							<span class="is-masked">Are you sure?</span>
-							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
-							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
-						</form>
-					</article>
-					<article class="account__team-auth-member">
-						<div class="account__team-auth-member-avatar">
-							<img src="http://cdn2.dropmark.com/72454/9cffc392d7d0189cfc6529f7c8776fa1c96261c9/stuart.jpg" />
-						</div>
-						<h3>Stuart Griffiths</h3>
-						<h4>sbgriffi@gmail.com</h4>
-						<form class="account__team-auth-role">
-							<label><input type="checkbox" disabled checked><span class="is-admin"><i>Make</i> Admin</span><div class="account__team-auth-role-tooltip">You don't have permission to edit this.</div></label>
-							<label><input type="checkbox" disabled checked><span class="is-manager"><i>Make</i> Manager</span><div class="account__team-auth-role-tooltip">You don't have permission to edit this.</div></label>
-						</form>
-						<form class="account__team-auth-facilities">
-							<legend>Facilities Allowed to View <i>(Click To Prohibit):</i></legend>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>234 Bush Gardens</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>1 Howard</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>145 Kearny</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>333 Maybry Lane A</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>333 Maybry Lane B</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>333 Maybry Lane C</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>333 Maybry Lane D</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"disabled checked>
-								<span>333 Maybry Lane E</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>333 Maybry Lane F</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" disabled checked>
-								<span>3 Wade</span>
-								<div>You don't have permission to edit this.</div>
-							</label>
-						</form>
-						<form class="account__team-auth-delete is-locked">
-							<label class="account__team-auth-delete-cta"><input type="button" disabled><span>Delete Teammate</span></label>
-							<span class="is-masked">Are you sure?</span>
-							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
-							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
-						</form>
-					</article>
-					<article class="account__team-auth-member">
-						<div class="account__team-auth-member-avatar">
-							<img src="assets/dummy-avatar.svg" />
-						</div>
-						<h3>Vinny Mahalo</h3>
-						<h4>vinny@topgolf.com</h4>
-						<form class="account__team-auth-role">
-							<label><input type="checkbox"><span class="is-manager"><i>Make</i> Manager</span></label>
-						</form>
-						<form class="account__team-auth-facilities">
-							<legend>Facilities Allowed to View <i>(Click To Prohibit):</i></legend>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>234 Bush Gardens</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>1 Howard</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>145 Kearny</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane A</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane B</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane C</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane D</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane E</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane F</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-						</form>
-						<form class="account__team-auth-delete">
-							<label class="account__team-auth-delete-cta"><input type="button"><span>Delete Teammate</span></label>
-							<span class="is-masked">Are you sure?</span>
-							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
-							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
-						</form>
-					</article>
-					<article class="account__team-auth-member">
-						<div class="account__team-auth-member-avatar">
-							<img src="assets/dummy-avatar.svg" />
-						</div>
-						<h3>Gil Villenasor</h3>
-						<h4>gil@topgolf.com</h4>
-						<form class="account__team-auth-role">
-							<label><input type="checkbox"><span class="is-manager"><i>Make</i> Manager</span></label>
-						</form>
-						<form class="account__team-auth-facilities">
-							<legend>Facilities Allowed to View <i>(Click To Prohibit):</i></legend>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>234 Bush Gardens</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>1 Howard</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>145 Kearny</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane A</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane B</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane C</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane D</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane E</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane F</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__team-auth-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-						</form>
-						<form class="account__team-auth-delete">
-							<label class="account__team-auth-delete-cta"><input type="button"><span>Delete Teammate</span></label>
-							<span class="is-masked">Are you sure?</span>
-							<label class="account__team-auth-delete-confirm is-masked"><input type="button"><span>Yes, Remove Them</span></label>
-							<label class="account__team-auth-delete-cancel is-masked"><input type="button"><span>Cancel</span></label>
-						</form>
-					</article>
-				</section>
-			</section>
-		</section>
 		<section class="account__half">
 			<section class="account__personal" data-personal-card>
 				<header class="account__personal-head">
@@ -810,6 +312,218 @@
 							</div>
 						</fieldset>
 					</form>
+				</section>
+			</section>
+		</section>
+		<section class="account__half">
+			<section class="account__personal" data-personal-card>
+				<header class="account__personal-head">
+					<h1>Your Facilities</h1>
+				</header>
+				<section class="account__personal-body">
+					<form class="account__personal-facilities">
+							<legend>Below is a list of properties you're subscribed to <i>(Click To Unsubscribe):</i></legend>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>234 Bush Gardens</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>1 Howard</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>145 Kearny</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>333 Maybry Lane A</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>333 Maybry Lane B</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list"checked>
+								<span>333 Maybry Lane C</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list"checked>
+								<span>333 Maybry Lane D</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list"checked>
+								<span>333 Maybry Lane E</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list"checked>
+								<span>333 Maybry Lane F</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list"checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+							<label class="account__personal-facility">
+								<input type="checkbox" name="vendor-list" checked>
+								<span>3 Wade</span>
+							</label>
+						</form>
+				</section>
+			</section>
+		</section>
+		<section class="account__full is-masked">
+			<section class="account__team-auth" data-team-card>
+				<div>
+					<h1>Team Members &amp; Permissions</h1>
+					<p>All team members can perform facility-related actions and view corresponding information. Every equipment piece, service ticket, proposal scope, etc. for the facilities they've subscribed to view.</p>
+					<p>Admin's have the added capabilites to:</p>
+					<section class="account__team-auth-rules">
+						<ul>
+							<li>Invite new team members to join Ravti</li>
+							<li>Remove team members</li>
+							<li>Remove facilities</li>
+						</ul>
+					</section>
+					<h2>Team Members:</h2>
+				</div>
+				<section class="account__team-auth-list">
+					<article class="account__team-auth-member is-blank">
+						<div class="account__team-auth-add-cta">
+							<h3>Invite Another Team Member</h3>
+						</div>
+						<form class="account__team-auth-add is-masked">
+							<legend>Please enter the desired team member's information &mdash; we'll send them an email with an invitation to Ravti.</legend>
+							<fieldset>
+								<div>
+									<label>First Name</label>
+									<input type="text" name"add-teammate" autofocus>
+								</div>
+								<div>
+									<label>Last Name</label>
+									<input type="text" name"add-teammate">
+								</div>
+							</fieldset>
+							<fieldset>
+								<label>Email Address</label>
+								<input type="text" name"add-teammate">
+							</fieldset>
+							<div>
+								<input type="button" value="Cancel"><input type="button" value="Invite">
+							</div>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="http://cdn2.dropmark.com/72454/a49c0d4668c056e3cd49160673c140763d470243/crg.jpg" />
+						</div>
+						<h3>Chris Ginter (You)</h3>
+						<h4>crg@full-tilt.com</h4>
+						<form class="account__team-auth-role">
+							<label class="is-disabled" data-title="Admins can't be demoted"><input type="checkbox" checked disabled><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate disabled>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="http://cdn2.dropmark.com/72454/9cffc392d7d0189cfc6529f7c8776fa1c96261c9/stuart.jpg" />
+						</div>
+						<h3>Stuart Griffiths</h3>
+						<h4>sbgriffi@gmail.com</h4>
+						<form class="account__team-auth-role">
+							<label class="is-disabled" data-title="Admin's can't be demoted"><input type="checkbox" checked disabled><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate disabled>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="assets/dummy-avatar.svg" />
+						</div>
+						<h3>Vinny Mahalo</h3>
+						<h4>vinny@topgolf.com</h4>
+						<form class="account__team-auth-role">
+							<label><input type="checkbox"><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="assets/dummy-avatar.svg" />
+						</div>
+						<h3>Gil Villenasor</h3>
+						<h4>gil@topgolf.com</h4>
+						<form class="account__team-auth-role">
+							<label><input type="checkbox"><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
 				</section>
 			</section>
 		</section>
@@ -1045,8 +759,8 @@
 									<i><span></span><span></span></i>
 								</header>
 								<footer class="account__facility-vendor-docs is-masked">
-									<h3>Maintenance Provider</h3>
-									<form>
+									<form class="account__facility-vendor-doc-category">
+										<h3>Maintenance Provider</h3>
 										<fieldset>
 											<legend>They handle the preventative maintenance program?</legend>
 											<div>
@@ -1057,29 +771,37 @@
 											</div>
 										</fieldset>
 									</form>
-									<h3>Certificate of Insurance</h3>
-									<form>
-										<label>
-											<input type="file" />
-											<span class="is-uploading"><i></i>Uploading</span>
-										</label>
-										<label>
-											<a>View</a>
-										</label>
+									<form class="account__facility-vendor-doc-category">
+										<h3>Certificate of Insurance</h3>
+										<fieldset>
+											<label>
+												<input type="file" />
+												<span class="is-uploading"><i></i>Uploading</span>
+											</label>
+											<label>
+												<a>View</a>
+											</label>
+										</fieldset>
 									</form>
-									<h3>Vendor Contracts</h3>
-									<form>
-										<label>
-											<input type="file" />
-											<span>Upload</span>
-										</label>
+									<form class="account__facility-vendor-doc-category">
+										<h3>Vendor Contracts</h3>
+										<fieldset>
+											<label>
+												<input type="file" />
+												<span>Upload</span>
+											</label>
+										</fieldset>
+										<ul>
+											<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+										</ul>
+
 									</form>
-									<ul>
-										<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
-									</ul>
-									<div>
-										<button class="account__settings-vendor-remove">Remove Vendor</button>
-									</div>
+									<form class="account__facility-vendor-delete">
+										<input type="button" value="Delete Vendor" data-delete-vendor disabled>
+										<span class="is-masked">Are you sure?</span>
+										<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-vendor-confirm>
+										<input class="is-masked" type="button" value="Cancel" data-delete-vendor-cancel>
+									</form>
 								</footer>
 							</article>
 							<article class="account__facility-vendor is-default">
@@ -1087,19 +809,106 @@
 									<span>Option currently assigned by Ravti</span>
 									<span>+ Pick a preferred vendor</span>
 								</div>
+								<form class="account__facility-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Breeze Brothers</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Coolie Fly</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Fresh Flint Bell Air</span>
+									</label>
+									<div class="account__facility-vendor-set-controls">
+										<input class="account__facility-vendor-set-cancel" type="button" value="Cancel" ><input class="account__facility-vendor-set-save" type="button" value="Save &amp; Update" >
+									</div>
+								</form>
 							</article>
 							<article class="account__facility-vendor is-default">
 								<div class="account__facility-vendor-cta">
 									<span>Option currently assigned by Ravti</span>
 									<span>+ Pick a preferred vendor</span>
 								</div>
+								<form class="account__facility-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Breeze Brothers</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Coolie Fly</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Fresh Flint Bell Air</span>
+									</label>
+									<div class="account__facility-vendor-set-controls">
+										<input class="account__facility-vendor-set-cancel" type="button" value="Cancel" ><input class="account__facility-vendor-set-save" type="button" value="Save &amp; Update" >
+									</div>
+								</form>
 							</article>
+							<footer class="account__facility-vendor-invite">
+								<h2>Vendor Not Listed? Click to invite them...</h2>
+								<form class="is-masked">
+									<legend>Please enter the desired vendor's information &mdash; we'll contact them regarding your request.</legend>
+									<fieldset>
+										<label>Company Name</label>
+										<input type="text" autofocus>
+									</fieldset>
+									<fieldset>
+										<div>
+											<label>Email</label>
+											<input type="text">
+										</div><div><label>Phone Number</label><input type="text"></div>
+									</fieldset>
+									<div class="account__facility-vendor-invite-controls">
+										<input type="button" value="Cancel" ><input type="button" value="Invite">
+									</div>
+								</form>
+							</footer>
 						</div>
 					</section>
 				</section>
 			</section>
 		</section>
 	</section>
+</div>
+<div class="toast-success is-masked">
+	<div>
+		<i></i>
+		<h1><b>Invitation Sent</b></h1>
+		<h2>Dismiss</h2>
+		<p>Your invitation will be arriving in their inbox shortly.</p>
+	</div>
 </div>
 <aside class="overlay__alert-wrapper is-masked">
 	<button class="overlay__dismiss"></button>
