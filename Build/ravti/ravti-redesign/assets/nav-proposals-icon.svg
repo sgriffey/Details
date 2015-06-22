@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-proposals-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="nav-proposals-icon" sketch:type="MSArtboardGroup">
+            <g id="scope-icon" sketch:type="MSLayerGroup" transform="translate(4.000000, 2.000000)">
+                <path d="M12,0.0209768406 L0,0.0209768406 L0,15.9790232 L11.9685347,15.9790232 L11.9685347,3.9649154 L12,0.0209768406 Z" id="Rectangle-21" stroke="#B3B5B6" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M3.5,3.5 L5.6622777,3.5" id="Line" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M3.5,5.5 L6.6622777,5.5" id="Line-2" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M3.5,7.5 L8.49367989,7.5" id="Line-3" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M3.5,9.5 L8.49367989,9.5" id="Line-4" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M3.5,11.5 L8.49367989,11.5" id="Line-5" stroke="#AAACAD" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

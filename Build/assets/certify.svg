@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>certify</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M49,26 C49,13.2974501 38.7025499,3 26,3 C13.2974501,3 3,13.2974501 3,26 C3,38.7025499 13.2974501,49 26,49 C38.7025499,49 49,38.7025499 49,26 Z M5.3,26 C5.3,14.567705 14.567705,5.3 26,5.3 C37.432295,5.3 46.7,14.567705 46.7,26 C46.7,37.432295 37.432295,46.7 26,46.7 C14.567705,46.7 5.3,37.432295 5.3,26 Z" id="path-1"></path>
+        <circle id="path-2" cx="26" cy="26" r="21"></circle>
+        <path id="path-3" d="M35.8787632,16.5018383 C35.439391,16.5018383 35.0009656,16.669292 34.6657549,17.0041996 L21.8832413,29.7742049 L18.1447893,26.0381884 C17.8095786,25.7032809 17.3711532,25.5367732 16.931781,25.5367732 C16.4924087,25.5367732 16.0530364,25.7042269 15.7187726,26.0381884 C15.049298,26.7080035 15.049298,27.7921957 15.7187726,28.4620107 C15.7206664,28.4639029 19.4572246,32.1970812 19.4572246,32.1970812 L21.8832413,34.6209035 L21.8832413,34.6218496 L24.309258,32.1980273 L24.3083111,32.1970812 L37.0908247,19.4270758 C37.7612462,18.7582068 37.7612462,17.6730686 37.0908247,17.0032535 C36.7565609,16.6702381 36.3181355,16.5018383 35.8787632,16.5018383 L35.8787632,16.5018383 Z"></path>
+    </defs>
+    <g id="Photo-Heavy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-834.000000, -2408.000000)">
+            <g id="wholesale-pricing" sketch:type="MSLayerGroup" transform="translate(536.000000, 2385.000000)">
+                <g id="certify" transform="translate(295.000000, 20.000000)">
+                    <g id="Oval-5">
+                        <use fill="#6FC9B7" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(26.000000, 26.000000) rotate(-8.000000) translate(-26.000000, -26.000000) " xlink:href="#path-1"></use>
+                        <use fill="none" xlink:href="#path-1"></use>
+                        <use fill="none" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Oval-1" opacity="0.777201705">
+                        <use fill="#FFFFFF" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                        <use fill="none" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Shape">
+                        <use fill="#6FC9B7" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(26.405154, 25.561844) rotate(-8.000000) translate(-26.405154, -25.561844) " xlink:href="#path-3"></use>
+                        <use fill="none" xlink:href="#path-3"></use>
+                        <use fill="none" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

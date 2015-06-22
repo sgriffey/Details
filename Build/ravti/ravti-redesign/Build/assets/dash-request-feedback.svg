@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>request received</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="request-work-3" sketch:type="MSArtboardGroup" transform="translate(-995.000000, -163.000000)">
+            <g id="request-received" sketch:type="MSLayerGroup" transform="translate(995.000000, 163.000000)">
+                <circle id="Oval-53" fill="#F78337" sketch:type="MSShapeGroup" cx="34" cy="34" r="34"></circle>
+                <circle id="Oval-54" fill="#FF9A57" sketch:type="MSShapeGroup" cx="34" cy="34" r="33"></circle>
+                <g id="walkie-talkie" transform="translate(17.000000, 18.000000)" sketch:type="MSShapeGroup">
+                    <g id="signal" transform="translate(0.000000, 8.000000)" stroke="#FFFFFF">
+                        <path d="M25.5699198,11.5680376 C26.4646439,10.4543896 27,9.03971435 27,7.5 C27,5.97668382 26.4759864,4.57575757 25.5983841,3.4676461 M7.43183166,3.42978328 C6.53605479,4.54376474 6,5.95928122 6,7.5 C6,9.06539874 6.55336589,10.5015519 7.47515477,11.6235167" id="Oval-345"></path>
+                        <path d="M4.79565936,1.94065082 C3.6658614,3.50363039 3,5.42405506 3,7.5 C3,9.5934333 3.67712748,11.528715 4.82431126,13.0987739 M28.1175606,13.1774782 C29.2999643,11.5935995 30,9.62855079 30,7.5 C30,5.41580915 29.3288383,3.48837651 28.1908556,1.9220427" id="Oval-346"></path>
+                        <path d="M2.25814891,0.331930344 C0.835136966,2.36138888 0,4.8331661 0,7.5 C0,10.1761646 0.840991126,12.6559052 2.27310695,14.6893553 M30.7804692,14.6126768 C32.1799606,12.5937066 33,10.1426185 33,7.5 C33,4.87266825 32.1894205,2.43465748 30.8046979,0.422404008" id="Oval-347"></path>
+                    </g>
+                    <rect id="Rectangle-463" fill="#092F3E" x="21" y="0" width="2" height="12" rx="1"></rect>
+                    <rect id="Rectangle-463" fill="#092F3E" x="11" y="9" width="12" height="19"></rect>
+                    <rect id="Rectangle-464" fill="#FFFFFF" x="13" y="11" width="8" height="6"></rect>
+                    <rect id="Rectangle-467" fill="#092F3E" x="14" y="12" width="6" height="4"></rect>
+                    <path d="M20,13 L20,14.5 L18,16 L16,16 L20,13 Z" id="Rectangle-477" fill="#576367"></path>
+                    <path d="M14,14 L17,12 L20,12 L14,16 L14,14 Z" id="Rectangle-476" fill="#576367"></path>
+                    <rect id="Rectangle-465" fill="#092F3E" x="10" y="11" width="1" height="3"></rect>
+                    <rect id="Rectangle-469" fill="#092F3E" x="13" y="7" width="4" height="2"></rect>
+                    <path d="M13.4,7 L14,7 L14,9 L13.4,9 L13.4,7 Z" id="Rectangle-470" fill="#3E4E54"></path>
+                    <path d="M14.4,7 L15,7 L15,9 L14.4,9 L14.4,7 Z" id="Rectangle-471" fill="#3E4E54"></path>
+                    <path d="M15.4,7 L16,7 L16,9 L15.4,9 L15.4,7 Z" id="Rectangle-473" fill="#3E4E54"></path>
+                    <path d="M16.4,7 L17,7 L17,9 L16.4,9 L16.4,7 Z" id="Rectangle-474" fill="#3E4E54"></path>
+                    <rect id="Rectangle-466" fill="#092F3E" x="10" y="15" width="1" height="3"></rect>
+                    <g id="speaker" transform="translate(13.000000, 22.000000)" fill="#FFFFFF">
+                        <g id="row">
+                            <circle id="Oval-345" cx="0.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-348" cx="2.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-349" cx="4.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-349" cx="6.5" cy="0.5" r="0.5"></circle>
+                        </g>
+                        <g id="row" transform="translate(1.000000, 1.000000)">
+                            <circle id="Oval-353" cx="0.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-350" cx="2.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-351" cx="4.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-352" cx="6.5" cy="0.5" r="0.5"></circle>
+                        </g>
+                        <g id="row-2" transform="translate(1.000000, 3.000000)">
+                            <circle id="Oval-353" cx="0.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-350" cx="2.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-351" cx="4.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-352" cx="6.5" cy="0.5" r="0.5"></circle>
+                        </g>
+                        <g id="row" transform="translate(0.000000, 2.000000)">
+                            <circle id="Oval-357" cx="0.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-354" cx="2.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-355" cx="4.5" cy="0.5" r="0.5"></circle>
+                            <circle id="Oval-356" cx="6.5" cy="0.5" r="0.5"></circle>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-468" fill="#F6D262" x="13" y="18" width="2" height="1"></rect>
+                    <rect id="Rectangle-468" fill="#F6D262" x="16" y="18" width="2" height="1"></rect>
+                    <rect id="Rectangle-468" fill="#F6D262" x="20" y="18" width="1" height="1"></rect>
+                    <rect id="Rectangle-468" fill="#F6D262" x="20" y="19" width="1" height="1"></rect>
+                    <path d="M20,18.7 L21,18.7 L21,19.3 L20,19.3 L20,18.7 Z" id="Rectangle-475" fill="#092F3E"></path>
+                    <rect id="Rectangle-472" fill="#F6D262" x="21" y="8" width="2" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
