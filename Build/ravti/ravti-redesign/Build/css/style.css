@@ -796,7 +796,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .rfq__aside-subnav-qa, .vendor__index-subnav-active,
 .vendor__index-subnav-completed, .job__aside-subnav-equipment,
 .job__aside-subnav-qa, .v-job__aside-subnav-equipment,
-.v-job__aside-subnav-qa, .job__invoice-upload input, .v-job__invoice-upload input, .rfq__bid-upload input, .vendor__bid-upload input, .job__bid-upload input, .v-job__bid-upload input, .tenant__lease-upload-label input, .vendor__invoice-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .vendor__info-upload input, .job__info-upload input, .v-job__info-upload input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .o-job__abstract-address, .v-job__abstract-address, .o-job__perform-vendor, .o-job__perform-warranty-label, .repair__abstract-dl, .repair__abstract-scope, .o-job__abstract-dl, .repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .repair__abstract-dl dt:first-child, .repair__abstract-scope dt:first-child, .o-job__abstract-dl dt:first-child, .repair__abstract-dl dd, .repair__abstract-scope dd, .o-job__abstract-dl dd, .job__recap-address, .job__abstract-freight, .job__schedule-status, .v-job__recap-address, .v-job__abstract-freight, .v-job__schedule-status, .account__facility-vendor-invite form fieldset, .account__facility-vendor-doc-category fieldset, .account__team-auth-add fieldset, .vendor__signup-fieldset, .job__status-list, .v-job__status-list, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .account__facility-vendor-abstract > i, .toast-success h1, .toast-error h1, .toast-success h2, .toast-error h2, .toast-success p, .toast-error p, .account__facility-vendor-doc-category label, .account__team-auth-role label input, .account__facility-vendor-delete input,
+.v-job__aside-subnav-qa, .job__invoice-upload input, .v-job__invoice-upload input, .rfq__bid-upload input, .vendor__bid-upload input, .job__bid-upload input, .v-job__bid-upload input, .tenant__lease-upload-label input, .vendor__invoice-upload input, .overlay__confirm-input-file-button input, .facility__unit-history-add-info-attach input, .vendor__info-upload input, .job__info-upload input, .v-job__info-upload input, .facility__suite-upload-lease-button input, .facility__suite-upload-service-button input, .proposal__abstract-address, .repair__abstract-address, .invoice__meta-summary-address, .rfq__abstract-address, .job__abstract-address, .o-job__abstract-address, .v-job__abstract-address, .o-job__perform-vendor, .o-job__perform-warranty-label, .repair__abstract-dl, .repair__abstract-scope, .o-job__abstract-dl, .repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .repair__abstract-dl dt:first-child, .repair__abstract-scope dt:first-child, .o-job__abstract-dl dt:first-child, .repair__abstract-dl dd, .repair__abstract-scope dd, .o-job__abstract-dl dd, .job__recap-address, .job__abstract-freight, .job__schedule-status, .v-job__recap-address, .v-job__abstract-freight, .v-job__schedule-status, .account__facility-vendor-invite form fieldset, .account__facility-vendor-doc-category fieldset, .account__team-auth-add fieldset, .account__alerts-fieldset, .vendor__signup-fieldset, .job__status-list, .v-job__status-list, .job__status-event-step, .v-job__status-event-step, .help__section-title, .help__aside-title, .account__facility-vendor-abstract > i, .toast-success h1, .toast-error h1, .toast-success h2, .toast-error h2, .toast-success p, .toast-error p, .account__settings-upload-text > label, .account__facility-vendor-doc-category label, .account__team-auth-role label input, .account__facility-vendor-delete input,
 .account__team-auth-delete input, .form__buttons-group, .form__example-fieldset, .onboard-dashboard__title, .onboard-dashboard__fieldset, .onboard-facility__duties-list, .onboard-facility__event-summary-list, .siteNav__buckets, .siteNav__buckets-list, .siteNav__events-popover-footer-label,
 .siteNav__proposals-popover-footer-label,
 .siteNav__invoices-popover-footer-label, .siteNav__events-popover-list,
@@ -814,13 +814,15 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .dashboard__request-control-title, .dashboard__request-control-fieldset,
 .dashboard__request-control-fieldset-half, .dashboard__request-control-upload, .projects__queue h2,
 .projects__live h2, .proposal__terms-scan-list, .proposal__terms-view-scopes,
-.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__po-entity-address, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__mobile-request-title, .overlay__mobile-request-feedback-title, .overlay__mobile-request-fieldset, .overlay__mobile-request-upload, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .overlay__alert p, .overlay__alert-controls-secondary, .account__settings-form, .account__settings-form-feedback h2, .account__settings-form-feedback p, .account__settings-radio-label, .account__settings-fieldset, .account__settings-vendor-facility-title, .account__settings-vendor-facility-mechanical, .account__facility-vendors-list .is-shrunk, .account__facility-vendor-invite h2, .account__facility-vendor-invite form fieldset input, .account__facility-vendor .is-mp h2:after, .account__facility-vendor-abstract h2, .account__facility-vendor-abstract h3, .account__facility-vendor-doc-category h3, .account__facility-vendor-doc-category input, .account__facility-vendor-doc-category ul, .account__facility-vendor-set-option,
+.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__po-entity-address, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__mobile-request-title, .overlay__mobile-request-feedback-title, .overlay__mobile-request-fieldset, .overlay__mobile-request-upload, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .overlay__alert p, .overlay__alert-controls-secondary, .account__settings-form, .account__settings-form-feedback h2, .account__settings-form-feedback p, .account__settings-radio-label, .account__settings-fieldset, .account__settings-upload-text > p, .account__settings-upload-text > label input, .account__settings-vendor-facility-title, .account__settings-vendor-facility-mechanical, .account__facility-vendors-list .is-shrunk, .account__facility-vendor-invite h2, .account__facility-vendor-invite form fieldset input, .account__facility-vendor .is-mp h2:after, .account__facility-vendor-abstract h2, .account__facility-vendor-abstract h3, .account__facility-vendor-doc-category h3, .account__facility-vendor-doc-category input, .account__facility-vendor-doc-category ul, .account__facility-vendor-set-option,
 .account__personal-facility, .account__facility-vendor-set-option input,
 .account__personal-facility input, .account__facility-vendor-set-controls input,
 .account__facility-vendor-invite-controls input,
-.account__team-auth-add > div input, .account__index-item-title, .account__facility-overview-title h1, .account__facility-overview-title address, .account__team-auth > div h1, .account__team-auth > div h2, .account__team-auth > div p, .account__team-auth-rules h2, .account__team-auth-rules ul, .account__team-auth-role label, .account__team-auth-member > h3, .account__team-auth-member > h4, .account__team-auth-add-cta h3, .account__team-auth-add input, .account__facility-vendor-delete label,
-.account__team-auth-delete label, .account__facility-vendor-delete > span,
-.account__team-auth-delete > span, .account__personal-facilities, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-mobile-cancel,
+.account__team-auth-add > div input, .account__index-item-title, .account__facility-overview-title h1, .account__facility-overview-title address, .account__team-auth > div h1,
+.account__alerts > div h1, .account__team-auth > div h2,
+.account__alerts > div h2, .account__team-auth > div p,
+.account__alerts > div p, .account__team-auth-rules h2, .account__team-auth-rules ul, .account__team-auth-role label, .account__team-auth-member > h3, .account__team-auth-member > h4, .account__team-auth-add-cta h3, .account__team-auth-add input, .account__facility-vendor-delete > span,
+.account__team-auth-delete > span, .account__personal-facilities, .account__alerts-form, .account__alerts-legend, .invoice__sheet-entity-address, .facility__activity-contacts-list, .facility__duties-list, .facility__duties-mobile-list, .facility__event-summary-list, .facility__equipment-card-specs, .facility__unit-info-list, .facility__unit-request-form-fieldset, .facility__unit-history-add-info-fieldset, .facility__unit-history-add-mobile-cancel,
 .facility__unit-history-add-info-cancel, .facility__unit-history-add-mobile-submit,
 .facility__unit-history-add-info-submit, .facility__suite-info-list,
 .facility__suite-lease-list, .facility__suite-lease-form-fieldset, .facility__suite-unit-card-specs, .facility__pm-timeline-list, .facility__pm-equipment-specs, .facility__pm-equipment-inspections, .facility__pm-tenant-list, .rfq__scan-list, .rfq__zoom-list,
@@ -892,7 +894,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   padding-right: 1.4rem; }
 
 .dashboard__index-control-map i, .toast-success i, .check:checked ~ .switch, .account__settings-toggle div input:checked ~ .switch, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch, .account__settings-label-save:before, .account__facility-vendor-abstract h3 .is-filed, .account__facility-vendor-set-option input:checked + span,
-.account__personal-facility input:checked + span, .account__team-auth-role label input:checked + .is-admin, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid], .account__facility-vendor-doc-category label .is-uploading i, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
+.account__personal-facility input:checked + span, .account__team-auth-role label input:checked + .is-admin, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid], .account__settings-upload-text > label .is-uploading i, .account__facility-vendor-doc-category label .is-uploading i, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
 .dashboard__request-control-upload-icon, .overlay__mobile-request-upload-icon,
 .overlay__mobile-request-tag-icon, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i, .job__status-event-info-upload-icon, .job__schedule-add-icon, .v-job__status-event-info-upload-icon, .v-job__schedule-add-icon, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i, .overlay__mobile-request-feedback-button i, .facility__unit-navigation-button i, .facility__suite-navigation-button i, .facility__pm-navigation-button i, .vendor__bid-submission-button i,
@@ -918,7 +920,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   -moz-osx-font-smoothing: grayscale; }
 
 .dashboard__index-control-map i:before, .toast-success i:before, .check:checked ~ .switch:before, .account__settings-toggle div input:checked ~ .switch:before, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__facility-vendor-abstract h3 .is-filed:before, .account__facility-vendor-set-option input:checked + span:before,
-.account__personal-facility input:checked + span:before, .account__team-auth-role label input:checked + .is-admin:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid]:before, .account__facility-vendor-doc-category label .is-uploading i:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
+.account__personal-facility input:checked + span:before, .account__team-auth-role label input:checked + .is-admin:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid]:before, .account__settings-upload-text > label .is-uploading i:before, .account__facility-vendor-doc-category label .is-uploading i:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
 .dashboard__request-control-upload-icon:before, .overlay__mobile-request-upload-icon:before,
 .overlay__mobile-request-tag-icon:before, .facility__unit-history-add-event:before,
 .facility__unit-history-add-mobile:before, .facility__pm-tenant-action-enroll i:before, .job__status-event-info-upload-icon:before, .job__schedule-add-icon:before, .v-job__status-event-info-upload-icon:before, .v-job__schedule-add-icon:before, .account__settings-label-edit:before, .dashboard__feedback-dismiss-trigger i:before, .overlay__mobile-request-feedback-button i:before, .facility__unit-navigation-button i:before, .facility__suite-navigation-button i:before, .facility__pm-navigation-button i:before, .vendor__bid-submission-button i:before,
@@ -931,7 +933,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__invoice-history-item-remove:before,
 .vendor__info-history-item-remove:before, .toggle .switch:before, .account__settings-toggle div .switch:before, .account__facility-vendor-doc-category fieldset > div div .switch:before, .account__settings-label-cancel:before, .account__facility-vendor-abstract h3 .is-unfiled:before, .account__facility-vendor-set-option span:before,
 .account__personal-facility span:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .account__facility-vendor-abstract > i span:first-child:before, .account__facility-vendor-abstract > i span:last-child:before, .toast-error i:before, .account__settings-body .is-errors [data-field-error] ~ i:before, .account__settings-form-feedback i:before, .account__settings-fieldset .is-error ~ i:before, .account__facility-vendors-list .is-alert > i:before, .account__facility-vendor-invite h2:before, .account__team-auth-role label .is-admin:before, .account__team-auth-add-cta h3:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .toast-success i:after, .check:checked ~ .switch:after, .account__settings-toggle div input:checked ~ .switch:after, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:after, .account__facility-vendor-abstract h3 .is-filed:after, .account__facility-vendor-set-option input:checked + span:after,
-.account__personal-facility input:checked + span:after, .account__team-auth-role label input:checked + .is-admin:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .account__facility-vendor-doc-category label .is-uploading i:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
+.account__personal-facility input:checked + span:after, .account__team-auth-role label input:checked + .is-admin:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .account__settings-upload-text > label .is-uploading i:after, .account__facility-vendor-doc-category label .is-uploading i:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
 .dashboard__request-control-upload-icon:after, .overlay__mobile-request-upload-icon:after,
 .overlay__mobile-request-tag-icon:after, .facility__pm-tenant-action-enroll i:after, .job__status-event-info-upload-icon:after, .job__schedule-add-icon:after, .v-job__status-event-info-upload-icon:after, .v-job__schedule-add-icon:after, .dashboard__feedback-dismiss-trigger i:after, .overlay__mobile-request-feedback-button i:after, .facility__unit-navigation-button i:after, .facility__suite-navigation-button i:after, .facility__pm-navigation-button i:after, .vendor__bid-submission-button i:after,
 .vendor__invoice-submission-button i:after,
@@ -956,7 +958,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .o-job__quote-cta [data-icon-bid]:before {
   content: "\e60b"; }
 
-.account__facility-vendor-doc-category label .is-uploading i:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before {
+.account__settings-upload-text > label .is-uploading i:before, .account__facility-vendor-doc-category label .is-uploading i:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before {
   content: "\e60c"; }
 
 .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before {
@@ -1034,7 +1036,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .siteNav__invoices-popover-list-blank, .proposal__form-head-toolbar-save, .rfq__bid-head-toolbar-save, .o-job__bid-head-toolbar-save {
   font-family: "jaf-bernino-sans", sans-serif; }
 
-.repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .job__status-event span b, .v-job__status-event span b, .account__settings-label, .account__settings-radio-label, .account__facility-vendor-invite form label, .account__facility-vendor-abstract h3, .account__team-auth-add label, .o-job__event-list-label,
+.repair__abstract-dl dt, .repair__abstract-scope dt, .o-job__abstract-dl dt, .job__status-event span b, .v-job__status-event span b, .account__settings-label, .account__settings-radio-label, .account__settings-fieldset-2col > legend, .account__settings-upload-text > legend, .account__facility-vendor-invite form label, .account__facility-vendor-abstract h3, .account__team-auth-add label, .o-job__event-list-label,
 .o-job__bid-label,
 .o-job__quote-label,
 .o-job__bid-legend,
@@ -1048,7 +1050,8 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .siteNav__invoices-popover-list .is-unviewed .siteNav__events-popover-item-time,
 .siteNav__invoices-popover-list-blank .is-unviewed .siteNav__events-popover-item-time, .dashboard__request-control-upload-filename b, .proposal__option-price, .proposal__options-detail b, .proposal__procure-services-qa-username, .repair__bid-tr:last-child td, .repair__bid-th:last-child,
 .repair__bid-td:last-child, .repair__bid-sum-td, .project__abstract-address span:first-of-type, .project__po-entity-address span:first-of-type, .project__po-bill-td, .project__po-bill-sum-td, .project__qa-chat-username, .overlay__equipment-spec-key, .overlay__confirm-bid-td, .overlay__confirm-bid-sum-td, .overlay__mobile-request-upload-filename b, .overlay__alert p b, .account__settings-label span, .account__facility-vendor-invite h2, .account__facility-vendor-cta span:first-child, .account__facility-vendor-set legend,
-.account__personal-facilities legend, .account__team-auth > div p + p, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
+.account__personal-facilities legend, .account__team-auth > div p + p,
+.account__alerts > div p + p, .invoice__sheet-entity-address span:first-of-type, .invoice__sheet-engagement-number, .invoice__sheet-engagement-kickoff,
 .invoice__sheet-engagement-deadline,
 .invoice__sheet-engagement-balance, .invoice__sheet-bill-td, .invoice__sheet-bill-sum-td, .invoice__sheet-bill-note:nth-child(2), .facility__activity-contact-name, .facility__event-header-marker-tag, .facility__event-summary-list-definition, .facility__event-meta-stamp-cite span:nth-child(2), .facility__unit-info-key, .ui-state-highlight, .ui-state-active, .facility__suite-info-key,
 .facility__suite-lease-key, .facility__pm-tenant-list-titles span, .facility__pm-tenant-action-enroll, .rfq__bid-option-price, .rfq__bid-options-detail b, .rfq__qa-username, .rfq__invite-scope b,
@@ -1192,7 +1195,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .v-job__status-head h1,
 .v-job__bid-head h1,
 .v-job__schedule-head h1,
-.v-job__invoice-head h1, .dashboard__request-support-copy, .invoice__meta-support-copy, .facility__activity-prevent-memo, .account__settings-label i, .account__settings-radio-label i, .account__facility-vendor-invite form label i, .account__facility-vendor-abstract h3 i, .account__team-auth-add label i, .o-job__event-list-label i,
+.v-job__invoice-head h1, .dashboard__request-support-copy, .invoice__meta-support-copy, .facility__activity-prevent-memo, .account__settings-label i, .account__settings-radio-label i, .account__settings-fieldset-2col > legend i, .account__settings-upload-text > legend i, .account__facility-vendor-invite form label i, .account__facility-vendor-abstract h3 i, .account__team-auth-add label i, .o-job__event-list-label i,
 .o-job__bid-label i,
 .o-job__quote-label i,
 .o-job__bid-legend i,
@@ -1240,7 +1243,9 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .siteNav-guest, .dashboard__mobile-request-title b, .dashboard__mobile-request-option span, .dashboard__index-grid-tile-hint b, .dashboard__request-title,
 .dashboard__request-control-title, .dashboard__request-title b,
 .dashboard__request-control-title b, .dashboard__request-option span, .dashboard__feedback-title, .projects__queue h2,
-.projects__live h2, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__mobile-request-title b, .overlay__mobile-request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .overlay__alert h1, .account__settings-form-feedback h2, .account__team-auth > div h1, .account__team-auth > div h2, .account__team-auth-rules h2, .account__team-auth-member > h3, .account__team-auth-add-cta h3, .account__facility-subhead, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
+.projects__live h2, .proposal__terms-scan-expand, .proposal__terms-view-scope-doc a:after, .project__banner-headline, .project__timeline-event-step, .project__terms-scan-expand, .overlay__equipment-header, .overlay__scope-title, .overlay__scope-similarity, .overlay__confirm-title, .overlay__mobile-request-title b, .overlay__mobile-request-feedback-title, .overlay__onboard-title, .overlay__onboard-bucket, .overlay__inspections-title, .overlay__alert h1, .account__settings-form-feedback h2, .account__team-auth > div h1,
+.account__alerts > div h1, .account__team-auth > div h2,
+.account__alerts > div h2, .account__team-auth-rules h2, .account__team-auth-member > h3, .account__team-auth-add-cta h3, .account__facility-subhead, .account__alerts-legend, .facility__identity-cover-title, .facility__abstract-title, .facility__duty,
 .facility__duty-bucket, .facility__activity-prevent-copy, .facility__event-header-title, .facility__unit-score-sheet-number, .ui-datepicker-title, .facility__suites-paginate-first,
 .facility__suites-paginate-prev,
 .facility__suites-paginate-page,
@@ -1270,7 +1275,8 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .dashboard__feedback, .projects__queue,
 .projects__live, .proposal__procure-services, .project__chat,
 .project__terms-scan,
-.project__terms-view, .project__timeline, .project__qa, .account__team-auth, .billing__late,
+.project__terms-view, .project__timeline, .project__qa, .account__alerts,
+.account__team-auth, .billing__late,
 .facility__billing-feed, .facility__activity-feed-blank, .facility__unit-request, .facility__projects-active,
 .facility__projects-completed, .facility__service-feed, .facility__suites, .facility__pm-tenant-body, .events__feed, .rfq__qa, .vendor-dash__card, .job__chat,
 .job__terms-scan,
@@ -2541,7 +2547,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
     margin-bottom: 11.2px;
     margin-bottom: 0.7rem; }
 
-.account__facility-vendor-invite form fieldset, .account__facility-vendor-doc-category fieldset, .account__team-auth-add fieldset, .vendor__signup-fieldset {
+.account__facility-vendor-invite form fieldset, .account__facility-vendor-doc-category fieldset, .account__team-auth-add fieldset, .account__alerts-fieldset, .vendor__signup-fieldset {
   border: 0; }
 
 .job__status-banner, .job__schedule-banner, .job__banner, .v-job__status-banner, .v-job__schedule-banner, .v-job__banner {
@@ -2782,7 +2788,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   display: inline-block;
   color: #c7cacd; }
 
-.account__settings-label, .account__settings-radio-label, .account__facility-vendor-invite form label, .account__facility-vendor-abstract h3, .account__team-auth-add label, .o-job__event-list-label,
+.account__settings-label, .account__settings-radio-label, .account__settings-fieldset-2col > legend, .account__settings-upload-text > legend, .account__facility-vendor-invite form label, .account__facility-vendor-abstract h3, .account__team-auth-add label, .o-job__event-list-label,
 .o-job__bid-label,
 .o-job__quote-label,
 .o-job__bid-legend,
@@ -2797,7 +2803,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   letter-spacing: 0.04rem;
   padding: 0;
   margin-bottom: 0; }
-  .account__settings-label i, .account__settings-radio-label i, .account__facility-vendor-invite form label i, .account__facility-vendor-abstract h3 i, .account__team-auth-add label i, .o-job__event-list-label i,
+  .account__settings-label i, .account__settings-radio-label i, .account__settings-fieldset-2col > legend i, .account__settings-upload-text > legend i, .account__facility-vendor-invite form label i, .account__facility-vendor-abstract h3 i, .account__team-auth-add label i, .o-job__event-list-label i,
   .o-job__bid-label i,
   .o-job__quote-label i,
   .o-job__bid-legend i,
@@ -2822,15 +2828,18 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   -o-box-shadow: 0 0 6px 0 rgba(9, 47, 62, 0.2);
   box-shadow: 0 0 6px 0 rgba(9, 47, 62, 0.2); }
 
-.account__facility-vendor-doc-category label, .account__team-auth-role label input, .account__facility-vendor-delete input,
-.account__team-auth-delete input, .overlay__alert-controls-secondary, .account__facility-vendor-doc-category input {
+.account__settings-upload-text > label, .account__facility-vendor-doc-category label, .account__team-auth-role label input, .account__facility-vendor-delete input,
+.account__team-auth-delete input, .overlay__alert-controls-secondary, .account__settings-upload-text > label input, .account__facility-vendor-doc-category input {
   background: transparent;
   font-family: "jaf-bernino-sans", sans-serif;
   -webkit-user-select: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  outline: none; }
+  outline: none;
+  border: 0;
+  padding: 0;
+  color: #092f3e; }
 
 .account__facility-vendor-abstract > i {
   padding-left: 11.2px;
@@ -3024,6 +3033,9 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 
 .toast-error b {
   background: #ffe9a7; }
+
+.account__alerts-legend {
+  line-height: 1; }
 
 .hero {
   background: #6fc99b;
@@ -3638,7 +3650,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
     [disabled="true"].form__select-drop:hover, [disabled="true"].onboard-dashboard__select-drop:hover, [disabled="true"].dashboard__request-control-select-drop:hover, [disabled="true"].overlay__mobile-request-select:hover, [disabled="true"].facility__unit-request-form-select-drop:hover, [disabled="true"].job__schedule-select:hover, [disabled="true"].v-job__schedule-select:hover, [disabled="true"].form__select-drop:focus, [disabled="true"].onboard-dashboard__select-drop:focus, [disabled="true"].dashboard__request-control-select-drop:focus, [disabled="true"].overlay__mobile-request-select:focus, [disabled="true"].facility__unit-request-form-select-drop:focus, [disabled="true"].job__schedule-select:focus, [disabled="true"].v-job__schedule-select:focus {
       border-color: #c7cacd; }
 
-.form__selects-label, .dashboard__request-control-checkbox-label, .dashboard__request-control-check-label, .proposal__form-check-label, .overlay__mobile-request-checkbox-label, .overlay__onboard-checkbox-label, .account__settings-radio, .facility__unit-request-form-check-label, .rfq__bid-check-label, .rfq__dismiss-check-label, .o-job__bid-check-label, .tenant__lease-enroll-program, .tenant__lease-enroll-agree {
+.form__selects-label, .dashboard__request-control-checkbox-label, .dashboard__request-control-check-label, .proposal__form-check-label, .overlay__mobile-request-checkbox-label, .overlay__onboard-checkbox-label, .account__settings-radio, .account__alerts-checkbox-label, .facility__unit-request-form-check-label, .rfq__bid-check-label, .rfq__dismiss-check-label, .o-job__bid-check-label, .tenant__lease-enroll-program, .tenant__lease-enroll-agree {
   padding: 5.6px;
   padding: 0.35rem;
   font-size: 16px;
@@ -3651,13 +3663,13 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   margin-bottom: 0;
   display: block;
   position: relative; }
-  .form__selects-label:hover, .dashboard__request-control-checkbox-label:hover, .dashboard__request-control-check-label:hover, .proposal__form-check-label:hover, .overlay__mobile-request-checkbox-label:hover, .overlay__onboard-checkbox-label:hover, .account__settings-radio:hover, .facility__unit-request-form-check-label:hover, .rfq__bid-check-label:hover, .rfq__dismiss-check-label:hover, .o-job__bid-check-label:hover, .tenant__lease-enroll-program:hover, .tenant__lease-enroll-agree:hover, .form__selects-label:focus, .dashboard__request-control-checkbox-label:focus, .dashboard__request-control-check-label:focus, .proposal__form-check-label:focus, .overlay__mobile-request-checkbox-label:focus, .overlay__onboard-checkbox-label:focus, .account__settings-radio:focus, .facility__unit-request-form-check-label:focus, .rfq__bid-check-label:focus, .rfq__dismiss-check-label:focus, .o-job__bid-check-label:focus, .tenant__lease-enroll-program:focus, .tenant__lease-enroll-agree:focus {
+  .form__selects-label:hover, .dashboard__request-control-checkbox-label:hover, .dashboard__request-control-check-label:hover, .proposal__form-check-label:hover, .overlay__mobile-request-checkbox-label:hover, .overlay__onboard-checkbox-label:hover, .account__settings-radio:hover, .account__alerts-checkbox-label:hover, .facility__unit-request-form-check-label:hover, .rfq__bid-check-label:hover, .rfq__dismiss-check-label:hover, .o-job__bid-check-label:hover, .tenant__lease-enroll-program:hover, .tenant__lease-enroll-agree:hover, .form__selects-label:focus, .dashboard__request-control-checkbox-label:focus, .dashboard__request-control-check-label:focus, .proposal__form-check-label:focus, .overlay__mobile-request-checkbox-label:focus, .overlay__onboard-checkbox-label:focus, .account__settings-radio:focus, .account__alerts-checkbox-label:focus, .facility__unit-request-form-check-label:focus, .rfq__bid-check-label:focus, .rfq__dismiss-check-label:focus, .o-job__bid-check-label:focus, .tenant__lease-enroll-program:focus, .tenant__lease-enroll-agree:focus {
     background: #e1f4ea;
     cursor: pointer; }
-  .form__selects-label:first-of-type, .dashboard__request-control-checkbox-label:first-of-type, .dashboard__request-control-check-label:first-of-type, .proposal__form-check-label:first-of-type, .overlay__mobile-request-checkbox-label:first-of-type, .overlay__onboard-checkbox-label:first-of-type, .account__settings-radio:first-of-type, .facility__unit-request-form-check-label:first-of-type, .rfq__bid-check-label:first-of-type, .rfq__dismiss-check-label:first-of-type, .o-job__bid-check-label:first-of-type, .tenant__lease-enroll-program:first-of-type, .tenant__lease-enroll-agree:first-of-type {
+  .form__selects-label:first-of-type, .dashboard__request-control-checkbox-label:first-of-type, .dashboard__request-control-check-label:first-of-type, .proposal__form-check-label:first-of-type, .overlay__mobile-request-checkbox-label:first-of-type, .overlay__onboard-checkbox-label:first-of-type, .account__settings-radio:first-of-type, .account__alerts-checkbox-label:first-of-type, .facility__unit-request-form-check-label:first-of-type, .rfq__bid-check-label:first-of-type, .rfq__dismiss-check-label:first-of-type, .o-job__bid-check-label:first-of-type, .tenant__lease-enroll-program:first-of-type, .tenant__lease-enroll-agree:first-of-type {
     margin-top: 5.6px;
     margin-top: 0.35rem; }
-  .form__selects-label:last-of-type, .dashboard__request-control-checkbox-label:last-of-type, .dashboard__request-control-check-label:last-of-type, .proposal__form-check-label:last-of-type, .overlay__mobile-request-checkbox-label:last-of-type, .overlay__onboard-checkbox-label:last-of-type, .account__settings-radio:last-of-type, .facility__unit-request-form-check-label:last-of-type, .rfq__bid-check-label:last-of-type, .rfq__dismiss-check-label:last-of-type, .o-job__bid-check-label:last-of-type, .tenant__lease-enroll-program:last-of-type, .tenant__lease-enroll-agree:last-of-type {
+  .form__selects-label:last-of-type, .dashboard__request-control-checkbox-label:last-of-type, .dashboard__request-control-check-label:last-of-type, .proposal__form-check-label:last-of-type, .overlay__mobile-request-checkbox-label:last-of-type, .overlay__onboard-checkbox-label:last-of-type, .account__settings-radio:last-of-type, .account__alerts-checkbox-label:last-of-type, .facility__unit-request-form-check-label:last-of-type, .rfq__bid-check-label:last-of-type, .rfq__dismiss-check-label:last-of-type, .o-job__bid-check-label:last-of-type, .tenant__lease-enroll-program:last-of-type, .tenant__lease-enroll-agree:last-of-type {
     margin-bottom: 22.4px;
     margin-bottom: 1.4rem; }
 
@@ -3737,7 +3749,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   .form__select-radio:active, .dashboard__request-control-check-radio:active, .proposal__form-check-radio:active, .account__settings-radio-input:active, .facility__unit-request-form-check-radio:active, .rfq__bid-check-radio:active, .rfq__dismiss-check-radio:active, .o-job__bid-check-radio:active, .tenant__lease-enroll-program-radio:active {
     border-color: #6fc99b; }
 
-.form__select-check, .dashboard__request-control-checkbox-input, .overlay__mobile-request-checkbox-input, .overlay__onboard-checkbox-input, .tenant__lease-enroll-agree-checkbox {
+.form__select-check, .dashboard__request-control-checkbox-input, .overlay__mobile-request-checkbox-input, .overlay__onboard-checkbox-input, .account__alerts-checkbox-input, .tenant__lease-enroll-agree-checkbox {
   -webkit-appearance: none;
   position: absolute;
   top: 5.6px;
@@ -3752,10 +3764,10 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   background: white;
   border: 2px solid #e3e5ea;
   outline: none; }
-  .form__select-check:checked, .dashboard__request-control-checkbox-input:checked, .overlay__mobile-request-checkbox-input:checked, .overlay__onboard-checkbox-input:checked, .tenant__lease-enroll-agree-checkbox:checked {
+  .form__select-check:checked, .dashboard__request-control-checkbox-input:checked, .overlay__mobile-request-checkbox-input:checked, .overlay__onboard-checkbox-input:checked, .account__alerts-checkbox-input:checked, .tenant__lease-enroll-agree-checkbox:checked {
     border-color: #6fc99b;
     background-color: rgba(111, 201, 155, 0.4); }
-    .form__select-check:checked:before, .dashboard__request-control-checkbox-input:checked:before, .overlay__mobile-request-checkbox-input:checked:before, .overlay__onboard-checkbox-input:checked:before, .tenant__lease-enroll-agree-checkbox:checked:before {
+    .form__select-check:checked:before, .dashboard__request-control-checkbox-input:checked:before, .overlay__mobile-request-checkbox-input:checked:before, .overlay__onboard-checkbox-input:checked:before, .account__alerts-checkbox-input:checked:before, .tenant__lease-enroll-agree-checkbox:checked:before {
       content: '';
       background: url(../../assets/input-check.svg) center center no-repeat;
       position: absolute;
@@ -3771,11 +3783,11 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
-  .form__select-check:hover, .dashboard__request-control-checkbox-input:hover, .overlay__mobile-request-checkbox-input:hover, .overlay__onboard-checkbox-input:hover, .tenant__lease-enroll-agree-checkbox:hover {
+  .form__select-check:hover, .dashboard__request-control-checkbox-input:hover, .overlay__mobile-request-checkbox-input:hover, .overlay__onboard-checkbox-input:hover, .account__alerts-checkbox-input:hover, .tenant__lease-enroll-agree-checkbox:hover {
     cursor: pointer; }
-  .form__select-check:hover, .dashboard__request-control-checkbox-input:hover, .overlay__mobile-request-checkbox-input:hover, .overlay__onboard-checkbox-input:hover, .tenant__lease-enroll-agree-checkbox:hover, .form__select-check:focus, .dashboard__request-control-checkbox-input:focus, .overlay__mobile-request-checkbox-input:focus, .overlay__onboard-checkbox-input:focus, .tenant__lease-enroll-agree-checkbox:focus {
+  .form__select-check:hover, .dashboard__request-control-checkbox-input:hover, .overlay__mobile-request-checkbox-input:hover, .overlay__onboard-checkbox-input:hover, .account__alerts-checkbox-input:hover, .tenant__lease-enroll-agree-checkbox:hover, .form__select-check:focus, .dashboard__request-control-checkbox-input:focus, .overlay__mobile-request-checkbox-input:focus, .overlay__onboard-checkbox-input:focus, .account__alerts-checkbox-input:focus, .tenant__lease-enroll-agree-checkbox:focus {
     border: 2px solid rgba(0, 0, 0, 0.4); }
-  .form__select-check:active, .dashboard__request-control-checkbox-input:active, .overlay__mobile-request-checkbox-input:active, .overlay__onboard-checkbox-input:active, .tenant__lease-enroll-agree-checkbox:active {
+  .form__select-check:active, .dashboard__request-control-checkbox-input:active, .overlay__mobile-request-checkbox-input:active, .overlay__onboard-checkbox-input:active, .account__alerts-checkbox-input:active, .tenant__lease-enroll-agree-checkbox:active {
     border-color: #6fc99b; }
 
 .form__input-field-large {
@@ -3954,7 +3966,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
       margin-bottom: 22.4px;
       margin-bottom: 1.4rem; } }
 
-.account__facility-vendor-doc-category label, .account__team-auth-role label input, .account__facility-vendor-delete input,
+.account__settings-upload-text > label, .account__facility-vendor-doc-category label, .account__team-auth-role label input, .account__facility-vendor-delete input,
 .account__team-auth-delete input {
   display: inline-block;
   font-size: 13.33333px;
@@ -3969,20 +3981,20 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   -o-border-radius: 2px;
   border-radius: 2px;
   border: 1px solid #e3e5ea; }
-  .account__facility-vendor-doc-category label[disabled], .account__team-auth-role label input[disabled], .account__facility-vendor-delete input[disabled],
+  .account__settings-upload-text > label[disabled], .account__facility-vendor-doc-category label[disabled], .account__team-auth-role label input[disabled], .account__facility-vendor-delete input[disabled],
   .account__team-auth-delete input[disabled] {
     background: rgba(199, 202, 205, 0.2);
     border-color: #e3e5ea;
     color: #93989c; }
-    .account__facility-vendor-doc-category label[disabled]:hover, .account__team-auth-role label input[disabled]:hover, .account__facility-vendor-delete input[disabled]:hover,
-    .account__team-auth-delete input[disabled]:hover, .account__facility-vendor-doc-category label[disabled]:focus, .account__team-auth-role label input[disabled]:focus, .account__facility-vendor-delete input[disabled]:focus,
-    .account__team-auth-delete input[disabled]:focus, .account__facility-vendor-doc-category label[disabled]:active, .account__team-auth-role label input[disabled]:active, .account__facility-vendor-delete input[disabled]:active,
+    .account__settings-upload-text > label[disabled]:hover, .account__facility-vendor-doc-category label[disabled]:hover, .account__team-auth-role label input[disabled]:hover, .account__facility-vendor-delete input[disabled]:hover,
+    .account__team-auth-delete input[disabled]:hover, .account__settings-upload-text > label[disabled]:focus, .account__facility-vendor-doc-category label[disabled]:focus, .account__team-auth-role label input[disabled]:focus, .account__facility-vendor-delete input[disabled]:focus,
+    .account__team-auth-delete input[disabled]:focus, .account__settings-upload-text > label[disabled]:active, .account__facility-vendor-doc-category label[disabled]:active, .account__team-auth-role label input[disabled]:active, .account__facility-vendor-delete input[disabled]:active,
     .account__team-auth-delete input[disabled]:active {
       cursor: not-allowed;
       border-color: #e3e5ea; }
-  .account__facility-vendor-doc-category label:hover, .account__team-auth-role label input:hover, .account__facility-vendor-delete input:hover,
-  .account__team-auth-delete input:hover, .account__facility-vendor-doc-category label:focus, .account__team-auth-role label input:focus, .account__facility-vendor-delete input:focus,
-  .account__team-auth-delete input:focus, .account__facility-vendor-doc-category label:active, .account__team-auth-role label input:active, .account__facility-vendor-delete input:active,
+  .account__settings-upload-text > label:hover, .account__facility-vendor-doc-category label:hover, .account__team-auth-role label input:hover, .account__facility-vendor-delete input:hover,
+  .account__team-auth-delete input:hover, .account__settings-upload-text > label:focus, .account__facility-vendor-doc-category label:focus, .account__team-auth-role label input:focus, .account__facility-vendor-delete input:focus,
+  .account__team-auth-delete input:focus, .account__settings-upload-text > label:active, .account__facility-vendor-doc-category label:active, .account__team-auth-role label input:active, .account__facility-vendor-delete input:active,
   .account__team-auth-delete input:active {
     cursor: pointer;
     border-color: #c7cacd; }
@@ -4507,7 +4519,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   100% {
     -o-transform: rotate(0deg); } }
 
-.account__facility-vendor-doc-category label .is-uploading i, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon {
+.account__settings-upload-text > label .is-uploading i, .account__facility-vendor-doc-category label .is-uploading i, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon {
   -webkit-animation-name: spin;
   -moz-animation-name: spin;
   -ms-animation-name: spin;
@@ -5829,9 +5841,8 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 
 .account__full,
 .account__team-auth,
-.account__team-auth > h1,
-.account__team-auth > h2,
-.account__team-auth-list {
+.account__team-auth-list,
+.account__alerts {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -5839,9 +5850,8 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   margin-right: 0; }
   .account__full:last-child,
   .account__team-auth:last-child,
-  .account__team-auth > h1:last-child,
-  .account__team-auth > h2:last-child,
-  .account__team-auth-list:last-child {
+  .account__team-auth-list:last-child,
+  .account__alerts:last-child {
     margin-right: 0; }
 
 .account__half,
@@ -5877,21 +5887,25 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
       .account__team-auth-add fieldset div:nth-child(2n+1) {
         clear: left; } }
 
+.account__alerts > div,
 .account__team-auth > div {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
+  .account__alerts > div:last-child,
   .account__team-auth > div:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
+    .account__alerts > div,
     .account__team-auth > div {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
       margin-right: 0; }
+      .account__alerts > div:last-child,
       .account__team-auth > div:last-child {
         margin-right: 0; } }
 
@@ -5918,23 +5932,31 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .account__team-auth-add input {
   width: 100%; }
 
-.account__showcase {
+.account__showcase,
+.account__alerts-list {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .account__showcase:last-child {
+  .account__showcase:last-child,
+  .account__alerts-list:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .account__showcase {
+    .account__showcase,
+    .account__alerts-list {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 74.41059%; }
-      .account__showcase:last-child {
+      .account__showcase:last-child,
+      .account__alerts-list:last-child {
         margin-right: 0; } }
 
+.account__alerts-form,
+.account__alerts-fieldset,
+.account__alerts-legend,
+.account__alerts-checkbox-label,
 .account__facility-overview,
 .account__facility-info {
   float: left;
@@ -5942,10 +5964,18 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
+  .account__alerts-form:last-child,
+  .account__alerts-fieldset:last-child,
+  .account__alerts-legend:last-child,
+  .account__alerts-checkbox-label:last-child,
   .account__facility-overview:last-child,
   .account__facility-info:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
+    .account__alerts-form,
+    .account__alerts-fieldset,
+    .account__alerts-legend,
+    .account__alerts-checkbox-label,
     .account__facility-overview,
     .account__facility-info {
       float: left;
@@ -5953,6 +5983,10 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
       margin-right: 3.16844%;
       width: 100%;
       margin-right: 0; }
+      .account__alerts-form:last-child,
+      .account__alerts-fieldset:last-child,
+      .account__alerts-legend:last-child,
+      .account__alerts-checkbox-label:last-child,
       .account__facility-overview:last-child,
       .account__facility-info:last-child {
         margin-right: 0; } }
@@ -6132,25 +6166,37 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
       .account__settings-fieldset-3col:nth-child(3):last-child {
         margin-right: 0; } }
 
-.account__settings-fieldset-2col {
+.account__settings-fieldset-2col,
+.account__settings-upload-text,
+.account__settings-upload-preview {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0; }
-  .account__settings-fieldset-2col:last-child {
+  .account__settings-fieldset-2col:last-child,
+  .account__settings-upload-text:last-child,
+  .account__settings-upload-preview:last-child {
     margin-right: 0; }
   @media screen and (min-width: 46.8em) {
-    .account__settings-fieldset-2col {
+    .account__settings-fieldset-2col,
+    .account__settings-upload-text,
+    .account__settings-upload-preview {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .account__settings-fieldset-2col:last-child {
+      .account__settings-fieldset-2col:last-child,
+      .account__settings-upload-text:last-child,
+      .account__settings-upload-preview:last-child {
         margin-right: 0; }
-      .account__settings-fieldset-2col:nth-child(2n) {
+      .account__settings-fieldset-2col:nth-child(2n),
+      .account__settings-upload-text:nth-child(2n),
+      .account__settings-upload-preview:nth-child(2n) {
         margin-right: 0; }
-      .account__settings-fieldset-2col:nth-child(2n+1) {
+      .account__settings-fieldset-2col:nth-child(2n+1),
+      .account__settings-upload-text:nth-child(2n+1),
+      .account__settings-upload-preview:nth-child(2n+1) {
         clear: left; } }
 
 .projects__subnav,
@@ -16612,6 +16658,86 @@ ol {
   .account__settings-fieldset-3col .is-locked {
     color: #092f3e; }
 
+.account__settings-fieldset-2col {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+  .account__settings-fieldset-2col > legend,
+  .account__settings-fieldset-2col > p,
+  .account__settings-fieldset-2col .account__settings-upload {
+    padding-left: 11.2px;
+    padding-left: 0.7rem; }
+  @media screen and (min-width: 46.8em) {
+    .account__settings-fieldset-2col {
+      margin-top: 0; } }
+
+.account__settings-upload-text {
+  padding-left: 11.2px;
+  padding-left: 0.7rem; }
+  .account__settings-upload-text > legend {
+    font-size: 11.11111px;
+    font-size: 0.69444rem;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); }
+  .account__settings-upload-text > p {
+    font-size: 13.33333px;
+    font-size: 0.83333rem; }
+  .account__settings-upload-text > label {
+    margin-top: 11.2px;
+    margin-top: 0.7rem;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    font-size: 0.875rem; }
+    .account__settings-upload-text > label:last-child {
+      margin-right: 0; }
+    .account__settings-upload-text > label .is-uploading span {
+      line-height: 1; }
+    .account__settings-upload-text > label .is-uploading i {
+      margin-right: 2px;
+      margin-right: 0.125rem;
+      line-height: 1; }
+      .account__settings-upload-text > label .is-uploading i:before {
+        font-size: 14px; }
+    .account__settings-upload-text > label input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer; }
+    .account__settings-upload-text > label input:hover,
+    .account__settings-upload-text > label span:hover {
+      cursor: pointer; }
+    .account__settings-upload-text > label span {
+      display: inline-block; }
+    .account__settings-upload-text > label:hover {
+      cursor: pointer; }
+
+.account__settings-upload-preview {
+  position: relative;
+  text-align: right; }
+  .account__settings-upload-preview div {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    height: 5rem;
+    width: 80px;
+    width: 5rem;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px dashed #c7cacd;
+    overflow: hidden; }
+    .account__settings-upload-preview div img {
+      min-height: 80px;
+      min-height: 5rem; }
+
 .account__settings-vendor-facility-title {
   font-size: 19.2px;
   font-size: 1.2rem; }
@@ -16620,75 +16746,57 @@ ol {
   font-size: 13.33333px;
   font-size: 0.83333rem; }
 
-.account__facility-vendors-list {
-  	/* How all code should be strung. IF U Updated PatternLib!
-  	* is-sortable for vendor list buggy. shelf this.
-  
-  	button {
-  		@extend %reset-appearance;
-  		@extend %hard-reset;
-  		@extend %no-outline;
-  		@extend %inline-icon-button;
-  		@include font-size($milli, false);
-  		i {
-  			@extend %shuffle-icon;
-  			&:before {
-  				@include px-rem(margin-right, $quarter-spacing-unit);
-  			}
-  		}
-  	}
-  	*/ }
-  .account__facility-vendors-list .is-alert > i {
-    font-size: 27.648px;
-    font-size: 1.728rem;
-    color: #c7cacd; }
-  .account__facility-vendors-list .is-alert > p {
-    margin: 0 auto;
-    margin-top: 5.6px;
-    margin-top: 0.35rem;
-    margin-bottom: 22.4px;
-    margin-bottom: 1.4rem; }
-  .account__facility-vendors-list .is-default {
-    border: 1px dashed #e3e5ea; }
-    .account__facility-vendors-list .is-default:hover {
-      -webkit-box-shadow: 0 0 0 transparent;
-      -ms-box-shadow: 0 0 0 transparent;
-      -moz-box-shadow: 0 0 0 transparent;
-      -o-box-shadow: 0 0 0 transparent;
-      box-shadow: 0 0 0 transparent;
-      border-color: #c7cacd;
-      background: #fafafb;
-      cursor: pointer; }
-  .account__facility-vendors-list .is-assigning {
-    padding-bottom: 67.2px;
-    padding-bottom: 4.2rem; }
-    .account__facility-vendors-list .is-assigning:hover {
-      -webkit-box-shadow: 0 0 0 transparent;
-      -ms-box-shadow: 0 0 0 transparent;
-      -moz-box-shadow: 0 0 0 transparent;
-      -o-box-shadow: 0 0 0 transparent;
-      box-shadow: 0 0 0 transparent;
-      border-color: #e3e5ea;
-      background: white;
-      cursor: default; }
-  .account__facility-vendors-list .is-shrunk {
-    overflow: hidden;
-    min-height: 0;
-    max-height: 0;
-    border: 0; }
-  .account__facility-vendors-list .is-expanded i {
-    opacity: 1; }
-    .account__facility-vendors-list .is-expanded i span:first-child {
-      display: none; }
-    .account__facility-vendors-list .is-expanded i span:last-child {
-      display: inline-block; }
-  .account__facility-vendors-list .is-expanded:hover {
-    cursor: default;
+.account__facility-vendors-list .is-alert > i {
+  font-size: 27.648px;
+  font-size: 1.728rem;
+  color: #c7cacd; }
+.account__facility-vendors-list .is-alert > p {
+  margin: 0 auto;
+  margin-top: 5.6px;
+  margin-top: 0.35rem;
+  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem; }
+.account__facility-vendors-list .is-default {
+  border: 1px dashed #e3e5ea; }
+  .account__facility-vendors-list .is-default:hover {
     -webkit-box-shadow: 0 0 0 transparent;
     -ms-box-shadow: 0 0 0 transparent;
     -moz-box-shadow: 0 0 0 transparent;
     -o-box-shadow: 0 0 0 transparent;
-    box-shadow: 0 0 0 transparent; }
+    box-shadow: 0 0 0 transparent;
+    border-color: #c7cacd;
+    background: #fafafb;
+    cursor: pointer; }
+.account__facility-vendors-list .is-assigning {
+  padding-bottom: 67.2px;
+  padding-bottom: 4.2rem; }
+  .account__facility-vendors-list .is-assigning:hover {
+    -webkit-box-shadow: 0 0 0 transparent;
+    -ms-box-shadow: 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 transparent;
+    -o-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border-color: #e3e5ea;
+    background: white;
+    cursor: default; }
+.account__facility-vendors-list .is-shrunk {
+  overflow: hidden;
+  min-height: 0;
+  max-height: 0;
+  border: 0; }
+.account__facility-vendors-list .is-expanded i {
+  opacity: 1; }
+  .account__facility-vendors-list .is-expanded i span:first-child {
+    display: none; }
+  .account__facility-vendors-list .is-expanded i span:last-child {
+    display: inline-block; }
+.account__facility-vendors-list .is-expanded:hover {
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 transparent;
+  -ms-box-shadow: 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 transparent;
+  -o-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent; }
 
 .account__facility-vendor-blank {
   text-align: center;
@@ -17233,19 +17341,23 @@ ol {
     margin-top: 2px;
     margin-top: 0.125rem; }
 
-.account__team-auth > div h1 {
+.account__team-auth > div h1,
+.account__alerts > div h1 {
   font-size: 23.04px;
   font-size: 1.44rem; }
-.account__team-auth > div h2 {
+.account__team-auth > div h2,
+.account__alerts > div h2 {
   font-size: 13.33333px;
   font-size: 0.83333rem;
   margin-top: 22.4px;
   margin-top: 1.4rem;
   text-transform: uppercase; }
-.account__team-auth > div p {
+.account__team-auth > div p,
+.account__alerts > div p {
   margin-top: 5.6px;
   margin-top: 0.35rem; }
-.account__team-auth > div p + p {
+.account__team-auth > div p + p,
+.account__alerts > div p + p {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
@@ -17363,9 +17475,6 @@ ol {
       -moz-transform: translate3d(-50%, -8px, 0);
       -o-transform: translate3d(-50%, -8px, 0);
       transform: translate3d(-50%, -8px, 0); }
-    .account__team-auth-role label:hover:before, .account__team-auth-role label:hover:after {
-      opacity: 1;
-      visibility: visible; }
     .account__team-auth-role label span {
       font-size: 13.33333px;
       font-size: 0.83333rem;
@@ -17439,6 +17548,9 @@ ol {
       margin-top: 0; } }
   .account__team-auth-member .is-disabled span {
     color: #93989c; }
+  .account__team-auth-member .is-disabled:hover:before, .account__team-auth-member .is-disabled:hover:after {
+    opacity: 1;
+    visibility: visible; }
 
 .account__team-auth-add-cta {
   position: absolute;
@@ -17475,22 +17587,6 @@ ol {
   left: 0.7rem;
   bottom: 11.2px;
   bottom: 0.7rem; }
-  .account__facility-vendor-delete label,
-  .account__team-auth-delete label {
-    padding: 5.6px;
-    padding: 0.35rem;
-    display: inline-block;
-    position: relative;
-    font-size: 14px;
-    font-size: 0.875rem; }
-    .account__facility-vendor-delete label:hover input,
-    .account__team-auth-delete label:hover input {
-      border-color: #c7cacd; }
-    .account__facility-vendor-delete label span,
-    .account__team-auth-delete label span {
-      position: relative;
-      display: inline-block;
-      z-index: 1; }
   .account__facility-vendor-delete > span,
   .account__team-auth-delete > span {
     display: inline-block;
@@ -17524,9 +17620,11 @@ ol {
   margin-top: 22.4px;
   margin-top: 1.4rem; }
 
+.account__alerts,
 .account__team-auth {
   overflow: visible; }
   @media screen and (min-width: 46.8em) {
+    .account__alerts,
     .account__team-auth {
       padding: 44.8px;
       padding: 2.8rem; } }
@@ -17534,6 +17632,59 @@ ol {
 .account__facility-subhead {
   font-size: 19.2px;
   font-size: 1.2rem; }
+
+.account__alerts-form {
+  margin-top: 22.4px;
+  margin-top: 1.4rem; }
+
+.account__alerts-fieldset {
+  padding-top: 22.4px;
+  padding-top: 1.4rem;
+  padding-left: 51.2px;
+  padding-left: 3.2rem;
+  border-top: 1px dotted #e3e5ea;
+  position: relative; }
+  .account__alerts-fieldset:first-child {
+    margin-top: 0; }
+  .account__alerts-fieldset .is-replacement:before {
+    background: url(../../assets/replacement.svg); }
+  .account__alerts-fieldset .is-repair:before {
+    background: url(../../assets/repair.svg); }
+  .account__alerts-fieldset .is-maintenance:before {
+    background: url(../../assets/preventative.svg); }
+  .account__alerts-fieldset .is-service:before {
+    background: url(../../assets/service.svg); }
+  .account__alerts-fieldset .is-work-request:before {
+    background: url(../../assets/work-request.svg); }
+
+.account__alerts-legend {
+  font-size: 23.04px;
+  font-size: 1.44rem; }
+  .account__alerts-legend:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    height: 2.5rem;
+    width: 40px;
+    width: 2.5rem;
+    top: 22.4px;
+    top: 1.4rem;
+    left: 0; }
+  .account__alerts-legend:after {
+    font-size: 13.33333px;
+    font-size: 0.83333rem;
+    content: 'Receive Email When:';
+    display: block;
+    margin-top: 5.6px;
+    margin-top: 0.35rem;
+    text-transform: uppercase;
+    color: #93989c; }
+
+.account__alerts-checkbox-text {
+  padding-left: 34px;
+  padding-left: 2.125rem;
+  line-height: 1.6; }
 
 .facility__billing-feed {
   margin-top: 44.8px;

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="62px" viewBox="0 0 56 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 19 + Oval 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-19-+-Oval-17" sketch:type="MSLayerGroup" transform="translate(2.000000, 1.000000)" stroke="#E3E5EA" stroke-width="2" fill="#F7F8FA" stroke-dasharray="4,6">
+            <ellipse id="Oval-19" sketch:type="MSShapeGroup" cx="27.3504274" cy="13.6752137" rx="13.6752137" ry="13.6752137"></ellipse>
+            <path d="M52.3789011,45.5840456 C46.6127649,37.3174514 37.0327331,31.9088319 26.1894506,31.9088319 C15.346168,31.9088319 5.76613622,37.3174514 -3.55271368e-15,45.5840456 C5.76613622,53.8506398 15.346168,59.2592593 26.1894506,59.2592593 C37.0327331,59.2592593 46.6127649,53.8506398 52.3789011,45.5840456 L52.3789011,45.5840456 Z" id="Oval-17" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

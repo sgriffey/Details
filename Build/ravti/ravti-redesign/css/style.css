@@ -814,7 +814,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .dashboard__request-control-title, .dashboard__request-control-fieldset,
 .dashboard__request-control-fieldset-half, .dashboard__request-control-upload, .projects__queue h2,
 .projects__live h2, .proposal__terms-scan-list, .proposal__terms-view-scopes,
-.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__po-entity-address, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__mobile-request-title, .overlay__mobile-request-feedback-title, .overlay__mobile-request-fieldset, .overlay__mobile-request-upload, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .overlay__alert p, .overlay__alert-controls-secondary, .account__settings-form, .account__settings-form-feedback h2, .account__settings-form-feedback p, .account__settings-radio-label, .account__settings-fieldset, .account__settings-upload-text > p, .account__settings-upload-text > label input, .account__settings-vendor-facility-title, .account__settings-vendor-facility-mechanical, .account__facility-vendors-list .is-shrunk, .account__facility-vendor-invite h2, .account__facility-vendor-invite form fieldset input, .account__facility-vendor .is-mp h2:after, .account__facility-vendor-abstract h2, .account__facility-vendor-abstract h3, .account__facility-vendor-doc-category h3, .account__facility-vendor-doc-category input, .account__facility-vendor-doc-category ul, .account__facility-vendor-set-option,
+.proposal__terms-view-scopes-dual, .proposal__form-fieldset, .proposal__options-details, .proposal__procure-goods-specs, .proposal__procure-services-qa, .repair__unit-card-specs, .project__abstract-address, .project__abstract-vendors, .project__po-entity-address, .project__timeline-list, .project__qa-chat, .project__terms-scan-list, .project__equipment-piece-specs, .overlay__confirm-copy, .overlay__confirm-form-fieldset, .overlay__confirm-form-approval, .overlay__mobile-request-title, .overlay__mobile-request-feedback-title, .overlay__mobile-request-fieldset, .overlay__mobile-request-upload, .overlay__onboard-copy, .overlay__onboard-fieldset, .overlay__inspections-copy, .overlay__inspections-list, .overlay__alert p, .overlay__alert-controls-secondary, .account__settings-form, .account__settings-form-feedback h2, .account__settings-form-feedback p, .account__settings-radio-label, .account__settings-fieldset, .account__settings-upload-text > legend, .account__settings-upload-text > p, .account__settings-upload-text > label input, .account__settings-vendor-facility-title, .account__settings-vendor-facility-mechanical, .account__facility-vendors-list .is-shrunk, .account__facility-vendor-invite h2, .account__facility-vendor-invite form fieldset input, .account__facility-vendor .is-mp h2:after, .account__facility-vendor-abstract h2, .account__facility-vendor-abstract h3, .account__facility-vendor-doc-category h3, .account__facility-vendor-doc-category input, .account__facility-vendor-doc-category ul, .account__facility-vendor-set-option,
 .account__personal-facility, .account__facility-vendor-set-option input,
 .account__personal-facility input, .account__facility-vendor-set-controls input,
 .account__facility-vendor-invite-controls input,
@@ -893,7 +893,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   padding-right: 22.4px;
   padding-right: 1.4rem; }
 
-.dashboard__index-control-map i, .toast-success i, .check:checked ~ .switch, .account__settings-toggle div input:checked ~ .switch, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch, .account__settings-label-save:before, .account__facility-vendor-abstract h3 .is-filed, .account__facility-vendor-set-option input:checked + span,
+.dashboard__index-control-map i, .toast-success i, .check:checked ~ .switch, .account__settings-toggle div input:checked ~ .switch, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch, .account__settings-label-save:before, .account__settings-fieldset .is-uploaded, .account__facility-vendor-abstract h3 .is-filed, .account__facility-vendor-set-option input:checked + span,
 .account__personal-facility input:checked + span, .account__team-auth-role label input:checked + .is-admin, .job__schedule-save-icon, .o-job__quote-cta [data-icon-approve], .o-job__bid-verify-confirm, .v-job__schedule-save-icon, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid], .account__settings-upload-text > label .is-uploading i, .account__facility-vendor-doc-category label .is-uploading i, .job__status-event-info-feedback-icon, .v-job__status-event-info-feedback-icon, .job__schedule-cancel-icon, .v-job__schedule-cancel-icon, .dashboard__index-control-grid i, .dashboard__request-control-tag-icon,
 .dashboard__request-control-upload-icon, .overlay__mobile-request-upload-icon,
 .overlay__mobile-request-tag-icon, .facility__unit-history-add-event:before,
@@ -919,7 +919,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.dashboard__index-control-map i:before, .toast-success i:before, .check:checked ~ .switch:before, .account__settings-toggle div input:checked ~ .switch:before, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__facility-vendor-abstract h3 .is-filed:before, .account__facility-vendor-set-option input:checked + span:before,
+.dashboard__index-control-map i:before, .toast-success i:before, .check:checked ~ .switch:before, .account__settings-toggle div input:checked ~ .switch:before, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__settings-fieldset .is-uploaded:before, .account__facility-vendor-abstract h3 .is-filed:before, .account__facility-vendor-set-option input:checked + span:before,
 .account__personal-facility input:checked + span:before, .account__team-auth-role label input:checked + .is-admin:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before, .o-job__quote-cta [data-icon-bid]:before, .account__settings-upload-text > label .is-uploading i:before, .account__facility-vendor-doc-category label .is-uploading i:before, .job__status-event-info-feedback-icon:before, .v-job__status-event-info-feedback-icon:before, .job__schedule-cancel-icon:before, .v-job__schedule-cancel-icon:before, .dashboard__index-control-grid i:before, .dashboard__request-control-tag-icon:before,
 .dashboard__request-control-upload-icon:before, .overlay__mobile-request-upload-icon:before,
 .overlay__mobile-request-tag-icon:before, .facility__unit-history-add-event:before,
@@ -932,7 +932,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .vendor__info-history-cta-button:before, .job__status-banner-button:before, .v-job__status-banner-button:before, .vendor__bid-history-item-remove:before,
 .vendor__invoice-history-item-remove:before,
 .vendor__info-history-item-remove:before, .toggle .switch:before, .account__settings-toggle div .switch:before, .account__facility-vendor-doc-category fieldset > div div .switch:before, .account__settings-label-cancel:before, .account__facility-vendor-abstract h3 .is-unfiled:before, .account__facility-vendor-set-option span:before,
-.account__personal-facility span:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .account__facility-vendor-abstract > i span:first-child:before, .account__facility-vendor-abstract > i span:last-child:before, .toast-error i:before, .account__settings-body .is-errors [data-field-error] ~ i:before, .account__settings-form-feedback i:before, .account__settings-fieldset .is-error ~ i:before, .account__facility-vendors-list .is-alert > i:before, .account__facility-vendor-invite h2:before, .account__team-auth-role label .is-admin:before, .account__team-auth-add-cta h3:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .toast-success i:after, .check:checked ~ .switch:after, .account__settings-toggle div input:checked ~ .switch:after, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:after, .account__facility-vendor-abstract h3 .is-filed:after, .account__facility-vendor-set-option input:checked + span:after,
+.account__personal-facility span:before, .o-job__quote-cta [data-icon-deny]:before, .o-job__bid-verify-cancel:before, .account__facility-vendor-abstract > i span:first-child:before, .account__facility-vendor-abstract > i span:last-child:before, .toast-error i:before, .account__settings-body .is-errors [data-field-error] ~ i:before, .account__settings-form-feedback i:before, .account__settings-fieldset .is-error ~ i:before, .account__facility-vendors-list .is-alert > i:before, .account__facility-vendor-invite h2:before, .account__team-auth-role label .is-admin:before, .account__team-auth-add-cta h3:before, .o-job__perform-warranty .is-warranty-qualified:before, .o-job__perform-warranty .is-warranty-disqualified:before, .o-job__perform-warranty-spec span:before, .dashboard__index-control-map i:after, .toast-success i:after, .check:checked ~ .switch:after, .account__settings-toggle div input:checked ~ .switch:after, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:after, .account__settings-fieldset .is-uploaded:after, .account__facility-vendor-abstract h3 .is-filed:after, .account__facility-vendor-set-option input:checked + span:after,
 .account__personal-facility input:checked + span:after, .account__team-auth-role label input:checked + .is-admin:after, .job__schedule-save-icon:after, .o-job__quote-cta [data-icon-approve]:after, .o-job__bid-verify-confirm:after, .v-job__schedule-save-icon:after, .o-job__quote-cta [data-icon-bid]:after, .account__settings-upload-text > label .is-uploading i:after, .account__facility-vendor-doc-category label .is-uploading i:after, .job__status-event-info-feedback-icon:after, .v-job__status-event-info-feedback-icon:after, .job__schedule-cancel-icon:after, .v-job__schedule-cancel-icon:after, .dashboard__index-control-grid i:after, .dashboard__request-control-tag-icon:after,
 .dashboard__request-control-upload-icon:after, .overlay__mobile-request-upload-icon:after,
 .overlay__mobile-request-tag-icon:after, .facility__pm-tenant-action-enroll i:after, .job__status-event-info-upload-icon:after, .job__schedule-add-icon:after, .v-job__status-event-info-upload-icon:after, .v-job__schedule-add-icon:after, .dashboard__feedback-dismiss-trigger i:after, .overlay__mobile-request-feedback-button i:after, .facility__unit-navigation-button i:after, .facility__suite-navigation-button i:after, .facility__pm-navigation-button i:after, .vendor__bid-submission-button i:after,
@@ -951,7 +951,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .dashboard__index-control-map i:before {
   content: "\e600"; }
 
-.toast-success i:before, .check:checked ~ .switch:before, .account__settings-toggle div input:checked ~ .switch:before, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__facility-vendor-abstract h3 .is-filed:before, .account__facility-vendor-set-option input:checked + span:before,
+.toast-success i:before, .check:checked ~ .switch:before, .account__settings-toggle div input:checked ~ .switch:before, .account__facility-vendor-doc-category fieldset > div div input:checked ~ .switch:before, .account__settings-label-save:before, .account__settings-fieldset .is-uploaded:before, .account__facility-vendor-abstract h3 .is-filed:before, .account__facility-vendor-set-option input:checked + span:before,
 .account__personal-facility input:checked + span:before, .account__team-auth-role label input:checked + .is-admin:before, .job__schedule-save-icon:before, .o-job__quote-cta [data-icon-approve]:before, .o-job__bid-verify-confirm:before, .v-job__schedule-save-icon:before, .tenant__lease-upload-filename:before {
   content: "\e60a"; }
 
@@ -16637,6 +16637,36 @@ ol {
     right: 5.6px;
     right: 0.35rem;
     color: #e5b00d; }
+  .account__settings-fieldset .is-uploaded:before {
+    position: absolute;
+    bottom: 0;
+    left: 11.2px;
+    left: 0.7rem;
+    font-size: 16px;
+    font-size: 1rem;
+    height: 30px;
+    height: 1.875rem;
+    width: 30px;
+    width: 1.875rem;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.8;
+    background: #6fc99b;
+    z-index: 1; }
+  .account__settings-fieldset .is-uploaded > div {
+    border: 2px solid rgba(9, 47, 62, 0.1); }
+    .account__settings-fieldset .is-uploaded > div img {
+      background: none; }
+  @media screen and (min-width: 46.8em) {
+    .account__settings-fieldset .is-uploaded:before {
+      top: 0;
+      right: 0;
+      bottom: auto;
+      left: auto; } }
 
 .account__settings-fieldset-3col {
   margin-top: 22.4px;
@@ -16719,24 +16749,35 @@ ol {
 
 .account__settings-upload-preview {
   position: relative;
-  text-align: right; }
+  min-height: 100px;
+  min-height: 6.25rem;
+  margin-top: 11.2px;
+  margin-top: 0.7rem; }
   .account__settings-upload-preview div {
     position: absolute;
-    right: 0;
-    height: 80px;
-    height: 5rem;
-    width: 80px;
-    width: 5rem;
-    -webkit-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    border: 2px dashed #c7cacd;
+    left: 11.2px;
+    left: 0.7rem;
+    height: 100px;
+    height: 6.25rem;
+    width: 100px;
+    width: 6.25rem;
+    -webkit-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -o-border-radius: 9999px;
+    border-radius: 9999px;
+    border: 2px dashed #e3e5ea;
     overflow: hidden; }
     .account__settings-upload-preview div img {
-      min-height: 80px;
-      min-height: 5rem; }
+      min-height: 100px;
+      min-height: 6.25rem;
+      background: url(../assets/blank-slate-profile.svg) center center no-repeat; }
+  @media screen and (min-width: 46.8em) {
+    .account__settings-upload-preview {
+      margin-top: 0; }
+      .account__settings-upload-preview div {
+        right: 0;
+        left: auto; } }
 
 .account__settings-vendor-facility-title {
   font-size: 19.2px;

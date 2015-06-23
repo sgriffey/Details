@@ -827,16 +827,24 @@ $(document).ready(function() {
     $(".dashboard, .events, .page__wrapper, main, .page__poster, .page__wrapper-bleed").click(function(){
         $("article.siteNav__alerts-popover section").addClass("is-masked");
     });
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.account__settings-upload-preview-img').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $(".account__settings-upload-input").change(function(){
+        readURL(this);
+        $('.account__settings-upload-preview-img').parents('.account__settings-upload-preview').addClass('is-uploaded');
+    });
 });
-
-function PreviewImage() {
-var oFReader = new FileReader();
-oFReader.readAsDataURL(document.getElementByClassName("uploadImage").files[0]);
-
-oFReader.onload = function(oFREvent) {
-  document.getElementByClassName("uploadPreview").src = oFREvent.target.result;
-};
-};
 
 
 
