@@ -2185,7 +2185,7 @@ cite {
     background: center center no-repeat;
     height: 29px;
     width: 56px;
-    background-image: asset-url(../../../assets/ravti__logo-white.svg); }
+    background-image: asset-url(../assets/ravti__logo-white.svg); }
     .no-svg .masthead__logo a {
       background-image: asset-url("front/ravti__logo-white.png"); }
 
@@ -2354,7 +2354,7 @@ cite {
   background: center center no-repeat;
   height: 90px;
   width: 90px;
-  background-image: asset-url(../../../assets/coop.svg); }
+  background-image: asset-url(../assets/coop.svg); }
   .no-svg .coop:before {
     background-image: asset-url("front/coop.png"); }
 
@@ -2366,7 +2366,7 @@ cite {
   background: center center no-repeat;
   height: 90px;
   width: 90px;
-  background-image: asset-url(../../../assets/time.svg); }
+  background-image: asset-url(../assets/time.svg); }
   .no-svg .time:before {
     background-image: asset-url("front/time.png"); }
 
@@ -2378,7 +2378,7 @@ cite {
   background: center center no-repeat;
   height: 90px;
   width: 90px;
-  background-image: asset-url(../../../assets/wholesale.svg); }
+  background-image: asset-url(../assets/wholesale.svg); }
   .no-svg .wholesale:before {
     background-image: asset-url("front/wholesale.png"); }
 
@@ -2463,25 +2463,25 @@ cite {
 
 .money-feature:before {
   background: center center no-repeat;
-  background-image: asset-url(../../../assets/money.svg); }
+  background-image: asset-url(../assets/money.svg); }
   .no-svg .money-feature:before {
     background-image: asset-url("front/money.png"); }
 
 .cloud-feature:before {
   background: center center no-repeat;
-  background-image: asset-url(../../../assets/cloud.svg); }
+  background-image: asset-url(../assets/cloud.svg); }
   .no-svg .cloud-feature:before {
     background-image: asset-url("front/cloud.png"); }
 
 .secure-feature:before {
   background: center center no-repeat;
-  background-image: asset-url(../../../assets/secure.svg); }
+  background-image: asset-url(../assets/secure.svg); }
   .no-svg .secure-feature:before {
     background-image: asset-url("front/secure.png"); }
 
 .haggle-feature:before {
   background: center center no-repeat;
-  background-image: asset-url(../../../assets/haggle.svg); }
+  background-image: asset-url(../assets/haggle.svg); }
   .no-svg .haggle-feature:before {
     background-image: asset-url("front/haggle.png"); }
 
@@ -2549,7 +2549,7 @@ cite {
     background: center center no-repeat;
     height: 29px;
     width: 56px;
-    background-image: asset-url(../../../assets/ravti__logo-black.svg); }
+    background-image: asset-url(../assets/ravti__logo-black.svg); }
     .no-svg .banner__logo a {
       background-image: asset-url("front/ravti__logo-black.png"); }
 
@@ -2616,7 +2616,7 @@ cite {
   background: center center no-repeat;
   height: 40px;
   width: 40px;
-  background-image: asset-url(../../../assets/fan.svg); }
+  background-image: asset-url(../assets/fan.svg); }
   .no-svg .request__tagline:before {
     background-image: asset-url("front/fan.png"); }
 
@@ -2659,7 +2659,7 @@ cite {
     width: 20px;
     margin-left: -22.4px;
     background: center center no-repeat;
-    background-image: asset-url(../../../assets/check.svg); }
+    background-image: asset-url(../assets/check.svg); }
     .no-svg .request__proof-point-title:before {
       background-image: asset-url("front/check.png"); }
 
@@ -2737,7 +2737,7 @@ cite {
     width: 20px;
     margin-left: -22.4px;
     background: center center no-repeat;
-    background-image: asset-url(../../../assets/check.svg); }
+    background-image: asset-url(../assets/check.svg); }
     .no-svg .capture__proof-point-title:before {
       background-image: asset-url("front/check.png"); }
 

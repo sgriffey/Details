@@ -2080,7 +2080,7 @@ h1, h2, h3, h4, h5, h6, label {
   .masthead__logo a {
     display: inline-block;
     position: relative;
-    background: url(../assets/ravti__logo-white.svg) center center no-repeat;
+    background: url(../ravti/homepage/assets/ravti__logo-white.svg) center center no-repeat;
     height: 29px;
     width: 56px; }
 
@@ -2242,7 +2242,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 22.4px auto 0;
-  background: url(../assets/coop.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/coop.svg) center center no-repeat;
   height: 90px;
   width: 90px; }
 
@@ -2251,7 +2251,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 22.4px auto 0;
-  background: url(../assets/time.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/time.svg) center center no-repeat;
   height: 90px;
   width: 90px; }
 
@@ -2260,7 +2260,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 22.4px auto 0;
-  background: url(../assets/wholesale.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/wholesale.svg) center center no-repeat;
   height: 90px;
   width: 90px; }
 
@@ -2330,16 +2330,16 @@ h1, h2, h3, h4, h5, h6, label {
   margin-bottom: 11.2px; }
 
 .money-feature::before {
-  background: url(../assets/money.svg) center center no-repeat; }
+  background: url(../ravti/homepage/assets/money.svg) center center no-repeat; }
 
 .cloud-feature::before {
-  background: url(../assets/cloud.svg) center center no-repeat; }
+  background: url(../ravti/homepage/assets/cloud.svg) center center no-repeat; }
 
 .secure-feature::before {
-  background: url(../assets/secure.svg) center center no-repeat; }
+  background: url(../ravti/homepage/assets/secure.svg) center center no-repeat; }
 
 .haggle-feature::before {
-  background: url(../assets/haggle.svg) center center no-repeat; }
+  background: url(../ravti/homepage/assets/haggle.svg) center center no-repeat; }
 
 .page-footer {
   padding: 67.2px 0 44.8px; }
@@ -2402,7 +2402,7 @@ h1, h2, h3, h4, h5, h6, label {
   .banner__logo a {
     display: inline-block;
     position: relative;
-    background: url(../assets/ravti__logo-black.svg) center center no-repeat;
+    background: url(../ravti/homepage/assets/ravti__logo-black.svg) center center no-repeat;
     height: 29px;
     width: 56px; }
 
@@ -2459,7 +2459,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 0 auto 11.2px;
-  background: url(../assets/fan.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/fan.svg) center center no-repeat;
   height: 40px;
   width: 40px; }
 
@@ -2501,7 +2501,7 @@ h1, h2, h3, h4, h5, h6, label {
     height: 20px;
     width: 20px;
     margin-left: -22.4px;
-    background: url(../assets/check.svg) center center no-repeat; }
+    background: url(../ravti/homepage/assets/check.svg) center center no-repeat; }
 
 .request__proof-point-copy {
   margin-top: 0;
@@ -2544,7 +2544,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 0 auto 11.2px;
-  background: url(../assets/fan.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/fan.svg) center center no-repeat;
   height: 40px;
   width: 40px; }
 
@@ -2585,7 +2585,7 @@ h1, h2, h3, h4, h5, h6, label {
     height: 20px;
     width: 20px;
     margin-left: -22.4px;
-    background: url(../assets/check.svg) center center no-repeat; }
+    background: url(../ravti/homepage/assets/check.svg) center center no-repeat; }
 
 .capture__proof-point-copy {
   margin-top: 0;
@@ -2667,7 +2667,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 22.4px auto 11.2px;
-  background: url(../assets/accept-icon.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/accept-icon.svg) center center no-repeat;
   height: 31px;
   width: 36px; }
 
@@ -2736,7 +2736,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 22.4px auto 11.2px;
-  background: url(../assets/sign-in-icon.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/sign-in-icon.svg) center center no-repeat;
   height: 40px;
   width: 36px; }
 
@@ -2812,7 +2812,7 @@ h1, h2, h3, h4, h5, h6, label {
   display: block;
   text-align: center;
   margin: 22.4px auto 11.2px;
-  background: url(../assets/forgot-password-icon.svg) center center no-repeat;
+  background: url(../ravti/homepage/assets/forgot-password-icon.svg) center center no-repeat;
   height: 40px;
   width: 36px; }
 
