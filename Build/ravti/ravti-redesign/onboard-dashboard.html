@@ -344,6 +344,7 @@
 			<li class="account__subnav-bucket is-active" data-account-tab-personal><a>Account</a></li>
 			<li class="account__subnav-bucket" data-account-tab-facilities><a>Portfolio</a></li>
 			<li class="account__subnav-bucket" data-account-tab-team><a>Team</a></li>
+			<li class="account__subnav-bucket" data-account-tab-alerts><a>Alerts</a></li>
 		</ul>
 	</nav>
 	<section class="account__settings">
@@ -354,6 +355,21 @@
 				</header>
 				<section class="account__personal-body">
 					<form class="account__settings-form is-errors">
+						<fieldset class="account__settings-fieldset">
+							<div class="account__settings-upload-text">
+								<legend>Profile Picture</legend>
+								<p>Many people use a real picture of themselves. This way, teammates can easily discern who was involed when viewing job activities</p>
+								<label class="account__settings-upload">
+									<input id="uploadImage" type="file" onchange="PreviewImage();">
+									<span>Upload</span>
+								</label>
+							</div>
+							<div class="account__settings-upload-preview">
+								<div>
+									<img id="uploadPreview" src=""/>
+								</div>
+							</div>
+						</fieldset>
 						<fieldset class="account__settings-fieldset">
 							<div class="account__settings-fieldset-2col">
 								<label class="account__settings-label is-locked">First Name<span class="account__settings-label-edit">Edit</span>
@@ -515,7 +531,7 @@
 			</section>
 		</section>
 		<section class="account__full is-masked">
-			<section class="account__team-auth" data-team-card>
+			<section class="account__team-auth is-masked" data-team-card>
 				<div>
 					<h1>Team Members &amp; Permissions</h1>
 					<p>All team members can perform facility-related actions and view corresponding information. Every equipment piece, service ticket, proposal scope, etc. for the facilities they've subscribed to view.</p>
@@ -619,6 +635,100 @@
 							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
 						</form>
 					</article>
+				</section>
+			</section>
+			<section class="account__alerts is-masked" data-alerts-card>
+				<div>
+					<h1>Email Notifications</h1>
+					<p>Below is a list of system-wide activites we track. Decide which events would you like to receive e-mail notifications on.</p>
+				</div>
+				<section class="account__alerts-list">
+					<form class="account__alerts-form">
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-work-request">Work Requests</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">Work Request Inquiry is received</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Repsonse Scheduled</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Technician Arrival / Departure</div>
+							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-maintenance">Maintenance Programs</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">Request Inquiry Received</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Program Scheduled</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Technician Arrival / Departure</div>
+							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-repair">Repairs</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">Repair Recommended</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">First vendor bid submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">All vendor bids submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Repair job approved by owner (confirmation)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Labor for job scheduled</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Technician Arrival / Departure</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Job completed</div>
+							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-replacement">Replacements</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">Replacement inquiry is received</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">All vendor bids have been submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Replacement job approved by owner (confirmation)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Labor for job scheduled</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Job completed</div>
+							</label>
+						</fieldset>
+					</form>
 				</section>
 			</section>
 		</section>

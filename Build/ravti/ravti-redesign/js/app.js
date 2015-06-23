@@ -77,23 +77,34 @@ $(document).ready(function() {
     $(document).on('click', '*[data-account-tab-facilities]', function() {
         $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').removeClass("is-masked");
         $("*[data-personal-card]").parent('.account__half').addClass("is-masked");
-        $("*[data-team-card]").parent('.account__full').addClass("is-masked");
-        $("*[data-account-tab-facilities]").toggleClass("is-active");
-        $("*[data-account-tab-personal], *[data-account-tab-team], *[data-account-tab-notifications]").removeClass("is-active");
+        $("*[data-team-card], *[data-alerts-card]").parent('.account__full').addClass("is-masked");
+        $("*[data-account-tab-facilities]").addClass("is-active");
+        $("*[data-account-tab-personal], *[data-account-tab-team], *[data-account-tab-alerts]").removeClass("is-active");
     });
     $(document).on('click', '*[data-account-tab-team]', function() {
-        $("*[data-team-card]").parent('.account__full').removeClass("is-masked");
+        $("*[data-team-card], *[data-alerts-card]").parent('.account__full').removeClass("is-masked");
+        $("*[data-team-card]").removeClass("is-masked");
+        $("*[data-alerts-card]").addClass("is-masked");
         $("*[data-personal-card]").parent('.account__half').addClass("is-masked");
         $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').addClass("is-masked");
-        $("*[data-account-tab-team]").toggleClass("is-active");
-        $("*[data-account-tab-personal], *[data-account-tab-facilities], *[data-account-tab-notifications]").removeClass("is-active");
+        $("*[data-account-tab-team]").addClass("is-active");
+        $("*[data-account-tab-personal], *[data-account-tab-facilities], *[data-account-tab-alerts]").removeClass("is-active");
+    });
+    $(document).on('click', '*[data-account-tab-alerts]', function() {
+        $("*[data-team-card], *[data-alerts-card]").parent('.account__full').removeClass("is-masked");
+        $("*[data-alerts-card]").removeClass("is-masked");
+        $("*[data-team-card]").addClass("is-masked");
+        $("*[data-personal-card]").parent('.account__half').addClass("is-masked");
+        $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').addClass("is-masked");
+        $("*[data-account-tab-alerts]").addClass("is-active");
+        $("*[data-account-tab-personal], *[data-account-tab-facilities], *[data-account-tab-team]").removeClass("is-active");
     });
     $(document).on('click', '*[data-account-tab-personal]', function() {
-        $("*[data-team-card]").parent('.account__full').addClass("is-masked");
+        $("*[data-team-card], *[data-alerts-card]").parent('.account__full').addClass("is-masked");
         $("*[data-personal-card]").parent('.account__half').removeClass("is-masked");
         $("*[data-faciltiy-card]").parent('.account__aside, .account__showcase').addClass("is-masked");
-        $("*[data-account-tab-personal]").toggleClass("is-active");
-        $("*[data-account-tab-facilities], *[data-account-tab-team], *[data-account-tab-notifications]").removeClass("is-active");
+        $("*[data-account-tab-personal]").addClass("is-active");
+        $("*[data-account-tab-facilities], *[data-account-tab-team], *[data-account-tab-alerts]").removeClass("is-active");
     });
     //Deleting Team Member/Preferred Vednor
     $(document).on('click', '*[data-delete-teammate]:not(.is-disabled), [data-delete-vendor]:not(.is-disabled)', function() {
@@ -818,8 +829,14 @@ $(document).ready(function() {
     });
 });
 
+function PreviewImage() {
+var oFReader = new FileReader();
+oFReader.readAsDataURL(document.getElementByClassName("uploadImage").files[0]);
 
-
+oFReader.onload = function(oFREvent) {
+  document.getElementByClassName("uploadPreview").src = oFREvent.target.result;
+};
+};
 
 
 
