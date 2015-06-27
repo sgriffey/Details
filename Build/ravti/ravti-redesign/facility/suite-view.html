@@ -348,7 +348,13 @@
 					<h1>Your Information</h1>
 				</header>
 				<section class="account__personal-body">
-					<form class="account__settings-form is-errors">
+					<form class="account__settings-form">
+						<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
 						<fieldset class="account__settings-fieldset">
 							<div class="account__settings-upload-text">
 								<legend>Profile Picture</legend>
@@ -391,29 +397,35 @@
 							<input type="text" class="account__settings-input" value="keepingitcool@bayfog.com" disabled="disabled" data-field-error><i></i>
 						</fieldset>
 						<fieldset class="account__settings-fieldset">
-							<label class="account__settings-label is-locked">Work Address<span class="account__settings-label-edit">Edit</span>
+							<label class="account__settings-label is-locked">Work Address (Line 1)<span class="account__settings-label-edit">Edit</span>
 <span class="account__settings-label-cancel is-masked">Cancel</span>
 <span class="account__settings-label-save is-masked">Save</span></label>
-							<input type="text" class="account__settings-input" value="111 Howard St." disabled="disabled" data-field-error><i></i>
+							<input type="text" class="account__settings-input" value="" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Work Address (Line 2)<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="" disabled="disabled" data-field-error><i></i>
 						</fieldset>
 						<fieldset class="account__settings-fieldset">
 							<div class="account__settings-fieldset-3col">
 								<label class="account__settings-label is-locked">City<span class="account__settings-label-edit">Edit</span>
 <span class="account__settings-label-cancel is-masked">Cancel</span>
 <span class="account__settings-label-save is-masked">Save</span></label>
-								<input type="text" class="account__settings-input" value="Seattle" disabled="disabled"><i></i>
+								<input type="text" class="account__settings-input" value="" disabled="disabled"><i></i>
 							</div>
 							<div class="account__settings-fieldset-3col">
 								<label class="account__settings-label is-locked">State<span class="account__settings-label-edit">Edit</span>
 <span class="account__settings-label-cancel is-masked">Cancel</span>
 <span class="account__settings-label-save is-masked">Save</span></label>
-								<input type="text" class="account__settings-input" value="WA" disabled="disabled"><i></i>
+								<input type="text" class="account__settings-input" value="" disabled="disabled"><i></i>
 							</div>
 							<div class="account__settings-fieldset-3col">
 								<label class="account__settings-label is-locked">Zip<span class="account__settings-label-edit">Edit</span>
 <span class="account__settings-label-cancel is-masked">Cancel</span>
 <span class="account__settings-label-save is-masked">Save</span></label>
-								<input type="text" class="account__settings-input" value="83422-11" disabled="disabled"><i></i>
+								<input type="text" class="account__settings-input" value="" disabled="disabled"><i></i>
 							</div>
 						</fieldset>
 					</form>
@@ -427,105 +439,115 @@
 				</header>
 				<section class="account__personal-body">
 					<form class="account__personal-facilities">
-							<legend>Below is a list of properties you're subscribed to <i>(Click To Unsubscribe):</i></legend>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>234 Bush Gardens</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>1 Howard</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>145 Kearny</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane A</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>333 Maybry Lane B</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane C</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane D</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane E</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>333 Maybry Lane F</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list"checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-							<label class="account__personal-facility">
-								<input type="checkbox" name="vendor-list" checked>
-								<span>3 Wade</span>
-							</label>
-						</form>
+						<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
+						<legend>Below is a list of properties you're subscribed to <i>(Click To Unsubscribe):</i></legend>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>234 Bush Gardens</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>1 Howard</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>145 Kearny</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>333 Maybry Lane A</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>333 Maybry Lane B</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane C</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane D</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane E</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane F</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+					</form>
 				</section>
 			</section>
 		</section>
 		<section class="account__full is-masked">
 			<section class="account__team-auth is-masked" data-team-card>
+				<header class="account__team-auth-locked">
+					<h2>Permission Locked</h2>
+					<p>This section is designated for system admin's. If you feel you should have access to this capability, talk to your admin.</p>
+				</header>
 				<div>
 					<h1>Team Members &amp; Permissions</h1>
 					<p>All team members can perform facility-related actions and view corresponding information. Every equipment piece, service ticket, proposal scope, etc. for the facilities they've subscribed to view.</p>
@@ -572,7 +594,7 @@
 						<h3>Chris Ginter (You)</h3>
 						<h4>crg@full-tilt.com</h4>
 						<form class="account__team-auth-role">
-							<label class="is-disabled" data-title="Admins can't be demoted"><input type="checkbox" checked disabled><span class="is-admin"><i>Make</i> Admin</span></label>
+							<label class="is-disabled" data-title="You can't demote yourself"><input type="checkbox" checked disabled><span class="is-admin"><i>Make</i> Admin</span></label>
 						</form>
 						<form class="account__team-auth-delete">
 							<input type="button" value="Delete" data-delete-teammate disabled>
@@ -588,10 +610,10 @@
 						<h3>Stuart Griffiths</h3>
 						<h4>sbgriffi@gmail.com</h4>
 						<form class="account__team-auth-role">
-							<label class="is-disabled" data-title="Admin's can't be demoted"><input type="checkbox" checked disabled><span class="is-admin"><i>Make</i> Admin</span></label>
+							<label data-title="Admin's can't be demoted"><input type="checkbox" checked><span class="is-admin"><i>Make</i> Admin</span></label>
 						</form>
 						<form class="account__team-auth-delete">
-							<input type="button" value="Delete" data-delete-teammate disabled>
+							<input type="button" value="Delete" data-delete-teammate>
 							<span class="is-masked">Are you sure?</span>
 							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
 							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
@@ -644,82 +666,70 @@
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
 								<div class="account__alerts-checkbox-text">Work Request Inquiry is received</div>
 							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-proposals">Proposals &amp; Bids</legend>
 							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Repsonse Scheduled</div>
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">An RFQ is sent in</div>
 							</label>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Technician Arrival / Departure</div>
+								<div class="account__alerts-checkbox-text">Get more bids requested</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">An RFQ bid is submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">All RFQ bids are submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">A proposal is accepted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">A proposal is accepted</div>
 							</label>
 						</fieldset>
 						<fieldset class="account__alerts-fieldset">
-							<legend class="account__alerts-legend is-maintenance">Maintenance Programs</legend>
+							<legend class="account__alerts-legend is-jobs">Jobs</legend>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
-								<div class="account__alerts-checkbox-text">Request Inquiry Received</div>
+								<div class="account__alerts-checkbox-text">Is scheduled (by vendor)</div>
 							</label>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Program Scheduled</div>
+								<div class="account__alerts-checkbox-text">Technician arrival / departure</div>
 							</label>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Technician Arrival / Departure</div>
+								<div class="account__alerts-checkbox-text">Service ticket &amp; diagnosis (Post Technician Visit)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Shipment Notification (when tracking # is submitted by vendor)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Delivery Confirmation (Vendor, Conctact info, pickup #)</div>
 							</label>
 						</fieldset>
 						<fieldset class="account__alerts-fieldset">
-							<legend class="account__alerts-legend is-repair">Repairs</legend>
+							<legend class="account__alerts-legend is-billing">Billing</legend>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
-								<div class="account__alerts-checkbox-text">Repair Recommended</div>
+								<div class="account__alerts-checkbox-text">New Invoice issued</div>
 							</label>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">First vendor bid submitted</div>
+								<div class="account__alerts-checkbox-text">Payment received</div>
 							</label>
 							<label class="account__alerts-checkbox-label">
 								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">All vendor bids submitted</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Repair job approved by owner (confirmation)</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Labor for job scheduled</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Technician Arrival / Departure</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Job completed</div>
-							</label>
-						</fieldset>
-						<fieldset class="account__alerts-fieldset">
-							<legend class="account__alerts-legend is-replacement">Replacements</legend>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
-								<div class="account__alerts-checkbox-text">Replacement inquiry is received</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">All vendor bids have been submitted</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Replacement job approved by owner (confirmation)</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Labor for job scheduled</div>
-							</label>
-							<label class="account__alerts-checkbox-label">
-								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
-								<div class="account__alerts-checkbox-text">Job completed</div>
+								<div class="account__alerts-checkbox-text">Monthly statement</div>
 							</label>
 						</fieldset>
 					</form>
@@ -834,13 +844,13 @@
 						<h1>Invoice Address</h1>
 					</header>
 					<section class="account__facility-settings-body">
-						<form class="account__settings-form is-errors">
-							<div class="account__settings-form-feedback">
-								<i></i>
-								<h2>Whoops!</h2>
-								<p>_Fieldname_ can't be blank.</p>
-								<p>_Fieldname_ can't be blank.</p>
-							</div>
+						<form class="account__settings-form">
+							<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
 							<fieldset class="account__settings-fieldset">
 								<label class="account__settings-label is-locked">Street Address<span class="account__settings-label-edit">Edit</span>
 <span class="account__settings-label-cancel is-masked">Cancel</span>
@@ -894,7 +904,13 @@
 						<h1>Ownership</h1>
 					</header>
 					<section class="account__facility-settings-body">
-						<form class="account__settings-form is-errors">
+						<form class="account__settings-form">
+							<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
 							<fieldset class="account__settings-fieldset">
 								<label class="account__settings-label is-locked">Name<span class="account__settings-label-edit">Edit</span>
 <span class="account__settings-label-cancel is-masked">Cancel</span>
@@ -964,7 +980,7 @@
 											<legend>They handle the preventative maintenance program?</legend>
 											<div>
 												<div>
-													<input type="checkbox"/>
+													<input type="checkbox" checked>
 													<b class="switch"></b><b class="track"></b>
 												</div>
 											</div>
@@ -974,29 +990,28 @@
 										<h3>Certificate of Insurance</h3>
 										<fieldset>
 											<label>
-												<input type="file" />
+												<input type="file" >
 												<span class="is-uploading"><i></i>Uploading</span>
 											</label>
-											<label>
-												<a>View</a>
-											</label>
 										</fieldset>
+										<ul>
+											<li><span>Vendor_COI_June_2015.pdf</span></li>
+										</ul>
 									</form>
 									<form class="account__facility-vendor-doc-category">
 										<h3>Vendor Contracts</h3>
 										<fieldset>
 											<label>
-												<input type="file" />
+												<input type="file" >
 												<span>Upload</span>
 											</label>
 										</fieldset>
 										<ul>
-											<li><span>Vendor Privacy Policy Agreement &amp; Terms of Service  a;lkdjfa; ldkf j;alkdfja ;dslkfj</span></li>
+											<li><span>Vendor_Maintenance_August_2015.pdf</span></li>
 										</ul>
-
 									</form>
 									<form class="account__facility-vendor-delete">
-										<input type="button" value="Delete Vendor" data-delete-vendor disabled>
+										<input type="button" value="Remove Vendor" data-delete-vendor disabled>
 										<span class="is-masked">Are you sure?</span>
 										<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-vendor-confirm>
 										<input class="is-masked" type="button" value="Cancel" data-delete-vendor-cancel>
@@ -1101,14 +1116,14 @@
 		</section>
 	</section>
 </div>
-<div class="toast-success is-masked">
+<!-- <div class="toast-success is-masked">
 	<div>
 		<i></i>
 		<h1><b>Invitation Sent</b></h1>
 		<h2>Dismiss</h2>
 		<p>Your invitation will be arriving in their inbox shortly.</p>
 	</div>
-</div>
+</div> -->
 <aside class="overlay__alert-wrapper is-masked">
 	<button class="overlay__dismiss"></button>
 	<section class="overlay__alert is-slid-out">
@@ -1120,6 +1135,14 @@
 		</footer>
 	</section>
 </aside>
+<div class="toast is-masked">
+	<div>
+		<i></i>
+		<h1><b>Invitation Sent</b></h1>
+		<h2>Dismiss</h2>
+		<p>Your invitation will be arriving in their inbox shortly.</p>
+	</div>
+</div>
 	<aside class="overlay-equipment is-masked" id="overlay-equipment">
 	<button class="overlay-equipment-dismiss"></button>
 	<section class="overlay__equipment">

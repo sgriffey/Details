@@ -25,6 +25,13 @@ $(document).ready(function() {
         $(".mobileNav__link").toggleClass("is-nav-open");
         $("main, .account").toggleClass("is-masked");
     });
+    //Dismiss Toast
+    $(document).on('click', '.toast h2', function() {
+        $('.toast').addClass("is-toast-out");
+        setTimeout(function() {
+             $('.toast').removeClass("is-toast-out").addClass("is-masked");
+        }, 2000);
+    });
      // Invite Vendor
     $(document).on('click', '.account__facility-vendor-invite h2', function() {
         $(this).next('form').toggleClass('is-masked');
@@ -33,15 +40,16 @@ $(document).ready(function() {
         $(this).parents('.account__facility-vendor-invite form').toggleClass('is-masked');
     });
     $(document).on('click', '.account__facility-vendor-invite-controls input:nth-child(2)', function() {
-        $('.toast-success').toggleClass('is-masked is-toast-in');
+        $('.toast').toggleClass('is-masked is-toast-in');
+        $('.toast div').addClass('is-success');
         setTimeout(function() {
-             $('.toast-success').toggleClass("is-toast-in");
+             $('.toast').toggleClass("is-toast-in");
         }, 4000);
         setTimeout(function() {
-             $('.toast-success').addClass("is-toast-out");
+             $('.toast').addClass("is-toast-out");
         }, 5000);
         setTimeout(function() {
-             $('.toast-success').removeClass("is-toast-out").addClass("is-masked");
+             $('.toast').removeClass("is-toast-out").addClass("is-masked");
         }, 6000);
     });
     //Inviting Team Member
@@ -51,22 +59,17 @@ $(document).ready(function() {
         $(this).toggleClass("is-masked");
     });
     $(document).on('click', '.account__team-auth-add > div input:nth-child(2)', function() {
-        $('.toast-success').toggleClass('is-masked is-toast-in');
+        $('.toast').toggleClass('is-masked is-toast-in');
+        $('.toast div').addClass('is-success');
         setTimeout(function() {
-             $('.toast-success').toggleClass("is-toast-in");
+             $('.toast').toggleClass("is-toast-in");
         }, 4000);
         setTimeout(function() {
-             $('.toast-success').addClass("is-toast-out");
+             $('.toast').addClass("is-toast-out");
         }, 5000);
         setTimeout(function() {
-             $('.toast-success').removeClass("is-toast-out").addClass("is-masked");
+             $('.toast').removeClass("is-toast-out").addClass("is-masked");
         }, 6000);
-    });
-    $(document).on('click', '.toast-success h2', function() {
-        $('.toast-success').addClass("is-toast-out");
-        setTimeout(function() {
-             $('.toast-success').removeClass("is-toast-out").addClass("is-masked");
-        }, 2000);
     });
     $(document).on('click', '.account__team-auth-add > div input', function() {
         $(this).parents('.account__team-auth-add').toggleClass('is-masked');
@@ -827,7 +830,7 @@ $(document).ready(function() {
     $(".dashboard, .events, .page__wrapper, main, .page__poster, .page__wrapper-bleed").click(function(){
         $("article.siteNav__alerts-popover section").addClass("is-masked");
     });
-
+    // Adding Profile Picture in Account Settings
     function readURL(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();
@@ -842,7 +845,7 @@ $(document).ready(function() {
 
     $(".account__settings-upload-input").change(function(){
         readURL(this);
-        $('.account__settings-upload-preview-img').parents('.account__settings-upload-preview').addClass('is-uploaded');
+        $('.account__settings-upload-preview').addClass('is-uploaded');
     });
 });
 
