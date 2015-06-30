@@ -716,7 +716,7 @@ $(document).ready(function() {
                 scrollTop: $("#overlay").offset().top
             }, 500);
     });
-    $(".rfq__zoom-doc, .o-job__bid-zoom-item, .o-job__quote-zoom-item").click(function(){
+    $(".rfq__zoom-doc, .o-job__bid-zoom-item, .o-job__quote-zoom-item, .rfq__zoom-item").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
             $('html, body').animate({
@@ -727,7 +727,7 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
-    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit, .o-job__bid-equipment").click(function(){
+    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit, .o-job__bid-equipment, .rfq__equipment-unit").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
             $('html, body').animate({
