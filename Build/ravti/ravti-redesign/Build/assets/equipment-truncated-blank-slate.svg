@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="132px" height="100px" viewBox="0 0 132 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-20" fill="#F7F8FA" sketch:type="MSShapeGroup" x="0" y="0" width="132" height="100"></rect>
+            <g id="rtu-left" sketch:type="MSLayerGroup" transform="translate(57.000000, 39.000000)">
+                <rect id="Rectangle-412" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="18" height="18"></rect>
+                <path d="M18,2 L22,12 L18,12 L18,2 Z" id="Rectangle-412" fill="#F7F8FA" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-412" fill="#FFFFFF" sketch:type="MSShapeGroup" x="2" y="18" width="14" height="4"></rect>
+                <rect id="Rectangle-427" fill="#93989C" sketch:type="MSShapeGroup" x="15" y="18" width="1" height="4"></rect>
+                <rect id="Rectangle-427-Copy" fill="#93989C" sketch:type="MSShapeGroup" x="2" y="18" width="1" height="4"></rect>
+                <rect id="Rectangle-416" fill="#93989C" sketch:type="MSShapeGroup" x="0" y="17" width="18" height="1"></rect>
+                <rect id="Rectangle-416" fill="#93989C" sketch:type="MSShapeGroup" x="0" y="0" width="18" height="1"></rect>
+                <rect id="Rectangle-417" fill="#93989C" sketch:type="MSShapeGroup" x="17" y="0" width="1" height="17"></rect>
+                <rect id="Rectangle-417-Copy" fill="#93989C" sketch:type="MSShapeGroup" x="0" y="0" width="1" height="17"></rect>
+                <path d="M18,11 L21.6,11 L22,12 L18,12 L18,11 Z" id="Rectangle-420" fill="#93989C" sketch:type="MSShapeGroup"></path>
+                <path d="M18.9820409,2.54404815 L19.8733919,1.7451768 L19.8144012,11.6920243 L18.9820409,11.5440482 L18.9820409,2.54404815 Z" id="Rectangle-421" fill="#93989C" sketch:type="MSShapeGroup" transform="translate(19.427716, 6.718601) rotate(-22.000000) translate(-19.427716, -6.718601) "></path>
+                <rect id="Rectangle-429" fill="#93989C" sketch:type="MSShapeGroup" x="2" y="21" width="14" height="1"></rect>
+                <rect id="Rectangle-423" fill="#E3E5EA" sketch:type="MSShapeGroup" x="1" y="16" width="15" height="1"></rect>
+                <rect id="Rectangle-423-Copy-2" fill="#E3E5EA" sketch:type="MSShapeGroup" x="3" y="18" width="12" height="1"></rect>
+                <rect id="Rectangle-423-Copy-3" fill="#C7CACD" sketch:type="MSShapeGroup" x="4" y="11" width="8" height="1"></rect>
+                <rect id="Rectangle-423-Copy-4" fill="#C7CACD" sketch:type="MSShapeGroup" x="4" y="9" width="8" height="1"></rect>
+                <rect id="Rectangle-423-Copy-5" fill="#C7CACD" sketch:type="MSShapeGroup" x="4" y="7" width="8" height="1"></rect>
+                <rect id="Rectangle-423-Copy-6" fill="#C7CACD" sketch:type="MSShapeGroup" x="4" y="5" width="8" height="1"></rect>
+                <rect id="Rectangle-423-Copy" fill="#E3E5EA" sketch:type="MSShapeGroup" x="1" y="1" width="15" height="1"></rect>
+                <rect id="Rectangle-422" fill="#E3E5EA" sketch:type="MSShapeGroup" x="16" y="1" width="1" height="16"></rect>
+                <rect id="Rectangle-422-Copy" fill="#E3E5EA" sketch:type="MSShapeGroup" x="1" y="1" width="1" height="16"></rect>
+            </g>
+            <circle id="Oval-2" fill="#93989C" sketch:type="MSShapeGroup" cx="58" cy="39" r="6"></circle>
+            <circle id="Oval-2-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="58" cy="39" r="5"></circle>
+            <path d="M58.6,38.4 L58.6,36 L57.4,36 L57.4,38.4 L55,38.4 L55,39.6 L57.4,39.6 L57.4,42 L58.6,42 L58.6,39.6 L61,39.6 L61,38.4 L58.6,38.4 Z" id="Rectangle-640" fill="#93989C" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

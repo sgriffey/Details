@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>contract</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="contract" sketch:type="MSArtboardGroup">
+            <g id="cooperative" sketch:type="MSLayerGroup" transform="translate(22.000000, 14.000000)">
+                <rect id="Rectangle-22" stroke="#90ACF3" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="46" height="60"></rect>
+                <rect id="Rectangle-29" stroke="#DAE3FB" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="2" y="2" width="42" height="56"></rect>
+                <rect id="Rectangle-23" sketch:type="MSShapeGroup" x="6" y="6" width="9" height="9"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="8" width="30" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="11" width="31" height="1"></rect>
+                <rect id="Rectangle-24" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="14" width="31" height="1"></rect>
+                <rect id="Rectangle-32" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="17" width="30" height="1"></rect>
+                <rect id="Rectangle-33" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="20" width="31" height="1"></rect>
+                <rect id="Rectangle-34" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="23" width="28" height="1"></rect>
+                <rect id="Rectangle-792" fill="#4A4A4A" sketch:type="MSShapeGroup" x="6" y="6" width="5" height="1"></rect>
+                <rect id="Rectangle-27" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="30" width="30" height="1"></rect>
+                <rect id="Rectangle-25" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="33" width="31" height="1"></rect>
+                <rect id="Rectangle-26" fill="#9B9B9B" sketch:type="MSShapeGroup" x="6" y="36" width="27" height="1"></rect>
+                <rect id="Rectangle-28" fill="#CED2D6" sketch:type="MSShapeGroup" x="6" y="49" width="14" height="1"></rect>
+                <rect id="Rectangle-30" fill="#CED2D6" sketch:type="MSShapeGroup" x="26" y="49" width="14" height="1"></rect>
+                <rect id="Rectangle-793" fill="#4A4A4A" sketch:type="MSShapeGroup" x="6" y="28" width="7" height="1"></rect>
+            </g>
+            <g id="ADD-2" sketch:type="MSLayerGroup" transform="translate(59.000000, 7.000000)">
+                <circle id="Oval-287" stroke="#373D3E" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="9" cy="9" r="9"></circle>
+                <g id="Rectangle-144-+-Rectangle-146" transform="translate(9.000000, 9.000000) rotate(-270.000000) translate(-9.000000, -9.000000) translate(5.000000, 5.000000)" fill="#373D3E" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-144" transform="translate(4.000000, 4.000000) rotate(-90.000000) translate(-4.000000, -4.000000) " x="3" y="0" width="2" height="8"></rect>
+                    <rect id="Rectangle-145" transform="translate(4.000000, 4.000000) rotate(-180.000000) translate(-4.000000, -4.000000) " x="3" y="0" width="2" height="8"></rect>
+                </g>
+            </g>
+            <path d="M34.5148119,59.0302538 C32.0733249,57.1771306 27.7931888,55.4604337 32.2339223,61.010068 C36.6746558,66.5597023 31.1250212,66.5053348 30.249492,64.8471121 C29.3739627,63.1888894 36.1150759,56.8655353 37.3214293,59.2005384 C38.5277827,61.5355414 39.0971071,68.4995105 36.8059596,65.7954739 C34.514812,63.0914372 38.5134207,58.5199131 39.7536259,57.8680106" id="Path-391" stroke="#F35B5B" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,127 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #FAFAFB; }
+
+body {
+  margin: 0;
+  font-family: "jaf-bernino-sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  position: relative; }
+
+.logo {
+  position: absolute;
+  bottom: 5%;
+  max-width: 48px;
+  margin-left: -24px;
+  left: 50%; }
+
+.error {
+  top: 10%;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 280px;
+  max-width: 17.5rem;
+  min-height: 280px;
+  position: relative; }
+
+.error-value p {
+  color: #000;
+  font-size: 32px;
+  font-family: "futura-pt";
+  font-weight: 800; }
+
+.error-title {
+  font-family: "futura-pt";
+  margin: 20px 0 10px;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.33px; }
+
+.error-copy {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.33px;
+  color: #000;
+  text-align: left; }
+  .error-copy:first-of-type {
+    margin-top: 10px; }
+
+.error-copy-link {
+  text-decoration: none;
+  border-bottom: 1px solid #66C3B0;
+  color: #000; }
+  .error-copy-link:hover {
+    border-color: #000; }
+
+@-webkit-keyframes fan-turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes fan-turn {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes fan-turn {
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes fan-turn {
+  0% {
+    transform: rotate(0deg); }
+
+  100% {
+    transform: rotate(360deg); } }
+
+.error-illustration {
+  height: 148px;
+  width: 148px;
+  position: relative;
+  margin: 0 auto; }
+
+.error-illustration-fan,
+.error-illustration-spokes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 148px;
+  width: 148px; }
+
+.error-illustration-fan {
+  -webkit-animation-name: fan-turn;
+  -moz-animation-name: fan-turn;
+  -o-animation-name: fan-turn;
+  animation-name: fan-turn;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
