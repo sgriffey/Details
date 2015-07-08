@@ -1756,12 +1756,17 @@ dd {
   font-size: 1rem;
   margin-bottom: 5.6px;
   margin-bottom: 0.35rem;
-  padding-left: 22.4px;
-  padding-left: 1.4rem;
   position: relative;
   color: #c7cacd; }
   .siteNav__sidebar-chapter:hover {
     color: #092f3e; }
+  .siteNav__sidebar-chapter a {
+    padding-left: 22.4px;
+    padding-left: 1.4rem;
+    display: block;
+    outline: none; }
+    .siteNav__sidebar-chapter a:hover, .siteNav__sidebar-chapter a:focus, .siteNav__sidebar-chapter a:active {
+      outline: none; }
 
 .selected {
   color: #092f3e;
@@ -2380,6 +2385,19 @@ disabled look for disabled choices in the results dropdown
         width: 100%; }
         .sidebar ul:last-child, .sidebar li:last-child {
           margin-right: 0; } }
+
+.container {
+  max-width: 91.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 1080px;
+  max-width: 67.5rem;
+  padding: 0 5%; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .library {
   float: left;
