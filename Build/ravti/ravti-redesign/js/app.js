@@ -19,6 +19,11 @@ $(document).ready(function() {
             $(".v-job__scan-body").addClass("scan-expanded");
             $(".v-job__scan-expand").addClass("is-hidden");
     });
+    //Lease Compliance upload exisiting
+    $(document).on('click', '.tenant__lease-hr', function() {
+        $(this).addClass('is-expanded');
+        $(".tenant__lease-upload").removeClass("is-masked");
+    });
     //Account Settings on mobile
     $(document).on('click', '*[data-mobilenav-settings]', function() {
         $(".mobileNav__menu").toggleClass("mobileNav__menu-is-active");
@@ -189,11 +194,11 @@ $(document).ready(function() {
         $(".tenant__lease-upload-button").attr("disabled", true);
     });
     // If Equipment List Has more 3 units
-    $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2)").addClass("is-masked");
-    $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated").click(function() {
-        $(".o-job__bid-equipment, .o-job__quote-equipment").removeClass("is-masked");
-        $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2)").addClass("animated fadeIn");
-        $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated").addClass("is-masked");
+    $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2), .tenant__lease-enroll-equipment:gt(2)").addClass("is-masked");
+    $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated, .tenant__lease-enroll-equipment-truncated").click(function() {
+        $(".o-job__bid-equipment, .o-job__quote-equipment, .tenant__lease-enroll-equipment").removeClass("is-masked");
+        $(".o-job__bid-equipment:gt(2), .o-job__quote-equipment:gt(2), .tenant__lease-enroll-equipment:gt(2)").addClass("animated fadeIn");
+        $(".o-job__bid-equipment-truncated, .o-job__quote-equipment-truncated, .tenant__lease-enroll-equipment-truncated").addClass("is-masked");
     });
     // Job RFQ Tab Toggling
     $("*[data-tab-rfq-a]").click(function(){
@@ -727,7 +732,7 @@ $(document).ready(function() {
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay").toggleClass("is-masked");
     });
-    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit, .o-job__bid-equipment, .rfq__equipment-unit").click(function(){
+    $(".project__equipment-piece, .proposal__procure-goods-part, .v-job__equipment-unit, .o-job__event-list-unit, .o-job__bid-equipment, .rfq__equipment-unit, .tenant__lease-enroll-equipment").click(function(){
             $(".page__wrapper").toggleClass("is-overlaid");
             $(".overlay-equipment").toggleClass("is-masked");
             $('html, body').animate({

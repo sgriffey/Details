@@ -853,7 +853,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .job__zoom-list-dual, .job__status .is-collapsed .job__status-list, .job__status-timeline-button, .job__status-edit-goods h2,
 .job__status-edit-labor h2, .job__status-event-info-upload, .job__status-event-info-upload input, .job__po-bill-id, .job__po-entity-address, .job__schedule-copy, .job__schedule-fieldset, .job__schedule-fieldset-half, .job__timeline-list, .job__equipment-unit-spec-list, .job__qa, .o-job__abstract-id, .o-job__event-list, .o-job__quote-equipment-specs,
 .o-job__bid-equipment-specs,
-.o-job__event-equipment-specs, .o-job__quote-cost-price, .o-job__quote-cost-title, .o-job__quote-vendor h2, .o-job__quote-label + p, .o-job__bid-fieldset, .o-job__bid-options-details, .o-job__bid-total, .o-job__bid-total-number,
+.o-job__event-equipment-specs, .tenant__lease-enroll-equipment-specs, .o-job__quote-cost-price, .o-job__quote-cost-title, .o-job__quote-vendor h2, .o-job__quote-label + p, .o-job__bid-fieldset, .o-job__bid-options-details, .o-job__bid-total, .o-job__bid-total-number,
 .o-job__bid-total-label, .o-job__bid-scan-list,
 .o-job__bid-zoom-list,
 .o-job__bid-equipment-list,
@@ -871,7 +871,8 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .v-job__zoom-list-dual, .v-job__status .is-collapsed .v-job__status-list, .v-job__status-timeline-button, .v-job__status-edit-goods h2,
 .v-job__status-edit-labor h2, .v-job__status-event-info-upload, .v-job__status-event-info-upload input, .v-job__po-bill-id, .v-job__po-entity-address, .v-job__schedule-copy, .v-job__schedule-fieldset, .v-job__schedule-fieldset-half, .v-job__timeline-list, .v-job__equipment-unit-spec-list, .v-job__qa, .help__hero, .help__bucket-title, .help__bucket-copy, .help__section-list, .help__article-bucket, .help__aside-list, .tenant__lease-title, .tenant__lease-chat-bubble p, .tenant__lease-chat-avatar, .tenant__lease-enroll h2,
 .tenant__lease-upload h2, .tenant__lease-enroll p,
-.tenant__lease-upload p, .tenant__lease-enroll-fieldset, .tenant__lease-enroll-input, .tenant__lease-enroll-terms,
+.tenant__lease-upload p, .tenant__lease-enroll-fieldset, .tenant__lease-enroll-input, .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul, .tenant__lease-enroll-equipment-list,
+.tenant__lease-enroll-terms,
 .tenant__lease-enroll-benefits, .tenant__lease-enroll-feedback h3,
 .tenant__lease-upload-feedback h3, .tenant__lease-enroll-feedback p,
 .tenant__lease-upload-feedback p, .tenant__lease-hr {
@@ -1065,7 +1066,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li, .o-job__bid-option-price, .o-job__bid-options-detail b, .o-job__perform-vendor span:last-child, .o-job__bid-meta,
 .o-job__event-meta,
 .o-job__quote-meta,
-.o-job__perform-meta, .v-job__recap-address span:first-of-type, .v-job__abstract-freight span, .v-job__po-entity-address span:first-of-type, .v-job__po-bill-td, .v-job__po-bill-sum-td, .v-job__schedule-copy b, .v-job__schedule-status-detail span:last-child, .v-job__qa-username, .tenant__lease-enroll-program-label-price {
+.o-job__perform-meta, .v-job__recap-address span:first-of-type, .v-job__abstract-freight span, .v-job__po-entity-address span:first-of-type, .v-job__po-bill-td, .v-job__po-bill-sum-td, .v-job__schedule-copy b, .v-job__schedule-status-detail span:last-child, .v-job__qa-username, .tenant__lease-enroll-program-label-price, .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li {
   font-weight: 700; }
 
 .proposal__abstract-head, .proposal__form-head,
@@ -1215,7 +1216,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .invoice__sheet-engagement-balance span, .invoice__sheet-bill-metadata, .invoice__sheet-bill-note, .facility__identity-cover-location span, .facility__abstract-address span, .facility__event-summary-list-item:nth-child(4) .facility__event-summary-list-definition, .vendor-dash__card-copy, .job__po-entity-label, .job__po-bill-metadata, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
 .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
 .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span,
-.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span, .v-job__po-entity-label, .v-job__po-bill-metadata {
+.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span, .v-job__po-entity-label, .v-job__po-bill-metadata, .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span {
   font-weight: 400; }
 
 .help__section-list-topic {
@@ -2130,7 +2131,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 
 .proposal__procure-goods-spec, .repair__unit-card-spec, .facility__equipment-card-spec, .facility__suite-unit-card-spec, .facility__pm-equipment-spec, .rfq__equipment-unit-spec-item, .job__equipment-unit-spec-item, .o-job__quote-equipment-spec,
 .o-job__bid-equipment-spec,
-.o-job__event-equipment-spec, .v-job__equipment-unit-spec-item {
+.o-job__event-equipment-spec, .tenant__lease-enroll-equipment-spec, .v-job__equipment-unit-spec-item {
   margin-top: 5.6px;
   margin-top: 0.35rem;
   margin-bottom: 16.8px;
@@ -2147,7 +2148,7 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
   position: relative; }
   .proposal__procure-goods-spec:before, .repair__unit-card-spec:before, .facility__equipment-card-spec:before, .facility__suite-unit-card-spec:before, .facility__pm-equipment-spec:before, .rfq__equipment-unit-spec-item:before, .job__equipment-unit-spec-item:before, .o-job__quote-equipment-spec:before,
   .o-job__bid-equipment-spec:before,
-  .o-job__event-equipment-spec:before, .v-job__equipment-unit-spec-item:before {
+  .o-job__event-equipment-spec:before, .tenant__lease-enroll-equipment-spec:before, .v-job__equipment-unit-spec-item:before {
     content: '';
     position: absolute;
     top: 0;
@@ -2159,23 +2160,23 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
     background: center center no-repeat; }
   .proposal__procure-goods-spec:nth-child(1):before, .repair__unit-card-spec:nth-child(1):before, .facility__equipment-card-spec:nth-child(1):before, .facility__suite-unit-card-spec:nth-child(1):before, .facility__pm-equipment-spec:nth-child(1):before, .rfq__equipment-unit-spec-item:nth-child(1):before, .job__equipment-unit-spec-item:nth-child(1):before, .o-job__quote-equipment-spec:nth-child(1):before,
   .o-job__bid-equipment-spec:nth-child(1):before,
-  .o-job__event-equipment-spec:nth-child(1):before, .v-job__equipment-unit-spec-item:nth-child(1):before {
+  .o-job__event-equipment-spec:nth-child(1):before, .tenant__lease-enroll-equipment-spec:nth-child(1):before, .v-job__equipment-unit-spec-item:nth-child(1):before {
     background-image: url(../assets/tag.svg); }
   .proposal__procure-goods-spec:nth-child(2):before, .repair__unit-card-spec:nth-child(2):before, .facility__equipment-card-spec:nth-child(2):before, .facility__suite-unit-card-spec:nth-child(2):before, .facility__pm-equipment-spec:nth-child(2):before, .rfq__equipment-unit-spec-item:nth-child(2):before, .job__equipment-unit-spec-item:nth-child(2):before, .o-job__quote-equipment-spec:nth-child(2):before,
   .o-job__bid-equipment-spec:nth-child(2):before,
-  .o-job__event-equipment-spec:nth-child(2):before, .v-job__equipment-unit-spec-item:nth-child(2):before {
+  .o-job__event-equipment-spec:nth-child(2):before, .tenant__lease-enroll-equipment-spec:nth-child(2):before, .v-job__equipment-unit-spec-item:nth-child(2):before {
     background-image: url(../assets/manufacturer.svg); }
   .proposal__procure-goods-spec:nth-child(3):before, .repair__unit-card-spec:nth-child(3):before, .facility__equipment-card-spec:nth-child(3):before, .facility__suite-unit-card-spec:nth-child(3):before, .facility__pm-equipment-spec:nth-child(3):before, .rfq__equipment-unit-spec-item:nth-child(3):before, .job__equipment-unit-spec-item:nth-child(3):before, .o-job__quote-equipment-spec:nth-child(3):before,
   .o-job__bid-equipment-spec:nth-child(3):before,
-  .o-job__event-equipment-spec:nth-child(3):before, .v-job__equipment-unit-spec-item:nth-child(3):before {
+  .o-job__event-equipment-spec:nth-child(3):before, .tenant__lease-enroll-equipment-spec:nth-child(3):before, .v-job__equipment-unit-spec-item:nth-child(3):before {
     background-image: url(../assets/tonnage.svg); }
   .proposal__procure-goods-spec:nth-child(4):before, .repair__unit-card-spec:nth-child(4):before, .facility__equipment-card-spec:nth-child(4):before, .facility__suite-unit-card-spec:nth-child(4):before, .facility__pm-equipment-spec:nth-child(4):before, .rfq__equipment-unit-spec-item:nth-child(4):before, .job__equipment-unit-spec-item:nth-child(4):before, .o-job__quote-equipment-spec:nth-child(4):before,
   .o-job__bid-equipment-spec:nth-child(4):before,
-  .o-job__event-equipment-spec:nth-child(4):before, .v-job__equipment-unit-spec-item:nth-child(4):before {
+  .o-job__event-equipment-spec:nth-child(4):before, .tenant__lease-enroll-equipment-spec:nth-child(4):before, .v-job__equipment-unit-spec-item:nth-child(4):before {
     background-image: url(../assets/calendar.svg); }
   .proposal__procure-goods-spec:nth-child(5):before, .repair__unit-card-spec:nth-child(5):before, .facility__equipment-card-spec:nth-child(5):before, .facility__suite-unit-card-spec:nth-child(5):before, .facility__pm-equipment-spec:nth-child(5):before, .rfq__equipment-unit-spec-item:nth-child(5):before, .job__equipment-unit-spec-item:nth-child(5):before, .o-job__quote-equipment-spec:nth-child(5):before,
   .o-job__bid-equipment-spec:nth-child(5):before,
-  .o-job__event-equipment-spec:nth-child(5):before, .v-job__equipment-unit-spec-item:nth-child(5):before {
+  .o-job__event-equipment-spec:nth-child(5):before, .tenant__lease-enroll-equipment-spec:nth-child(5):before, .v-job__equipment-unit-spec-item:nth-child(5):before {
     background-image: url(../assets/qr-code.svg); }
 
 .onboard-dashboard__finalize, .dashboard__request-control-finalize, .overlay__mobile-request-finalize, .facility__unit-history-add-info-finalize {
@@ -2190,10 +2191,11 @@ dd, .facility__suite-lease-head-toolbar-edit, .facility__suite-lease-head-toolba
 .o-job__quote-equipment-truncated,
 .o-job__bid-equipment,
 .o-job__bid-equipment-truncated,
-.o-job__event-equipment, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
+.o-job__event-equipment, .tenant__lease-enroll-equipment-truncated,
+.tenant__lease-enroll-equipment, .o-job__bid-equipment-list .o-job__quote-equipment-truncated ul li span,
 .o-job__bid-equipment-list .o-job__bid-equipment-truncated ul li span,
 .o-job__quote-equipment-list .o-job__quote-equipment-truncated ul li span,
-.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span, .o-job__quote-cta-option, .o-job__quote-cta-option:before {
+.o-job__quote-equipment-list .o-job__bid-equipment-truncated ul li span, .o-job__quote-cta-option, .o-job__quote-cta-option:before, .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span {
   transition-property: all;
   -webkit-transition-property: all;
   transition-duration: 0.125s;
@@ -12841,6 +12843,9 @@ form.is-form-errors .form__feedback + legend {
 .tenant__lease-upload-feedback,
 .tenant__lease-enroll-form,
 .tenant__lease-enroll-label,
+.tenant__lease-enroll-equipment-list,
+.tenant__lease-enroll-equipment,
+.tenant__lease-enroll-equipment-truncated,
 .tenant__lease-enroll-fieldset,
 .tenant__lease-enroll-verify,
 .tenant__lease-enroll-verify-approve,
@@ -12866,6 +12871,9 @@ form.is-form-errors .form__feedback + legend {
   .tenant__lease-upload-feedback:last-child,
   .tenant__lease-enroll-form:last-child,
   .tenant__lease-enroll-label:last-child,
+  .tenant__lease-enroll-equipment-list:last-child,
+  .tenant__lease-enroll-equipment:last-child,
+  .tenant__lease-enroll-equipment-truncated:last-child,
   .tenant__lease-enroll-fieldset:last-child,
   .tenant__lease-enroll-verify:last-child,
   .tenant__lease-enroll-verify-approve:last-child,
@@ -12888,6 +12896,9 @@ form.is-form-errors .form__feedback + legend {
     .tenant__lease-upload-feedback,
     .tenant__lease-enroll-form,
     .tenant__lease-enroll-label,
+    .tenant__lease-enroll-equipment-list,
+    .tenant__lease-enroll-equipment,
+    .tenant__lease-enroll-equipment-truncated,
     .tenant__lease-enroll-fieldset,
     .tenant__lease-enroll-verify,
     .tenant__lease-enroll-verify-approve,
@@ -12913,6 +12924,9 @@ form.is-form-errors .form__feedback + legend {
       .tenant__lease-upload-feedback:last-child,
       .tenant__lease-enroll-form:last-child,
       .tenant__lease-enroll-label:last-child,
+      .tenant__lease-enroll-equipment-list:last-child,
+      .tenant__lease-enroll-equipment:last-child,
+      .tenant__lease-enroll-equipment-truncated:last-child,
       .tenant__lease-enroll-fieldset:last-child,
       .tenant__lease-enroll-verify:last-child,
       .tenant__lease-enroll-verify-approve:last-child,
@@ -12944,6 +12958,41 @@ form.is-form-errors .form__feedback + legend {
         margin-right: 0; }
       .tenant__lease-enroll-benefit:nth-child(2n+1) {
         clear: left; } }
+
+.tenant__lease-enroll-equipment-img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .tenant__lease-enroll-equipment-img:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .tenant__lease-enroll-equipment-img {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 21.37813%; }
+      .tenant__lease-enroll-equipment-img:last-child {
+        margin-right: 0; } }
+
+.tenant__lease-enroll-equipment-specs {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .tenant__lease-enroll-equipment-specs:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 46.8em) {
+    .tenant__lease-enroll-equipment-specs {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 73.79271%;
+      margin-right: 0; }
+      .tenant__lease-enroll-equipment-specs:last-child {
+        margin-right: 0; } }
 
 .form__buttons,
 .form__selects,
@@ -22190,7 +22239,8 @@ ol {
 .o-job__quote-equipment-truncated,
 .o-job__bid-equipment,
 .o-job__bid-equipment-truncated,
-.o-job__event-equipment {
+.o-job__event-equipment, .tenant__lease-enroll-equipment-truncated,
+.tenant__lease-enroll-equipment {
   border: 1px solid #e3e5ea;
   margin-top: 11.2px;
   margin-top: 0.7rem;
@@ -22205,7 +22255,8 @@ ol {
     .o-job__quote-equipment-truncated,
     .o-job__bid-equipment,
     .o-job__bid-equipment-truncated,
-    .o-job__event-equipment {
+    .o-job__event-equipment, .tenant__lease-enroll-equipment-truncated,
+    .tenant__lease-enroll-equipment {
       height: 124px;
       height: 7.75rem;
       position: relative;
@@ -22223,7 +22274,8 @@ ol {
   .o-job__quote-equipment-truncated:hover,
   .o-job__bid-equipment:hover,
   .o-job__bid-equipment-truncated:hover,
-  .o-job__event-equipment:hover {
+  .o-job__event-equipment:hover, .tenant__lease-enroll-equipment-truncated:hover,
+  .tenant__lease-enroll-equipment:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
     -ms-box-shadow: 0 0 8px 0 rgba(9, 47, 62, 0.1);
@@ -22233,16 +22285,16 @@ ol {
 
 .o-job__quote-equipment-img,
 .o-job__bid-equipment-img,
-.o-job__event-equipment-img {
+.o-job__event-equipment-img, .tenant__lease-enroll-equipment-img {
   line-height: 0; }
   .o-job__quote-equipment-img img,
   .o-job__bid-equipment-img img,
-  .o-job__event-equipment-img img {
+  .o-job__event-equipment-img img, .tenant__lease-enroll-equipment-img img {
     border: 3px solid white; }
   @media screen and (min-width: 46.8em) {
     .o-job__quote-equipment-img,
     .o-job__bid-equipment-img,
-    .o-job__event-equipment-img {
+    .o-job__event-equipment-img, .tenant__lease-enroll-equipment-img {
       position: absolute;
       top: 50%;
       left: 0;
@@ -22255,17 +22307,17 @@ ol {
       padding-left: 0.7rem; }
       .o-job__quote-equipment-img img,
       .o-job__bid-equipment-img img,
-      .o-job__event-equipment-img img {
+      .o-job__event-equipment-img img, .tenant__lease-enroll-equipment-img img {
         border: 1px solid #e3e5ea; } }
 
 .o-job__quote-equipment-specs,
 .o-job__bid-equipment-specs,
-.o-job__event-equipment-specs {
+.o-job__event-equipment-specs, .tenant__lease-enroll-equipment-specs {
   text-align: center; }
   @media screen and (min-width: 46.8em) {
     .o-job__quote-equipment-specs,
     .o-job__bid-equipment-specs,
-    .o-job__event-equipment-specs {
+    .o-job__event-equipment-specs, .tenant__lease-enroll-equipment-specs {
       left: 26%;
       position: absolute;
       top: 50%;
@@ -22279,18 +22331,18 @@ ol {
       text-align: left; } }
   .o-job__quote-equipment-specs .is-undefined:before,
   .o-job__bid-equipment-specs .is-undefined:before,
-  .o-job__event-equipment-specs .is-undefined:before {
+  .o-job__event-equipment-specs .is-undefined:before, .tenant__lease-enroll-equipment-specs .is-undefined:before {
     content: ''; }
   .o-job__quote-equipment-specs .is-undefined:after,
   .o-job__bid-equipment-specs .is-undefined:after,
-  .o-job__event-equipment-specs .is-undefined:after {
+  .o-job__event-equipment-specs .is-undefined:after, .tenant__lease-enroll-equipment-specs .is-undefined:after {
     content: "\2014";
     display: inline-block;
     color: #c7cacd; }
 
 .o-job__quote-equipment-spec,
 .o-job__bid-equipment-spec,
-.o-job__event-equipment-spec {
+.o-job__event-equipment-spec, .tenant__lease-enroll-equipment-spec {
   margin-bottom: 11.2px;
   margin-bottom: 0.7rem; }
 
@@ -24556,6 +24608,11 @@ ol {
     padding: 11.2px;
     padding: 0.7rem; }
 
+.tenant__lease hr:not(.is-expanded):hover {
+  cursor: pointer; }
+  .tenant__lease hr:not(.is-expanded):hover:before {
+    color: #092f3e; }
+
 .tenant__lease-letterhead img {
   display: block;
   margin: 0 auto;
@@ -24894,6 +24951,35 @@ ol {
   margin-top: 11.2px;
   margin-top: 0.7rem; }
 
+.tenant__lease-enroll-equipment-list {
+  overflow-y: scroll;
+  max-height: 1120px;
+  max-height: 70rem; }
+  .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li {
+    padding-left: 0;
+    font-size: 13.33333px;
+    font-size: 0.83333rem; }
+    .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span {
+      display: block; }
+      .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span:last-child {
+        display: none; }
+    .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li:before {
+      content: '';
+      display: none; }
+    @media screen and (min-width: 46.8em) {
+      .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span {
+        padding-left: 5.6px;
+        padding-left: 0.35rem; }
+        .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span:first-child {
+          display: none; }
+        .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment-truncated ul li span:last-child {
+          display: inline-block; } }
+  @media screen and (min-width: 46.8em) {
+    .tenant__lease-enroll-equipment-list {
+      max-height: 570px;
+      max-height: 35.625rem; } }
+
+.tenant__lease-enroll-equipment-list,
 .tenant__lease-enroll-terms,
 .tenant__lease-enroll-benefits {
   margin-top: 11.2px;
@@ -24901,6 +24987,10 @@ ol {
   padding-bottom: 11.2px;
   padding-bottom: 0.7rem;
   border-bottom: 1px dotted #e3e5ea; }
+  .tenant__lease-enroll-equipment-list .tenant__lease-enroll-equipment:first-child,
+  .tenant__lease-enroll-terms .tenant__lease-enroll-equipment:first-child,
+  .tenant__lease-enroll-benefits .tenant__lease-enroll-equipment:first-child {
+    margin-top: 0; }
 
 .tenant__lease-enroll-benefit {
   margin-top: 11.2px;
@@ -25039,21 +25129,22 @@ ol {
   background: #e3e5ea;
   position: relative; }
   .tenant__lease-hr:before {
-    content: 'or';
+    content: 'Have an existing contract? click to upload';
     background: #fafafb;
     color: #93989c;
     position: absolute;
-    left: 50%;
+    left: 0;
     top: 0;
     font-size: 13.33333px;
     font-size: 0.83333rem;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
     padding: 11.2px;
     padding: 0.7rem;
+    padding-left: 0;
     text-transform: uppercase;
     line-height: 1; }
 
