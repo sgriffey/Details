@@ -1985,6 +1985,9 @@ h1, h2, h3, h4, h5, h6, label {
     .timeline__period-list dd a:hover {
       color: #66c3b0; }
 
+.timeline__period-list + .timeline__period-date {
+  padding-top: 22.4px; }
+
 .timeline__period-video {
   margin-top: 22.4px; }
 

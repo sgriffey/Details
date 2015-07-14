@@ -59,6 +59,10 @@
 	}
 }
 
+.timeline__period-list + .timeline__period-date {
+	padding-top: $base-spacing-unit;
+}
+
 .timeline__period-video {
 	margin-top: $base-spacing-unit;
 }
