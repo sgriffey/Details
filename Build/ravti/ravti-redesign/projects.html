@@ -24,8 +24,18 @@
 <body>
 	<header class="mobileNav">
 	<div class="mobileNav__masthead">
-		<a class='current-parent' href="index.html"><h1 class="mobileNav__logo"></h1></a>
-		<a class="mobileNav__link"></a>
+		<section class="mobileNav__masthead-bucket is-active" data-mobileNav-jobs>
+			<h1>Jobs</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-proposals>
+			<h1>Proposals</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-facilities>
+			<h1>Facilities</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-more>
+			<h1>More</h1>
+		</section>
 	</div>
 	<nav class="mobileNav__menu">
 		<ul class="mobileNav__menu-list">
@@ -37,137 +47,67 @@
 	</nav>
 </header>
 	<nav class="siteNav">
-		<a class='current-parent' href="index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
-		<h2 class="siteNav__page-title">Dashboard</h2>
-		<section class="siteNav__control">
-			<nav class="siteNav__alerts">
-				<i class="siteNav__alert-proposals">
-					<span class="has-alerts">1</span>
-				</i>
-				<!--
-				<i class="siteNav__alert-events">
-					<span class="has-alerts">&bull;</span>
-				</i>
-				-->
-				<i class="siteNav__alert-invoices">
-				</i>
-				<article class="siteNav__alerts-popover">
-					<section class="siteNav__proposals-popover is-masked">
-						<header class="siteNav__proposals-popover-head">
-							<h2 class="siteNav__proposals-popover-title">Pending Proposals</h2>
-						</header>
-						<ul class="siteNav__proposals-popover-list">
-							<a href="facility/jobs/job-proposal.html" class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
-								<h3 class="siteNav__proposals-popover-item-facility">1 Howard<span class="siteNav__proposals-popover-item-title">Vertical Self-Contained Compressor Replacement</span></h3>
-								<h4 class="siteNav__proposals-popover-item-count">(4 of 6)</h4>
-								<time class="siteNav__proposals-popover-item-time">1 hour ago</time>
-							</a>
-						</ul>
-						<footer class="siteNav__proposals-popover-footer">
-						<a class='current' href="projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
-						</footer>
-					</section>
-					<!--
-					<section class="siteNav__events-popover is-masked">
-						<header class="siteNav__events-popover-head">
-							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
-						</header>
-						<ul class="siteNav__events-popover-list">
-							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
-								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Tracking # added</h4>
-								<time class="siteNav__events-popover-item-time">1 hour ago</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
-								<h3 class="siteNav__events-popover-item-facility">Sunset International Center<span class="siteNav__events-popover-item-title">Air Cooled Chiller Replacement</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Installation Scheduled</h4>
-								<time class="siteNav__events-popover-item-time">3 hour ago</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Project Completed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 5:19pm</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">Westside Plaza II<span class="siteNav__events-popover-item-title">Blower/Fan Coil Issues</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Service Call Completed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 3:08pm</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 2:55pm</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Condensing Unit Repair</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Repair Approved</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 9:12am</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 8:55am</time>
-							</li>
-						</ul>
-						<footer class="siteNav__events-popover-footer">
-						<a href="events.html"><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
-						</footer>
-					</section>
-					-->
-					<section class="siteNav__invoices-popover is-masked">
-						<header class="siteNav__invoices-popover-head">
-							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
-						</header>
-						<ul class="siteNav__invoices-popover-list is-masked">
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
-								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
-							</li>
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
-								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
-							</li>
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
-								<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
-							</li>
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
-								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
-							</li>
-							<li class="siteNav__invoices-popover-item is-unviewed">
-								<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
-								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
-							</li>
-						</ul>
-						<footer class="siteNav__invoices-popover-footer is-masked">
-						<a href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
-						</footer>
-						<div class="siteNav__invoices-popover-list-blank">
-							<h2>No Invoices Outstanding</h2>
-							<p>Yahoo! You're all caught up.</p>
-						</div>
-					</section>
-				</article>
-			</nav>
-			<div class="siteNav__account">
-				<span class="siteNav__account-username">John G.</span>
-				<img class="siteNav__account-image" src="assets/dummy-avatar.svg"/>
-			</div>
-		</section>
-		<div class="accountNav__bucket is-masked">
-			<h1 class="accountNav__bucket-title">Account Settings</h1>
+	<a class='current-parent' href="index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+	<h2 class="siteNav__page-title">Dashboard</h2>
+	<section class="siteNav__control">
+		<nav class="siteNav__alerts">
+			<i class="siteNav__alert-request">Request Work</i>
+			<i class="siteNav__alert-invoices"></i>
+			<article class="siteNav__alerts-popover">
+				<section class="siteNav__invoices-popover is-masked">
+					<header class="siteNav__invoices-popover-head">
+						<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
+					</header>
+					<ul class="siteNav__invoices-popover-list is-masked">
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
+							<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+						</li>
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
+							<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+						</li>
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
+							<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
+						</li>
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
+							<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+						</li>
+						<li class="siteNav__invoices-popover-item is-unviewed">
+							<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
+							<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+						</li>
+					</ul>
+					<footer class="siteNav__invoices-popover-footer is-masked">
+					<a href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+					</footer>
+					<div class="siteNav__invoices-popover-list-blank">
+						<h2>No Invoices Outstanding</h2>
+						<p>Yahoo! You're all caught up.</p>
+					</div>
+				</section>
+			</article>
+		</nav>
+		<div class="siteNav__account">
+			<span class="siteNav__account-username">John G.</span>
+			<img class="siteNav__account-image" src="assets/dummy-avatar.svg"/>
 		</div>
-		<div class="accountNav__settings is-masked">
-			<span class="accountNav__toggle-label">Exit</span>
-			<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
-		</div>
-	</nav>
+	</section>
+	<div class="accountNav__bucket is-masked">
+		<h1 class="accountNav__bucket-title">Account Settings</h1>
+	</div>
+	<div class="accountNav__settings is-masked">
+		<span class="accountNav__toggle-label">Exit</span>
+		<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
+	</div>
+</nav>
 	<main class="page__wrapper">
 		<section class="projects__active">
 			<section class="projects__queue">

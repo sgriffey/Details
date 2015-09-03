@@ -19,6 +19,112 @@ $(document).ready(function() {
             $(".v-job__scan-body").addClass("scan-expanded");
             $(".v-job__scan-expand").addClass("is-hidden");
     });
+    //Requesting Work Update
+    $(document).on('click', '*[data-WorkRequest-sc]', function() {
+        $(this).parents('.WorkRequest__menu').toggleClass('is-masked');
+        $('.WorkRequest__submit').toggleClass('is-masked');
+        $('*[data-WorkRequest-bucket-sc]').parents('.WorkRequest__bucket').removeClass('is-masked');
+        $('*[data-WorkRequest-bucket-sc]').siblings('.WorkRequest__bucket__form').removeClass('is-masked');
+    });
+    $(document).on('click', '*[data-WorkRequest-exit]', function() {
+        $(this).parents('.WorkRequest').children('.WorkRequest__menu').removeClass('is-masked');
+         $(this).parents('.WorkRequest').children('.WorkRequest__bucket, .WorkRequest__submit, .WorkRequest__feedback').addClass('is-masked');
+    });
+    $(document).on('click', '*[data-WorkRequest-back]', function() {
+        $(this).parents('.WorkRequest__bucket').toggleClass('is-masked');
+        $('.WorkRequest__menu').toggleClass('is-masked');
+        $('.WorkRequest__feedback, .WorkRequest__submit').addClass('is-masked');
+    });
+    $(document).on('click', '.WorkRequest__submit__form input', function() {
+        $(this).parents('.WorkRequest__submit').toggleClass('is-masked');
+        $(this).parents('.WorkRequest__submit').prev().children('.WorkRequest__bucket__form').toggleClass('is-masked');
+        $('.WorkRequest__feedback').toggleClass('is-masked');
+    });
+    //Toggling Unscheduled Activity
+    $(document).on('click', '*[data-view-jobs-unscheduled-hide]', function() {
+        $(this).parent().toggleClass('is-masked');
+        $(this).parents('.dashboard__job-chunk').toggleClass('is-unscheduled');
+        $(this).parents('.dashboard__job-chunk').children('.dashboard__job-chunk-memo').toggleClass('is-masked');
+    });
+    $(document).on('click', '*[data-view-jobs-unscheduled-show]', function() {
+        $(this).addClass('is-masked');
+        $(this).parent().removeClass('is-unscheduled');
+        $(this).parent().children('.dashboard__job-chunk-unscheduled').removeClass('is-masked');
+    });
+    //Job activity responsive
+    $(window).resize(function(){
+       if ($(window).width() >= 748) {
+            $('.dashboard__collection').removeClass('is-masked');
+            $('*[data-view-jobs]').removeClass('is-masked');
+       }
+       if ($(window).width() < 748) {
+            $('.dashboard__collection').addClass('is-masked');
+       }     
+    });
+    //Mobile Web Toggling mobileNav Masthead Buckets
+    $(document).on('click', '*[data-mobileNav-jobs]', function() {
+        $(this).addClass('is-active');
+        $('*[data-mobileNav-proposals], *[data-mobileNav-facilities], *[data-mobileNav-more]').removeClass('is-active');
+        $('*[data-view-title-jobs]').removeClass('is-masked');
+        $('*[data-view-title-proposals], *[data-view-title-facilities], *[data-view-title-more]').addClass('is-masked');
+        $('*[data-view-jobs]').removeClass('is-masked');
+        $('*[data-view-facilities], *[data-view-proposals], *[data-view-more').addClass('is-masked');
+    });
+    $(document).on('click', '*[data-mobileNav-proposals]', function() {
+        $(this).addClass('is-active');
+        $('*[data-mobileNav-proposals]').addClass('is-active');
+        $('*[data-mobileNav-jobs], *[data-mobileNav-facilities], *[data-mobileNav-more]').removeClass('is-active');
+        $('*[data-view-title-proposals]').removeClass('is-masked');
+        $('*[data-view-title-jobs], *[data-view-title-facilities], *[data-view-title-more]').addClass('is-masked');
+        $('*[data-view-proposals]').removeClass('is-masked');
+        $('*[data-view-facilities], *[data-view-jobs], *[data-view-more').addClass('is-masked');
+    });
+    $(document).on('click', '*[data-mobileNav-facilities]', function() {
+        $(this).addClass('is-active');
+        $('*[data-mobileNav-facilities]').addClass('is-active');
+        $('*[data-mobileNav-jobs], *[data-mobileNav-proposals], *[data-mobileNav-more]').removeClass('is-active');
+        $('*[data-view-title-facilities]').removeClass('is-masked');
+        $('*[data-view-title-jobs], *[data-view-title-proposals], *[data-view-title-more]').addClass('is-masked');
+        $('*[data-view-facilities]').removeClass('is-masked');
+        $('*[data-view-proposals], *[data-view-jobs], *[data-view-more').addClass('is-masked');
+    });
+    $(document).on('click', '*[data-mobileNav-more]', function() {
+        $(this).addClass('is-active');
+        $('*[data-mobileNav-more]').addClass('is-active');
+        $('*[data-mobileNav-jobs], *[data-mobileNav-proposals], *[data-mobileNav-facilities]').removeClass('is-active');
+        $('*[data-view-title-more]').removeClass('is-masked');
+        $('*[data-view-title-jobs], *[data-view-title-proposals], *[data-view-title-facilities]').addClass('is-masked');
+        $('*[data-view-more]').removeClass('is-masked');
+        $('*[data-view-proposals], *[data-view-jobs], *[data-view-facilities').addClass('is-masked');
+    });
+    //Modal In and Out Animation + Toggle
+    $(document).on('click', '.siteNav__alert-request, *[data-request-fab]', function() {
+        $('.ModalContainer-slim').toggleClass('is-modal-in');
+        $('.Modal').toggleClass('is-masked');
+        setTimeout(function() {
+             $('.ModalContainer-slim').toggleClass("is-modal-in");
+        }, 700);
+    });
+    $(document).on('click', '*[data-WorkRequest-exit]', function() {
+        $('.ModalContainer-slim').toggleClass('is-modal-out');
+        setTimeout(function() {
+             $('.Modal').toggleClass("is-masked");
+             $('.ModalContainer-slim').removeClass("is-modal-out");
+        }, 600);
+    });
+    //Tabbing Dash Sidebar Buckets
+    $(document).on('click', '*[data-proposals-tab]', function() {
+        $(this).addClass('is-open');
+        $('*[data-view-proposals]').removeClass('is-masked');
+        $('*[data-jobs-tab]').removeClass('is-open');
+        $('*[data-view-jobs]').addClass('is-masked');
+    });
+    $(document).on('click', '*[data-jobs-tab]', function() {
+        $(this).addClass('is-open');
+        $('*[data-view-jobs]').removeClass('is-masked');
+        $('*[data-proposals-tab]').removeClass('is-open');
+        $('*[data-view-proposals]').addClass('is-masked');
+    });
     //Lease Compliance upload exisiting
     $(document).on('click', '.tenant__lease-hr', function() {
         $(this).addClass('is-expanded');
@@ -631,7 +737,7 @@ $(document).ready(function() {
     });
     //Toggle between facility tiles and map
     $(".dashboard__index-control-map").click(function(){
-        $(".dashboard__index-grid-view").toggleClass("is-masked");
+        $(".dashboard__portfolio-grid").toggleClass("is-masked");
         $(".dashboard__index-map-view").toggleClass("is-masked");
         $(".dashboard__index-title-background, .dashboard__index-controls-background").toggleClass("is-background-overlaid");
         $(".dashboard__index-control-grid-icon").toggleClass("is-control-active");
@@ -639,7 +745,7 @@ $(document).ready(function() {
     });
     $(".dashboard__index-control-grid").click(function(){
         $(".dashboard__index-map-view").toggleClass("is-masked");
-        $(".dashboard__index-grid-view").toggleClass("is-masked");
+        $(".dashboard__portfolio-grid").toggleClass("is-masked");
         $(".dashboard__index-title-background, .dashboard__index-controls-background").toggleClass("is-background-overlaid");
         $(".dashboard__index-control-grid-icon").toggleClass("is-control-active");
         $(".dashboard__index-control-map-icon").toggleClass("is-control-active");

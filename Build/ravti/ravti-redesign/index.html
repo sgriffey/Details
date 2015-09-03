@@ -24,8 +24,18 @@
 <body>
 	<header class="mobileNav">
 	<div class="mobileNav__masthead">
-		<a class='current-parent current' href="index.html"><h1 class="mobileNav__logo"></h1></a>
-		<a class="mobileNav__link"></a>
+		<section class="mobileNav__masthead-bucket is-active" data-mobileNav-jobs>
+			<h1>Jobs</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-proposals>
+			<h1>Proposals</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-facilities>
+			<h1>Facilities</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-more>
+			<h1>More</h1>
+		</section>
 	</div>
 	<nav class="mobileNav__menu">
 		<ul class="mobileNav__menu-list">
@@ -37,152 +47,86 @@
 	</nav>
 </header>
 	<nav class="siteNav">
-		<a class='current-parent current' href="index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
-		<h2 class="siteNav__page-title">Dashboard</h2>
-		<section class="siteNav__control">
-			<nav class="siteNav__alerts">
-				<i class="siteNav__alert-proposals">
-					<span class="has-alerts">1</span>
-				</i>
-				<!--
-				<i class="siteNav__alert-events">
-					<span class="has-alerts">&bull;</span>
-				</i>
-				-->
-				<i class="siteNav__alert-invoices">
-				</i>
-				<article class="siteNav__alerts-popover">
-					<section class="siteNav__proposals-popover is-masked">
-						<header class="siteNav__proposals-popover-head">
-							<h2 class="siteNav__proposals-popover-title">Pending Proposals</h2>
-						</header>
-						<ul class="siteNav__proposals-popover-list">
-							<a href="facility/jobs/job-proposal.html" class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
-								<h3 class="siteNav__proposals-popover-item-facility">1 Howard<span class="siteNav__proposals-popover-item-title">Vertical Self-Contained Compressor Replacement</span></h3>
-								<h4 class="siteNav__proposals-popover-item-count">(4 of 6)</h4>
-								<time class="siteNav__proposals-popover-item-time">1 hour ago</time>
-							</a>
-						</ul>
-						<footer class="siteNav__proposals-popover-footer">
-						<a href="projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
-						</footer>
-					</section>
-					<!--
-					<section class="siteNav__events-popover is-masked">
-						<header class="siteNav__events-popover-head">
-							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
-						</header>
-						<ul class="siteNav__events-popover-list">
-							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
-								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Tracking # added</h4>
-								<time class="siteNav__events-popover-item-time">1 hour ago</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
-								<h3 class="siteNav__events-popover-item-facility">Sunset International Center<span class="siteNav__events-popover-item-title">Air Cooled Chiller Replacement</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Installation Scheduled</h4>
-								<time class="siteNav__events-popover-item-time">3 hour ago</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Project Completed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 5:19pm</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">Westside Plaza II<span class="siteNav__events-popover-item-title">Blower/Fan Coil Issues</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Service Call Completed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 3:08pm</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 2:55pm</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Condensing Unit Repair</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Repair Approved</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 9:12am</time>
-							</li>
-							<li class="siteNav__events-popover-item popover-tracking-badge">
-								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
-								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
-								<time class="siteNav__events-popover-item-time">Yesterday at 8:55am</time>
-							</li>
-						</ul>
-						<footer class="siteNav__events-popover-footer">
-						<a href="events.html"><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
-						</footer>
-					</section>
-					-->
-					<section class="siteNav__invoices-popover is-masked">
-						<header class="siteNav__invoices-popover-head">
-							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
-						</header>
-						<ul class="siteNav__invoices-popover-list is-masked">
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
-								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
-							</li>
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
-								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
-							</li>
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
-								<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
-							</li>
-							<li class="siteNav__invoices-popover-item">
-								<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
-								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
-							</li>
-							<li class="siteNav__invoices-popover-item is-unviewed">
-								<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
-								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
-								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
-							</li>
-						</ul>
-						<footer class="siteNav__invoices-popover-footer is-masked">
-						<a href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
-						</footer>
-						<div class="siteNav__invoices-popover-list-blank">
-							<h2>No Invoices Outstanding</h2>
-							<p>Yahoo! You're all caught up.</p>
-						</div>
-					</section>
-				</article>
-			</nav>
-			<div class="siteNav__account">
-				<span class="siteNav__account-username">John G.</span>
-				<img class="siteNav__account-image" src="assets/dummy-avatar.svg"/>
-			</div>
-		</section>
-		<div class="accountNav__bucket is-masked">
-			<h1 class="accountNav__bucket-title">Account Settings</h1>
+	<a class='current-parent current' href="index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+	<h2 class="siteNav__page-title">Dashboard</h2>
+	<section class="siteNav__control">
+		<nav class="siteNav__alerts">
+			<i class="siteNav__alert-request">Request Work</i>
+			<i class="siteNav__alert-invoices"></i>
+			<article class="siteNav__alerts-popover">
+				<section class="siteNav__invoices-popover is-masked">
+					<header class="siteNav__invoices-popover-head">
+						<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
+					</header>
+					<ul class="siteNav__invoices-popover-list is-masked">
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
+							<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+						</li>
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
+							<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+						</li>
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
+							<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
+						</li>
+						<li class="siteNav__invoices-popover-item">
+							<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
+							<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+						</li>
+						<li class="siteNav__invoices-popover-item is-unviewed">
+							<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
+							<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
+							<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+						</li>
+					</ul>
+					<footer class="siteNav__invoices-popover-footer is-masked">
+					<a href="billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+					</footer>
+					<div class="siteNav__invoices-popover-list-blank">
+						<h2>No Invoices Outstanding</h2>
+						<p>Yahoo! You're all caught up.</p>
+					</div>
+				</section>
+			</article>
+		</nav>
+		<div class="siteNav__account">
+			<span class="siteNav__account-username">John G.</span>
+			<img class="siteNav__account-image" src="assets/dummy-avatar.svg"/>
 		</div>
-		<div class="accountNav__settings is-masked">
-			<span class="accountNav__toggle-label">Exit</span>
-			<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
-		</div>
-	</nav>
+	</section>
+	<div class="accountNav__bucket is-masked">
+		<h1 class="accountNav__bucket-title">Account Settings</h1>
+	</div>
+	<div class="accountNav__settings is-masked">
+		<span class="accountNav__toggle-label">Exit</span>
+		<img class="accountNav__toggle-image" src="assets/dismiss-trigger-inverted.svg"/>
+	</div>
+</nav>
+	<div class="fab">
+	<button class="fab__button" data-intercom-fab><i></i></button>
+	<button class="fab__button" data-request-fab><i></i></button>
+</div>
 	<main class="dashboard">
-		<section class="dashboard__mobile-request">
-			<h2 class="dashboard__mobile-request-title"><b>Request Work</b></h2>
-			<section class="dashboard__mobile-request-options">
-				<a class="dashboard__mobile-request-option is-service" id="mobile-service"><span>Service Call</span></a>
-				<a class="dashboard__mobile-request-option is-repair" id="mobile-repair"><span>Repair / Parts</span></a>
-				<a class="dashboard__mobile-request-option is-pm" id="mobile-pm"><span>Maintenance</span></a>
-				<a class="dashboard__mobile-request-option is-replacement" id="mobile-replacement"><span>Replacement</span></a>
-				<a class="dashboard__mobile-request-option is-lease" id="mobile-lease"><span>Tenant Move Out</span></a>
-			</section>
-		</section>
-		<section class="dashboard__collection">
+		<header class="dashboard__view-title" data-view-title-jobs>
+			<h1>Active Jobs<span>(14)</span></h1>
+		</header>
+		<header class="dashboard__view-title is-masked" data-view-title-proposals>
+			<h1>Proposals<span>(4)</span></h1>
+		</header>
+		<header class="dashboard__view-title is-masked" data-view-title-facilities>
+			<h1>Facilites<span>(6)</span></h1>
+		</header>
+		<a href=""></a>
+		<section class="dashboard__collection is-masked" data-view-facilities>
 			<section class="dashboard__index">
 				<header class="dashboard__index-header">
-					<h1 class="dashboard__index-title"><span class="dashboard__index-title-background">Facilites <i>(1)</i></span></h1>
+					<h1 class="dashboard__index-title"><span class="dashboard__index-title-background">Facilites <i>(6)</i></span></h1>
 					<nav class="dashboard__index-controls">
 						<span class="dashboard__index-controls-background">
 							<h2 class="dashboard__index-controls-label">View By:</h2>
@@ -193,278 +137,281 @@
 						</span>
 					</nav>
 				</header>
-				<section class="dashboard__index-grid-view">
+				<section class="dashboard__portfolio-grid">
+					<a href="facility/activity.html" class="dashboard__portfolio-grid-tile">
+						<div class="dashboard__portfolio-grid-img"></div>
+						<div class="dashboard__portfolio-grid-location">
+							<h2>3333 Doral a;lk ajd;fl kajdf;l kajdf;alkdsjf</h2>
+							<h3>Miami, FL</h3>
+						</div>
+					</a>
+					<a href="#" class="dashboard__portfolio-grid-tile">
+						<div class="dashboard__portfolio-grid-img"></div>
+						<div class="dashboard__portfolio-grid-location">
+							<h2>3333 Doral</h2>
+							<h3>Miami, FL</h3>
+						</div>
+					</a>
+					<a href="#" class="dashboard__portfolio-grid-tile">
+						<div class="dashboard__portfolio-grid-img is-blank"></div>
+						<div class="dashboard__portfolio-grid-location">
+							<h2>3333 Doral</h2>
+							<h3>Miami, FL</h3>
+						</div>
+					</a>
+					<a href="#" class="dashboard__portfolio-grid-tile">
+						<div class="dashboard__portfolio-grid-img"></div>
+						<div class="dashboard__portfolio-grid-location">
+							<h2>3333 Doral</h2>
+							<h3>Miami, FL</h3>
+						</div>
+					</a>
+					<a href="#" class="dashboard__portfolio-grid-tile">
+						<div class="dashboard__portfolio-grid-img"></div>
+						<div class="dashboard__portfolio-grid-location">
+							<h2>3333 Doral</h2>
+							<h3>Miami, FL</h3>
+						</div>
+					</a>
+					<a href="#" class="dashboard__portfolio-grid-tile">
+						<div class="dashboard__portfolio-grid-img"></div>
+						<div class="dashboard__portfolio-grid-location">
+							<h2>3333 Doral</h2>
+							<h3>Miami, FL</h3>
+						</div>
+					</a>
+				</section>
+				<!-- <section class="dashboard__index-grid-view">
 					<ul class="dashboard__index-grid-tiles">
 						<li class="dashboard__index-grid-tile">
-							<div class="dashboard__index-grid-tile-thumbnail">
-								<a href="facility/activity.html" alt="facility page"><img class="dashboard__index-grid-tile-img" src="assets/testing-facility-thumb.jpg" title="1 Howard San Francisco" alt="view of facility" /></a>
-								<span class="dashboard__index-grid-tile-hint">
-	<a href="facility/activity.html"><b>View</b></a>
-	<a href="facility/activity.html"><b>Facility</b></a>
-</span> 
-							</div>
-							<div class="dashboard__index-grid-tile-text">
-								<h3 class="dashboard__index-grid-tile-title"><a href="facility/activity.html">1 Howard</a></h3>
-								<span class="dashboard__index-grid-tile-location">San Francisco, CA</span>
-							</div>
+							<a class="furlott" href="facility/activity.html" alt="facility page">
+								<div class="dashboard__index-grid-tile-thumbnail"><img class="dashboard__index-grid-tile-img" src="assets/testing-facility-thumb.jpg" title="1 Howard San Francisco" alt="view of facility" />
+									<span class="dashboard__index-grid-tile-hint">
+										<b>View</b>
+										<b>Facility</b>
+									</span>
+								</div>
+								<div class="dashboard__index-grid-tile-text">
+									<h3 class="dashboard__index-grid-tile-title">1 Howard</h3>
+									<span class="dashboard__index-grid-tile-location">San Francisco, CA</span>
+								</div>
+							</a>
+							<a class="dashboard__proposal is-repair" href="facility/jobs/job-quote.html">
+								<div class="dashboard__proposal-img">
+									<img src="assets/facil-thumb-3.jpg">
+								</div>
+								<div class="dashboard__proposal-details">
+									<h2>3333 Doral<span class="">Condensing Unit Fan Gear Repair</span></h2>
+									<h3>(2 of 3 quotes submitted)</h3>
+									<time>Yesterday at 8:55am</time>
+								</div>
+							</a>
 						</li>
 					</ul>
-				</section>
+				</section> -->
 				<section class="dashboard__index-map-view is-masked">
 					<iframe class="dashboard__index-map-panel" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=6&center=37.4330%2C-122.1707&key=AIzaSyDbVOB4rMG7dbuJc13tMDIpkgEXv3zZtCI"></iframe>
 				</section>
 			</section>
 		</section>
-		<section class="dashboard__aside">
-			<section class="dashboard__request-panel">
-	<h2 class="dashboard__request-title"><b>Request Work</b></h2>
-	<section class="dashboard__request-options">
-		<a class="dashboard__request-option is-service"><span>Service Call</span></a>
-		<a class="dashboard__request-option is-repair"><span>Repair / Parts</span></a>
-		<a class="dashboard__request-option is-pm"><span>Maintenance</span></a>
-		<a class="dashboard__request-option is-replacement"><span>Replacement</span></a>
-		<a class="dashboard__request-option is-lease"><span>Tenant Move Out</span></a>
-	</section>
-	<section class="dashboard__request-support">
-		<p class="dashboard__request-support-copy">Any questions? We're here to help.</p>
-		<p class="dashboard__request-support-copy">Phone: <a href="tel:8662022539">(866) 202-2539</a></p>
-		<p class="dashboard__request-support-copy">Email: <a href="mailto:support@ravti.com">support@ravti.com</a></p>
-	</section>
-</section>
-<section class="dashboard__request-control is-slid-right" id="is-service">
-	<h2 class="dashboard__request-control-title service"><b>Service Call</b><i class="dashboard__request-control-dismiss"></i></h2>
-	<form class="dashboard__request-control-form">
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Facility</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">1 Howard</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Suite</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">#102 - ABC Pizza</option>
-				<option value="2">#107 - Kyle's Karate</option>
-				<option value="3">#109 - Moondoggies</option>
-				<option value="4">#123 - Novo</option>
-				<option value="5">#132 - Tonitas</option>
-				<option value="6">#135 - Pita Pit</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset is-masked" id="optional-equipment">
-			<label class="dashboard__request-control-label is-optional">Equipment<span>Optional*</span></label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">RTU-01 - QR345R34</option>
-				<option value="2">RTU-02 - QRDS834</option>
-				<option value="3">RTU-03 - QR92238</option>
-				<option value="4">RTU-04 - QR380111</option>
-				<option value="5">RTU-05 - QR323R34</option>
-				<option value="6">RTU-06 - QR239955</option>
-				<option value="7">RTU-07 - QR345R34</option>
-			</select>
-		</fieldset>
-		<a class="dashboard__request-control-tag">
-			<i class="dashboard__request-control-tag-icon"></i><span class="dashboard__request-control-tag-text">Add a specific piece of equipment</span>
-		</a>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-checkbox-label">
-				<input type="checkbox" class="dashboard__request-control-checkbox-input" name="emergency" checked>
-				<div class="dashboard__request-control-checkbox-text">This is an emergency</div>
-			</label>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label is-optional">Additional notes?<span>Optional*</span></label>
-			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
-		</fieldset>
-		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
-		</div>
-	</form>
-	<section class="dashboard__feedback is-masked">
-	<h3 class="dashboard__feedback-title">Request Submitted</h3>
-	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
-	<footer class="dashboard__feedback-dismiss">
-		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
-	</footer>
-</section>
-</section>
-<section class="dashboard__request-control is-slid-right" id="is-repair">
-	<h2 class="dashboard__request-control-title repair"><b>Repair/Parts</b><i class="dashboard__request-control-dismiss"></i></h2>
-	<form class="dashboard__request-control-form">
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Facility</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">1 Howard</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Suite</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">#102 - ABC Pizza</option>
-				<option value="2">#107 - Kyle's Karate</option>
-				<option value="3">#109 - Moondoggies</option>
-				<option value="4">#123 - Novo</option>
-				<option value="5">#132 - Tonitas</option>
-				<option value="6">#135 - Pita Pit</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset is-masked" id="optional-equipment">
-			<label class="dashboard__request-control-label is-optional">Equipment<span>Optional*</span></label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">RTU-01 - QR345R34</option>
-				<option value="2">RTU-02 - QRDS834</option>
-				<option value="3">RTU-03 - QR92238</option>
-				<option value="4">RTU-04 - QR380111</option>
-				<option value="5">RTU-05 - QR323R34</option>
-				<option value="6">RTU-06 - QR239955</option>
-				<option value="7">RTU-07 - QR345R34</option>
-			</select>
-		</fieldset>
-		<a class="dashboard__request-control-tag">
-			<i class="dashboard__request-control-tag-icon"></i><span class="dashboard__request-control-tag-text">Add a specific piece of equipment</span>
-		</a>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-upload">
-				<i class="dashboard__request-control-upload-icon"></i><span class="dashboard__request-control-upload-text">Attach documentation</span>
-				<input type="file" class="vendor__invoice-upload-file" multiple="multiple">
-			</label>
-			<span class="dashboard__request-control-upload-filename is-hidden"><b>(3)</b> files uploaded</span>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label is-optional">Additional notes?<span>Optional*</span></label>
-			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
-		</fieldset>
-		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
-		</div>
-	</form>
-	<section class="dashboard__feedback is-masked">
-	<h3 class="dashboard__feedback-title">Request Submitted</h3>
-	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
-	<footer class="dashboard__feedback-dismiss">
-		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
-	</footer>
-</section>
-</section>
-<section class="dashboard__request-control is-slid-right" id="is-pm">
-	<h2 class="dashboard__request-control-title pm"><b>Maintenance</b><i class="dashboard__request-control-dismiss"></i></h2>
-	<form class="dashboard__request-control-form">
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Facility</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">1 Howard</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label is-optional">Additional notes?<span>Optional*</span></label>
-			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
-		</fieldset>
-		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
-		</div>
-	</form>
-	<section class="dashboard__feedback is-masked">
-	<h3 class="dashboard__feedback-title">Request Submitted</h3>
-	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
-	<footer class="dashboard__feedback-dismiss">
-		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
-	</footer>
-</section>
-</section>
-<section class="dashboard__request-control is-slid-right" id="is-replacement">
-	<h2 class="dashboard__request-control-title replacement"><b>Replacement</b><i class="dashboard__request-control-dismiss"></i></h2>
-	<form class="dashboard__request-control-form">
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Facility</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">1 Howard</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset-half">
-			<label class="dashboard__request-control-label">Suite</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">#102 - ABC Pizza</option>
-				<option value="2">#107 - Kyle's Karate</option>
-				<option value="3">#109 - Moondoggies</option>
-				<option value="4">#123 - Novo</option>
-				<option value="5">#132 - Tonitas</option>
-				<option value="6">#135 - Pita Pit</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset is-optional is-masked">
-			<label class="dashboard__request-control-label is-optional">Equipment<span>Optional*</span></label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">RTU-01 - QR345R34</option>
-				<option value="2">RTU-02 - QRDS834</option>
-				<option value="3">RTU-03 - QR92238</option>
-				<option value="4">RTU-04 - QR380111</option>
-				<option value="5">RTU-05 - QR323R34</option>
-				<option value="6">RTU-06 - QR239955</option>
-				<option value="7">RTU-07 - QR345R34</option>
-			</select>
-		</fieldset>
-		<a class="dashboard__request-control-tag">
-			<i class="dashboard__request-control-tag-icon"></i><span class="dashboard__request-control-tag-text">Add a specific piece of equipment</span>
-		</a>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-upload">
-				<i class="dashboard__request-control-upload-icon"></i><span class="dashboard__request-control-upload-text">Attach documentation</span>
-				<input type="file" class="vendor__invoice-upload-file" multiple="multiple">
-			</label>
-			<span class="dashboard__request-control-upload-filename is-hidden"><b>(3)</b> files uploaded</span>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label is-optional">Additional notes?<span>Optional*</span></label>
-			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
-		</fieldset>
-		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
-		</div>
-	</form>
-	<section class="dashboard__feedback is-masked">
-	<h3 class="dashboard__feedback-title">Request Submitted</h3>
-	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
-	<footer class="dashboard__feedback-dismiss">
-		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
-	</footer>
-</section>
-</section>
-<section class="dashboard__request-control is-slid-right" id="is-lease">
-	<h2 class="dashboard__request-control-title lease"><b>Tenant Move Out</b><i class="dashboard__request-control-dismiss"></i></h2>
-	<form class="dashboard__request-control-form">
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label">Facility</label>
-			<select class="dashboard__request-control-select-drop">
-				<option value=""></option>
-				<option value="1">1 Howard</option>
-			</select>
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label">Date Due</label>
-			<input class="dashboard__request-control-input" id="datepicker" />
-		</fieldset>
-		<fieldset class="dashboard__request-control-fieldset">
-			<label class="dashboard__request-control-label is-optional">Additional notes?<span>Optional*</span></label>
-			<textarea placeholder="Add details here..." class="dashboard__request-control-textarea" rows="4"></textarea>
-		</fieldset>
-		<div class="dashboard__request-control-finalize"><input class="dashboard__request-control-button-submit" type="button" value="Submit">
-		</div>
-	</form>
-	<section class="dashboard__feedback is-masked">
-	<h3 class="dashboard__feedback-title">Request Submitted</h3>
-	<p class="dashboard__feedback-copy">Stay tuned for details. You’ll receive an alert when  the work request has been received and further information is available.</p>
-	<footer class="dashboard__feedback-dismiss">
-		<button class="dashboard__feedback-dismiss-trigger">Okay</button>
-	</footer>
-</section>
-</section>
+		<section class="dashboard__menu is-masked" data-view-more>
+			<a href="" class="dashboard__menu-bucket">
+				<h2>Invoices</h2>
+			</a>
+			<a href="" class="dashboard__menu-bucket">
+				<h2>Account Settings</h2>
+			</a>
+			<a href="" class="dashboard__menu-bucket">
+				<h2>Terms of Service</h2>
+			</a>
+			<a href="" class="dashboard__menu-bucket">
+				<h2>Sign out</h2>
+			</a>
+			<img src="assets/ravti-logo-bw.png" />
+			<p>&copy; Ravti Corp, 2015.</p>
 		</section>
+		<aside class="dashboard__aside">
+			<section class="dashboard__activity">
+	<nav class="dashboard__activity-nav">
+		<div class="dashboard__activity-nav-tab is-open" data-jobs-tab>Active Jobs<span data-is-tally>10</span></div>
+		<div class="dashboard__activity-nav-tab" data-proposals-tab>Proposals<span data-is-alert>4</span></div>
+	</nav>
+	<section class="dashboard__activity-buckets">
+		<section class="dashboard__activity-bucket" data-view-jobs>
+			<section class="dashboard__job-chunk is-unscheduled">
+				<div class="dashboard__job-chunk-memo" data-view-jobs-unscheduled-show>
+					<h2><b>2</b>Jobs Unscheduled</h2>
+					<button>Show</button>
+				</div>
+				<div class="dashboard__job-chunk-unscheduled is-masked">
+					<time class="dashboard__job-chunk-title">Unscheduled</time>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-replacement">800 Doral<span class="">RTU-2 &amp; RTU-3 Replacement</span></h2>
+							<h3>Cooly Fly</h3>
+							<b>GIB-111</b>
+						</div>
+					</a>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-repair">3333 Doral<span class="">Condensing Unit Fan Gear Repair</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-112</b>
+						</div>
+					</a>
+					<button data-view-jobs-unscheduled-hide>Hide Unscheduled Jobs</button>
+				</div>
+			</section>
+			<section class="dashboard__job-chunk is-blank-now">
+				<time class="dashboard__job-chunk-title">July 5-11 <i>(this week)</i></time>
+				<div class="dashboard__job-chunk-memo">
+					<h2>Nothing Scheduled.<br>The week is yours.</h2>
+				</div>
+			</section>
+			<section class="dashboard__job-chunk">
+				<time class="dashboard__job-chunk-title">July 5-11 <i>(this week)</i></time>
+				<div class="dashboard__job-chunk-date">
+					<time>
+						<span>6</span>
+						<span>Mon</span>
+					</time>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-service">333 Doral A<span class="">Service Call</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-110</b>
+						</div>
+					</a>
+				</div>
+				<div class="dashboard__job-chunk-date">
+					<time>
+						<span>8</span>
+						<span>Wed</span>
+					</time>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-pm">333 Doral A<span class="">P.M. Program</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-109</b>
+						</div>
+					</a>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-pm">333 Doral B<span class="">P.M. Program</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-108</b>
+						</div>
+					</a>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-pm">333 Doral C<span class="">P.M. Program</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-107</b>
+						</div>
+					</a>
+				</div>
+				<div class="dashboard__job-chunk-date">
+					<time>
+						<span>9</span>
+						<span>Thu</span>
+					</time>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-pm">333 Doral A<span class="">P.M. Program</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-109</b>
+						</div>
+					</a>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-pm">333 Doral B<span class="">P.M. Program</span></h2>
+							<h3>Bayfog Mechanical</h3>
+							<b>GIB-108</b>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="dashboard__job-chunk is-blank-future">
+				<time class="dashboard__job-chunk-title">Upcoming <i>(Next Week &amp; Beyond)</i></time>
+				<div class="dashboard__job-chunk-memo">
+					<h2>Nothing upcoming. Now could be a<br> good time to <a>request work</a>.</h2>
+				</div>
+			</section>
+			<section class="dashboard__job-chunk">
+				<time class="dashboard__job-chunk-title">Upcoming <i>(Next Week &amp; Beyond)</i></time>
+				<div class="dashboard__job-chunk-date">
+					<time>
+						<span>14</span>
+						<span>Jul</span>
+					</time>
+					<a class="dashboard__job">
+						<div class="dashboard__job-details">
+							<h2 class="is-replacement">142 Sansome<span class="">RTU-4 Replacement</span></h2>
+							<h3>Cooly Fly</h3>
+							<b>GIB-106</b>
+						</div>
+					</a>
+				</div>
+			</section>
+		</section>
+		<section class="dashboard__activity-bucket-blank is-masked" data-view-proposals>
+			<h2>Currently, no RFQs outstanding.</h2>
+		</section>
+		<section class="dashboard__activity-bucket is-masked" data-view-proposals>
+			<a class="dashboard__proposal is-replacement" href="facility/jobs/job-proposal.html">
+				<div class="dashboard__proposal-img">
+					<img src="assets/facil-thumb-1.jpg">
+				</div>
+				<div class="dashboard__proposal-details">
+					<h2>8200 Doral<span class="">Cooling Tower Replacement</span></h2>
+					<h3>(3 of 3 quotes submitted)</h3>
+					<time>Today at 9:11am</time>
+				</div>
+			</a>
+			<a class="dashboard__proposal is-repair" href="facility/jobs/job-quote.html">
+				<div class="dashboard__proposal-img">
+					<img src="assets/facil-thumb-3.jpg">
+				</div>
+				<div class="dashboard__proposal-details">
+					<h2>3333 Doral<span class="">Condensing Unit Fan Gear Repair</span></h2>
+					<h3>(2 of 3 quotes submitted)</h3>
+					<time>Yesterday at 8:55am</time>
+				</div>
+			</a>
+			<a class="dashboard__proposal is-replacement" href="facility/jobs/job-replacement.html">
+				<div class="dashboard__proposal-img">
+					<img src="assets/facil-thumb-2.jpg">
+				</div>
+				<div class="dashboard__proposal-details">
+					<h2>42 Sansome<span class="">Condensing Unit Replacement</span></h2>
+					<h3>(2 of 3 quotes submitted)</h3>
+					<time>Yesterday at 8:55am</time>
+				</div>
+			</a>
+			<a class="dashboard__proposal is-pm">
+				<div class="dashboard__proposal-img">
+					<img src="assets/facil-thumb-3.jpg">
+				</div>
+				<div class="dashboard__proposal-details" href="facility/jobs/job-proposal.html">
+					<h2>3333 Doral<span class="">Condensing Unit Replacement</span></h2>
+					<h3>(2 of 3 quotes submitted)</h3>
+					<time>Yesterday at 8:55am</time>
+				</div>
+			</a>
+			<a class="dashboard__proposal is-pm">
+				<div class="dashboard__proposal-img">
+					<img src="assets/facil-thumb-3.jpg">
+				</div>
+				<div class="dashboard__proposal-details">
+					<h2>3333 Doral<span class="">Condensing Unit Fan Gear Repair</span></h2>
+					<h3>(2 of 3 quotes submitted)</h3>
+					<time>Yesterday at 8:55am</time>
+				</div>
+			</a>
+		</section>
+	</section>
+</section>
+		</aside>
 	</main>
 	<div class="account is-masked">
 	<nav class="account__subnav">
@@ -1277,293 +1224,94 @@
 		<p>Your invitation will be arriving in their inbox shortly.</p>
 	</div>
 </div>
-	<aside class="overlay__mobile-request-wrapper is-masked is-mobile-replacement" id="overlay-request">
-		<i class="overlay__mobile-request-dismiss"></i>
-		<section class="overlay__mobile-request">
-			<h1 class="overlay__mobile-request-title replacement"><b>Replacement</b></h1>
-			<form class="overlay__mobile-request-form">
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Facility</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">Berkshire Commons</option>
-						<option value="1">Bloomingdale Square</option>
-						<option value="1">Corkscrew Village</option>
-						<option value="2">East Towne Center</option>
-						<option value="4">Millhopper Shopping Center</option>
-						<option value="5">Naples Walk</option>
-						<option value="6">Regency Square</option>
-						<option value="6">Shoppes of Grand Oaks</option>
-						<option value="7">Suncoast Crossing</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Suite</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">#102 - ABC Pizza</option>
-						<option value="2">#107 - Kyle's Karate</option>
-						<option value="3">#109 - Moondoggies</option>
-						<option value="4">#123 - Novo</option>
-						<option value="5">#132 - Tonitas</option>
-						<option value="6">#135 - Pita Pit</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset is-masked">
-					<label class="overlay__mobile-request-label is-optional">Equipment<span>Optional*</span></label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">RTU-01 - QR345R34</option>
-						<option value="2">RTU-02 - QRDS834</option>
-						<option value="3">RTU-03 - QR92238</option>
-						<option value="4">RTU-04 - QR380111</option>
-						<option value="5">RTU-05 - QR323R34</option>
-						<option value="6">RTU-06 - QR239955</option>
-						<option value="7">RTU-07 - QR345R34</option>
-					</select>
-				</fieldset>
-				<a class="overlay__mobile-request-tag">
-					<i class="overlay__mobile-request-tag-icon"></i><span class="overlay__mobile-request-tag-text">Add a specific piece of equipment</span>
-				</a>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-upload">
-						<i class="overlay__mobile-request-upload-icon"></i><span class="overlay__mobile-request-upload-text">Attach documentation</span>
-						<input type="file" class="overlay__mobile-request-upload-file" multiple="multiple">
-					</label>
-					<span class="overlay__mobile-request-upload-filename is-hidden"><b>(1)</b> file(s) uploaded</span>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label is-optional">Additional Comments<span>Optional*</span></label>
-					<textarea class="overlay__mobile-request-textarea" rows="4" placeholder="Feel free to include any other details..."></textarea>
-				</fieldset>
-				<div class="overlay__mobile-request-finalize"><input class="overlay__mobile-request-button-cancel" type="button" value="Cancel"><input class="overlay__mobile-request-button-submit" type="button" value="Submit">
+	<!-- dashboard-request -->
+	<aside class="Modal is-masked">
+	<div class="ModalContainer-slim">
+		<div class="WorkRequest">
+			<div class="WorkRequest__menu">
+				<h2 class="WorkRequest__menu__title">
+					<span>Request Work</span>
+					<button data-WorkRequest-exit data-title="Exit"><i></i></button>
+				</h2>
+				<div class="WorkRequest__menu__options">
+					<a class="WorkRequest__menu__options__item" data-WorkRequest-sc><span>Service Call</span></a>
+					<a class="WorkRequest__menu__options__item" data-WorkRequest-repair><span>Repair</span></a>
+					<a class="WorkRequest__menu__options__item" data-WorkRequest-repair><span>Parts</span></a>
+					<a class="WorkRequest__menu__options__item" data-WorkRequest-pm><span>Maintenance</span></a>
+					<a class="WorkRequest__menu__options__item" data-WorkRequest-replacement><span>Replacement</span></a>
+					<a class="WorkRequest__menu__options__item" data-WorkRequest-lease><span>Tenant Move Out</span></a>
 				</div>
-			</form>
-		</section>
-</aside>
-	<aside class="overlay__mobile-request-wrapper is-masked is-mobile-repair" id="overlay-request">
-		<i class="overlay__mobile-request-dismiss"></i>
-		<section class="overlay__mobile-request">
-			<h1 class="overlay__mobile-request-title repair"><b>Repair</b></h1>
-			<form class="overlay__mobile-request-form">
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Facility</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">Berkshire Commons</option>
-						<option value="1">Bloomingdale Square</option>
-						<option value="1">Corkscrew Village</option>
-						<option value="2">East Towne Center</option>
-						<option value="4">Millhopper Shopping Center</option>
-						<option value="5">Naples Walk</option>
-						<option value="6">Regency Square</option>
-						<option value="6">Shoppes of Grand Oaks</option>
-						<option value="7">Suncoast Crossing</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Suite</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">#102 - ABC Pizza</option>
-						<option value="2">#107 - Kyle's Karate</option>
-						<option value="3">#109 - Moondoggies</option>
-						<option value="4">#123 - Novo</option>
-						<option value="5">#132 - Tonitas</option>
-						<option value="6">#135 - Pita Pit</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset is-masked">
-					<label class="overlay__mobile-request-label is-optional">Equipment<span>Optional*</span></label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">RTU-01 - QR345R34</option>
-						<option value="2">RTU-02 - QRDS834</option>
-						<option value="3">RTU-03 - QR92238</option>
-						<option value="4">RTU-04 - QR380111</option>
-						<option value="5">RTU-05 - QR323R34</option>
-						<option value="6">RTU-06 - QR239955</option>
-						<option value="7">RTU-07 - QR345R34</option>
-					</select>
-				</fieldset>
-				<a class="overlay__mobile-request-tag">
-					<i class="overlay__mobile-request-tag-icon"></i><span class="overlay__mobile-request-tag-text">Add a specific piece of equipment</span>
-				</a>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-upload">
-						<i class="overlay__mobile-request-upload-icon"></i><span class="overlay__mobile-request-upload-text">Attach documentation</span>
-						<input type="file" class="overlay__mobile-request-upload-file" multiple="multiple">
-					</label>
-					<span class="overlay__mobile-request-upload-filename is-hidden"><b>(1)</b> file(s) uploaded</span>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label is-optional">Additional Comments<span>Optional*</span></label>
-					<textarea class="overlay__mobile-request-textarea" rows="4" placeholder="Feel free to include any other details..."></textarea>
-				</fieldset>
-				<div class="overlay__mobile-request-finalize"><input class="overlay__mobile-request-button-cancel" type="button" value="Cancel"><input class="overlay__mobile-request-button-submit" type="button" value="Submit">
+			</div>
+			<div class="WorkRequest__bucket is-masked">
+				<h2 class="WorkRequest__bucket__title" data-WorkRequest-bucket-sc>
+					<button data-WorkRequest-back data-title="Choose&nbsp;a&nbsp;different&nbsp;type"><i></i></button>
+					<span>Service Call</span>
+					<button data-WorkRequest-exit data-title="Exit"><i></i></button>
+				</h2>
+				<div class="WorkRequest__feedback is-masked">
+					<div>
+						<i></i>
+					</div>
+					<h3>Request Submitted</h3>
+					<p>Stay tuned for details. You’ll be alerted as soon as further information is available.</p>
 				</div>
-			</form>
-		</section>
+				<form class="WorkRequest__bucket__form">
+					<div class="fieldset">
+						<fieldset class="fieldset-half">
+							<label class="label">Facility</label>
+							<select class="select">
+								<option value=""></option>
+								<option value="1">1 Howard</option>
+							</select>
+						</fieldset>
+						<fieldset class="fieldset-half">
+							<label class="label">Suite</label>
+							<select class="select">
+								<option value=""></option>
+								<option value="1">#102 - ABC Pizza</option>
+								<option value="2">#107 - Kyle's Karate</option>
+								<option value="3">#109 - Moondoggies</option>
+								<option value="4">#123 - Novo</option>
+								<option value="5">#132 - Tonitas</option>
+								<option value="6">#135 - Pita Pit</option>
+							</select>
+						</fieldset>
+					</div>
+					<fieldset class="fieldset">
+						<label class="label">Equipment</label>
+						<select class="select">
+							<option value=""></option>
+							<option value="1">RTU-01 - QR345R34</option>
+							<option value="2">RTU-02 - QRDS834</option>
+							<option value="3">RTU-03 - QR92238</option>
+							<option value="4">RTU-04 - QR380111</option>
+							<option value="5">RTU-05 - QR323R34</option>
+							<option value="6">RTU-06 - QR239955</option>
+							<option value="7">RTU-07 - QR345R34</option>
+						</select>
+					</fieldset>
+					<fieldset class="fieldset">
+						<label class="checkbox-label">
+							<input type="checkbox" class="checkbox-input" name="emergency" checked>
+							<div class="checkbox-text">This is an emergency</div>
+						</label>
+					</fieldset>
+					<fieldset class="fieldset">
+						<label class="label">Additional notes?</label>
+						<textarea placeholder="Add details here..." class="textarea" rows="4"></textarea>
+					</fieldset>
+				</form>
+			</div>
+			<footer class="WorkRequest__submit is-masked">
+				<form class="WorkRequest__submit__form">
+					<fieldset class="fieldset">
+						<input class="button-encourage" type="button" value="Submit Request">
+					</fieldset>
+				</form>
+			</footer>
+		</div>
+	</div>
 </aside>
-	<aside class="overlay__mobile-request-wrapper is-masked is-mobile-service" id="overlay-request">
-		<i class="overlay__mobile-request-dismiss"></i>
-		<section class="overlay__mobile-request">
-			<h1 class="overlay__mobile-request-title service"><b>Service</b></h1>
-			<form class="overlay__mobile-request-form">
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Facility</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">Berkshire Commons</option>
-						<option value="1">Bloomingdale Square</option>
-						<option value="1">Corkscrew Village</option>
-						<option value="2">East Towne Center</option>
-						<option value="4">Millhopper Shopping Center</option>
-						<option value="5">Naples Walk</option>
-						<option value="6">Regency Square</option>
-						<option value="6">Shoppes of Grand Oaks</option>
-						<option value="7">Suncoast Crossing</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Suite</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">#102 - ABC Pizza</option>
-						<option value="2">#107 - Kyle's Karate</option>
-						<option value="3">#109 - Moondoggies</option>
-						<option value="4">#123 - Novo</option>
-						<option value="5">#132 - Tonitas</option>
-						<option value="6">#135 - Pita Pit</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset is-masked">
-					<label class="overlay__mobile-request-label is-optional">Equipment<span>Optional*</span></label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">RTU-01 - QR345R34</option>
-						<option value="2">RTU-02 - QRDS834</option>
-						<option value="3">RTU-03 - QR92238</option>
-						<option value="4">RTU-04 - QR380111</option>
-						<option value="5">RTU-05 - QR323R34</option>
-						<option value="6">RTU-06 - QR239955</option>
-						<option value="7">RTU-07 - QR345R34</option>
-					</select>
-				</fieldset>
-				<a class="overlay__mobile-request-tag">
-					<i class="overlay__mobile-request-tag-icon"></i><span class="overlay__mobile-request-tag-text">Add a specific piece of equipment</span>
-				</a>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-checkbox-label">
-						<input type="checkbox" class="overlay__mobile-request-checkbox-input" name="emergency" checked>
-						<div class="overlay__mobile-request-checkbox-text">This is an emergency</div>
-					</label>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label is-optional">Additional Comments<span>Optional*</span></label>
-					<textarea class="overlay__mobile-request-textarea" rows="4" placeholder="Feel free to include any other details..."></textarea>
-				</fieldset>
-				<div class="overlay__mobile-request-finalize"><input class="overlay__mobile-request-button-cancel" type="button" value="Cancel"><input class="overlay__mobile-request-button-submit" type="button" value="Submit">
-				</div>
-			</form>
-		</section>
-</aside>
-	<aside class="overlay__mobile-request-wrapper is-masked is-mobile-lease" id="overlay-request">
-		<i class="overlay__mobile-request-dismiss"></i>
-		<section class="overlay__mobile-request">
-			<h1 class="overlay__mobile-request-title lease"><b>Tenant Move Out</b></h1>
-			<form class="overlay__mobile-request-form">
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Facility</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">Berkshire Commons</option>
-						<option value="1">Bloomingdale Square</option>
-						<option value="1">Corkscrew Village</option>
-						<option value="2">East Towne Center</option>
-						<option value="4">Millhopper Shopping Center</option>
-						<option value="5">Naples Walk</option>
-						<option value="6">Regency Square</option>
-						<option value="6">Shoppes of Grand Oaks</option>
-						<option value="7">Suncoast Crossing</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Suite</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">#102 - ABC Pizza</option>
-						<option value="2">#107 - Kyle's Karate</option>
-						<option value="3">#109 - Moondoggies</option>
-						<option value="4">#123 - Novo</option>
-						<option value="5">#132 - Tonitas</option>
-						<option value="6">#135 - Pita Pit</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Date Due</label>
-					<input class="overlay__mobile-request-input" type="date" />
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label is-optional">Additional Comments<span>Optional*</span></label>
-					<textarea class="overlay__mobile-request-textarea" rows="4" placeholder="Feel free to include any other details..."></textarea>
-				</fieldset>
-				<div class="overlay__mobile-request-finalize"><input class="overlay__mobile-request-button-cancel" type="button" value="Cancel"><input class="overlay__mobile-request-button-submit" type="button" value="Submit">
-				</div>
-			</form>
-		</section>
-</aside>
-	<aside class="overlay__mobile-request-wrapper is-masked is-mobile-pm" id="overlay-request">
-		<i class="overlay__mobile-request-dismiss"></i>
-		<section class="overlay__mobile-request">
-			<h1 class="overlay__mobile-request-title pm"><b>Maintenance</b></h1>
-			<form class="overlay__mobile-request-form">
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Facility</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">Berkshire Commons</option>
-						<option value="1">Bloomingdale Square</option>
-						<option value="1">Corkscrew Village</option>
-						<option value="2">East Towne Center</option>
-						<option value="4">Millhopper Shopping Center</option>
-						<option value="5">Naples Walk</option>
-						<option value="6">Regency Square</option>
-						<option value="6">Shoppes of Grand Oaks</option>
-						<option value="7">Suncoast Crossing</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label">Suite</label>
-					<select class="overlay__mobile-request-select">
-						<option value=""></option>
-						<option value="1">#102 - ABC Pizza</option>
-						<option value="2">#107 - Kyle's Karate</option>
-						<option value="3">#109 - Moondoggies</option>
-						<option value="4">#123 - Novo</option>
-						<option value="5">#132 - Tonitas</option>
-						<option value="6">#135 - Pita Pit</option>
-					</select>
-				</fieldset>
-				<fieldset class="overlay__mobile-request-fieldset">
-					<label class="overlay__mobile-request-label is-optional">Additional Comments<span>Optional*</span></label>
-					<textarea class="overlay__mobile-request-textarea" rows="4" placeholder="Feel free to include any other details..."></textarea>
-				</fieldset>
-				<div class="overlay__mobile-request-finalize"><input class="overlay__mobile-request-button-cancel" type="button" value="Cancel"><input class="overlay__mobile-request-button-submit" type="button" value="Submit">
-				</div>
-			</form>
-		</section>
-</aside>
-	<aside class="overlay__mobile-request-wrapper is-masked" id="mobile-request-feedback">
-	<section class="overlay__mobile-request-feedback">
-		<h3 class="overlay__mobile-request-feedback-title">Request Submitted</h3>
-		<p class="overlay__mobile-request-feedback-copy">Stay tuned for details. You’ll receive an alert when  further information is available.</p>
-		<footer class="overlay__mobile-request-feedback-dismiss">
-			<button class="overlay__mobile-request-feedback-button">Okay</button>
-		</footer>
-	</section>
-</aside>
-		
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 	    <script src="js/app.js"></script>
