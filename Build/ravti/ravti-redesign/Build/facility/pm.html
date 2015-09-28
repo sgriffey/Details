@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favi-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favi-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favi-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favi-114.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favi-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="assets/favi-57.png">
+<link rel="icon" href="assets/favi-32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <title>Ravti Pattern Library</title> 
+  <script src="//use.typekit.net/pti5qzj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<header class="mobileNav">
+	<div class="mobileNav__masthead">
+		<section class="mobileNav__masthead-bucket is-active" data-mobileNav-jobs>
+			<h1>Jobs</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-proposals>
+			<h1>Proposals</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-facilities>
+			<h1>Facilities</h1>
+		</section>
+		<section class="mobileNav__masthead-bucket" data-mobileNav-more>
+			<h1>More</h1>
+		</section>
+	</div>
+	<nav class="mobileNav__menu">
+		<ul class="mobileNav__menu-list">
+			<li class='current-parent'><a href="../index.html" class="current-parent mobileNav__menu-list-item">Dashboard</a></li>
+			<li><a href="../projects.html" class="mobileNav__menu-list-item">Proposals</a></li>
+			<li><a href="../billing.html" class="mobileNav__menu-list-item">Invoices</a></li>
+			<li><b class="mobileNav__menu-list-item" data-mobilenav-settings>Account Settings</b></li>
+		</ul>
+	</nav>
+</header>
+	<nav class="siteNav">
+		<a class='current-parent' href="../index.html"><h1 class="siteNav__logo" title="Ravti Dashboard"></h1></a>
+		<h2 class="siteNav__page-title">Preventative Maintenance</h2>
+		<section class="siteNav__control">
+			<nav class="siteNav__alerts">
+				<i class="siteNav__alert-proposals">
+					<span class="has-alerts">1</span>
+				</i>
+				<!--
+				<i class="siteNav__alert-events">
+					<span class="has-alerts">&bull;</span>
+				</i>
+				-->
+				<i class="siteNav__alert-invoices">
+				</i>
+				<article class="siteNav__alerts-popover">
+					<section class="siteNav__proposals-popover is-masked">
+						<header class="siteNav__proposals-popover-head">
+							<h2 class="siteNav__proposals-popover-title">Pending Proposals</h2>
+						</header>
+						<ul class="siteNav__proposals-popover-list">
+							<a href="jobs/job-proposal.html" class="siteNav__proposals-popover-item  is-unviewed is-ready-to-approve">
+								<h3 class="siteNav__proposals-popover-item-facility">1 Howard<span class="siteNav__proposals-popover-item-title">Vertical Self-Contained Compressor Replacement</span></h3>
+								<h4 class="siteNav__proposals-popover-item-count">(4 of 6)</h4>
+								<time class="siteNav__proposals-popover-item-time">1 hour ago</time>
+							</a>
+						</ul>
+						<footer class="siteNav__proposals-popover-footer">
+						<a href="../projects.html"><h5 class="siteNav__proposals-popover-footer-label">view all proposals</h5></a>
+						</footer>
+					</section>
+					<!--
+					<section class="siteNav__events-popover is-masked">
+						<header class="siteNav__events-popover-head">
+							<h2 class="siteNav__events-popover-title">Portfolio Notifications</h2>
+						</header>
+						<ul class="siteNav__events-popover-list">
+							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
+								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Tracking # added</h4>
+								<time class="siteNav__events-popover-item-time">1 hour ago</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge is-unviewed">
+								<h3 class="siteNav__events-popover-item-facility">Sunset International Center<span class="siteNav__events-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Installation Scheduled</h4>
+								<time class="siteNav__events-popover-item-time">3 hour ago</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">Quiet Waters 7<span class="siteNav__events-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Project Completed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 5:19pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">Westside Plaza II<span class="siteNav__events-popover-item-title">Blower/Fan Coil Issues</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Service Call Completed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 3:08pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 2:55pm</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Condensing Unit Repair</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Repair Approved</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 9:12am</time>
+							</li>
+							<li class="siteNav__events-popover-item popover-tracking-badge">
+								<h3 class="siteNav__events-popover-item-facility">8200 Doral<span class="siteNav__events-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__events-popover-item-type">Work Request Filed</h4>
+								<time class="siteNav__events-popover-item-time">Yesterday at 8:55am</time>
+							</li>
+						</ul>
+						<footer class="siteNav__events-popover-footer">
+						<a href=""><h5 class="siteNav__events-popover-footer-label">view all activity</h5></a>
+						</footer>
+					</section>
+					-->
+					<section class="siteNav__invoices-popover is-masked">
+						<header class="siteNav__invoices-popover-head">
+							<h2 class="siteNav__invoices-popover-title">Outstanding Invoices</h2>
+						</header>
+						<ul class="siteNav__invoices-popover-list is-masked">
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-008<span class="siteNav__invoices-popover-item-amount">63,112.45</span></h4>
+								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Sunset International Center<span class="siteNav__invoices-popover-item-title">Air Cooled Chiller Replacement</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-012<span class="siteNav__invoices-popover-item-amount">1,245.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">90+ Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Quiet Waters 7<span class="siteNav__invoices-popover-item-title">Trane Split System</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-013<span class="siteNav__invoices-popover-item-amount">781.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">61-90 Days Outstanding</time>
+							</li>
+							<li class="siteNav__invoices-popover-item">
+								<h3 class="siteNav__invoices-popover-item-facility">Westside Plaza II<span class="siteNav__invoices-popover-item-title">90+ Days Outstanding</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-014<span class="siteNav__invoices-popover-item-amount">3,456.00</span></h4>
+								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+							</li>
+							<li class="siteNav__invoices-popover-item is-unviewed">
+								<h3 class="siteNav__invoices-popover-item-facility">8200 Doral<span class="siteNav__invoices-popover-item-title">Cooling Tower Not Turning off</span></h3>
+								<h4 class="siteNav__invoices-popover-item-reference">I-GIB-015<span class="siteNav__invoices-popover-item-amount">4,001.23</span></h4>
+								<time class="siteNav__invoices-popover-item-time">Currently Due</time>
+							</li>
+						</ul>
+						<footer class="siteNav__invoices-popover-footer is-masked">
+						<a href="../billing.html"><h5 class="siteNav__invoices-popover-footer-label">view all invoices</h5></a>
+						</footer>
+						<div class="siteNav__invoices-popover-list-blank">
+							<h2>No Invoices Outstanding</h2>
+							<p>Yahoo! You're all caught up.</p>
+						</div>
+					</section>
+				</article>
+			</nav>
+			<div class="siteNav__account">
+				<span class="siteNav__account-username">John G.</span>
+				<img class="siteNav__account-image" src="../assets/dummy-avatar.svg"/>
+			</div>
+		</section>
+		<div class="accountNav__bucket is-masked">
+			<h1 class="accountNav__bucket-title">Account Settings</h1>
+		</div>
+		<div class="accountNav__settings is-masked">
+			<span class="accountNav__toggle-label">Exit</span>
+			<img class="accountNav__toggle-image" src="../assets/dismiss-trigger-inverted.svg"/>
+		</div>
+	</nav>
+	
+	<section class="page__wrapper-bleed">
+		<section class="facility__identity">
+			<section class="facility__identity-cover">
+				<div class="facility__identity-cover-plate">
+					<h1 class="facility__identity-cover-title">8200 Doral</h1>
+					<address class="facility__identity-cover-location">
+						<span>NW 9th Ave</span>
+						<span>Doral, FL. 33178</span>
+					</address>
+				</div>
+			</section>
+		</section>
+	</section>
+	<section class="page__wrapper">
+		<section class="facility__overview">
+			<nav class="facility__duties">
+				<ul class="facility__duties-list">
+					<li class="facility__duty is-active"><a href="activity.html">Activity</a></li>
+					<li class="facility__duty"><a href="projects-blank.html">Projects</a></li></a>
+					<li class="facility__duty"><a href="service-blank.html">Service Calls</a></li>
+					<li class="facility__duty"><a href="equipment.html">Equipment</a></li>
+					<li class="facility__duty"><a href="suites.html">Suites</a></li>
+					<li class="facility__duty"><a href="billing.html">Billing</a></li>
+				</ul>
+				<ul class="facility__duties-mobile-list">
+					<li class="facility__duty-bucket is-active"><a href="activity.html">Activity</a></li>
+					<li class="facility__duty-bucket"><a href="projects-blank.html">Projects</a></li></a>
+					<li class="facility__duty-bucket"><a href="service-blank.html">Service Calls</a></li>
+					<li class="facility__duty-bucket"><a href="equipment.html">Equipment</a></li>
+					<li class="facility__duty-bucket"><a href="suites.html">Suites</a></li>
+					<li class="facility__duty-bucket"><a href="billing.html">Billing</a></li>
+				</ul>
+			</nav>
+			<section class="facility__pm">
+				<nav class="facility__pm-navigation">
+					<button class="facility__suite-navigation-button"><i></i><a href="activity-with-pm.html">See all activity</a></button>
+				</nav>
+				<section class="facility__pm-aside">
+					<article class="facility__pm-upcoming">
+						<header class="facility__pm-upcoming-head">
+							<h1 class="facility__pm-upcoming-head-title">Next Inspection</h1>
+						</header>
+						<section class="facility__pm-upcoming-body">
+							<div class="facility__pm-upcoming-date">
+								<h2 class="facility__pm-upcoming-date-month">January</h2>
+								<time class="facility__pm-upcoming-date-day">21</time>
+							</div>
+							<span class="facility__pm-upcoming-vendor-label">To be completed by</span>
+							<strong class="facility__pm-upcoming-vendor-title">ABC Mechanical</strong>
+						</section>
+					</article>
+					<section class="facility__pm-timeline">
+						<header class="facility__pm-timeline-head">
+							<h1 class="facility__pm-timeline-head-title">Aggregated Inspection History</h1>
+						</header>
+						<section class="facility__pm-timeline-body">
+							<ul class="facility__pm-timeline-list">
+								<li class="facility__pm-timeline-event">
+									<span class="facility__pm-timeline-event-type">Running Inspection</span>
+									<a href="http://bit.ly/1yXdEXm" class="facility__pm-timeline-event-meta"><time class="facility__pm-timeline-event-date">Aug 14, 2014.</time>
+									<span class="facility__pm-timeline-event-vendor">ABC Mechanical</span></a>
+								</li>
+								<li class="facility__pm-timeline-event">
+									<span class="facility__pm-timeline-event-type">Running Inspection</span>
+									<a href="http://bit.ly/1yXdEXm" class="facility__pm-timeline-event-meta"><time class="facility__pm-timeline-event-date">Aug 14, 2014.</time>
+									<span class="facility__pm-timeline-event-vendor">ABC Mechanical</span></a>
+								</li>
+								<li class="facility__pm-timeline-event">
+									<span class="facility__pm-timeline-event-type">Annual Inspection</span>
+									<a href="http://bit.ly/1yXdEXm" class="facility__pm-timeline-event-meta"><time class="facility__pm-timeline-event-date">Aug 14, 2014.</time>
+									<span class="facility__pm-timeline-event-vendor">ABC Mechanical</span></a>
+								</li>
+								<li class="facility__pm-timeline-event">
+									<span class="facility__pm-timeline-event-type">Running Inspection</span>
+									<a href="http://bit.ly/1yXdEXm" class="facility__pm-timeline-event-meta"><time class="facility__pm-timeline-event-date">Aug 14, 2014.</time>
+									<span class="facility__pm-timeline-event-vendor">ABC Mechanical</span></a>
+								</li>
+								<li class="facility__pm-timeline-event">
+									<span class="facility__pm-timeline-event-type">Running Inspection</span>
+									<a href="http://bit.ly/1yXdEXm" class="facility__pm-timeline-event-meta"><time class="facility__pm-timeline-event-date">Aug 14, 2014.</time>
+									<span class="facility__pm-timeline-event-vendor">ABC Mechanical</span></a>
+								</li>
+							</ul>
+						</section>
+					</section>
+					<article class="facility__pm-approval">
+						<header class="facility__pm-approval-head">
+							<h1 class="facility__pm-approval-head-title">Maintenance Program Approval</h1>
+						</header>
+						<section class="facility__pm-approval-body">
+							<h3 class="facility__pm-approval-doc"><a href="#">View Contract</a></h3>
+						</section>
+					</article>
+				</section>
+				<section class="facility__pm-showcase">
+					<article class="facility__pm-map"><iframe class="facility__pm-map-iframe" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=18&center=37.4330%2C-122.1707&key=AIzaSyDbVOB4rMG7dbuJc13tMDIpkgEXv3zZtCI&maptype=satellite"></iframe>
+					</article>
+					<nav class="facility__pm-subnav">
+						<ul class="facility__pm-subnav-buckets">
+							<li class="facility__pm-subnav-equipment is-active">Equipment</li>
+							<li class="facility__pm-subnav-tenants">Tenants</li>
+						</ul>
+					</nav>
+					<section class="facility__pm-equipment">
+						<article class="facility__pm-equipment-card">
+							<img class="facility__pm-equipment-img" src="../assets/rtu.jpg" />
+							<header class="facility__pm-equipment-parent">
+								<span class="facility__pm-equipment-parent-suite">Suite #104</span>
+								<span class="facility__pm-equipment-parent-tenant">Marcus Motes Mangia</span>
+							</header>
+							<ul class="facility__pm-equipment-specs">
+								<li class="facility__pm-equipment-spec">RTU-4</li>
+								<li class="facility__pm-equipment-spec">Trane</li>
+								<li class="facility__pm-equipment-spec">7.5</li>
+								<li class="facility__pm-equipment-spec">2003</li>
+							</ul>
+							<ul class="facility__pm-equipment-inspections">
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">10/4/14</span><span class="facility__pm-equipment-inspection-type">Annual Inspection</span></a></li>
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">6/18/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">2/21/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+							</ul>
+							<div class="facility__pm-equipment-full">
+								<a class="facility__pm-equipment-full-view">view all unit reports</a>
+							</div>
+						</article>
+						<article class="facility__pm-equipment-card">
+							<img class="facility__pm-equipment-img" src="../assets/rtu-2.jpg" />
+							<header class="facility__pm-equipment-parent">
+								<span class="facility__pm-equipment-parent-suite">Suite #106</span>
+								<span class="facility__pm-equipment-parent-tenant">Auntie Debbie's Nails for Cheap</span>
+							</header>
+							<ul class="facility__pm-equipment-specs">
+								<li class="facility__pm-equipment-spec">RTU-6</li>
+								<li class="facility__pm-equipment-spec">Carrier</li>
+								<li class="facility__pm-equipment-spec">7.5</li>
+								<li class="facility__pm-equipment-spec">1998</li>
+							</ul>
+							<ul class="facility__pm-equipment-inspections">
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">10/4/14</span><span class="facility__pm-equipment-inspection-type">Annual Inspection</span></a></li>
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">6/18/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">2/21/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+							</ul>
+							<div class="facility__pm-equipment-full">
+								<a class="facility__pm-equipment-full-view">view all unit reports</a>
+							</div>
+						</article>
+						<article class="facility__pm-equipment-card">
+							<img class="facility__pm-equipment-img" src="../assets/rtu-4.jpg" />
+							<header class="facility__pm-equipment-parent">
+								<span class="facility__pm-equipment-parent-suite">Suite #107</span>
+								<span class="facility__pm-equipment-parent-tenant">Alexander's Ajú</span>
+							</header>
+							<ul class="facility__pm-equipment-specs">
+								<li class="facility__pm-equipment-spec">RTU-7</li>
+								<li class="facility__pm-equipment-spec">York</li>
+								<li class="facility__pm-equipment-spec">7.5</li>
+								<li class="facility__pm-equipment-spec">2004</li>
+							</ul>
+							<ul class="facility__pm-equipment-inspections">
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">10/4/14</span><span class="facility__pm-equipment-inspection-type">Annual Inspection</span></a></li>
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">6/18/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+								<li class="facility__pm-equipment-inspection"><a href="http://bit.ly/1yXdEXm"><span class="facility__pm-equipment-inspection-date">2/21/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+							</ul>
+							<div class="facility__pm-equipment-full">
+								<a class="facility__pm-equipment-full-view">view all unit reports</a>
+							</div>
+						</article>
+					</section>
+					<section class="facility__pm-tenant-body is-masked">
+						<header class="facility__pm-tenant-list-titles">
+							<span class="facility__pm-tenant-suite">Suite #</span>
+							<span class="facility__pm-tenant-name">Tenant Name</span>
+							<span class="facility__pm-tenant-cost">Cost</span>
+						</header>
+						<ul class="facility__pm-tenant-list">
+							<li class="facility__pm-tenant-item is-enrolled">
+								<span class="facility__pm-tenant-suite">106</span>
+								<span class="facility__pm-tenant-name">Auntie Debbie's Nails for Cheap</span>
+								<span class="facility__pm-tenant-cost">$236.00</span>
+								<div class="facility__pm-tenant-action">
+									<a href="" class="facility__pm-tenant-action-enroll">Enroll<i></i></a>
+								</div>
+							</li>
+							<li class="facility__pm-tenant-item is-enrolled">
+								<span class="facility__pm-tenant-suite">107</span>
+								<span class="facility__pm-tenant-name">Alexander's Ajú</span>
+								<span class="facility__pm-tenant-cost">$446.00</span>
+								<div class="facility__pm-tenant-action">
+									<a href="" class="facility__pm-tenant-action-enroll">Enroll<i></i></a>
+								</div>
+							</li>
+							<li class="facility__pm-tenant-item is-not-enrolled">
+								<span class="facility__pm-tenant-suite">108</span>
+								<span class="facility__pm-tenant-name">Ernies Auto Parts</span>
+								<span class="facility__pm-tenant-cost">$446.00</span>
+								<div class="facility__pm-tenant-action">
+									<a href="" class="facility__pm-tenant-action-enroll">Enroll<i></i></a>
+								</div>
+							</li>
+							<li class="facility__pm-tenant-item is-not-enrolled">
+								<span class="facility__pm-tenant-suite">109</span>
+								<span class="facility__pm-tenant-name">Warrios Slaughterhouse</span>
+								<span class="facility__pm-tenant-cost">$446.00</span>
+								<div class="facility__pm-tenant-action">
+									<a href="" class="facility__pm-tenant-action-enroll">Enroll<i></i></a>
+								</div>
+							</li>
+							<li class="facility__pm-tenant-item is-not-enrolled">
+								<span class="facility__pm-tenant-suite">110</span>
+								<span class="facility__pm-tenant-name">House of Klay</span>
+								<span class="facility__pm-tenant-cost">$446.00</span>
+								<div class="facility__pm-tenant-action">
+									<a href="" class="facility__pm-tenant-action-enroll">Enroll<i></i></a>
+								</div>
+							</li>
+							<li class="facility__pm-tenant-item is-not-enrolled">
+								<span class="facility__pm-tenant-suite">111</span>
+								<span class="facility__pm-tenant-name">Chef Curry</span>
+								<span class="facility__pm-tenant-cost">$446.00</span>
+								<div class="facility__pm-tenant-action">
+									<a href="" class="facility__pm-tenant-action-enroll">Enroll<i></i></a>
+								</div>
+							</li>
+						</ul>
+					</section>
+				</section>
+			</section>
+		</section>
+	</section>
+	<!-- End Content/Page View -->
+	<div class="account is-masked">
+	<nav class="account__subnav">
+		<ul class="account__subnav-buckets">
+			<li class="account__subnav-bucket is-active" data-account-tab-personal><a>Account</a></li>
+			<li class="account__subnav-bucket" data-account-tab-facilities><a>Portfolio</a></li>
+			<li class="account__subnav-bucket" data-account-tab-team><a>Team</a></li>
+			<li class="account__subnav-bucket" data-account-tab-alerts><a>Alerts</a></li>
+		</ul>
+	</nav>
+	<section class="account__settings">
+		<section class="account__half">
+			<section class="account__personal" data-personal-card>
+				<header class="account__personal-head">
+					<h1>Your Information</h1>
+				</header>
+				<section class="account__personal-body">
+					<form class="account__settings-form">
+						<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
+						<fieldset class="account__settings-fieldset">
+							<div class="account__settings-upload-text">
+								<legend>Profile Picture</legend>
+								<p>Many people use a real picture of themselves. This way, teammates can easily discern who was involed when viewing job activities</p>
+								<label class="account__settings-upload">
+									<input class="account__settings-upload-input" type="file">
+									<span>Upload Image</span>
+								</label>
+							</div>
+							<div class="account__settings-upload-preview">
+								<div>
+									<img class="account__settings-upload-preview-img" src=""/>
+								</div>
+							</div>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<div class="account__settings-fieldset-2col">
+								<label class="account__settings-label is-locked">First Name<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="John" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-2col">
+								<label class="account__settings-label is-locked">Last Name<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="Gorrie" disabled="disabled"><i></i>
+							</div>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Email<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="keepingitcool@bayfog.com" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Phone Number<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="keepingitcool@bayfog.com" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Work Address (Line 1)<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<label class="account__settings-label is-locked">Work Address (Line 2)<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+							<input type="text" class="account__settings-input" value="" disabled="disabled" data-field-error><i></i>
+						</fieldset>
+						<fieldset class="account__settings-fieldset">
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">City<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">State<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="" disabled="disabled"><i></i>
+							</div>
+							<div class="account__settings-fieldset-3col">
+								<label class="account__settings-label is-locked">Zip<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="" disabled="disabled"><i></i>
+							</div>
+						</fieldset>
+					</form>
+				</section>
+			</section>
+		</section>
+		<section class="account__half">
+			<section class="account__personal" data-personal-card>
+				<header class="account__personal-head">
+					<h1>Your Facilities</h1>
+				</header>
+				<section class="account__personal-body">
+					<form class="account__personal-facilities">
+						<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
+						<legend>Below is a list of properties you're subscribed to <i>(Click To Unsubscribe):</i></legend>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>234 Bush Gardens</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>1 Howard</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>145 Kearny</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>333 Maybry Lane A</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>333 Maybry Lane B</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane C</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane D</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane E</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>333 Maybry Lane F</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list"checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+						<label class="account__personal-facility">
+							<input type="checkbox" name="vendor-list" checked>
+							<span>3 Wade</span>
+						</label>
+					</form>
+				</section>
+			</section>
+		</section>
+		<section class="account__full is-masked">
+			<section class="account__team-auth is-masked" data-team-card>
+				<header class="account__team-auth-locked">
+					<h2>Permission Locked</h2>
+					<p>This section is designated for system admin's. If you feel you should have access to this capability, talk to your admin.</p>
+				</header>
+				<div>
+					<h1>Team Members &amp; Permissions</h1>
+					<p>All team members can perform facility-related actions and view corresponding information. Every equipment piece, service ticket, proposal scope, etc. for the facilities they've subscribed to view.</p>
+					<p>Admin's have the added capabilites to:</p>
+					<section class="account__team-auth-rules">
+						<ul>
+							<li>Invite new team members to join Ravti</li>
+							<li>Remove team members</li>
+							<li>Remove facilities</li>
+						</ul>
+					</section>
+					<h2>Team Members:</h2>
+				</div>
+				<section class="account__team-auth-list">
+					<article class="account__team-auth-member is-blank">
+						<div class="account__team-auth-add-cta">
+							<h3>Invite Another Team Member</h3>
+						</div>
+						<form class="account__team-auth-add is-masked">
+							<legend>Please enter the desired team member's information &mdash; we'll send them an email with an invitation to Ravti.</legend>
+							<fieldset>
+								<div>
+									<label>First Name</label>
+									<input type="text" name"add-teammate" autofocus>
+								</div>
+								<div>
+									<label>Last Name</label>
+									<input type="text" name"add-teammate">
+								</div>
+							</fieldset>
+							<fieldset>
+								<label>Email Address</label>
+								<input type="text" name"add-teammate">
+							</fieldset>
+							<div>
+								<input type="button" value="Cancel"><input type="button" value="Invite">
+							</div>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="http://cdn2.dropmark.com/72454/a49c0d4668c056e3cd49160673c140763d470243/crg.jpg" />
+						</div>
+						<h3>Chris Ginter (You)</h3>
+						<h4>crg@full-tilt.com</h4>
+						<form class="account__team-auth-role">
+							<label class="is-disabled" data-title="You can't demote yourself"><input type="checkbox" checked disabled><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate disabled>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="http://cdn2.dropmark.com/72454/9cffc392d7d0189cfc6529f7c8776fa1c96261c9/stuart.jpg" />
+						</div>
+						<h3>Stuart Griffiths</h3>
+						<h4>sbgriffi@gmail.com</h4>
+						<form class="account__team-auth-role">
+							<label data-title="Admin's can't be demoted"><input type="checkbox" checked><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="assets/dummy-avatar.svg" />
+						</div>
+						<h3>Vinny Mahalo</h3>
+						<h4>vinny@topgolf.com</h4>
+						<form class="account__team-auth-role">
+							<label><input type="checkbox"><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+					<article class="account__team-auth-member">
+						<div class="account__team-auth-member-avatar">
+							<img src="assets/dummy-avatar.svg" />
+						</div>
+						<h3>Gil Villenasor</h3>
+						<h4>gil@topgolf.com</h4>
+						<form class="account__team-auth-role">
+							<label><input type="checkbox"><span class="is-admin"><i>Make</i> Admin</span></label>
+						</form>
+						<form class="account__team-auth-delete">
+							<input type="button" value="Delete" data-delete-teammate>
+							<span class="is-masked">Are you sure?</span>
+							<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-teammate-confirm>
+							<input class="is-masked" type="button" value="Cancel" data-delete-teammate-cancel>
+						</form>
+					</article>
+				</section>
+			</section>
+			<section class="account__alerts is-masked" data-alerts-card>
+				<div>
+					<h1>Email Notifications</h1>
+					<p>Below is a list of system-wide activites we track. Decide which events would you like to receive e-mail notifications on.</p>
+				</div>
+				<section class="account__alerts-list">
+					<form class="account__alerts-form">
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-work-request">Work Requests</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">Work Request Inquiry is received</div>
+							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-proposals">Proposals &amp; Bids</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">An RFQ is sent in</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Get more bids requested</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">An RFQ bid is submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">All RFQ bids are submitted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">A proposal is accepted</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">A proposal is accepted</div>
+							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-jobs">Jobs</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">Is scheduled (by vendor)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Technician arrival / departure</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Service ticket &amp; diagnosis (Post Technician Visit)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Shipment Notification (when tracking # is submitted by vendor)</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Delivery Confirmation (Vendor, Conctact info, pickup #)</div>
+							</label>
+						</fieldset>
+						<fieldset class="account__alerts-fieldset">
+							<legend class="account__alerts-legend is-billing">Billing</legend>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request">
+								<div class="account__alerts-checkbox-text">New Invoice issued</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Payment received</div>
+							</label>
+							<label class="account__alerts-checkbox-label">
+								<input type="checkbox" class="account__alerts-checkbox-input" name="work request" checked>
+								<div class="account__alerts-checkbox-text">Monthly statement</div>
+							</label>
+						</fieldset>
+					</form>
+				</section>
+			</section>
+		</section>
+		<section class="account__aside is-masked">
+			<section class="account__index" data-faciltiy-card>
+				<header class="account__index-head">
+					<h1>Select a Facility:</h1>
+				</header>
+				<section class="account__index-body">
+					<div class="account__index-list">
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-2.jpg">
+							</div>
+							<h2 class="account__index-item-title">234 Bush Gardens Where the Knicks Play</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-2.jpg">
+							</div>
+							<h2 class="account__index-item-title">1 Howard</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">145 Keary</h2>
+						</a>
+						<a class="account__index-item is-selected">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-3.jpg">
+							</div>
+							<h2 class="account__index-item-title">333 Maybry Lane A</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-3.jpg">
+							</div>
+							<h2 class="account__index-item-title">333 Maybry Lane B</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-3.jpg">
+							</div>
+							<h2 class="account__index-item-title">333 Maybry Lane C</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-3.jpg">
+							</div>
+							<h2 class="account__index-item-title">333 Maybry Lane C</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
+						</a>
+						<a class="account__index-item">
+							<div class="account__index-thumbnail">
+								<img src="assets/facil-thumb-1.jpg">
+							</div>
+							<h2 class="account__index-item-title">898 Telegraph Hill</h2>
+						</a>
+					</div>
+				</section>
+			</section>
+		</section>
+		<section class="account__showcase is-masked">
+			<section class="account__facility-overview" data-faciltiy-card>
+				<div class="account__facility-overview-thumbnail">
+					<img src="assets/facil-6.jpg" />
+				</div>
+				<div class="account__facility-overview-title">
+					<h1><b>333 Maybry Lane A</b></h1>
+					<address>
+						<span><b>333 Maybry Lane</b></span>
+						<span><b>Doral, Florida 33122</b></span>
+					</address>
+				</div>
+			</section>
+			<section class="account__facility-info" data-faciltiy-card>
+				<section class="account__facility-settings">
+					<header class="account__facility-settings-head">
+						<h1>Invoice Address</h1>
+					</header>
+					<section class="account__facility-settings-body">
+						<form class="account__settings-form">
+							<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
+							<fieldset class="account__settings-fieldset">
+								<label class="account__settings-label is-locked">Street Address<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="333 Maybe Lane, Bldg A." disabled="disabled" data-field-error><i></i>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<div class="account__settings-fieldset-3col">
+									<label class="account__settings-label is-locked">City<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+									<input type="text" class="account__settings-input" value="Doral" disabled="disabled"><i></i>
+								</div>
+								<div class="account__settings-fieldset-3col">
+									<label class="account__settings-label is-locked">State<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+									<input type="text" class="account__settings-input" value="CA" disabled="disabled"><i></i>
+								</div>
+								<div class="account__settings-fieldset-3col">
+									<label class="account__settings-label is-locked">Zip<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+									<input type="text" class="account__settings-input" value="33122" disabled="disabled"><i></i>
+								</div>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<label class="account__settings-label is-locked">Invoice Contact<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="Jamie Dimon" disabled="disabled" data-field-error><i></i>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<label class="account__settings-label is-locked">Invoice Email<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="jamie@jpmorgan.com" disabled="disabled" data-field-error><i></i>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<legend>Electronic Invoicing?</legend>
+								<div class="account__settings-toggle">
+									<div>
+										<input type="checkbox"/>
+										<b class="switch"></b><b class="track"></b>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</section>
+					<header class="account__facility-settings-head">
+						<h1>Ownership</h1>
+					</header>
+					<section class="account__facility-settings-body">
+						<form class="account__settings-form">
+							<div class="form__feedback">
+	<i></i>
+	<h2>Whoops!</h2>
+	<p>__Fieldname__ can't be blank.</p>
+	<p>__Fieldname__ can't be blank.</p>
+</div>
+							<fieldset class="account__settings-fieldset">
+								<label class="account__settings-label is-locked">Name<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="Ballmer Ownership Group" disabled="disabled" data-field-error><i></i>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<label class="account__settings-label is-locked">Address<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+								<input type="text" class="account__settings-input" value="1 Microsoft Way" disabled="disabled" data-field-error><i></i>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<div class="account__settings-fieldset-3col">
+									<label class="account__settings-label is-locked">City<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+									<input type="text" class="account__settings-input" value="Seattle" disabled="disabled"><i></i>
+								</div>
+								<div class="account__settings-fieldset-3col">
+									<label class="account__settings-label is-locked">State<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+									<input type="text" class="account__settings-input" value="WA" disabled="disabled"><i></i>
+								</div>
+								<div class="account__settings-fieldset-3col">
+									<label class="account__settings-label is-locked">Zip<span class="account__settings-label-edit">Edit</span>
+<span class="account__settings-label-cancel is-masked">Cancel</span>
+<span class="account__settings-label-save is-masked">Save</span></label>
+									<input type="text" class="account__settings-input" value="83422-11" disabled="disabled"><i></i>
+								</div>
+							</fieldset>
+							<fieldset class="account__settings-fieldset">
+								<h2 class="account__settings-radio-label">Tenant Management Type</h2>
+								<label class="account__settings-radio">
+									<input type="radio" class="account__settings-radio-input" name="tenant">
+									<div class="account__settings-radio-text">
+										Full-Service
+									</div>
+								</label>
+								<label class="account__settings-radio">
+									<input type="radio" class="account__settings-radio-input" name="tenant">
+									<div class="account__settings-radio-text">
+										Tenant Responsible
+									</div>
+								</label>
+							</fieldset>
+						</form>
+					</section>
+				</section>
+				<section class="account__facility-vendors">
+					<header class="account__facility-vendors-head">
+						<h1>Preferred Vendors</h1>
+					</header>
+					<section class="account__facility-vendors-body">
+						<div class="account__facility-vendors-list">
+							<article class="account__facility-vendor">
+								<header class="account__facility-vendor-abstract is-mp">
+									<h2>Bayfog Mechanical</h2>
+									<h3>C.O.I.:<i class="is-filed"></i></h3><h3>Vendor Contract:<i  class="is-filed"></i></h3>
+									<i><span></span><span></span></i>
+								</header>
+								<footer class="account__facility-vendor-docs is-masked">
+									<form class="account__facility-vendor-doc-category">
+										<h3>Maintenance Provider</h3>
+										<fieldset>
+											<legend>They handle the preventative maintenance program?</legend>
+											<div>
+												<div>
+													<input type="checkbox" checked>
+													<b class="switch"></b><b class="track"></b>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<form class="account__facility-vendor-doc-category">
+										<h3>Certificate of Insurance</h3>
+										<fieldset>
+											<label>
+												<input type="file" >
+												<span class="is-uploading"><i></i>Uploading</span>
+											</label>
+										</fieldset>
+										<ul>
+											<li><span>Vendor_COI_June_2015.pdf</span></li>
+										</ul>
+									</form>
+									<form class="account__facility-vendor-doc-category">
+										<h3>Vendor Contracts</h3>
+										<fieldset>
+											<label>
+												<input type="file" >
+												<span>Upload</span>
+											</label>
+										</fieldset>
+										<ul>
+											<li><span>Vendor_Maintenance_August_2015.pdf</span></li>
+										</ul>
+									</form>
+									<form class="account__facility-vendor-delete">
+										<input type="button" value="Remove Vendor" data-delete-vendor disabled>
+										<span class="is-masked">Are you sure?</span>
+										<input class="is-masked" type="button" value="Yes, Remove Them" data-delete-vendor-confirm>
+										<input class="is-masked" type="button" value="Cancel" data-delete-vendor-cancel>
+									</form>
+								</footer>
+							</article>
+							<article class="account__facility-vendor is-default">
+								<div class="account__facility-vendor-cta">
+									<span>Option currently assigned by Ravti</span>
+									<span>+ Pick a preferred vendor</span>
+								</div>
+								<form class="account__facility-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Breeze Brothers</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Coolie Fly</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Fresh Flint Bell Air</span>
+									</label>
+									<div class="account__facility-vendor-set-controls">
+										<input class="account__facility-vendor-set-cancel" type="button" value="Cancel" ><input class="account__facility-vendor-set-save" type="button" value="Save &amp; Update" >
+									</div>
+								</form>
+							</article>
+							<article class="account__facility-vendor is-default">
+								<div class="account__facility-vendor-cta">
+									<span>Option currently assigned by Ravti</span>
+									<span>+ Pick a preferred vendor</span>
+								</div>
+								<form class="account__facility-vendor-set is-masked">
+									<legend>Pick as preferred:</legend>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Debon Air Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>AirScrong</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Bayfog Mechanical</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Breeze Brothers</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Coolie Fly</span>
+									</label>
+									<label class="account__facility-vendor-set-option">
+										<input type="radio" name="vendor-list">
+										<span>Fresh Flint Bell Air</span>
+									</label>
+									<div class="account__facility-vendor-set-controls">
+										<input class="account__facility-vendor-set-cancel" type="button" value="Cancel" ><input class="account__facility-vendor-set-save" type="button" value="Save &amp; Update" >
+									</div>
+								</form>
+							</article>
+							<footer class="account__facility-vendor-invite">
+								<h2>Vendor Not Listed? Click to invite them...</h2>
+								<form class="is-masked">
+									<legend>Please enter the desired vendor's information &mdash; we'll contact them regarding your request.</legend>
+									<fieldset>
+										<label>Company Name</label>
+										<input type="text" autofocus>
+									</fieldset>
+									<fieldset>
+										<div>
+											<label>Email</label>
+											<input type="text">
+										</div><div><label>Phone Number</label><input type="text"></div>
+									</fieldset>
+									<div class="account__facility-vendor-invite-controls">
+										<input type="button" value="Cancel" ><input type="button" value="Invite">
+									</div>
+								</form>
+							</footer>
+						</div>
+					</section>
+				</section>
+			</section>
+		</section>
+	</section>
+</div>
+<!-- <div class="toast-success is-masked">
+	<div>
+		<i></i>
+		<h1><b>Invitation Sent</b></h1>
+		<h2>Dismiss</h2>
+		<p>Your invitation will be arriving in their inbox shortly.</p>
+	</div>
+</div> -->
+<aside class="overlay__alert-wrapper is-masked">
+	<button class="overlay__dismiss"></button>
+	<section class="overlay__alert is-slid-out">
+		<h1 class="overlay__alert-title">Remove Preferred Vendor</h1>
+		<p class="overlay__alert-copy">Removing preference elimnates them from receiving priority on future work requests. Please confirm your decision below.</p>
+		<footer class="overlay__alert-controls">
+			<button class="overlay__alert-controls-encourage">Remove</button><br>
+			<button class="overlay__alert-controls-secondary">Nevermind</button>
+		</footer>
+	</section>
+</aside>
+<div class="toast is-masked">
+	<div>
+		<i></i>
+		<h1><b>Invitation Sent</b></h1>
+		<h2>Dismiss</h2>
+		<p>Your invitation will be arriving in their inbox shortly.</p>
+	</div>
+</div>
+	<aside class="overlay__inspections-wrapper is-masked">
+	<i class="overlay__inspections-dismiss"></i>
+	<section class="overlay__inspections">
+		<section class="overlay__inspections-aside">
+			<h1 class="overlay__equipment-header">Unit Information</h1>
+			<ul class="overlay__equipment-spec-list">
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Tag</span>
+					<span class="overlay__equipment-spec-value">RTU-4</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Facility</span>
+					<span class="overlay__equipment-spec-value">8200 Doral</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Suite #</span>
+					<span class="overlay__equipment-spec-value">106</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Tenant</span>
+					<span class="overlay__equipment-spec-value">Marcus Motes Mangia</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Type</span>
+					<span class="overlay__equipment-spec-value">Packaged Rooftop Unit</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Manufacturer</span>
+					<span class="overlay__equipment-spec-value">Carrier</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Tonnage</span>
+					<span class="overlay__equipment-spec-value">12.0</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">QR Code #</span>
+					<span class="overlay__equipment-spec-value">1194301984BR12</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Model #</span>
+					<span class="overlay__equipment-spec-value">4D44566FR</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Serial #</span>
+					<span class="overlay__equipment-spec-value">YR34VLS4V</span>
+				</li>
+				<li class="overlay__equipment-spec-item">
+					<span class="overlay__equipment-spec-key">Manufactured on</span>
+					<span class="overlay__equipment-spec-value">November 1985</span>
+				</li>
+			</ul>
+		</section>
+		<section class="overlay__inspections-showcase">
+			<h1 class="overlay__inspections-title">All Inspection Reports</h1>
+			<ul class="overlay__inspections-list">
+				<li><a href="http://bit.ly/1yXdEXm" class="overlay__inspections-item"><span class="facility__pm-equipment-inspection-date">10/4/14</span><span class="facility__pm-equipment-inspection-type">Annual Inspection</span></a></li>
+				<li><a href="http://bit.ly/1yXdEXm" class="overlay__inspections-item"><span class="facility__pm-equipment-inspection-date">6/4/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+				<li><a href="http://bit.ly/1yXdEXm" class="overlay__inspections-item"><span class="facility__pm-equipment-inspection-date">2/4/14</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+				<li><a href="http://bit.ly/1yXdEXm" class="overlay__inspections-item"><span class="facility__pm-equipment-inspection-date">10/4/13</span><span class="facility__pm-equipment-inspection-type">Running Inspection</span></a></li>
+				<li><a href="http://bit.ly/1yXdEXm" class="overlay__inspections-item"><span class="facility__pm-equipment-inspection-date">6/4/13</span><span class="facility__pm-equipment-inspection-type">Annual Inspection</span></a></li>
+			</ul>
+		</section>
+	</section>
+</aside>
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	    <script src="../js/app.js"></script>
+</body>
+</html>

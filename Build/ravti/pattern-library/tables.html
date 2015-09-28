@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favi-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favi-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favi-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favi-114.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favi-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="/assets/favi-57.png">
+<link rel="icon" href="/assets/favi-32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Ravti Pattern Library</title> 
+  <script src="//use.typekit.net/pti5qzj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<nav class="siteNav">
+		<a class='current-parent' href="index.html">
+<header class="siteNav__moniker">
+	<div class="siteNav__moniker-heading">
+		<h1 class="siteNav__moniker-title">Ravti</h1>
+		<h1 class="siteNav__moniker-title">Design Guidelines</h1>
+	</div>
+</header></a>
+		<ul class="siteNav__sidebar">
+			<a class='current-parent' href="index.html"><li class="siteNav__sidebar-chapter">About</li></a>
+			<a href="personas.html"><li class="siteNav__sidebar-chapter">Personas</li></a>
+			<a href="color.html"><li class="siteNav__sidebar-chapter">Colors</li></a>
+			<a href="typography.html"><li class="siteNav__sidebar-chapter">Typography</li></a>
+			<a href="form-elements.html"><li class="siteNav__sidebar-chapter">Form Elements</li></a>
+			<a class='current' href="tables.html"><li class="siteNav__sidebar-chapter selected">Tables</li></a>
+		</ul>
+	</nav>
+	<header class="mobileNav">
+		<div class="mobileNav__masthead">
+			<a class='current-parent' href="index.html"><h1 class="mobileNav__logo"></h1></a>
+			<a class="mobileNav__link"></a>
+		</div>
+		<nav class="mobileNav__menu">
+			<ul class="mobileNav__menu-list">
+				<li class='current-parent'><a href="index.html" class="current-parent mobileNav__menu-list-item">About</a></li>
+				<li><a href="personas.html" class="mobileNav__menu-list-item">Personas</a></li>
+				<li><a href="color.html" class="mobileNav__menu-list-item">Colors</a></li>
+				<li><a href="typography.html" class="mobileNav__menu-list-item">Typography</a></li>
+				<li><a href="form-elements.html" class="mobileNav__menu-list-item">Form Elements</a></li>
+				<li class='current'><a href="tables.html" class="current mobileNav__menu-list-item">Tables</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="main">
+		<main class="container">
+			<section class="library">
+				<section class="library__chapter">
+  <h2 class="library__chapter-title">Tables</h2>
+  <p class="library__chapter-purpose">It's quite clear tables play an important role in the RAVTI product. Lets create lay some consistency in terms of layout styling and expectations.</p>
+  <hr>
+  <section class="library__chapter-section">
+    <h3 class="library__chapter-section-title">Basic</h3>
+    <div class="table__example">
+      <table class="table__basic">
+        <thead class="table__basic-thead">
+          <tr>
+            <th class="table__basic-th">Date</th>
+            <th class="table__basic-th">Reference #</th>
+            <th class="table__basic-th">Account</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table__basic-tr">
+            <td class="table__basic-td">10/21/14</td>
+            <td class="table__basic-td">00001</td>
+            <td class="table__basic-td">$200.00</td>
+          </tr>
+          <tr class="table__basic-tr">
+            <td class="table__basic-td">10/20/14</td>
+            <td class="table__basic-td">00288</td>
+            <td class="table__basic-td">$289.00</td>
+          </tr>
+          <tr class="table__basic-tr">
+            <td class="table__basic-td">10/19/14</td>
+            <td class="table__basic-td">00003</td>
+            <td class="table__basic-td"><a class="table__basic-link" href="">$124.00</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <aside class="library__notes">
+    <span class="library__notes-dogear">Notes</span>
+    <p class="library__notes-brief">Basic tables are minimal. They come with emphasized border-bottoms on the <code>&lt;thead&gt;</code> and <code>&lt;tr&gt;</code> element. To call a basic 3 column table (what's used in this example) give the <code>&lt;table&gt;</code> a <code>@extend %full-table-across</code>. Then apply <code>@extend %col-3</code> on the <code>&lt;th&gt;</code> and <code>&lt;tr&gt;</code> elements.</p>
+  </aside>
+  <hr>
+  <section class="library__chapter-section">
+    <h3 class="library__chapter-section-title">Stripes &amp; Labels</h3>
+    <div class="table__example">
+      <table class="table__striped">
+        <thead class="table__striped-thead">
+          <tr>
+            <th class="table__striped-th">Date</th>
+            <th class="table__striped-th">Reference #</th>
+            <th class="table__striped-th">Account</th>
+            <th class="table__striped-th">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table__striped-tr">
+            <td class="table__striped-td">10/21/14</td>
+            <td class="table__striped-td">00001</td>
+            <td class="table__striped-td">$200.00</td>
+            <td class="table__striped-td"><span class="table__label-success">accepted</span></td>
+          </tr>
+          <tr class="table__striped-tr">
+            <td class="table__striped-td">10/20/14</td>
+            <td class="table__striped-td">00002888888888888888</td>
+            <td class="table__striped-td">$289.00</td>
+            <td class="table__striped-td"><span class="table__label-warning">processing</span></td>
+          </tr>
+          <tr class="table__striped-tr">
+            <td class="table__striped-td">10/19/14</td>
+            <td class="table__striped-td">00003</td>
+            <td class="table__striped-td">$124.00</td>
+            <td class="table__striped-td"><span class="table__label-alert">unpaid</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <aside class="library__notes">
+    <span class="library__notes-dogear">Notes</span>
+    <p class="library__notes-brief">Striped tables simply extend off the basic layout. To execute table stripes, <code>@extend %striped-tr;</code>, which will render an <code>background-color: $off-white;</code>  on <code>&amp;:nth-child(odd)</code> <code>&lt;tr&gt;</code> elements.</p>
+  </aside>
+  <hr>
+  <section class="library__chapter-section">
+    <h3 class="library__chapter-section-title">Hovered</h3>
+    <div class="table__example">
+      <table class="table__hover">
+        <thead class="table__hover-thead">
+          <tr>
+            <th class="table__hover-th">Date</th>
+            <th class="table__hover-th">Reference #</th>
+            <th class="table__hover-th">Account</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table__hover-tr">
+            <td class="table__hover-td">10/21/14</td>
+            <td class="table__hover-td">00001</td>
+            <td class="table__hover-td">$200.00</td>
+          </tr>
+          <tr class="table__hover-tr">
+            <td class="table__hover-td">10/20/14</td>
+            <td class="table__hover-td">00002888888888888888</td>
+            <td class="table__hover-td">$289.00</td>
+          </tr>
+          <tr class="table__hover-tr">
+            <td class="table__hover-td">10/19/14</td>
+            <td class="table__hover-td">00003</td>
+            <td class="table__hover-td">$124.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <aside class="library__notes">
+    <span class="library__notes-dogear">Notes</span>
+    <p class="library__notes-brief">More tables to be more user friendly to trace eye scanning via mouse hover, use <code>@extend %hover-tr;</code>. This will give table rows a <code>background color: $off-white;</code> and a <code>border-left: 2px solid $teal;</code>.</p>
+  </aside>
+</section>
+			</section>
+		</main>
+	</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="js/app.js"></script>
+</body>
+</html>

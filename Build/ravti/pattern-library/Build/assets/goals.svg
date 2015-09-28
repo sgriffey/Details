@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>goals</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="goals" sketch:type="MSArtboardGroup" fill="#6FC99B">
+            <polygon id="Star-11" sketch:type="MSShapeGroup" points="9.5 6.25 7.44275162 7.33155948 7.8356511 5.04077974 6.17130219 3.41844052 8.47137581 3.08422026 9.5 1 10.5286242 3.08422026 12.8286978 3.41844052 11.1643489 5.04077974 11.5572484 7.33155948 "></polygon>
+            <g id="Rectangle-1699-+-Rectangle-1699-Copy-+-Rectangle-1699-Copy-2" sketch:type="MSLayerGroup" transform="translate(4.707107, 9.792893) rotate(-45.000000) translate(-4.707107, -9.792893) translate(0.707107, 7.292893)">
+                <rect id="Rectangle-1699" sketch:type="MSShapeGroup" x="2" y="1.95399252e-14" width="6" height="1"></rect>
+                <rect id="Rectangle-1699-Copy" sketch:type="MSShapeGroup" x="5.5067062e-14" y="2" width="7" height="1"></rect>
+                <rect id="Rectangle-1699-Copy-2" sketch:type="MSShapeGroup" x="4" y="4" width="4" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

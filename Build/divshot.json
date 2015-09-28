@@ -1,0 +1,6 @@
+{
+  "name": "details",
+  "root": "Build",
+  "clean_urls": true,
+  "error_page": "error.html"
+}

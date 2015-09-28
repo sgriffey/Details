@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="31px" viewBox="0 0 36 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>accept copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="accept-copy" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-134" stroke="#54545A" stroke-width="2" sketch:type="MSShapeGroup" x="2" y="2" width="32" height="22"></rect>
+            <rect id="Rectangle-134-Copy" stroke="#E3E5EA" stroke-width="2" sketch:type="MSShapeGroup" x="4" y="4" width="28" height="18"></rect>
+            <path d="M2,2 L18,14 L34,2 L2,2 Z" id="Rectangle-135" stroke="#54545A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M4.8,6.60000001 L18,16.5 L31.7,6.2" id="Rectangle-135-Copy" stroke="#E3E5EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-273" stroke="#FFFFFF" fill="#89D2AC" sketch:type="MSShapeGroup" cx="18" cy="24" r="6"></circle>
+            <path d="M16.7587568,25.308758 L16.7587568,26.808758 L19.7587568,26.808758 L19.7587568,25.308758 L16.7587568,25.308758 L16.7587568,25.308758 Z M19.7587568,20.308758 L18.2587568,20.308758 L18.2587568,25.308758 L19.7587568,25.308758 L19.7587568,20.308758 L19.7587568,20.308758 Z" id="Rectangle-136" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(18.258757, 23.558758) rotate(-315.000000) translate(-18.258757, -23.558758) "></path>
+        </g>
+    </g>
+</svg>

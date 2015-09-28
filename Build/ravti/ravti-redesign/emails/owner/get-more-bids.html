@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Tech Onsite</title>
+        <style type="text/css">
+  /* CLIENT-SPECIFIC STYLES */
+  body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+  table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+  img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+  /* RESET STYLES */
+  body{margin:0; padding:0;}
+  img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+  table{border-collapse:collapse !important;}
+  body {height:100% !important; margin:0; padding:0; width:100% !important;}
+  /* TEMPLATE STYLES */
+  /* ========== Page Styles ========== */
+  .templateContainer{width: 100%; max-width:600px; margin: 0 auto;}
+  /**
+  * @tab Page
+  * @section background style
+  * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+  * @theme page
+  */
+  body {
+    background-color: #fafafb;
+  }
+  /**
+  * @tab Page
+  * @section background style
+  * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+  * @theme page
+  */
+
+  .templateWrapper {
+    padding: 20px 0 30px;
+    height: 100%;
+  }
+  /**
+  * @tab Page
+  * @section email border
+  * @tip Set the border for your email.
+  */
+  .templateContainer{
+   border:1px solid #E3E5EA;
+  }
+
+  h1{
+   color:#202020 !important;
+    display:block;
+   font-family:Helvetica, Arial, Verdana, Trebuchet MS;
+   font-size:26px;
+   font-style:normal;
+   font-weight:bold;
+   line-height:100%;
+   letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+   text-align:left;
+  }
+
+  h2{
+   color:#404040 !important;
+    display:block;
+   font-family:Helvetica, Arial, Verdana, Trebuchet MS;
+   font-size:20px;
+   font-style:normal;
+   font-weight:bold;
+   line-height:1.4;
+   letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+   text-align:left;
+  }
+
+  h3{
+   color:#606060 !important;
+    display:block;
+   font-family:Helvetica, Arial, Verdana, Trebuchet MS;
+   font-size:16px;
+   font-style:italic;
+   font-weight:normal;
+   line-height:100%;
+   letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+   text-align:left;
+  }
+
+  h4{
+   color:#808080 !important;
+    display:block;
+   font-family:Helvetica, Arial, Verdana, Trebuchet MS;
+   font-size:14px;
+   font-weight:bold;
+   line-height:100%;
+   letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+   text-align:left;
+  }
+
+  /* ========== Body Styles ========== */
+
+  .templateBody{
+   background-color:#fff;
+   border-top:1px solid #FFFFFF;
+   border-bottom:1px solid #E3E5EA;
+  }
+
+  .headerContent,
+  .bodyContent{
+    color:#505050;
+    font-family:Helvetica, Arial, Verdana, Trebuchet MS;
+    font-size:14px;
+    line-height:150%;
+    padding: 20px;
+    text-align:left;
+  }
+
+  .bodyContent {
+    padding: 0 20px 30px;
+  }
+
+  .bodyContent p,
+  time {
+    color: #202020;
+  }
+
+  .bodyContent img{
+    display:inline;
+    height:auto;
+    max-width:560px;
+  }
+
+  /* ========== Text Styles ========== */
+  p {
+    margin: 1em 0 0;
+  }
+
+  p a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px solid #808080;
+  }
+
+  p + h3 {
+    margin-top: 20px;
+  }
+
+  .textHighlight {
+    background-color: #E1F4EA;
+    color: #202020;
+    padding: 4px;
+  }
+
+  .textBlockLabel,
+  .cashBlockLabel {
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid #A6DDC1;
+    border-radius: 2px 2px 0 0;
+    border-bottom: 0;
+    padding: 0 8px;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #404040;
+    margin-top: 2em;
+  }
+
+  .cashBlockLabel {
+    border-color: #C4E9E1;
+  }
+
+  .cashBlock,
+  .textBlock {
+    margin-top: 0;
+    background-color: white;
+    border: 1px solid #A6DDC1;
+    color: #202020;
+    padding: 16px;
+    text-align: center;
+    font-family: 'georgia', serif;
+  }
+
+  .cashBlock {
+    border-color: #C4E9E1;
+    background-color: #E1F4F0;
+  }
+
+  .cashTotal {
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #404040;
+    font-family: 'Helvetica', sans-serif;
+  }
+
+  .textBlockChunk {
+    display: block;
+    text-align: left;
+    padding: 8px 0;
+    border-bottom: 1px dotted #A6DDC1;
+  }
+
+  .textBlockChunk:first-letter {
+    text-transform: uppercase;
+  }
+
+  .textBlockChunk:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+  }
+
+  .textBlockChunk:last-child {
+    border-bottom: 1px dotted transparent;
+  }
+
+  .textBlock:first-letter {
+    text-transform: uppercase;
+  }
+
+  .digestDate {
+    color: #606060;
+  }
+
+  .digestGrid {
+    width: 100%;
+    margin: -20px 0 40px;
+  }
+
+  .digestCell {
+    padding-top: 40px;
+  }
+
+  .digestCategory {
+    padding: 4px 8px;
+    margin: 0;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
+    background: #A6DDC1;
+  }
+
+  .digestTally {
+    display: block;
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 1;
+    padding-left: 4px;
+  }
+
+  .ctaButton {
+    margin: 20px auto;
+    background: #6FC99B;
+    color: #000;
+    padding: 12px;
+    border: 2px solid #3EA36F;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* ========== Footer Styles ========== */
+  .templateFooter{
+   background-color:#fff;
+  }
+  .footerContent{
+   color:#808080;
+   font-family:Helvetica, Arial, Verdana, Trebuchet MS;
+   font-size:10px;
+   line-height:150%;
+   padding: 20px;
+   text-align:left;
+  }
+
+  .footerContent p:first-child {
+    margin-top: 0;
+  }
+
+  /* MOBILE STYLES */
+  @media only screen and (max-width: 480px){
+    /* CLIENT-SPECIFIC MOBILE STYLES */
+    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+    body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+    /* MOBILE RESET STYLES */
+    .bodyCell{padding:10px !important;}
+
+    /* MOBILE TEMPLATE STYLES */
+    /* ======== Page Styles ======== */
+    .templateContainer{
+      max-width:600px !important;
+     width:100% !important;
+    }
+    h1{
+     font-size:24px !important;
+     line-height:100% !important;
+    }
+    h2{
+     font-size:20px !important;
+     line-height:120% !important;
+    }
+    h3{
+     font-size:18px !important;
+     line-height:100% !important;
+    }
+    h4{
+     font-size:16px !important;
+     line-height:100% !important;
+    }
+
+    p {
+      font-size:12px;
+      line-height:1.4;
+    }
+
+    .bodyContent{
+     font-size:18px !important;
+     line-height:125% !important;
+    }
+
+    .ctaButton {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .textBlockLabel {
+      font-size: 8px;
+      padding: 4px 8px;
+    }
+
+    .textBlock {
+      font-size: 14px;
+    }
+
+    .cashTotal {
+      font-size: 36px;
+    }
+
+    .digestTally {
+      font-size: 48px;
+    }
+
+    .footerContent{
+     font-size:10px !important;
+     line-height:1.2 !important;
+    }
+
+    .footerContent a{display:inline-block !important;}
+    .footerContent b{font-weight: bold;};
+  }
+</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="background: #edeff0">
+    	<header style="width: 100%; max-width: 600px; margin: 0 auto; padding-top: 20px;">
+    		<h2 style="font-size: 14px;">From: stiles@ravti.com</h2>
+    		<h2 style="font-size: 14px;">Subject: Get More Bids Request Received: Facility Name, Suite(Tenant) - Job Type - JobID</h2>
+    	</header>
+    	<!-- Where email.html.erb is injected -->
+    	<div style="background:#edeff0;" class="templateWrapper">
+	  	<table cellpadding="0" cellspacing="0" class="templateContainer">
+		  	<tr>
+		    	<td align="center" valign="top">
+		      	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateBody">
+		        <tr>
+		          <!-- Branded LetterHead -->
+		          <td valign="top" class="headerContent">
+		            <img style="max-height:35px; max-width: 70px;" src="http://cdn2.dropmark.com/72454/324a34e5b28a5ce64e329a256a6850c365d00339/vendor-email-logo.png" />
+		          </td>
+		        </tr>
+		        <tr>
+		        	<td valign="top" class="bodyContent">
+		        		<p><span class="textHighlight">Preferred Vendor 2</span> and <span class="textHighlight">Preferred Vendor 2</span> have been requested to provide additional bids for:</p>
+						<p class="textBlockLabel">Job Summary</p>
+						<p class="textBlock">
+							<span class="textBlockChunk">Facility Name: </span>
+							<span class="textBlockChunk">Suite(Tenant): </span>
+							<span class="textBlockChunk">Job Type: </span>
+							<span class="textBlockChunk">Job ID:</span>
+						</p>
+						<p>All bids are due: <span class="textHighlight">Date + Time</span></p>
+						<p><a class="ctaButton">Click here to view job status</a></p>
+		          	</td>
+		        </tr>
+		      	</table>
+		      	<!-- END BODY -->
+		   		</td>
+		  	</tr>
+		  	<tr>
+		    	<td align="center" valign="top">
+		      	<!-- BEGIN FOOTER -->
+		      	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateFooter">
+		        	<tr>
+		          		<td valign="top" class="footerContent">
+		            	<p><b>Our mailing address is:</b><br>Ravti, PO BOX 1595, Sharpsburg, GA, 30277, USA.</p>
+		            	<p>Need help? Please send any questions, feedback, or issues to <a href="mailto:support@ravti.com">support@ravti.com </a> or call (866) 202-2539. Thank You.</p>
+		          		</td>
+		        	</tr>
+		      	</table>
+		      	<!-- END FOOTER -->
+		    	</td>
+		  	</tr>
+		</table>
+	</div>
+	<!-- END of email.html.erb template -->
+    </body>
+</html>
